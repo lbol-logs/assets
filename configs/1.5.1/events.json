@@ -2,7 +2,8 @@
   "Debut": {
     "money": 100,
     "red": 200,
-    "blue": 20
+    "blue": 20,
+    "exhibits": ["LongjingYu", "FoyushiBo", "HuoshuPiyi", "YanZianbei", "PenglaiYuzhi"]
   },
   "Select": {
     "power": 30
