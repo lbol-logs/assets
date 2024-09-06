@@ -297,5 +297,18 @@
     "line:0d8209a": "\"Assist me in becoming the President of Gensokyo and we can restore honor to the Spell Card Rules and Make Gensokyo Great Again!\"",
     "line:0e57c87": "[Donate] Lose {{0}} <Money />, gain Exhibit: <h>{{1}}</h>.",
     "line:0e3018e": "[Refuse] Nothing happens."
+  },
+  "SatoriCounseling": {
+    "line:0595176": "\"Please lie down and tell me about your condition.\"",
+    "line:0f753ad": "[Talk Therapy] Pay {{0}} <Money />, select one of the three upgraded Uncommon cards to get.",
+    "line:02f3a36": "[Invalid] Insufficient <Money />.",
+    "line:04fdd25": "[Suggestion Therapy] Choose one of twenty Uncommon or Common cards to add to the library.",
+    "line:0dd3ef4": "[Hypnotherapy] Restore {{0}} life.",
+    "line:0e5474b": "\"That will depend on the test. Have you felt invincible lately?\"",
+    "line:0006a4e": "Yes (Wish to gain {{0}}'s exclusive cards).",
+    "line:0d5424a": "No (Wish to gain neutral cards or exclusive cards of other characters).",
+    "line:096a8a5": "\"Do you prefer fighting stylishly to fighting efficiently?\"",
+    "line:09916e8": "Yes (Wish to gain <h>Multicolor</h> cards).",
+    "line:0a0f2c8": "No (Wish to gain <h>Monocolor</h> cards)."
   }
 }

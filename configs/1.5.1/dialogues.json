@@ -472,5 +472,30 @@
       "0": "line:0e57c87",
       "1": "line:0e3018e"
     }
-  }
+  },
+  "SatoriCounseling": [
+    {
+      "current": "line:0595176",
+      "next": {
+        "0": "line:0f753ad",
+        "0_invalid": "line:02f3a36",
+        "1": "line:04fdd25",
+        "2": "line:0dd3ef4"
+      }
+    },
+    {
+      "current": "line:0e5474b",
+      "next": {
+        "0": "line:0006a4e",
+        "1": "line:0d5424a"
+      }
+    },
+    {
+      "current": "line:096a8a5",
+      "next": {
+        "0": "line:09916e8",
+        "1": "line:0a0f2c8"
+      }
+    }
+  ]
 }
