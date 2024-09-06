@@ -287,5 +287,10 @@
     "line:08238a7": "\"Ah, in a hurry I see.\"",
     "line:091e5ec": "\"Exhibits from the exposition?! Never thought that would be in the doors...\"",
     "line:0a37d54": "\"Looking to obtain new abilities? Let's see how the door guides you.\""
+  },
+  "MedicinePoison": {
+    "line:05cbfe0": "\"Lily? (I think she's talking about these lilies-of-the-valley.)\"",
+    "line:0bf4fe7": "[Accept] Increase maximum life by {{0}}, restore all life, gain Misfortune: <h>{{1}}</h>.",
+    "line:05cf379": "[Refuse] Lose {{0}} life, gain <h>{{1}}</h>."
   }
 }

@@ -458,5 +458,12 @@
       "4": "line:091e5ec",
       "5": "line:0a37d54"
     }
-  ]
+  ],
+  "MedicinePoison": {
+    "current": "line:05cbfe0",
+    "next": {
+      "0": "line:0bf4fe7",
+      "1": "line:05cf379"
+    }
+  }
 }

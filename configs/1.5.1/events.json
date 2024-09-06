@@ -118,5 +118,9 @@
     "money": 100,
     "power": 30,
     "maxhp": 4
+  },
+  "MedicinePoison": {
+    "misfortune": "SweetPoison",
+    "card": "LilyoftheValley"
   }
 }
