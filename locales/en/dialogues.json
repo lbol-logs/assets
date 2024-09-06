@@ -305,7 +305,7 @@
     "line:04fdd25": "[Suggestion Therapy] Choose one of twenty Uncommon or Common cards to add to the library.",
     "line:0dd3ef4": "[Hypnotherapy] Restore {{0}} life.",
     "line:0e5474b": "\"That will depend on the test. Have you felt invincible lately?\"",
-    "line:0006a4e": "Yes (Wish to gain <Player />'s exclusive cards).",
+    "line:0006a4e": "Yes (Wish to gain {{0}}'s exclusive cards).",
     "line:0d5424a": "No (Wish to gain neutral cards or exclusive cards of other characters).",
     "line:096a8a5": "\"Do you prefer fighting stylishly to fighting efficiently?\"",
     "line:09916e8": "Yes (Wish to gain <h>Multicolor</h> cards).",
