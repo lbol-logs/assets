@@ -126,5 +126,8 @@
   "MikoDonation": {
     "money": 200,
     "exhibit": "JuanzengZhengming"
+  },
+  "BuduSuanming": {
+    "money": 30
   }
 }

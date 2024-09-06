@@ -310,5 +310,15 @@
     "line:096a8a5": "\"Do you prefer fighting stylishly to fighting efficiently?\"",
     "line:09916e8": "Yes (Wish to gain <h>Multicolor</h> cards).",
     "line:0a0f2c8": "No (Wish to gain <h>Monocolor</h> cards)."
+  },
+  "BuduSuanming": {
+    "line:0b3de88": "\"I can help divine your ultimate foe, or what destiny may befall you next.\"",
+    "line:07cdbe4": "[Fortune Telling] Pay {{0}} <Money />. Reveal the Boss of the third Act.",
+    "line:0152f90": "[Dream Interpretation] Pay {{0}} <Money />. Reveal the first Friend Event in the third Act.",
+    "line:09db3f2": "[Face Observation] Pay {{0}} <Money />. Reveal the first item of the True Final Boss.",
+    "line:028834f": "[Leave] Nothing happens.",
+    "line:0b5f8ae": "\"You'll be fighting {{0}}.\"",
+    "line:0607cc8": "\"You'll meet {{0}}.\"",
+    "line:02c2c1f": "\"Her first item is {{0}}.\""
   }
 }
