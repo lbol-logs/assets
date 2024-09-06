@@ -292,5 +292,10 @@
     "line:05cbfe0": "\"Lily? (I think she's talking about these lilies-of-the-valley.)\"",
     "line:0bf4fe7": "[Accept] Increase maximum life by {{0}}, restore all life, gain Misfortune: <h>{{1}}</h>.",
     "line:05cf379": "[Refuse] Lose {{0}} life, gain <h>{{1}}</h>."
+  },
+  "MikoDonation": {
+    "line:0d8209a": "\"Assist me in becoming the President of Gensokyo and we can restore honor to the Spell Card Rules and Make Gensokyo Great Again!\"",
+    "line:0e57c87": "[Donate] Lose {{0}} <Money />, gain Exhibit: <h>{{1}}</h>.",
+    "line:0e3018e": "[Refuse] Nothing happens."
   }
 }

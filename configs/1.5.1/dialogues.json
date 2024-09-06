@@ -465,5 +465,12 @@
       "0": "line:0bf4fe7",
       "1": "line:05cf379"
     }
+  },
+  "MikoDonation": {
+    "current": "line:0d8209a",
+    "next": {
+      "0": "line:0e57c87",
+      "1": "line:0e3018e"
+    }
   }
 }

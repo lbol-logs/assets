@@ -122,5 +122,9 @@
   "MedicinePoison": {
     "misfortune": "SweetPoison",
     "card": "LilyoftheValley"
+  },
+  "MikoDonation": {
+    "money": 200,
+    "exhibit": "JuanzengZhengming"
   }
 }
