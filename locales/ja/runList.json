@@ -4,7 +4,7 @@
     "found": "<strong>{{count}}</strong> 件",
     "total": "<strong>{{count}}</strong> 件"
   },
-  "remark": "(1時間ごとに更新)",
+  "remark": "(毎時30分頃更新)",
   "character": "キャラクター",
   "spellcard": "スペルカード",
   "shining": "光耀展示品",
