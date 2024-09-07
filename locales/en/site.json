@@ -29,10 +29,8 @@
   "runLogs": {
     "update": "Update plan",
     "tasks": [
-      "Log upload",
-      "Auto reflect uploaded logs to top page list",
       "Support Traditional & Simplified Chinese",
-      "Adjust UI of levels",
+      "Improve UI & UX",
       "Image of Vengeful Spirits, Menreikis and Spirit of Wealth/Elegance"
     ]
   },
