@@ -44,5 +44,6 @@
       "Although validation is performed before uploading, no responsibility will be accepted for user accidentially uploading private information."
     ]
   },
-  "upload": "Upload"
+  "upload": "Upload",
+  "file": "Drag 'n' drop file here, or click to select file"
 }
