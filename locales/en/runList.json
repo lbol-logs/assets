@@ -6,7 +6,7 @@
     "total": "<strong>{{count}}</strong> record",
     "total_other": "<strong>{{count}}</strong> records"
   },
-  "remark": "(Updated half past every hour)",
+  "remark": "(Updated every 10 minutes)",
   "character": "Character",
   "spellcard": "Spell Card",
   "shining": "Shining Exhibit",
