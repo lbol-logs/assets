@@ -15,6 +15,9 @@
   "exhibitsCount_other": "Exhibits: {{count}}",
   "ShowRandomResult_true": "Reveal Fate",
   "ShowRandomResult_false": "Unknown Fate",
+  "IsAutoSeed_true": "Random Seed",
+  "IsAutoSeed_false": "Specified Seed",
+  "ReloadTimes": "Restarts: {{count}}",
   "stations": {
     "Visited": "Visited",
 		"Enemy": "Enemy",

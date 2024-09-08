@@ -13,6 +13,9 @@
   "exhibitsCount": "展示品数：{{count}}",
   "ShowRandomResult_true": "運命を知る",
   "ShowRandomResult_false": "運命に従う",
+  "IsAutoSeed_true": "シード値未設定",
+  "IsAutoSeed_false": "シード値設定",
+  "ReloadTimes": "時戻しの回数：{{count}}",
   "stations": {
     "Visited": "既訪",
 		"Enemy": "敵",
