@@ -43,5 +43,12 @@
     ]
   },
   "upload": "Upload",
-  "file": "Drag 'n' drop file here, or click to select file"
+  "file": "Drag 'n' drop file here, or click to select file",
+  "errors": {
+    "invalidFile": "Invalid file",
+    "invalidVersion": "{{version}} is invalid version",
+    "alreadyExist": "<log>Already exist</log>",
+    "unknownError": "Uknown error"
+  },
+  "success": "<log>Uploaded</log>"
 }
