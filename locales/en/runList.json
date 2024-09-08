@@ -1,4 +1,5 @@
 {
+  "filter": "Filter",
   "results": {
     "format": "<found /> found out of <total />",
     "found": "<strong>{{count}}</strong> result is",
@@ -7,6 +8,7 @@
     "total_other": "<strong>{{count}}</strong> records"
   },
   "remark": "(Updated every 10 minutes)",
+  "name": "名前",
   "character": "Character",
   "spellcard": "Spell Card",
   "shining": "Shining Exhibit",
