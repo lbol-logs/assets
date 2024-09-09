@@ -1,5 +1,4 @@
 {
-  "version": "Version",
   "loading": "Loading...",
   "processing": "Processing...",
   "card": "Card",
@@ -10,7 +9,8 @@
     "W": "W",
     "U": "U",
     "B": "B",
-    "R": "G",
+    "R": "R",
+    "G": "G",
     "C": "C",
     "P": "P",
     "A": "?"
