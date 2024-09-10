@@ -10,7 +10,7 @@
     "step1": "<r2modman>r2modman</r2modman> を Manual Download し、インストール",
     "step2": "<mod>LBoL Run Logger</mod> を Install with Mod Manager",
     "step3": "通常通りゲームをプレイ",
-    "step4": "ゲームのフォルダ内の runLogger フォルダを履歴データファイルを見つける",
+    "step4": "ゲームフォルダ内の runLogger フォルダから履歴データファイルを見つける",
     "step5": "<upload>アップロード</upload> ページから履歴データを共有",
     "features": [
       "キャラ情報",
