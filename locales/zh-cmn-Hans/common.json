@@ -15,32 +15,32 @@
   },
   "spellcards": {
     "ReimuA": "灵符「梦想封印」",
-    "ReimuB": "神技「八方鬼縛陣」",
-    "MarisaA": "閉符「ビッグクランチ」",
-    "MarisaB": "恋符「マスタースパーク」",
-    "SakuyaA": "幻符「殺人ドール」",
-    "SakuyaB": "幻世「ザ・ワールド」",
-    "CirnoA": "凍符「パーフェクトフリーズ」",
-    "CirnoB": "花符「クリスタル・ブロサムズ」"
+    "ReimuB": "神技「八方鬼缚阵」",
+    "MarisaA": "黑魔「真空坍缩」",
+    "MarisaB": "恋符「极限火花」",
+    "SakuyaA": "幻符「杀人玩偶」",
+    "SakuyaB": "幻世「The World」",
+    "CirnoA": "冻符「完美冻结」",
+    "CirnoB": "花符「冰晶绽放」"
   },
   "requests": {
-    "HalfDrug": "薬剤耐性",
-    "LowMaxHp": "死中に活",
-    "StartMisfortune": "歓迎されず",
-    "LowStageRegen": "補給不足",
-    "LowUpgradeRate": "物価高騰",
-    "PayForUpgrade": "フィットネス費用",
-    "NightMana": "永き夜の疲れ"
+    "HalfDrug": "抗药性",
+    "LowMaxHp": "向死而生",
+    "StartMisfortune": "不受欢迎",
+    "LowStageRegen": "补给不足",
+    "LowUpgradeRate": "通货膨胀",
+    "PayForUpgrade": "健身房开始收费",
+    "NightMana": "长夜的疲惫"
   },
   "difficulties": {
-    "Easy": "Easy",
-    "Normal": "Normal",
-    "Hard": "Hard",
-    "Lunatic": "Lunatic"
+    "Easy": "简单",
+    "Normal": "普通",
+    "Hard": "困难",
+    "Lunatic": "疯狂"
   },
   "results": {
-    "Failure": "満身創痍",
-    "Normal": "異変解決",
-    "TrueEnd": "事件は完全に解決した"
+    "Failure": "满身疮痍",
+    "Normal": "异变解决",
+    "TrueEnd": "完美解决了事件"
   }
 }
