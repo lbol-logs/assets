@@ -38,7 +38,7 @@
       }
     }
   ],
-  "Select": {
+  "SelectOpponent": {
     "current": "line:005887b",
     "next": {
       "0": "line:07e66de",
