@@ -6,9 +6,15 @@
     "skip": "最後の章まで移動",
     "map": "地図"
   },
-  "act": "第{{act}}章",
-  "act_4": "最終章",
-  "level": "レベル{{level}}",
+  "rarities": {
+    "Common": "コモン",
+    "Uncommon": "アンコモン",
+    "Rare": "レア",
+    "Shining": "光耀",
+    "Mythic": "秘宝",
+    "Misfortune": "厄災"
+  },
+  "delimiter": "：",
   "cardsCount": "カード枚数：{{count}}",
   "exhibitsCount": "展示品数：{{count}}",
   "ShowRandomResult_true": "運命を知る",
@@ -16,6 +22,9 @@
   "IsAutoSeed_true": "シード値未設定",
   "IsAutoSeed_false": "シード値設定",
   "ReloadTimes": "時戻しの回数：{{count}}",
+  "act": "第{{act}}章",
+  "act_4": "最終章",
+  "level": "レベル{{level}}",
   "stations": {
     "Visited": "既訪",
 		"Enemy": "敵",
