@@ -201,8 +201,8 @@
   },
   "RemiliaMeet": {
     "line:0c6dafc": "\"If you beg for it, I'm more than happy to lend you a hand~\"",
-    "line:0b0f1b1": "[Seek Help] Replace Basic attack cards with <h>Devil's Attack</h>, gain Misfortune: <h>{{2}}</h>.",
-    "line:0aa0a2f": "[Deal] Replace Basic attack cards with <h>Devil's Attack</h>, lose <h>{{2}}</h>.",
+    "line:0b0f1b1": "[Seek Help] Replace Basic attack cards with <h>Devil's Attack</h>, gain Misfortune: <h>{{0}}</h>.",
+    "line:0aa0a2f": "[Deal] Replace Basic attack cards with <h>Devil's Attack</h>, lose <h>{{0}}</h>.",
     "line:0855034": "[Invalid] Requires <h>{{0}}</h>.",
     "line:014dfb8": "[Leave] Nothing happens."
   },
