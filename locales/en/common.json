@@ -43,6 +43,8 @@
   "results": {
     "Failure": "Failure",
     "Normal": "Incident Resolved",
-    "TrueEnd": "Perfect Incident Resolution"
+    "TrueEnd": "Perfect Incident Resolution",
+    "Normal_title": "Clear",
+    "TrueEnd_title": "Perfect Clear"
   }
 }
