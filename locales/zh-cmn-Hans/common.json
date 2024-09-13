@@ -41,6 +41,8 @@
   "results": {
     "Failure": "满身疮痍",
     "Normal": "异变解决",
-    "TrueEnd": "完美解决了事件"
+    "TrueEnd": "完美解决了事件",
+    "Normal_title": "通关",
+    "TrueEnd_title": "完美通关"
   }
 }
