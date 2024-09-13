@@ -2,7 +2,7 @@
   "title": "LBoL Logs",
   "subtitle": "東方光耀夜歷史詳細共享",
   "description": "LBoL Logsは東方光耀夜 〜 Lost Branch of Legend (LBoL)のプレイ履歴を共有するサービスです。",
-  "about": "LBoL Logsは<steam>東方光耀夜 〜 Lost Branch of Legend</steam> (LBoL)のプレイ履歴を共有するサービスです。<br /><compatability /><br />意見などはお手数ですが、<discord>Discordの日本語専用スレッド</discord>からお願いします。",
+  "about": "LBoL Logsは<steam>東方光耀夜 〜 Lost Branch of Legend</steam> (LBoL)のプレイ履歴を共有するサービスです。<br /><compatability /><br />意見などはお手数ですが、<discord>Discord的中文帖子</discord>からお願いします。",
   "compatability": "自作Mod <mod>LBoL Run Logger</mod>で生成された履歴データだけ対応しています。",
   "runLogger": {
     "about": "LBoL Run Logger について",
