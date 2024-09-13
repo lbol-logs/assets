@@ -29,15 +29,13 @@
   "runLogs": {
     "update": "Update plan",
     "tasks": [
-      "Support Traditional & Simplified Chinese",
-      "Improve UI & UX",
-      "Image of Vengeful Spirits, Menreikis and Spirit of Wealth/Elegance"
+      "Improve UI & UX"
     ]
   },
   "attention": {
     "key": "Attention",
     "value": [
-      "Cookies are only used for saving language & timezone preferences and Google Analytics.",
+      "Cookies are only used for saving language preference and Google Analytics.",
       "No private information, such as PC information, Steam account information, payment information, is collected by the Mod (excluding the in-game name) nor included in the generated data.",
       "Although validation is performed before uploading, no responsibility will be accepted for user accidentially uploading private information."
     ]
@@ -46,7 +44,7 @@
   "file": "Drag 'n' drop file here, or click to select file",
   "errors": {
     "invalidFile": "Invalid file",
-    "invalidVersion": "{{version}} is invalid version",
+    "invalidVersion": "{{version}} is an invalid version",
     "alreadyExist": "<log>Already exist</log>",
     "unknownError": "Uknown error"
   },
