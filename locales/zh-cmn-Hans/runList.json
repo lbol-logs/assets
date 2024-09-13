@@ -1,0 +1,25 @@
+{
+  "filter": "筛选",
+  "results": {
+    "format": "在 <total />中找到了 <found />",
+    "found": "<strong>{{count}}</strong> 个",
+    "total": "<strong>{{count}}</strong> 个"
+  },
+  "remark": "(每{{min}}分钟更新)",
+  "name": "名字",
+  "character": "角色",
+  "spellcard": "符卡",
+  "shining": "光耀展品",
+  "difficulty": "難易度",
+  "requests": "难度",
+  "result": "结果",
+  "timestamp": "时间戳",
+  "all": "全部",
+  "startingExhibit": "初始展品",
+  "swappedExhibit": "展品调换",
+  "both": "两者",
+  "inactive": "禁用",
+  "active": "启用（完全一致）",
+  "apply": "套用",
+  "reset": "重置"
+}

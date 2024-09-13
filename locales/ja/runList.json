@@ -5,7 +5,7 @@
     "found": "<strong>{{count}}</strong> 件",
     "total": "<strong>{{count}}</strong> 件"
   },
-  "remark": "(10分ごとに更新)",
+  "remark": "({{min}}分ごとに更新)",
   "name": "名前",
   "character": "キャラクター",
   "spellcard": "スペルカード",
