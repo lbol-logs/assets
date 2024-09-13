@@ -5,7 +5,7 @@
     "blue": 20,
     "exhibits": ["LongjingYu", "FoyushiBo", "HuoshuPiyi", "YanZianbei", "PenglaiYuzhi"]
   },
-  "Select": {
+  "SelectOpponent": {
     "power": 30
   },
   "DoremyPortal": {

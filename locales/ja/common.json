@@ -1,6 +1,6 @@
 {
-  "loading": "読み込み中…",
-  "processing": "処理中…",
+  "loading": "少女祈祷中…",
+  "processing": "少女処理中…",
   "card": "カード",
   "exhibit": "展示品",
   "mana": {
@@ -41,6 +41,8 @@
   "results": {
     "Failure": "満身創痍",
     "Normal": "異変解決",
-    "TrueEnd": "事件は完全に解決した"
+    "TrueEnd": "事件は完全に解決した",
+    "Normal_title": "クリア",
+    "TrueEnd_title": "完全クリア"
   }
 }
