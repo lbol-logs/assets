@@ -1,7 +1,6 @@
 {
-  "version": "Version",
-  "loading": "Now Loading...",
-  "processing": "Now Processing...",
+  "loading": "Loading...",
+  "processing": "Processing...",
   "card": "Card",
   "card_other": "Cards",
   "exhibit": "Exhibit",
@@ -10,7 +9,8 @@
     "W": "W",
     "U": "U",
     "B": "B",
-    "R": "G",
+    "R": "R",
+    "G": "G",
     "C": "C",
     "P": "P",
     "A": "?"

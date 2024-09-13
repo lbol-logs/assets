@@ -1,0 +1,46 @@
+{
+  "control": {
+    "back": "返回",
+    "previous": "上一幕",
+    "next": "下一幕",
+    "skip": "跳至最后一幕",
+    "map": "地图"
+  },
+  "rarities": {
+    "Common": "普通",
+    "Uncommon": "罕见",
+    "Rare": "稀有",
+    "Shining": "光耀",
+    "Mythic": "秘宝",
+    "Misfortune": "厄运"
+  },
+  "delimiter": "：",
+  "cardsCount": "卡牌总数：{{count}}",
+  "exhibitsCount": "展品总数：{{count}}",
+  "ShowRandomResult_true": "揭示命运",
+  "ShowRandomResult_false": "未知命运",
+  "IsAutoSeed_true": "随机的种子",
+  "IsAutoSeed_false": "设置的种子",
+  "ReloadTimes": "回到过去次数：{{count}}",
+  "act": "第{{0}}幕",
+  "act_4": "最终幕",
+  "level": "{{0}} 关",
+  "stations": {
+    "Visited": "已通",
+    "Enemy": "敌人",
+    "EliteEnemy": "精英敌人",
+    "Supply": "补给",
+    "Gap": "隙间小屋",
+    "Shop": "商店",
+    "Adventure": "友好相遇",
+    "Entry": "起点",
+    "Select": "选择对手",
+    "Trade": "交易",
+    "Boss": "首领敌人"
+  },
+  "hp": "生命值",
+  "power": "P 点",
+  "money": "金钱",
+  "round": "轮",
+  "roundCounter": "第 {{0}} 轮"
+}

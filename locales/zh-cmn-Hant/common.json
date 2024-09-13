@@ -1,0 +1,48 @@
+{
+  "loading": "少女祈禱中…",
+  "processing": "少女處理中…",
+  "card": "卡牌",
+  "exhibit": "展品",
+  "mana": {
+    "W": "白",
+    "U": "藍",
+    "B": "黑",
+    "R": "紅",
+    "G": "綠",
+    "C": "無",
+    "P": "彩",
+    "A": "？"
+  },
+  "spellcards": {
+    "ReimuA": "靈符「夢想封印」",
+    "ReimuB": "神技「八方鬼縛陣」",
+    "MarisaA": "黑魔「真空坍縮」",
+    "MarisaB": "戀符「極限火花」",
+    "SakuyaA": "幻符「殺人公仔」",
+    "SakuyaB": "幻世「The World」",
+    "CirnoA": "凍符「完美凍結」",
+    "CirnoB": "花符「冰晶綻放」"
+  },
+  "requests": {
+    "HalfDrug": "抗藥性",
+    "LowMaxHp": "向死而生",
+    "StartMisfortune": "不受歡迎",
+    "LowStageRegen": "補給不足",
+    "LowUpgradeRate": "通貨膨脹",
+    "PayForUpgrade": "健身房開始收費",
+    "NightMana": "長夜的疲憊"
+  },
+  "difficulties": {
+    "Easy": "簡單",
+    "Normal": "普通",
+    "Hard": "困難",
+    "Lunatic": "瘋狂"
+  },
+  "results": {
+    "Failure": "滿身瘡痍",
+    "Normal": "異變解決",
+    "TrueEnd": "完美解決了異變",
+    "Normal_title": "通關",
+    "TrueEnd_title": "完美通關"
+  }
+}

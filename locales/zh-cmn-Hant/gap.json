@@ -1,0 +1,24 @@
+{
+  "Names": {
+    "DrinkTea": "飲茶",
+    "UpgradeCard": "修行",
+    "FindExhibit": "尋寶",
+    "GetMoney": "募捐",
+    "RemoveCard": "淨身",
+    "GetRareCard": "發想",
+    "UpgradeBaota": "匯集"
+  },
+  "Descriptions": {
+    "DrinkTea": "回復最大生命值的 {{Rate}}% ({{Value}})",
+    "DrinkTea_JingzhiChaju": "額外回復 ({{AdditionalHeal}}) 生命",
+    "DrinkTea_DiannaoPeijian": "額外回復 ({{AdditionalPower}}) 能量",
+    "DrinkTea_HuangyouJiqiren": "額外從 {{CardCount}} 張卡牌中選擇一張加入牌庫",
+    "UpgradeCard": "升級牌庫中的一張牌",
+    "UpgradeCard_PayForUpgrade": "升級非基礎牌需要支付 {{Price}} 點<Money />",
+    "FindExhibit": "找到一件隨機展品",
+    "GetMoney": "獲得 {{Value}} 點<Money />",
+    "RemoveCard": "移除牌庫中的一張牌",
+    "GetRareCard": "從 {{Value}} 張隨機的稀有牌中選擇一張加入牌庫",
+    "UpgradeBaota": "升級毘沙門天的寶塔"
+  }
+}
