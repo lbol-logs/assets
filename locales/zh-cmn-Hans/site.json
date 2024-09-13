@@ -1,6 +1,6 @@
 {
   "title": "LBoL Logs",
-  "subtitle": "東方光耀夜プレイ履歴共有",
+  "subtitle": "东方光耀夜历史详细共享",
   "description": "LBoL Logsは東方光耀夜 〜 Lost Branch of Legend (LBoL)のプレイ履歴を共有するサービスです。",
   "about": "LBoL Logsは<steam>東方光耀夜 〜 Lost Branch of Legend</steam> (LBoL)のプレイ履歴を共有するサービスです。<br /><compatability /><br />意見などはお手数ですが、<discord>Discordの日本語専用スレッド</discord>からお願いします。",
   "compatability": "自作Mod <mod>LBoL Run Logger</mod>で生成された履歴データだけ対応しています。",
@@ -10,8 +10,8 @@
     "step1": "<r2modman>r2modman</r2modman> を Manual Download し、インストール",
     "step2": "<mod>LBoL Run Logger</mod> を Install with Mod Manager",
     "step3": "通常通りゲームをプレイ",
-    "step4": "ゲームフォルダ内の runLogger フォルダから履歴データファイルを見つける",
-    "step5": "<upload>アップロード</upload> ページから履歴データを共有",
+    "step4": "ゲームフォルダ内の runLogger フォルダから履歴データ档案を見つける",
+    "step5": "<upload>上载</upload> ページから履歴データを共有",
     "features": [
       "キャラ情報",
       "難易度、難題、結果",
@@ -37,16 +37,16 @@
     "value": [
       "クッキーは言語設定の保存とGoogleアナリティクスだけに使用しています",
       "PC情報、Steamアカウント情報、支払情報などの個人情報はMod経由で取得しておらず（ゲーム内名前を除く）、生成されたデータにも一切含まれません",
-      "アップロード前にバリデーションは行われますが、誤って個人情報等を送信した場合、当方は一切の責任を負いません"
+      "上载前にバリデーションは行われますが、誤って個人情報等を送信した場合、当方は一切の責任を負いません"
     ]
   },
-  "upload": "アップロード",
-  "file": "ファイルをここにドラッグアンドドロップするか、<br />クリックしてファイルを選択してください",
+  "upload": "上载",
+  "file": "将档案拖放到此处或单击以选择文件",
   "errors": {
-    "invalidFile": "無効なファイル",
-    "invalidVersion": "{{version}} は無効なバージョン",
-    "alreadyExist": "<log>すでにアップロードされている</log>",
-    "unknownError": "不明なエラー"
+    "invalidFile": "無効な档案",
+    "invalidVersion": "{{version}} 是无效的版本",
+    "alreadyExist": "<log>已经存在</log>",
+    "unknownError": "不明的错误"
   },
-  "success": "<log>アップロード完了</log>"
+  "success": "<log>上载完成</log>"
 }
