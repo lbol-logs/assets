@@ -22,9 +22,9 @@
   "IsAutoSeed_true": "隨機的種子",
   "IsAutoSeed_false": "設置的種子",
   "ReloadTimes": "回到過去次數：{{count}}",
-  "act": "第{{0}}幕",
+  "act": "第{{act}}幕",
   "act_4": "最終幕",
-  "level": "{{0}} 關",
+  "level": "{{level}} 關",
   "stations": {
     "Visited": "已通",
     "Enemy": "敵人",

@@ -22,9 +22,9 @@
   "IsAutoSeed_true": "随机的种子",
   "IsAutoSeed_false": "设置的种子",
   "ReloadTimes": "回到过去次数：{{count}}",
-  "act": "第{{0}}幕",
+  "act": "第{{act}}幕",
   "act_4": "最终幕",
-  "level": "{{0}} 关",
+  "level": "{{level}} 关",
   "stations": {
     "Visited": "已通",
     "Enemy": "敌人",
