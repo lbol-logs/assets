@@ -4,7 +4,9 @@
     "previous": "上一幕",
     "next": "下一幕",
     "skip": "跳至最后一幕",
-    "map": "地图"
+    "map": "地图",
+    "left": "把侧边栏移左",
+    "right": "把侧边栏移右"
   },
   "rarities": {
     "Common": "普通",

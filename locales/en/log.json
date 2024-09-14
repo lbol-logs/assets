@@ -4,7 +4,9 @@
     "previous": "Previous Act",
     "next": "Next Act",
     "skip": "Go to the last Act",
-    "map": "Map"
+    "map": "Map",
+    "left": "Move sidebar to left",
+    "right": "Move sidebar to right"
   },
   "rarities": {
     "Common": "Common",
