@@ -1,49 +1,36 @@
 {
   "title": "LBoL Logs",
   "subtitle": "東方光耀夜歷史詳細共享",
-  "description": "LBoL Logsは東方光耀夜 〜 Lost Branch of Legend (LBoL)のプレイ履歴を共有するサービスです。",
-  "about": "LBoL Logsは<steam>東方光耀夜 〜 Lost Branch of Legend</steam> (LBoL)のプレイ履歴を共有するサービスです。<br /><compatability /><br />意見などはお手数ですが、<discord>Discord的中文帖子</discord>からお願いします。",
-  "compatability": "自作Mod <mod>LBoL Run Logger</mod>で生成された履歴データだけ対応しています。",
+  "description": "LBoL Logs是一個遊戲局分享服務。",
+  "about": "LBoL Logs是為<steam>東方光耀夜 〜 Lost Branch of Legend</steam> (gyy)而設的遊戲局分享服務。<br /><compatability /><br />歡迎在<discord>Discord的中文帖子</discord>裡或在qq群 ＠L大 提供意見。",
+  "compatability": "只有由<mod>東方光耀夜局內紀錄器</mod>產生的遊戲局紀錄才有支援。",
   "runLogger": {
-    "about": "LBoL Run Logger について",
-    "aboutSteps": "利用手順",
-    "step1": "<r2modman>r2modman</r2modman> を Manual Download し、インストール",
-    "step2": "<mod>LBoL Run Logger</mod> を Install with Mod Manager",
-    "step3": "通常通りゲームをプレイ",
-    "step4": "ゲームフォルダ内の runLogger フォルダから履歴データ檔案を見つける",
-    "step5": "<upload>上載</upload> ページから履歴データを共有",
-    "features": [
-      "キャラ情報",
-      "難易度、難題、結果",
-      "マップ",
-      "ルート",
-      "展示品の提示（イベントやショップを除く）、獲得、喪失、消費履歴",
-      "カードの提示（イベントやショップを除く）、獲得、削除、アップグレード履歴",
-      "HP/最大HP、P/最大P、金の変動",
-      "敵エンカウント（名前とターン数のみ）",
-      "イベントの名前と選択肢の記録",
-      "正邪戦の詳細",
-      "イベント以外のマス"
-    ]
+    "about": "關於東方光耀夜局內紀錄器",
+    "aboutSteps": "手把手教學",
+    "step1": "手動下載及安裝<r2modman>r2modman</r2modman>",
+    "step2": "訪問<mod>LBoL Run Logger</mod>並用r2modman下載模組",
+    "step3": "正常遊玩",
+    "step4": "在遊戲的文件夾內找出runLogger的文件夾，然後在裡面找出紀錄下的局",
+    "step5": "<upload>上載</upload>紀錄以分享"
   },
   "runLogs": {
-    "update": "サイトの更新予定",
+    "update": "預定更新",
     "tasks": [
-      "UI・UX改善"
+      "改善UI和UX"
     ]
   },
   "attention": {
     "key": "注意事項",
     "value": [
-      "クッキーは言語設定の保存とGoogleアナリティクスだけに使用しています",
-      "PC情報、Steamアカウント情報、支払情報などの個人情報はMod経由で取得しておらず（ゲーム内名前を除く）、生成されたデータにも一切含まれません",
-      "上載前にバリデーションは行われますが、誤って個人情報等を送信した場合、当方は一切の責任を負いません"
+      "Cookie的使用僅限於儲存預設語言及Google分析。",
+      "機件資料，蒸氣帳號資料，付款資料等的個人資料不會被此模組收集，也不會紀錄在產生的局紀錄（遊戲內名字除外）。",
+      "雖然上載會經過驗證，但如用戶不小心上載了個人資料，恕不負責。"
     ]
   },
   "upload": "上載",
   "file": "將檔案拖放到此處或單擊以選擇文件",
   "errors": {
-    "invalidFile": "無効な檔案",
+    "invalidFile": "檔案無效",
     "invalidVersion": "{{version}} 是無效的版本",
     "alreadyExist": "<log>已經存在</log>",
     "unknownError": "不明的錯誤"

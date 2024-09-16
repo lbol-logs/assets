@@ -1,49 +1,36 @@
 {
   "title": "LBoL Logs",
   "subtitle": "东方光耀夜历史详细共享",
-  "description": "LBoL Logsは东方光耀夜 〜 Lost Branch of Legend (LBoL)のプレイ履歴を共有するサービスです。",
-  "about": "LBoL Logsは<steam>东方光耀夜 〜 Lost Branch of Legend</steam> (LBoL)のプレイ履歴を共有するサービスです。<br /><compatability /><br />意見などはお手数ですが、<discord>Discord的中文帖子</discord>からお願いします。",
-  "compatability": "自作Mod <mod>LBoL Run Logger</mod>で生成された履歴データだけ対応しています。",
+  "description": "LBoL Logs是一个游戏局分享服务。",
+  "about": "LBoL Logs是为<steam>东方光耀夜 〜 Lost Branch of Legend</steam> (gyy)而设的游戏局分享服务。<br /><compatability /><br />欢迎在<discord>Discord的中文帖子</discord>里或在qq群 ＠L大 提供意见。",
+  "compatability": "只有由<mod>东方光耀夜局内纪录器</mod>产生的游戏局纪录才有支援。",
   "runLogger": {
-    "about": "LBoL Run Logger について",
-    "aboutSteps": "利用手順",
-    "step1": "<r2modman>r2modman</r2modman> を Manual Download し、インストール",
-    "step2": "<mod>LBoL Run Logger</mod> を Install with Mod Manager",
-    "step3": "通常通りゲームをプレイ",
-    "step4": "ゲームフォルダ内の runLogger フォルダから履歴データ档案を見つける",
-    "step5": "<upload>上载</upload> ページから履歴データを共有",
-    "features": [
-      "キャラ情報",
-      "難易度、難題、結果",
-      "マップ",
-      "ルート",
-      "展示品の提示（イベントやショップを除く）、獲得、喪失、消費履歴",
-      "カードの提示（イベントやショップを除く）、獲得、削除、アップグレード履歴",
-      "HP/最大HP、P/最大P、金の変動",
-      "敵エンカウント（名前とターン数のみ）",
-      "イベントの名前と選択肢の記録",
-      "正邪戦の詳細",
-      "イベント以外のマス"
-    ]
+    "about": "关于东方光耀夜局内纪录器",
+    "aboutSteps": "手把手教学",
+    "step1": "手动下载及安装<r2modman>r2modman</r2modman>",
+    "step2": "访问<mod>LBoL Run Logger</mod>并用r2modman下载模组",
+    "step3": "正常游玩",
+    "step4": "在游戏的文件夹内找出runLogger的文件夹，然后在里面找出纪录下的局",
+    "step5": "<upload>上载</upload>纪录以分享"
   },
   "runLogs": {
-    "update": "サイトの更新予定",
+    "update": "预定更新",
     "tasks": [
-      "UI・UX改善"
+      "改善UI和UX"
     ]
   },
   "attention": {
-    "key": "注意事項",
+    "key": "注意事项",
     "value": [
-      "クッキーは言語設定の保存とGoogleアナリティクスだけに使用しています",
-      "PC情報、Steamアカウント情報、支払情報などの個人情報はMod経由で取得しておらず（ゲーム内名前を除く）、生成されたデータにも一切含まれません",
-      "上载前にバリデーションは行われますが、誤って個人情報等を送信した場合、当方は一切の責任を負いません"
+      "小甜饼的使用仅限于储存默认语言及谷歌分析。",
+      "机件资料，蒸气账号资料，付款资料等的个人资料不会被此模组收集，也不会纪录在产生的局纪录（游戏内名字除外）。",
+      "虽然上载会经过验证，但如用户不小心上载了个人资料，恕不负责。"
     ]
   },
   "upload": "上载",
   "file": "将档案拖放到此处或单击以选择文件",
   "errors": {
-    "invalidFile": "無効な档案",
+    "invalidFile": "档案无效",
     "invalidVersion": "{{version}} 是无效的版本",
     "alreadyExist": "<log>已经存在</log>",
     "unknownError": "不明的错误"

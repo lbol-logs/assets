@@ -11,20 +11,7 @@
     "step2": "Visit <mod>LBoL Run Logger</mod> and Install with Mod Manager",
     "step3": "Play the game as normal",
     "step4": "Find the run data file in runLogger folder inside the game folder",
-    "step5": "Share your run data from the <upload>Upload</upload> page",
-    "features": [
-      "Character info",
-      "Difficulty, Requests, Result",
-      "Map",
-      "Route",
-      "Exhibits revealed (except events and shops), acquired, lost, consumed",
-      "Cards revealed (except events and shops), acquired, lost, upgraded",
-      "Change of HP/Max HP, P/Max P, Gold",
-      "Enemy encounts (name and # of turns only)",
-      "Name and choices of events",
-      "Details of Seija Battle",
-      "Stations other than events"
-    ]
+    "step5": "Share your run data from the <upload>Upload</upload> page"
   },
   "runLogs": {
     "update": "Update plan",
