@@ -44,5 +44,15 @@
   "power": "P 點",
   "money": "金錢",
   "round": "輪",
-  "roundCounter": "第 {{0}} 輪"
+  "roundCounter": "第 {{0}} 輪",
+  "turnCounter": "第 {{0}} 回合",
+  "startOfTurn": "回合開始時",
+  "endOfTurn": "回合結束時",
+  "block": "格擋",
+  "barrier": "護盾",
+  "intentions": {
+    "SpellCard": "攻擊",
+    "Attack": "符卡",
+    "Clear": "清除"
+  }
 }

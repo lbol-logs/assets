@@ -46,5 +46,15 @@
   "power": "Power",
   "money": "Money",
   "round": "Round",
-  "roundCounter": "Round {{0}}"
+  "roundCounter": "Round {{0}}",
+  "turnCounter": "Turn {{0}}",
+  "startOfTurn": "Start of turn",
+  "endOfTurn": "End of turn",
+  "block": "Block",
+  "barrier": "Barrier",
+  "intentions": {
+    "SpellCard": "Spell Card",
+    "Attack": "Attack",
+    "Clear": "Cleanse"
+  }
 }

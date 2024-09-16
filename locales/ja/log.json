@@ -43,6 +43,16 @@
   "hp": "ライフ",
   "power": "パワー",
   "money": "資金力",
-  "round": "ターン",
-  "roundCounter": "ターン {{0}}"
+  "round": "ラウンド",
+  "roundCounter": "ラウンド {{0}}",
+  "turnCounter": "ターン {{0}}",
+  "startOfTurn": "ターン開始時",
+  "endOfTurn": "ターン終了時",
+  "block": "ブロック",
+  "barrier": "バリア",
+  "intentions": {
+    "SpellCard": "スペルカード",
+    "Attack": "攻撃",
+    "Clear": "洗浄"
+  }
 }
