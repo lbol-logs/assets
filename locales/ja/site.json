@@ -29,6 +29,7 @@
   },
   "upload": "アップロード",
   "file": "ファイルをここにドラッグアンドドロップするか、<br />クリックしてファイルを選択してください",
+  "optional": "任意",
   "errors": {
     "invalidFile": "無効なファイル",
     "invalidVersion": "{{version}} は無効なバージョン",

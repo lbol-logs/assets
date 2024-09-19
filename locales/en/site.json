@@ -29,6 +29,7 @@
   },
   "upload": "Upload",
   "file": "Drag 'n' drop file here, or click to select file",
+  "optional": "Optional",
   "errors": {
     "invalidFile": "Invalid file",
     "invalidVersion": "{{version}} is an invalid version",

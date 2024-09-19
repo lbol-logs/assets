@@ -29,6 +29,7 @@
   },
   "upload": "上載",
   "file": "將檔案拖放到此處或單擊以選擇文件",
+  "optional": "選填",
   "errors": {
     "invalidFile": "檔案無效",
     "invalidVersion": "{{version}} 是無效的版本",

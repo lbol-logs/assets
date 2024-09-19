@@ -29,6 +29,7 @@
   },
   "upload": "上载",
   "file": "将档案拖放到此处或单击以选择文件",
+  "optional": "选填",
   "errors": {
     "invalidFile": "档案无效",
     "invalidVersion": "{{version}} 是无效的版本",

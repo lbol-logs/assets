@@ -26,6 +26,7 @@
   "IsAutoSeed_true": "Random Seed",
   "IsAutoSeed_false": "Specified Seed",
   "ReloadTimes": "Restarts: {{count}}",
+  "description": "Description",
   "act": "Act {{act}}",
   "act_4": "Final Act",
   "level": "Level {{level}}",
