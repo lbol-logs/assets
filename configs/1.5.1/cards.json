@@ -1684,14 +1684,17 @@
   },
   "Zhukeling": {
     "Rarity": "Uncommon",
-    "IsMisfortune": true
+    "IsMisfortune": true,
+    "IsUnremovable": true
   },
   "Psychedelic": {
     "Rarity": "Uncommon",
-    "IsMisfortune": true
+    "IsMisfortune": true,
+    "IsUnremovable": true
   },
   "FanzhuanChongdong": {
     "Rarity": "Rare",
-    "IsMisfortune": true
+    "IsMisfortune": true,
+    "IsUnremovable": true
   }
 }
