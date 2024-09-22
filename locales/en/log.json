@@ -1,9 +1,10 @@
 {
   "control": {
-    "back": "Back",
+    "return": "Return to the previous page",
     "previous": "Previous Act",
     "next": "Next Act",
     "skip": "Go to the last Act",
+    "back": "Back to summary",
     "map": "Map",
     "left": "Move sidebar to left",
     "right": "Move sidebar to right"
