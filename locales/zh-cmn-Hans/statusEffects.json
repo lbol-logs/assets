@@ -977,7 +977,8 @@
   },
   "TianziRockSe": {
     "Name": "绝壁！",
-    "Description": "<OwnerName />受到的攻击伤害降低 <Level /> 点。"
+    "Description": "<OwnerName />受到的攻击伤害降低 <Level /> 点。",
+    "ExtraDescription": "<OwnerName />受到的攻击伤害降低 <Level /> 点。<br /><OwnerName />免疫于<h>锁定</h>。"
   },
   "PrismriverSe": {
     "Name": "棱镜协奏曲",
@@ -989,7 +990,7 @@
   },
   "SuperExtraTurn": {
     "Name": "世纪的二重身超人",
-    "Description": "<PlayerName />的<h>自然回合</h>结束时，进行一个额外的回合。<br />这一回合开始时不会失去<h>格挡</h>和<h>闪避</h>，只能打出 <Level /> 张牌。<br />当前回合状态：<StatusString />。"
+    "Description": "<PlayerName />的<h>自然回合</h>结束时，进行一个额外的回合。<br />这一回合开始时不会失去<h>格挡</h>和<h>闪避</h>，只能打出 <Level /> 张牌。"
   },
   "ZhenmiaowanAbilitySe": {
     "Name": "小锤的魔力",
