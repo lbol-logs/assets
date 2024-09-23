@@ -55,6 +55,7 @@
   "intentions": {
     "SpellCard": "スペルカード",
     "Attack": "攻撃",
+    "AccurateAttack": "精密攻撃",
     "Clear": "洗浄"
   }
 }
