@@ -53,8 +53,9 @@
   "block": "格挡",
   "barrier": "护盾",
   "intentions": {
-    "SpellCard": "攻击",
-    "Attack": "符卡",
+    "SpellCard": "符卡",
+    "Attack": "攻击",
+    "AccurateAttack": "精准攻击",
     "Clear": "清除"
   }
 }

@@ -588,6 +588,7 @@
     "Description": "<PlayerName />の追加ターン開始時、敵全体に<h>ロックオン</h><Level />を与える。"
   },
   "BladePowerSe": {
+    "Name": "シルバーダッシュ",
     "Description": "<h>投げナイフ</h>を使用する度、ランダムな攻撃カードを<Level />枚手札に加える。<br />それは<h>臨時コスト</h><Mana />となり、<h>廃棄</h>、<h>虚無</h>を持つ。"
   },
   "PerfectServantUSe": {

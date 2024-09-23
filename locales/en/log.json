@@ -57,6 +57,7 @@
   "intentions": {
     "SpellCard": "Spell Card",
     "Attack": "Attack",
+    "AccurateAttack": "Accurate Attack",
     "Clear": "Cleanse"
   }
 }
