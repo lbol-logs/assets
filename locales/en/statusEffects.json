@@ -2,6 +2,8 @@
   "plurals": {
     "-s": "",
     "-s_other": "s",
+    "no": "",
+    "no_other": "{{count}} ",
     "turn": "until end of turn",
     "turn_other": "for the next <Duration /> turns",
     "since": "",
@@ -213,7 +215,7 @@
   },
   "FoxCharm": {
     "Name": "Fox Charm",
-    "Description": "Only up to <Limit /> card{Limit:plural one='' other='s'} can be played each turn.<br /><Count /> card{Count:plural one='' other='s'} left.<br />Defeat the <h>Fox Youkai</h> to remove this effect."
+    "Description": "Only up to <Limit /> card$t(plurals.-s, { 'count': {{Limit}} }) can be played each turn.<br /><Count /> card$t(plurals.-s, { 'count': {{Count}} }) left.<br />Defeat the <h>Fox Youkai</h> to remove this effect."
   },
   "DeathPoison": {
     "Name": "Poison Death",
@@ -261,7 +263,7 @@
   },
   "PrivateSquare": {
     "Name": "Silver Lockdown",
-    "Description": "For every <Limit /> cards played, <OwnerName /> deals <Level /> damage to <PlayerName />.<br /><Count /> card{Count:plural one='' other='s'} left."
+    "Description": "For every <Limit /> cards played, <OwnerName /> deals <Level /> damage to <PlayerName />.<br /><Count /> card$t(plurals.-s, { 'count': {{Count}} }) left."
   },
   "EnemyDayaojing": {
     "Name": "Daiyousei's Support",
@@ -453,7 +455,7 @@
   },
   "QiannianShenqiSe": {
     "Name": "Pyramid-Shaped Puzzle",
-    "Description": "<PlayerName /> may only draw up to <Limit /> cards each turn.<br /><hd>(<Count /> card{Count:plural one='' other='s'} left.)</hd>"
+    "Description": "<PlayerName /> may only draw up to <Limit /> cards each turn.<br /><hd>(<Count /> card$t(plurals.-s, { 'count': {{Count}} }) left.)</hd>"
   },
   "InfinityGemsSe": {
     "Name": "Glove With Embedded Gems",
@@ -529,7 +531,7 @@
   },
   "ReimuSilenceSe": {
     "Name": "\"Fantasy Seal -Worn-\"",
-    "Description": "For every <Limit /> card{Limit:plural one='' other='s'} drawn outside of the draw step, deal <Damage /> attack damage to each enemy.<br /><Count /> cards left."
+    "Description": "For every <Limit /> card$t(plurals.-s, { 'count': {{Limit}} }) drawn outside of the draw step, deal <Damage /> attack damage to each enemy.<br /><Count /> cards left."
   },
   "SenluoJiejieSe": {
     "Name": "Aggregate Border",
@@ -545,7 +547,7 @@
   },
   "Concentration": {
     "Name": "Concentration",
-    "Description": "The next {Level:plural one='' other='% '}<h>Overdrive</h> effect{Level:plural one=' does not' other='s do not'} cost <h>Charge</h> to activate."
+    "Description": "The next $t(plurals.no, { 'count': {{Level}} })<h>Overdrive</h> effect{Level:plural one=' does not' other='s do not'} cost <h>Charge</h> to activate."
   },
   "BurstUpgrade": {
     "Name": "All Out",
@@ -843,7 +845,7 @@
   },
   "QingxingMengSe": {
     "Name": "Lucid Daydream",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card{Value1:plural one='' other='s'} to hand. {Level:plural one='It' other='They'} <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana1 /> and {Level:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card{Limit:plural one='' other='s'} every turn. (<Count /> left)"
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to hand. {Level:plural one='It' other='They'} <h>temporarily cost{Level:plural one='s' other=''}</h> <Mana1 /> and {Level:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card$t(plurals.-s, { 'count': {{Limit}} }) every turn. (<Count /> left)"
   },
   "QiangweiDiyuSe": {
     "Name": "Rose Hell",
@@ -979,7 +981,7 @@
   },
   "YouxiangWakeSe": {
     "Name": "Early Bird",
-    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and put <Limit /> random attack card{Limit:plural one='' other='s'} from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and put <Limit /> random attack card$t(plurals.-s, { 'count': {{Limit}} }) from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
   },
   "SanaeSummonGodSe": {
     "Name": "Summon Take-Minakata",
@@ -1012,7 +1014,7 @@
   },
   "MoonWorldSe": {
     "Name": "Pure World",
-    "Description": "At the start of <PlayerName />'s turn, <Level /> random card{ Level:plural one='' other='s'} in the hand gain <h>Pure</h>."
+    "Description": "At the start of <PlayerName />'s turn, <Level /> random card$t(plurals.-s, { 'count': {{Level}} }) in the hand gain <h>Pure</h>."
   },
   "CatchGoblinSe": {
     "Name": "Fortuna's Trial",
