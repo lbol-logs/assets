@@ -3,7 +3,9 @@
     "-s": "",
     "-s_other": "s",
     "turn": "until end of turn",
-    "turn_other": "for the next <Duration /> turns"
+    "turn_other": "for the next <Duration /> turns",
+    "since": "",
+    "since_other": " from now"
   },
   "ordinal_1": "next",
   "ordinal_2": "{{count}}nd",
@@ -977,11 +979,11 @@
   },
   "YouxiangWakeSe": {
     "Name": "Early Bird",
-    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn {Count:plural one='' other='from now'}, gain <Level /> <h>Firepower</h> and put <Limit /> random attack card{Limit:plural one='' other='s'} from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and put <Limit /> random attack card{Limit:plural one='' other='s'} from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
   },
   "SanaeSummonGodSe": {
     "Name": "Summon Take-Minakata",
-    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn {Count:plural one='' other='from now'}, gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
   },
   "TianziRockSe": {
     "Name": "Impregnable!",
