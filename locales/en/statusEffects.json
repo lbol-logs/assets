@@ -49,15 +49,15 @@
   },
   "Fragil": {
     "Name": "Frail",
-    "Description": "<PlayerName /> gains <Value />% less <h>Block</h> and <h>Barrier</h> from cards {Duration:plural one='until end of turn' other='for the next % turns'}."
+    "Description": "<PlayerName /> gains <Value />% less <h>Block</h> and <h>Barrier</h> from cards $t(Duration, { 'count': {{Duration}} })."
   },
   "Weak": {
     "Name": "Weak",
-    "Description": "<OwnerName />'s attacks deal <Value />% less damage {Duration:plural one='until end of turn' other='for the next % turns'}."
+    "Description": "<OwnerName />'s attacks deal <Value />% less damage $t(Duration, { 'count': {{Duration}} })."
   },
   "Vulnerable": {
     "Name": "Vulnerable",
-    "Description": "<OwnerName /> takes <Value />% more damage from attacks {Duration:plural one='until end of turn' other='for the next % turns'}."
+    "Description": "<OwnerName /> takes <Value />% more damage from attacks $t(Duration, { 'count': {{Duration}} })."
   },
   "LockedOn": {
     "Name": "Lock On",
@@ -81,7 +81,7 @@
   },
   "Invincible": {
     "Name": "Flawless",
-    "Description": "<OwnerName /> will not lose more than 1 life from any damage taken {Duration:plural one='until end of turn' other='for the next % turns'}."
+    "Description": "<OwnerName /> will not lose more than 1 life from any damage taken $t(Duration, { 'count': {{Duration}} })."
   },
   "InvincibleEternal": {
     "Name": "Flawless",
@@ -149,7 +149,7 @@
   },
   "GuangxueMicai": {
     "Name": "Optical Camouflage",
-    "Description": "<OwnerName /> takes half as much damage from attacks {Duration:plural one='until end of turn' other='for the next % turns'}."
+    "Description": "<OwnerName /> takes half as much damage from attacks $t(Duration, { 'count': {{Duration}} })."
   },
   "DroneBlock": {
     "Name": "Defense Matrix",
@@ -241,7 +241,7 @@
   },
   "Fengyin": {
     "Name": "Sealed",
-    "Description": "<PlayerName /> can't play attack cards {Duration:plural one='until end of turn' other='for the next % turns'}."
+    "Description": "<PlayerName /> can't play attack cards $t(Duration, { 'count': {{Duration}} })."
   },
   "FirepowerIsJustice": {
     "Name": "Might Makes Right!",
@@ -281,7 +281,7 @@
   },
   "Emi": {
     "Name": "Electromagnetic Interference",
-    "Description": "<OwnerName /> can't act {Duration:plural one='until end of turn' other='for the next % turns'}."
+    "Description": "<OwnerName /> can't act $t(Duration, { 'count': {{Duration}} })."
   },
   "TurnStartPurify": {
     "Name": "Next Turn Purify",
@@ -705,7 +705,9 @@
   },
   "Immune": {
     "Name": "Ice Block",
-    "Description": "<OwnerName /> can't lose life for <Duration /> turn{Duration:plural one='' other='s'}."
+    "Description": "<OwnerName /> can't lose life for <Duration /> turn$t(Immune.Turn, { 'count': {{Duration}} }).",
+    "Turn": "",
+    "Turn_other": "s"
   },
   "ExtraBlizzard": {
     "Name": "Blizzard's Advent",
@@ -1005,5 +1007,7 @@
   "CatchGoblinSe": {
     "Name": "Fortuna's Trial",
     "Description": "<OwnerName /> takes 33% less damage and drops 50<Money /> when defeated."
-  }
+  },
+  "Duration": "until end of turn",
+  "Duration_other": "for the next <Duration /> turns"
 }
