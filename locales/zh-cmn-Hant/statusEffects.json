@@ -1,236 +1,1010 @@
 {
-  "TempFirepower": "暫得火力",
-  "Firepower": "火力",
-  "TempFirepowerNegative": "暫失火力",
-  "FirepowerNegative": "失去火力",
-  "TempSpirit": "暫得靈力",
-  "Spirit": "靈力",
-  "TempSpiritNegative": "暫失靈力",
-  "SpiritNegative": "失去靈力",
-  "Invincible": "天衣無縫",
-  "LearnAstrologySe": "天文研修",
-  "Fragil": "脆弱",
-  "Weak": "虛弱",
-  "Vulnerable": "易傷",
-  "LockedOn": "鎖定",
-  "Graze": "閃避",
-  "TurnStartDontLoseBlock": "保留格擋",
-  "Electric": "帶電",
-  "ExtraTurn": "額外回合",
-  "LimitedDamage": "道具的解放者",
-  "Amulet": "護身符",
-  "TempElectric": "帶電",
-  "ScarletDestiny": "緋色命運",
-  "QiannianShenqiSe": "金字塔形狀的積木",
-  "HolyGrailSe": "裝飾浮誇的金杯",
-  "BoliDajiejieSe": "博麗大結界",
-  "BoliPhantomSe": "博麗幻影",
-  "SingleJiandaoSe": "巨大的單片剪刀",
-  "SakuraWandSe": "長翅膀的鑰匙",
-  "ReverseJiejieSe": "逆轉結界",
-  "DragonBallSe": "印著星星的玻璃球",
-  "DoubleLianhuadieSe": "二色蓮花蝶",
-  "MomentPowerSe": "刹那亞空穴",
-  "TaijiLiangyiSe": "太極生兩儀",
-  "Curiosity": "我很好奇！",
-  "JunkoPurify": "純化光耀",
-  "MadokaBowSe": "迸發光芒的長弓",
-  "ShendengSe": "前端很長的茶壺",
-  "MasterOfCollectionSe": "收藏專家",
-  "UpgradePotionSe": "精研魔藥",
-  "InfinityGemsSe": "鑲有寶石的手套",
-  "GainKnifeSe": "星劍飛舞",
-  "EvilMaidSe": "惡魔的女僕",
-  "MihuanJackSe": "迷幻傑克",
-  "PotionJungleSe": "熒光森林",
-  "PotionDefenseSe": "流星共鳴",
-  "ChargingPotionSe": "放射元素",
-  "SakuyaKillerSe": "夜霧幻影殺人鬼",
-  "JiangshenSe": "降神修行",
-  "FreeFlySe": "自由飛行",
-  "DanceAroundLakeSe": "池邊起舞",
-  "EvilTuiZhiSe": "妖邪退治",
-  "SilverBladeSe": "銀色異次元",
-  "SpecialClockSe": "特製懷錶",
-  "BurstDrawSe": "速度對決",
-  "DangerousMagicianSe": "危險的魔術師",
-  "SeeFengshuiSe": "考察風水",
-  "YonglinCardSe": "賢者的歸隱",
-  "ShannvAbilitySe": "原因不明的熱病",
-  "BailianBlackSe": "擁抱黑暗",
-  "HuiyeManaSe": "竹取物語",
-  "ModuoluoFireSe": "穢那之火",
-  "RinDrawSe": "支配怨靈",
-  "MeihongFireSe": "無差別起火符",
-  "MeihongPowerSe": "不死的烈焰",
-  "GrimoireStudySe": "黑暗魔導書",
-  "MaoyuBlock": "毛茸茸",
-  "GuangxueMicai": "光學迷彩",
-  "NextTurnLoseHp": "下回合失去生命",
-  "NextTurnGainBlock": "下回合獲得格擋",
-  "CantDrawThisTurn": "無法抽牌",
-  "TimeIsLimited": "時間有限",
-  "Servant": "使魔",
-  "Reflect": "反射",
-  "NextAttackUp": "攻擊傷害提高",
-  "DroneBlock": "防禦矩陣",
-  "DeathExplodeNotCount": "死亡彈幕",
-  "DeathExplodeCount": "死亡彈幕",
-  "DeathVulnerable": "疾病纏身",
-  "Drowning": "溺水",
-  "LoveGirlDamageReduce": "留戀塵世",
-  "LoveGirlDamageIncrease": "芳心蕩漾",
-  "PhoneBillSe": "電話費",
-  "AbsorbSpirit": "藍玉之力",
-  "Lunatic": "瘋狂",
-  "WindGirl": "風神少女",
-  "FirepowerIsJustice": "火力就是正義！",
-  "PrivateSquare": "銀之封鎖",
-  "Emi": "電磁干擾",
-  "RockHard": "硬！",
-  "AbsorbPower": "紅玉之力",
-  "RinAura": "地獄灼熱",
-  "Fengyin": "封印",
-  "TurnStartPurify": "消毒完畢",
-  "LouguanJianSe": "樓觀劍",
-  "RockHardAura": "要石庇護",
-  "KokoroXi": "喜",
-  "KokoroNu": "怒",
-  "KokoroYou": "憂",
-  "LongEscape": "放水",
-  "FlatPeach": "仙桃",
-  "Sleep": "食夢者",
-  "YuyukoDeath": "生者必滅",
-  "PowerByDefense": "無堅不摧",
-  "MirrorImage": "鏡像",
-  "DreamServant": "夢境居民",
-  "LongLight": "閃光三腳架",
-  "Vampire": "吸血鬼",
-  "FastAttack": "唯快不破",
-  "HuanxiangBlockSe": "幻想防禦",
-  "YinyangXueyinSe": "陰陽血印",
-  "Charging": "充能",
-  "Burst": "爆發",
-  "Concentration": "專注",
-  "BurstUpgrade": "火力全開",
-  "SolarSystemSe": "太陽系儀",
-  "ScryBlockSe": "早有預謀",
-  "PoisonPotionSe": "魔女坩堝",
-  "TimeAuraSe": "時域衝擊",
-  "PerfectServantUSe": "額外備案",
-  "PerfectServantWSe": "準備就緒",
-  "Poison": "中毒",
-  "MoonWorldSe": "無穢的世界",
-  "RainbowMarketSe": "月虹市場",
-  "KokoroDanceSe": "假面喪心舞",
-  "TiangouOrderSe": "大天狗的號令",
-  "Interview": "取材中",
-  "RinSummon": "怨靈復活",
-  "InterviewDone": "取材完畢",
-  "EnemyEnergy": "能量",
-  "EnemyEnergyNegative": "消耗能量",
-  "LunaticTorch": "瘋狂火炬",
-  "DoremyLevel": "夢境等級",
-  "DreamMaster": "造夢者",
-  "SijiZui": "是非曲直",
-  "SenluoJiejieSe": "森羅結界",
-  "YachieDefendSe": "龜甲地獄",
-  "TodayYesterdaySe": "今昔幻想鄉",
-  "UseCardToLoseGame": "時日無多",
-  "AmuletForCard": "庇護",
-  "EvilMaidDoubleAttack": "惡魔之力",
-  "DrawPhaseAddKnife": "抽牌階段獲得飛刀",
-  "HekaHellRainSe": "地獄之雨",
-  "KnifeWithLockedOn": "下一個就輪到你了！",
-  "ZhenmiaowanAttackSe": "一寸法師的末裔",
-  "StopTimeSe": "凝固時間",
-  "LoseSpiritSe": "丟失的羽衣",
-  "NextTurnLoseGame": "行將就木",
-  "Cold": "寒冷",
-  "RangziFanshuSe": "香甜的番薯",
-  "ReimuFestivalSe": "神櫻之舞",
-  "PotionBaseDamageSe": "易爆成分",
-  "WhiteWorldSe": "純白的世界",
-  "ExtraDraw": "妖精智慧",
-  "FairyTreeSe": "妖精之家",
-  "NextTurnColdAll": "冷氣滯留",
-  "MeilingAbilitySe": "烈虹真拳",
-  "NextTurnGainShield": "下回合獲得護盾",
-  "ReimuShrineSe": "博麗廟會",
-  "ReimuFreeAttackSe": "幻想一重",
-  "DizangLoveSe": "即席菩提",
-  "BlackPoisonSe": "黑暗演舞",
-  "SihunYuSe": "散發邪氣的掛墜",
-  "FoxCharm": "妖狐魅惑",
-  "DeathPoison": "死亡劇毒",
-  "PrismriverSe": "棱鏡協奏曲",
-  "AutoKnifeSe": "妖器「銀質飛刀」",
-  "ManaFreezed": "法力凍結",
-  "ColdPotionSe": "冷卻劑",
-  "ColdUp": "嚴寒刺骨",
-  "YouxiangMoonSe": "花鳥風月",
-  "ForeverCoolSe": "永遠涼爽的幻想四季",
-  "PurifyModule": "淨化模組",
-  "LightingModule": "閃光模組",
-  "AccuracyModule": "制導模組",
-  "EnemyTuanzi": "好食的糰子",
-  "SplitPotionSe": "增產劑",
-  "MoreFriendsSe": "社交達人",
-  "InvincibleEternal": "天衣無縫",
-  "FrozenThroneSe": "冰封王座",
-  "IceMatrixSe": "冰凍矩陣",
-  "Immune": "寒冰屏障",
-  "EnemyLarva": "拉爾瓦的振翅",
-  "EnemyLily": "莉莉白的報春",
-  "EnemyDayaojing": "大妖精的支持",
-  "EnemyMaid": "小霞的清掃",
-  "KnifeTarget": "鎖定的目標",
-  "FrostArmor": "寒冰甲",
-  "ExtraBlizzard": "風雪來襲",
-  "MinengZhuruSe": "秘能注入",
-  "BailianFireSe": "法界之火",
-  "YonglinUpgradeSe": "仙香玉兔",
-  "CatchGoblinSe": "福星高照",
-  "MaidFriendSe": "飛刀陪練",
-  "SummerFlowerSe": "盛夏花開",
-  "StarFriendSe": "星羅棋布",
-  "HuiyeTimeSe": "須臾之間",
-  "YukariFriendSe": "幻想的境界",
-  "ShirenKunchongSe": "食人昆蟲",
-  "YinyangQueenSe": "能工巧匠魅須丸",
-  "WuyishiDNASe": "無意識的基因",
-  "BenwoTouyingSe": "自我投影",
-  "ChaofanyinSe": "超反應知覺",
-  "ChaoyueZiwoSe": "超越自我",
-  "LunaClockSe": "時空破損",
-  "NextTurnGainGraze": "下回合獲得閃避",
-  "ClockCorpseSe": "鐘錶的殘骸",
-  "BrokenTimelineSe": "破碎的時間線",
-  "MeilingWaterSe": "無處可退",
-  "YouxiangWakeSe": "按時起床",
-  "SuperExtraTurn": "世紀的二重身超人",
-  "BossAct": "轉階段",
-  "JunkoLily": "殺意的百合",
-  "JunkoColor": "溢出的瑕穢",
-  "TianziRockSe": "絕壁！",
-  "KokoroRenzhen": "認真",
-  "KokoroDarkPower": "黑暗情緒聚集",
-  "ShenlingGold": "富貴之賜",
-  "ShenlingHp": "優雅之賜",
-  "Appliance": "家用電器",
-  "LimaoDisguiser": "變身戲法",
-  "SuwakoHex": "作祟",
-  "FreezeBulletSe": "凍結彈幕",
-  "DeepFreezeSe": "冰尖之舞",
-  "ColdHeartedSe": "冰冷血脈",
-  "YukariFlyObjectSe": "超高速飛行物體",
-  "SanaeSummonGodSe": "召請建御名方神",
-  "MoodPeace": "平靜",
-  "MoreDraw": "傳道授業",
-  "ZhenmiaowanAbilitySe": "小槌的魔力",
-  "MoodPassion": "熱情",
-  "FriendDrawSe": "花園集會",
-  "ReimuSilenceSe": "「夢想封印 寂」",
-  "SakuyaInvestigateSe": "時停偵探",
-  "BladePowerSe": "快閃之銀"
+  "TempFirepower": {
+    "Name": "暫得火力",
+    "Description": "在一回合內，獲得 <Level /> 點火力。<br />火力提高攻擊造成的傷害。"
+  },
+  "Firepower": {
+    "Name": "火力",
+    "Description": "獲得 <Level /> 點火力。<br />火力提高攻擊造成的傷害。"
+  },
+  "TempFirepowerNegative": {
+    "Name": "暫失火力",
+    "Description": "在一回合內，失去 <Level /> 點火力。<br />火力提高攻擊造成的傷害。"
+  },
+  "FirepowerNegative": {
+    "Name": "失去火力",
+    "Description": "失去 <Level /> 點火力。<br />火力提高攻擊造成的傷害。"
+  },
+  "TempSpirit": {
+    "Name": "暫得靈力",
+    "Description": "在一回合內，獲得 <Level /> 點靈力。<br />靈力提高使用牌所獲得的<h>格擋</h>、<h>護盾</h>。"
+  },
+  "Spirit": {
+    "Name": "靈力",
+    "Description": "獲得 <Level /> 點靈力。<br />靈力提高使用牌所獲得的<h>格擋</h>、<h>護盾</h>。"
+  },
+  "TempSpiritNegative": {
+    "Name": "暫失靈力",
+    "Description": "在一回合內，失去 <Level /> 點靈力。<br />靈力提高使用牌所獲得的<h>格擋</h>、<h>護盾</h>。"
+  },
+  "SpiritNegative": {
+    "Name": "失去靈力",
+    "Description": "失去 <Level /> 點靈力。<br />靈力提高使用牌所獲得的<h>格擋</h>、<h>護盾</h>。"
+  },
+  "TempControl": {
+    "Name": "暫得操控力",
+    "Description": "在一回合內，獲得 <Level /> 點操控力。<br />操控力提高部分人偶的效果。"
+  },
+  "Control": {
+    "Name": "操控力",
+    "Description": "獲得 <Level /> 點操控力。<br />操控力提高部分人偶的效果。"
+  },
+  "TempControlNegative": {
+    "Name": "暫失操控力",
+    "Description": "在一回合內，失去 <Level /> 點操控力。<br />操控力提高部分人偶的效果。"
+  },
+  "ControlNegative": {
+    "Name": "失去操控力",
+    "Description": "失去 <Level /> 點操控力。<br />操控力提高部分人偶的效果。"
+  },
+  "Fragil": {
+    "Name": "脆弱",
+    "Description": "<PlayerName />通過打出牌獲得<h>格擋</h>及<h>護盾</h>降低 <Value />%，剩餘<Duration /> 回合。"
+  },
+  "Weak": {
+    "Name": "虛弱",
+    "Description": "<OwnerName />攻擊造成的傷害降低 <Value />%，剩餘<Duration /> 回合。"
+  },
+  "Vulnerable": {
+    "Name": "易傷",
+    "Description": "<OwnerName />受到攻擊的傷害增加 <Value />%，剩餘<Duration /> 回合。"
+  },
+  "LockedOn": {
+    "Name": "鎖定",
+    "Description": "<OwnerName />受到的攻擊傷害增加 <Level /> 點。<br />回合開始時降低 1 層。"
+  },
+  "Graze": {
+    "Name": "閃避",
+    "Description": "<OwnerName />受到的攻擊傷害降至 0 ，剩餘<Level /> 次。<br />受到攻擊或回合開始時降低 1 層。"
+  },
+  "ExtraTurn": {
+    "Name": "額外回合",
+    "Description": "<OwnerName />的回合結束後，進行額外的回合，剩餘<Level /> 次。"
+  },
+  "LimitedDamage": {
+    "Name": "道具的解放者",
+    "Description": "<OwnerName />每回合只能受到 <Limit /> 點傷害，剩餘<Count /> 點。"
+  },
+  "BossAct": {
+    "Name": "轉階段",
+    "Description": "<OwnerName />受到 <Count /> 點傷害後立刻進行一次行動，不會結束<PlayerName />的回合。"
+  },
+  "Invincible": {
+    "Name": "天衣無縫",
+    "Description": "<OwnerName />受到的傷害不會超過 1 ，剩餘<Duration /> 回合。"
+  },
+  "InvincibleEternal": {
+    "Name": "天衣無縫",
+    "Description": "<OwnerName />受到的傷害不會超過 1 。"
+  },
+  "TurnStartDontLoseBlock": {
+    "Name": "保留格擋",
+    "Description": "<OwnerName />的回合開始時，不會失去<h>格擋</h>，剩餘<Level /> 次。"
+  },
+  "WindGirl": {
+    "Name": "風神少女",
+    "Description": "<OwnerName />的回合結束時，將<h>閃避</h>補充至 <Level /> 層。"
+  },
+  "Amulet": {
+    "Name": "護身符",
+    "Description": "抵擋 <Level /> 次負面效果。"
+  },
+  "AmuletForCard": {
+    "Name": "庇護",
+    "Description": "<h>放逐</h>接下來受到的 <Level /> 張狀態牌。"
+  },
+  "Electric": {
+    "Name": "帶電",
+    "Description": "受到攻擊傷害時，對攻擊者造成 <Level /> 點傷害。"
+  },
+  "TempElectric": {
+    "Name": "帶電",
+    "Description": "受到攻擊傷害時，對攻擊者造成 <Level /> 點傷害。<br /><OwnerName />的下回合開始時移除本效果。"
+  },
+  "Reflect": {
+    "Name": "反射",
+    "Description": "受到攻擊傷害時，對攻擊者造成 <Level /> 點傷害，然後移除本效果。"
+  },
+  "NextAttackUp": {
+    "Name": "攻擊傷害提高",
+    "Description": "下一張<h>攻擊牌</h>的傷害提高 <Level /> 點。"
+  },
+  "ManaFreezed": {
+    "Name": "法力凍結",
+    "Description": "每回合打出的第一張牌費用增加<Mana />。"
+  },
+  "NextTurnLoseHp": {
+    "Name": "下回合失去生命",
+    "Description": "<OwnerName />的下個回合開始時，失去 <Level /> 點生命。"
+  },
+  "NextTurnGainBlock": {
+    "Name": "下回合獲得格擋",
+    "Description": "<OwnerName />的下個回合開始時，獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "NextTurnGainShield": {
+    "Name": "下回合獲得護盾",
+    "Description": "<OwnerName />的下個回合開始時，獲得 <Level /> 點<h>護盾</h>。"
+  },
+  "NextTurnGainGraze": {
+    "Name": "下回合獲得閃避",
+    "Description": "<OwnerName />的下個回合開始時，獲得 <Level /> 層<h>閃避</h>。"
+  },
+  "CantDrawThisTurn": {
+    "Name": "無法抽牌",
+    "Description": "這回合內無法再抽牌。"
+  },
+  "TimeIsLimited": {
+    "Name": "時間有限",
+    "Description": "卡牌費用增加<Mana />，直到敵人開始行動。"
+  },
+  "GuangxueMicai": {
+    "Name": "光學迷彩",
+    "Description": "<OwnerName />受到的攻擊傷害減半，剩餘<Duration /> 回合。"
+  },
+  "DroneBlock": {
+    "Name": "防禦矩陣",
+    "Description": "<OwnerName />回合結束時，獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "Drowning": {
+    "Name": "溺水",
+    "Description": "<OwnerName />的回合結束時，受到 <Level /> 點傷害。"
+  },
+  "Vampire": {
+    "Name": "吸血鬼",
+    "Description": "<OwnerName />造成未被阻擋的傷害時，恢復等量的生命。真可怕！"
+  },
+  "Poison": {
+    "Name": "中毒",
+    "Description": "<OwnerName />的回合開始時，失去 <Level /> 點生命並降低一層<h>中毒</h>。"
+  },
+  "MaoyuBlock": {
+    "Name": "毛茸茸",
+    "Description": "<OwnerName />被攻擊後獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "Servant": {
+    "Name": "使魔",
+    "Description": "場上只剩使魔敵人時，它們會被立刻消滅。<br />不會觸發其死亡效果。"
+  },
+  "DeathExplodeNotCount": {
+    "Name": "死亡彈幕",
+    "Description": "<OwnerName />被擊敗時對<PlayerName />造成 <Level /> 點攻擊傷害。<br />主動引爆時傷害翻倍。"
+  },
+  "DeathExplodeCount": {
+    "Name": "死亡彈幕",
+    "Description": "<OwnerName />被擊敗時對<PlayerName />造成 <Level /> 點攻擊傷害。<br /><Count /> 回合後主動引爆，傷害翻倍。"
+  },
+  "DeathVulnerable": {
+    "Name": "疾病纏身",
+    "Description": "<OwnerName />被擊敗時對<PlayerName />施加 <Level /> 回合<h>易傷</h>。"
+  },
+  "LoveGirlDamageReduce": {
+    "Name": "留戀塵世",
+    "Description": "<OwnerName />還有未了的心願，她受到的所有傷害降低 <Rate />% 。"
+  },
+  "LoveGirlDamageIncrease": {
+    "Name": "芳心蕩漾",
+    "Description": "<OwnerName />的心願已經滿足了，她受到的所有傷害提高 <Rate />% 。"
+  },
+  "PhoneBillSe": {
+    "Name": "電話費",
+    "Description": "<OwnerName />打電話時收取<PlayerName /> <Level /> 點<Money />。<br />被擊敗時掉落 <Count /> 點<Money />。"
+  },
+  "FoxCharm": {
+    "Name": "妖狐魅惑",
+    "Description": "一回合只能打出 <Limit /> 張牌，剩餘<Count /> 張。<br />擊敗妖狐移除本效果。"
+  },
+  "DeathPoison": {
+    "Name": "死亡劇毒",
+    "Description": "<OwnerName />被擊敗時對<PlayerName />施加 <Level /> 層<h>中毒</h>。"
+  },
+  "AbsorbPower": {
+    "Name": "紅玉之力",
+    "Description": "<OwnerName />的回合結束時獲得 <Level /> 點<h>火力</h>。"
+  },
+  "AbsorbSpirit": {
+    "Name": "藍玉之力",
+    "Description": "<OwnerName />的回合結束時獲得 <Level /> 點<h>靈力</h>。"
+  },
+  "Lunatic": {
+    "Name": "瘋狂",
+    "Description": "法力光耀影響了大家，<OwnerName />陷入瘋狂，行動方式升級。<br /><PlayerName />回合開始後獲得<Mana />。"
+  },
+  "LunaticTorch": {
+    "Name": "瘋狂火炬",
+    "Description": "<OwnerName />的火炬閃爍著異常的光芒，敵人直接進入<h>瘋狂</h>狀態。<br /><PlayerName />回合開始後獲得<Mana />。"
+  },
+  "Interview": {
+    "Name": "取材中",
+    "Description": "<OwnerName />在異變發生的第一線採訪。"
+  },
+  "InterviewDone": {
+    "Name": "取材完畢",
+    "Description": "<OwnerName />拼湊出了異變的真相！<br />她會發行《文文。新聞》特別刊。"
+  },
+  "RinSummon": {
+    "Name": "怨靈復活",
+    "Description": "<OwnerName />下一次能復活 <Level /> 個怨靈。<br />每 <Limit /> 回合自動恢復一層。"
+  },
+  "RinAura": {
+    "Name": "地獄灼熱",
+    "Description": "<OwnerName />召喚出來的怨靈，死亡彈幕傷害提高 <Level /> 點。"
+  },
+  "Fengyin": {
+    "Name": "封印",
+    "Description": "<PlayerName />無法打出攻擊牌，剩餘<Duration /> 回合。"
+  },
+  "FirepowerIsJustice": {
+    "Name": "火力就是正義！",
+    "Description": "<OwnerName />的<h>火力</h>永遠不會低於<PlayerName />。"
+  },
+  "PrivateSquare": {
+    "Name": "銀之封鎖",
+    "Description": "每累計打出 <Limit /> 張卡牌，<OwnerName />就會對<PlayerName />造成 <Level /> 點攻擊傷害。<br />剩餘<Count /> 張。"
+  },
+  "EnemyDayaojing": {
+    "Name": "大妖精的支持",
+    "Description": "<OwnerName />的回合結束時，恢復 <Level /> 點生命。"
+  },
+  "EnemyLarva": {
+    "Name": "拉爾瓦的振翅",
+    "Description": "<PlayerName />對<OwnerName />造成攻擊傷害時，受到 <Level /> 層<h>中毒</h>。"
+  },
+  "EnemyLily": {
+    "Name": "莉莉白的報春",
+    "Description": "<OwnerName />的所有行動得到強化。"
+  },
+  "EnemyMaid": {
+    "Name": "小霞的清掃",
+    "Description": "<OwnerName />的回合結束時，對<PlayerName />造成 <Level /> 點傷害。"
+  },
+  "ShenlingGold": {
+    "Name": "富貴之賜",
+    "Description": "<OwnerName />被擊敗時掉落 <Level /> 點<Money />。"
+  },
+  "ShenlingHp": {
+    "Name": "優雅之賜",
+    "Description": "<OwnerName />被擊敗時，<PlayerName />的最大生命值提高 <Level /> 點。"
+  },
+  "Appliance": {
+    "Name": "家用電器",
+    "Description": "<OwnerName />免疫於<h>虛弱</h>和<h>易傷</h>。"
+  },
+  "Emi": {
+    "Name": "電磁干擾",
+    "Description": "<OwnerName />無法行動，剩餘<Duration /> 回合。"
+  },
+  "TurnStartPurify": {
+    "Name": "消毒完畢",
+    "Description": "<PlayerName />的回合開始時，<h>純化</h> <Level /> 。<br />回合結束時移除本效果。"
+  },
+  "RockHard": {
+    "Name": "硬！",
+    "Description": "<OwnerName />受到的未被阻擋的攻擊傷害，降低 <Level /> 點。"
+  },
+  "RockHardAura": {
+    "Name": "要石庇護",
+    "Description": "<OwnerName />處於要石的庇護之下，受到的未被阻擋攻擊的傷害降低 <Level /> 點。"
+  },
+  "LouguanJianSe": {
+    "Name": "樓觀劍",
+    "Description": "<OwnerName />進行攻擊後，對目標施加 <Level /> 層<h>鎖定</h>。"
+  },
+  "KokoroXi": {
+    "Name": "喜",
+    "Description": "<OwnerName />行動後召喚一個面靈氣。（已經發生）"
+  },
+  "KokoroNu": {
+    "Name": "怒",
+    "Description": "<OwnerName />行動後所有敵人獲得 <Level /> 點<h>火力</h>。（已經發生）"
+  },
+  "KokoroYou": {
+    "Name": "憂",
+    "Description": "<OwnerName />行動後對<PlayerName />施加 <Level /> 回合<h>虛弱</h>。（已經發生）"
+  },
+  "KokoroRenzhen": {
+    "Name": "認真",
+    "Description": "<OwnerName />行動後清空<h>黑暗情緒</h>，每一點對<PlayerName />造成 <Level /> 點直接傷害。（已經發生）"
+  },
+  "KokoroDarkPower": {
+    "Name": "黑暗情緒聚集",
+    "Description": "<OwnerName />下次符卡攻擊時，還會額外對<PlayerName />造成直接傷害。<br />在<PlayerName />受到負面狀態時提高。"
+  },
+  "LongLight": {
+    "Name": "閃光三腳架",
+    "Description": "<OwnerName />變得愈發炫光奪目，傷害提高，強化她添加的狀態牌。"
+  },
+  "LongEscape": {
+    "Name": "放水",
+    "Description": "<OwnerName />會在生命值低於 <Level /> 時離開戰鬥。"
+  },
+  "FlatPeach": {
+    "Name": "仙桃",
+    "Description": "<OwnerName />受到傷害時，恢復 <Level /> 點生命。"
+  },
+  "EnemyEnergy": {
+    "Name": "能量",
+    "Description": "<OwnerName />受到傷害時，獲得等量的<Power />，用於釋放她的符卡。"
+  },
+  "EnemyEnergyNegative": {
+    "Name": "消耗能量",
+    "Description": "<OwnerName />消耗了<Power />。<br />不應該正常遊戲流程中顯示出來。"
+  },
+  "YuyukoDeath": {
+    "Name": "生者必滅",
+    "Description": "<OwnerName />的回合結束時，失去 <Level /> 點生命。<br /><OwnerName />無法恢復生命。"
+  },
+  "FastAttack": {
+    "Name": "唯快不破",
+    "Description": "每回合使用第一張牌後，<OwnerName />就會對<PlayerName />造成 <Level /> 點<h>攻擊</h>傷害。"
+  },
+  "PowerByDefense": {
+    "Name": "無堅不摧",
+    "Description": "每打出一張防禦牌，<OwnerName />獲得 <Level /> 點<h>火力</h>。"
+  },
+  "PurifyModule": {
+    "Name": "淨化模組",
+    "Description": "<OwnerName />的攻擊命中時，<h>淨化</h>下回合的法力 <Level /> 點。"
+  },
+  "LightingModule": {
+    "Name": "閃光模組",
+    "Description": "<OwnerName />的攻擊命中時，將 <Level /> 張<h>璀璨星光</h>洗入抽牌堆。"
+  },
+  "AccuracyModule": {
+    "Name": "制導模組",
+    "Description": "<OwnerName />的攻擊都具有<h>精準</h>。"
+  },
+  "EnemyTuanzi": {
+    "Name": "好食的糰子",
+    "Description": "<OwnerName />的回合結束時，恢復 <Level /> 點生命。"
+  },
+  "LimaoDisguiser": {
+    "Name": "變身戲法",
+    "Description": "這個單位是偽裝的。"
+  },
+  "SuwakoHex": {
+    "Name": "作祟",
+    "Description": "<PlayerName />的回合開始時，一張隨機的手牌被作祟，變成無用之物。"
+  },
+  "SijiZui": {
+    "Name": "是非曲直",
+    "Description": "<PlayerName />的罪孽程度：輕度。"
+  },
+  "MirrorImage": {
+    "Name": "鏡像",
+    "Description": "<OwnerName />的鏡中倒影。"
+  },
+  "DoremyLevel": {
+    "Name": "夢境等級",
+    "Description": "在深層的夢境裏，<OwnerName />會發揮更強的實力。"
+  },
+  "Sleep": {
+    "Name": "食夢者",
+    "Description": "<OwnerName />的回合結束時，將<h>護盾</h>補至 <Level /> 點。<br /><Count /> 回合後或受到傷害時醒來。"
+  },
+  "DreamMaster": {
+    "Name": "造夢者",
+    "Description": "<OwnerName />是夢境的主宰者。"
+  },
+  "DreamServant": {
+    "Name": "夢境居民",
+    "Description": "<OwnerName />無法被傷害。"
+  },
+  "Curiosity": {
+    "Name": "我很好奇！",
+    "Description": "每當<PlayerName />打出一張能力牌，<OwnerName />獲得 <Level /> 點<h>火力</h>。"
+  },
+  "ScarletDestiny": {
+    "Name": "緋色命運",
+    "Description": "在一回合內打出 <Limit /> 張牌後，<OwnerName />會強制結束<PlayerName />的回合。<br />剩餘<Count /> 張。"
+  },
+  "JunkoPurify": {
+    "Name": "純化光耀",
+    "Description": "每當<PlayerName />打出一張牌，<h>純化</h> <Level /> 。"
+  },
+  "JunkoLily": {
+    "Name": "殺意的百合",
+    "Description": "<h>純化光耀</h>生效時還會使<PlayerName />失去 <Level /> 點生命。"
+  },
+  "JunkoColor": {
+    "Name": "溢出的瑕穢",
+    "Description": "<PlayerName />的污穢程度：輕度。"
+  },
+  "SingleJiandaoSe": {
+    "Name": "巨大的單片剪刀",
+    "Description": "每當<PlayerName />打出一張牌，受到 <Level /> 點傷害。"
+  },
+  "ShendengSe": {
+    "Name": "前端很長的茶壺",
+    "Description": "<OwnerName />的回合結束時，對<PlayerName />施加 <Level /> 回合負面狀態。從<h>虛弱</h>、<h>脆弱</h>及<h>易傷</h>中隨機。"
+  },
+  "HolyGrailSe": {
+    "Name": "裝飾浮誇的金杯",
+    "Description": "<OwnerName />下回合開始時，<PlayerName />失去<h>秘寶</h>及<h>光耀</h>除外的所有的展品。"
+  },
+  "SihunYuSe": {
+    "Name": "散發邪氣的掛墜",
+    "Description": "<OwnerName />的回合結束時，吸引一些隨機的敵人進入戰鬥。"
+  },
+  "MadokaBowSe": {
+    "Name": "迸發光芒的長弓",
+    "Description": "<OwnerName />回合結束時，將 <Level /> 張隨機的狀態牌洗入抽牌堆。"
+  },
+  "QiannianShenqiSe": {
+    "Name": "金字塔形狀的積木",
+    "Description": "<PlayerName />每回合只能抽 <Limit /> 張牌，剩餘<Count /> 張。"
+  },
+  "InfinityGemsSe": {
+    "Name": "鑲有寶石的手套",
+    "Description": "<OwnerName />的回合開始時，隨機<h>放逐</h><PlayerName />一半的卡牌，無論它們在哪裏。剩餘<Count /> 次。"
+  },
+  "SakuraWandSe": {
+    "Name": "長翅膀的鑰匙",
+    "Description": "<OwnerName />攻擊次數翻倍。"
+  },
+  "DragonBallSe": {
+    "Name": "印著星星的玻璃球",
+    "Description": "<OwnerName />下回合開始時，她的願望得以實現：<PlayerName />將會失敗，無法避免。"
+  },
+  "JiangshenSe": {
+    "Name": "降神修行",
+    "Description": "本場戰鬥中，所有臨時增加的牌將會<h>升級</h>。"
+  },
+  "BoliDajiejieSe": {
+    "Name": "博麗大結界",
+    "Description": "本場戰鬥中，<OwnerName />的<h>格擋</h>均會轉化為等量的<h>護盾</h>。"
+  },
+  "FreeFlySe": {
+    "Name": "自由飛行",
+    "Description": "<PlayerName />的回合開始時，獲得 <Level /> 點<Mana />。"
+  },
+  "DoubleLianhuadieSe": {
+    "Name": "二色蓮花蝶",
+    "Description": "每當<PlayerName />獲得<h>格擋</h>或<h>護盾</h>時，對隨機一名敵人造成 <Level /> 點傷害。"
+  },
+  "DanceAroundLakeSe": {
+    "Name": "池邊起舞",
+    "Description": "每<h>放逐</h>一張牌，就抽 <Level /> 張牌。"
+  },
+  "EvilTuiZhiSe": {
+    "Name": "妖邪退治",
+    "Description": "下 <Level /> 張攻擊牌造成雙倍傷害。"
+  },
+  "YinyangXueyinSe": {
+    "Name": "陰陽血印",
+    "Description": "打出<h>陰陽玉</h>後獲得 <Level /> 點<h>暫得火力</h>及<h>暫得靈力</h>。"
+  },
+  "BoliPhantomSe": {
+    "Name": "博麗幻影",
+    "Description": "每<h>放逐</h>一張不是<h>封魔針</h>的牌，將 <Level /> 張<h>封魔針</h>加入手中，它們<h>暫塑</h>為<Mana />。"
+  },
+  "TaijiLiangyiSe": {
+    "Name": "太極生兩儀",
+    "Description": "<PlayerName />的回合開始時，如果手中<h>陰陽玉</h>不足 <Level /> 張，將<h>陰陽玉</h>加入手中直到 <Level /> 張。"
+  },
+  "HuanxiangBlockSe": {
+    "Name": "幻想防禦",
+    "Description": "每當一張牌被<h>放逐</h>時，<PlayerName />獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "ReimuFestivalSe": {
+    "Name": "神櫻之舞",
+    "Description": "<PlayerName />的回合開始時獲得 <Level /> 點<h>暫得火力</h>。"
+  },
+  "ReimuShrineSe": {
+    "Name": "博麗廟會",
+    "Description": "<PlayerName />的回合開始時獲得 <Level /> 點<h>暫得靈力</h>。"
+  },
+  "ReverseJiejieSe": {
+    "Name": "逆轉結界",
+    "Description": "當<PlayerName />失去一個正面效果時，獲得 <Level /> 點<h>護盾</h>。"
+  },
+  "ReimuFreeAttackSe": {
+    "Name": "幻想一重",
+    "Description": "下 <Level /> 張攻擊牌費用為<Mana />。"
+  },
+  "MomentPowerSe": {
+    "Name": "刹那亞空穴",
+    "Description": "每當<OwnerName />獲得<h>暫得火力</h>及<h>暫得靈力</h>時，其中 <Level /> 點轉化為<h>火力</h>及<h>靈力</h>。"
+  },
+  "ReimuSilenceSe": {
+    "Name": "「夢想封印 寂」",
+    "Description": "抽牌階段外每抽 <Limit /> 張牌，對所有敵人造成 <Damage /> 點攻擊傷害。<br />剩餘 <Count /> 張。"
+  },
+  "SenluoJiejieSe": {
+    "Name": "森羅結界",
+    "Description": "下回合開始時引爆<h>護盾</h>。"
+  },
+  "Charging": {
+    "Name": "充能",
+    "Description": "<PlayerName />累計 <TriggerLevel /> 層<h>充能</h>時，進入<h>爆發</h>狀態。"
+  },
+  "Burst": {
+    "Name": "爆發",
+    "Description": "<PlayerName />進入<h>爆發</h>狀態時，獲得<Mana />。<br />攻擊造成 <DamageRate /> 倍傷害。<br />回合結束時離開<h>爆發</h>狀態。"
+  },
+  "Concentration": {
+    "Name": "專注",
+    "Description": "免費觸發卡牌的<h>超載</h>效果，剩餘<Level /> 次。"
+  },
+  "BurstUpgrade": {
+    "Name": "火力全開",
+    "Description": "提高<h>爆發</h>傷害倍率。"
+  },
+  "BurstDrawSe": {
+    "Name": "速度對決",
+    "Description": "進入<h>爆發</h>時抽 <Level /> 張牌。"
+  },
+  "SolarSystemSe": {
+    "Name": "太陽系儀",
+    "Description": "<PlayerName />的回合開始時，獲得 <Level /> 層<h>充能</h>。"
+  },
+  "ScryBlockSe": {
+    "Name": "早有預謀",
+    "Description": "每次<h>占卜</h>時，<PlayerName />獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "LearnAstrologySe": {
+    "Name": "天文研修",
+    "Description": "<PlayerName />的回合開始時，如果手中<h>占星</h>不足 <Level /> 張，將<h>占星</h>加入手中直到 <Level /> 張。"
+  },
+  "PotionJungleSe": {
+    "Name": "熒光森林",
+    "Description": "<PlayerName />的回合結束時，將 <Level /> 張<h>不穩定魔藥</h>洗入棄牌堆。"
+  },
+  "UpgradePotionSe": {
+    "Name": "精研魔藥",
+    "Description": "<PlayerName />的回合結束時，抽牌堆及棄牌堆中的<h>不穩定魔藥</h>傷害提高 <Level /> 點。"
+  },
+  "PotionBaseDamageSe": {
+    "Name": "易爆成分",
+    "Description": "<h>不穩定魔藥</h>的基礎傷害提高 <Level /> 點。"
+  },
+  "MasterOfCollectionSe": {
+    "Name": "收藏專家",
+    "Description": "每當一張牌被<h>保留</h>時，降低 <Level /> 點它的隨機費用，直到戰鬥結束。"
+  },
+  "PotionDefenseSe": {
+    "Name": "流星共鳴",
+    "Description": "本回合內，每當一張<h>不穩定魔藥</h>觸發時，獲得 <Level /> 點<h>護盾</h>。"
+  },
+  "ChargingPotionSe": {
+    "Name": "放射元素",
+    "Description": "每當一張<h>不穩定魔藥</h>觸發時，獲得 <Level /> 層<h>充能</h>。"
+  },
+  "PoisonPotionSe": {
+    "Name": "魔女坩堝",
+    "Description": "<h>不穩定魔藥</h>還會施加 <Level /> 層<h>中毒</h>。"
+  },
+  "ColdPotionSe": {
+    "Name": "冷卻劑",
+    "Description": "<h>不穩定魔藥</h>還會施加<h>寒冷</h>。"
+  },
+  "SplitPotionSe": {
+    "Name": "增產劑",
+    "Description": "<h>不穩定魔藥</h>額外攻擊 <Level /> 個目標。"
+  },
+  "TimeAuraSe": {
+    "Name": "時域衝擊",
+    "Description": "<PlayerName />的回合結束時，對所有敵人造成 <Level /> 點傷害。<br />每對一個敵人造成傷害就降低一層。"
+  },
+  "GainKnifeSe": {
+    "Name": "星劍飛舞",
+    "Description": "<PlayerName />的回合開始時，將 <Level /> 張<h>飛刀</h>加入手中。"
+  },
+  "SakuyaInvestigateSe": {
+    "Name": "時停偵探",
+    "Description": "<PlayerName />的額外回合開始時，對所有敵人施加 <Level /> 層<h>鎖定</h>。"
+  },
+  "BladePowerSe": {
+    "Name": "快閃之銀",
+    "Description": "主動使用<h>飛刀</h>後將 <Level /> 張隨機的攻擊牌加入手中，它們<h>暫塑</h>為<Mana />，具有<h>放逐</h>、<h>虛無</h>。"
+  },
+  "PerfectServantUSe": {
+    "Name": "額外備案",
+    "Description": "<OwnerName />的下個回合開始時，獲得 <Level /> 點<Mana />，額外抽 <Level /> 張牌。"
+  },
+  "PerfectServantWSe": {
+    "Name": "準備就緒",
+    "Description": "<OwnerName />的下回合抽牌階段結束時，所有手牌<h>暫時降低</h> <Level /> 點隨機的費用。"
+  },
+  "EvilMaidSe": {
+    "Name": "惡魔的女僕",
+    "Description": "下面 <Level /> 個回合的攻擊傷害翻倍。"
+  },
+  "EvilMaidDoubleAttack": {
+    "Name": "惡魔之力",
+    "Description": "<PlayerName />的攻擊傷害翻倍，剩餘<Duration /> 回合。"
+  },
+  "MihuanJackSe": {
+    "Name": "迷幻傑克",
+    "Description": "回合開始時，獲得 <Level /> 層<h>時域衝擊</h>。"
+  },
+  "StopTimeSe": {
+    "Name": "凝固時間",
+    "Description": "<PlayerName />的回合結束時，剩餘法力中隨機的 <Level /> 點，不會流失。"
+  },
+  "SakuyaKillerSe": {
+    "Name": "夜霧幻影殺人鬼",
+    "Description": "<PlayerName />的回合結束時，將 <Level /> 張<h>飛刀</h>洗入抽牌堆。<br />每當一名敵人被擊敗時亦如此。"
+  },
+  "SilverBladeSe": {
+    "Name": "銀色異次元",
+    "Description": "每一張攻擊牌生效後，獲得 <Level /> 點<h>護盾</h>。"
+  },
+  "SpecialClockSe": {
+    "Name": "特製懷錶",
+    "Description": "在<PlayerName />的回合開始時，選擇至多 <Level /> 張手牌丟棄，抽等量的牌。"
+  },
+  "KnifeWithLockedOn": {
+    "Name": "下一個就輪到你了！",
+    "Description": "主動使用的<h>飛刀</h>施加 <Level /> 層<h>鎖定</h>。"
+  },
+  "ClockCorpseSe": {
+    "Name": "鐘錶的殘骸",
+    "Description": "抽牌階段結束後無法再抽牌。"
+  },
+  "LunaClockSe": {
+    "Name": "時空破損",
+    "Description": "無法造成攻擊傷害。"
+  },
+  "DrawPhaseAddKnife": {
+    "Name": "抽牌階段獲得飛刀",
+    "Description": "跳過抽牌階段，改為將 <Limit /> 張<h>飛刀</h>加入手中。"
+  },
+  "BrokenTimelineSe": {
+    "Name": "破碎的時間線",
+    "Description": "回合開始時不會從基礎法力中獲得法力。"
+  },
+  "DangerousMagicianSe": {
+    "Name": "危險的魔術師",
+    "Description": "每當一張<h>飛刀</h>生效時，<PlayerName />獲得 <Level /> 層<h>時域衝擊</h>。"
+  },
+  "AutoKnifeSe": {
+    "Name": "妖器「銀質飛刀」",
+    "Description": "本場戰鬥中，<h>飛刀</h>具有<h>自動放逐</h>。"
+  },
+  "KnifeTarget": {
+    "Name": "鎖定的目標",
+    "Description": "<h>飛刀</h>會優先攻擊<OwnerName />。"
+  },
+  "Cold": {
+    "Name": "寒冷",
+    "Description": "<OwnerName />回合開始時失去 <BaseDamage /> 點生命，移除<h>寒冷</h>。<br />再次受到<h>寒冷</h>效果時失去 <StackMultiply /> 倍生命（<StackDamage />點）。"
+  },
+  "ColdUp": {
+    "Name": "嚴寒刺骨",
+    "Description": "提高 <Level /> 倍<h>寒冷</h>的疊加傷害。"
+  },
+  "NextTurnColdAll": {
+    "Name": "冷氣滯留",
+    "Description": "<OwnerName />的下回合開始時，對所有敵人施加<h>寒冷</h>，生效 <Level /> 次。"
+  },
+  "FreezeBulletSe": {
+    "Name": "凍結彈幕",
+    "Description": "對接下來攻擊<OwnerName />的敵人施加<h>寒冷</h>，可以生效 <Level /> 次。<br /><OwnerName />的下回合開始時移除此效果。"
+  },
+  "FrostArmor": {
+    "Name": "寒冰甲",
+    "Description": "<OwnerName />的回合開始時，獲得 <Level /> 點<h>格擋</h>，降低 1 層。<br />受到攻擊傷害時，降低 1 層。"
+  },
+  "IceMatrixSe": {
+    "Name": "冰凍矩陣",
+    "Description": "<PlayerName />對敵人施加<h>寒冷</h>時，獲得 <Level /> 層<h>寒冰甲</h>。"
+  },
+  "DeepFreezeSe": {
+    "Name": "冰尖之舞",
+    "Description": "打出藍色卡牌後，<PlayerName />獲得 <Level /> 點<h>暫得火力</h>。"
+  },
+  "Immune": {
+    "Name": "寒冰屏障",
+    "Description": "<OwnerName />免疫所有傷害 ，剩餘<Duration /> 回合。"
+  },
+  "ExtraBlizzard": {
+    "Name": "風雪來襲",
+    "Description": "<OwnerName />的下回合開始時，對所有敵人造成 <Damage /> 點<h>精準</h>的傷害，施加<h>寒冷</h>。"
+  },
+  "ExtraDraw": {
+    "Name": "妖精智慧",
+    "Description": "<OwnerName />的下回合開始時，額外抽 <Level /> 張牌。"
+  },
+  "FairyTreeSe": {
+    "Name": "妖精之家",
+    "Description": "主動打出而召喚一名<h>同伴</h>時，獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "MinengZhuruSe": {
+    "Name": "秘能注入",
+    "Description": "已召喚的<h>同伴</h>牌，被動效果額外觸發 <Level /> 次。"
+  },
+  "ColdHeartedSe": {
+    "Name": "冰冷血脈",
+    "Description": "<h>冰槍術</h>對<h>寒冷</h>的目標造成三倍傷害。<br /><OwnerName />的回合結束時移除<h>冰冷血脈</h>。"
+  },
+  "FriendDrawSe": {
+    "Name": "花園集會",
+    "Description": "使用<h>同伴</h>的<ha>主動技能</ha>或<hu>終結技</hu>時，抽 <Level /> 張牌。<br />使用<hu>終結技</hu>時額外獲得 <Level /> 點隨機的法力。"
+  },
+  "ForeverCoolSe": {
+    "Name": "永遠涼爽的幻想四季",
+    "Description": "使用<h>同伴</h>的<ha>主動技能</ha>或<hu>終結技</hu>時，對隨機 <Level /> 名敵人施加<h>寒冷</h>。<br />任意敵人受到<h>寒冷</h>時，手中隨機 <Level /> 張<h>同伴</h>牌獲得一點<h>支援度</h>。"
+  },
+  "MoreFriendsSe": {
+    "Name": "社交達人",
+    "Description": "<PlayerName />的回合開始時，將 <Level /> 張隨機的<h>同伴</h>牌加入手中。<br />如此獲得的<h>同伴</h>牌具有<h>虛無</h>，被召喚後會移除<h>虛無</h>。"
+  },
+  "FrozenThroneSe": {
+    "Name": "冰封王座",
+    "Description": "<PlayerName />的回合開始時，如果手中<h>冰彈</h>不足 <Level /> 張，將<h>冰彈</h>加入手中直到 <Level /> 張。"
+  },
+  "WhiteWorldSe": {
+    "Name": "純白的世界",
+    "Description": "<PlayerName />的回合開始時，對所有敵人施加<h>寒冷</h> <Level /> 次。"
+  },
+  "SummerFlowerSe": {
+    "Name": "盛夏花開",
+    "Description": "<SourceCardName />額外造成 <Level /> 點傷害。"
+  },
+  "MaidFriendSe": {
+    "Name": "飛刀陪練",
+    "Description": "<SourceCardName />額外造成 <Level /> 點傷害。"
+  },
+  "StarFriendSe": {
+    "Name": "星羅棋布",
+    "Description": "<SourceCardName />造成傷害時，施加 <Level /> 層<h>鎖定</h>。"
+  },
+  "MoodPassion": {
+    "Name": "熱情",
+    "Description": "處於<h>熱情</h>時，<PlayerName />造成和受到的攻擊傷害提高 <Percentage />%。<br /><h>熱情</h>是一種<h>心境</h>，<PlayerName />只能處於一種<h>心境</h>中。"
+  },
+  "MoodPeace": {
+    "Name": "平靜",
+    "Description": "離開<h>平靜</h>時獲得<Mana />。<br /><h>平靜</h>是一種<h>心境</h>，<PlayerName />只能處於一種<h>心境</h>中。"
+  },
+  "MoodEnlight": {
+    "Name": "神遊",
+    "Description": "進入<h>神遊</h>時獲得<Mana />。<br />處於<h>神遊</h>時，每打出一張牌抽一張牌。<br /><h>神遊</h>是一種<h>心境</h>，<PlayerName />只能處於一種<h>心境</h>中。"
+  },
+  "InspirationSe": {
+    "Name": "靈感迸發",
+    "Description": "<PlayerName />累計 <TriggerLevel /> 層<h>靈感迸發</h>時，將等量的<h>靈感</h>洗入抽牌堆，進入<h>神遊</h>。"
+  },
+  "NextTurnPassionSe": {
+    "Name": "被厭惡者的哲學",
+    "Description": "<PlayerName />的下回合開始時，進入<h>熱情</h>，抽 <Level /> 張牌。"
+  },
+  "PassionDrawSe": {
+    "Name": "熱戀抽牌",
+    "Description": "每當<PlayerName />進入<h>熱情</h>時，抽 <Level /> 張牌。"
+  },
+  "PeaceBlockSe": {
+    "Name": "平靜格擋",
+    "Description": "<PlayerName />的回合結束時如果處於<h>平靜</h>，獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "MoodChangeBlockSe": {
+    "Name": "心靈壁壘",
+    "Description": "每當<PlayerName />轉化<h>心境</h>時，獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "LunaticPassionSe": {
+    "Name": "瘋狂之愛",
+    "Description": "<h>熱情</h>的傷害提高改為 <Percentage />%。"
+  },
+  "Constrain": {
+    "Name": "抑制",
+    "Description": "抵消獲得的<h>格擋</h>和<h>護盾</h>。"
+  },
+  "WuyishiDNASe": {
+    "Name": "無意識的基因",
+    "Description": "<PlayerName />的回合結束時，如果不處於<h>頓悟</h>，死亡。"
+  },
+  "BenwoTouyingSe": {
+    "Name": "自我投影",
+    "Description": "每次進入<h>熱戀</h>時，將 <Level /> 張完全隨機的攻擊牌加入手牌，<h>暫塑</h>為<Mana />且附帶<h>放逐</h>。"
+  },
+  "ChaofanyinSe": {
+    "Name": "超反應知覺",
+    "Description": "每當你打出一張不是<h>複製</h>的直覺牌時，如果沒有觸發<h>直覺</h>，將 <Level /> 張費用為<Mana />且附帶<h>放逐</h>的複製加入手中。"
+  },
+  "ChaoyueZiwoSe": {
+    "Name": "超越自我",
+    "Description": "<PlayerName />的回合結束時，如果處於<h>平靜</h>，獲得 <Level /> 點<h>火力</h>和<h>靈力</h>。"
+  },
+  "KongxiangshangSe": {
+    "Name": "空想上的人格保持者",
+    "Description": "打出<h>基本防禦</h>牌後進入<h>平靜</h>。"
+  },
+  "ShortLove": {
+    "Name": "閃電戀",
+    "Description": "下一張<h>基本</h>卡的數值提高 <Level />。"
+  },
+  "LongLove": {
+    "Name": "長相思",
+    "Description": "所有<h>基本</h>卡的數值提高 <Level />。"
+  },
+  "ZhuozhuangChengzhangSe": {
+    "Name": "茁壯成長",
+    "Description": "<PlayerName />的回合結束時，將 <Level /> 張<h>生機</h>加入手牌。"
+  },
+  "QingxingMengSe": {
+    "Name": "白日清醒夢",
+    "Description": "<PlayerName />的回合開始時，將 <Level /> 張<h>完全隨機</h>的<h>稀有</h>牌加入手中，它暫塑為<Mana1 />，具有<h>放逐</h>、<h>虛無</h> 。<br /><PlayerName />的每個回合只能打出 <Limit /> 層張<h>稀有</h>牌，剩餘 <Count /> 張。"
+  },
+  "QiangweiDiyuSe": {
+    "Name": "薔薇地獄",
+    "Description": " 每當一張基本牌進入手牌時，對隨機敵人造成 <Count /> 點傷害，然後將傷害提高 <Level /> 點。"
+  },
+  "YukariFlyObjectSe": {
+    "Name": "超高速飛行物體",
+    "Description": "<PlayerName />的下回合開始時，對生命值最高的敵人造成 <Level /> 點傷害。"
+  },
+  "LoseSpiritSe": {
+    "Name": "丟失的羽衣",
+    "Description": "<PlayerName />回合開始時，失去 <Level /> 點<h>靈力</h>。"
+  },
+  "MoreDraw": {
+    "Name": "傳道授業",
+    "Description": "抽牌階段多抽 <Level /> 張牌。"
+  },
+  "YonglinCardSe": {
+    "Name": "賢者的歸隱",
+    "Description": "<PlayerName />的回合結束時，將 <Level /> 張<h>虛假之月</h>洗入抽牌堆。"
+  },
+  "UseCardToLoseGame": {
+    "Name": "時日無多",
+    "Description": "打出 <Count /> 張牌後死亡。"
+  },
+  "NextTurnLoseGame": {
+    "Name": "行將就木",
+    "Description": "下回合開始時死亡。"
+  },
+  "GrimoireStudySe": {
+    "Name": "黑暗魔導書",
+    "Description": "<OwnerName />的回合結束時將一張<h>幻虹</h>加入手中。"
+  },
+  "ShannvAbilitySe": {
+    "Name": "原因不明的熱病",
+    "Description": "<PlayerName />的回合結束時，對所有敵人施加 <Level /> 層<h>中毒</h>。"
+  },
+  "BailianBlackSe": {
+    "Name": "擁抱黑暗",
+    "Description": "所有防禦、技能及狀態牌，打出後被<h>放逐</h>，它們的費用降至<Mana />。"
+  },
+  "MeihongFireSe": {
+    "Name": "無差別起火符",
+    "Description": "<PlayerName />的回合結束時，對所有敵人造成 <Level /> 點傷害。<br />每抽到一張<h>厄運</h>或狀態牌時亦如此。"
+  },
+  "MeihongPowerSe": {
+    "Name": "不死的烈焰",
+    "Description": "<PlayerName />的回合開始時，獲得 <Level /> 點<h>火力</h>。<br />戰鬥結束時，如果<PlayerName />的生命值低於一半，恢復 <Heal /> 點生命。"
+  },
+  "HuiyeManaSe": {
+    "Name": "竹取物語",
+    "Description": "<PlayerName />的回合開始時，獲得 <Count /> 點隨機的法力。<br />每次生效前提高 <Level /> 點。"
+  },
+  "YouxiangMoonSe": {
+    "Name": "花鳥風月",
+    "Description": "<PlayerName />的回合開始時，獲得 <Level /> 點<Mana />。"
+  },
+  "RangziFanshuSe": {
+    "Name": "香甜的番薯",
+    "Description": "戰鬥結束後恢復 <Level /> 點生命。"
+  },
+  "DizangLoveSe": {
+    "Name": "即席菩提",
+    "Description": "打出普通卡牌後，<OwnerName />獲得 <Level /> 點<h>暫得火力</h>。"
+  },
+  "ZhenmiaowanAttackSe": {
+    "Name": "一寸法師的末裔",
+    "Description": "本回合內技能牌的費用降低<Mana />。"
+  },
+  "ModuoluoFireSe": {
+    "Name": "穢那之火",
+    "Description": "每當<ManaP />被支付時，對所有敵人造成 <Level /> 點傷害。"
+  },
+  "RinDrawSe": {
+    "Name": "支配怨靈",
+    "Description": "每抽到一張狀態牌，抽 <Level /> 張牌。"
+  },
+  "HekaHellRainSe": {
+    "Name": "地獄之雨",
+    "Description": "每打出一張牌，回合結束時對所有敵人造成 <Level /> 點傷害。<br />已累計 <Count /> 點。"
+  },
+  "TiangouOrderSe": {
+    "Name": "大天狗的號令",
+    "Description": "當<OwnerName />受到攻擊時，<PlayerName />獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "SeeFengshuiSe": {
+    "Name": "考察風水",
+    "Description": "<PlayerName />的回合開始時，<h>占卜</h> <Scry /> 。<br />這次<h>占卜</h>中每丟棄一張防禦牌，獲得 <Block /> 點<h>格擋</h>。"
+  },
+  "RainbowMarketSe": {
+    "Name": "月虹市場",
+    "Description": "每當一張牌被<h>放逐</h>時，增加 <Level /> 張隨機的卡牌進入手中。"
+  },
+  "KokoroDanceSe": {
+    "Name": "假面喪心舞",
+    "Description": "每當敵人受到負面狀態時，<PlayerName />對他造成 <Level /> 點傷害。"
+  },
+  "YachieDefendSe": {
+    "Name": "龜甲地獄",
+    "Description": "阻擋<OwnerName />的下 <Level /> 次生命損失。<br />如果傷害來源是敵人，還會反彈給他。"
+  },
+  "TodayYesterdaySe": {
+    "Name": "今昔幻想鄉",
+    "Description": "<OwnerName /><h>閃避</h>傷害時，獲得 <Level /> 點<h>火力</h>。"
+  },
+  "BlackPoisonSe": {
+    "Name": "黑暗演舞",
+    "Description": "<PlayerName />每次攻擊造成未被阻擋的傷害時，施加 <Level /> 層<h>中毒</h>。"
+  },
+  "MeilingAbilitySe": {
+    "Name": "烈虹真拳",
+    "Description": "<PlayerName />獲得雙倍的<h>火力</h>及<h>暫得火力</h>。"
+  },
+  "YonglinUpgradeSe": {
+    "Name": "仙香玉兔",
+    "Description": "<PlayerName />的回合開始時，升級 <Level /> 張隨機的手牌。"
+  },
+  "YinyangQueenSe": {
+    "Name": "能工巧匠魅須丸",
+    "Description": "所有的<h>陰陽玉</h>效果提高 <Level /> 倍。"
+  },
+  "HuiyeTimeSe": {
+    "Name": "須臾之間",
+    "Description": "本回合只能打出 <Limit /> 張牌，剩餘<Count /> 張。"
+  },
+  "ShirenKunchongSe": {
+    "Name": "食人昆蟲",
+    "Description": "當<OwnerName />受到<h>負面狀態</h>時，<PlayerName />獲得 <Level /> 點<h>格擋</h>。"
+  },
+  "MeilingWaterSe": {
+    "Name": "無處可退",
+    "Description": "<OwnerName />的回合開始時，失去 <Level /> 點生命。"
+  },
+  "YouxiangWakeSe": {
+    "Name": "按時起床",
+    "Description": "<Count /> 回合後的回合開始時：取得 <Level /> 點<h>火力</h>，將抽牌堆中隨機的 <Limit /> 張攻擊牌移入手中，<h>暫塑</h>為<Mana />。"
+  },
+  "SanaeSummonGodSe": {
+    "Name": "召請建御名方神",
+    "Description": "<Count /> 回合後的回合開始時：獲得 <Level /> 點<h>火力</h>和<h>靈力</h>。"
+  },
+  "TianziRockSe": {
+    "Name": "絕壁！",
+    "Description": "<OwnerName />受到的攻擊傷害降低 <Level /> 點。"
+  },
+  "PrismriverSe": {
+    "Name": "棱鏡協奏曲",
+    "Description": "本場戰鬥中，<PlayerName />獲得的所有法力都轉化為<h>彩色</h>。"
+  },
+  "BailianFireSe": {
+    "Name": "法界之火",
+    "Description": "<PlayerName />的回合開始時，將 <Level /> 張隨機的技能牌加入手中，它<h>暫塑</h>為<Mana />，具有<h>放逐</h>、<h>虛無</h>。"
+  },
+  "SuperExtraTurn": {
+    "Name": "世紀的二重身超人",
+    "Description": "<PlayerName />的<h>自然回合</h>結束時，進行額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Level /> 張牌。<br />目前回合狀態：<StatusString />。"
+  },
+  "ZhenmiaowanAbilitySe": {
+    "Name": "小槌的魔力",
+    "Description": "卡牌的費用降低<Mana />。"
+  },
+  "YukariFriendSe": {
+    "Name": "幻想的境界",
+    "Description": "<PlayerName />的回合開始時，將 <Level /> 張隨機的其它中立三色牌加入手中，<h>暫塑</h>為<Mana />，具有<h>虛無</h>。"
+  },
+  "MoonWorldSe": {
+    "Name": "無穢的世界",
+    "Description": "<PlayerName />的回合開始後，<h>淨化</h> <Level /> 張隨機手牌，移除其有色費用。"
+  },
+  "CatchGoblinSe": {
+    "Name": "福星高照",
+    "Description": "受到的傷害減少 33%，擊敗後掉落 50<Money />。"
+  }
 }

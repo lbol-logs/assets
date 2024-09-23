@@ -69,7 +69,7 @@
     "line:04e31e3": "[Refuse] Nothing happens."
   },
   "PatchouliPhilosophy": {
-    "line:0b23fed": "\"What a coincidence, <Player />. I can help tune your affinity with these jewels.\"<br />(A more than sufficient test subject.)",
+    "line:0b23fed": "\"What a coincidence, <PlayerName />. I can help tune your affinity with these jewels.\"<br />(A more than sufficient test subject.)",
     "line:01cdad3": "[Accept] {{0}}",
     "line:07acb35": "Choose a colored base mana, and convert it into Philosopher's Mana.",
     "line:04eeb1a": "[Refuse] Nothing happens."
@@ -95,7 +95,7 @@
     "line:06cd2f3": "[Leave] Nothing happens."
   },
   "ShinmyoumaruForge": {
-    "line:04566b1": "\"We must use the Miracle Mallet to rebel against the rare cards, <Player />!\"",
+    "line:04566b1": "\"We must use the Miracle Mallet to rebel against the rare cards, <PlayerName />!\"",
     "line:04e318b": "[Grow] Choose {{0}} Basic cards to Upgrade.",
     "line:009a2f1": "[Shrink] Remove a <h>non-Basic</h> card from the library.",
     "line:0bb82a2": "[Transform] Choose {{0}} Basic cards to transform into Common cards, lose {{1}} maximum life.",
@@ -116,10 +116,10 @@
     "line:08ee578": "[I'm Broke] Gain Misfortune: <h>{{0}}</h>."
   },
   "HatateInterview": {
-    "line:0fed9a3": "\"Miss <Player />, can I have an interview?\"",
+    "line:0fed9a3": "\"Miss <PlayerName />, can I have an interview?\"",
     "line:0ffc3c5": "[Accept] Answer a question.",
     "line:0b1bfc1": "[Refuse] Nothing happens.",
-    "line:0f1ab7b": "\"Why have you decided to take part in this incident, Miss <Player />?\"",
+    "line:0f1ab7b": "\"Why have you decided to take part in this incident, Miss <PlayerName />?\"",
     "line:0c26759": "[For Gensokyo] Gain <h>{{0}}</h>.",
     "line:01f1aca": "[For Money] Gain <h>{{0}}</h>, gain {{1}} <Money />.",
     "line:018ba4d": "[No Idea] Gain <h>{{0}}</h>, gain Misfortune: <h>{{1}}</h>.",
@@ -153,17 +153,17 @@
   "NarumiOfferCard": {
     "line:0a28cc1": "Will worshipping her bring good fortune?",
     "line:08162bb": "Choose a card to offer, and gain a corresponding reward.",
-    "line:0e989ef": "Narumi hammers her little fist on <Player />'s chest.",
+    "line:0e989ef": "Narumi hammers her little fist on <PlayerName />'s chest.",
     "line:0ff3d42": "[Continue] Lose {{0}} life.",
-    "line:0502c7d": "Narumi smiles at <Player />.",
+    "line:0502c7d": "Narumi smiles at <PlayerName />.",
     "line:079a650": "[Continue] Increase maximum life by {{0}}.",
-    "line:0d02cdc": "Narumi smiles at <Player /> and heals her wounds with magic.",
+    "line:0d02cdc": "Narumi smiles at <PlayerName /> and heals her wounds with magic.",
     "line:0f9e764": "[Continue] Restore {{0}}% life, increase maximum life by {{1}}.",
-    "line:07aab8f": "Narumi smiles at <Player />, casting magic to make herself look radiant.",
+    "line:07aab8f": "Narumi smiles at <PlayerName />, casting magic to make herself look radiant.",
     "line:0cc67e1": "[Continue] Restore life to max, increase maximum life by {{0}}."
   },
   "NazrinDetect": {
-    "line:062ca0e": "\"What do you say, <Player />? Just pay a small fee and it's yours...\"",
+    "line:062ca0e": "\"What do you say, <PlayerName />? Just pay a small fee and it's yours...\"",
     "line:0b435bf": "[Hire] Pay {{0}} <Money />, get a random reward.",
     "line:03c7b6c": "[Refuse] Nothing happens.",
     "line:0aa76a7": "Nazrin finds some ancient coins! Gain {{0}} <Money />.",
@@ -195,7 +195,7 @@
     "line:0b1cdeb": "[Reject] Nothing happens."
   },
   "YoumuDelivery": {
-    "line:0577ef3": "\"Miss <Player />, could you do a taste-test for me before I deliver them to Yuyuko-sama?\"",
+    "line:0577ef3": "\"Miss <PlayerName />, could you do a taste-test for me before I deliver them to Yuyuko-sama?\"",
     "line:0ea45c4": "[Iced Tricolor Dango] Transform one card into an Upgraded multicolor card.",
     "line:0d7cfde": "[Sardinia Mooncake] Gain Exhibit: <h>{{0}}</h>, and gain Misfortune: <h>{{1}}</h>."
   },
@@ -216,17 +216,17 @@
     "line:037c786": "\"The otter spirits smell some of the kappa's rogue drones. For the sake of the land, please deal with the issue as soon as you can~\"",
     "line:07acb62": "[Fight] Fight a phalanx of drones and get a random Rare Exhibit.",
     "line:09e89c0": "[Refuse] Gain Misfortune: <h>{{0}}</h>.",
-    "line:0970713": "\"As expected of <Player />! Please accept my carefully prepared gift!\"",
+    "line:0970713": "\"As expected of <PlayerName />! Please accept my carefully prepared gift!\"",
     "line:0e2d8d9": "[Accept] Gain Exhibit: <h>{{0}}</h>.",
     "line:01fd35f": "[Decline] Nothing happens."
   },
   "AssistKagerou": {
-    "line:0d31645": "\"Miss <Player />, will this treasure I found help you resolve the incident faster?\"",
+    "line:0d31645": "\"Miss <PlayerName />, will this treasure I found help you resolve the incident faster?\"",
     "line:09559cc": "[No Fluff] Gain a random Exhibit. Add <h>{{0}}</h> to the library.",
     "line:05b62f1": "[Yes Fluff] Gain {{0}} <Power />."
   },
   "EternityAscension": {
-    "line:0e35dc4": "\"Come and receive the blessing of the God of Evernight, <Player />!\"",
+    "line:0e35dc4": "\"Come and receive the blessing of the God of Evernight, <PlayerName />!\"",
     "line:0122dcf": "[Grant Enlightenment] Upgrade a card.",
     "line:0663fce": "[Grant Oblivion] Lose {{0}} life, remove a card from the library.",
     "line:0786492": "[Grant Change] Lose {{0}} life, choose a card from the library to transform into an Uncommon card."
@@ -238,7 +238,7 @@
     "line:0db14e0": "[Pass By] Nothing happens."
   },
   "MystiaBbq": {
-    "line:0b7dfd2": "\"Come on, <Player />. Have some skewers or you won't have any energy to exterminate youkai~\"",
+    "line:0b7dfd2": "\"Come on, <PlayerName />. Have some skewers or you won't have any energy to exterminate youkai~\"",
     "line:026a5bc": "[Grilled Lamprey] Restore {{0}} life.",
     "line:06598ae": "[Grilled Mushrooms] Gain {{0}} <Power />.",
     "line:0c3600a": "[No Late Night Snacks] Nothing happens.",
@@ -250,7 +250,7 @@
     "line:0086f01": "[Dine and Dash] Refuse to pay."
   },
   "ParseeJealousy": {
-    "line:0340a4c": "<Player /> sees an Exhibit floating in the water. Fish it out?",
+    "line:0340a4c": "<PlayerName /> sees an Exhibit floating in the water. Fish it out?",
     "line:0557dad": "[Take It] Gain a random Exhibit.",
     "line:0c4a8da": "[Ignore] Nothing happens.",
     "line:028b07c": "\"I'll place a curse on you! You'll only find bad exhibits tonight!\"",
@@ -259,12 +259,12 @@
     "line:03c49f5": "[Give Nothing] Gain Misfortune: <h>{{0}}</h>."
   },
   "RumiaDriving": {
-    "line:05e7754": "<Player /> sees a dusk youkai speeding towards her.",
+    "line:05e7754": "<PlayerName /> sees a dusk youkai speeding towards her.",
     "line:0240015": "[Crash] Lose {{0}} life, gain {{1}} <Money />.",
     "line:0311c57": "[Dodge] Lose {{0}} <Power />."
   },
   "TewiThreat": {
-    "line:05ef949": "<Player /> sees a large bag of money on the side of the road.",
+    "line:05ef949": "<PlayerName /> sees a large bag of money on the side of the road.",
     "line:051369f": "[Take It] Get {{0}} <Money />.",
     "line:050bd26": "[Ignore] Nothing happens.",
     "line:0f3adf4": "\"If you want your luck to stay, it'll cost you a tiny bit.\"<br />*Rubbing fingers*",
@@ -305,7 +305,7 @@
     "line:04fdd25": "[Suggestion Therapy] Choose one of twenty Uncommon or Common cards to add to the library.",
     "line:0dd3ef4": "[Hypnotherapy] Restore {{0}} life.",
     "line:0e5474b": "\"That will depend on the test. Have you felt invincible lately?\"",
-    "line:0006a4e": "Yes (Wish to gain <Player />'s exclusive cards).",
+    "line:0006a4e": "Yes (Wish to gain <PlayerName />'s exclusive cards).",
     "line:0d5424a": "No (Wish to gain neutral cards or exclusive cards of other characters).",
     "line:096a8a5": "\"Do you prefer fighting stylishly to fighting efficiently?\"",
     "line:09916e8": "Yes (Wish to gain <h>Multicolor</h> cards).",
