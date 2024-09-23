@@ -5,6 +5,10 @@
     "turn": "until end of turn",
     "turn_other": "for the next <Duration /> turns"
   },
+  "ordinal_1": "next",
+  "ordinal_2": "{{count}}nd",
+  "ordinal_3": "{{count}}rd",
+  "ordinal_other": "{{count}}th",
   "TempFirepower": {
     "Name": "Temporary Firepower",
     "Description": "Until end of turn, gain <Level /> <h>Firepower</h>.<br /><h>Firepower</h> increases damage dealt with attacks."
@@ -973,11 +977,11 @@
   },
   "YouxiangWakeSe": {
     "Name": "Early Bird",
-    "Description": "At the start of <PlayerName />'s {Count:ordinal one='next' two='%nd' few='%rd' other='%th'} turn {Count:plural one='' other='from now'}, gain <Level /> <h>Firepower</h> and put <Limit /> random attack card{Limit:plural one='' other='s'} from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn {Count:plural one='' other='from now'}, gain <Level /> <h>Firepower</h> and put <Limit /> random attack card{Limit:plural one='' other='s'} from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
   },
   "SanaeSummonGodSe": {
     "Name": "Summon Take-Minakata",
-    "Description": "At the start of <PlayerName />'s {Count:ordinal one='next' two='%nd' few='%rd' other='%th'} turn {Count:plural one='' other='from now'}, gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn {Count:plural one='' other='from now'}, gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
   },
   "TianziRockSe": {
     "Name": "Impregnable!",
