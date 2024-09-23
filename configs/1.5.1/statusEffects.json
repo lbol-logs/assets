@@ -49,5 +49,24 @@
   },
   "YukariFriendSe": {
     "Mana": 0
+  },
+  "Charging":{
+    "TriggerLevel": 8
+  },
+  "Cold": {
+    "BaseDamage": 9,
+    "StackMultiply": 2
+  },
+  "SummerFlowerSe": {
+    "SourceCardName": "SummerFlower"
+  },
+  "MaidFriendSe": {
+    "SourceCardName": "MaidFriend"
+  },
+  "StarFriendSe": {
+    "SourceCardName": "StarFriend"
+  },
+  "SeeFengshuiSe": {
+    "Block": 5
   }
 }

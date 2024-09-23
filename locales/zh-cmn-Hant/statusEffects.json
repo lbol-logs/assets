@@ -990,7 +990,7 @@
   },
   "SuperExtraTurn": {
     "Name": "世紀的二重身超人",
-    "Description": "<PlayerName />的<h>自然回合</h>結束時，進行額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Level /> 張牌。<br />目前回合狀態：<StatusString />。"
+    "Description": "<PlayerName />的<h>自然回合</h>結束時，進行額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Level /> 張牌。"
   },
   "ZhenmiaowanAbilitySe": {
     "Name": "小槌的魔力",

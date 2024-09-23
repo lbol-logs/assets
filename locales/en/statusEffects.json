@@ -988,7 +988,7 @@
   },
   "SuperExtraTurn": {
     "Name": "Century's Doppelgangers",
-    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> aren't lost at the start of that extra turn, and only <Level /> card{Level:plural one='' other='s'} can be played.<br />Turn status: <StatusString />."
+    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> aren't lost at the start of that extra turn, and only <Level /> card{Level:plural one='' other='s'} can be played."
   },
   "ZhenmiaowanAbilitySe": {
     "Name": "Magic of the Mallet",

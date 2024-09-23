@@ -685,7 +685,7 @@
   },
   "DeepFreezeSe": {
     "Name": "つららの舞",
-    "Description": "青のカードを使う度、<PlayerName />は<h>臨時火力</h><Value1 />を得る。"
+    "Description": "青のカードを使う度、<PlayerName />は<h>臨時火力</h><Level />を得る。"
   },
   "Immune": {
     "Name": "アイスブロック",
@@ -897,7 +897,7 @@
   },
   "SanaeSummonGodSe": {
     "Name": "サモンタケミナカタ",
-    "Description": "<Count />ターン後の<PlayerName />のターン開始時：<h>火力</h>と<h>霊力</h>を<Value1 />得る。"
+    "Description": "<Count />ターン後の<PlayerName />のターン開始時：<h>火力</h>と<h>霊力</h>を<Level />得る。"
   },
   "TianziRockSe": {
     "Name": "絶壁！",
@@ -914,7 +914,7 @@
   },
   "SuperExtraTurn": {
     "Name": "世紀のダブルエスパー",
-    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Level />枚しか使用できない。<br />現在のターン：<StatusString />"
+    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Level />枚しか使用できない。"
   },
   "ZhenmiaowanAbilitySe": {
     "Name": "小槌の魔力",
