@@ -975,7 +975,8 @@
   },
   "TianziRockSe": {
     "Name": "Impregnable!",
-    "Description": "Whenever <OwnerName /> receives attack damage, reduce it by <Level />."
+    "Description": "Whenever <OwnerName /> receives attack damage, reduce it by <Level />.",
+    "ExtraDescription": "Whenever <OwnerName /> receives attack damage, reduce it by <Level />.<br /><OwnerName /> can't be applied with <h>Lock On</h>."
   },
   "PrismriverSe": {
     "Name": "Prism Concerto",

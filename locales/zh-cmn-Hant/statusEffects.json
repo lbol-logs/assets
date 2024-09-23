@@ -977,7 +977,8 @@
   },
   "TianziRockSe": {
     "Name": "絕壁！",
-    "Description": "<OwnerName />受到的攻擊傷害降低 <Level /> 點。"
+    "Description": "<OwnerName />受到的攻擊傷害降低 <Level /> 點。",
+    "ExtraDescription": "<OwnerName />受到的攻擊傷害降低 <Level /> 點。<br /><OwnerName />免疫於<h>鎖定</h>。"
   },
   "PrismriverSe": {
     "Name": "棱鏡協奏曲",

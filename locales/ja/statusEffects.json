@@ -901,7 +901,8 @@
   },
   "TianziRockSe": {
     "Name": "絶壁！",
-    "Description": "<OwnerName />が受ける攻撃ダメージを<Level />減らす。"
+    "Description": "<OwnerName />が受ける攻撃ダメージを<Level />減らす。",
+    "ExtraDescription": "<OwnerName />が受ける攻撃ダメージを<Level />減らす。<br /><OwnerName />は<h>ロックオン</h>を受けない。"
   },
   "PrismriverSe": {
     "Name": "プリズムコンチェルト",
