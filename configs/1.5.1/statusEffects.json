@@ -12,5 +12,42 @@
       "Enemy": 50,
       "Player": 25
     }
+  },
+  "FreeFlySe": {
+    "Mana": "P"
+  },
+  "BoliPhantomSe": {
+    "Mana": 0
+  },
+  "ReimuFreeAttackSe": {
+    "Mana": 0
+  },
+  "Burst": {
+    "Mana": "PPP",
+    "DamageRate": "2"
+  },
+  "BladePowerSe": {
+    "Mana": 0
+  },
+  "PerfectServantUSe": {
+    "Mana": "P"
+  },
+  "YouxiangMoonSe": {
+    "Mana": "P"
+  },
+  "ZhenmiaowanAttackSe": {
+    "Mana": 1
+  },
+  "YouxiangWakeSe": {
+    "Mana": 0
+  },
+  "BailianFireSe": {
+    "Mana": 1
+  },
+  "ZhenmiaowanAbilitySe": {
+    "Mana": 1
+  },
+  "YukariFriendSe": {
+    "Mana": 0
   }
 }
