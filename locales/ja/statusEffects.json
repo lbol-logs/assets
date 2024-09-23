@@ -1,236 +1,933 @@
 {
-  "TempFirepower": "臨時火力",
-  "Firepower": "火力",
-  "TempFirepowerNegative": "臨時火力ダウン",
-  "FirepowerNegative": "火力ダウン",
-  "TempSpirit": "臨時霊力",
-  "Spirit": "霊力",
-  "TempSpiritNegative": "臨時霊力ダウン",
-  "SpiritNegative": "霊力ダウン",
-  "Invincible": "天衣無縫",
-  "LearnAstrologySe": "天文研修",
-  "Fragil": "脆弱化",
-  "Weak": "脱力",
-  "Vulnerable": "弱体",
-  "LockedOn": "ロックオン",
-  "Graze": "グレイズ",
-  "TurnStartDontLoseBlock": "ブロック保留",
-  "Electric": "帯電",
-  "ExtraTurn": "追加ターン",
-  "LimitedDamage": "道具の解放者",
-  "Amulet": "加護",
-  "TempElectric": "帯電",
-  "ScarletDestiny": "紅色の運命",
-  "QiannianShenqiSe": "ピラミッド型のパズル",
-  "HolyGrailSe": "装飾が施された金の杯",
-  "BoliDajiejieSe": "博麗大結界",
-  "BoliPhantomSe": "博麗幻影",
-  "SingleJiandaoSe": "半分の巨大な鋏",
-  "SakuraWandSe": "翼のついた鍵",
-  "ReverseJiejieSe": "逆転結界",
-  "DragonBallSe": "星が描かれたボール",
-  "DoubleLianhuadieSe": "二色蓮花蝶",
-  "MomentPowerSe": "刹那亜空穴",
-  "TaijiLiangyiSe": "太極は両儀を生ず",
-  "Curiosity": "わたし、気になります！",
-  "JunkoPurify": "純化の光",
-  "MadokaBowSe": "光輝く長弓",
-  "ShendengSe": "注ぎ口の長いティーポット",
-  "MasterOfCollectionSe": "収集家",
-  "UpgradePotionSe": "ポーションの精錬",
-  "InfinityGemsSe": "宝石が埋め込まれたガントレット",
-  "GainKnifeSe": "星剣の舞",
-  "EvilMaidSe": "悪魔のメイド",
-  "MihuanJackSe": "ジャック・ザ・ルドビレ",
-  "PotionJungleSe": "蛍光の森",
-  "PotionDefenseSe": "流星共鳴",
-  "ChargingPotionSe": "放射性元素",
-  "SakuyaKillerSe": "夜霧の幻影殺人鬼",
-  "JiangshenSe": "神降ろしの修行",
-  "FreeFlySe": "自由飛行",
-  "DanceAroundLakeSe": "湖畔の舞",
-  "EvilTuiZhiSe": "妖怪退治",
-  "SilverBladeSe": "銀色のアナザーディメンジョン",
-  "SpecialClockSe": "咲夜特製ストップウォッチ",
-  "BurstDrawSe": "スピードバトル",
-  "DangerousMagicianSe": "危険な手品師",
-  "SeeFengshuiSe": "風水を操る程度の能力",
-  "YonglinCardSe": "賢者の隠遁",
-  "ShannvAbilitySe": "原因不明の熱病",
-  "BailianBlackSe": "闇の抱擁",
-  "HuiyeManaSe": "竹取物語",
-  "ModuoluoFireSe": "穢那の火",
-  "RinDrawSe": "怨霊を操る者",
-  "MeihongFireSe": "無差符発火符",
-  "MeihongPowerSe": "不死の焔",
-  "GrimoireStudySe": "黒魔術の本",
-  "MaoyuBlock": "ふかふか",
-  "GuangxueMicai": "光学迷彩",
-  "NextTurnLoseHp": "次ターンライフ喪失",
-  "NextTurnGainBlock": "次ターンブロック",
-  "CantDrawThisTurn": "ドロー無効",
-  "TimeIsLimited": "時間制限",
-  "Servant": "使い魔",
-  "Reflect": "反射",
-  "NextAttackUp": "攻撃ダメージ増加",
-  "DroneBlock": "ディフェンスマトリックス",
-  "DeathExplodeNotCount": "撃ち返し弾",
-  "DeathExplodeCount": "撃ち返し弾",
-  "DeathVulnerable": "病気",
-  "Drowning": "溺水",
-  "LoveGirlDamageReduce": "浮き世への未練",
-  "LoveGirlDamageIncrease": "揺らぐ心",
-  "PhoneBillSe": "電話代",
-  "AbsorbSpirit": "青陰陽玉の力",
-  "Lunatic": "狂気",
-  "WindGirl": "風神少女",
-  "FirepowerIsJustice": "弾幕は火力だぜ！",
-  "PrivateSquare": "シルバーロックダウン",
-  "Emi": "電磁干渉",
-  "RockHard": "硬い！",
-  "AbsorbPower": "赤陰陽玉の力",
-  "RinAura": "灼熱地獄",
-  "Fengyin": "封印",
-  "TurnStartPurify": "消毒済み",
-  "LouguanJianSe": "楼観剣",
-  "RockHardAura": "要石の庇護",
-  "KokoroXi": "喜",
-  "KokoroNu": "怒",
-  "KokoroYou": "哀",
-  "LongEscape": "手抜き",
-  "FlatPeach": "仙桃",
-  "Sleep": "夢喰い",
-  "YuyukoDeath": "生者必滅",
-  "PowerByDefense": "無堅不摧",
-  "MirrorImage": "鏡像",
-  "DreamServant": "夢の住人",
-  "LongLight": "光る三脚",
-  "Vampire": "吸血鬼",
-  "FastAttack": "破られることのない速さ",
-  "HuanxiangBlockSe": "幻想防御",
-  "YinyangXueyinSe": "陰陽血印",
-  "Charging": "チャージ",
-  "Burst": "バースト",
-  "Concentration": "集中",
-  "BurstUpgrade": "火力全開",
-  "SolarSystemSe": "太陽系儀",
-  "ScryBlockSe": "計画通り",
-  "PoisonPotionSe": "魔女の大釜",
-  "TimeAuraSe": "タイムパルス",
-  "PerfectServantUSe": "追加申告",
-  "PerfectServantWSe": "準備万端",
-  "Poison": "毒",
-  "MoonWorldSe": "穢れ無き世界",
-  "RainbowMarketSe": "月虹市場",
-  "KokoroDanceSe": "仮面喪心舞",
-  "TiangouOrderSe": "大天狗の号令",
-  "Interview": "取材中",
-  "RinSummon": "怨霊復活",
-  "InterviewDone": "取材完遂",
-  "EnemyEnergy": "エナジー",
-  "EnemyEnergyNegative": "エナジー消耗",
-  "LunaticTorch": "狂気の松明",
-  "DoremyLevel": "夢レベル",
-  "DreamMaster": "夢を創る者",
-  "SijiZui": "是非曲直",
-  "SenluoJiejieSe": "森羅結界",
-  "YachieDefendSe": "亀甲地獄",
-  "TodayYesterdaySe": "今昔幻想郷",
-  "UseCardToLoseGame": "余命僅か",
-  "AmuletForCard": "庇護",
-  "EvilMaidDoubleAttack": "悪魔の力",
-  "DrawPhaseAddKnife": "ドローフェイズで投げナイフを取得",
-  "HekaHellRainSe": "地獄に降る雨",
-  "KnifeWithLockedOn": "次は貴様だ！",
-  "ZhenmiaowanAttackSe": "一寸法師の末裔",
-  "StopTimeSe": "時間凝固",
-  "LoseSpiritSe": "失われた羽衣",
-  "NextTurnLoseGame": "棺桶に片足を突っ込んでいる",
-  "Cold": "冷気",
-  "RangziFanshuSe": "スイートポテトルーム",
-  "ReimuFestivalSe": "神櫻の舞",
-  "PotionBaseDamageSe": "爆薬成分",
-  "WhiteWorldSe": "純白の世界",
-  "ExtraDraw": "妖精の智慧",
-  "FairyTreeSe": "妖精の家",
-  "NextTurnColdAll": "留まる冷気",
-  "MeilingAbilitySe": "烈虹真拳",
-  "NextTurnGainShield": "次ターンバリア",
-  "ReimuShrineSe": "博麗縁日",
-  "ReimuFreeAttackSe": "幻想一重",
-  "DizangLoveSe": "即席菩薩",
-  "BlackPoisonSe": "暗闇演舞",
-  "SihunYuSe": "邪気を放つペンダント",
-  "FoxCharm": "妖狐の魅惑",
-  "DeathPoison": "ポイズンデス",
-  "PrismriverSe": "プリズムコンチェルト",
-  "AutoKnifeSe": "妖器「シルバーブレード」",
-  "ManaFreezed": "マナ凍結",
-  "ColdPotionSe": "冷却材",
-  "ColdUp": "ひどいかぜ",
-  "YouxiangMoonSe": "花鳥風月",
-  "ForeverCoolSe": "エバークールシーズンファンタジア",
-  "PurifyModule": "浄化モジュール",
-  "LightingModule": "閃光モジュール",
-  "AccuracyModule": "誘導モジュール",
-  "EnemyTuanzi": "おいしい団子",
-  "SplitPotionSe": "増産剤",
-  "MoreFriendsSe": "社交的な妖精",
-  "InvincibleEternal": "天衣無縫",
-  "FrozenThroneSe": "凍てつく玉座",
-  "IceMatrixSe": "フリーズマトリックス",
-  "Immune": "アイスブロック",
-  "EnemyLarva": "ラルバの羽",
-  "EnemyLily": "リリーホワイトの報せ",
-  "EnemyDayaojing": "大妖精のサポート",
-  "EnemyMaid": "カスミの掃除",
-  "KnifeTarget": "ターゲット固定",
-  "FrostArmor": "フロストアーマー",
-  "ExtraBlizzard": "吹雪到来",
-  "MinengZhuruSe": "秘能注入",
-  "BailianFireSe": "法界の火",
-  "YonglinUpgradeSe": "仙香玉兎",
-  "CatchGoblinSe": "ラッキースター",
-  "MaidFriendSe": "投げナイフコーチ",
-  "SummerFlowerSe": "盛夏に花を咲かせる",
-  "StarFriendSe": "星の数ほど",
-  "HuiyeTimeSe": "須臾の間",
-  "YukariFriendSe": "幻想の境界",
-  "ShirenKunchongSe": "人喰い虫",
-  "YinyangQueenSe": "勾玉職人魅須丸",
-  "WuyishiDNASe": "無意識の遺伝子",
-  "BenwoTouyingSe": "自我投影",
-  "ChaofanyinSe": "超反応センス",
-  "ChaoyueZiwoSe": "スーパーエゴ",
-  "LunaClockSe": "ルナクロック",
-  "NextTurnGainGraze": "次ターングレイズ",
-  "ClockCorpseSe": "クロックコープス",
-  "BrokenTimelineSe": "壊れた時間軸",
-  "MeilingWaterSe": "不退転",
-  "YouxiangWakeSe": "定時起床",
-  "SuperExtraTurn": "世紀のダブルエスパー",
-  "BossAct": "ステージ転換",
-  "JunkoLily": "殺意の百合",
-  "JunkoColor": "溢れ出る瑕穢",
-  "TianziRockSe": "絶壁！",
-  "KokoroRenzhen": "真剣",
-  "KokoroDarkPower": "暗黒感情集約",
-  "ShenlingGold": "富の恩寵",
-  "ShenlingHp": "雅の恩寵",
-  "Appliance": "家電用品",
-  "LimaoDisguiser": "化かしの技術",
-  "SuwakoHex": "祟り",
-  "FreezeBulletSe": "凍結弾幕",
-  "DeepFreezeSe": "つららの舞",
-  "ColdHeartedSe": "銀氷の血筋",
-  "YukariFlyObjectSe": "超高速飛行体",
-  "SanaeSummonGodSe": "サモンタケミナカタ",
-  "MoodPeace": "平静",
-  "MoreDraw": "伝道教示",
-  "ZhenmiaowanAbilitySe": "小槌の魔力",
-  "MoodPassion": "熱情",
-  "FriendDrawSe": "花園での集い",
-  "ReimuSilenceSe": "夢想封印　寂",
-  "SakuyaInvestigateSe": "時停探偵",
-  "BladePowerSe": "シルバーダッシュ"
+  "TempFirepower": {
+    "Name": "臨時火力",
+    "Description": "ターン終了まで<Level />点の火力を得る。<br />火力は攻撃のダメージを増加させる。"
+  },
+  "Firepower": {
+    "Name": "火力",
+    "Description": "<Level /> 点の火力を得る。<br />火力は攻撃のダメージを増加させる。"
+  },
+  "TempFirepowerNegative": {
+    "Name": "臨時火力ダウン",
+    "Description": "ターン終了まで<Level />点の火力を失う。<br />火力は攻撃のダメージを増加させる。"
+  },
+  "FirepowerNegative": {
+    "Name": "火力ダウン",
+    "Description": "<Level /> 点の火力を失う。<br />火力は攻撃のダメージを増加させる。"
+  },
+  "TempSpirit": {
+    "Name": "臨時霊力",
+    "Description": "ターン終了まで<Level />点の霊力を得る。<br />霊力は得られる<h>ブロック</h>、<h>バリア</h>を増加させる。"
+  },
+  "Spirit": {
+    "Name": "霊力",
+    "Description": "<Level /> 点の霊力を得る。<br />霊力は得られる<h>ブロック</h>、<h>バリア</h>を増加させる。"
+  },
+  "TempSpiritNegative": {
+    "Name": "臨時霊力ダウン",
+    "Description": "ターン終了まで<Level />点の霊力を失う。<br />霊力は得られる<h>ブロック</h>、<h>バリア</h>を増加させる。"
+  },
+  "SpiritNegative": {
+    "Name": "霊力ダウン",
+    "Description": "<Level /> 点の霊力を失う。<br />霊力は得られる<h>ブロック</h>、<h>バリア</h>を増加させる。"
+  },
+  "Fragil": {
+    "Name": "脆弱化",
+    "Description": "<PlayerName />がカードをプレイするによって得られる<h>ブロック</h>と<h>バリア</h>が<Value />%減少する。残り<Duration />ターン持続。"
+  },
+  "Weak": {
+    "Name": "脱力",
+    "Description": "<OwnerName />の攻撃ダメージが<Value />%減少する。残り<Duration />ターン持続。"
+  },
+  "Vulnerable": {
+    "Name": "弱体",
+    "Description": "<OwnerName />が受ける攻撃ダメージが<Value />%増加する。残り<Duration />ターン持続。"
+  },
+  "LockedOn": {
+    "Name": "ロックオン",
+    "Description": "<OwnerName />が受ける攻撃ダメージが<Level />点増加する。<br />各ターン開始時に1減少する。"
+  },
+  "Graze": {
+    "Name": "グレイズ",
+    "Description": "<OwnerName />が受ける攻撃ダメージを0にする。残り<Level />回有効。<br />攻撃されるかターン開始時に1減少する。"
+  },
+  "ExtraTurn": {
+    "Name": "追加ターン",
+    "Description": "<OwnerName />のターン終了時、追加のターンを得る。残り<Level />回有効。"
+  },
+  "LimitedDamage": {
+    "Name": "道具の解放者",
+    "Description": "<OwnerName />は各ターンにつき最大 <Limit /> 点のダメージしか受けない。このターンの上限まで残り <Count /> 点。"
+  },
+  "BossAct": {
+    "Name": "ステージ転換",
+    "Description": "<OwnerName />が<Count />点のダメージを受けた直後に行動する。<br /><PlayerName />のターンは終了しません。"
+  },
+  "Invincible": {
+    "Name": "天衣無縫",
+    "Description": "<OwnerName />は1回のダメージにつきライフが1しか減少しない。残り<Duration />ターン持続。"
+  },
+  "InvincibleEternal": {
+    "Name": "天衣無縫",
+    "Description": "<OwnerName />は1回のダメージにつきライフが1しか減少しない。"
+  },
+  "TurnStartDontLoseBlock": {
+    "Name": "ブロック保留",
+    "Description": "<OwnerName />の次のターン開始時、<h>ブロック</h>が失われない。残り<Level />ターン持続。"
+  },
+  "WindGirl": {
+    "Name": "風神少女",
+    "Description": "<OwnerName />のターン終了時、<h>グレイズ</h>が<Level />まで補充される。"
+  },
+  "Amulet": {
+    "Name": "加護",
+    "Description": "次の<Level />回のデバフを無効化する。"
+  },
+  "AmuletForCard": {
+    "Name": "庇護",
+    "Description": "次の<Level />回の状態異常カードの追加を無効化する。（それらを<h>廃棄</h>する）。"
+  },
+  "Electric": {
+    "Name": "帯電",
+    "Description": "攻撃してきた相手に<Level />点のダメージを与える。"
+  },
+  "TempElectric": {
+    "Name": "帯電",
+    "Description": "攻撃してきた相手に<Level />点のダメージを与える。<br /><OwnerName />のターン開始時にこの効果は取り除かれる。"
+  },
+  "Reflect": {
+    "Name": "反射",
+    "Description": "攻撃してきた相手に<Level />点のダメージを与え、この効果を取り除く。"
+  },
+  "NextAttackUp": {
+    "Name": "攻撃ダメージ増加",
+    "Description": "次にプレイする<h>攻撃カード</h>のダメージが<Level />点増加する。"
+  },
+  "ManaFreezed": {
+    "Name": "マナ凍結",
+    "Description": "各ターン最初にプレイするカードのコストが<Mana />増える。"
+  },
+  "NextTurnLoseHp": {
+    "Name": "次ターンライフ喪失",
+    "Description": "<OwnerName />の次のターン開始時、<Level />点のライフを失う。"
+  },
+  "NextTurnGainBlock": {
+    "Name": "次ターンブロック",
+    "Description": "<OwnerName />の次のターン開始時、<Level />点の<h>ブロック</h>を得る。"
+  },
+  "NextTurnGainShield": {
+    "Name": "次ターンバリア",
+    "Description": "<OwnerName />の次のターン開始時、<Level /><h>バリア</h>を得る。"
+  },
+  "NextTurnGainGraze": {
+    "Name": "次ターングレイズ",
+    "Description": "<OwnerName />の次のターン開始時、<h>グレイズ</h><Level />を得る。"
+  },
+  "CantDrawThisTurn": {
+    "Name": "ドロー無効",
+    "Description": "ターン終了までカードを引くことができない。"
+  },
+  "TimeIsLimited": {
+    "Name": "時間制限",
+    "Description": "次の相手ターンまで、カードの使用コストが<Mana />増加する。"
+  },
+  "GuangxueMicai": {
+    "Name": "光学迷彩",
+    "Description": "<OwnerName />が受ける攻撃ダメージが半減する。残り <Duration /> ターン持続。"
+  },
+  "DroneBlock": {
+    "Name": "ディフェンスマトリックス",
+    "Description": "<OwnerName />のターン終了時、<Level />点の<h>ブロック</h>を得る。"
+  },
+  "Drowning": {
+    "Name": "溺水",
+    "Description": "<OwnerName />のターン終了時、<Level />点のダメージを受ける。"
+  },
+  "Vampire": {
+    "Name": "吸血鬼",
+    "Description": "<OwnerName />がブロックされていないダメージを与えたとき、同量のライフを回復する。こわい！"
+  },
+  "Poison": {
+    "Name": "毒",
+    "Description": "<OwnerName />のターン開始時、<Level />点のライフを失い、<h>毒</h>の値を 1 減らす。"
+  },
+  "MaoyuBlock": {
+    "Name": "ふかふか",
+    "Description": "<OwnerName />が攻撃されたとき<Level />点の<h>ブロック</h>を得る。"
+  },
+  "Servant": {
+    "Name": "使い魔",
+    "Description": "操り主を倒したとき、全ての使い魔も倒される。<br />敵を倒したことによる効果が発生しない。"
+  },
+  "DeathExplodeNotCount": {
+    "Name": "撃ち返し弾",
+    "Description": "<OwnerName />が倒されたとき、<PlayerName />に<Level />点の攻撃ダメージを与える。<br />起爆されたとき、 2 倍のダメージを与える。"
+  },
+  "DeathExplodeCount": {
+    "Name": "撃ち返し弾",
+    "Description": "<OwnerName />が倒されたとき、<PlayerName />に<Level />点の攻撃ダメージを与える。<br /><Count /> ターン後に起爆され、 2 倍のダメージを与える。"
+  },
+  "DeathVulnerable": {
+    "Name": "病気",
+    "Description": "<OwnerName />が倒されたとき、<PlayerName />は<Level />ターン分の<h>弱体</h>を得る。"
+  },
+  "LoveGirlDamageReduce": {
+    "Name": "浮き世への未練",
+    "Description": "<OwnerName />には未だ叶わぬ願いがあり、受けるダメージが <Rate />% 軽減される。"
+  },
+  "LoveGirlDamageIncrease": {
+    "Name": "揺らぐ心",
+    "Description": "<OwnerName />の願いは叶った。彼女が受けるダメージが <Rate />% 増加する。"
+  },
+  "PhoneBillSe": {
+    "Name": "電話代",
+    "Description": "<OwnerName />が通話する度に、<PlayerName />から<Level />点の<Money />が課金される。<br />倒されたとき <Count /> 点の<Money />をドロップする。"
+  },
+  "FoxCharm": {
+    "Name": "妖狐の魅惑",
+    "Description": "一ターンに <Limit /> 枚のカードしか使えない。残り <Count /> 枚。<br />妖狐を倒すとこの効果は消える。"
+  },
+  "DeathPoison": {
+    "Name": "ポイズンデス",
+    "Description": "<OwnerName />が倒されたとき、<PlayerName />は<Level />点の<h>毒</h>を得る。"
+  },
+  "AbsorbPower": {
+    "Name": "赤陰陽玉の力",
+    "Description": "<OwnerName />のターン終了時、<Level />点の<h>火力</h>を得る。"
+  },
+  "AbsorbSpirit": {
+    "Name": "青陰陽玉の力",
+    "Description": "<OwnerName />のターン終了時、<Level />の<h>霊力</h>を得る。"
+  },
+  "Lunatic": {
+    "Name": "狂気",
+    "Description": "不思議な光が辺りの全員に影響を与えている。<OwnerName />は狂い、行動が強化される。<br /><PlayerName />はターン開始時に<Mana />を得る。"
+  },
+  "LunaticTorch": {
+    "Name": "狂気の松明",
+    "Description": "<OwnerName />の松明が奇妙な光を放っている。すべての敵は<h>狂気</h>状態に陥る。<br /><PlayerName />はターン開始時に<Mana />を得る。"
+  },
+  "Interview": {
+    "Name": "取材中",
+    "Description": "<OwnerName />は事件の最前線でインタビュー中。"
+  },
+  "InterviewDone": {
+    "Name": "取材完遂",
+    "Description": "<OwnerName />は事件の真相をまとめあげた！<br />彼女は《文文。新聞》号外を発行する。"
+  },
+  "RinSummon": {
+    "Name": "怨霊復活",
+    "Description": "<OwnerName />は<Level />回怨霊を復活させられる。<br /> <Limit /> ターンごとに一体追加。"
+  },
+  "RinAura": {
+    "Name": "灼熱地獄",
+    "Description": "<OwnerName />が召喚した怨霊の、撃ち返し弾のダメージが<Level />点増加する。"
+  },
+  "Fengyin": {
+    "Name": "封印",
+    "Description": "<PlayerName />は攻撃カードを使用できない。残り <Duration /> ターン持続。"
+  },
+  "FirepowerIsJustice": {
+    "Name": "弾幕は火力だぜ！",
+    "Description": "<OwnerName />の<h>火力</h>は<PlayerName />の<h>火力</h>を下回らない。"
+  },
+  "PrivateSquare": {
+    "Name": "シルバーロックダウン",
+    "Description": "カードを<Limit />枚プレイするごとに、<OwnerName />は<PlayerName />に<Level />点のダメージを与える。<br />残り<Count />枚。"
+  },
+  "EnemyDayaojing": {
+    "Name": "大妖精のサポート",
+    "Description": "<OwnerName />のターン終了時、<Level />点のライフを回復する。"
+  },
+  "EnemyLarva": {
+    "Name": "ラルバの羽",
+    "Description": "<PlayerName />が<OwnerName />に攻撃ダメージを与えるたび、対象は<h>毒</h><Level />を得る。"
+  },
+  "EnemyLily": {
+    "Name": "リリーホワイトの報せ",
+    "Description": "<OwnerName />の行動が強化される。"
+  },
+  "EnemyMaid": {
+    "Name": "カスミの掃除",
+    "Description": "<OwnerName />のターン終了時、<PlayerName />に<Level />点のダメージを与える。"
+  },
+  "ShenlingGold": {
+    "Name": "富の恩寵",
+    "Description": "<OwnerName />は<Level /><Money />をドロップする。"
+  },
+  "ShenlingHp": {
+    "Name": "雅の恩寵",
+    "Description": "<OwnerName />が撃破されたとき、<PlayerName />の最大ライフを<Level />増やす。"
+  },
+  "Appliance": {
+    "Name": "家電用品",
+    "Description": "<OwnerName />は<h>脱力</h>と<h>弱体</h>を受けない。"
+  },
+  "Emi": {
+    "Name": "電磁干渉",
+    "Description": "<OwnerName />は行動できない」。残り<Duration />ターン持続。"
+  },
+  "TurnStartPurify": {
+    "Name": "消毒済み",
+    "Description": "<PlayerName />の次ターン開始時、<h>純化</h><Level />。<br />ターン終了時にこの効果は消える。"
+  },
+  "RockHard": {
+    "Name": "硬い！",
+    "Description": "<OwnerName />の受けるブロックされなかった攻撃ダメージは<Level />点減少する。"
+  },
+  "RockHardAura": {
+    "Name": "要石の庇護",
+    "Description": "<OwnerName />は要石の庇護の下にある。受けるブロックされなかったダメージが<Level />点減少する。"
+  },
+  "LouguanJianSe": {
+    "Name": "楼観剣",
+    "Description": "<OwnerName />の攻撃時、対象に<h>ロックオン</h><Level />を付与する。"
+  },
+  "KokoroXi": {
+    "Name": "喜",
+    "Description": "<OwnerName />の行動時、面霊気を1体召喚する。（発生済み）"
+  },
+  "KokoroNu": {
+    "Name": "怒",
+    "Description": "<OwnerName />の行動時、全ての敵が<h>火力</h><Level />を得る。（発生済み）"
+  },
+  "KokoroYou": {
+    "Name": "哀",
+    "Description": "<OwnerName />の行動時、<PlayerName />は<h>脱力</h><Level />を受ける。（発生済み）"
+  },
+  "KokoroRenzhen": {
+    "Name": "真剣",
+    "Description": "<OwnerName />の行動時、全ての<h>暗黒感情</h>を解除して<PlayerName />にその数値の<Level />倍の直接ダメージを与える。（発生済み）"
+  },
+  "KokoroDarkPower": {
+    "Name": "暗黒感情集約",
+    "Description": "<OwnerName />が次のスペルカード使用する時に、追加で<PlayerName />に直接ダメージを与える。<br /><PlayerName />がデバフを受ける度に増加する。"
+  },
+  "LongLight": {
+    "Name": "光る三脚",
+    "Description": "<OwnerName />はより眩しく輝き、ダメージが増加し、追加する状態異常カードを強化する。"
+  },
+  "LongEscape": {
+    "Name": "手抜き",
+    "Description": "<OwnerName />は体力が<Level />を下回ると戦闘から離脱する。"
+  },
+  "FlatPeach": {
+    "Name": "仙桃",
+    "Description": "<OwnerName />がダメージを受けたとき、ライフを<Level />点回復する。"
+  },
+  "EnemyEnergy": {
+    "Name": "エナジー",
+    "Description": "<OwnerName />がダメージを受けたとき、同量の<Power />を獲得し、スペルカードの使用に充てる。"
+  },
+  "EnemyEnergyNegative": {
+    "Name": "エナジー消耗",
+    "Description": "<OwnerName />は<Power />を使い切った。<br />ゲーム中に表示されることはありません。"
+  },
+  "YuyukoDeath": {
+    "Name": "生者必滅",
+    "Description": "<OwnerName />のターン終了時、<Level />点のライフを失う。<br /><OwnerName />はライフを回復できない。"
+  },
+  "FastAttack": {
+    "Name": "破られることのない速さ",
+    "Description": "各ターンに初めてカードを使用したとき、<OwnerName />は<PlayerName />に<Level />点の攻撃ダメージを与える(ブロック可)。"
+  },
+  "PowerByDefense": {
+    "Name": "無堅不摧",
+    "Description": "防御カードをプレイするたび、<OwnerName />は<Level />点の<h>火力</h>を得る。"
+  },
+  "PurifyModule": {
+    "Name": "浄化モジュール",
+    "Description": "<OwnerName />の攻撃が命中時、次のターンのマナ<Level />点を<h>浄化</h>する。"
+  },
+  "LightingModule": {
+    "Name": "閃光モジュール",
+    "Description": "<OwnerName />の攻撃が命中した時、<Level />枚の<h>星の煌めき</h>が山札に加えられる。"
+  },
+  "AccuracyModule": {
+    "Name": "誘導モジュール",
+    "Description": "<OwnerName />の攻撃は<h>精密</h>になる。"
+  },
+  "EnemyTuanzi": {
+    "Name": "おいしい団子",
+    "Description": "<OwnerName />のターン終了時、<Level />点のライフを回復する。"
+  },
+  "LimaoDisguiser": {
+    "Name": "化かしの技術",
+    "Description": "他のキャラクターに化けている。"
+  },
+  "SuwakoHex": {
+    "Name": "祟り",
+    "Description": "<PlayerName />のターン開始時、手札のランダムなカード1枚を祟って不要なカードに変化させる。"
+  },
+  "SijiZui": {
+    "Name": "是非曲直",
+    "Description": "<PlayerName />の罪：軽度。"
+  },
+  "MirrorImage": {
+    "Name": "鏡像",
+    "Description": "<OwnerName />の鏡に映る姿。"
+  },
+  "DoremyLevel": {
+    "Name": "夢レベル",
+    "Description": "<OwnerName />は深い夢の中でより強い力を発揮する。"
+  },
+  "Sleep": {
+    "Name": "夢喰い",
+    "Description": "<OwnerName />のターン開始時、<h>バリア</h>が<Level />点まで回復する。<br /><Count /> ターン経つかダメージを受けると目覚める。"
+  },
+  "DreamMaster": {
+    "Name": "夢を創る者",
+    "Description": "<OwnerName />は夢の支配者だ。"
+  },
+  "DreamServant": {
+    "Name": "夢の住人",
+    "Description": "<OwnerName />はダメージを受けない。"
+  },
+  "Curiosity": {
+    "Name": "わたし、気になります！",
+    "Description": "<PlayerName />が能力カードを使うたびに、<OwnerName />は<Level />点の<h>火力</h>を得る。"
+  },
+  "ScarletDestiny": {
+    "Name": "紅色の運命",
+    "Description": "一ターンのうちに<Limit />枚のカードをプレイすると、<OwnerName />は<PlayerName />のターンを終了する。<br />残り<Count />枚。"
+  },
+  "JunkoPurify": {
+    "Name": "純化の光",
+    "Description": "<PlayerName />がカードをプレイするたび、<h>純化</h><Level />。"
+  },
+  "JunkoLily": {
+    "Name": "殺意の百合",
+    "Description": "<h>純化の光</h>の効果が発動する度、<PlayerName />はライフを<Level />失う。"
+  },
+  "JunkoColor": {
+    "Name": "溢れ出る瑕穢",
+    "Description": "<PlayerName />の穢れ：軽度。"
+  },
+  "SingleJiandaoSe": {
+    "Name": "半分の巨大な鋏",
+    "Description": "<PlayerName />はカードをプレイするたびに、<Level />ダメージを受ける。"
+  },
+  "ShendengSe": {
+    "Name": "注ぎ口の長いティーポット",
+    "Description": "<OwnerName />のターン終了時、<PlayerName />は<h>脱力</h>、<h>脆弱化</h>、<h>弱体</h>のうちランダムな一つを<Level />得る。"
+  },
+  "HolyGrailSe": {
+    "Name": "装飾が施された金の杯",
+    "Description": "<OwnerName />のターン開始時、<PlayerName />は<h>秘宝</h>と<h>光耀</h>を除くすべての展示品を失う。"
+  },
+  "SihunYuSe": {
+    "Name": "邪気を放つペンダント",
+    "Description": "<OwnerName />のターン終了時、ランダムな敵を戦闘に呼ぶ。"
+  },
+  "MadokaBowSe": {
+    "Name": "光輝く長弓",
+    "Description": "<OwnerName />のターン開始時、<Level />枚のランダムな状態異常カードを山札に加える。"
+  },
+  "QiannianShenqiSe": {
+    "Name": "ピラミッド型のパズル",
+    "Description": "<PlayerName />は各ターン<Limit />枚しかカードを引くことができない。残り<Count />枚。"
+  },
+  "InfinityGemsSe": {
+    "Name": "宝石が埋め込まれたガントレット",
+    "Description": "<OwnerName />のターン開始時、<PlayerName />のカードの半分を<h>廃棄</h>する。カードの場所は問わない。残り<Count />回。"
+  },
+  "SakuraWandSe": {
+    "Name": "翼のついた鍵",
+    "Description": "<OwnerName />の攻撃回数が二倍になる。"
+  },
+  "DragonBallSe": {
+    "Name": "星が描かれたボール",
+    "Description": "<OwnerName />のターン開始時、彼女の願いが叶う：<PlayerName />は敗北する。避けられない。"
+  },
+  "JiangshenSe": {
+    "Name": "神降ろしの修行",
+    "Description": "この戦闘中、一時的に追加されるすべてのカードは<h>アップグレード</h>される。"
+  },
+  "BoliDajiejieSe": {
+    "Name": "博麗大結界",
+    "Description": "この戦闘中、<OwnerName />の<h>ブロック</h>は<h>バリア</h>に変換される。"
+  },
+  "FreeFlySe": {
+    "Name": "自由飛行",
+    "Description": "<PlayerName />のターン開始時、<Level />点の<Mana />を得る。"
+  },
+  "DoubleLianhuadieSe": {
+    "Name": "二色蓮花蝶",
+    "Description": "<PlayerName />が<h>ブロック</h>または<h>バリア</h>を得るたび、ランダムな敵に<Level />点のダメージを与える。"
+  },
+  "DanceAroundLakeSe": {
+    "Name": "湖畔の舞",
+    "Description": "カードを<h>廃棄</h>するたび、カードを<Level />枚引く。"
+  },
+  "EvilTuiZhiSe": {
+    "Name": "妖怪退治",
+    "Description": "次の<Level />枚の攻撃カードは2倍のダメージを与える。"
+  },
+  "YinyangXueyinSe": {
+    "Name": "陰陽血印",
+    "Description": "<h>陰陽玉</h>の使用時、<Level />点の<h>臨時火力</h>と<h>臨時霊力</h>を得る。"
+  },
+  "BoliPhantomSe": {
+    "Name": "博麗幻影",
+    "Description": "<h>封魔針</h>以外のカードが<h>廃棄</h>されるたび、<Level />枚の<h>封魔針</h>を手札に加える。その<h>臨時コスト</h>は<Mana />となる。"
+  },
+  "TaijiLiangyiSe": {
+    "Name": "太極は両儀を生ず",
+    "Description": "<PlayerName />のターン開始時、手札の<h>陰陽玉</h>が<Level />枚に満たない場合、<h>陰陽玉</h>を<Level />枚になるまで手札に加える。"
+  },
+  "HuanxiangBlockSe": {
+    "Name": "幻想防御",
+    "Description": "カードが<h>廃棄</h>されるたび、<PlayerName />は<Level />点の<h>ブロック</h>を得る。"
+  },
+  "ReimuFestivalSe": {
+    "Name": "神櫻の舞",
+    "Description": "<PlayerName />のターン開始時、<Level />点の<h>臨時火力</h>を得る。"
+  },
+  "ReimuShrineSe": {
+    "Name": "博麗縁日",
+    "Description": "<PlayerName />のターン開始時、<Level />点の<h>臨時霊力</h>を得る。"
+  },
+  "ReverseJiejieSe": {
+    "Name": "逆転結界",
+    "Description": "<PlayerName />がバフを失うたび、<Level />点の<h>バリア</h>を得る。"
+  },
+  "ReimuFreeAttackSe": {
+    "Name": "幻想一重",
+    "Description": "次の<Level />枚の攻撃カードのコストは<Mana />となる。"
+  },
+  "MomentPowerSe": {
+    "Name": "刹那亜空穴",
+    "Description": "<OwnerName />が<h>臨時火力</h>または<h>臨時霊力</h>を得るたび、そのうち<Level />点を<h>火力</h>または<h>霊力</h>それぞれに変換する。"
+  },
+  "ReimuSilenceSe": {
+    "Name": "夢想封印　寂",
+    "Description": "ドローフェイズ以外でカードを<Limit />枚引く度、敵全体に<Damage />攻撃ダメージを与える。<br />残り<Count />枚。"
+  },
+  "SenluoJiejieSe": {
+    "Name": "森羅結界",
+    "Description": "次のターン開始時に<h>バリア</h>を爆発させる。"
+  },
+  "Charging": {
+    "Name": "チャージ",
+    "Description": "<PlayerName />が <TriggerLevel /> 以上の<h>チャージ</h>を得ると、<h>バースト</h>状態に入る。"
+  },
+  "Burst": {
+    "Name": "バースト",
+    "Description": "<PlayerName />が<h>バースト</h>状態に入った際、<Mana />を得る。<br />攻撃ダメージが <DamageRate /> 倍になる。<br />ターン終了時<h>バースト</h>状態から抜ける。"
+  },
+  "Concentration": {
+    "Name": "集中",
+    "Description": "<h>オーバードライブ</h>効果を<h>チャージ</h>を消費せずに発動する、残り<Level />回。"
+  },
+  "BurstUpgrade": {
+    "Name": "火力全開",
+    "Description": "<h>バースト</h>のダメージ倍率を増やす。"
+  },
+  "BurstDrawSe": {
+    "Name": "スピードバトル",
+    "Description": "<h>バースト</h>突入時、カードを<Level />枚引く。"
+  },
+  "SolarSystemSe": {
+    "Name": "太陽系儀",
+    "Description": "<PlayerName />のターン開始時、<Level />点の<h>チャージ</h>を得る。"
+  },
+  "ScryBlockSe": {
+    "Name": "計画通り",
+    "Description": "<PlayerName />は<h>占術</h>するたび、<Level />点の<h>ブロック</h>を得る。"
+  },
+  "LearnAstrologySe": {
+    "Name": "天文研修",
+    "Description": "<PlayerName />のターン開始時、手札の<h>星占い</h>が<Level />枚に満たない場合、<h>星占い</h>を<Level />枚になるまで手札に加える。"
+  },
+  "PotionJungleSe": {
+    "Name": "蛍光の森",
+    "Description": "<PlayerName />のターン開始時、<Level />枚の<h>ポーション</h>を捨て札に加える。"
+  },
+  "UpgradePotionSe": {
+    "Name": "ポーションの精錬",
+    "Description": "<PlayerName />のターン終了時、山札と捨て札の<h>ポーション</h>のダメージが<Level />点増加する。"
+  },
+  "PotionBaseDamageSe": {
+    "Name": "爆薬成分",
+    "Description": "<h>ポーション</h>のダメージが<Level />点増加する。"
+  },
+  "MasterOfCollectionSe": {
+    "Name": "収集家",
+    "Description": "カードが<h>保留</h>されるたび、戦闘終了までランダムなコストを<Level />点減らす。"
+  },
+  "PotionDefenseSe": {
+    "Name": "流星共鳴",
+    "Description": "ターン終了まで、<h>ポーション</h>が使用されるたび、<Level /><h>バリア</h>を得る。"
+  },
+  "ChargingPotionSe": {
+    "Name": "放射性元素",
+    "Description": "<h>ポーション</h>が使用されるたび、<Level />点の<h>チャージ</h>を得る。"
+  },
+  "PoisonPotionSe": {
+    "Name": "魔女の大釜",
+    "Description": "<h>ポーション</h>が使用されるたび、<Level />点の<h>毒</h>を対象に与える。"
+  },
+  "ColdPotionSe": {
+    "Name": "冷却材",
+    "Description": "<h>ポーション</h>が<h>冷気</h>を与える。"
+  },
+  "SplitPotionSe": {
+    "Name": "増産剤",
+    "Description": "<h>ポーション</h>の攻撃対象が<Level />増える。"
+  },
+  "TimeAuraSe": {
+    "Name": "タイムパルス",
+    "Description": "<PlayerName />のターン終了時、全ての敵に<Level />点のダメージを与える。<br />ダメージを受けた敵ごとに数値が 1 減る。"
+  },
+  "GainKnifeSe": {
+    "Name": "星剣の舞",
+    "Description": "<PlayerName />のターン開始時、<h>投げナイフ</h>を<Level />枚手札に加える。"
+  },
+  "SakuyaInvestigateSe": {
+    "Name": "時停探偵",
+    "Description": "<PlayerName />の追加ターン開始時、敵全体に<h>ロックオン</h><Level />を与える。"
+  },
+  "BladePowerSe": {
+    "Description": "<h>投げナイフ</h>を使用する度、ランダムな攻撃カードを<Level />枚手札に加える。<br />それは<h>臨時コスト</h><Mana />となり、<h>廃棄</h>、<h>虚無</h>を持つ。"
+  },
+  "PerfectServantUSe": {
+    "Name": "追加申告",
+    "Description": "<OwnerName />の次ターン開始時、<Level />点の<Mana />を得て、<Level />枚のカードを引く。"
+  },
+  "PerfectServantWSe": {
+    "Name": "準備万端",
+    "Description": "<OwnerName />の次のドローフェイズ終了後、手札のすべてのカードのコストが<h>一時的に</h><Level />点減少する。"
+  },
+  "EvilMaidSe": {
+    "Name": "悪魔のメイド",
+    "Description": "<Level /> ターンの間攻撃ダメージが 2 倍になる。"
+  },
+  "EvilMaidDoubleAttack": {
+    "Name": "悪魔の力",
+    "Description": "<PlayerName />の攻撃ダメージが 2 倍になる。残り <Duration /> ターン持続。"
+  },
+  "MihuanJackSe": {
+    "Name": "ジャック・ザ・ルドビレ",
+    "Description": "ターン開始時、<h>タイムパルス</h><Level />を得る。"
+  },
+  "StopTimeSe": {
+    "Name": "時間凝固",
+    "Description": "<PlayerName />のターン終了時、ランダムな未使用のマナ<Level />点が持ち越される。"
+  },
+  "SakuyaKillerSe": {
+    "Name": "夜霧の幻影殺人鬼",
+    "Description": "<PlayerName />のターン終了時、<Level />枚の<h>投げナイフ</h>を山札に混ぜる。<br />敵を倒したときにも同じ効果を発動する。"
+  },
+  "SilverBladeSe": {
+    "Name": "銀色のアナザーディメンジョン",
+    "Description": "攻撃カードが発動するたび、<Level /><h>バリア</h>を得る。"
+  },
+  "SpecialClockSe": {
+    "Name": "咲夜特製ストップウォッチ",
+    "Description": "<PlayerName />のターン開始時、手札から<Level />枚まで選んで捨て、同じ数のカードを引く。"
+  },
+  "KnifeWithLockedOn": {
+    "Name": "次は貴様だ！",
+    "Description": "<h>投げナイフ</h>を使用時、対象に<h>ロックオン</h><Level />を与える。"
+  },
+  "ClockCorpseSe": {
+    "Name": "クロックコープス",
+    "Description": "ドローフェイズの終了後にカードを追加で引く事が出来ない。"
+  },
+  "LunaClockSe": {
+    "Name": "ルナクロック",
+    "Description": "攻撃によるダメージを与えられない。"
+  },
+  "DrawPhaseAddKnife": {
+    "Name": "ドローフェイズで投げナイフを取得",
+    "Description": "ターン開始時、カードを引く代わりに<h>投げナイフ</h>を<Limit />枚手札に加える。"
+  },
+  "BrokenTimelineSe": {
+    "Name": "壊れた時間軸",
+    "Description": "ターン開始時にマナ基盤のマナを得ることができない。"
+  },
+  "DangerousMagicianSe": {
+    "Name": "危険な手品師",
+    "Description": "<h>投げナイフ</h>使用時、<PlayerName />は<h>タイムパルス</h><Level />を得る。"
+  },
+  "AutoKnifeSe": {
+    "Name": "妖器「シルバーブレード」",
+    "Description": "この戦闘中、<h>投げナイフ</h>は<h>自動廃棄</h>を得る。"
+  },
+  "KnifeTarget": {
+    "Name": "ターゲット固定",
+    "Description": "<h>投げナイフ</h>は<OwnerName />を優先して狙う。"
+  },
+  "Cold": {
+    "Name": "冷気",
+    "Description": "<OwnerName />はターン開始時、 <BaseDamage /> 点のライフを失い、<h>冷気</h>を取り除く。<br />再び<h>冷気</h>が付与されたとき、 <StackMultiply /> 倍のライフを失う。（<StackDamage />点）。"
+  },
+  "ColdUp": {
+    "Name": "ひどいかぜ",
+    "Description": "<h>冷気</h>を繰り返し付与したときのダメージ倍率を<Level />増加させる。"
+  },
+  "NextTurnColdAll": {
+    "Name": "留まる冷気",
+    "Description": "<OwnerName />の次ターン開始時、敵全体に<h>冷気</h>を<Level />回付与する。"
+  },
+  "FreezeBulletSe": {
+    "Name": "凍結弾幕",
+    "Description": "次に<PlayerName />を攻撃した敵に<h>冷気</h>を与える。残り<Level />回。<br /><OwnerName />の次のターン開始時にこの効果は失われる。"
+  },
+  "FrostArmor": {
+    "Name": "フロストアーマー",
+    "Description": "<OwnerName />のターン開始時、<Level />点の<h>ブロック</h>を得て、数値を1下げる。<br />攻撃ダメージを受けた時、数値を1下げる。"
+  },
+  "IceMatrixSe": {
+    "Name": "フリーズマトリックス",
+    "Description": "<PlayerName />が敵に<h>冷気</h>を付与した際、<h>フロストアーマー</h><Level />を得る。"
+  },
+  "DeepFreezeSe": {
+    "Name": "つららの舞",
+    "Description": "青のカードを使う度、<PlayerName />は<h>臨時火力</h><Value1 />を得る。"
+  },
+  "Immune": {
+    "Name": "アイスブロック",
+    "Description": "<OwnerName />はあらゆるダメージを受けない。残り <Duration /> ターン持続。"
+  },
+  "ExtraBlizzard": {
+    "Name": "吹雪到来",
+    "Description": "<OwnerName />の次ターン開始時、敵全体に<Damage />点の<h>精密</h>ダメージを与え、<h>冷気</h>を付与する。"
+  },
+  "ExtraDraw": {
+    "Name": "妖精の智慧",
+    "Description": "<OwnerName />の次ターン開始時、追加でカードを<Level />枚引く。"
+  },
+  "FairyTreeSe": {
+    "Name": "妖精の家",
+    "Description": "プレイによって<h>パートナー</h>が召喚されるたび、<Level /><h>ブロック</h>を得る。"
+  },
+  "MinengZhuruSe": {
+    "Name": "秘能注入",
+    "Description": "召喚済の<h>パートナー</h>カードの自動効果は<Level />回追加発動する。"
+  },
+  "ColdHeartedSe": {
+    "Name": "銀氷の血筋",
+    "Description": "<h>氷槍術</h>は<h>冷気</h>が付与されている敵に対し3倍のダメージを与える。<br /><OwnerName />のターン終了時、この効果は失われる。"
+  },
+  "FriendDrawSe": {
+    "Name": "花園での集い",
+    "Description": "<h>パートナー</h>の<ha>起動能力</ha>か<hu>奥義</hu>を使用する度、カードを<Level />枚引く。<br /><hu>奥義</hu>を使用する度、更にランダムなマナを<Level />点得る。"
+  },
+  "ForeverCoolSe": {
+    "Name": "エバークールシーズンファンタジア",
+    "Description": "<h>パートナー</h>の<ha>起動能力</ha>か<hu>奥義</hu>をプレイする度、ランダムな敵に<h>冷気</h>を<Level />回与える。<br /><h>冷気</h>を与える度、手札のランダムな<h>パートナー</h>は<h>支援度</h><Level />を得る。"
+  },
+  "MoreFriendsSe": {
+    "Name": "社交的な妖精",
+    "Description": "<PlayerName />のターン開始時、<Level />枚のランダムな<h>パートナー</h>カードにに<h>虚無</h>を与え、手札に加える。<br />この効果で得られた<h>パートナー</h>カードは召喚された後<h>虚無</h>が取り除かれる。"
+  },
+  "FrozenThroneSe": {
+    "Name": "凍てつく玉座",
+    "Description": "<PlayerName />のターン開始時、手札の<h>アイスボルト</h>が<Level />枚より少ない場合不足分を手札に加える。"
+  },
+  "WhiteWorldSe": {
+    "Name": "純白の世界",
+    "Description": "<PlayerName />のターン開始時、敵全体に<h>冷気</h>を<Level />回与える。"
+  },
+  "SummerFlowerSe": {
+    "Name": "盛夏に花を咲かせる",
+    "Description": "<SourceCardName />のダメージを<Level />増加。"
+  },
+  "MaidFriendSe": {
+    "Name": "投げナイフコーチ",
+    "Description": "<SourceCardName />のダメージを<Level />増加。"
+  },
+  "StarFriendSe": {
+    "Name": "星の数ほど",
+    "Description": "<SourceCardName />がダメージを与えた時、<h>ロックオン</h><Level />を与える。"
+  },
+  "MoodPassion": {
+    "Name": "熱情",
+    "Description": "<PlayerName />が与える攻撃ダメージ及び受ける攻撃ダメージが<Percentage />%増加する。<br /><h>熱情</h>は<h>精神状態</h>の一つであり、<PlayerName />は同時に複数の精神状態に入ることはできない。"
+  },
+  "MoodPeace": {
+    "Name": "平静",
+    "Description": "<h>平静</h>状態を解除した時、<Mana />を得る。<br /><h>平静</h>は<h>精神状態</h>の一つであり、<PlayerName />は同時に複数の精神状態に入ることはできない。"
+  },
+  "WuyishiDNASe": {
+    "Name": "無意識の遺伝子",
+    "Description": "<PlayerName />のターン終了時、<h>覚</h>状態でない場合死亡する。"
+  },
+  "BenwoTouyingSe": {
+    "Name": "自我投影",
+    "Description": "<h>情熱</h>状態に入る度、完全にランダムな攻撃カード<Level />枚を手札に加える。それらは臨時コスト<Mana />で<h>廃棄</h>を持つ。"
+  },
+  "ChaofanyinSe": {
+    "Name": "超反応センス",
+    "Description": "<h>直感</h>を持ち、<h>複製</h>でないカードの<h>直感</h>の効果が発動しなかった時、コスト<Mana />かつ<h>廃棄</h>を持つコピーを<Value1 />枚手札に加える。"
+  },
+  "YukariFlyObjectSe": {
+    "Name": "超高速飛行体",
+    "Description": "<PlayerName />の次のターン開始時、ライフが最も多い敵に<Level />ダメージを与える。"
+  },
+  "LoseSpiritSe": {
+    "Name": "失われた羽衣",
+    "Description": "<PlayerName />のターン開始時、<Level />点の<h>霊力</h>を失う。"
+  },
+  "MoreDraw": {
+    "Name": "伝道教示",
+    "Description": "各ターンの開始時にカードを<Level />枚追加で引く。"
+  },
+  "YonglinCardSe": {
+    "Name": "賢者の隠遁",
+    "Description": "<PlayerName />のターン終了時、<Level />枚の<h>偽物の月</h>を山札に混ぜる。"
+  },
+  "UseCardToLoseGame": {
+    "Name": "余命僅か",
+    "Description": "<Count /> 枚のカードを使用した後に死ぬ。"
+  },
+  "NextTurnLoseGame": {
+    "Name": "棺桶に片足を突っ込んでいる",
+    "Description": "次ターン開始時に死ぬ。"
+  },
+  "GrimoireStudySe": {
+    "Name": "黒魔術の本",
+    "Description": "<OwnerName />のターン終了時、<h>幻虹</h>を手札に加える。"
+  },
+  "ShannvAbilitySe": {
+    "Name": "原因不明の熱病",
+    "Description": "<PlayerName />のターン終了時、敵全体に<h>毒</h><Level />を付与する。"
+  },
+  "BailianBlackSe": {
+    "Name": "闇の抱擁",
+    "Description": "<h>防御</h>または<h>スキル</h>カードのコストが<Mana />になり、使用時に<h>廃棄</h>される。"
+  },
+  "MeihongFireSe": {
+    "Name": "無差符発火符",
+    "Description": "<PlayerName />のターン終了時、敵全体に<Level />点のダメージを与える。<br />この効果は<h>厄災</h>または状態異常カードを引いた際にも発動する。"
+  },
+  "MeihongPowerSe": {
+    "Name": "不死の焔",
+    "Description": "<PlayerName />のターン開始時、<Level />点の<h>火力</h>を得る。<br />戦闘終了時、<PlayerName />のライフが半分以下だった場合、 <Heal /> 点のライフを回復する。"
+  },
+  "HuiyeManaSe": {
+    "Name": "竹取物語",
+    "Description": "<PlayerName />のターン開始時、 <Count /> 点のランダムなマナを得る。<br />この効果はターンごとに<Level />点増加する。"
+  },
+  "YouxiangMoonSe": {
+    "Name": "花鳥風月",
+    "Description": "<PlayerName />のターン開始時、<Level />点の<Mana />を得る。"
+  },
+  "RangziFanshuSe": {
+    "Name": "スイートポテトルーム",
+    "Description": "戦闘終了時、<Level />点のライフを回復する。"
+  },
+  "DizangLoveSe": {
+    "Name": "即席菩薩",
+    "Description": "コモンカードをプレイするたび、<OwnerName />は<Level />点の<h>臨時火力</h>を得る。"
+  },
+  "ZhenmiaowanAttackSe": {
+    "Name": "一寸法師の末裔",
+    "Description": "このターン中、スキルカードのコストが<Mana />減る。"
+  },
+  "ModuoluoFireSe": {
+    "Name": "穢那の火",
+    "Description": "<ManaP />が消費されるたび、敵全体に<Level />点のダメージを与える。"
+  },
+  "RinDrawSe": {
+    "Name": "怨霊を操る者",
+    "Description": "状態異常カードを引くたび、<Level />枚のカードを引く。"
+  },
+  "HekaHellRainSe": {
+    "Name": "地獄に降る雨",
+    "Description": "カードをプレイするたび、ターン終了時にすべての敵に<Level />のダメージを与える。<br />このターン<Count />のダメージを溜めた。"
+  },
+  "TiangouOrderSe": {
+    "Name": "大天狗の号令",
+    "Description": "<OwnerName />が攻撃ダメージを受けるたび、<PlayerName />は<Level />点の<h>ブロック</h>を得る。"
+  },
+  "SeeFengshuiSe": {
+    "Name": "風水を操る程度の能力",
+    "Description": "<PlayerName />のターン開始時、<h>占術</h> <Scry /> 。<br /><h>占術</h>によって防御カードが捨てられるたび、<Block />点の<h>ブロック</h>を得る。"
+  },
+  "RainbowMarketSe": {
+    "Name": "月虹市場",
+    "Description": "カードが<h>廃棄</h>されるたび、ランダムなカードを<Level />枚手札に加える。"
+  },
+  "KokoroDanceSe": {
+    "Name": "仮面喪心舞",
+    "Description": "敵がデバフを得るたび、<PlayerName />は対象に<Level /> 点のダメージを与える。"
+  },
+  "YachieDefendSe": {
+    "Name": "亀甲地獄",
+    "Description": "<OwnerName />の<Level />回のライフ喪失を防ぐ。<br />ダメージの発生源が敵の場合、反射する。"
+  },
+  "TodayYesterdaySe": {
+    "Name": "今昔幻想郷",
+    "Description": "<OwnerName />が攻撃を<h>グレイズ</h>するたび、<Level />点の<h>火力</h>を得る。"
+  },
+  "BlackPoisonSe": {
+    "Name": "暗闇演舞",
+    "Description": "<PlayerName />がブロックされないダメージを与えるたび、対象に<h>中毒</h><Level />を付与する。"
+  },
+  "MeilingAbilitySe": {
+    "Name": "烈虹真拳",
+    "Description": "<PlayerName />は 2 倍の<h>火力</h>と<h>臨時火力</h>を得る。"
+  },
+  "YonglinUpgradeSe": {
+    "Name": "仙香玉兎",
+    "Description": "<PlayerName />のターン開始時、<Level />枚のランダムな手札をアップグレードする。"
+  },
+  "YinyangQueenSe": {
+    "Name": "勾玉職人魅須丸",
+    "Description": "すべての<h>陰陽玉</h>の効果は<Level />倍分増加する。"
+  },
+  "HuiyeTimeSe": {
+    "Name": "須臾の間",
+    "Description": "このターン<Limit />枚のカードをプレイしかできない、残り<Count />枚。"
+  },
+  "ShirenKunchongSe": {
+    "Name": "人喰い虫",
+    "Description": "<OwnerName />がデバフを受ける度、<PlayerName />は<Level /><h>ブロック</h>を得る。"
+  },
+  "MeilingWaterSe": {
+    "Name": "不退転",
+    "Description": "<OwnerName />のターン開始時、ライフを<Level />失う。"
+  },
+  "YouxiangWakeSe": {
+    "Name": "定時起床",
+    "Description": "<Count />ターン後のターン開始時、<h>火力</h><Level />を得て、山札からランダムな<Limit />枚の攻撃カードを手札に加える。<br />それらの<h>臨時コスト</h>は<Mana />。"
+  },
+  "SanaeSummonGodSe": {
+    "Name": "サモンタケミナカタ",
+    "Description": "<Count />ターン後の<PlayerName />のターン開始時：<h>火力</h>と<h>霊力</h>を<Value1 />得る。"
+  },
+  "TianziRockSe": {
+    "Name": "絶壁！",
+    "Description": "<OwnerName />が受ける攻撃ダメージを<Level />減らす。"
+  },
+  "PrismriverSe": {
+    "Name": "プリズムコンチェルト",
+    "Description": "この戦闘中、<PlayerName />が得るマナはすべて<h>彩色</h>に変換される。"
+  },
+  "BailianFireSe": {
+    "Name": "法界の火",
+    "Description": "<PlayerName />のターン開始時、<Level />枚のランダムなスキルカードを手札に加える。これは<h>臨時コスト</h><Mana />で、<h>廃棄</h>、<h>虚無</h>を持つ。"
+  },
+  "SuperExtraTurn": {
+    "Name": "世紀のダブルエスパー",
+    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Level />枚しか使用できない。<br />現在のターン：<StatusString />"
+  },
+  "ZhenmiaowanAbilitySe": {
+    "Name": "小槌の魔力",
+    "Description": "カードのマナコストが<Mana />少なくなる。"
+  },
+  "YukariFriendSe": {
+    "Name": "幻想の境界",
+    "Description": "<PlayerName />のターン開始時、<Level />枚のランダムな三色の共通カードを手札に加える。それは臨時コスト<Mana />と<h>虚無</h>を持つ。"
+  },
+  "MoonWorldSe": {
+    "Name": "穢れ無き世界",
+    "Description": "<PlayerName />のターン開始時、手札の<Level />枚のカードが<h>浄化</h>され、有色のコストが取り除かれる。"
+  },
+  "CatchGoblinSe": {
+    "Name": "ラッキースター",
+    "Description": "受けるダメージが33%減少する。撃破される時50<Money />を落とす。"
+  }
 }
