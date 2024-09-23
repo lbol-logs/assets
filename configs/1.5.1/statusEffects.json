@@ -1,0 +1,16 @@
+{
+  "Fragil": {
+    "Value": 30
+  },
+  "Weak": {
+    "Value": 30
+  },
+  "Vulnerable": {
+    "Value": 50,
+    "Extra": {
+      "Exhibit": "Laiwating",
+      "Enemy": 50,
+      "Player": 25
+    }
+  }
+}
