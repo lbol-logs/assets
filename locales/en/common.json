@@ -6,14 +6,14 @@
   "exhibit": "Exhibit",
   "exhibit_other": "Exhibits",
   "mana": {
-    "W": "W",
-    "U": "U",
-    "B": "B",
-    "R": "R",
-    "G": "G",
-    "C": "C",
-    "P": "P",
-    "A": "?"
+    "W": "White",
+    "U": "Blue",
+    "B": "Black",
+    "R": "Red",
+    "G": "Green",
+    "C": "Colorless",
+    "P": "Philosopher",
+    "A": "Random"
   },
   "spellcards": {
     "ReimuA": "Spirit Sign \"Fantasy Seal\"",
