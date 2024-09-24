@@ -1,93 +1,172 @@
 {
   "LongjingYu": {
-    "Rarity": "Mythic"
+    "Rarity": "Mythic",
+    "Mana": "WUBRG"
   },
   "FoyushiBo": {
-    "Rarity": "Mythic"
+    "Rarity": "Mythic",
+    "Value1": 1
   },
   "HuoshuPiyi": {
-    "Rarity": "Mythic"
+    "Rarity": "Mythic",
+    "Value1": 20,
+    "Value2": 3
   },
   "YanZianbei": {
-    "Rarity": "Mythic"
+    "Rarity": "Mythic",
+    "Value1": 5
   },
   "PenglaiYuzhi": {
     "Rarity": "Mythic"
   },
+  "SingleJiandao": {
+    "Rarity": "Mythic"
+  },
+  "Shendeng": {
+    "Rarity": "Mythic"
+  },
+  "HolyGrail": {
+    "Rarity": "Mythic"
+  },
+  "SihunYu": {
+    "Rarity": "Mythic"
+  },
+  "MadokaBow": {
+    "Rarity": "Mythic"
+  },
+  "QiannianShenqi": {
+    "Rarity": "Mythic"
+  },
+  "InfinityGems": {
+    "Rarity": "Mythic"
+  },
+  "SakuraWand": {
+    "Rarity": "Mythic"
+  },
+  "DragonBall": {
+    "Rarity": "Mythic"
+  },
   "ReimuR": {
+    "Owner": "Reimu",
     "Rarity": "Shining",
-    "BaseMana": "R",
-    "Owner": "Reimu"
+    "Value1": 1,
+    "Value2": 3,
+    "BaseMana": "R"
   },
   "ReimuW": {
+    "Owner": "Reimu",
     "Rarity": "Shining",
-    "BaseMana": "W",
-    "Owner": "Reimu"
+    "Value1": 3,
+    "Value2": 1,
+    "BaseMana": "W"
   },
   "MarisaB": {
+    "Owner": "Marisa",
     "Rarity": "Shining",
-    "BaseMana": "B",
-    "Owner": "Marisa"
+    "Value1": 1,
+    "BaseMana": "B"
   },
   "MarisaR": {
+    "Owner": "Marisa",
     "Rarity": "Shining",
-    "BaseMana": "R",
-    "Owner": "Marisa"
+    "Value1": 1,
+    "Mana": "R",
+    "BaseMana": "R"
   },
   "SakuyaW": {
+    "Owner": "Sakuya",
     "Rarity": "Shining",
-    "BaseMana": "W",
-    "Owner": "Sakuya"
+    "Value1": 1,
+    "BaseMana": "W"
   },
   "SakuyaU": {
+    "Owner": "Sakuya",
     "Rarity": "Shining",
-    "BaseMana": "U",
-    "Owner": "Sakuya"
+    "Value1": 1,
+    "Value2": 3,
+    "BaseMana": "U"
   },
   "CirnoU": {
+    "Owner": "Cirno",
     "Rarity": "Shining",
-    "BaseMana": "U",
-    "Owner": "Cirno"
+    "Value1": 1,
+    "BaseMana": "U"
   },
   "CirnoG": {
+    "Owner": "Cirno",
     "Rarity": "Shining",
-    "BaseMana": "G",
-    "Owner": "Cirno"
+    "Value1": 1,
+    "BaseMana": "G"
+  },
+  "KoishiG": {
+    "Owner": "Koishi",
+    "Rarity": "Shining",
+    "Value1": 1,
+    "Value2": 1,
+    "BaseMana": "G"
+  },
+  "KoishiB": {
+    "Owner": "Koishi",
+    "Rarity": "Shining",
+    "Value1": 4,
+    "BaseMana": "B"
+  },
+  "AliceW": {
+    "Owner": "Alice",
+    "Rarity": "Shining",
+    "BaseMana": "W"
+  },
+  "AliceB": {
+    "Owner": "Alice",
+    "Rarity": "Shining",
+    "BaseMana": "B"
   },
   "PiaoliangPanzi": {
     "Rarity": "Shining",
+    "Value1": 3,
     "BaseMana": "W"
   },
   "DatiangouMaifan": {
     "Rarity": "Shining",
+    "Value1": 20,
     "BaseMana": "W"
   },
   "ClassicWunvfu": {
     "Rarity": "Shining",
+    "Value1": 2,
     "BaseMana": "W"
   },
   "Bingzhilin": {
     "Rarity": "Shining",
+    "Value1": 2,
+    "Mana": 1,
     "BaseMana": "U"
   },
   "ShijieSuipian": {
     "Rarity": "Shining",
+    "Value1": 2,
     "BaseMana": "U"
   },
   "TianwenWangyuanjing": {
     "Rarity": "Shining",
+    "Value1": 2,
     "BaseMana": "U"
   },
   "QinaKapian": {
     "Rarity": "Shining",
+    "Value1": 1,
+    "Value2": 5,
     "BaseMana": "B"
   },
   "PingzhuangLinghun": {
     "Rarity": "Shining",
+    "Value1": 3,
     "BaseMana": "B"
   },
   "Laiwating": {
     "Rarity": "Shining",
+    "Value1": 50,
+    "Value2": 25,
     "BaseMana": "B"
   },
   "Ganggenier": {
@@ -100,30 +179,42 @@
   },
   "AizheHongshi": {
     "Rarity": "Shining",
+    "Value1": 2,
+    "Value2": 1,
     "BaseMana": "R"
   },
   "HouhuMen": {
     "Rarity": "Shining",
+    "Value1": 2,
     "BaseMana": "G"
   },
   "HuashanBaiyaosheng": {
     "Rarity": "Shining",
+    "Value1": 3,
+    "Value2": 3,
+    "Mana": "P",
     "BaseMana": "G"
   },
   "FengshouGuolan": {
     "Rarity": "Shining",
+    "Value1": 5,
+    "Value2": 1,
     "BaseMana": "G"
   },
   "Wanbaochui": {
     "Rarity": "Shining",
+    "Mana": "C",
     "BaseMana": "C"
   },
   "Gongjuxiang": {
     "Rarity": "Shining",
+    "Value1": 2,
     "BaseMana": "C"
   },
   "YueGujiu": {
     "Rarity": "Shining",
+    "Value1": 1,
+    "Mana": "C",
     "BaseMana": "C"
   },
   "Yuerang": {
@@ -132,22 +223,31 @@
   },
   "XianzheShi": {
     "Rarity": "Shining",
+    "Value1": 5,
+    "Mana": "P",
     "BaseMana": "P"
   },
   "TaiguGouyu": {
     "Rarity": "Shining",
+    "Value1": 4,
+    "Mana": "P",
     "BaseMana": "P"
   },
   "KongbaiKapai": {
     "Rarity": "Shining",
+    "Value1": 1,
     "BaseMana": "P"
   },
   "HuiyeBaoxiang": {
     "Rarity": "Shining",
+    "Value1": 3,
     "BaseMana": "A"
   },
   "QipaiYouhua": {
     "Rarity": "Shining",
+    "Value1": 150,
+    "Value2": 1,
+    "Value3": 5,
     "BaseMana": "A"
   },
   "YizangnuoWuzhi": {
@@ -156,36 +256,47 @@
   },
   "QicaiLianhua": {
     "Rarity": "Shining",
+    "Value1": 3,
+    "Value2": 3,
     "BaseMana": "A"
   },
   "He3": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 3,
+    "Mana": "C"
   },
   "Baota": {
     "Rarity": "Rare",
-    "Counter": 0
+    "Value1": 3,
+    "Mana": "P"
   },
   "XijianSan": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 20,
+    "Mana": "PPP"
   },
   "Taozi": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 16
   },
   "PenzaiYoutan": {
     "Rarity": "Rare"
   },
   "Yuhangfu": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "GanzhuYao": {
     "Rarity": "Rare",
-    "Counter": 0
+    "Value1": 50,
+    "Value2": 2
   },
   "Xunlongchi": {
     "Rarity": "Rare"
   },
   "BaochuanMoxing": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 12
   },
   "GaodangShoubao": {
     "Rarity": "Rare"
@@ -194,31 +305,39 @@
     "Rarity": "Rare"
   },
   "SunhuaiHufu": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "JimuWanju": {
     "Rarity": "Rare"
   },
   "Zuoshan": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Mana": 1
   },
   "Zijing": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "HuanxiangxiangYuanqi": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 2
   },
   "DiyuChepiao": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "ShanliangDengpao": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 2
   },
   "ZhanshuDaoliqi": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Mana": 1
   },
   "Yashemao": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "ShanshuoBishou": {
     "Rarity": "Rare"
@@ -227,67 +346,98 @@
     "Rarity": "Rare"
   },
   "ZhangchibangQiu": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 300
   },
   "YueYuyi": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "FeixiangJian": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 5
   },
   "YuekuangQiang": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 8
   },
   "YichuiPiao": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "Yaoshi": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Mana": "WW"
   },
   "Mengriji": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Mana": "UU"
   },
   "Heilianhua": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Mana": "BB"
   },
   "Bianhua": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Mana": "RR"
   },
   "Xiangrikui": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 12,
+    "Value2": 5,
+    "Value3": 9,
+    "Mana": "GG"
   },
   "LinghunBaoshi": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Mana": "WUBRG"
   },
   "ZheyangSan": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 12,
+    "Value2": 5
   },
   "Pingguo": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 12
   },
   "PortalGun": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 20
   },
   "BoreMianju": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 3,
+    "Value2": 1
   },
   "HuliMianju": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 3,
+    "Value2": 1
   },
   "HuonanMianju": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 3,
+    "Value2": 5
   },
   "XiwangMianju": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 3,
+    "Value2": 10
   },
   "DiyinLeigu": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 1
   },
   "LoushuiShaozi": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 3,
+    "Value2": 2
   },
   "WeifengHuban": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 2,
+    "Value2": 4
   },
   "Zixingche": {
     "Rarity": "Uncommon"
@@ -308,200 +458,283 @@
     "Rarity": "Uncommon"
   },
   "Saiqianxiang": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 150,
+    "Value2": 5
   },
   "Shanbibu": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 2
   },
   "XiaorenWan": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 2
   },
   "Tnt": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 4,
+    "Value2": 25
   },
   "Modaoshu": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 3
   },
   "Shaoyao": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 5,
+    "Value2": 3,
+    "Value3": 2,
+    "Mana": "W"
   },
   "Bingkuai": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 5,
+    "Value2": 5,
+    "Mana": "U"
   },
   "Shiyou": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 5,
+    "Value2": 10,
+    "Value3": 2,
+    "Mana": "B"
   },
   "JingwanMudan": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 5,
+    "Value2": 6,
+    "Mana": "R"
   },
   "Shuye": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 5,
+    "Value2": 1,
+    "Mana": "G"
   },
   "TangSan": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 8,
+    "Value2": 1
   },
   "Putao": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 8
   },
   "TiangouMuji": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "TiangouRongqiu": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "TiangouShanzi": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "TiangouXiangji": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "TiangouShouji": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "TiangouYuyi": {
     "Rarity": "Common",
-    "Counter": 3
+    "InitialCounter": 3
   },
   "TiangouDunpai": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "ShenmiPifeng": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "ChuRenou": {
     "Rarity": "Common",
-    "Counter": 3
+    "InitialCounter": 2
   },
   "Chaidao": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "Jiaobu": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "ChaojiMogu": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 200
   },
   "Tuanzi": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2,
+    "Value2": 5
   },
   "JingzhiChaju": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 20
   },
   "DiannaoPeijian": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 50
   },
   "HuangyouJiqiren": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 5
   },
   "Bumengwang": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1,
+    "Value2": 10,
+    "Value3": 30
   },
   "JudaShaozi": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 7
   },
   "JiangyouPing": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 10,
+    "Value2": 20
   },
   "PingfanDao": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2,
+    "Value2": 4,
+    "Mana": 1
   },
   "YinzhiHuaibiao": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 5,
+    "Mana": "W"
   },
   "ShiyanQicai": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Mana": "U"
   },
   "HeijiaoChangpian": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Mana": "B"
   },
   "Duandai": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Mana": "R"
   },
   "Zhuzi": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Mana": "G"
   },
   "FaliJingdian": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Mana": "PPP"
   },
   "Huiyuanka": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 40
   },
   "BoliHufu": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "Yushenqian": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "Cookie": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 4
   },
   "ShoubiaoMazuiqiang": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "ZhuQingting": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 3,
+    "Value2": 1
   },
   "Pijiu": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 3,
+    "Value2": 1
   },
   "HeiseBijiben": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 30
   },
   "Guangjian": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 3
   },
   "LuoboMoxing": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "Moping": {
     "Rarity": "Common",
-    "Counter": 3
+    "Value1": 5,
+    "Value2": 3,
+    "InitialCounter": 3
   },
   "JingboliJing": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "Headphone": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 1
   },
   "ZhinengYinxiang": {
     "Rarity": "Uncommon"
   },
   "MaorongWanju": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 1
   },
   "LouguanJian": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1
   },
   "WaijieYanjing": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 25
   },
   "WaijieYouxiji": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 5
   },
   "WaijieYanshuang": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 2
   },
   "JingjieGanzhiyi": {
     "Rarity": "Mythic"
   },
   "Dahuoji": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "JingesiYushou": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 10
   },
   "JingQiXi": {
     "Rarity": "Common"
   },
   "SadinYuebing": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 1
   },
   "IdolTshirt": {
     "Rarity": "Uncommon",
-    "Counter": 2
+    "InitialCounter": 2
   },
   "Qingshu": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Value1": 1
   },
   "Dianshiji": {
     "Rarity": "Rare"
@@ -513,13 +746,19 @@
     "Rarity": "Rare"
   },
   "JuanzengZhengming": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Value1": 1,
+    "Value2": 100
   },
   "PulpFiction": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 1,
+    "Value2": 3
   },
   "FixBook": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Value1": 3,
+    "Mana": "C"
   },
   "TimeBook": {
     "Rarity": "Uncommon"

@@ -1,172 +1,662 @@
 {
-  "LongjingYu": "龙颈之玉",
-  "FoyushiBo": "佛御石之钵",
-  "HuoshuPiyi": "火鼠的皮衣",
-  "YanZianbei": "燕的子安贝",
-  "PenglaiYuzhi": "蓬莱玉枝",
-  "SingleJiandao": "巨大的单片剪刀",
-  "Shendeng": "前端很长的茶壶",
-  "HolyGrail": "装饰浮夸的金杯",
-  "SihunYu": "散发邪气的挂坠",
-  "MadokaBow": "迸发光芒的长弓",
-  "QiannianShenqi": "金字塔形状的积木",
-  "InfinityGems": "镶有宝石的手套",
-  "SakuraWand": "长翅膀的钥匙",
-  "DragonBall": "印着星星的玻璃球",
-  "ReimuR": "渴望鲜血的阴阳玉",
-  "ReimuW": "博丽御币",
-  "MarisaB": "黑暗魔导书",
-  "MarisaR": "迷你八卦炉",
-  "SakuyaW": "备用的飞刀",
-  "SakuyaU": "魔术扑克",
-  "CirnoU": "冰晶翅膀",
-  "CirnoG": "茂盛的绿枝",
-  "PiaoliangPanzi": "漂亮的盘子",
-  "DatiangouMaifan": "大天狗的麦饭",
-  "ClassicWunvfu": "旧式巫女服",
-  "Bingzhilin": "冰之鳞",
-  "ShijieSuipian": "世界的碎片",
-  "TianwenWangyuanjing": "天文望远镜",
-  "QinaKapian": "齐纳卡片",
-  "PingzhuangLinghun": "瓶装灵魂",
-  "Laiwating": "莱瓦汀",
-  "Ganggenier": "冈格尼尔",
-  "GuizuJiubei": "鬼族酒杯",
-  "AizheHongshi": "艾哲红石",
-  "HouhuMen": "后户之门",
-  "HuashanBaiyaosheng": "华扇的百药枡",
-  "FengshouGuolan": "丰收果篮",
-  "Wanbaochui": "万宝槌",
-  "Gongjuxiang": "工具箱",
-  "YueGujiu": "月之古酒",
-  "Yuerang": "月壤",
-  "XianzheShi": "贤者之石",
-  "TaiguGouyu": "太古的勾玉",
-  "KongbaiKapai": "空白卡牌",
-  "HuiyeBaoxiang": "辉夜的宝箱",
-  "QipaiYouhua": "气派的油画",
-  "YizangnuoWuzhi": "伊奘诺物质",
-  "QicaiLianhua": "七色莲华",
-  "He3": "氦-3",
-  "Baota": "毘沙门天的宝塔",
-  "XijianSan": "隙间的大洋伞",
-  "Taozi": "桃子",
-  "PenzaiYoutan": "盆栽优昙",
-  "Yuhangfu": "宇航服",
-  "GanzhuYao": "绀珠之药",
-  "Xunlongchi": "寻龙尺",
-  "BaochuanMoxing": "宝船模型",
-  "GaodangShoubao": "高档手包",
-  "WanglingTideng": "亡灵的送行提灯",
-  "SunhuaiHufu": "损坏的护符",
-  "JimuWanju": "积木玩具",
-  "Zuoshan": "左扇",
-  "Zijing": "紫镜",
-  "HuanxiangxiangYuanqi": "幻想乡缘起",
-  "DiyuChepiao": "地狱的车票",
-  "ShanliangDengpao": "闪亮的灯泡",
-  "ZhanshuDaoliqi": "战术导力器",
-  "Yashemao": "鸭舌帽",
-  "ShanshuoBishou": "闪烁匕首",
-  "Yueshan": "月扇",
-  "ZhangchibangQiu": "长翅膀的球",
-  "YueYuyi": "月之羽衣",
-  "FeixiangJian": "绯想剑",
-  "YuekuangQiang": "月狂枪",
-  "YichuiPiao": "伊吹瓢",
-  "Yaoshi": "要石",
-  "Mengriji": "梦日记",
-  "Heilianhua": "黑莲花",
-  "Bianhua": "彼岸花",
-  "Xiangrikui": "向日葵",
-  "LinghunBaoshi": "灵魂宝石",
-  "ZheyangSan": "遮阳伞",
-  "Pingguo": "苹果",
-  "PortalGun": "传送枪",
-  "BoreMianju": "般若面具",
-  "HuliMianju": "狐狸面具",
-  "HuonanMianju": "火男面具",
-  "XiwangMianju": "希望面具",
-  "DiyinLeigu": "低音的雷鼓",
-  "LoushuiShaozi": "漏水的勺子",
-  "WeifengHuban": "威风的笏板",
-  "Zixingche": "自行车",
-  "Fengrenji": "缝纫机",
-  "Shoubiao": "手表",
-  "Shouyinji": "收音机",
-  "SongjingMuyu": "诵经的木鱼",
-  "ShoushiYubi": "守矢御币",
-  "Saiqianxiang": "赛钱箱",
-  "Shanbibu": "闪避布",
-  "XiaorenWan": "小人族的碗",
-  "Tnt": "TNT炸药",
-  "Modaoshu": "魔导书",
-  "Shaoyao": "芍药",
-  "Bingkuai": "冰块",
-  "Shiyou": "石油",
-  "JingwanMudan": "京丸牡丹",
-  "Shuye": "树叶",
-  "TangSan": "唐伞",
-  "Putao": "葡萄",
-  "TiangouMuji": "天狗的木屐",
-  "TiangouRongqiu": "天狗的绒球",
-  "TiangouShanzi": "天狗的扇子",
-  "TiangouXiangji": "天狗的相机",
-  "TiangouShouji": "天狗的手机",
-  "TiangouYuyi": "鸦天狗的羽翼",
-  "TiangouDunpai": "狼天狗的盾牌",
-  "ShenmiPifeng": "神秘的披风",
-  "ChuRenou": "雏人偶",
-  "Chaidao": "柴刀",
-  "Jiaobu": "胶布",
-  "ChaojiMogu": "超级蘑菇",
-  "Tuanzi": "团子",
-  "JingzhiChaju": "精致的茶具",
-  "DiannaoPeijian": "电脑配件",
-  "HuangyouJiqiren": "黄油机器人",
-  "Bumengwang": "捕梦网",
-  "JudaShaozi": "巨大的勺子",
-  "JiangyouPing": "酱油瓶",
-  "PingfanDao": "平凡的刀",
-  "YinzhiHuaibiao": "银质怀表",
-  "ShiyanQicai": "实验器材",
-  "HeijiaoChangpian": "黑胶唱片",
-  "Duandai": "缎带",
-  "Zhuzi": "竹子",
-  "FaliJingdian": "法力经典",
-  "Huiyuanka": "会员卡",
-  "BoliHufu": "博丽护符",
-  "Yushenqian": "御神签",
-  "Cookie": "好吃的曲奇",
-  "ShoubiaoMazuiqiang": "手表麻醉枪",
-  "ZhuQingting": "竹蜻蜓",
-  "Pijiu": "啤酒",
-  "HeiseBijiben": "黑色笔记本",
-  "Guangjian": "光剑",
-  "LuoboMoxing": "萝卜模型",
-  "Moping": "魔瓶",
-  "JingboliJing": "净玻璃之镜",
-  "Headphone": "高保真耳机",
-  "ZhinengYinxiang": "智能音箱",
-  "MaorongWanju": "毛绒玩具",
-  "LouguanJian": "楼观剑",
-  "WaijieYanjing": "外界的高科技眼镜",
-  "WaijieYouxiji": "外界的游戏机",
-  "WaijieYanshuang": "外界的眼霜",
-  "JingjieGanzhiyi": "境界感知仪",
-  "Dahuoji": "打火机",
-  "JingesiYushou": "金阁寺的御守",
-  "JingQiXi": "鲸之气息",
-  "SadinYuebing": "撒丁岛月饼",
-  "IdolTshirt": "偶像 T 恤",
-  "Qingshu": "情书",
-  "Dianshiji": "电视机",
-  "Xiyiji": "洗衣机",
-  "Bingxiang": "冰箱",
-  "JuanzengZhengming": "捐赠证明",
-  "PulpFiction": "《低俗小说》",
-  "FixBook": "《万能修理手册》",
-  "TimeBook": "《时间简史》",
-  "FirstAidBook": "《急救手册》",
-  "KongZhanpinhe": "空的展品盒"
+  "LongjingYu": {
+    "Name": "龙颈之玉",
+    "Description": "战斗开始时，获得<Mana />。"
+  },
+  "FoyushiBo": {
+    "Name": "佛御石之钵",
+    "Description": "每打出一张防御牌，获得 <Value1 /> 点随机法力。"
+  },
+  "HuoshuPiyi": {
+    "Name": "火鼠的皮衣",
+    "Description": "战斗开始时，获得 <Value1 /> 点<h>护盾</h>和 <Value2 /> 点<h>火力</h>。"
+  },
+  "YanZianbei": {
+    "Name": "燕的子安贝",
+    "Description": "<PlayerName />的回合开始时，恢复 <Value1 /> 点生命。"
+  },
+  "PenglaiYuzhi": {
+    "Name": "蓬莱玉枝",
+    "Description": "<PlayerName />获得的所有法力都转化为<h>彩色</h>。<br />多余的法力会保留到下一回合。"
+  },
+  "ReimuR": {
+    "Name": "渴望鲜血的阴阳玉",
+    "Description": "提供基础法力<BaseMana />，<h>灵梦</h>的专属卡牌会加入牌池。<br />每当一名敌人被击败，<PlayerName />获得 <Value1 /> 点<h>火力</h>，恢复 <Value2 /> 点生命。"
+  },
+  "ReimuW": {
+    "Name": "博丽御币",
+    "Description": "提供基础法力<BaseMana />，<h>灵梦</h>的专属卡牌会加入牌池。<br />回合结束有剩余法力时，获得 <Value1 /> 点<h>护盾</h>。<br />战斗开始时，获得 <Value2 /> 点<h>护盾</h>。"
+  },
+  "MarisaB": {
+    "Name": "黑暗魔导书",
+    "Description": "提供基础法力<BaseMana />，<h>魔理沙</h>的专属卡牌会加入牌池。<br /><PlayerName />的第一回合开始时，将 <Value1 /> 张<h>灵异</h>加入手中。"
+  },
+  "MarisaR": {
+    "Name": "迷你八卦炉",
+    "Description": "提供基础法力<BaseMana />，<h>魔理沙</h>的专属卡牌会加入牌池。<br />支付<Mana />打出一张攻击牌后，<PlayerName />获得 <Value1 /> 层<h>充能</h>。"
+  },
+  "SakuyaW": {
+    "Name": "备用的飞刀",
+    "Description": "提供基础法力<BaseMana />，<h>咲夜</h>的专属卡牌会加入牌池。<br />战斗开始和洗牌时，将 <Value1 /> 张<h>飞刀</h>洗入抽牌堆。"
+  },
+  "SakuyaU": {
+    "Name": "魔术扑克",
+    "Description": "提供基础法力<BaseMana />，<h>咲夜</h>的专属卡牌会加入牌池。<br />每场战斗的前 <Value2 /> 回合，抽牌阶段多抽 <Value1 /> 张牌。"
+  },
+  "CirnoU": {
+    "Name": "冰晶翅膀",
+    "Description": "提供基础法力<BaseMana />，<h>琪露诺</h>的专属卡牌会加入牌池。<br /><PlayerName />的第一回合开始时，将 <Value1 /> 张<h>冰之翼</h>加入手中。"
+  },
+  "CirnoG": {
+    "Name": "茂盛的绿枝",
+    "Description": "提供基础法力<BaseMana />，<h>琪露诺</h>的专属卡牌会加入牌池。<br />主动打出而召唤一名<h>同伴</h>时，将 <Value1 /> 张<h>盛夏之花</h>加入手中。"
+  },
+  "KoishiG": {
+    "Name": "带刺的蔷薇",
+    "Description": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br /><PlayerName />的第一回合开始时，获得 <Value1 /> 层<h>灵感迸发</h>，将 <Value2 /> 张<h>灵感</h>洗入抽牌堆。"
+  },
+  "KoishiB": {
+    "Name": "假想的朋友",
+    "Description": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br /><PlayerName />进入<h>热情</h>时获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "AliceW": {
+    "Name": "上海人偶",
+    "Description": "提供基础法力<BaseMana />，<h>爱丽丝</h>的专属卡牌会加入牌池。<br />战斗开始时，部署一个|e:上海人偶|。"
+  },
+  "AliceB": {
+    "Name": "引爆装置",
+    "Description": "提供基础法力<BaseMana />，<h>爱丽丝</h>的专属卡牌会加入牌池。<br /><h>撤离</h>|e:蓬莱人偶|时造成双倍伤害。"
+  },
+  "PiaoliangPanzi": {
+    "Name": "漂亮的盘子",
+    "Description": "提供基础法力<BaseMana />。<br /><PlayerName />的第一回合开始时，随机<h>升级</h> <Value1 /> 张手牌。"
+  },
+  "DatiangouMaifan": {
+    "Name": "大天狗的麦饭",
+    "Description": "提供基础法力<BaseMana />。<br />战斗结束时，<PlayerName />获得 <Value1 /> 点<Power />。"
+  },
+  "ClassicWunvfu": {
+    "Name": "旧式巫女服",
+    "Description": "提供基础法力<BaseMana />。<br /><PlayerName />的回合开始时，每有一张已<h>升级</h>的手牌，获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "Bingzhilin": {
+    "Name": "冰之鳞",
+    "Description": "提供基础法力<BaseMana />。<br />打出一张能力牌后， <Value1 /> 张随机的手牌费用<h>暂时降低</h><Mana />。"
+  },
+  "ShijieSuipian": {
+    "Name": "世界的碎片",
+    "Description": "提供基础法力<BaseMana />。<br />获取时，选择牌库中的至多 <Value1 /> 张牌，随机变化为一张稀有牌和一张罕见牌。"
+  },
+  "TianwenWangyuanjing": {
+    "Name": "天文望远镜",
+    "Description": "提供基础法力<BaseMana />。<br /><PlayerName />的第一回合开始时，将 <Value1 /> 张<h>占星</h>加入手中。"
+  },
+  "QinaKapian": {
+    "Name": "齐纳卡片",
+    "Description": "提供基础法力<BaseMana />。<br />使用符卡后，<PlayerName />失去 <Value1 /> 点生命，抽 <Value2 /> 张牌。"
+  },
+  "PingzhuangLinghun": {
+    "Name": "瓶装灵魂",
+    "Description": "提供基础法力<BaseMana />。<br />敌人被击败时不再掉落<Power />，每一点<Power />改为 <Value1 /> 点<Money />。"
+  },
+  "Laiwating": {
+    "Name": "莱瓦汀",
+    "Description": "提供基础法力<BaseMana />。<br />敌人受到的<h>易伤</h>，效果提高 <Value1 /> 个百分点。<br /><PlayerName />受到的<h>易伤</h>，效果提高 <Value2 /> 个百分点。"
+  },
+  "Ganggenier": {
+    "Name": "冈格尼尔",
+    "Description": "提供基础法力<BaseMana />。<br />攻击牌造成的伤害都具有<h>精准</h>。"
+  },
+  "GuizuJiubei": {
+    "Name": "鬼族酒杯",
+    "Description": "提供基础法力<BaseMana />。<br /><PlayerName />的回合开始时，获得等同于上回合打出攻击牌数量的<h>暂得火力</h>。"
+  },
+  "AizheHongshi": {
+    "Name": "艾哲红石",
+    "Description": "提供基础法力<BaseMana />。<br /><PlayerName />的第一回合开始时，获得 <Value1 /> 点<h>火力</h>，将 <Value2 /> 张<h>折射日光</h>洗入弃牌堆。"
+  },
+  "HouhuMen": {
+    "Name": "后户之门",
+    "Description": "提供基础法力<BaseMana />。<br />获取时，选择牌库中的 <Value1 /> 张牌移除。"
+  },
+  "HuashanBaiyaosheng": {
+    "Name": "华扇的百药枡",
+    "Description": "提供基础法力<BaseMana />。<br /><PlayerName />的第一回合开始时，获得<Mana />；<br />第二回合开始时，恢复 <Value1 /> 点生命；<br />第三回合开始时，获得 <Value2 /> 点<h>暂得火力</h>。"
+  },
+  "FengshouGuolan": {
+    "Name": "丰收果篮",
+    "Description": "提供基础法力<BaseMana />。<br /><PlayerName />的最大生命值提高 <Value1 /> 点。<br />每当一张卡牌进入牌库，<PlayerName />的最大生命值提高 <Value2 /> 点。"
+  },
+  "Wanbaochui": {
+    "Name": "万宝槌",
+    "Description": "提供基础法力<BaseMana />。<br />每支付一点<Mana />打出基础牌时，该牌的基础效果提高一倍。（支付<ManaP />无效）"
+  },
+  "Gongjuxiang": {
+    "Name": "工具箱",
+    "Description": "提供基础法力<BaseMana />。<br />每进行 <Value1 /> 场战斗，获得一张道具牌。"
+  },
+  "YueGujiu": {
+    "Name": "月之古酒",
+    "Description": "提供基础法力<BaseMana />。<br />打出一张具有<h>放逐</h>的卡牌后，如果支付了任意法力，获得<Mana />。"
+  },
+  "Yuerang": {
+    "Name": "月壤",
+    "Description": "提供基础法力<BaseMana />。<br />厄运：<h>表之月</h>。"
+  },
+  "XianzheShi": {
+    "Name": "贤者之石",
+    "Description": "提供基础法力<BaseMana />。<br />回合结束时不会失去<h>彩色法力</h><Mana />。"
+  },
+  "TaiguGouyu": {
+    "Name": "太古的勾玉",
+    "Description": "提供基础法力<BaseMana />。<br />打出一张卡牌后，如果实际支付的法力总数不少于 <Value1 /> ，下回合开始时获得<Mana />。"
+  },
+  "KongbaiKapai": {
+    "Name": "空白卡牌",
+    "Description": "提供基础法力<BaseMana />。<br />奖励和售卖的卡牌从所有颜色中随机。卡牌奖励选择数量加 <Value1 /> 。"
+  },
+  "HuiyeBaoxiang": {
+    "Name": "辉夜的宝箱",
+    "Description": "<PlayerName />的回合开始时，获得一点随机法力。<br />随机获得 <Value1 /> 个展品。<br />厄运：<h>逐客令</h>。"
+  },
+  "QipaiYouhua": {
+    "Name": "气派的油画",
+    "Description": "<PlayerName />的回合开始时，获得一点随机法力。<br />获得 <Value1 /> 点<Money />，随机<h>升级</h> <Value2 /> 张牌，<PlayerName />的最大生命值提高 <Value3 /> 点。"
+  },
+  "YizangnuoWuzhi": {
+    "Name": "伊奘诺物质",
+    "Description": "<PlayerName />的回合开始时，获得一点随机法力。<br />击败精英敌人时，额外掉落一件<h>展品</h>。"
+  },
+  "QicaiLianhua": {
+    "Name": "七色莲华",
+    "Description": "<PlayerName />的回合开始时，获得一点随机法力。<br />每场战斗中，拥有过所有七种颜色的法力时，将一张|e:彩光乱舞|加入手中。"
+  },
+  "He3": {
+    "Name": "氦-3",
+    "Description": "打出一张卡牌后，如果实际支付的法力总数不少于 <Value1 /> ，获得<Mana />。"
+  },
+  "Baota": {
+    "Name": "毘沙门天的宝塔",
+    "Description": "战斗开始时，获得 <Counter /> 点<Mana />，获得 <Counter /> 点<h>火力</h>。<br />可以在隙间小屋升级，最多 <Value1 /> 次。"
+  },
+  "XijianSan": {
+    "Name": "隙间的大洋伞",
+    "Description": "<PlayerName />的第三回合开始时，获得 <Value1 /> 点<h>格挡</h>，获得<Mana />。"
+  },
+  "Taozi": {
+    "Name": "桃子",
+    "Description": "获取时，<PlayerName />的最大生命值提高 <Value1 /> 点。"
+  },
+  "PenzaiYoutan": {
+    "Name": "盆栽优昙",
+    "Description": "多余的法力会保留到下一回合。"
+  },
+  "Yuhangfu": {
+    "Name": "宇航服",
+    "Description": "在战斗中，<PlayerName />因为任何原因减少生命时，减少量降低 <Value1 /> 点。"
+  },
+  "GanzhuYao": {
+    "Name": "绀珠之药",
+    "Description": "<PlayerName />被杀死时，免除死亡并恢复满生命值，只能生效一次。<br />生效后，最大生命值减少为 <Value1 />% ；战斗开始时，<PlayerName />获得 <Value2 /> 点<h>火力</h>。<br />不会丢失。"
+  },
+  "Xunlongchi": {
+    "Name": "寻龙尺",
+    "Description": "可以在隙间小屋<h>寻宝</h>，找到新的展品。"
+  },
+  "BaochuanMoxing": {
+    "Name": "宝船模型",
+    "Description": "<PlayerName />每前进一关就可以收集 <Value1 /> 点<Money />。"
+  },
+  "GaodangShoubao": {
+    "Name": "高档手包",
+    "Description": "在铃仙的<h>补给</h>事件中，可以同时获得两个展品。"
+  },
+  "WanglingTideng": {
+    "Name": "亡灵的送行提灯",
+    "Description": "在战斗中，阻挡<PlayerName />的第一次生命损失。"
+  },
+  "SunhuaiHufu": {
+    "Name": "损坏的护符",
+    "Description": "牌库中每有一张<h>厄运</h>，<PlayerName />在战斗开始时获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。"
+  },
+  "JimuWanju": {
+    "Name": "积木玩具",
+    "Description": "普通敌人多掉落一次卡牌奖励。"
+  },
+  "Zuoshan": {
+    "Name": "左扇",
+    "Description": "每场战斗中使用第一张牌后，将一张该牌<h>暂塑</h>为<Mana />的复制加入手中，这张复制具有<h>放逐</h>。"
+  },
+  "Zijing": {
+    "Name": "紫镜",
+    "Description": "获取时，选择 <Value1 /> 张牌库里的牌，获得其复制。"
+  },
+  "HuanxiangxiangYuanqi": {
+    "Name": "幻想乡缘起",
+    "Description": "<PlayerName />每打出一张能力牌，恢复 <Value1 /> 点生命。"
+  },
+  "DiyuChepiao": {
+    "Name": "地狱的车票",
+    "Description": "<PlayerName />每次失去生命时，抽 <Value1 /> 张牌。"
+  },
+  "ShanliangDengpao": {
+    "Name": "闪亮的灯泡",
+    "Description": "可以在隙间小屋<h>发想</h>，从 <Value1 /> 张随机的稀有牌中选择一张加入牌库。"
+  },
+  "ZhanshuDaoliqi": {
+    "Name": "战术导力器",
+    "Description": "在战斗中，<PlayerName />的技能牌费用降低<Mana />。"
+  },
+  "Yashemao": {
+    "Name": "鸭舌帽",
+    "Description": "抽牌阶段多抽 <Value1 /> 张牌。"
+  },
+  "ShanshuoBishou": {
+    "Name": "闪烁匕首",
+    "Description": "<PlayerName />的第一回合开始时，选择任意张手牌丢弃，然后抽等量的牌。"
+  },
+  "Yueshan": {
+    "Name": "月扇",
+    "Description": "<PlayerName />回合开始时只失去一半的<h>格挡</h>。"
+  },
+  "ZhangchibangQiu": {
+    "Name": "长翅膀的球",
+    "Description": "获取时，<PlayerName />获得 <Value1 /> 点<Money />。"
+  },
+  "YueYuyi": {
+    "Name": "月之羽衣",
+    "Description": "<PlayerName />的第一回合开始时，获得 <Value1 /> 回合<h>天衣无缝</h>。"
+  },
+  "FeixiangJian": {
+    "Name": "绯想剑",
+    "Description": "<PlayerName />的回合开始时，对所有敌人造成 <Value1 /> 点伤害。"
+  },
+  "YuekuangQiang": {
+    "Name": "月狂枪",
+    "Description": "每丢弃一张牌，<PlayerName />对一个随机敌人造成 <Value1 /> 点伤害。"
+  },
+  "YichuiPiao": {
+    "Name": "伊吹瓢",
+    "Description": "在<PlayerName />的回合内，如果手牌为空，抽一张牌。<br /><PlayerName />的第一回合开始时，将 <Value1 /> 张<h>小酌怡情</h>加入手中。"
+  },
+  "Yaoshi": {
+    "Name": "要石",
+    "Description": "在战斗中，<PlayerName />第一次受到伤害时，获得<Mana />。"
+  },
+  "Mengriji": {
+    "Name": "梦日记",
+    "Description": "回合开始时，如果上回合没有打出过防御牌，获得<Mana />。"
+  },
+  "Heilianhua": {
+    "Name": "黑莲花",
+    "Description": "战斗开始时，获得<Mana />。"
+  },
+  "Bianhua": {
+    "Name": "彼岸花",
+    "Description": "每当一名敌人被击败，获得<Mana />。"
+  },
+  "Xiangrikui": {
+    "Name": "向日葵",
+    "Description": "每 <Value1 /> 个回合，第 <Value2 /> 至 <Value3 /> 回合开始时，获得<Mana />。"
+  },
+  "LinghunBaoshi": {
+    "Name": "灵魂宝石",
+    "Description": "在隙间小屋充能，使下一次战斗开始时获得<Mana />。"
+  },
+  "ZheyangSan": {
+    "Name": "遮阳伞",
+    "Description": "<PlayerName />的第二回合开始时，获得 <Value1 /> 点<h>格挡</h>，获得 <Value2 /> 点<h>暂得火力</h>。"
+  },
+  "Pingguo": {
+    "Name": "苹果",
+    "Description": "获取时，<PlayerName />的最大生命值提高 <Value1 /> 点。"
+  },
+  "PortalGun": {
+    "Name": "传送枪",
+    "Description": "商店会自动补货。所有商品打折 <Value1 />% 。"
+  },
+  "BoreMianju": {
+    "Name": "般若面具",
+    "Description": "每当<PlayerName />在一回合内打出 <Value1 /> 张攻击牌，就获得 <Value2 /> 点<h>火力</h>。"
+  },
+  "HuliMianju": {
+    "Name": "狐狸面具",
+    "Description": "每当<PlayerName />在一回合内打出 <Value1 /> 张攻击牌，就获得 <Value2 /> 点<h>灵力</h>。"
+  },
+  "HuonanMianju": {
+    "Name": "火男面具",
+    "Description": "每当<PlayerName />在一回合内打出 <Value1 /> 张攻击牌，就获得 <Value2 /> 点<h>格挡</h>。"
+  },
+  "XiwangMianju": {
+    "Name": "希望面具",
+    "Description": "每当<PlayerName />在一回合内打出 <Value1 /> 张攻击牌，就获得 <Value2 /> 点<Power />。"
+  },
+  "DiyinLeigu": {
+    "Name": "低音的雷鼓",
+    "Description": "在一回合内，打出的卡牌与上一张颜色有交集时，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>。"
+  },
+  "LoushuiShaozi": {
+    "Name": "漏水的勺子",
+    "Description": "每当<PlayerName />在一回合内打出 <Value1 /> 张技能牌，就抽 <Value2 /> 张牌。"
+  },
+  "WeifengHuban": {
+    "Name": "威风的笏板",
+    "Description": "敌人被击败时，额外掉落 <Value1 /> 到 <Value2 /> 点<Power />。"
+  },
+  "Zixingche": {
+    "Name": "自行车",
+    "Description": "每当一张攻击牌被加入牌库时，将其升级。"
+  },
+  "Fengrenji": {
+    "Name": "缝纫机",
+    "Description": "每当一张防御牌被加入牌库时，将其升级。"
+  },
+  "Shoubiao": {
+    "Name": "手表",
+    "Description": "每当一张技能牌被加入牌库时，将其升级。"
+  },
+  "Shouyinji": {
+    "Name": "收音机",
+    "Description": "每当一张能力牌被加入牌库时，将其升级。"
+  },
+  "SongjingMuyu": {
+    "Name": "诵经的木鱼",
+    "Description": "对战首领敌人时，<PlayerName />恢复等同于牌库数量的生命。"
+  },
+  "ShoushiYubi": {
+    "Name": "守矢御币",
+    "Description": "可以在隙间小屋<h>净身</h>，移除一张牌库中的牌。"
+  },
+  "Saiqianxiang": {
+    "Name": "赛钱箱",
+    "Description": "可以在隙间小屋<h>募捐</h>，获得 <Value1 /> 点<Money />。<br />放弃卡牌奖励提高 <Value2 /> 点<Money />。"
+  },
+  "Shanbibu": {
+    "Name": "闪避布",
+    "Description": "<PlayerName />的第二回合开始时，获得 <Value1 /> 层<h>闪避</h>。"
+  },
+  "XiaorenWan": {
+    "Name": "小人族的碗",
+    "Description": "放弃卡牌额外奖励 <Value1 /> 点最大生命值。"
+  },
+  "Tnt": {
+    "Name": "TNT炸药",
+    "Description": "<PlayerName />的第 <Value1 /> 个回合开始时爆炸，对所有敌人造成 <Value2 /> 点伤害。"
+  },
+  "Modaoshu": {
+    "Name": "魔导书",
+    "Description": "获取时，从 <Value1 /> 张中立稀有卡牌中，选择至多一张加入牌库。"
+  },
+  "Shaoyao": {
+    "Name": "芍药",
+    "Description": "每使用 <Value1 /> 点<Mana />，恢复 <Value2 /> 点生命。每场战斗最多触发 <Value3 /> 次，战斗结束时重置计数。"
+  },
+  "Bingkuai": {
+    "Name": "冰块",
+    "Description": "每使用 <Value1 /> 点<Mana />，获得 <Value2 /> 点护盾。战斗结束时重置计数。"
+  },
+  "Shiyou": {
+    "Name": "石油",
+    "Description": "每使用 <Value1 /> 点<Mana />，获得 <Value2 /> 点<Money />。每场战斗最多触发 <Value3 /> 次，战斗结束时重置计数。"
+  },
+  "JingwanMudan": {
+    "Name": "京丸牡丹",
+    "Description": "每使用 <Value1 /> 点<Mana />，对所有敌人 <Value2 /> 点伤害。战斗结束时重置计数。"
+  },
+  "Shuye": {
+    "Name": "树叶",
+    "Description": "每使用 <Value1 /> 点<Mana />，获得 <Value2 /> 层<h>闪避</h>。战斗结束时重置计数。"
+  },
+  "TangSan": {
+    "Name": "唐伞",
+    "Description": "<PlayerName />的第一回合开始时，获得 <Value1 /> 点<h>格挡</h>，随机升级 <Value2 /> 张手牌。"
+  },
+  "Putao": {
+    "Name": "葡萄",
+    "Description": "获取时，<PlayerName />的最大生命值提高 <Value1 /> 点。"
+  },
+  "TiangouMuji": {
+    "Name": "天狗的木屐",
+    "Description": "战斗开始时，<PlayerName />获得 <Value1 /> 点<h>火力</h>。"
+  },
+  "TiangouRongqiu": {
+    "Name": "天狗的绒球",
+    "Description": "战斗开始时，<PlayerName />获得 <Value1 /> 点<h>灵力</h>。"
+  },
+  "TiangouShanzi": {
+    "Name": "天狗的扇子",
+    "Description": "<PlayerName />的第一回合开始时，获得 <Value1 /> 层<h>闪避</h>。"
+  },
+  "TiangouXiangji": {
+    "Name": "天狗的相机",
+    "Description": "战斗开始时，对所有敌人施加 <Value1 /> 层<h>锁定</h>。"
+  },
+  "TiangouShouji": {
+    "Name": "天狗的手机",
+    "Description": "<PlayerName />的第一回合开始时，额外抽 <Value1 /> 张牌。"
+  },
+  "TiangouYuyi": {
+    "Name": "鸦天狗的羽翼",
+    "Description": "<PlayerName />选择下一关时可以无视路线，剩余 <Counter /> 次。"
+  },
+  "TiangouDunpai": {
+    "Name": "狼天狗的盾牌",
+    "Description": "打出防御牌时，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>，每回合只能生效一次。"
+  },
+  "ShenmiPifeng": {
+    "Name": "神秘的披风",
+    "Description": "在<PlayerName />回合结束时，每一张手牌获得 <Value1 /> 点格挡。"
+  },
+  "ChuRenou": {
+    "Name": "雏人偶",
+    "Description": "抵挡 <InitialCounter /> 次<h>厄运</h>，剩余 <Counter /> 次。"
+  },
+  "Chaidao": {
+    "Name": "柴刀",
+    "Description": "获取时，随机<h>升级</h> <Value1 /> 张攻击牌。"
+  },
+  "Jiaobu": {
+    "Name": "胶布",
+    "Description": "获取时，随机<h>升级</h> <Value1 /> 张防御牌。"
+  },
+  "ChaojiMogu": {
+    "Name": "超级蘑菇",
+    "Description": "获取时，<PlayerName />获得 <Value1 /> 点<Power />。"
+  },
+  "Tuanzi": {
+    "Name": "团子",
+    "Description": "战斗结束时，<PlayerName />恢复 <Value1 /> 点生命，获得 <Value2 /> 点<Power />。"
+  },
+  "JingzhiChaju": {
+    "Name": "精致的茶具",
+    "Description": "在隙间小屋时，<h>饮茶</h>额外恢复 <Value1 /> 点生命。"
+  },
+  "DiannaoPeijian": {
+    "Name": "电脑配件",
+    "Description": "在隙间小屋时，<h>饮茶</h>额外恢复 <Value1 /> 点<Power />。"
+  },
+  "HuangyouJiqiren": {
+    "Name": "黄油机器人",
+    "Description": "在隙间小屋时，<h>饮茶</h>时可以额外从 <Value1 /> 张卡牌中选择一张加入牌库。"
+  },
+  "Bumengwang": {
+    "Name": "捕梦网",
+    "Description": "获取时，选择牌库中的 <Value1 /> 张牌移除，恢复 <Value2 /> 点生命，获得 <Value3 /> 点<Power />。"
+  },
+  "JudaShaozi": {
+    "Name": "巨大的勺子",
+    "Description": "<PlayerName />每获得一张<h>厄运</h>，最大生命值提高 <Value1 /> 点。"
+  },
+  "JiangyouPing": {
+    "Name": "酱油瓶",
+    "Description": "每次遇见商人时，恢复 <Value1 /> 点生命，获得 <Value2 /> 点<Power />。"
+  },
+  "PingfanDao": {
+    "Name": "平凡的刀",
+    "Description": "提高基础牌的攻击伤害。<br />初始费用为<Mana />的提高 <Value1 /> 点，其余提高 <Value2 /> 点。"
+  },
+  "YinzhiHuaibiao": {
+    "Name": "银质怀表",
+    "Description": "每打出 <Value1 /> 张牌，获得<Mana />，战斗结束时重置计数。"
+  },
+  "ShiyanQicai": {
+    "Name": "实验器材",
+    "Description": "每次洗牌时，获得<Mana />。"
+  },
+  "HeijiaoChangpian": {
+    "Name": "黑胶唱片",
+    "Description": "每抽到一张状态牌，获得<Mana />。"
+  },
+  "Duandai": {
+    "Name": "缎带",
+    "Description": "对战精英和首领敌人时，每回合开始时获得<Mana />。"
+  },
+  "Zhuzi": {
+    "Name": "竹子",
+    "Description": "每当<PlayerName /><h>闪避</h>伤害时，获得<Mana />。"
+  },
+  "FaliJingdian": {
+    "Name": "法力经典",
+    "Description": "使用符卡后，获得<Mana />。"
+  },
+  "Huiyuanka": {
+    "Name": "会员卡",
+    "Description": "所有商品打折 <Value1 />% 。"
+  },
+  "BoliHufu": {
+    "Name": "博丽护符",
+    "Description": "战斗开始时，获得 <Value1 /> 层<h>护身符</h>。"
+  },
+  "Yushenqian": {
+    "Name": "御神签",
+    "Description": "卡牌奖励选择数量加 <Value1 /> 张。"
+  },
+  "Cookie": {
+    "Name": "好吃的曲奇",
+    "Description": "获取时，<PlayerName />的最大生命值提高 <Value1 /> 点，并恢复全部生命。"
+  },
+  "ShoubiaoMazuiqiang": {
+    "Name": "手表麻醉枪",
+    "Description": "战斗开始时，对所有敌人施加 <Value1 /> 回合<h>虚弱</h>或<h>易伤</h>。"
+  },
+  "ZhuQingting": {
+    "Name": "竹蜻蜓",
+    "Description": "<PlayerName />的每 <Value1 /> 个回合开始时，获得 <Value2 /> 层<h>闪避</h>。"
+  },
+  "Pijiu": {
+    "Name": "啤酒",
+    "Description": "<PlayerName />的第一回合开始时，获得 <Value1 /> 点<h>暂得火力</h>，将 <Value2 /> 张<h>小酌怡情</h>加入手中。"
+  },
+  "HeiseBijiben": {
+    "Name": "黑色笔记本",
+    "Description": "战斗开始时，已知姓名的敌人失去 <Value1 /> 点生命。"
+  },
+  "Guangjian": {
+    "Name": "光剑",
+    "Description": "每场战斗中<PlayerName />第一次造成攻击伤害时，施加 <Value1 /> 层<h>锁定</h>。"
+  },
+  "LuoboMoxing": {
+    "Name": "萝卜模型",
+    "Description": "对战精英和首领敌人时，<PlayerName />在战斗开始时获得 <Value1 /> 点<h>火力</h>。"
+  },
+  "Moping": {
+    "Name": "魔瓶",
+    "Description": "战斗结束时，消耗一次使用次数，恢复 <Value1 /> 点生命与<Power />，可以使用 <Value2 /> 次。<br />在隙间小屋灌满。"
+  },
+  "JingboliJing": {
+    "Name": "净玻璃之镜",
+    "Description": "<h>占卜</h>时，额外选择 <Value1 /> 张牌。"
+  },
+  "Headphone": {
+    "Name": "高保真耳机",
+    "Description": "所有的<h>每支付</h>效果多结算一次。"
+  },
+  "ZhinengYinxiang": {
+    "Name": "智能音箱",
+    "Description": "获取时，选择一张牌。<br />它在战斗开始时置于牌堆顶。"
+  },
+  "MaorongWanju": {
+    "Name": "毛绒玩具",
+    "Description": "所有<h>同伴</h>牌额外获得 <Value1 /> 点<h>支援度</h>。"
+  },
+  "LouguanJian": {
+    "Name": "楼观剑",
+    "Description": "<PlayerName />造成攻击伤害后，施加 <Value1 /> 层<h>锁定</h>。"
+  },
+  "WaijieYanjing": {
+    "Name": "外界的高科技眼镜",
+    "Description": "战斗结束时，<PlayerName />获得的<Money />奖励提高 <Value1 />% 。"
+  },
+  "WaijieYouxiji": {
+    "Name": "外界的游戏机",
+    "Description": "战斗结束时，<PlayerName />获得 <Value1 /> 点<Power />。"
+  },
+  "WaijieYanshuang": {
+    "Name": "外界的眼霜",
+    "Description": "战斗结束时，<PlayerName />恢复 <Value1 /> 点生命。"
+  },
+  "JingjieGanzhiyi": {
+    "Name": "境界感知仪",
+    "Description": "<hp>让持有者清晰地感知到境界的缝隙。</hp>"
+  },
+  "Dahuoji": {
+    "Name": "打火机",
+    "Description": "每场战斗中<PlayerName />第一次造成攻击伤害时，施加 <Value1 /> 回合<h>易伤</h>。"
+  },
+  "JingesiYushou": {
+    "Name": "金阁寺的御守",
+    "Description": "每场战斗中<PlayerName />第一次受到负面状态时，获得 <Value1 /> 点<h>护盾</h>。"
+  },
+  "JingQiXi": {
+    "Name": "鲸之气息",
+    "Description": "<PlayerName />的奇数回合开始时，失去随机一点法力；偶数回合开始时，获得两点该颜色的法力。"
+  },
+  "SadinYuebing": {
+    "Name": "撒丁岛月饼",
+    "Description": "<PlayerName />的回合开始时，随机升级 <Value1 /> 张手牌（多色牌优先）。"
+  },
+  "IdolTshirt": {
+    "Name": "偶像 T 恤",
+    "Description": "战斗开始时，<PlayerName />的最大生命值提高 <Counter /> 点，受到 <Counter /> 层<h>锁定</h>。"
+  },
+  "Qingshu": {
+    "Name": "情书",
+    "Description": "获取时，<PlayerName />的最大生命值提高 <Value1 /> 点。"
+  },
+  "Dianshiji": {
+    "Name": "电视机",
+    "Description": "<PlayerName />免疫于<h>虚弱</h>。"
+  },
+  "Xiyiji": {
+    "Name": "洗衣机",
+    "Description": "<PlayerName />免疫于<h>易伤</h>。"
+  },
+  "Bingxiang": {
+    "Name": "冰箱",
+    "Description": "<PlayerName />免疫于<h>脆弱</h>。"
+  },
+  "JuanzengZhengming": {
+    "Name": "捐赠证明",
+    "Description": "<PlayerName />的符卡最大充能次数增加 <Value1 />，每回合可以施放多次。<br />获得 <Value2 /> 点<Power />。<br />不会丢失。"
+  },
+  "PulpFiction": {
+    "Name": "《低俗小说》",
+    "Description": "每场战斗的前 <Value2 /> 回合开始时，将 <Value1 /> 张牌从抽牌堆底移入手中。"
+  },
+  "FixBook": {
+    "Name": "《万能修理手册》",
+    "Description": "每打出一张道具牌，获得<Mana />。<br />获取时，从 <Value1 /> 张随机的道具牌中，选择至多一张加入牌库。"
+  },
+  "TimeBook": {
+    "Name": "《时间简史》",
+    "Description": "可以以实际顺序查看抽牌堆。"
+  },
+  "FirstAidBook": {
+    "Name": "《急救手册》",
+    "Description": "移除战斗中所有<h>厄运</h>和状态牌的<h>禁止</h>，改为<h>放逐</h>。<br />这些卡牌的费用与其稀有度相关。"
+  },
+  "KongZhanpinhe": {
+    "Name": "空的展品盒",
+    "Description": "已经找不到更多的展览品了。"
+  }
 }

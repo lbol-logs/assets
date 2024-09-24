@@ -1,172 +1,654 @@
 {
-  "LongjingYu": "龍の頸の玉",
-  "FoyushiBo": "仏の御石の鉢",
-  "HuoshuPiyi": "火鼠の皮衣",
-  "YanZianbei": "燕の子安貝",
-  "PenglaiYuzhi": "蓬莱の玉の枝",
-  "SingleJiandao": "半分の巨大な鋏",
-  "Shendeng": "注ぎ口の長いティーポット",
-  "HolyGrail": "装飾が施された金の杯",
-  "SihunYu": "邪気を放つペンダント",
-  "MadokaBow": "光輝く長弓",
-  "QiannianShenqi": "ピラミッド型のパズル",
-  "InfinityGems": "宝石が埋め込まれたガントレット",
-  "SakuraWand": "翼のついた鍵",
-  "DragonBall": "星が描かれたボール",
-  "ReimuR": "血に飢えた陰陽玉",
-  "ReimuW": "お祓い棒",
-  "MarisaB": "黒魔術の本",
-  "MarisaR": "ミニ八卦炉",
-  "SakuyaW": "予備のナイフ",
-  "SakuyaU": "マジックポーカー",
-  "CirnoU": "氷晶の翼",
-  "CirnoG": "緑豊かな枝",
-  "PiaoliangPanzi": "きれいなお皿",
-  "DatiangouMaifan": "大天狗の麦飯",
-  "ClassicWunvfu": "昔の巫女服",
-  "Bingzhilin": "氷の鱗",
-  "ShijieSuipian": "世界の破片",
-  "TianwenWangyuanjing": "天体望遠鏡",
-  "QinaKapian": "ゼナー・カード",
-  "PingzhuangLinghun": "霊力の標本瓶",
-  "Laiwating": "レーヴァテイン",
-  "Ganggenier": "グングニル",
-  "GuizuJiubei": "鬼の杯",
-  "AizheHongshi": "エイジャの赤石",
-  "HouhuMen": "後戸の扉",
-  "HuashanBaiyaosheng": "茨木の百薬枡",
-  "FengshouGuolan": "果物盛り合わせ",
-  "Wanbaochui": "打ち出の小槌",
-  "Gongjuxiang": "工具箱",
-  "YueGujiu": "月の古代酒",
-  "Yuerang": "月の土",
-  "XianzheShi": "賢者の石",
-  "TaiguGouyu": "太古の勾玉",
-  "KongbaiKapai": "空白のカード",
-  "HuiyeBaoxiang": "輝夜の財宝箱",
-  "QipaiYouhua": "人目を引く油絵",
-  "YizangnuoWuzhi": "伊弉諾物質",
-  "QicaiLianhua": "虹の水蓮",
-  "He3": "ヘリウム3",
-  "Baota": "毘沙門天の宝塔",
-  "XijianSan": "隙間妖怪の傘",
-  "Taozi": "桃",
-  "PenzaiYoutan": "憂曇華の盆栽",
-  "Yuhangfu": "宇宙服",
-  "GanzhuYao": "紺珠の薬",
-  "Xunlongchi": "ダウジングロッド",
-  "BaochuanMoxing": "宝船の模型",
-  "GaodangShoubao": "高級バッグ",
-  "WanglingTideng": "亡霊の送り提灯",
-  "SunhuaiHufu": "壊されたお守り",
-  "JimuWanju": "積み木おもちゃ",
-  "Zuoshan": "左団扇",
-  "Zijing": "紫鏡",
-  "HuanxiangxiangYuanqi": "幻想郷縁起",
-  "DiyuChepiao": "地獄行きの切符",
-  "ShanliangDengpao": "煌めく電球",
-  "ZhanshuDaoliqi": "戦術オーブメント",
-  "Yashemao": "ハンチング帽",
-  "ShanshuoBishou": "Blink Dagger",
-  "Yueshan": "月扇",
-  "ZhangchibangQiu": "翼の生えたボール",
-  "YueYuyi": "月の羽衣",
-  "FeixiangJian": "緋想の剣",
-  "YuekuangQiang": "ルナティックガン",
-  "YichuiPiao": "伊吹瓢",
-  "Yaoshi": "要石",
-  "Mengriji": "夢日記",
-  "Heilianhua": "ブラック・ロータス",
-  "Bianhua": "彼岸花",
-  "Xiangrikui": "向日葵",
-  "LinghunBaoshi": "ソウルジェム",
-  "ZheyangSan": "日傘",
-  "Pingguo": "りんご",
-  "PortalGun": "ポータルガン",
-  "BoreMianju": "般若のお面",
-  "HuliMianju": "狐のお面",
-  "HuonanMianju": "ひょっとこ",
-  "XiwangMianju": "希望の面",
-  "DiyinLeigu": "重低音バスドラム",
-  "LoushuiShaozi": "底抜け柄杓",
-  "WeifengHuban": "厳つがましい笏",
-  "Zixingche": "自転車",
-  "Fengrenji": "ミシン",
-  "Shoubiao": "腕時計",
-  "Shouyinji": "ラジオ",
-  "SongjingMuyu": "木魚",
-  "ShoushiYubi": "守矢のお守り",
-  "Saiqianxiang": "賽銭箱",
-  "Shanbibu": "ひらり布",
-  "XiaorenWan": "小人族のお椀",
-  "Tnt": "TNT爆弾",
-  "Modaoshu": "魔導書",
-  "Shaoyao": "芍薬",
-  "Bingkuai": "ブロックアイス",
-  "Shiyou": "石油",
-  "JingwanMudan": "京丸牡丹",
-  "Shuye": "葉っぱ",
-  "TangSan": "唐傘",
-  "Putao": "ぶどう",
-  "TiangouMuji": "天狗の下駄",
-  "TiangouRongqiu": "結袈裟（ゆいげさ）",
-  "TiangouShanzi": "天狗の羽団扇",
-  "TiangouXiangji": "天狗のカメラ",
-  "TiangouShouji": "天狗の携帯",
-  "TiangouYuyi": "鴉天狗の羽根",
-  "TiangouDunpai": "白狼天狗の盾",
-  "ShenmiPifeng": "ひみつのマント",
-  "ChuRenou": "雛人形",
-  "Chaidao": "ナタ",
-  "Jiaobu": "ガムテープ",
-  "ChaojiMogu": "スーパーキノコ",
-  "Tuanzi": "お団子",
-  "JingzhiChaju": "精巧なティーセット",
-  "DiannaoPeijian": "コンピューターパーツ",
-  "HuangyouJiqiren": "バターロボット",
-  "Bumengwang": "ドリームキャッチャー",
-  "JudaShaozi": "巨大なスプーン",
-  "JiangyouPing": "醤油瓶",
-  "PingfanDao": "普通の包丁",
-  "YinzhiHuaibiao": "銀の懐中時計",
-  "ShiyanQicai": "実験器具",
-  "HeijiaoChangpian": "レコード",
-  "Duandai": "リボン",
-  "Zhuzi": "竹",
-  "FaliJingdian": "魔人経巻",
-  "Huiyuanka": "会員証",
-  "BoliHufu": "博麗アミュレット",
-  "Yushenqian": "おみくじ",
-  "Cookie": "おいしいクッキー",
-  "ShoubiaoMazuiqiang": "腕時計型麻酔銃",
-  "ZhuQingting": "タケコプター",
-  "Pijiu": "ビール",
-  "HeiseBijiben": "黒のノート",
-  "Guangjian": "ライトセイバー",
-  "LuoboMoxing": "プラモデル",
-  "Moping": "空き瓶",
-  "JingboliJing": "浄玻璃鏡",
-  "Headphone": "ヘッドフォン",
-  "ZhinengYinxiang": "スマートスピーカー",
-  "MaorongWanju": "ぬいぐるみ",
-  "LouguanJian": "楼観剣",
-  "WaijieYanjing": "外の世界のハイテクメガネ",
-  "WaijieYouxiji": "外の世界のゲーム機",
-  "WaijieYanshuang": "外の世界のアイクリーム",
-  "JingjieGanzhiyi": "境界感知器",
-  "Dahuoji": "ライター",
-  "JingesiYushou": "金閣寺のお守り",
-  "JingQiXi": "鯨の息吹",
-  "SadinYuebing": "サルデーニャの月餅",
-  "IdolTshirt": "オタクTシャツ",
-  "Qingshu": "ラブレター",
-  "Dianshiji": "テレビ",
-  "Xiyiji": "洗濯機",
-  "Bingxiang": "冷蔵庫",
-  "JuanzengZhengming": "寄付の証明",
-  "PulpFiction": "三文小説",
-  "FixBook": "万能修理マニュアル",
-  "TimeBook": "時間略史",
-  "FirstAidBook": "救急マニュアル",
-  "KongZhanpinhe": "空の展示箱"
+  "LongjingYu": {
+    "Name": "龍の頸の玉",
+    "Description": "戦闘開始時、<Mana />を得る。"
+  },
+  "FoyushiBo": {
+    "Name": "仏の御石の鉢",
+    "Description": "防御カードをプレイするたび、ランダムな色のマナを<Value1 />つ得る。"
+  },
+  "HuoshuPiyi": {
+    "Name": "火鼠の皮衣",
+    "Description": "戦闘開始時、<Value1 /><h>バリア</h>と<h>火力</h><Value2 />を得る。"
+  },
+  "YanZianbei": {
+    "Name": "燕の子安貝",
+    "Description": "<PlayerName />のターンの開始時、ライフを<Value1 />回復する。"
+  },
+  "PenglaiYuzhi": {
+    "Name": "蓬莱の玉の枝",
+    "Description": "<PlayerName />が得るマナは全て<h>彩色</h>になる。<br />ターン終了時に残ったマナが失われない。"
+  },
+  "ReimuR": {
+    "Name": "血に飢えた陰陽玉",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>霊夢</h>専用のカードが出現するようになる。<br />敵を1体倒す度、<PlayerName />は<h>火力</h><Value1 />を得てライフを<Value2 />回復する。"
+  },
+  "ReimuW": {
+    "Name": "お祓い棒",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>霊夢</h>専用のカードが出現するようになる。<br />戦闘開始時に<h>バリア</h><Value2 />を得る。<br />未使用のマナがある状態でターンを終了するたび、<h>バリア</h><Value1 />を得る。"
+  },
+  "MarisaB": {
+    "Name": "黒魔術の本",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>魔理沙</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>怪奇</h>を手札に加える。"
+  },
+  "MarisaR": {
+    "Name": "ミニ八卦炉",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>魔理沙</h>専用のカードが出現するようになる。<br /><Mana />を支払って攻撃カードをプレイするたび、<h>チャージ</h><Value1 />を得る。"
+  },
+  "SakuyaW": {
+    "Name": "予備のナイフ",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>咲夜</h>専用のカードが出現するようになる。<br />戦闘開始時または山札をシャッフルする度、<h>投げナイフ</h>を<Value1 />枚山札に加える。"
+  },
+  "SakuyaU": {
+    "Name": "マジックポーカー",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>咲夜</h>専用のカードが出現するようになる。<br />各戦闘の<Value2 />ターン目まで、ターン開始時にカードを<Value1 />枚多く引く。"
+  },
+  "CirnoU": {
+    "Name": "氷晶の翼",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>チルノ</h>専用のカードが出現するようになる。<br />戦闘開始時、<h> 氷の翼 </h>を手札に加える。"
+  },
+  "CirnoG": {
+    "Name": "緑豊かな枝",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>チルノ</h>専用のカードが出現するようになる。<br /><h>パートナー</h>を召喚する度、<h>真夏の花</h>を<Value1 />枚手札に加える。"
+  },
+  "KoishiG": {
+    "Name": "棘のあるバラ",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br /><h>平静</h>状態になるたびに<Value1 /><h>ブロック</h>を得る。"
+  },
+  "KoishiB": {
+    "Name": "イマジナリーフレンド",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br /><PlayerName />が<h>情熱</h>状態になる度、<Value1 />ブロックを得る。"
+  },
+  "PiaoliangPanzi": {
+    "Name": "きれいなお皿",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />戦闘開始時、手札のカード<Value1 />枚を戦闘終了時までアップグレードする。"
+  },
+  "DatiangouMaifan": {
+    "Name": "大天狗の麦飯",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />各戦闘終了時、<Power /><Value1 />を得る。"
+  },
+  "ClassicWunvfu": {
+    "Name": "昔の巫女服",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />各ターンの開始時、手札にある<h>アップグレード</h>されたカード1枚につき<Value1 /><h>ブロック</h>を得る。"
+  },
+  "Bingzhilin": {
+    "Name": "氷の鱗",
+    "Description": "マナ基盤に<BaseMana />を加える。<br /><h>能力</h>カードをプレイするたび、手札のランダムな<Value1 />枚のカードの<h>臨時コスト</h>を<Mana />減らす。"
+  },
+  "ShijieSuipian": {
+    "Name": "世界の破片",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />取得時、デッキから<Value1 />枚のカードを選びランダムなレアとアンコモンのカードに変化させる。"
+  },
+  "TianwenWangyuanjing": {
+    "Name": "天体望遠鏡",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />戦闘開始時、<h>星占い</h>を<Value1 />枚手札に加える。"
+  },
+  "QinaKapian": {
+    "Name": "ゼナー・カード",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />スペルカードをプレイする度にライフを<Value1 />失い、カードを<Value2 />枚引く。"
+  },
+  "PingzhuangLinghun": {
+    "Name": "霊力の標本瓶",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />敵が<Power />の代わりにその<Value1 />倍の<Money />をドロップするようになる。"
+  },
+  "Laiwating": {
+    "Name": "レーヴァテイン",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />敵が受ける<h>弱体</h>の効果を<Value1 />%増加させ、<br /><PlayerName />が受ける<h>弱体</h>の効果を<Value2 />%増加させる。"
+  },
+  "Ganggenier": {
+    "Name": "グングニル",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />全ての攻撃カードは<h>精密</h>を持つ。"
+  },
+  "GuizuJiubei": {
+    "Name": "鬼の杯",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />ターン開始時、前のターンに使用した攻撃カードの枚数に等しい数の<h>臨時火力</h>を得る。"
+  },
+  "AizheHongshi": {
+    "Name": "エイジャの赤石",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />戦闘開始時、<h>火力</h><Value1 />を得て、<h>日の照射</h><Value2 />枚を捨て札に加える。"
+  },
+  "HouhuMen": {
+    "Name": "後戸の扉",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />取得時、最大<Value1 />枚のカードをデッキから削除する。"
+  },
+  "HuashanBaiyaosheng": {
+    "Name": "茨木の百薬枡",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />1ターン目の開始時、<Mana />を得る。<br />2ターン目の開始時、ライフを<Value1 />回復する。<br />3ターン目の開始時、<h>臨時火力</h><Value2 />を得る。"
+  },
+  "FengshouGuolan": {
+    "Name": "果物盛り合わせ",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />最大ライフを<Value1 />増加させる。<br />デッキにカードを加える度、最大ライフを<Value2 />増加させる。"
+  },
+  "Wanbaochui": {
+    "Name": "打ち出の小槌",
+    "Description": "マナ基盤に<BaseMana />を加える。<br /><h>基本</h>カードをプレイする時に使用した<Mana />1点ごとにそのカードの効果が100%増加する。（<ManaP />は対象外）"
+  },
+  "Gongjuxiang": {
+    "Name": "工具箱",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />戦闘<Value1 />回毎に報酬としてランダムな道具カードを1枚獲得する。"
+  },
+  "YueGujiu": {
+    "Name": "月の古代酒",
+    "Description": "マナ基盤に<BaseMana />を加える。<br /><h>廃棄</h>を持つカードをマナを支払って使用した場合、<Mana />を得る。"
+  },
+  "Yuerang": {
+    "Name": "月の土",
+    "Description": "マナ基盤に<BaseMana />を加える。<br /><h>静かの海</h>をデッキに追加する。"
+  },
+  "XianzheShi": {
+    "Name": "賢者の石",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />ターン終了時に<h>彩色マナ</h><Mana />を失わない。"
+  },
+  "TaiguGouyu": {
+    "Name": "太古の勾玉",
+    "Description": "マナ基盤に<BaseMana />を加える。<br /><Value1 />つ以上のマナを払ってカードを使用した場合、次のターンの開始時<Mana />を得る。"
+  },
+  "KongbaiKapai": {
+    "Name": "空白のカード",
+    "Description": "マナ基盤に<BaseMana />を加える。<br />全ての色のカードがカードプールに追加される。カード報酬の選択肢が<Value1 />つ増加する。"
+  },
+  "HuiyeBaoxiang": {
+    "Name": "輝夜の財宝箱",
+    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を得る。<br />取得時、ランダムな<Value1 />個の展示物を得る。<br />厄災：<h>立ち退き命令</h>をデッキに追加する。"
+  },
+  "QipaiYouhua": {
+    "Name": "人目を引く油絵",
+    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を加える。<br />取得時、<Money /><Value1 />を得て、ランダムなカード<Value2 />枚を<h>アップグレード</h>し、<PlayerName />の最大ライフを<Value3 />増加させる。"
+  },
+  "YizangnuoWuzhi": {
+    "Name": "伊弉諾物質",
+    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を加える。<br />エリート戦後追加で1つ展示品を獲得する。"
+  },
+  "QicaiLianhua": {
+    "Name": "虹の水蓮",
+    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を得る。<br />各戦闘中に全ての種類のマナを得た時、|e:彩光乱舞|を1枚手札に加える。"
+  },
+  "He3": {
+    "Name": "ヘリウム3",
+    "Description": "<Value1 />つ以上のマナを払ってカードを使用した時<Mana />を得る。"
+  },
+  "Baota": {
+    "Name": "毘沙門天の宝塔",
+    "Description": "戦闘開始時、<h>火力</h><Counter />と<Counter />点の<Mana />を得る。<br />スキマで最大<Value1 />回まで強化することができる。"
+  },
+  "XijianSan": {
+    "Name": "隙間妖怪の傘",
+    "Description": "<PlayerName />の3ターン目の開始時、<Value1 /><h>ブロック</h>と<Mana />を得る。"
+  },
+  "Taozi": {
+    "Name": "桃",
+    "Description": "取得時、<PlayerName />の最大ライフを<Value1 />増加させる。"
+  },
+  "PenzaiYoutan": {
+    "Name": "憂曇華の盆栽",
+    "Description": "ターン終了時にマナを失わない。"
+  },
+  "Yuhangfu": {
+    "Name": "宇宙服",
+    "Description": "戦闘中に<PlayerName />がライフを失う時、その値を<Value1 />減少させる。"
+  },
+  "GanzhuYao": {
+    "Name": "紺珠の薬",
+    "Description": "<PlayerName />が死亡した時、ライフを最大まで回復して復活する。（1回しか発動しない）<br />この効果の発動時、最大ライフが<Value1 />%減少する。また、発動後の戦闘開始時に<h>火力</h><Value2 />を得る。<br />この展示品は失われない。"
+  },
+  "Xunlongchi": {
+    "Name": "ダウジングロッド",
+    "Description": "スキマで、展示品を入手する<h>ダウジング</h>が選択できる。"
+  },
+  "BaochuanMoxing": {
+    "Name": "宝船の模型",
+    "Description": "<PlayerName />がフロアを進むたび、<Value1 /> 点の<Money />を得る。"
+  },
+  "GaodangShoubao": {
+    "Name": "高級バッグ",
+    "Description": "鈴仙が提示する展示品を2つとも入手できる。"
+  },
+  "WanglingTideng": {
+    "Name": "亡霊の送り提灯",
+    "Description": "各戦闘で<PlayerName />が最初にライフを失うとき、それを無効化する。"
+  },
+  "SunhuaiHufu": {
+    "Name": "壊されたお守り",
+    "Description": "戦闘開始時、<PlayerName />はデッキの<h>厄災</h>1枚につき<h>火力</h>と<h>霊力</h>を<Value1 />ずつ得る。"
+  },
+  "JimuWanju": {
+    "Name": "積み木おもちゃ",
+    "Description": "通常の戦闘で追加のカード報酬を得ることができるようになる。"
+  },
+  "Zuoshan": {
+    "Name": "左団扇",
+    "Description": "各戦闘で最初にカードを使用した時、<h>臨時コスト</h><Mana />と<h>廃棄</h>を持つコピーを手札に加える。"
+  },
+  "Zijing": {
+    "Name": "紫鏡",
+    "Description": "取得時、デッキのカード<Value1 />枚を複製する。"
+  },
+  "HuanxiangxiangYuanqi": {
+    "Name": "幻想郷縁起",
+    "Description": "<h>能力</h>カードをプレイする度、<PlayerName />のライフを<Value1 />回復する。"
+  },
+  "DiyuChepiao": {
+    "Name": "地獄行きの切符",
+    "Description": "<PlayerName />がライフを失うたび、カードを<Value1 />枚引く。"
+  },
+  "ShanliangDengpao": {
+    "Name": "煌めく電球",
+    "Description": "スキマで、<Value1 />枚のランダムなレアカードから1枚のカード選んでデッキに加える<h>閃き</h>が選択できる。"
+  },
+  "ZhanshuDaoliqi": {
+    "Name": "戦術オーブメント",
+    "Description": "戦闘中、<PlayerName />のスキルカードのコストを<Mana />減らす。"
+  },
+  "Yashemao": {
+    "Name": "ハンチング帽",
+    "Description": "ドローフェイズで追加で<Value1 />枚を引く。"
+  },
+  "ShanshuoBishou": {
+    "Name": "Blink Dagger",
+    "Description": "戦闘開始時、手札を任意の枚数捨てて同じ枚数だけカードを引く。"
+  },
+  "Yueshan": {
+    "Name": "月扇",
+    "Description": "<PlayerName />のターン開始時、<h>ブロック</h>は半分しか失われない。"
+  },
+  "ZhangchibangQiu": {
+    "Name": "翼の生えたボール",
+    "Description": "取得時、<PlayerName />が<Value1 /><Money />を得る。"
+  },
+  "YueYuyi": {
+    "Name": "月の羽衣",
+    "Description": "戦闘開始時、<h>天衣無縫</h><Value1 />を得る。"
+  },
+  "FeixiangJian": {
+    "Name": "緋想の剣",
+    "Description": "<PlayerName />のターン開始時に、敵全体に<Value1 />のダメージを与える。"
+  },
+  "YuekuangQiang": {
+    "Name": "ルナティックガン",
+    "Description": "カードを１枚捨てるたび、<PlayerName />がランダムな敵に<Value1 />のダメージを与える。"
+  },
+  "YichuiPiao": {
+    "Name": "伊吹瓢",
+    "Description": "<PlayerName />のターン中、手札にカードが無い場合、カードを1枚引く。<br />1ターン目開始時、<h>ちょい飲み</h><Value1 />枚を手札に加える。"
+  },
+  "Yaoshi": {
+    "Name": "要石",
+    "Description": "戦闘中初めてライフを失うと、<Mana />を得る。"
+  },
+  "Mengriji": {
+    "Name": "夢日記",
+    "Description": "前のターンに防御カードを使用していなかった場合、ターン開始時に<Mana />を得る。"
+  },
+  "Heilianhua": {
+    "Name": "ブラック・ロータス",
+    "Description": "戦闘開始時、<Mana />を得る。"
+  },
+  "Bianhua": {
+    "Name": "彼岸花",
+    "Description": "敵を倒すと、<Mana />を得る。"
+  },
+  "Xiangrikui": {
+    "Name": "向日葵",
+    "Description": "<Value1 />ターン周期で数えて、<Value2 />から<Value3 />ターン目のターン開始時に<Mana />を得る。"
+  },
+  "LinghunBaoshi": {
+    "Name": "ソウルジェム",
+    "Description": "スキマに入った次の戦闘開始時、<Mana />を得る。"
+  },
+  "ZheyangSan": {
+    "Name": "日傘",
+    "Description": "<PlayerName />の2ターン目の開始時、<Value1 /><h>ブロック</h>を得る。<h>臨時火力</h><Value2 />を得る。"
+  },
+  "Pingguo": {
+    "Name": "りんご",
+    "Description": "取得時、<PlayerName />の最大ライフを<Value1 />増加させる。"
+  },
+  "PortalGun": {
+    "Name": "ポータルガン",
+    "Description": "店の商品が<Value1 />%値引きされ、品切れしなくなる。"
+  },
+  "BoreMianju": {
+    "Name": "般若のお面",
+    "Description": "1ターンに攻撃カードを<Value1 />枚プレイする度、<h>火力</h><Value2 />を得る。"
+  },
+  "HuliMianju": {
+    "Name": "狐のお面",
+    "Description": "1ターンに攻撃カードを<Value1 />枚プレイする度、<h>霊力</h><Value2 />を得る。"
+  },
+  "HuonanMianju": {
+    "Name": "ひょっとこ",
+    "Description": "1ターンに攻撃カードを<Value1 />枚プレイする度、<h>ブロック</h><Value2 />を得る。"
+  },
+  "XiwangMianju": {
+    "Name": "希望の面",
+    "Description": "1ターンに攻撃カードを<Value1 />枚プレイする度、<Power /><Value2 />を得る。"
+  },
+  "DiyinLeigu": {
+    "Name": "重低音バスドラム",
+    "Description": "1ターンの間、プレイするカードがその直前にプレイしたカードと共通の色を持つ場合、<PlayerName />は<h>臨時火力</h><Value1 />を得る。"
+  },
+  "LoushuiShaozi": {
+    "Name": "底抜け柄杓",
+    "Description": "1ターン中にスキルカードを<Value1 />枚プレイする度、カードを<Value2 />枚引く。"
+  },
+  "WeifengHuban": {
+    "Name": "厳つがましい笏",
+    "Description": "敵を倒した時、<Value1 />から<Value2 />の<Power />を追加で得る。"
+  },
+  "Zixingche": {
+    "Name": "自転車",
+    "Description": "攻撃カードをデッキに加えるたび、それをアップグレードする。"
+  },
+  "Fengrenji": {
+    "Name": "ミシン",
+    "Description": "防御カードをデッキに加えるたび、それをアップグレードする。"
+  },
+  "Shoubiao": {
+    "Name": "腕時計",
+    "Description": "スキルカードをデッキに加えるたび、それをアップグレードする。"
+  },
+  "Shouyinji": {
+    "Name": "ラジオ",
+    "Description": "能力カードをデッキに加えるたび、それをアップグレードする。"
+  },
+  "SongjingMuyu": {
+    "Name": "木魚",
+    "Description": "ボス戦の開始時、<PlayerName />のライフをデッキの枚数と同じ値だけ回復する。"
+  },
+  "ShoushiYubi": {
+    "Name": "守矢のお守り",
+    "Description": "スキマで、カードを1枚削除する<h>お祓い</h>が選択できる。"
+  },
+  "Saiqianxiang": {
+    "Name": "賽銭箱",
+    "Description": "スキマで、<Money /><Value1 />を得る<h>勧進</h>が選択できる。<br />カード報酬をスキップした際に追加で<Money /><Value2 />を得る。"
+  },
+  "Shanbibu": {
+    "Name": "ひらり布",
+    "Description": "<PlayerName />の2ターン目の開始時、<h>グレイズ</h><Value1 />を得る。"
+  },
+  "XiaorenWan": {
+    "Name": "小人族のお椀",
+    "Description": "カード報酬をスキップする度、最大ライフを<Value1 />増やす。"
+  },
+  "Tnt": {
+    "Name": "TNT爆弾",
+    "Description": "<PlayerName />の<Value1 />ターン目の開始時、敵全体に<Value2 />のダメージを与える。"
+  },
+  "Modaoshu": {
+    "Name": "魔導書",
+    "Description": "取得時、<Value1 />枚の共通レアカードから１枚まで選び、デッキに加える。"
+  },
+  "Shaoyao": {
+    "Name": "芍薬",
+    "Description": "<Mana />を<Value1 />点プレイする度、ライフを<Value2 />回復する。（1戦闘につき<Value3 />回まで）<br />各戦闘ごとにカウントがリセットされる。"
+  },
+  "Bingkuai": {
+    "Name": "ブロックアイス",
+    "Description": "<Mana />を<Value1 />点プレイする度、<h>バリア</h><Value2 />を得る。<br />各戦闘ごとにカウントがリセットされる。"
+  },
+  "Shiyou": {
+    "Name": "石油",
+    "Description": "<Mana />を<Value1 />点プレイする度、<Money /><Value2 />を得る。（1戦闘につき<Value3 />回まで）<br />各戦闘ごとにカウントがリセットされる。"
+  },
+  "JingwanMudan": {
+    "Name": "京丸牡丹",
+    "Description": "<Mana />を<Value1 />点プレイする度、敵全体に<Value2 />ダメージを与える。<br />各戦闘ごとにカウントがリセットされる。"
+  },
+  "Shuye": {
+    "Name": "葉っぱ",
+    "Description": "<Mana />を<Value1 />点プレイする度、<h>グレイズ</h><Value2 />を得る。<br />各戦闘ごとにカウントがリセットされる。"
+  },
+  "TangSan": {
+    "Name": "唐傘",
+    "Description": "戦闘開始時、<Value1 /><h>ブロック</h>を得る、手札のカード<Value2 />枚を戦闘終了時までアップグレードする。"
+  },
+  "Putao": {
+    "Name": "ぶどう",
+    "Description": "取得時、<PlayerName />の最大ライフを<Value1 />増加させる。"
+  },
+  "TiangouMuji": {
+    "Name": "天狗の下駄",
+    "Description": "戦闘開始時、<h>火力</h><Value1 />を得る。"
+  },
+  "TiangouRongqiu": {
+    "Name": "結袈裟（ゆいげさ）",
+    "Description": "戦闘開始時、<h>霊力</h><Value1 />を得る。"
+  },
+  "TiangouShanzi": {
+    "Name": "天狗の羽団扇",
+    "Description": "戦闘開始時、<h>グレイズ</h><Value1 />を得る。"
+  },
+  "TiangouXiangji": {
+    "Name": "天狗のカメラ",
+    "Description": "戦闘開始時、敵全体に<h>ロックオン</h><Value1 />を与える。"
+  },
+  "TiangouShouji": {
+    "Name": "天狗の携帯",
+    "Description": "戦闘開始時、追加でカードを<Value1 />枚引く。"
+  },
+  "TiangouYuyi": {
+    "Name": "鴉天狗の羽根",
+    "Description": "次のフロアに移動する時、<PlayerName />は<Counter />回まで道を無視することができる。"
+  },
+  "TiangouDunpai": {
+    "Name": "白狼天狗の盾",
+    "Description": "<PlayerName />が各ターンに初めて防御カードを使用した時、<h>臨時火力</h><Value1 />を得る。"
+  },
+  "ShenmiPifeng": {
+    "Name": "ひみつのマント",
+    "Description": "<PlayerName />のターン終了時、手札にあるカードの枚数と同じ値の<h>ブロック</h>を得る。"
+  },
+  "ChuRenou": {
+    "Name": "雛人形",
+    "Description": "次に受ける<h>厄災</h>を<InitialCounter />まで無効にする、残り<Counter />回。"
+  },
+  "Chaidao": {
+    "Name": "ナタ",
+    "Description": "取得時、ランダムな<Value1 />枚の攻撃カードを<h>アップグレード</h>する。"
+  },
+  "Jiaobu": {
+    "Name": "ガムテープ",
+    "Description": "取得時、ランダムな<Value1 />枚の防御カードを<h>アップグレード</h>する。"
+  },
+  "ChaojiMogu": {
+    "Name": "スーパーキノコ",
+    "Description": "取得時、<Power /><Value1 />を得る。"
+  },
+  "Tuanzi": {
+    "Name": "お団子",
+    "Description": "戦闘終了時、ライフを<Value1 />回復する。<Power /><Value2 />を得る。"
+  },
+  "JingzhiChaju": {
+    "Name": "精巧なティーセット",
+    "Description": "スキマで<h>一服</h>を選んだとき、追加でライフを<Value1 />回復する。"
+  },
+  "DiannaoPeijian": {
+    "Name": "コンピューターパーツ",
+    "Description": "スキマで<h>一服</h>を選んだとき、追加で<Power /><Value1 />を得る。"
+  },
+  "HuangyouJiqiren": {
+    "Name": "バターロボット",
+    "Description": "スキマで<h>一服</h>を選んだとき、追加で<Value1 />枚のカードから1枚選び、デッキに加える。"
+  },
+  "Bumengwang": {
+    "Name": "ドリームキャッチャー",
+    "Description": "取得時、<Value1 />枚のカードをデッキから削除する、ライフを<Value2 />回復する、<Value3 /><Power />を得る。"
+  },
+  "JudaShaozi": {
+    "Name": "巨大なスプーン",
+    "Description": "<h>厄災</h>を取得するたび、最大ライフを<Value1 />増加させる。"
+  },
+  "JiangyouPing": {
+    "Name": "醤油瓶",
+    "Description": "たかねの店に訪れる度、ライフを<Value1 />回復し、<Power /><Value2 />を得る。"
+  },
+  "PingfanDao": {
+    "Name": "普通の包丁",
+    "Description": "基本攻撃カードのダメージを増加させる。<br />初期マナコストが<Mana />である場合ダメージを<Value1 />増加させ、<br />そうでない場合ダメージを<Value2 />増加させる。"
+  },
+  "YinzhiHuaibiao": {
+    "Name": "銀の懐中時計",
+    "Description": "カードを<Value1 />枚プレイする度、<Mana />を得る。<br />各戦闘ごとにカウントはリセットされる。"
+  },
+  "ShiyanQicai": {
+    "Name": "実験器具",
+    "Description": "山札をシャッフルする度、<Mana />を得る。"
+  },
+  "HeijiaoChangpian": {
+    "Name": "レコード",
+    "Description": "<h>状態異常</h>を引くたび、<Mana />を得る。"
+  },
+  "Duandai": {
+    "Name": "リボン",
+    "Description": "エリート戦、またはボス戦で、各ターンの開始時に<Mana />を得る。"
+  },
+  "Zhuzi": {
+    "Name": "竹",
+    "Description": "攻撃を<h>グレイズ</h>する度、<Mana />を得る。"
+  },
+  "FaliJingdian": {
+    "Name": "魔人経巻",
+    "Description": "スペルカード使用後、<Mana />を得る。"
+  },
+  "Huiyuanka": {
+    "Name": "会員証",
+    "Description": "ショップの価格が <Value1 />%引きになる。"
+  },
+  "BoliHufu": {
+    "Name": "博麗アミュレット",
+    "Description": "戦闘開始時、<h>加護</h><Value1 />を得る。"
+  },
+  "Yushenqian": {
+    "Name": "おみくじ",
+    "Description": "カード報酬の選択肢が<Value1 />つ増える。"
+  },
+  "Cookie": {
+    "Name": "おいしいクッキー",
+    "Description": "取得時、<PlayerName />の最大ライフを<Value1 />増やし、ライフを全回復する。"
+  },
+  "ShoubiaoMazuiqiang": {
+    "Name": "腕時計型麻酔銃",
+    "Description": "戦闘開始時、敵全体に<h>脱力</h><Value1 />または<h>弱体</h><Value1 />を与える。"
+  },
+  "ZhuQingting": {
+    "Name": "タケコプター",
+    "Description": "<Value1 />ターンごとに、ターン開始時に<h>グレイズ</h><Value2 />を得る。"
+  },
+  "Pijiu": {
+    "Name": "ビール",
+    "Description": "1ターン目の開始時、<PlayerName />は<h>臨時火力</h><Value1 />を得て、<h>ちょい飲み</h><Value2 />枚を手札に加える。"
+  },
+  "HeiseBijiben": {
+    "Name": "黒のノート",
+    "Description": "戦闘開始時、名前を持っている敵はライフを<Value1 />失う。"
+  },
+  "Guangjian": {
+    "Name": "ライトセイバー",
+    "Description": "各戦闘で<PlayerName />が最初に攻撃でダメージを与えた敵に<h>ロックオン</h><Value1 />を与える。"
+  },
+  "LuoboMoxing": {
+    "Name": "プラモデル",
+    "Description": "エリート戦、またはボス戦の開始時に<PlayerName />は<h>火力</h><Value1 />を得る。"
+  },
+  "Moping": {
+    "Name": "空き瓶",
+    "Description": "戦闘終了時、ライフを<Value1 />回復し、<Power /><Value1 />を得る。（あと<Value2 />回）<br />スキマに入るたび、使用回数が回復する。"
+  },
+  "JingboliJing": {
+    "Name": "浄玻璃鏡",
+    "Description": "<h>占術</h>を行う時、追加で<Value1 />枚のカードを見る。"
+  },
+  "Headphone": {
+    "Name": "ヘッドフォン",
+    "Description": "<h>シナジー</h>が追加で1回効果を発動する。"
+  },
+  "ZhinengYinxiang": {
+    "Name": "スマートスピーカー",
+    "Description": "取得時、カードを1枚選ぶ。<br />戦闘開始時、選んだカードを山札の一番前へ加える。"
+  },
+  "MaorongWanju": {
+    "Name": "ぬいぐるみ",
+    "Description": "<h>パートナー</h>の初期<h>支援度</h>を<Value1 />増やす。"
+  },
+  "LouguanJian": {
+    "Name": "楼観剣",
+    "Description": "<PlayerName />が攻撃ダメージを与える度、<h>ロックオン</h><Value1 />を与える。"
+  },
+  "WaijieYanjing": {
+    "Name": "外の世界のハイテクメガネ",
+    "Description": "戦闘による<Money />報酬が<Value1 />%増加する。"
+  },
+  "WaijieYouxiji": {
+    "Name": "外の世界のゲーム機",
+    "Description": "各戦闘終了時、<Power /><Value1 /> を得る。"
+  },
+  "WaijieYanshuang": {
+    "Name": "外の世界のアイクリーム",
+    "Description": "戦闘終了時、<PlayerName />の体力を<Value1 />回復する。"
+  },
+  "JingjieGanzhiyi": {
+    "Name": "境界感知器",
+    "Description": "<hp>世界のありのままの姿を認識できるようにする。</hp>"
+  },
+  "Dahuoji": {
+    "Name": "ライター",
+    "Description": "各戦闘で<PlayerName />が初めて攻撃ダメージを与えるとき、対象に<h>弱体</h><Value1 />を付与する。"
+  },
+  "JingesiYushou": {
+    "Name": "金閣寺のお守り",
+    "Description": "各戦闘において、<PlayerName />が初めてデバフを得るたびに、<Value1 /><h>バリア</h>を得る。"
+  },
+  "JingQiXi": {
+    "Name": "鯨の息吹",
+    "Description": "奇数ターン目の開始時、<PlayerName />はランダムな種類のマナ1点を失う。<br />偶数ターン目の開始時、前のターンに失ったものと同じ種類のマナ2点を得る。"
+  },
+  "SadinYuebing": {
+    "Name": "サルデーニャの月餅",
+    "Description": "ターン開始時、ランダムなカードを戦闘終了時まで<h>アップグレード</h>する。多色のカードが優先される。"
+  },
+  "IdolTshirt": {
+    "Name": "オタクTシャツ",
+    "Description": "戦闘開始時、<PlayerName />は最大ライフ<Counter />を得て、ロックオン<Counter />を受ける。"
+  },
+  "Qingshu": {
+    "Name": "ラブレター",
+    "Description": "取得時、<PlayerName />の最大ライフを<Value1 />増加させる。"
+  },
+  "Dianshiji": {
+    "Name": "テレビ",
+    "Description": "<PlayerName />は<h>脱力</h>を受けない。"
+  },
+  "Xiyiji": {
+    "Name": "洗濯機",
+    "Description": "<PlayerName />は<h>弱体</h>を受けない。"
+  },
+  "Bingxiang": {
+    "Name": "冷蔵庫",
+    "Description": "<PlayerName />は<h>脆弱化</h>を受けない。"
+  },
+  "JuanzengZhengming": {
+    "Name": "寄付の証明",
+    "Description": "スペルカードの最大チャージ回数が<Value1 />増加し、1ターンに複数回使用できる。<br /><Power /><Value2 />を得る。<br />この展示品は失われない。"
+  },
+  "PulpFiction": {
+    "Name": "三文小説",
+    "Description": "各戦闘の<Value2 />ターン目まで、ターン開始時に山札の底から<Value1 />枚のカードを手札に加える。"
+  },
+  "FixBook": {
+    "Name": "万能修理マニュアル",
+    "Description": "<h>道具</h>カードを使用する度、<Mana />を得る。<br />取得時、<Value1 />枚のランダムな道具カードから1枚を選び、デッキに加える。"
+  },
+  "TimeBook": {
+    "Name": "時間略史",
+    "Description": "山札を見た時、実際のカードの並び順通りに表示される。"
+  },
+  "FirstAidBook": {
+    "Name": "救急マニュアル",
+    "Description": "<h>厄災</h>と<h>状態異常</h>が持つ<h>禁止</h>を<h>廃棄</h>に置き換える。<br />それらのカードはレアリティに準拠したマナコストを持つ。"
+  },
+  "KongZhanpinhe": {
+    "Name": "空の展示箱",
+    "Description": "これ以上展示物を入手できない。"
+  }
 }
