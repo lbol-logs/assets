@@ -1,18 +1,36 @@
 {
   "plurals": {
+    "a": "a ",
+    "a_other": "",
     "-s": "",
     "-s_other": "s",
     "no": "",
-    "no_other": "{{count}} ",
-    "turn": "until end of turn",
-    "turn_other": "for the next <Duration /> turns",
+    "no_other": "<Level /> ",
+    "turns": "until end of turn",
+    "turns_other": "for the next <Duration /> turns",
+    "nextTurn": "next turn",
+    "nextTurn_other": "next <Level /> turns",
     "since": "",
-    "since_other": " from now"
+    "since_other": " from now",
+    "less": "no",
+    "less_other": "less than <Level />",
+    "until": "",
+    "until_other": " until there are <Level />"
+  },
+  "subjects": {
+    "It": "It",
+    "It_other": "They",
+    "-s": "s",
+    "-s_other": ""
+  },
+  "objects": {
+    "it": "it",
+    "it_other": "them"
   },
   "ordinal_1": "next",
-  "ordinal_2": "{{count}}nd",
-  "ordinal_3": "{{count}}rd",
-  "ordinal_other": "{{count}}th",
+  "ordinal_2": "<Count />nd",
+  "ordinal_3": "<Count />rd",
+  "ordinal_other": "<Count />th",
   "TempFirepower": {
     "Name": "Temporary Firepower",
     "Description": "Until end of turn, gain <Level /> <h>Firepower</h>.<br /><h>Firepower</h> increases damage dealt with attacks."
@@ -63,15 +81,15 @@
   },
   "Fragil": {
     "Name": "Frail",
-    "Description": "<PlayerName /> gains <Value />% less <h>Block</h> and <h>Barrier</h> from cards $t(plurals.turn, { 'count': {{Duration}} })."
+    "Description": "<PlayerName /> gains <Value />% less <h>Block</h> and <h>Barrier</h> from cards $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "Weak": {
     "Name": "Weak",
-    "Description": "<OwnerName />'s attacks deal <Value />% less damage $t(plurals.turn, { 'count': {{Duration}} })."
+    "Description": "<OwnerName />'s attacks deal <Value />% less damage $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "Vulnerable": {
     "Name": "Vulnerable",
-    "Description": "<OwnerName /> takes <Value />% more damage from attacks $t(plurals.turn, { 'count': {{Duration}} })."
+    "Description": "<OwnerName /> takes <Value />% more damage from attacks $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "LockedOn": {
     "Name": "Lock On",
@@ -79,11 +97,11 @@
   },
   "Graze": {
     "Name": "Graze",
-    "Description": "<OwnerName /> takes 0 damage from the next {Level:plural one='attack' other='% attacks'}.<br />Lose 1 <h>Graze</h> when attacked or when turn starts."
+    "Description": "<OwnerName /> takes 0 damage from the next attack$t(plurals.-s, { 'count': {{Level}} }).<br />Lose 1 <h>Graze</h> when attacked or when turn starts."
   },
   "ExtraTurn": {
     "Name": "Extra Turn",
-    "Description": "<OwnerName /> will take {Level:plural one='% extra turn' other='% extra turns'} after this turn."
+    "Description": "<OwnerName /> will take <Level /> extra turn$t(plurals.-s, { 'count': {{Level}} }) after this turn."
   },
   "LimitedDamage": {
     "Name": "Liberator of Items",
@@ -95,7 +113,7 @@
   },
   "Invincible": {
     "Name": "Flawless",
-    "Description": "<OwnerName /> will not lose more than 1 life from any damage taken $t(plurals.turn, { 'count': {{Duration}} })."
+    "Description": "<OwnerName /> will not lose more than 1 life from any damage taken $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "InvincibleEternal": {
     "Name": "Flawless",
@@ -103,7 +121,7 @@
   },
   "TurnStartDontLoseBlock": {
     "Name": "Retain Block",
-    "Description": "<OwnerName /> does not lose <h>Block</h> at the start of the {Level:plural one='next turn' other='next % turns'}."
+    "Description": "<OwnerName /> does not lose <h>Block</h> at the start of the $t(plurals.nextTurn, { 'count': {{Level}} })."
   },
   "WindGirl": {
     "Name": "Wind God Girl",
@@ -111,11 +129,11 @@
   },
   "Amulet": {
     "Name": "Amulet",
-    "Description": "Negates the next {Level:plural one='debuff' other='% debuffs'}."
+    "Description": "Negates the next debuff$t(plurals.-s, { 'count': {{Level}} })."
   },
   "AmuletForCard": {
     "Name": "Ward",
-    "Description": "Negate the next <Level /> Status card$t(plurals.-s, { 'count': {{Level}} }) that would be added (<h>Exile</h> {Level:plural one='it' other='them'} instead)."
+    "Description": "Negate the next <Level /> Status card$t(plurals.-s, { 'count': {{Level}} }) that would be added (<h>Exile</h> $t(objects.it, { 'count': {{Level}} }) instead)."
   },
   "Electric": {
     "Name": "Static Charge",
@@ -163,7 +181,7 @@
   },
   "GuangxueMicai": {
     "Name": "Optical Camouflage",
-    "Description": "<OwnerName /> takes half as much damage from attacks $t(plurals.turn, { 'count': {{Duration}} })."
+    "Description": "<OwnerName /> takes half as much damage from attacks $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "DroneBlock": {
     "Name": "Defense Matrix",
@@ -195,7 +213,7 @@
   },
   "DeathExplodeCount": {
     "Name": "Revenge Bullet",
-    "Description": "When <OwnerName /> is defeated, it deals <Level /> damage to <PlayerName />.<br />Will detonate after <Count /> more {Count:plural one='turn' other='turns'}, dealing twice that much damage."
+    "Description": "When <OwnerName /> is defeated, it deals <Level /> damage to <PlayerName />.<br />Will detonate after <Count /> more turn$t(plurals.-s, { 'count': {{Count}} }), dealing twice that much damage."
   },
   "DeathVulnerable": {
     "Name": "Deathly Pale",
@@ -255,7 +273,7 @@
   },
   "Fengyin": {
     "Name": "Sealed",
-    "Description": "<PlayerName /> can't play attack cards $t(plurals.turn, { 'count': {{Duration}} })."
+    "Description": "<PlayerName /> can't play attack cards $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "FirepowerIsJustice": {
     "Name": "Might Makes Right!",
@@ -295,7 +313,7 @@
   },
   "Emi": {
     "Name": "Electromagnetic Interference",
-    "Description": "<OwnerName /> can't act $t(plurals.turn, { 'count': {{Duration}} })."
+    "Description": "<OwnerName /> can't act $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "TurnStartPurify": {
     "Name": "Next Turn Purify",
@@ -419,7 +437,7 @@
   },
   "ScarletDestiny": {
     "Name": "Scarlet Fate",
-    "Description": "After <Limit /> cards are played, <OwnerName /> ends <PlayerName />'s turn.<br /><hd>({Count:plural one='% card left' other='% cards left'}.)</hd>"
+    "Description": "After <Limit /> cards are played, <OwnerName /> ends <PlayerName />'s turn.<br /><hd>(<Count /> card$t(plurals.-s, { 'count': {{Count}} }) left.)</hd>"
   },
   "JunkoPurify": {
     "Name": "Purifying Light",
@@ -487,11 +505,11 @@
   },
   "DanceAroundLakeSe": {
     "Name": "Lakeside Dance",
-    "Description": "Whenever a card is <h>Exiled</h>, draw {Level:plural one='% card.' other='% cards.'}"
+    "Description": "Whenever a card is <h>Exiled</h>, draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "EvilTuiZhiSe": {
     "Name": "Evil Exterminate",
-    "Description": "The next {Level:plural one='attack card' other='% attack cards'} activated deal{Level:plural one='s' other=''} double damage."
+    "Description": "The next attack card$t(plurals.-s, { 'count': {{Level}} }) activated deal$t(subjects.-s, { 'count': {{Level}} }) double damage."
   },
   "YinyangXueyinSe": {
     "Name": "Yin-Yang Rune",
@@ -499,11 +517,11 @@
   },
   "BoliPhantomSe": {
     "Name": "Hakurei Phantom",
-    "Description": "Whenever a card that isn't <h>Persuasion Needle</h> is <h>Exiled</h>, add <Level /> <h>Persuasion Needle$t(plurals.-s, { 'count': {{Level}} })</h> to the hand that <h>temporarily cost{Level:plural one='s' other=''}</h> <Mana />."
+    "Description": "Whenever a card that isn't <h>Persuasion Needle</h> is <h>Exiled</h>, add <Level /> <h>Persuasion Needle$t(plurals.-s, { 'count': {{Level}} })</h> to the hand that <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana />."
   },
   "TaijiLiangyiSe": {
     "Name": "The Birth of Yin-Yang",
-    "Description": "At the start of <PlayerName />'s turn, if there are {Level:plural one='no' other='less than %'} <h>Yin-Yang Orbs</h> in the hand, add {Level:plural one='a <h>Yin-Yang Orb</h>' other='<h>Yin-Yang Orbs</h>'} to the hand{Level:plural one='.' other=' until there are %.'}"
+    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Yin-Yang Orbs</h> in the hand, add $t(plurals.a, { 'count': {{Level}} })<h>Yin-Yang Orb$t(plurals.-s, { 'count': {{Level}} })</h> to the hand$t(plurals.until, { 'count': {{Level}} })."
   },
   "HuanxiangBlockSe": {
     "Name": "Edge of Fantasy",
@@ -567,7 +585,7 @@
   },
   "LearnAstrologySe": {
     "Name": "Astrology Study",
-    "Description": "At the start of <PlayerName />'s turn, if there are {Level:plural one='no' other='less than %'} <h>Astrology</h> in the hand, add {Level:plural one='a <h>Astrology</h> into' other='<h>Astrologies</h>'} to the hand{Level:plural one='.' other=' until there are %.'}"
+    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Astrology</h> in the hand, add {Level:plural one='a <h>Astrology</h> into' other='<h>Astrologies</h>'} to the hand$t(plurals.until, { 'count': {{Level}} })."
   },
   "PotionJungleSe": {
     "Name": "Fluorescent Forest",
@@ -755,7 +773,7 @@
   },
   "FrozenThroneSe": {
     "Name": "Frozen Throne",
-    "Description": "At the start of <PlayerName />'s turn, if there are {Level:plural one='no' other='less than %'} <h>Ice Bullets</h> in the hand, add {Level:plural one='an <h>Ice Bullet</h>' other='<h>Ice Bullets</h>'} to the hand{Level:plural one='.' other=' until there are %.'}"
+    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Ice Bullets</h> in the hand, add {Level:plural one='an <h>Ice Bullet</h>' other='<h>Ice Bullets</h>'} to the hand$t(plurals.until, { 'count': {{Level}} })."
   },
   "WhiteWorldSe": {
     "Name": "Pure White World",
@@ -981,11 +999,11 @@
   },
   "YouxiangWakeSe": {
     "Name": "Early Bird",
-    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and put <Limit /> random attack card$t(plurals.-s, { 'count': {{Limit}} }) from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and put <Limit /> random attack card$t(plurals.-s, { 'count': {{Limit}} }) from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
   },
   "SanaeSummonGodSe": {
     "Name": "Summon Take-Minakata",
-    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'count': {{Count}}, 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
   },
   "TianziRockSe": {
     "Name": "Impregnable!",
