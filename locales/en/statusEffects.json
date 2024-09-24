@@ -2,14 +2,22 @@
   "plurals": {
     "a": "a ",
     "a_other": "",
+    "an": "an ",
+    "an_other": "",
     "-s": "",
     "-s_other": "s",
+    "-y": "y",
+    "-y_other": "ies",
+    "-fe": "fe",
+    "-fe_other": "ves",
     "no": "",
     "no_other": "<Level /> ",
+    "turn": "turn",
+    "turn_other": "<Level /> turns",
     "turns": "until end of turn",
     "turns_other": "for the next <Duration /> turns",
-    "nextTurn": "next turn",
-    "nextTurn_other": "next <Level /> turns",
+    "card": "a card",
+    "card_other": "up to <Level /> cards",
     "since": "",
     "since_other": " from now",
     "less": "no",
@@ -20,8 +28,12 @@
   "subjects": {
     "It": "It",
     "It_other": "They",
+    "has": "has",
+    "has_other": "have",
     "-s": "s",
-    "-s_other": ""
+    "-s_other": "",
+    "-es": "es",
+    "-es_other": ""
   },
   "objects": {
     "it": "it",
@@ -30,7 +42,7 @@
   "ordinal_1": "next",
   "ordinal_2": "<Count />nd",
   "ordinal_3": "<Count />rd",
-  "ordinal_other": "<Count />th",
+  "ordinal": "<Count />th",
   "TempFirepower": {
     "Name": "Temporary Firepower",
     "Description": "Until end of turn, gain <Level /> <h>Firepower</h>.<br /><h>Firepower</h> increases damage dealt with attacks."
@@ -121,7 +133,7 @@
   },
   "TurnStartDontLoseBlock": {
     "Name": "Retain Block",
-    "Description": "<OwnerName /> does not lose <h>Block</h> at the start of the $t(plurals.nextTurn, { 'count': {{Level}} })."
+    "Description": "<OwnerName /> does not lose <h>Block</h> at the start of the next $t(plurals.turn, { 'count': {{Level}} })."
   },
   "WindGirl": {
     "Name": "Wind God Girl",
@@ -565,7 +577,7 @@
   },
   "Concentration": {
     "Name": "Concentration",
-    "Description": "The next $t(plurals.no, { 'count': {{Level}} })<h>Overdrive</h> effect{Level:plural one=' does not' other='s do not'} cost <h>Charge</h> to activate."
+    "Description": "The next $t(plurals.no, { 'count': {{Level}} })<h>Overdrive</h> effect$t(plurals.-s, { 'count': {{Level}} }) do$t(subjects.-es, { 'count': {{Level}} }) not cost <h>Charge</h> to activate."
   },
   "BurstUpgrade": {
     "Name": "All Out",
@@ -573,7 +585,7 @@
   },
   "BurstDrawSe": {
     "Name": "Speed Duel",
-    "Description": "When entering <h>Burst</h>, draw {Level:plural one='% card' other='% cards'}."
+    "Description": "When entering <h>Burst</h>, draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "SolarSystemSe": {
     "Name": "Orrery's Sun",
@@ -585,11 +597,11 @@
   },
   "LearnAstrologySe": {
     "Name": "Astrology Study",
-    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Astrology</h> in the hand, add {Level:plural one='a <h>Astrology</h> into' other='<h>Astrologies</h>'} to the hand$t(plurals.until, { 'count': {{Level}} })."
+    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Astrology</h> in the hand, add $t(plurals.a, { 'count': {{Level}} })<h>Astrolog$t(plurals.-y, { 'count': {{Level}} })</h> to the hand$t(plurals.until, { 'count': {{Level}} })."
   },
   "PotionJungleSe": {
     "Name": "Fluorescent Forest",
-    "Description": "At the end of <PlayerName />'s turn, add {Level:plural one='<h>% Unstable Potion</h>' other='<h>% Unstable Potions</h>'} to the discard pile."
+    "Description": "At the end of <PlayerName />'s turn, add <h><Level /> Unstable Potion$t(plurals.-s, { 'count': {{Level}} })</h> to the discard pile."
   },
   "UpgradePotionSe": {
     "Name": "Refine Potion",
@@ -629,7 +641,7 @@
   },
   "GainKnifeSe": {
     "Name": "Starry Sword Dance",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> <h>Throwing {Level:plural one='Knife' other='Knives'}</h> to the hand."
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Level}} })</h> to the hand."
   },
   "SakuyaInvestigateSe": {
     "Name": "Time Stop Detective",
@@ -637,11 +649,11 @@
   },
   "BladePowerSe": {
     "Name": "Dazzling Dash",
-    "Description": "Whenever a <h>Throwing Knife</h> is played, add <Level /> random attack card$t(plurals.-s, { 'count': {{Level}} }) to the hand. {Level:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>} <Mana /> and ha{Level:plural one='s' other='ve'} <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "Whenever a <h>Throwing Knife</h> is played, add <Level /> random attack card$t(plurals.-s, { 'count': {{Level}} }) to the hand. $t(subjects.It, { 'count': {{Level}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "PerfectServantUSe": {
     "Name": "Additional Solutions",
-    "Description": "At the start of <OwnerName />'s next turn, gain <Level /> <Mana /> and draw {Level:plural one='% card' other='% cards'}."
+    "Description": "At the start of <OwnerName />'s next turn, gain <Level /> <Mana /> and draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "PerfectServantWSe": {
     "Name": "Ready to Go",
@@ -649,7 +661,7 @@
   },
   "EvilMaidSe": {
     "Name": "Devil's Maid",
-    "Description": "<OwnerName />'s attacks deal double damage for the next {Level:plural one='turn' other='% turns'}."
+    "Description": "<OwnerName />'s attacks deal double damage for the next $t(plurals.turn, { 'count': {{Level}} })."
   },
   "EvilMaidDoubleAttack": {
     "Name": "Power of the Devil",
@@ -665,7 +677,7 @@
   },
   "SakuyaKillerSe": {
     "Name": "Ripper in the Fog",
-    "Description": "At the end of <PlayerName />'s turn and whenever an enemy is defeated, add <h>{Level:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the draw pile."
+    "Description": "At the end of <PlayerName />'s turn and whenever an enemy is defeated, add <h><Level /> Throwing Kni$t(plurals.-fe, { 'count': {{Level}} })</h> to the draw pile."
   },
   "SilverBladeSe": {
     "Name": "Silver Dimension",
@@ -673,7 +685,7 @@
   },
   "SpecialClockSe": {
     "Name": "Special Stopwatch",
-    "Description": "At the start of <PlayerName />'s turn, select {Level:plural one='a card' other='up to % cards'} and discard them, draw as much as discarded."
+    "Description": "At the start of <PlayerName />'s turn, select $t(plurals.card, { 'count': {{Level}} }) and discard them, draw as much as discarded."
   },
   "KnifeWithLockedOn": {
     "Name": "You Are Next!",
@@ -721,7 +733,7 @@
   },
   "FreezeBulletSe": {
     "Name": "Freeze Shot",
-    "Description": "Apply <h>Cold</h> to the next {Level:plural one='enemy' other='% enemies'} to attack <OwnerName />.<br />Remove this effect at the start of <OwnerName />'s next turn."
+    "Description": "Apply <h>Cold</h> to the next enem$t(plurals.-y, { 'count': {{Level}} }) to attack <OwnerName />.<br />Remove this effect at the start of <OwnerName />'s next turn."
   },
   "FrostArmor": {
     "Name": "Frost Armor",
@@ -765,19 +777,19 @@
   },
   "ForeverCoolSe": {
     "Name": "The Ever Cool Season Fantasia",
-    "Description": "When a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> is activated, apply <h>Cold</h> to <Level /> random enem{Level:plural one='y' other='ies'}.<br />Whenever an enemy gains <h>Cold</h>, <Level /> random <h>Teammate$t(plurals.-s, { 'count': {{Level}} })</h> in the hand gain{Level:plural one='s' other=''} 1 <h>Unity</h>."
+    "Description": "When a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> is activated, apply <h>Cold</h> to <Level /> random enem$t(plurals.-y, { 'count': {{Level}} }).<br />Whenever an enemy gains <h>Cold</h>, <Level /> random <h>Teammate$t(plurals.-s, { 'count': {{Level}} })</h> in the hand gain$t(subjects.-s, { 'count': {{Level}} }) 1 <h>Unity</h>."
   },
   "MoreFriendsSe": {
     "Name": "Social Butterfly",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> random <h>Teammate</h> card$t(plurals.-s, { 'count': {{Level}} }) to the hand.<br />{Level:plural one='It has' other='They have'} <h>Ethereal</h> and lose{Level:plural one='s' other=''} <h>Ethereal</h> after being summoned."
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> random <h>Teammate</h> card$t(plurals.-s, { 'count': {{Level}} }) to the hand.<br />$t(subjects.It, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Ethereal</h> and lose$t(subjects.-s, { 'count': {{Level}} }) <h>Ethereal</h> after being summoned."
   },
   "FrozenThroneSe": {
     "Name": "Frozen Throne",
-    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Ice Bullets</h> in the hand, add {Level:plural one='an <h>Ice Bullet</h>' other='<h>Ice Bullets</h>'} to the hand$t(plurals.until, { 'count': {{Level}} })."
+    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Ice Bullets</h> in the hand, add $t(plurals.an, { 'count': {{Level}} })<h>Ice Bullet$t(plurals.-s, { 'count': {{Level}} })</h> to the hand$t(plurals.until, { 'count': {{Level}} })."
   },
   "WhiteWorldSe": {
     "Name": "Pure White World",
-    "Description": "At the start of <PlayerName />'s turn, apply <h>Cold</h> to each enemy {Level:plural one='% time' other='% times'}."
+    "Description": "At the start of <PlayerName />'s turn, apply <h>Cold</h> to each enemy <Level /> time$t(plurals.-s, { 'count': {{Level}} })."
   },
   "SummerFlowerSe": {
     "Name": "Midsummer Blossoms",
@@ -835,11 +847,11 @@
   },
   "BenwoTouyingSe": {
     "Name": "Ego Projection",
-    "Description": "When entering <h>Passion</h>, add <Level /> completely random attack card$t(plurals.-s, { 'count': {{Level}} }) to the hand that <h>temporarily cost{Level:plural one='s' other=''}</h> <Mana /> and ha{Level:plural one='s' other='ve'} <h>Exile</h>."
+    "Description": "When entering <h>Passion</h>, add <Level /> completely random attack card$t(plurals.-s, { 'count': {{Level}} }) to the hand that <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>."
   },
   "ChaofanyinSe": {
     "Name": "Hyperreactivity",
-    "Description": "When a non-<h>Copy</h> card with <h>Instinct</h> is played and doesn't trigger its <h>Instinct</h> effect, add <Level /> <h>Cop{Level:plural one='y' other='ies'}</h> of it to the hand that <h>temporarily cost{Level:plural one='s' other=''}</h> <Mana /> and ha{Level:plural one='s' other='ve'} <h>Exile</h>."
+    "Description": "When a non-<h>Copy</h> card with <h>Instinct</h> is played and doesn't trigger its <h>Instinct</h> effect, add <Level /> <h>Cop$t(plurals.-y, { 'count': {{Level}} })</h> of it to the hand that <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>."
   },
   "ChaoyueZiwoSe": {
     "Name": "Exceed Oneself",
@@ -859,11 +871,11 @@
   },
   "ZhuozhuangChengzhangSe": {
     "Name": "Healthy Growth",
-    "Description": "At the end of <PlayerName />'s turn, add <Level /> <h>Vitalit{Level:plural one='y' other='ies'}</h> to the hand."
+    "Description": "At the end of <PlayerName />'s turn, add <Level /> <h>Vitalit$t(plurals.-y, { 'count': {{Level}} })</h> to the hand."
   },
   "QingxingMengSe": {
     "Name": "Lucid Daydream",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to hand. {Level:plural one='It' other='They'} <h>temporarily cost{Level:plural one='s' other=''}</h> <Mana1 /> and {Level:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card$t(plurals.-s, { 'count': {{Limit}} }) every turn. (<Count /> left)"
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to hand. $t(subjects.It, { 'count': {{Level}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana1 /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card$t(plurals.-s, { 'count': {{Limit}} }) every turn. (<Count /> left)"
   },
   "QiangweiDiyuSe": {
     "Name": "Rose Hell",
@@ -887,7 +899,7 @@
   },
   "UseCardToLoseGame": {
     "Name": "Short Life Expectancy",
-    "Description": "Lose the game after playing {Count:plural one='% more card' other='% more cards'}."
+    "Description": "Lose the game after playing <Count /> more card$t(plurals.-s, { 'count': {{Count}} })."
   },
   "NextTurnLoseGame": {
     "Name": "Next Turn Lose",
@@ -939,7 +951,7 @@
   },
   "RinDrawSe": {
     "Name": "Spirit Assignment",
-    "Description": "Whenever a Status card is drawn, draw {Level:plural one='% card' other='% cards'}."
+    "Description": "Whenever a Status card is drawn, draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "HekaHellRainSe": {
     "Name": "Rain of Hell",
@@ -963,7 +975,7 @@
   },
   "YachieDefendSe": {
     "Name": "Tortoiseshell Hell",
-    "Description": "Prevent the next {Level:plural one='% time' other='% times'} <OwnerName /> would lose life.<br />If the source is an enemy, that enemy loses that much life instead."
+    "Description": "Prevent the next <Level /> time$t(plurals.-s, { 'count': {{Level}} }) <OwnerName /> would lose life.<br />If the source is an enemy, that enemy loses that much life instead."
   },
   "TodayYesterdaySe": {
     "Name": "Gensokyo, Past and Present",
@@ -999,7 +1011,7 @@
   },
   "YouxiangWakeSe": {
     "Name": "Early Bird",
-    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and put <Limit /> random attack card$t(plurals.-s, { 'count': {{Limit}} }) from the draw pile into the hand. {Limit:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'context': {{Count}} }) turn$t(plurals.since, { 'count': {{Count}} }), gain <Level /> <h>Firepower</h> and put <Limit /> random attack card$t(plurals.-s, { 'count': {{Limit}} }) from the draw pile into the hand. $t(subjects.It, { 'count': {{Limit}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Limit}} })</h> <Mana />."
   },
   "SanaeSummonGodSe": {
     "Name": "Summon Take-Minakata",
@@ -1016,7 +1028,7 @@
   },
   "BailianFireSe": {
     "Name": "Fires of Hokkai",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> random skill card$t(plurals.-s, { 'count': {{Level}} }) to the hand. <br />{Level:plural one='It' other='They'} <h>temporarily cost{Level:plural one='s' other=''}</h> <Mana /> and ha{Level:plural one='s' other='ve'} <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> random skill card$t(plurals.-s, { 'count': {{Level}} }) to the hand. <br />$t(subjects.It, { 'count': {{Level}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "SuperExtraTurn": {
     "Name": "Century's Doppelgangers",
@@ -1028,7 +1040,7 @@
   },
   "YukariFriendSe": {
     "Name": "Boundary of Fantasy",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> random three-colored neutral card$t(plurals.-s, { 'count': {{Level}} }) to the hand. {Level:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana /> and {Level:plural one='has' other='have'} <h>Ethereal</h>."
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> random three-colored neutral card$t(plurals.-s, { 'count': {{Level}} }) to the hand. $t(subjects.It, { 'count': {{Level}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Ethereal</h>."
   },
   "MoonWorldSe": {
     "Name": "Pure World",
