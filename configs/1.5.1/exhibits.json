@@ -541,7 +541,8 @@
     "Value1": 2
   },
   "TiangouYuyi": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "InitialCounter": 3
   },
   "TiangouDunpai": {
     "Rarity": "Common",
@@ -552,7 +553,8 @@
     "Value1": 1
   },
   "ChuRenou": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "InitialCounter": 2
   },
   "Chaidao": {
     "Rarity": "Common",
@@ -674,7 +676,8 @@
   "Moping": {
     "Rarity": "Common",
     "Value1": 5,
-    "Value2": 3
+    "Value2": 3,
+    "InitialCounter": 3
   },
   "JingboliJing": {
     "Rarity": "Common",
@@ -726,7 +729,8 @@
     "Value1": 1
   },
   "IdolTshirt": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "InitialCounter": 2
   },
   "Qingshu": {
     "Rarity": "Common",
