@@ -1,4 +1,24 @@
 {
+  "plurals": {
+    "-s": "",
+    "-s_other": "s",
+    "-y": "y",
+    "-y_other": "ies",
+    "-fe": "fe",
+    "-fe_other": "ves",
+    "combat": "combat",
+    "combat_other": "<Value1 /> combats",
+    "each": "it",
+    "each_other": "each"
+  },
+  "subjects": {
+    "-s": "s",
+    "-s_other": ""
+  },
+  "ordinal_1": "<Value1 />st",
+  "ordinal_2": "<Value1 />nd",
+  "ordinal_3": "<Value1 />rd",
+  "ordinal": "<Value1 />th",
   "LongjingYu": {
     "Name": "Jewel from the Dragon's Neck",
     "Description": "At the start of combat, gain <Mana />."
@@ -37,15 +57,15 @@
   },
   "SakuyaW": {
     "Name": "Spare Throwing Knives",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />At the start of combat and when the draw pile is shuffled, add {Value1:plural one='% <h>Throwing Knife</h>' other='% <h>Throwing Knives</h>'} to the draw pile."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />At the start of combat and when the draw pile is shuffled, add <Value1 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the draw pile."
   },
   "SakuyaU": {
     "Name": "Magic Poker",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />During the first <Value2 /> turn{Value2:plural one='' other='s'} of each combat, draw <Value1 /> more {Value1:plural one='card' other='cards'} during the draw step."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />During the first <Value2 /> turn$t(plurals.-s, { 'count': {{Value2}} }) of each combat, draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during the draw step."
   },
   "CirnoU": {
     "Name": "Ice Crystal Wings",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Cirno</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn each combat, add <Value1 /> <h>Ice Wing{Value1:plural one='' other='s'}</h> to the hand."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Cirno</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn each combat, add <Value1 /> <h>Ice Wing$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
   },
   "CirnoG": {
     "Name": "Fairy's Green Branch",
@@ -53,7 +73,7 @@
   },
   "KoishiG": {
     "Name": "Thorny Rose",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn, gain <Value1 /> <h>Flash of Inspiration</h> and add <Value2 /> <h>Inspiration{Value2:plural one='' other='s'}</h> to the draw pile."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn, gain <Value1 /> <h>Flash of Inspiration</h> and add <Value2 /> <h>Inspiration$t(plurals.-s, { 'count': {{Value2}} })</h> to the draw pile."
   },
   "KoishiB": {
     "Name": "Imaginary Friend",
@@ -81,15 +101,15 @@
   },
   "Bingzhilin": {
     "Name": "Ice Scale",
-    "Description": "Adds <BaseMana /> to the mana base.<br />After an ability card is played, {Value1:plural one='% random card' other='% random cards'} in the hand <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana /> less."
+    "Description": "Adds <BaseMana /> to the mana base.<br />After an ability card is played, <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> less."
   },
   "ShijieSuipian": {
     "Name": "Fragments of the World",
-    "Description": "Adds <BaseMana /> to the mana base.<br />When acquired, choose up to <Value1 /> card{Value1:plural one='' other='s'} in the library. Replace them with that many random Uncommon cards and random Rare cards."
+    "Description": "Adds <BaseMana /> to the mana base.<br />When acquired, choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the library. Replace them with that many random Uncommon cards and random Rare cards."
   },
   "TianwenWangyuanjing": {
     "Name": "Astronomical Telescope",
-    "Description": "Adds <BaseMana /> to the mana base.<br />At the start of <PlayerName />'s first turn each combat, add <Value1 /> <h>Astrolog{Value1:plural one='y' other='ies'}</h> to the hand."
+    "Description": "Adds <BaseMana /> to the mana base.<br />At the start of <PlayerName />'s first turn each combat, add <Value1 /> <h>Astrolog$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand."
   },
   "QinaKapian": {
     "Name": "Zener Cards",
@@ -113,7 +133,7 @@
   },
   "AizheHongshi": {
     "Name": "Stone of Aja",
-    "Description": "Adds <BaseMana /> to the mana base.<br />At the start of <PlayerName />'s first turn each combat, gain <Value1 /> <h>Firepower</h> and add <Value2 /> <h>Refracted Sunlight{Value2:plural one='' other='s'}</h> to the discard pile."
+    "Description": "Adds <BaseMana /> to the mana base.<br />At the start of <PlayerName />'s first turn each combat, gain <Value1 /> <h>Firepower</h> and add <Value2 /> <h>Refracted Sunlight$t(plurals.-s, { 'count': {{Value2}} })</h> to the discard pile."
   },
   "HouhuMen": {
     "Name": "Back Door",
@@ -133,7 +153,7 @@
   },
   "Gongjuxiang": {
     "Name": "Toolbox",
-    "Description": "Adds <BaseMana /> to the mana base.<br />After every {Value1:plural one='combat' other='% combats'}, gain a <h>Tool</h> card as an additional reward."
+    "Description": "Adds <BaseMana /> to the mana base.<br />After every $t(plurals.combat, { 'count': {{Value1}} }), gain a <h>Tool</h> card as an additional reward."
   },
   "YueGujiu": {
     "Name": "Old Lunar Sake",
@@ -153,7 +173,7 @@
   },
   "KongbaiKapai": {
     "Name": "Blank Card",
-    "Description": "Adds <BaseMana /> to the mana base.<br />Card rewards have <Value1 /> more option{Value1:plural one='' others='s'}. Cards of all colors are added to the card pool."
+    "Description": "Adds <BaseMana /> to the mana base.<br />Card rewards have <Value1 /> more option$t(plurals.-s, { 'count': {{Value1}} }). Cards of all colors are added to the card pool."
   },
   "HuiyeBaoxiang": {
     "Name": "Kaguya's Treasure Box",
@@ -161,7 +181,7 @@
   },
   "QipaiYouhua": {
     "Name": "Imposing Oil Painting",
-    "Description": "At the start of <PlayerName />'s turn, gain 1 random mana.<br />When acquired, gain <Value1 /> <Money />, <h>Upgrade</h> <Value2 /> random card{Value2:plural one='' other='s'} in the library and <PlayerName />'s maximum life is increased by <Value3 />."
+    "Description": "At the start of <PlayerName />'s turn, gain 1 random mana.<br />When acquired, gain <Value1 /> <Money />, <h>Upgrade</h> <Value2 /> random card$t(plurals.-s, { 'count': {{Value2}} }) in the library and <PlayerName />'s maximum life is increased by <Value3 />."
   },
   "YizangnuoWuzhi": {
     "Name": "Izanagi Object",
@@ -229,7 +249,7 @@
   },
   "Zijing": {
     "Name": "Purple Mirror",
-    "Description": "When acquired, choose {Value1:plural one='% card in the library and add a copy of it.' other='% cards in the library and add a copy of each.'}"
+    "Description": "When acquired, choose <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the library and add a copy of $t(plurals.each, { 'count': {{Value1}} })."
   },
   "HuanxiangxiangYuanqi": {
     "Name": "Gensokyo Chronicle",
@@ -237,7 +257,7 @@
   },
   "DiyuChepiao": {
     "Name": "Ticket to Hell",
-    "Description": "Whenever <PlayerName /> loses life, draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Whenever <PlayerName /> loses life, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ShanliangDengpao": {
     "Name": "Shiny Bulb",
@@ -249,7 +269,7 @@
   },
   "Yashemao": {
     "Name": "Peaked Cap",
-    "Description": "Draw <Value1 /> more {Value1:plural one='card' other='cards'} during the draw step."
+    "Description": "Draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during the draw step."
   },
   "ShanshuoBishou": {
     "Name": "Blink Dagger",
@@ -265,7 +285,7 @@
   },
   "YueYuyi": {
     "Name": "Lunar Veil",
-    "Description": "At the start of <PlayerName />'s first turn each combat, gain <h>Flawless</h> for <Value1 /> turn{Value1:plural one='' other='s'}."
+    "Description": "At the start of <PlayerName />'s first turn each combat, gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "FeixiangJian": {
     "Name": "Sword of Hisou",
@@ -277,7 +297,7 @@
   },
   "YichuiPiao": {
     "Name": "Ibuki Gourd",
-    "Description": "During <PlayerName />'s turn, if the hand is empty, draw a card.<br />At the start of <PlayerName />'s first turn each combat, add <Value1 /> <h>Tipsy{Value1:plural one='' other='s'}</h> to the hand."
+    "Description": "During <PlayerName />'s turn, if the hand is empty, draw a card.<br />At the start of <PlayerName />'s first turn each combat, add <Value1 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
   },
   "Yaoshi": {
     "Name": "Keystone",
@@ -317,19 +337,19 @@
   },
   "BoreMianju": {
     "Name": "Hannya Mask",
-    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card{Value1:plural one='' other='s'} in a turn, gain <Value2 /> <h>Firepower</h>."
+    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) in a turn, gain <Value2 /> <h>Firepower</h>."
   },
   "HuliMianju": {
     "Name": "Fox Mask",
-    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card{Value1:plural one='' other='s'} in a turn, <PlayerName /> gains <Value2 /> <h>Spirit</h>."
+    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) in a turn, <PlayerName /> gains <Value2 /> <h>Spirit</h>."
   },
   "HuonanMianju": {
     "Name": "Hyottoko Mask",
-    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card{Value1:plural one='' other='s'} in a turn, <PlayerName /> gains <Value2 /> <h>Block</h>."
+    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) in a turn, <PlayerName /> gains <Value2 /> <h>Block</h>."
   },
   "XiwangMianju": {
     "Name": "Mask of Hope",
-    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card{Value1:plural one='' other='s'} in a turn, <PlayerName /> gains <Value2 /> <Power />."
+    "Description": "Whenever <PlayerName /> plays <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) in a turn, <PlayerName /> gains <Value2 /> <Power />."
   },
   "DiyinLeigu": {
     "Name": "Heavy Bass Drum",
@@ -381,7 +401,7 @@
   },
   "Tnt": {
     "Name": "TNT",
-    "Description": "At the start of <PlayerName />'s {Value1:plural one='1st' two='2nd' few='3rd' other='%th'} turn each combat, deal <Value2 /> damage to each enemy."
+    "Description": "At the start of <PlayerName />'s $t(ordinal, { 'context': {{Value1}} }) turn each combat, deal <Value2 /> damage to each enemy."
   },
   "Modaoshu": {
     "Name": "Magic Guide Book",
@@ -409,7 +429,7 @@
   },
   "TangSan": {
     "Name": "Karakasa",
-    "Description": "At the start of <PlayerName />'s first turn each combat, gain <Value1 /> <h>Block</h> and <h>Upgrade</h> {Value2:plural one='% random card' other='% random cards'} in the hand until end of combat."
+    "Description": "At the start of <PlayerName />'s first turn each combat, gain <Value1 /> <h>Block</h> and <h>Upgrade</h> <Value2 /> random card$t(plurals.-s, { 'count': {{Value2}} }) in the hand until end of combat."
   },
   "Putao": {
     "Name": "Grape",
@@ -449,7 +469,7 @@
   },
   "ChuRenou": {
     "Name": "Hina Doll",
-    "Description": "Negate the next <InitialCounter /> <h>Misfortunes</h> added to the library.<br /><Counter /> time{Counter:plural one='' other='s'} left."
+    "Description": "Negate the next <InitialCounter /> <h>Misfortunes</h> added to the library.<br /><Counter /> time$t(plurals.-s, { 'count': {{Counter}} }) left."
   },
   "Chaidao": {
     "Name": "Chopper",
@@ -481,7 +501,7 @@
   },
   "Bumengwang": {
     "Name": "Dream Catcher",
-    "Description": "When acquired, remove <Value1 /> card{Value1:plural one='' other='s'} from the library, gain <Value2 /> life and gain <Value3 /> <Power />."
+    "Description": "When acquired, remove <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the library, gain <Value2 /> life and gain <Value3 /> <Power />."
   },
   "JudaShaozi": {
     "Name": "Huge Spoon",
@@ -545,7 +565,7 @@
   },
   "Pijiu": {
     "Name": "Beer",
-    "Description": "At the start of <PlayerName />'s first turn each combat, gain <Value1 /> <h>Temporary Firepower</h> and add {Value2:plural one='% <h>Tipsy</h>' other='% <h>Tipsys</h>'} to the hand."
+    "Description": "At the start of <PlayerName />'s first turn each combat, gain <Value1 /> <h>Temporary Firepower</h> and add <Value2 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "HeiseBijiben": {
     "Name": "Black Notebook",
@@ -565,7 +585,7 @@
   },
   "JingboliJing": {
     "Name": "Cleansed Crystal Mirror",
-    "Description": "Whenever <PlayerName /> <h>Scries</h>, <h>Scry</h> <Value1 /> additional card{Level:plural one='' other='s'}."
+    "Description": "Whenever <PlayerName /> <h>Scries</h>, <h>Scry</h> <Value1 /> additional card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "Headphone": {
     "Name": "High Fidelity Headphones",
@@ -641,7 +661,7 @@
   },
   "PulpFiction": {
     "Name": "\"Pulp Fiction\"",
-    "Description": "At the start of the first <Value2 /> turn{Value2:plural one='' other='s'} of each combat, put <Value1 /> card{Value1:plural one='' other='s'} from the bottom of the draw pile into the hand."
+    "Description": "At the start of the first <Value2 /> turn$t(plurals.-s, { 'count': {{Value2}} }) of each combat, put <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the bottom of the draw pile into the hand."
   },
   "FixBook": {
     "Name": "\"Universal Repair Manual\"",
