@@ -2,9 +2,7 @@
   "ReimuAttackR": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -25,9 +23,7 @@
   "ReimuBlockW": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -48,9 +44,7 @@
   "ReimuAttackW": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -71,9 +65,7 @@
   "ReimuBlockR": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -94,9 +86,7 @@
   "YaoguaiBuster": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -114,9 +104,7 @@
   "DoubleJiejie": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -133,9 +121,7 @@
   "Fengmozhen": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -157,9 +143,7 @@
   "Shenyuzha": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -181,10 +165,7 @@
   "YinyangCard": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -209,9 +190,7 @@
   "ShengtianKick": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -229,9 +208,7 @@
   "MengzhiYuzha": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -247,9 +224,7 @@
   "Fengmozhen4": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -267,9 +242,7 @@
   "WunvKongwu": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -286,9 +259,7 @@
   "TuimofuLuanwu": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -306,9 +277,7 @@
   "SuikaOut": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -329,9 +298,7 @@
   "LingfuHuti": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -349,9 +316,7 @@
   "Jinfuzhen": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -373,9 +338,7 @@
   "JingshenYishi": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -391,10 +354,7 @@
   "YinyangBaoyu": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -410,9 +370,7 @@
   "ReimuWeiyan": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -433,9 +391,7 @@
   "ZhujiThreeGod": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -453,9 +409,7 @@
   "OverJingjie": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -476,9 +430,7 @@
   "SmallPanding": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -495,9 +447,7 @@
   "Zhuizongfu": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -521,9 +471,7 @@
   "ReimuFestival": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -539,9 +487,7 @@
   "FengyinYaomo": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -559,9 +505,7 @@
   "DanmuDuijue": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -581,9 +525,7 @@
   "ReimuHeavyAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -604,9 +546,7 @@
   "ReverseJiejie": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -622,9 +562,7 @@
   "Changzhizhen": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -648,9 +586,7 @@
   "ReimuLucky": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -672,9 +608,7 @@
   "ShensheRichang": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -695,9 +629,7 @@
   "TwoBalls": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -718,9 +650,7 @@
   "MojingShanjie": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -741,9 +671,7 @@
   "JiejieAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -763,9 +691,7 @@
   "ReimuShrine": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -781,9 +707,7 @@
   "DoubleDajiejie": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -805,9 +729,7 @@
   "HuanxiangBlock": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -823,9 +745,7 @@
   "MingzhuAntou": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -843,10 +763,7 @@
   "YakongDianxue": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -866,10 +783,7 @@
   "QinggeManwu": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -886,10 +800,7 @@
   "FreeFly": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -905,10 +816,7 @@
   "YinyangXueyin": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -925,10 +833,7 @@
   "ReimuFreeAttack": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -946,9 +851,7 @@
   "ReimuDrink": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -969,9 +872,7 @@
   "EvilTuiZhi": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -988,9 +889,7 @@
   "MomentPower": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1006,9 +905,7 @@
   "Wunvyu": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1035,9 +932,7 @@
   "TaijiLiangyi": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1052,9 +947,7 @@
   "ReimuSilence": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1071,9 +964,7 @@
   "ChuanyueJiejie": {
     "Rarity": "Rare",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1093,9 +984,7 @@
   "HuanxiangTouying": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1112,9 +1001,7 @@
   "OutInGap": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1131,9 +1018,7 @@
   "Jiangshen": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1151,9 +1036,7 @@
   "BoliDajiejie": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1168,10 +1051,7 @@
   "HuijuQiankun": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1188,10 +1068,7 @@
   "ReimuInstant": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1215,10 +1092,7 @@
   "DoubleLianhuadie": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1234,10 +1108,7 @@
   "BoliPhantom": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1254,10 +1125,7 @@
   "KuosanJiejie": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": true,
     "Owner": "Reimu",
     "false": {
@@ -1275,9 +1143,7 @@
   "QiqingYishi": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1295,9 +1161,7 @@
   "KuosanLingfu": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1314,9 +1178,7 @@
   "DanceAroundLake": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1332,10 +1194,7 @@
   "ReimuHuashan": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1356,9 +1215,7 @@
   "AutoQumobang": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1381,9 +1238,7 @@
   "Qingshan": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1400,9 +1255,7 @@
   "GapLady": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1425,9 +1278,7 @@
   "ChunseXiaojing": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1446,9 +1297,7 @@
   "ReimuSakura": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1467,9 +1316,7 @@
   "SenluoJiejie": {
     "Rarity": "Rare",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1489,10 +1336,7 @@
   "YinyangQueen": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1514,10 +1358,7 @@
   "ShuihuoCard": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1543,10 +1384,7 @@
   "FengleiCard": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1571,10 +1409,7 @@
   "ShanyuCard": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Reimu",
     "false": {
@@ -1597,9 +1432,7 @@
   "MarisaAttackB": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1620,9 +1453,7 @@
   "MarisaBlockR": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1643,9 +1474,7 @@
   "MarisaAttackR": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1666,9 +1495,7 @@
   "MarisaBlockB": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1689,9 +1516,7 @@
   "CraftPotion": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1710,9 +1535,7 @@
   "RedLaser": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1732,9 +1555,7 @@
   "Potion": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1757,9 +1578,7 @@
   "SatelliteIllusion": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1776,9 +1595,7 @@
   "DropBook": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1795,9 +1612,7 @@
   "MarisaDraw": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1815,9 +1630,7 @@
   "DarkSatellite": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1835,9 +1648,7 @@
   "MarisaEat": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1859,9 +1670,7 @@
   "ReadyForBurst": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1879,9 +1688,7 @@
   "BulletStudy": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1905,9 +1712,7 @@
   "AsteroidBelt": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1927,9 +1732,7 @@
   "HuojianSaoba": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1947,9 +1750,7 @@
   "JinjiBlock": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1969,10 +1770,7 @@
   "Alioth": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -1990,9 +1788,7 @@
   "ScryAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2008,9 +1804,7 @@
   "MarisaSteal": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2027,9 +1821,7 @@
   "NightSeeStar": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2047,9 +1839,7 @@
   "ScryBlock": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2065,9 +1855,7 @@
   "ShibaiChanwu": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2085,9 +1873,7 @@
   "ShinningPotion": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2110,9 +1896,7 @@
   "Yinhe": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2134,9 +1918,7 @@
   "StarSky": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2153,9 +1935,7 @@
   "PoisonPotion": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2172,9 +1952,7 @@
   "LearnAstrology": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2191,9 +1969,7 @@
   "PotionJungle": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2209,9 +1985,7 @@
   "AccuracyLaser": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2235,9 +2009,7 @@
   "RainbowStar": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": true,
     "Owner": "Marisa",
     "false": {
@@ -2261,9 +2033,7 @@
   "WinterWarm": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2284,9 +2054,7 @@
   "CollectionDefense": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2308,9 +2076,7 @@
   "BurstDraw": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2326,9 +2092,7 @@
   "StarFantasy": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2352,9 +2116,7 @@
   "StarShower": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2372,9 +2134,7 @@
   "MarisaHoldCard": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2392,9 +2152,7 @@
   "ThrowBigStar": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2415,9 +2173,7 @@
   "FireUpBagualu": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2434,10 +2190,7 @@
   "ShootMoon": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2460,10 +2213,7 @@
   "RunAway": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2481,10 +2231,7 @@
   "MixAndShake": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2502,10 +2249,7 @@
   "WizardStudy": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2523,9 +2267,7 @@
   "ExilePotion": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2544,9 +2286,7 @@
   "EventHorizon": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2566,9 +2306,7 @@
   "PotionDefense": {
     "Rarity": "Rare",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2586,9 +2324,7 @@
   "UpgradePotion": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2604,9 +2340,7 @@
   "OpenUniverse": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2626,9 +2360,7 @@
   "SuperNova": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2649,9 +2381,7 @@
   "RedGiantStar": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2672,9 +2402,7 @@
   "SolarSystem": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2690,9 +2418,7 @@
   "FinalSpark": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2713,9 +2439,7 @@
   "HuoliQuankai": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2731,10 +2455,7 @@
   "MasterOfCollection": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2755,10 +2476,7 @@
   "ChargingPotion": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2775,10 +2493,7 @@
   "StarlightTaifengSummoner": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": true,
     "Owner": "Marisa",
     "false": {
@@ -2799,10 +2514,7 @@
   "StarlightTaifeng": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2823,9 +2535,7 @@
   "FindCollection": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2842,9 +2552,7 @@
   "WhiteLaser": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2867,9 +2575,7 @@
   "BlazingStar": {
     "Rarity": "Rare",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2891,10 +2597,7 @@
   "SplitPotion": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2910,9 +2613,7 @@
   "IceSpark": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2929,9 +2630,7 @@
   "ColdPotion": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2947,9 +2646,7 @@
   "ChargingToMana": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2970,10 +2667,7 @@
   "DiscardToCharging": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -2990,10 +2684,7 @@
   "PatchouliFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3015,9 +2706,7 @@
   "MoguMaster": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3038,9 +2727,7 @@
   "RedMogu": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3052,9 +2739,7 @@
   "GreenMogu": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3066,9 +2751,7 @@
   "BlueMogu": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3080,9 +2763,7 @@
   "PurpleMogu": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3096,9 +2777,7 @@
   "JungleMaster": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3120,9 +2799,7 @@
   "ManaJungle": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Marisa",
     "false": {
@@ -3142,9 +2819,7 @@
   "SakuyaAttackW": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3165,9 +2840,7 @@
   "SakuyaBlockU": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3188,9 +2861,7 @@
   "SakuyaAttackU": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3211,9 +2882,7 @@
   "SakuyaBlockW": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3234,9 +2903,7 @@
   "KnifeBounce": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3255,9 +2922,7 @@
   "Lijian": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3275,9 +2940,7 @@
   "PrivateVision": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3294,7 +2957,6 @@
   "Knife": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [],
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3320,9 +2982,7 @@
   "SakuyaZeroDefense": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3338,9 +2998,7 @@
   "Dejavu": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3357,9 +3015,7 @@
   "SakuyaSnow": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3377,9 +3033,7 @@
   "CoolMaid": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3396,9 +3050,7 @@
   "SakuyaTwiceAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3417,9 +3069,7 @@
   "SakuyaGoOut": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3436,9 +3086,7 @@
   "SakuyaWeak": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3455,9 +3103,7 @@
   "TimeAuraAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3476,9 +3122,7 @@
   "SakuyaTea": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3501,9 +3145,7 @@
   "DefenseDraw": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3522,10 +3164,7 @@
   "AttackMagic": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3543,9 +3182,7 @@
   "SakuyaSleep": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3559,9 +3196,7 @@
   "CleanRoom": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3579,9 +3214,7 @@
   "ExileMagic": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3602,9 +3235,7 @@
   "SilverJump": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3622,9 +3253,7 @@
   "SakuyaInvestigate": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3640,9 +3269,7 @@
   "GainKnife": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3660,9 +3287,7 @@
   "SilverBullet": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3681,9 +3306,7 @@
   "SakuyaDefenseRetain": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3699,9 +3322,7 @@
   "SakuyaAttackX": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": true,
     "Owner": "Sakuya",
     "false": {
@@ -3718,9 +3339,7 @@
   "SakuyaDraw": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3740,9 +3359,7 @@
   "VampireHunter": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3763,9 +3380,7 @@
   "PrepareParty": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3781,9 +3396,7 @@
   "SakuyaGraze": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3800,9 +3413,7 @@
   "MihuanJack": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3818,9 +3429,7 @@
   "SakuyaClock": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3838,9 +3447,7 @@
   "LightSpeed": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3861,9 +3468,7 @@
   "TimeLord": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3879,9 +3484,7 @@
   "DangerousMagician": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3898,9 +3501,7 @@
   "ShengquanZaiwo": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3922,9 +3523,7 @@
   "LunaDial": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3944,10 +3543,7 @@
   "DropToKnife": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3964,10 +3560,7 @@
   "SakuyaFuneral": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -3988,10 +3581,7 @@
   "FakeTimeline": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4011,9 +3601,7 @@
   "SakuyaShop": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4036,9 +3624,7 @@
   "SilverBlade": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4054,9 +3640,7 @@
   "KnifeAim": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4073,9 +3657,7 @@
   "KnifeHell": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4091,9 +3673,7 @@
   "BackOfKnife": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4109,9 +3689,7 @@
   "GroupOfKnife": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4131,9 +3709,7 @@
   "BladePower": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4150,9 +3726,7 @@
   "ClockCorpse": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4171,9 +3745,7 @@
   "StopTime": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4189,9 +3761,7 @@
   "LoyalMaid": {
     "Rarity": "Rare",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4208,9 +3778,7 @@
   "TimeWalk": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4229,9 +3797,7 @@
   "LunaClock": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4250,10 +3816,7 @@
   "SpecialClock": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4269,10 +3832,7 @@
   "SakuyaDio": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4289,10 +3849,7 @@
   "PerfectServant": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": true,
     "Owner": "Sakuya",
     "false": {
@@ -4311,9 +3868,7 @@
   "BackToFuture": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4333,9 +3888,7 @@
   "EvilMaid": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4351,9 +3904,7 @@
   "ExtraTurnEveryone": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4372,9 +3923,7 @@
   "TunnelEffect": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4396,9 +3945,7 @@
   "SakuyaKiller": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4414,9 +3961,7 @@
   "BrokenTimeline": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4437,10 +3982,7 @@
   "AutoKnife": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4456,9 +3998,7 @@
   "SakuyaDetective": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4480,9 +4020,7 @@
   "SakuyaSpeedup": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4502,9 +4040,7 @@
   "SakuyaUsage": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4521,9 +4057,7 @@
   "SakuyaUsage2": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4542,10 +4076,7 @@
   "MeilingFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4566,11 +4097,7 @@
   "UnlimitedTime": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U",
-      "G"
-    ],
+    "Colors": "WUG",
     "IsXCost": false,
     "Owner": "Sakuya",
     "false": {
@@ -4591,9 +4118,7 @@
   "CirnoAttackU": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4614,9 +4139,7 @@
   "CirnoBlockG": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4637,9 +4160,7 @@
   "CirnoAttackG": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4660,9 +4181,7 @@
   "CirnoBlockU": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4683,9 +4202,7 @@
   "IceLance": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4706,9 +4223,7 @@
   "FreezeBullet": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4727,9 +4242,7 @@
   "DayaojingFriend": {
     "Rarity": "Common",
     "Type": "Friend",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4754,9 +4267,7 @@
   "IceWing": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4779,9 +4290,7 @@
   "IceBolt": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4803,9 +4312,7 @@
   "Opt": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4823,7 +4330,6 @@
   "OptBottom": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4834,9 +4340,7 @@
   "MaidFriend": {
     "Rarity": "Common",
     "Type": "Friend",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4860,9 +4364,7 @@
   "ShiverArmor": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4881,9 +4383,7 @@
   "FrostGarden": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4902,9 +4402,7 @@
   "GlacialSpike": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4921,9 +4419,7 @@
   "CoolBreeze": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4941,9 +4437,7 @@
   "BlueRose": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4961,9 +4455,7 @@
   "SummerIce": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4979,9 +4471,7 @@
   "CirnoInForest": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -4999,10 +4489,7 @@
   "CirnoConsider": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5019,9 +4506,7 @@
   "CirnoDraw": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5039,9 +4524,7 @@
   "FreezeToIce": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5060,9 +4543,7 @@
   "IceLaser": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5079,9 +4560,7 @@
   "CirnoFire": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5098,9 +4577,7 @@
   "FreezeRiver": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5116,9 +4593,7 @@
   "ColdBreath": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5136,9 +4611,7 @@
   "LeidiFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5158,9 +4631,7 @@
   "ColdSnap": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5177,9 +4648,7 @@
   "IceSaber": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5196,9 +4665,7 @@
   "IceBarrier": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5218,9 +4685,7 @@
   "ZeroK": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5236,9 +4701,7 @@
   "Blizzard": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5258,9 +4721,7 @@
   "FrozenThrone": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5275,9 +4736,7 @@
   "DoubleMana": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5297,9 +4756,7 @@
   "Tether": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5316,9 +4773,7 @@
   "FairyWrath": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5336,9 +4791,7 @@
   "FairyTeam": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5358,9 +4811,7 @@
   "LarvaFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5383,9 +4834,7 @@
   "FriendDraw": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5401,9 +4850,7 @@
   "LilyFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5428,9 +4875,7 @@
   "CallFriends": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5446,9 +4891,7 @@
   "FairyTree": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5464,9 +4907,7 @@
   "MoreFriends": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5483,10 +4924,7 @@
   "FairyOnIce": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5503,10 +4941,7 @@
   "FruitShake": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5523,10 +4958,7 @@
   "SummerParty": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5550,9 +4982,7 @@
   "ColdChain": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5572,9 +5002,7 @@
   "FrozenOrb": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5595,9 +5023,7 @@
   "IceBlock": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5616,9 +5042,7 @@
   "DeepFreeze": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5634,9 +5058,7 @@
   "IceMatrix": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5653,9 +5075,7 @@
   "InstantFreeze": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5675,9 +5095,7 @@
   "ColdHearted": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5696,9 +5114,7 @@
   "BestFriend": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5720,9 +5136,7 @@
   "CirnoEcho": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5742,9 +5156,7 @@
   "FairyAllOut": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5760,9 +5172,7 @@
   "LarvaDefense": {
     "Rarity": "Rare",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5782,9 +5192,7 @@
   "MinengZhuru": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5799,10 +5207,7 @@
   "GatherFairy": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5819,10 +5224,7 @@
   "ForeverCool": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5838,10 +5240,7 @@
   "HualiIce": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5863,9 +5262,7 @@
   "ChooseFriend": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5882,9 +5279,7 @@
   "LunaFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5908,9 +5303,7 @@
   "WhiteWorld": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5925,9 +5318,7 @@
   "PlayWithWaste": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5947,9 +5338,7 @@
   "StarFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5972,9 +5361,7 @@
   "FairyTrick": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -5993,9 +5380,7 @@
   "BrainOverclock": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -6013,9 +5398,7 @@
   "SunnyFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -6039,9 +5422,7 @@
   "Xiguadao": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -6064,11 +5445,7 @@
   "ClownpieceFriend": {
     "Rarity": "Rare",
     "Type": "Friend",
-    "Colors": [
-      "U",
-      "B",
-      "R"
-    ],
+    "Colors": "UBR",
     "IsXCost": false,
     "Owner": "Cirno",
     "false": {
@@ -6092,9 +5469,7 @@
   "KoishiAttackG": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6115,9 +5490,7 @@
   "KoishiBlockB": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6138,9 +5511,7 @@
   "KoishiAttackB": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6161,9 +5532,7 @@
   "KoishiBlockG": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6184,9 +5553,7 @@
   "DefaultPassion": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6202,9 +5569,7 @@
   "DefaultPeace": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6220,10 +5585,7 @@
   "FindInspiration": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6240,10 +5602,7 @@
   "InspirationCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6257,9 +5616,7 @@
   "InspirationBlack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6281,9 +5638,7 @@
   "InspirationGreen": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6299,9 +5654,7 @@
   "InspirationWhite": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6318,9 +5671,7 @@
   "InspirationRed": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6341,9 +5692,7 @@
   "PassionDefense": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6361,9 +5710,7 @@
   "EnterPassion": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6384,9 +5731,7 @@
   "LeaveMoodAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6403,9 +5748,7 @@
   "KoishiZeroAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6421,9 +5764,7 @@
   "EnterPeace": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6444,9 +5785,7 @@
   "LeaveMoodGraze": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6462,10 +5801,7 @@
   "MoodAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6481,9 +5817,7 @@
   "PassionVulnerable": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6499,9 +5833,7 @@
   "NextTurnPassion": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6517,9 +5849,7 @@
   "PassionAttackToDraw": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6536,9 +5866,7 @@
   "PassionDraw": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6554,9 +5882,7 @@
   "PeaceEndTurn": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6572,9 +5898,7 @@
   "BabyDream": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6590,9 +5914,7 @@
   "PeaceDraw": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6608,9 +5930,7 @@
   "PeaceBlock": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6626,10 +5946,7 @@
   "LeaveMoodDraw": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6645,10 +5962,7 @@
   "MoodChangeBlock": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6664,9 +5978,7 @@
   "PsycheLock": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6691,9 +6003,7 @@
   "YaoguaiNaodianbo": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6717,9 +6027,7 @@
   "YoubiKongjuzheng": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6741,9 +6049,7 @@
   "QinchunPanni": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6763,9 +6069,7 @@
   "FlowerGone": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6785,9 +6089,7 @@
   "ZhuozhuangChengzhang": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6805,9 +6107,7 @@
   "LianaiChongdong": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6825,9 +6125,7 @@
   "TaoqiQiangwei": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6847,9 +6145,7 @@
   "LoveSeed": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6872,9 +6168,7 @@
   "BenwoTouying": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6891,9 +6185,7 @@
   "BeihaiWangxiang": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6909,9 +6201,7 @@
   "CloseMemory": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6931,9 +6221,7 @@
   "Danxiangsi": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6956,10 +6244,7 @@
   "JiyiShitihua": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -6984,9 +6269,7 @@
   "PerfectCrime": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7008,9 +6291,7 @@
   "Kongxiangshang": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7025,9 +6306,7 @@
   "ZuxianTuomeng": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7052,9 +6331,7 @@
   "ChaoyueZiwo": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7070,9 +6347,7 @@
   "LoveFire": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": true,
     "Owner": "Koishi",
     "false": {
@@ -7094,9 +6369,7 @@
   "Beiyanwu": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7118,10 +6391,7 @@
   "WuyishiDNA": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7140,10 +6410,7 @@
   "QiangweiDiyu": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7161,9 +6428,7 @@
   "WuyunJiekong": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7183,9 +6448,7 @@
   "MirrorTest": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7201,9 +6464,7 @@
   "EnterEnlight": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7219,9 +6480,7 @@
   "QingxingMeng": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7240,9 +6499,7 @@
   "LunaticPassion": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7257,9 +6514,7 @@
   "SiwangLaiDian": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7275,10 +6530,7 @@
   "KokoroFriend": {
     "Rarity": "Uncommon",
     "Type": "Friend",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "Owner": "Koishi",
     "false": {
@@ -7296,9 +6548,7 @@
   "AliceAttackW": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7314,9 +6564,7 @@
   "AliceAttackB": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7332,9 +6580,7 @@
   "AliceBlockU": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7350,9 +6596,7 @@
   "DeployShanghai": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7367,9 +6611,7 @@
   "UpgradeDoll": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7383,9 +6625,7 @@
   "DeployPenglai": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7400,9 +6640,7 @@
   "SacrificeDoll": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7418,7 +6656,6 @@
   "DoubleActiveTrigger": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7432,7 +6669,6 @@
   "TriggerAllPassive": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7446,7 +6682,6 @@
   "GainDollSlot": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7462,9 +6697,7 @@
   "DollFactory": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7478,9 +6711,7 @@
   "AutoHousework": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7494,9 +6725,7 @@
   "DollRepair": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7510,9 +6739,7 @@
   "DollSacrifice": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7526,9 +6753,7 @@
   "Qianqiang": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7542,9 +6767,7 @@
   "DollFangzhen": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7558,9 +6781,7 @@
   "DollZuzhou": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Alice",
     "false": {
@@ -7574,9 +6795,7 @@
   "YoumuAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "W",
@@ -7591,9 +6810,7 @@
   "YukariFlyObject": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "W",
@@ -7609,9 +6826,7 @@
   "BailianJingang": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "1W",
@@ -7629,9 +6844,7 @@
   "YunyouShengdi": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "1W",
@@ -7645,9 +6858,7 @@
   "NazrinBaota": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "2W",
@@ -7664,9 +6875,7 @@
   "RingoJinghua": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "W",
@@ -7685,9 +6894,7 @@
   "HuashanQingjing": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "1W",
@@ -7707,9 +6914,7 @@
   "SanaeSpirit": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "1W",
@@ -7724,9 +6929,7 @@
   "BailianNingshen": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "WW",
@@ -7743,9 +6946,7 @@
   "PrismriverWhite": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "WW",
@@ -7763,9 +6964,7 @@
   "HuiyinRemove": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "WWW",
@@ -7779,9 +6978,7 @@
   "ShenziUpgradeAll": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "2WW",
@@ -7799,9 +6996,7 @@
   "HuiyeMarblePhantasm": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": true,
     "false": {
       "Cost": "W",
@@ -7821,9 +7016,7 @@
   "YukariSwarm": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "2W",
@@ -7844,9 +7037,7 @@
   "YuetuInvincible": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": "2WWW",
@@ -7862,9 +7053,7 @@
   "YuetuYuyi": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -7885,9 +7074,7 @@
   "BlueZeroAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -7904,9 +7091,7 @@
   "PlayWithWater": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "U",
@@ -7921,9 +7106,7 @@
   "KokoroAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "U",
@@ -7940,9 +7123,7 @@
   "QinglanAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "1U",
@@ -7960,9 +7141,7 @@
   "NitoriUnderWater": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "1U",
@@ -7978,9 +7157,7 @@
   "ShuimiUnderWater": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -7999,9 +7176,7 @@
   "HatateDiscard": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "U",
@@ -8020,9 +7195,7 @@
   "QingeDraw": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "1U",
@@ -8039,9 +7212,7 @@
   "HuiyinMoreDraw": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "1U",
@@ -8057,9 +7228,7 @@
   "WaterPrincess": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "2UU",
@@ -8079,9 +7248,7 @@
   "YonglinDraw": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "U",
@@ -8101,9 +7268,7 @@
   "DoremyDuplicate": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "UU",
@@ -8122,9 +7287,7 @@
   "GuijiZaoxingYuan": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "2U",
@@ -8142,9 +7305,7 @@
   "GuijiZaoxingFang": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "1U",
@@ -8162,9 +7323,7 @@
   "GuijiZaoxingHu": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "2U",
@@ -8182,9 +7341,7 @@
   "YonglinCard": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "2UUU",
@@ -8204,9 +7361,7 @@
   "FakeMoon": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U"
-    ],
+    "Colors": "U",
     "IsXCost": false,
     "false": {
       "Cost": "U",
@@ -8232,9 +7387,7 @@
   "Shadow": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "B",
@@ -8246,9 +7399,7 @@
   "RumiaBlock": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "B",
@@ -8264,9 +7415,7 @@
   "YuyukoDebuff": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "B",
@@ -8285,9 +7434,7 @@
   "ShannvAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "1B",
@@ -8303,9 +7450,7 @@
   "SatoriAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "1B",
@@ -8326,9 +7471,7 @@
   "MystiaSing": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -8349,9 +7492,7 @@
   "SatoriMemory": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "B",
@@ -8371,9 +7512,7 @@
   "ShannvAbility": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "1B",
@@ -8388,9 +7527,7 @@
   "XiaoemoBook": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "BB",
@@ -8409,9 +7546,7 @@
   "PrismriverBlack": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "BB",
@@ -8429,9 +7564,7 @@
   "BlackHorseZui": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "2B",
@@ -8452,9 +7585,7 @@
   "HinaAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "2B",
@@ -8470,9 +7601,7 @@
   "RemiliaFate": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "B",
@@ -8486,9 +7615,7 @@
   "BailianBlack": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "2B",
@@ -8503,9 +7630,7 @@
   "GrimoireStudy": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "1BB",
@@ -8526,9 +7651,7 @@
   "TrueMoon": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "2BBB",
@@ -8548,9 +7671,7 @@
   "YinglangHowl": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "R",
@@ -8566,9 +7687,7 @@
   "RemiliaJizao": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "R",
@@ -8584,9 +7703,7 @@
   "MeihongAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "1R",
@@ -8608,9 +7725,7 @@
   "LeiguAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "1R",
@@ -8626,9 +7741,7 @@
   "HuaBlock": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "1R",
@@ -8646,9 +7759,7 @@
   "BailianPower": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "1R",
@@ -8663,9 +7774,7 @@
   "MeilingBlock": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "1RR",
@@ -8681,9 +7790,7 @@
   "SuikaBigball": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "2R",
@@ -8699,9 +7806,7 @@
   "MeihongFire": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "3R",
@@ -8716,9 +7821,7 @@
   "PrismriverRed": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "RR",
@@ -8736,9 +7839,7 @@
   "YongyiAttack": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "1R",
@@ -8754,9 +7855,7 @@
   "RemiliaBat": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "2R",
@@ -8776,9 +7875,7 @@
   "FlanFirepower": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "2RR",
@@ -8792,9 +7889,7 @@
   "MeihongPower": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R"
-    ],
+    "Colors": "R",
     "IsXCost": false,
     "false": {
       "Cost": "2RRR",
@@ -8811,9 +7906,7 @@
   "SummerFlower": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -8836,9 +7929,7 @@
   "PatchouliGreenAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -8857,9 +7948,7 @@
   "RangziSeed": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -8872,9 +7961,7 @@
   "AhongMana": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -8894,9 +7981,7 @@
   "RangziFanshu": {
     "Rarity": "Common",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "1G",
@@ -8911,9 +7996,7 @@
   "SunflowerDefense": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "1G",
@@ -8930,9 +8013,7 @@
   "YouxiangMoon": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "1G",
@@ -8948,9 +8029,7 @@
   "DizangLove": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "GG",
@@ -8964,9 +8043,7 @@
   "YuyukoSing": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "2G",
@@ -8982,9 +8059,7 @@
   "DanmuJade": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "4G",
@@ -9002,9 +8077,7 @@
   "YouxiangAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": true,
     "false": {
       "Cost": "G",
@@ -9023,9 +8096,7 @@
   "TakaneDefense": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": true,
     "false": {
       "Cost": "G",
@@ -9043,9 +8114,7 @@
   "GreenLotus": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9066,9 +8135,7 @@
   "LimaoSchool": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "4G",
@@ -9084,9 +8151,7 @@
   "MorphBird": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9097,9 +8162,7 @@
   "MorphDog": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9110,9 +8173,7 @@
   "MorphFrog": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9123,9 +8184,7 @@
   "MorphMan": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9136,9 +8195,7 @@
   "HuiyeAttack": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": true,
     "false": {
       "Cost": "G",
@@ -9156,9 +8213,7 @@
   "HuiyeMana": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "G"
-    ],
+    "Colors": "G",
     "IsXCost": false,
     "false": {
       "Cost": "2GGG",
@@ -9178,7 +8233,6 @@
   "WManaCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9199,7 +8253,6 @@
   "UManaCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9220,7 +8273,6 @@
   "BManaCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9241,7 +8293,6 @@
   "RManaCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9262,7 +8313,6 @@
   "GManaCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9283,7 +8333,6 @@
   "CManaCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9304,7 +8353,6 @@
   "PManaCard": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9325,7 +8373,6 @@
   "Astrology": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9347,7 +8394,6 @@
   "Xiaozhuo": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9368,7 +8414,6 @@
   "Shoot": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -9387,7 +8432,6 @@
   "Boundary": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -9406,7 +8450,6 @@
   "ShopAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9426,7 +8469,6 @@
   "ShopDefense": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9446,7 +8488,6 @@
   "ShopSearch": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9465,9 +8506,7 @@
   "MoonSea": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": "2C",
@@ -9482,9 +8521,7 @@
   "FengjiAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": "3C",
@@ -9506,9 +8543,7 @@
   "YijiSkill": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": "2C",
@@ -9522,9 +8557,7 @@
   "MoonWorld": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": "3CC",
@@ -9539,9 +8572,7 @@
   "YijiEarthSpike": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9553,9 +8584,7 @@
   "YijiPurify": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9565,9 +8594,7 @@
   "YijiGraze": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9579,9 +8606,7 @@
   "YijiFirepower": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9593,10 +8618,7 @@
   "HuiyinAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HWU",
@@ -9614,10 +8636,7 @@
   "ReadBook": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HWU",
@@ -9639,10 +8658,7 @@
   "Panzi": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -9661,10 +8677,7 @@
   "ShuimuBlock": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "WU",
@@ -9684,10 +8697,7 @@
   "TiangouOrder": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "1WU",
@@ -9708,10 +8718,7 @@
   "TianziRock": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "2WU",
@@ -9726,10 +8733,7 @@
   "YijiuDraw": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "H:HWU",
@@ -9745,10 +8749,7 @@
   "SeeFengshui": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "WU",
@@ -9765,10 +8766,7 @@
   "LanCard": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "1WU",
@@ -9785,10 +8783,7 @@
   "RainbowMarket": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "U"
-    ],
+    "Colors": "WU",
     "IsXCost": false,
     "false": {
       "Cost": "1WU",
@@ -9803,10 +8798,7 @@
   "NiuqiDefense": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HWB",
@@ -9823,10 +8815,7 @@
   "XiaodingKill": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "WB",
@@ -9842,10 +8831,7 @@
   "SijiCard": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "H:HWB",
@@ -9860,10 +8846,7 @@
   "YukariAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HWB",
@@ -9882,10 +8865,7 @@
   "KokoroDance": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "WB",
@@ -9902,10 +8882,7 @@
   "FutoLight": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "1WB",
@@ -9921,10 +8898,7 @@
   "HuiyeTime": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "WB",
@@ -9943,10 +8917,7 @@
   "QingeUpgrade": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "2H:HWB",
@@ -9966,10 +8937,7 @@
   "TannvCard": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "2WB",
@@ -9988,10 +8956,7 @@
   "SanaeMiracle": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "B"
-    ],
+    "Colors": "WB",
     "IsXCost": false,
     "false": {
       "Cost": "6WB",
@@ -10012,10 +8977,7 @@
   "ChengDefense": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "WR",
@@ -10031,10 +8993,7 @@
   "MogongAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "WR",
@@ -10050,10 +9009,7 @@
   "TianziMana": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "1WR",
@@ -10072,10 +9028,7 @@
   "HappyNewYear": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "1WR",
@@ -10090,10 +9043,7 @@
   "HuashanDefense": {
     "Rarity": "Uncommon",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "2WR",
@@ -10110,10 +9060,7 @@
   "ZhenmiaowanAttack": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "WR",
@@ -10129,10 +9076,7 @@
   "XingMoney": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "2H:HWR",
@@ -10154,10 +9098,7 @@
   "SanaeSummonGod": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "R"
-    ],
+    "Colors": "WR",
     "IsXCost": false,
     "false": {
       "Cost": "2WR",
@@ -10171,10 +9112,7 @@
   "PoorAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HUB",
@@ -10195,10 +9133,7 @@
   "AliceAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -10221,10 +9156,7 @@
   "BaitianCard": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -10239,10 +9171,7 @@
   "YukariBox": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "false": {
       "Cost": "H:HUB",
@@ -10259,10 +9188,7 @@
   "MeilingWater": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "false": {
       "Cost": "1UB",
@@ -10279,10 +9205,7 @@
   "NueExile": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "false": {
       "Cost": "H:HUB",
@@ -10297,10 +9220,7 @@
   "HuiyinRetain": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "B"
-    ],
+    "Colors": "UB",
     "IsXCost": false,
     "false": {
       "Cost": "1UB",
@@ -10321,10 +9241,7 @@
   "XiaosanReflect": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HUR",
@@ -10342,10 +9259,7 @@
   "YijiuAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "false": {
       "Cost": "2H:HUR",
@@ -10363,10 +9277,7 @@
   "SuikaDraw": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "false": {
       "Cost": "H:HUR",
@@ -10381,10 +9292,7 @@
   "ReisenMana": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "false": {
       "Cost": "1UR",
@@ -10398,10 +9306,7 @@
   "FourFlan": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HUR",
@@ -10419,10 +9324,7 @@
   "HekaHellRain": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": false,
     "false": {
       "Cost": "1UR",
@@ -10437,10 +9339,7 @@
   "ReisenAttack": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "R"
-    ],
+    "Colors": "UR",
     "IsXCost": true,
     "false": {
       "Cost": "UR",
@@ -10456,10 +9355,7 @@
   "FlanPlayAlone": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "H:HBR",
@@ -10475,10 +9371,7 @@
   "FangxiangHeal": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "H:HBR",
@@ -10498,10 +9391,7 @@
   "HehuanAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "1BR",
@@ -10519,10 +9409,7 @@
   "QingeHeal": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -10543,10 +9430,7 @@
   "RinDraw": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "1BR",
@@ -10561,10 +9445,7 @@
   "CloseEyeShoot": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "2BR",
@@ -10580,10 +9461,7 @@
   "KongMana": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "H:HBR",
@@ -10601,10 +9479,7 @@
   "Shengyan": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "2H:HBR",
@@ -10626,10 +9501,7 @@
   "ModuoluoFire": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "R"
-    ],
+    "Colors": "BR",
     "IsXCost": false,
     "false": {
       "Cost": "2BR",
@@ -10644,10 +9516,7 @@
   "Zhulianshen": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HWG",
@@ -10664,10 +9533,7 @@
   "LilyChun": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "H:HWG",
@@ -10682,10 +9548,7 @@
   "XiangziEcho": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "H:HWG",
@@ -10704,10 +9567,7 @@
   "YoumuHybrid": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "HH:HWG",
@@ -10722,10 +9582,7 @@
   "YonglinUpgrade": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "WG",
@@ -10741,10 +9598,7 @@
   "SanaeRice": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "WG",
@@ -10763,10 +9617,7 @@
   "SakuraBlade": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "2HH:HWG",
@@ -10782,10 +9633,7 @@
   "YouxiangWake": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "W",
-      "G"
-    ],
+    "Colors": "WG",
     "IsXCost": false,
     "false": {
       "Cost": "2WG",
@@ -10802,10 +9650,7 @@
   "LongArm": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HUG",
@@ -10823,10 +9668,7 @@
   "HatateShot": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "false": {
       "Cost": "1UG",
@@ -10842,10 +9684,7 @@
   "ZoufangWater": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HUG",
@@ -10863,10 +9702,7 @@
   "MeilingRain": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "false": {
       "Cost": "HH:HUG",
@@ -10883,10 +9719,7 @@
   "RuowujiCard": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "false": {
       "Cost": "1UG",
@@ -10907,10 +9740,7 @@
   "SkyWater": {
     "Rarity": "Rare",
     "Type": "Defense",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "false": {
       "Cost": "UG",
@@ -10929,10 +9759,7 @@
   "LifeGame": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "G"
-    ],
+    "Colors": "UG",
     "IsXCost": false,
     "false": {
       "Cost": "UG",
@@ -10946,10 +9773,7 @@
   "PoisonTeaParty": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HBG",
@@ -10965,10 +9789,7 @@
   "LigeluCard": {
     "Rarity": "Common",
     "Type": "Defense",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "1BG",
@@ -10989,10 +9810,7 @@
   "PaluxiCurse": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "BG",
@@ -11014,10 +9832,7 @@
   "BlackPoison": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "BG",
@@ -11032,10 +9847,7 @@
   "KisumeAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "1BG",
@@ -11054,10 +9866,7 @@
   "MedicineGarden": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "1BG",
@@ -11076,10 +9885,7 @@
   "ShirenKunchong": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "1BG",
@@ -11100,10 +9906,7 @@
   "ZoufangSnake": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "2BG",
@@ -11124,10 +9927,7 @@
   "YachieDefend": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "G"
-    ],
+    "Colors": "BG",
     "IsXCost": false,
     "false": {
       "Cost": "3BG",
@@ -11142,10 +9942,7 @@
   "JingyeGraze": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "R",
-      "G"
-    ],
+    "Colors": "RG",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HRG",
@@ -11162,10 +9959,7 @@
   "FangxiangAttack": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [
-      "R",
-      "G"
-    ],
+    "Colors": "RG",
     "IsXCost": false,
     "false": {
       "Cost": "1H:HRG",
@@ -11188,10 +9982,7 @@
   "MeilingAbility": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R",
-      "G"
-    ],
+    "Colors": "RG",
     "IsXCost": false,
     "false": {
       "Cost": "1RG",
@@ -11206,10 +9997,7 @@
   "LimaoAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
-    "Colors": [
-      "R",
-      "G"
-    ],
+    "Colors": "RG",
     "IsXCost": false,
     "false": {
       "Cost": "2RG",
@@ -11225,10 +10013,7 @@
   "TodayYesterday": {
     "Rarity": "Uncommon",
     "Type": "Ability",
-    "Colors": [
-      "R",
-      "G"
-    ],
+    "Colors": "RG",
     "IsXCost": false,
     "false": {
       "Cost": "3RG",
@@ -11244,10 +10029,7 @@
   "AyaExtraTurn": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R",
-      "G"
-    ],
+    "Colors": "RG",
     "IsXCost": false,
     "false": {
       "Cost": "2RG",
@@ -11268,10 +10050,7 @@
   "AyaWindGirl": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R",
-      "G"
-    ],
+    "Colors": "RG",
     "IsXCost": false,
     "false": {
       "Cost": "2RG",
@@ -11286,11 +10065,7 @@
   "PatchouliLibrary": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "R",
-      "W",
-      "U"
-    ],
+    "Colors": "RWU",
     "IsXCost": false,
     "false": {
       "Cost": "WUR",
@@ -11307,11 +10082,7 @@
   "SanaeRestart": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W",
-      "U",
-      "G"
-    ],
+    "Colors": "WUG",
     "IsXCost": false,
     "false": {
       "Cost": "WUG",
@@ -11332,11 +10103,7 @@
   "JinziSuperExtraTurn": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "U",
-      "G",
-      "B"
-    ],
+    "Colors": "UGB",
     "IsXCost": false,
     "false": {
       "Cost": "2UBG",
@@ -11352,11 +10119,7 @@
   "AnimalSpirit": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "G",
-      "B",
-      "R"
-    ],
+    "Colors": "GBR",
     "IsXCost": false,
     "false": {
       "Cost": "BRG",
@@ -11376,11 +10139,7 @@
   "PrismriverAll": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "R",
-      "W"
-    ],
+    "Colors": "BRW",
     "IsXCost": false,
     "false": {
       "Cost": "WBR",
@@ -11396,11 +10155,7 @@
   "ZhenmiaowanAbility": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "R",
-      "W",
-      "G"
-    ],
+    "Colors": "RWG",
     "IsXCost": false,
     "false": {
       "Cost": "1WRG",
@@ -11416,11 +10171,7 @@
   "JunkoNightmare": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "U",
-      "B"
-    ],
+    "Colors": "WUB",
     "IsXCost": false,
     "false": {
       "Cost": "WUB",
@@ -11439,11 +10190,7 @@
   "ModuoluoSeasons": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "U",
-      "G",
-      "R"
-    ],
+    "Colors": "UGR",
     "IsXCost": false,
     "false": {
       "Cost": "1URG",
@@ -11462,11 +10209,7 @@
   "YukariFriend": {
     "Rarity": "Rare",
     "Type": "Friend",
-    "Colors": [
-      "G",
-      "B",
-      "W"
-    ],
+    "Colors": "GBW",
     "IsXCost": false,
     "false": {
       "Cost": "2WBG",
@@ -11486,11 +10229,7 @@
   "BailianFire": {
     "Rarity": "Rare",
     "Type": "Ability",
-    "Colors": [
-      "B",
-      "R",
-      "U"
-    ],
+    "Colors": "BRU",
     "IsXCost": false,
     "false": {
       "Cost": "UBR",
@@ -11504,7 +10243,6 @@
   "ToolDraw": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11520,7 +10258,6 @@
   "ToolHeal": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11535,7 +10272,6 @@
   "ToolWeak": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11550,7 +10286,6 @@
   "ToolVulnerable": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11565,7 +10300,6 @@
   "ToolAttack": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11581,7 +10315,6 @@
   "ToolBlock": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11597,7 +10330,6 @@
   "ToolAmulet": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -11612,7 +10344,6 @@
   "ToolMana": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11626,7 +10357,6 @@
   "ToolMicai": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11641,7 +10371,6 @@
   "ToolUpgrade": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11656,7 +10385,6 @@
   "ToolFirstAid": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11671,7 +10399,6 @@
   "ToolExile": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -11685,7 +10412,6 @@
   "ToolInvincible": {
     "Rarity": "Rare",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -11700,7 +10426,6 @@
   "ToolMaxHp": {
     "Rarity": "Rare",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -11715,7 +10440,6 @@
   "ToolDroneBlock": {
     "Rarity": "Rare",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -11730,7 +10454,6 @@
   "ToolRandomTool": {
     "Rarity": "Rare",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11744,7 +10467,6 @@
   "VampireShoot1": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -11764,7 +10486,6 @@
   "VampireShoot2": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -11785,7 +10506,6 @@
   "WanderingSoul": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -11805,7 +10525,6 @@
   "RabbitFoot": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -11824,7 +10543,6 @@
   "GainTreasure": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -11843,9 +10561,7 @@
   "MoonPurify": {
     "Rarity": "Uncommon",
     "Type": "Skill",
-    "Colors": [
-      "C"
-    ],
+    "Colors": "C",
     "IsXCost": false,
     "false": {
       "Cost": "C",
@@ -11862,7 +10578,6 @@
   "ArtificialJewellery": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -11876,7 +10591,6 @@
   "LilyoftheValley": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 3,
     "false": {
@@ -11891,7 +10605,6 @@
   "NewsPositive": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 3,
     "false": {
@@ -11903,7 +10616,6 @@
   "NewsNegative": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 3,
     "false": {
@@ -11915,7 +10627,6 @@
   "NewsEntertainment": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 3,
     "false": {
@@ -11926,7 +10637,6 @@
   "NewsTidbit": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 3,
     "false": {
@@ -11938,7 +10648,6 @@
   "WolfFur": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 3,
     "false": {
@@ -11951,7 +10660,6 @@
   "EmpCard": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 3,
     "false": {
@@ -11966,7 +10674,6 @@
   "LarvaCure": {
     "Rarity": "Common",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 2,
     "false": {
@@ -11979,7 +10686,6 @@
   "MoonTipsBag": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -11993,7 +10699,6 @@
   "MoonTipsAttack": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -12005,7 +10710,6 @@
   "MoonTipsDefense": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -12017,7 +10721,6 @@
   "MoonTipsHeal": {
     "Rarity": "Uncommon",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -12029,7 +10732,6 @@
   "QiannianShenqiCard": {
     "Rarity": "Rare",
     "Type": "Tool",
-    "Colors": [],
     "IsXCost": false,
     "ToolPlayableTimes": 1,
     "false": {
@@ -12044,14 +10746,7 @@
   "MeilingLianhua": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": [
-      "W",
-      "U",
-      "B",
-      "R",
-      "G",
-      "C"
-    ],
+    "Colors": "WUBRGC",
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -12067,7 +10762,6 @@
   "AyaNews": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -12080,7 +10774,6 @@
   "HatateNews": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12092,7 +10785,6 @@
   "AyaNewsReimuSp": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 5,
@@ -12106,7 +10798,6 @@
   "AyaNewsMarisaSp": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 5,
@@ -12120,7 +10811,6 @@
   "AyaNewsSakuyaSp": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 5,
@@ -12134,7 +10824,6 @@
   "AyaNewsCirnoSp": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 5,
@@ -12148,7 +10837,6 @@
   "AyaNewsKoishiSp": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 5,
@@ -12162,7 +10850,6 @@
   "AyaNewsAliceSp": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 5,
@@ -12176,7 +10863,6 @@
   "Riguang": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12190,7 +10876,6 @@
   "Yueguang": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12204,7 +10889,6 @@
   "Xingguang": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12217,7 +10901,6 @@
   "Xuanguang": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12229,7 +10912,6 @@
   "CirnoFreeze": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12242,7 +10924,6 @@
   "Frog": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12255,9 +10936,7 @@
   "BlackResidue": {
     "Rarity": "Uncommon",
     "Type": "Status",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "1B",
@@ -12270,7 +10949,6 @@
   "SakuyaLock": {
     "Rarity": "Uncommon",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -12283,7 +10961,6 @@
   "Wushuai": {
     "Rarity": "Uncommon",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -12296,7 +10973,6 @@
   "Payment": {
     "Rarity": "Uncommon",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "MoneyCost": 40,
     "false": {
@@ -12310,7 +10986,6 @@
   "LoveLetter": {
     "Rarity": "Uncommon",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 3,
@@ -12322,7 +10997,6 @@
   "Lunatic": {
     "Rarity": "Uncommon",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -12336,7 +11010,6 @@
   "Chunguang": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 3,
@@ -12349,7 +11022,6 @@
   "Bribery": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "MoneyCost": 80,
     "false": {
@@ -12362,7 +11034,6 @@
   "Nightmare": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 4,
@@ -12375,7 +11046,6 @@
   "NightMana1": {
     "Rarity": "Common",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12389,7 +11059,6 @@
   "NightMana2": {
     "Rarity": "Uncommon",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -12403,7 +11072,6 @@
   "NightMana3": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 3,
@@ -12417,7 +11085,6 @@
   "NightMana4": {
     "Rarity": "Rare",
     "Type": "Status",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 4,
@@ -12431,7 +11098,6 @@
   "Regret": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12444,7 +11110,6 @@
   "Jealousy": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12456,7 +11121,6 @@
   "BefuddledLife": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12469,7 +11133,6 @@
   "XiaosanJingxia": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12482,7 +11145,6 @@
   "MarisaForget": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12495,7 +11157,6 @@
   "Yuebiao": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12508,7 +11169,6 @@
   "BuyPeace": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12522,7 +11182,6 @@
   "SweetPoison": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12535,7 +11194,6 @@
   "Pressure": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12548,7 +11206,6 @@
   "Misfortune": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12561,7 +11218,6 @@
   "YuyukoMisfortune": {
     "Rarity": "Common",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 1,
@@ -12574,7 +11230,6 @@
   "Drunk": {
     "Rarity": "Uncommon",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -12587,7 +11242,6 @@
   "Zhukeling": {
     "Rarity": "Uncommon",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -12600,7 +11254,6 @@
   "Psychedelic": {
     "Rarity": "Uncommon",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 2,
@@ -12615,7 +11268,6 @@
   "FanzhuanChongdong": {
     "Rarity": "Rare",
     "Type": "Misfortune",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 3,
@@ -12630,9 +11282,7 @@
   "FakeCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "G",
@@ -12645,7 +11295,6 @@
   "HistoryCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -12658,9 +11307,7 @@
   "FlanBlack": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": [
-      "B"
-    ],
+    "Colors": "B",
     "IsXCost": false,
     "false": {
       "Cost": "B",
@@ -12673,9 +11320,7 @@
   "ShenziWake": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": [
-      "W"
-    ],
+    "Colors": "W",
     "IsXCost": true,
     "false": {
       "Cost": "W",
@@ -12695,7 +11340,6 @@
   "DebugAddRandomCards": {
     "Rarity": "Common",
     "Type": "Ability",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -12710,7 +11354,6 @@
   "DebugExileDrawDiscard": {
     "Rarity": "Common",
     "Type": "Ability",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -12723,7 +11366,6 @@
   "DebugAddRandomCardsSlow": {
     "Rarity": "Common",
     "Type": "Ability",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -12738,7 +11380,6 @@
   "DebugAddDeckCards": {
     "Rarity": "Common",
     "Type": "Ability",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
@@ -12753,7 +11394,6 @@
   "DebugAddHandCards": {
     "Rarity": "Common",
     "Type": "Ability",
-    "Colors": [],
     "IsXCost": false,
     "false": {
       "Cost": 0,
