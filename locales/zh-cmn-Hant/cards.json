@@ -1,562 +1,1682 @@
 {
-  "ReimuAttackR": "博麗護符",
-  "ReimuBlockW": "彈幕庇護",
-  "ReimuAttackW": "札彈射擊",
-  "ReimuBlockR": "退治彈幕",
-  "YaoguaiBuster": "妖怪破壞者",
-  "DoubleJiejie": "二重結界",
-  "Fengmozhen": "封魔針",
-  "Shenyuzha": "神域札",
-  "YinyangCard": "陰陽玉",
-  "ShengtianKick": "升天腳",
-  "MengzhiYuzha": "夢之御札",
-  "Fengmozhen4": "封魔陣",
-  "WunvKongwu": "巫女空舞",
-  "TuimofuLuanwu": "退魔符亂舞",
-  "SuikaOut": "驅邪除瘟",
-  "LingfuHuti": "靈符護體",
-  "Jinfuzhen": "緊縛陣",
-  "JingshenYishi": "淨身儀式",
-  "YinyangBaoyu": "陰陽寶玉",
-  "ReimuWeiyan": "真正的威嚴",
-  "ZhujiThreeGod": "住吉三神",
-  "OverJingjie": "境界上空",
-  "SmallPanding": "小型判定",
-  "Zhuizongfu": "追蹤符",
-  "ReimuFestival": "神櫻之舞",
-  "FengyinYaomo": "龍殺陣",
-  "DanmuDuijue": "彈幕對決",
-  "ReimuHeavyAttack": "博麗一拳",
-  "ReverseJiejie": "逆轉結界",
-  "Changzhizhen": "常置陣",
-  "ReimuLucky": "吉簽開運",
-  "ShensheRichang": "神社日常",
-  "TwoBalls": "平衡之玉",
-  "MojingShanjie": "魔淨閃結",
-  "JiejieAttack": "結界猛擊",
-  "ReimuShrine": "博麗廟會",
-  "DoubleDajiejie": "二重大結界",
-  "HuanxiangBlock": "幻想邊境",
-  "MingzhuAntou": "明珠暗投",
-  "YakongDianxue": "亞空點穴",
-  "QinggeManwu": "清歌曼舞",
-  "FreeFly": "自由飛行",
-  "YinyangXueyin": "陰陽血印",
-  "ReimuFreeAttack": "幻想一重",
-  "ReimuDrink": "御神酒",
-  "EvilTuiZhi": "妖邪退治",
-  "MomentPower": "刹那亞空穴",
-  "Wunvyu": "最凶惡的巫女玉",
-  "TaijiLiangyi": "太極生兩儀",
-  "ReimuSilence": "「夢想封印 寂」",
-  "ChuanyueJiejie": "穿越結界",
-  "HuanxiangTouying": "幻想投影",
-  "OutInGap": "出入境界",
-  "Jiangshen": "降神修行",
-  "BoliDajiejie": "博麗大結界",
-  "HuijuQiankun": "匯聚乾坤",
-  "ReimuInstant": "「夢想封印 瞬」",
-  "DoubleLianhuadie": "二色蓮花蝶",
-  "BoliPhantom": "博麗幻影",
-  "KuosanJiejie": "擴散結界",
-  "QiqingYishi": "祈晴儀式",
-  "KuosanLingfu": "擴散靈符",
-  "DanceAroundLake": "池邊起舞",
-  "ReimuHuashan": "接受指教",
-  "AutoQumobang": "暴走驅魔棒",
-  "Qingshan": "人至之處的青山",
-  "GapLady": "隙間女子",
-  "ChunseXiaojing": "春色小徑",
-  "ReimuSakura": "夢想櫻花封印",
-  "SenluoJiejie": "森羅結界",
-  "YinyangQueen": "能工巧匠魅須丸",
-  "ShuihuoCard": "水火玉",
-  "FengleiCard": "風雷玉",
-  "ShanyuCard": "山雨玉",
-  "MarisaAttackB": "幻象激光",
-  "MarisaBlockR": "掃把防禦",
-  "MarisaAttackR": "熱星衝擊",
-  "MarisaBlockB": "星塵防禦",
-  "CraftPotion": "精煉魔藥",
-  "RedLaser": "灼熱射線",
-  "Potion": "不穩定魔藥",
-  "SatelliteIllusion": "衛星幻覺",
-  "DropBook": "離經叛道",
-  "MarisaDraw": "隨機應變",
-  "DarkSatellite": "至暗衛星",
-  "MarisaEat": "大快朵頤",
-  "ReadyForBurst": "蓄勢待發",
-  "BulletStudy": "彈幕筆記",
-  "AsteroidBelt": "小行星帶",
-  "HuojianSaoba": "火箭掃把",
-  "JinjiBlock": "緊急防禦",
-  "Alioth": "玉衡星",
-  "ScryAttack": "導航之星",
-  "MarisaSteal": "借來一用",
-  "NightSeeStar": "夜觀星象",
-  "ScryBlock": "早有預謀",
-  "ShibaiChanwu": "失敗產物",
-  "ShinningPotion": "夜光蘑菇",
-  "Yinhe": "銀河",
-  "StarSky": "璀璨星空",
-  "PoisonPotion": "魔女坩堝",
-  "LearnAstrology": "天文研修",
-  "PotionJungle": "熒光森林",
-  "AccuracyLaser": "定向激光",
-  "RainbowStar": "虹星衝擊",
-  "WinterWarm": "冬日溫暖",
-  "CollectionDefense": "大而不倒",
-  "BurstDraw": "速度對決",
-  "StarFantasy": "星塵幻想",
-  "StarShower": "沐浴星塵",
-  "MarisaHoldCard": "難以割捨",
-  "ThrowBigStar": "赤星炸裂",
-  "FireUpBagualu": "點燃爐火",
-  "ShootMoon": "射月",
-  "RunAway": "逃離現場",
-  "MixAndShake": "花火魔藥",
-  "WizardStudy": "魔力轉化器",
-  "ExilePotion": "廢物利用",
-  "EventHorizon": "黑洞視界",
-  "PotionDefense": "伴星飛行",
-  "UpgradePotion": "精研魔藥",
-  "OpenUniverse": "宏觀宇宙",
-  "SuperNova": "超新星",
-  "RedGiantStar": "紅巨星隕落",
-  "SolarSystem": "太陽系儀",
-  "FinalSpark": "究極火花",
-  "HuoliQuankai": "火力全開",
-  "MasterOfCollection": "收集專家",
-  "ChargingPotion": "放射元素",
-  "StarlightTaifengSummoner": "匯聚星光",
-  "StarlightTaifeng": "星光颱風",
-  "FindCollection": "遠程支援",
-  "WhiteLaser": "鐳光射擊",
-  "BlazingStar": "彗星",
-  "SplitPotion": "增產劑",
-  "IceSpark": "冰凍射線",
-  "ColdPotion": "冷卻劑",
-  "ChargingToMana": "充能轉化",
-  "DiscardToCharging": "補充燃料",
-  "PatchouliFriend": "鍊金術士帕秋莉",
-  "MoguMaster": "蘑菇專家",
-  "RedMogu": "毒蠅傘",
-  "GreenMogu": "鱗皮扇菇",
-  "BlueMogu": "霍氏粉褶菌",
-  "PurpleMogu": "紫蠟蘑",
-  "JungleMaster": "森林居民",
-  "ManaJungle": "森林探險",
-  "SakuyaAttackW": "誤導投擲",
-  "SakuyaBlockU": "預判來襲",
-  "SakuyaAttackU": "撲克飛射",
-  "SakuyaBlockW": "黑鍵格擋",
-  "KnifeBounce": "飛刀彈射",
-  "Lijian": "離劍之見",
-  "PrivateVision": "個人幻影",
-  "Knife": "飛刀",
-  "SakuyaZeroDefense": "偏轉彈幕",
-  "Dejavu": "既視感",
-  "SakuyaSnow": "雪地決行",
-  "CoolMaid": "瀟灑女僕",
-  "SakuyaTwiceAttack": "閃光彈跳",
-  "SakuyaGoOut": "出行準備",
-  "SakuyaWeak": "時空壓制",
-  "TimeAuraAttack": "時間魔術",
-  "SakuyaTea": "泡製紅茶",
-  "DefenseDraw": "月相輪轉",
-  "AttackMagic": "彈幕戲法",
-  "SakuyaSleep": "稍作休息",
-  "CleanRoom": "打掃房間",
-  "ExileMagic": "調換魔法",
-  "SilverJump": "達摩克之刃",
-  "SakuyaInvestigate": "時停偵探",
-  "GainKnife": "星劍飛舞",
-  "SilverBullet": "銀線編織",
-  "SakuyaDefenseRetain": "時刻警戒",
-  "SakuyaAttackX": "推進之銀",
-  "SakuyaDraw": "毫無破綻",
-  "VampireHunter": "吸血鬼獵人",
-  "PrepareParty": "準備宴會",
-  "SakuyaGraze": "意外躲避",
-  "MihuanJack": "迷幻傑克",
-  "SakuyaClock": "咲夜特製懷錶",
-  "LightSpeed": "光速躍遷",
-  "TimeLord": "主宰時空",
-  "DangerousMagician": "危險的魔術師",
-  "ShengquanZaiwo": "勝券在握",
-  "LunaDial": "個人空間",
-  "DropToKnife": "銀之壁壘",
-  "SakuyaFuneral": "過早的埋葬",
-  "FakeTimeline": "假想時軸",
-  "SakuyaShop": "採購物資",
-  "SilverBlade": "銀色異次元",
-  "KnifeAim": "收縮的世界",
-  "KnifeHell": "銀之優雅",
-  "BackOfKnife": "吾刃回歸",
-  "GroupOfKnife": "尖刀快車",
-  "BladePower": "快閃之銀",
-  "ClockCorpse": "鐘錶的殘骸",
-  "StopTime": "凝固時間",
-  "LoyalMaid": "忠實的僕從",
-  "TimeWalk": "時間行走",
-  "LunaClock": "月神之鐘",
-  "SpecialClock": "女僕秘技",
-  "SakuyaDio": "下一個就輪到你了！",
-  "PerfectServant": "完美從者",
-  "BackToFuture": "回到未來",
-  "EvilMaid": "惡魔的女僕",
-  "ExtraTurnEveryone": "膨脹空間",
-  "TunnelEffect": "隧穿效應",
-  "SakuyaKiller": "夜霧幻影殺人鬼",
-  "BrokenTimeline": "破碎的時間線",
-  "AutoKnife": "妖器「銀質飛刀」",
-  "SakuyaDetective": "追查真凶",
-  "SakuyaSpeedup": "加速時空",
-  "SakuyaUsage": "咲夜的錯誤用法",
-  "SakuyaUsage2": "咲夜的正確用法",
-  "MeilingFriend": "玩忽職守紅美鈴",
-  "UnlimitedTime": "完美的時停",
-  "CirnoAttackU": "冰錐射擊",
-  "CirnoBlockG": "綠葉護體",
-  "CirnoAttackG": "霜葉飛鏢",
-  "CirnoBlockU": "冰晶護罩",
-  "IceLance": "冰槍術",
-  "FreezeBullet": "凍結彈幕",
-  "DayaojingFriend": "調查助手大妖精",
-  "IceWing": "冰之翼",
-  "IceBolt": "冰彈",
-  "Opt": "如履薄冰",
-  "OptBottom": "沉底",
-  "MaidFriend": "洋館的女僕小霞",
-  "ShiverArmor": "冰鏡折射",
-  "FrostGarden": "閃亮登場",
-  "GlacialSpike": "小小冰川",
-  "CoolBreeze": "涼爽清風",
-  "BlueRose": "涼爽薔薇",
-  "SummerIce": "夏日冰沙",
-  "CirnoInForest": "絕妙的僞裝",
-  "CirnoConsider": "深思熟慮",
-  "CirnoDraw": "妖精智慧",
-  "FreezeToIce": "冰凍標本",
-  "IceLaser": "冰凍光線",
-  "CirnoFire": "可燃冰",
-  "FreezeRiver": "浮冰",
-  "ColdBreath": "鑽石氣息",
-  "LeidiFriend": "凜冬的化身蕾蒂",
-  "ColdSnap": "快速降溫",
-  "IceSaber": "塑冰成劍",
-  "IceBarrier": "寒冰護體",
-  "ZeroK": "絕對零度",
-  "Blizzard": "暴風雪",
-  "FrozenThrone": "冰封王座",
-  "DoubleMana": "妖精的起床",
-  "Tether": "羈絆",
-  "FairyWrath": "自然之怒",
-  "FairyTeam": "妖精大戰爭",
-  "LarvaFriend": "夏夜之神拉爾瓦",
-  "FriendDraw": "花園集會",
-  "LilyFriend": "春日降臨莉莉白",
-  "CallFriends": "呼朋喚友",
-  "FairyTree": "妖精之家",
-  "MoreFriends": "社交達人",
-  "FairyOnIce": "冰上的妖精",
-  "FruitShake": "水果冰條",
-  "SummerParty": "冰爽派對",
-  "ColdChain": "冷鏈物流",
-  "FrozenOrb": "冰封球",
-  "IceBlock": "寒冰屏障",
-  "DeepFreeze": "冰尖之舞",
-  "IceMatrix": "冰凍矩陣",
-  "InstantFreeze": "急凍",
-  "ColdHearted": "冰冷血脈",
-  "BestFriend": "最好的朋友",
-  "CirnoEcho": "自然的饋贈",
-  "FairyAllOut": "全員出擊",
-  "LarvaDefense": "振翅飛行",
-  "MinengZhuru": "秘能注入",
-  "GatherFairy": "妖精集結",
-  "ForeverCool": "永遠涼爽的幻想四季",
-  "HualiIce": "華麗夏日冰",
-  "ChooseFriend": "相約霧之湖",
-  "LunaFriend": "靜謐的月光露娜",
-  "WhiteWorld": "純白的世界",
-  "PlayWithWaste": "垃圾堆探險",
-  "StarFriend": "傾瀉的星光斯塔",
-  "FairyTrick": "妖精惡作劇",
-  "BrainOverclock": "大腦超頻",
-  "SunnyFriend": "閃耀的日光桑尼",
-  "Xiguadao": "西瓜刀",
-  "ClownpieceFriend": "瘋狂的克勞恩皮絲",
-  "YoumuAttack": "心抄斬",
-  "YukariFlyObject": "超高速飛行物體",
-  "BailianJingang": "金剛體",
-  "YunyouShengdi": "雲遊聖地",
-  "NazrinBaota": "寶塔的眩光",
-  "RingoJinghua": "淨化大地",
-  "HuashanQingjing": "清靜",
-  "SanaeSpirit": "收集信仰",
-  "BailianNingshen": "聚精會神",
-  "PrismriverWhite": "小號獨奏",
-  "HuiyinRemove": "吞噬歷史",
-  "ShenziUpgradeAll": "得道升仙",
-  "HuiyeMarblePhantasm": "空想具現化",
-  "YukariSwarm": "飛光蟲之巢",
-  "YuetuInvincible": "天降的月兔",
-  "YuetuYuyi": "遺失的羽衣",
-  "BlueZeroAttack": "激流",
-  "PlayWithWater": "戲水",
-  "KokoroAttack": "杞人憂地",
-  "QinglanAttack": "兔已著陸",
-  "NitoriUnderWater": "水色絨毯",
-  "ShuimiUnderWater": "船底幽靈",
-  "HatateDiscard": "新聞捏造",
-  "QingeDraw": "道胎動",
-  "HuiyinMoreDraw": "傳道授業",
-  "WaterPrincess": "水精公主",
-  "YonglinDraw": "神代的記憶",
-  "DoremyDuplicate": "夢我夢中",
-  "GuijiZaoxingYuan": "圓形造形術",
-  "GuijiZaoxingFang": "方形造形術",
-  "GuijiZaoxingHu": "弧形造形術",
-  "YonglinCard": "賢者的歸隱",
-  "FakeMoon": "虛假之月",
-  "Shadow": "暗影",
-  "RumiaBlock": "遮光",
-  "YuyukoDebuff": "無壽之夢",
-  "ShannvAttack": "瘴氣四溢",
-  "SatoriAttack": "心花綻放",
-  "MystiaSing": "夜雀之歌",
-  "SatoriMemory": "深沉回憶",
-  "ShannvAbility": "原因不明的熱病",
-  "XiaoemoBook": "惡魔典籍",
-  "PrismriverBlack": "提琴獨奏",
-  "BlackHorseZui": "黑天馬的罪孽",
-  "HinaAttack": "厄運之輪",
-  "RemiliaFate": "操縱命運",
-  "BailianBlack": "擁抱黑暗",
-  "GrimoireStudy": "研讀魔導書",
-  "TrueMoon": "真實的滿月",
-  "YinglangHowl": "滿月咆哮",
-  "RemiliaJizao": "急躁",
-  "MeihongAttack": "鳳翼天翔",
-  "LeiguAttack": "低音的雷鼓",
-  "HuaBlock": "作戰姿態",
-  "BailianPower": "肉體強化",
-  "MeilingBlock": "紅寸勁",
-  "SuikaBigball": "元鬼玉",
-  "MeihongFire": "無差別起火符",
-  "PrismriverRed": "鍵盤獨奏",
-  "YongyiAttack": "鬼氣狂瀾",
-  "RemiliaBat": "化身蝙蝠",
-  "FlanFirepower": "之後就一個人都沒有了嗎？",
-  "MeihongPower": "不死的烈焰",
-  "SummerFlower": "盛夏之花",
-  "PatchouliGreenAttack": "春色閃光",
-  "RangziSeed": "春耕秋收",
-  "AhongMana": "櫻色之海",
-  "RangziFanshu": "香甜的番薯",
-  "SunflowerDefense": "太陽花田",
-  "YouxiangMoon": "花鳥風月",
-  "DizangLove": "即席菩提",
-  "YuyukoSing": "蝶之羽風",
-  "DanmuJade": "彈幕的玉繭",
-  "YouxiangAttack": "幻想鄉的花開",
-  "TakaneDefense": "最深的森域",
-  "GreenLotus": "荷塘月色",
-  "LimaoSchool": "狸貓的變身學校",
-  "MorphBird": "羽鳥變化",
-  "MorphDog": "肉食變化",
-  "MorphFrog": "兩棲變化",
-  "MorphMan": "靈長變化",
-  "HuiyeAttack": "蓬萊的樹海",
-  "HuiyeMana": "竹取的物語",
-  "WManaCard": "光芒",
-  "UManaCard": "水花",
-  "BManaCard": "靈異",
-  "RManaCard": "火焰",
-  "GManaCard": "生機",
-  "CManaCard": "純粹",
-  "PManaCard": "幻虹",
-  "Astrology": "占星",
-  "Xiaozhuo": "小酌怡情",
-  "Shoot": "射擊",
-  "Boundary": "結界",
-  "ShopAttack": "黃瓜導彈",
-  "ShopDefense": "清潔能源",
-  "ShopSearch": "私家雷達",
-  "MoonSea": "靜寂之海",
-  "FengjiAttack": "分解之風",
-  "MoonWorld": "無穢的世界",
-  "YijiEarthSpike": "裂地尖刺/祇園之力",
-  "YijiPurify": "伊豆能賣",
-  "YijiGraze": "天宇受賣命",
-  "YijiFirepower": "愛宕之火",
-  "HuiyinAttack": "水戶光國",
-  "ReadBook": "讀書看報",
-  "Panzi": "水碟",
-  "ShuimuBlock": "堆砌石林",
-  "TiangouOrder": "大天狗的號令",
-  "TianziRock": "有頂天的絕壁",
-  "YijiuDraw": "龍宮來訊",
-  "SeeFengshui": "考察風水",
-  "LanCard": "式神護法",
-  "RainbowMarket": "月虹市場",
-  "NiuqiDefense": "石之嬰兒",
-  "XiaodingKill": "脫魂儀式",
-  "SijiCard": "黑白裁決",
-  "YukariAttack": "生與死的境界",
-  "KokoroDance": "假面喪心舞",
-  "FutoLight": "大物忌正餐",
-  "HuiyeTime": "永遠與須臾",
-  "QingeUpgrade": "邪仙秘法",
-  "TannvCard": "形勢逆轉",
-  "SanaeMiracle": "白晝的客星",
-  "ChengDefense": "天仙鳴動",
-  "MogongAttack": "埴輪造形",
-  "TianziMana": "天人飛翔",
-  "HappyNewYear": "新年參拜",
-  "HuashanDefense": "務光雷擊",
-  "ZhenmiaowanAttack": "一寸法師的末裔",
-  "XingMoney": "光輝寶槍",
-  "SanaeSummonGod": "召請建御名方神",
-  "PoorAttack": "陷入貧困",
-  "AliceAttack": "慘虐之光",
-  "BaitianCard": "稗田的轉生",
-  "YukariBox": "打開的玉匣",
-  "MeilingWater": "背水陣",
-  "NueExile": "平安時代的黑雲",
-  "HuiyinRetain": "一條歸橋",
-  "XiaosanReflect": "反擊彈幕",
-  "YijiuAttack": "龍神電光",
-  "SuikaDraw": "酒鬼雲集",
-  "ReisenMana": "幻視調律",
-  "FourFlan": "四重存在",
-  "HekaHellRain": "地獄之雨",
-  "ReisenAttack": "瘋狂之夢",
-  "FlanPlayAlone": "獨自玩耍",
-  "FangxiangHeal": "吞噬欲望",
-  "HehuanAttack": "深山菜刀狂",
-  "QingeHeal": "通靈之術",
-  "RinDraw": "支配怨靈",
-  "CloseEyeShoot": "閉目射擊",
-  "KongMana": "爐心融解",
-  "Shengyan": "盛宴",
-  "ModuoluoFire": "穢那之火",
-  "Zhulianshen": "山神的注連繩",
-  "LilyChun": "春天到了！",
-  "XiangziEcho": "山谷回聲",
-  "YoumuHybrid": "半人半靈",
-  "YonglinUpgrade": "仙香玉兔",
-  "SanaeRice": "五谷豐登米之浴",
-  "SakuraBlade": "櫻花閃閃",
-  "YouxiangWake": "按時起床",
-  "LongArm": "延展手臂",
-  "HatateShot": "全景拍攝",
-  "ZoufangWater": "諏訪清流",
-  "MeilingRain": "極彩沛雨",
-  "RuowujiCard": "逆鱗的驚濤",
-  "SkyWater": "天水的奇蹟",
-  "LifeGame": "生命遊戲",
-  "PoisonTeaParty": "可疑的茶會",
-  "LigeluCard": "熒光之夜",
-  "PaluxiCurse": "丑時參拜",
-  "BlackPoison": "黑暗演舞",
-  "KisumeAttack": "釣瓶落之怪",
-  "MedicineGarden": "鈴蘭花園",
-  "ZoufangSnake": "土著神崇拜",
-  "YachieDefend": "龜甲地獄",
-  "JingyeGraze": "紛亂的落葉",
-  "FangxiangAttack": "劇毒抹消",
-  "MeilingAbility": "烈虹真拳",
-  "LimaoAttack": "月下的腹鼓舞",
-  "TodayYesterday": "今昔幻想鄉",
-  "AyaExtraTurn": "「幻想風靡」",
-  "AyaWindGirl": "風神少女",
-  "PatchouliLibrary": "不動的大圖書館",
-  "SanaeRestart": "海水分開之日",
-  "JinziSuperExtraTurn": "世紀的二重身超人",
-  "AnimalSpirit": "地獄的畜生道",
-  "PrismriverAll": "合葬「棱鏡協奏曲」",
-  "ZhenmiaowanAbility": "小槌的魔力",
-  "JunkoNightmare": "震顫的冰封噩夢",
-  "ModuoluoSeasons": "暴走的季節",
-  "YukariFriend": "幻想的境界八雲紫",
-  "BailianFire": "法界之火",
-  "ToolDraw": "補給包",
-  "ToolHeal": "罐頭食物",
-  "ToolWeak": "閃光燈",
-  "ToolVulnerable": "發電節拍器",
-  "ToolAttack": "水槍",
-  "ToolBlock": "防暴盾",
-  "ToolAmulet": "一次性護符",
-  "ToolMana": "能量飲品",
-  "ToolMicai": "光學迷彩服",
-  "ToolUpgrade": "軟盤",
-  "ToolFirstAid": "急救箱",
-  "ToolExile": "智能清掃機",
-  "ToolInvincible": "龍宮羽衣",
-  "ToolMaxHp": "香脆青瓜",
-  "ToolDroneBlock": "機械核心",
-  "ToolRandomTool": "戰術對講機",
-  "VampireShoot1": "使魔的射擊",
-  "VampireShoot2": "使魔的紅雨",
-  "WanderingSoul": "彷徨的靈魂",
-  "RabbitFoot": "幸運兔腿",
-  "GainTreasure": "招財進寶",
-  "MoonPurify": "除穢",
-  "ArtificialJewellery": "人造珠寶",
-  "LilyoftheValley": "鈴鈴",
-  "NewsPositive": "正面報導",
-  "NewsNegative": "負面報導",
-  "NewsEntertainment": "娛樂新聞",
-  "NewsTidbit": "花邊新聞",
-  "WolfFur": "狼毛",
-  "EmpCard": "電磁脈衝裝置",
-  "LarvaCure": "解毒劑",
-  "MoonTipsBag": "對月錦囊",
-  "MoonTipsAttack": "補充彈幕",
-  "MoonTipsDefense": "強化結界",
-  "MoonTipsHeal": "醫治傷痛",
-  "QiannianShenqiCard": "我的回合",
-  "MeilingLianhua": "極彩「彩光亂舞」",
-  "AyaNews": "《文文新聞》",
-  "HatateNews": "《花果子念報》",
-  "AyaNewsReimuSp": "《文文新聞》靈夢特刊",
-  "AyaNewsMarisaSp": "《文文新聞》魔理沙特刊",
-  "AyaNewsSakuyaSp": "《文文新聞》咲夜特刊",
-  "AyaNewsCirnoSp": "《文文新聞》琪露諾特刊",
-  "Riguang": "折射日光",
-  "Yueguang": "寂靜月光",
-  "Xingguang": "璀璨星光",
-  "Xuanguang": "眩光",
-  "CirnoFreeze": "法力凍結",
-  "Frog": "青蛙",
-  "BlackResidue": "黑暗殘留",
-  "SakuyaLock": "時間封鎖",
-  "Wushuai": "凌冽劍光",
-  "Payment": "轉帳",
-  "LoveLetter": "情書",
-  "Lunatic": "瘋狂",
-  "Chunguang": "純粹的光芒",
-  "Bribery": "賄賂",
-  "Nightmare": "噩夢",
-  "NightMana1": "月黑風高：子時",
-  "NightMana2": "月黑風高：丑時",
-  "NightMana3": "月黑風高：寅時",
-  "NightMana4": "月黑風高：卯時",
-  "Regret": "遺憾",
-  "Jealousy": "嫉妒",
-  "BefuddledLife": "渾渾噩噩",
-  "XiaosanJingxia": "驚嚇",
-  "MarisaForget": "遺忘",
-  "Yuebiao": "表之月",
-  "BuyPeace": "破財消災",
-  "SweetPoison": "甜蜜之毒",
-  "Pressure": "無形的壓力",
-  "Misfortune": "不幸",
-  "YuyukoMisfortune": "餓靈附身",
-  "Drunk": "醉酒",
-  "Zhukeling": "逐客令",
-  "Psychedelic": "迷幻",
-  "FanzhuanChongdong": "反轉衝動"
+  "ReimuAttackR": {
+    "Name": "博麗護符"
+  },
+  "ReimuBlockW": {
+    "Name": "彈幕庇護"
+  },
+  "ReimuAttackW": {
+    "Name": "札彈射擊"
+  },
+  "ReimuBlockR": {
+    "Name": "退治彈幕"
+  },
+  "YaoguaiBuster": {
+    "Name": "妖怪破壞者"
+  },
+  "DoubleJiejie": {
+    "Name": "二重結界"
+  },
+  "Fengmozhen": {
+    "Name": "封魔針"
+  },
+  "Shenyuzha": {
+    "Name": "神域札"
+  },
+  "YinyangCard": {
+    "Name": "陰陽玉"
+  },
+  "ShengtianKick": {
+    "Name": "升天腳"
+  },
+  "MengzhiYuzha": {
+    "Name": "夢之御札"
+  },
+  "Fengmozhen4": {
+    "Name": "封魔陣"
+  },
+  "WunvKongwu": {
+    "Name": "巫女空舞"
+  },
+  "TuimofuLuanwu": {
+    "Name": "退魔符亂舞"
+  },
+  "SuikaOut": {
+    "Name": "驅邪除瘟"
+  },
+  "LingfuHuti": {
+    "Name": "靈符護體"
+  },
+  "Jinfuzhen": {
+    "Name": "緊縛陣"
+  },
+  "JingshenYishi": {
+    "Name": "淨身儀式"
+  },
+  "YinyangBaoyu": {
+    "Name": "陰陽寶玉"
+  },
+  "ReimuWeiyan": {
+    "Name": "真正的威嚴"
+  },
+  "ZhujiThreeGod": {
+    "Name": "住吉三神"
+  },
+  "OverJingjie": {
+    "Name": "境界上空"
+  },
+  "SmallPanding": {
+    "Name": "小型判定"
+  },
+  "Zhuizongfu": {
+    "Name": "追蹤符"
+  },
+  "ReimuFestival": {
+    "Name": "神櫻之舞"
+  },
+  "FengyinYaomo": {
+    "Name": "龍殺陣"
+  },
+  "DanmuDuijue": {
+    "Name": "彈幕對決"
+  },
+  "ReimuHeavyAttack": {
+    "Name": "博麗一拳"
+  },
+  "ReverseJiejie": {
+    "Name": "逆轉結界"
+  },
+  "Changzhizhen": {
+    "Name": "常置陣"
+  },
+  "ReimuLucky": {
+    "Name": "吉簽開運"
+  },
+  "ShensheRichang": {
+    "Name": "神社日常"
+  },
+  "TwoBalls": {
+    "Name": "平衡之玉"
+  },
+  "MojingShanjie": {
+    "Name": "魔淨閃結"
+  },
+  "JiejieAttack": {
+    "Name": "結界猛擊"
+  },
+  "ReimuShrine": {
+    "Name": "博麗廟會"
+  },
+  "DoubleDajiejie": {
+    "Name": "二重大結界"
+  },
+  "HuanxiangBlock": {
+    "Name": "幻想邊境"
+  },
+  "MingzhuAntou": {
+    "Name": "明珠暗投"
+  },
+  "YakongDianxue": {
+    "Name": "亞空點穴"
+  },
+  "QinggeManwu": {
+    "Name": "清歌曼舞"
+  },
+  "FreeFly": {
+    "Name": "自由飛行"
+  },
+  "YinyangXueyin": {
+    "Name": "陰陽血印"
+  },
+  "ReimuFreeAttack": {
+    "Name": "幻想一重"
+  },
+  "ReimuDrink": {
+    "Name": "御神酒"
+  },
+  "EvilTuiZhi": {
+    "Name": "妖邪退治"
+  },
+  "MomentPower": {
+    "Name": "刹那亞空穴"
+  },
+  "Wunvyu": {
+    "Name": "最凶惡的巫女玉"
+  },
+  "TaijiLiangyi": {
+    "Name": "太極生兩儀"
+  },
+  "ReimuSilence": {
+    "Name": "「夢想封印 寂」"
+  },
+  "ChuanyueJiejie": {
+    "Name": "穿越結界"
+  },
+  "HuanxiangTouying": {
+    "Name": "幻想投影"
+  },
+  "OutInGap": {
+    "Name": "出入境界"
+  },
+  "Jiangshen": {
+    "Name": "降神修行"
+  },
+  "BoliDajiejie": {
+    "Name": "博麗大結界"
+  },
+  "HuijuQiankun": {
+    "Name": "匯聚乾坤"
+  },
+  "ReimuInstant": {
+    "Name": "「夢想封印 瞬」"
+  },
+  "DoubleLianhuadie": {
+    "Name": "二色蓮花蝶"
+  },
+  "BoliPhantom": {
+    "Name": "博麗幻影"
+  },
+  "KuosanJiejie": {
+    "Name": "擴散結界"
+  },
+  "QiqingYishi": {
+    "Name": "祈晴儀式"
+  },
+  "KuosanLingfu": {
+    "Name": "擴散靈符"
+  },
+  "DanceAroundLake": {
+    "Name": "池邊起舞"
+  },
+  "ReimuHuashan": {
+    "Name": "接受指教"
+  },
+  "AutoQumobang": {
+    "Name": "暴走驅魔棒"
+  },
+  "Qingshan": {
+    "Name": "人至之處的青山"
+  },
+  "GapLady": {
+    "Name": "隙間女子"
+  },
+  "ChunseXiaojing": {
+    "Name": "春色小徑"
+  },
+  "ReimuSakura": {
+    "Name": "夢想櫻花封印"
+  },
+  "SenluoJiejie": {
+    "Name": "森羅結界"
+  },
+  "YinyangQueen": {
+    "Name": "能工巧匠魅須丸"
+  },
+  "ShuihuoCard": {
+    "Name": "水火玉"
+  },
+  "FengleiCard": {
+    "Name": "風雷玉"
+  },
+  "ShanyuCard": {
+    "Name": "山雨玉"
+  },
+  "MarisaAttackB": {
+    "Name": "幻象激光"
+  },
+  "MarisaBlockR": {
+    "Name": "掃把防禦"
+  },
+  "MarisaAttackR": {
+    "Name": "熱星衝擊"
+  },
+  "MarisaBlockB": {
+    "Name": "星塵防禦"
+  },
+  "CraftPotion": {
+    "Name": "精煉魔藥"
+  },
+  "RedLaser": {
+    "Name": "灼熱射線"
+  },
+  "Potion": {
+    "Name": "不穩定魔藥"
+  },
+  "SatelliteIllusion": {
+    "Name": "衛星幻覺"
+  },
+  "DropBook": {
+    "Name": "離經叛道"
+  },
+  "MarisaDraw": {
+    "Name": "隨機應變"
+  },
+  "DarkSatellite": {
+    "Name": "至暗衛星"
+  },
+  "MarisaEat": {
+    "Name": "大快朵頤"
+  },
+  "ReadyForBurst": {
+    "Name": "蓄勢待發"
+  },
+  "BulletStudy": {
+    "Name": "彈幕筆記"
+  },
+  "AsteroidBelt": {
+    "Name": "小行星帶"
+  },
+  "HuojianSaoba": {
+    "Name": "火箭掃把"
+  },
+  "JinjiBlock": {
+    "Name": "緊急防禦"
+  },
+  "Alioth": {
+    "Name": "玉衡星"
+  },
+  "ScryAttack": {
+    "Name": "導航之星"
+  },
+  "MarisaSteal": {
+    "Name": "借來一用"
+  },
+  "NightSeeStar": {
+    "Name": "夜觀星象"
+  },
+  "ScryBlock": {
+    "Name": "早有預謀"
+  },
+  "ShibaiChanwu": {
+    "Name": "失敗產物"
+  },
+  "ShinningPotion": {
+    "Name": "夜光蘑菇"
+  },
+  "Yinhe": {
+    "Name": "銀河"
+  },
+  "StarSky": {
+    "Name": "璀璨星空"
+  },
+  "PoisonPotion": {
+    "Name": "魔女坩堝"
+  },
+  "LearnAstrology": {
+    "Name": "天文研修"
+  },
+  "PotionJungle": {
+    "Name": "熒光森林"
+  },
+  "AccuracyLaser": {
+    "Name": "定向激光"
+  },
+  "RainbowStar": {
+    "Name": "虹星衝擊"
+  },
+  "WinterWarm": {
+    "Name": "冬日溫暖"
+  },
+  "CollectionDefense": {
+    "Name": "大而不倒"
+  },
+  "BurstDraw": {
+    "Name": "速度對決"
+  },
+  "StarFantasy": {
+    "Name": "星塵幻想"
+  },
+  "StarShower": {
+    "Name": "沐浴星塵"
+  },
+  "MarisaHoldCard": {
+    "Name": "難以割捨"
+  },
+  "ThrowBigStar": {
+    "Name": "赤星炸裂"
+  },
+  "FireUpBagualu": {
+    "Name": "點燃爐火"
+  },
+  "ShootMoon": {
+    "Name": "射月"
+  },
+  "RunAway": {
+    "Name": "逃離現場"
+  },
+  "MixAndShake": {
+    "Name": "花火魔藥"
+  },
+  "WizardStudy": {
+    "Name": "魔力轉化器"
+  },
+  "ExilePotion": {
+    "Name": "廢物利用"
+  },
+  "EventHorizon": {
+    "Name": "黑洞視界"
+  },
+  "PotionDefense": {
+    "Name": "伴星飛行"
+  },
+  "UpgradePotion": {
+    "Name": "精研魔藥"
+  },
+  "OpenUniverse": {
+    "Name": "宏觀宇宙"
+  },
+  "SuperNova": {
+    "Name": "超新星"
+  },
+  "RedGiantStar": {
+    "Name": "紅巨星隕落"
+  },
+  "SolarSystem": {
+    "Name": "太陽系儀"
+  },
+  "FinalSpark": {
+    "Name": "究極火花"
+  },
+  "HuoliQuankai": {
+    "Name": "火力全開"
+  },
+  "MasterOfCollection": {
+    "Name": "收集專家"
+  },
+  "ChargingPotion": {
+    "Name": "放射元素"
+  },
+  "StarlightTaifengSummoner": {
+    "Name": "匯聚星光"
+  },
+  "StarlightTaifeng": {
+    "Name": "星光颱風"
+  },
+  "FindCollection": {
+    "Name": "遠程支援"
+  },
+  "WhiteLaser": {
+    "Name": "鐳光射擊"
+  },
+  "BlazingStar": {
+    "Name": "彗星"
+  },
+  "SplitPotion": {
+    "Name": "增產劑"
+  },
+  "IceSpark": {
+    "Name": "冰凍射線"
+  },
+  "ColdPotion": {
+    "Name": "冷卻劑"
+  },
+  "ChargingToMana": {
+    "Name": "充能轉化"
+  },
+  "DiscardToCharging": {
+    "Name": "補充燃料"
+  },
+  "PatchouliFriend": {
+    "Name": "鍊金術士帕秋莉"
+  },
+  "MoguMaster": {
+    "Name": "蘑菇專家"
+  },
+  "RedMogu": {
+    "Name": "毒蠅傘"
+  },
+  "GreenMogu": {
+    "Name": "鱗皮扇菇"
+  },
+  "BlueMogu": {
+    "Name": "霍氏粉褶菌"
+  },
+  "PurpleMogu": {
+    "Name": "紫蠟蘑"
+  },
+  "JungleMaster": {
+    "Name": "森林居民"
+  },
+  "ManaJungle": {
+    "Name": "森林探險"
+  },
+  "SakuyaAttackW": {
+    "Name": "誤導投擲"
+  },
+  "SakuyaBlockU": {
+    "Name": "預判來襲"
+  },
+  "SakuyaAttackU": {
+    "Name": "撲克飛射"
+  },
+  "SakuyaBlockW": {
+    "Name": "黑鍵格擋"
+  },
+  "KnifeBounce": {
+    "Name": "飛刀彈射"
+  },
+  "Lijian": {
+    "Name": "離劍之見"
+  },
+  "PrivateVision": {
+    "Name": "個人幻影"
+  },
+  "Knife": {
+    "Name": "飛刀"
+  },
+  "SakuyaZeroDefense": {
+    "Name": "偏轉彈幕"
+  },
+  "Dejavu": {
+    "Name": "既視感"
+  },
+  "SakuyaSnow": {
+    "Name": "雪地決行"
+  },
+  "CoolMaid": {
+    "Name": "瀟灑女僕"
+  },
+  "SakuyaTwiceAttack": {
+    "Name": "閃光彈跳"
+  },
+  "SakuyaGoOut": {
+    "Name": "出行準備"
+  },
+  "SakuyaWeak": {
+    "Name": "時空壓制"
+  },
+  "TimeAuraAttack": {
+    "Name": "時間魔術"
+  },
+  "SakuyaTea": {
+    "Name": "泡製紅茶"
+  },
+  "DefenseDraw": {
+    "Name": "月相輪轉"
+  },
+  "AttackMagic": {
+    "Name": "彈幕戲法"
+  },
+  "SakuyaSleep": {
+    "Name": "稍作休息"
+  },
+  "CleanRoom": {
+    "Name": "打掃房間"
+  },
+  "ExileMagic": {
+    "Name": "調換魔法"
+  },
+  "SilverJump": {
+    "Name": "達摩克之刃"
+  },
+  "SakuyaInvestigate": {
+    "Name": "時停偵探"
+  },
+  "GainKnife": {
+    "Name": "星劍飛舞"
+  },
+  "SilverBullet": {
+    "Name": "銀線編織"
+  },
+  "SakuyaDefenseRetain": {
+    "Name": "時刻警戒"
+  },
+  "SakuyaAttackX": {
+    "Name": "推進之銀"
+  },
+  "SakuyaDraw": {
+    "Name": "毫無破綻"
+  },
+  "VampireHunter": {
+    "Name": "吸血鬼獵人"
+  },
+  "PrepareParty": {
+    "Name": "準備宴會"
+  },
+  "SakuyaGraze": {
+    "Name": "意外躲避"
+  },
+  "MihuanJack": {
+    "Name": "迷幻傑克"
+  },
+  "SakuyaClock": {
+    "Name": "咲夜特製懷錶"
+  },
+  "LightSpeed": {
+    "Name": "光速躍遷"
+  },
+  "TimeLord": {
+    "Name": "主宰時空"
+  },
+  "DangerousMagician": {
+    "Name": "危險的魔術師"
+  },
+  "ShengquanZaiwo": {
+    "Name": "勝券在握"
+  },
+  "LunaDial": {
+    "Name": "個人空間"
+  },
+  "DropToKnife": {
+    "Name": "銀之壁壘"
+  },
+  "SakuyaFuneral": {
+    "Name": "過早的埋葬"
+  },
+  "FakeTimeline": {
+    "Name": "假想時軸"
+  },
+  "SakuyaShop": {
+    "Name": "採購物資"
+  },
+  "SilverBlade": {
+    "Name": "銀色異次元"
+  },
+  "KnifeAim": {
+    "Name": "收縮的世界"
+  },
+  "KnifeHell": {
+    "Name": "銀之優雅"
+  },
+  "BackOfKnife": {
+    "Name": "吾刃回歸"
+  },
+  "GroupOfKnife": {
+    "Name": "尖刀快車"
+  },
+  "BladePower": {
+    "Name": "快閃之銀"
+  },
+  "ClockCorpse": {
+    "Name": "鐘錶的殘骸"
+  },
+  "StopTime": {
+    "Name": "凝固時間"
+  },
+  "LoyalMaid": {
+    "Name": "忠實的僕從"
+  },
+  "TimeWalk": {
+    "Name": "時間行走"
+  },
+  "LunaClock": {
+    "Name": "月神之鐘"
+  },
+  "SpecialClock": {
+    "Name": "女僕秘技"
+  },
+  "SakuyaDio": {
+    "Name": "下一個就輪到你了！"
+  },
+  "PerfectServant": {
+    "Name": "完美從者"
+  },
+  "BackToFuture": {
+    "Name": "回到未來"
+  },
+  "EvilMaid": {
+    "Name": "惡魔的女僕"
+  },
+  "ExtraTurnEveryone": {
+    "Name": "膨脹空間"
+  },
+  "TunnelEffect": {
+    "Name": "隧穿效應"
+  },
+  "SakuyaKiller": {
+    "Name": "夜霧幻影殺人鬼"
+  },
+  "BrokenTimeline": {
+    "Name": "破碎的時間線"
+  },
+  "AutoKnife": {
+    "Name": "妖器「銀質飛刀」"
+  },
+  "SakuyaDetective": {
+    "Name": "追查真凶"
+  },
+  "SakuyaSpeedup": {
+    "Name": "加速時空"
+  },
+  "SakuyaUsage": {
+    "Name": "咲夜的錯誤用法"
+  },
+  "SakuyaUsage2": {
+    "Name": "咲夜的正確用法"
+  },
+  "MeilingFriend": {
+    "Name": "玩忽職守紅美鈴"
+  },
+  "UnlimitedTime": {
+    "Name": "完美的時停"
+  },
+  "CirnoAttackU": {
+    "Name": "冰錐射擊"
+  },
+  "CirnoBlockG": {
+    "Name": "綠葉護體"
+  },
+  "CirnoAttackG": {
+    "Name": "霜葉飛鏢"
+  },
+  "CirnoBlockU": {
+    "Name": "冰晶護罩"
+  },
+  "IceLance": {
+    "Name": "冰槍術"
+  },
+  "FreezeBullet": {
+    "Name": "凍結彈幕"
+  },
+  "DayaojingFriend": {
+    "Name": "調查助手大妖精"
+  },
+  "IceWing": {
+    "Name": "冰之翼"
+  },
+  "IceBolt": {
+    "Name": "冰彈"
+  },
+  "Opt": {
+    "Name": "如履薄冰"
+  },
+  "OptBottom": {
+    "Name": "沉底"
+  },
+  "MaidFriend": {
+    "Name": "洋館的女僕小霞"
+  },
+  "ShiverArmor": {
+    "Name": "冰鏡折射"
+  },
+  "FrostGarden": {
+    "Name": "閃亮登場"
+  },
+  "GlacialSpike": {
+    "Name": "小小冰川"
+  },
+  "CoolBreeze": {
+    "Name": "涼爽清風"
+  },
+  "BlueRose": {
+    "Name": "涼爽薔薇"
+  },
+  "SummerIce": {
+    "Name": "夏日冰沙"
+  },
+  "CirnoInForest": {
+    "Name": "絕妙的僞裝"
+  },
+  "CirnoConsider": {
+    "Name": "深思熟慮"
+  },
+  "CirnoDraw": {
+    "Name": "妖精智慧"
+  },
+  "FreezeToIce": {
+    "Name": "冰凍標本"
+  },
+  "IceLaser": {
+    "Name": "冰凍光線"
+  },
+  "CirnoFire": {
+    "Name": "可燃冰"
+  },
+  "FreezeRiver": {
+    "Name": "浮冰"
+  },
+  "ColdBreath": {
+    "Name": "鑽石氣息"
+  },
+  "LeidiFriend": {
+    "Name": "凜冬的化身蕾蒂"
+  },
+  "ColdSnap": {
+    "Name": "快速降溫"
+  },
+  "IceSaber": {
+    "Name": "塑冰成劍"
+  },
+  "IceBarrier": {
+    "Name": "寒冰護體"
+  },
+  "ZeroK": {
+    "Name": "絕對零度"
+  },
+  "Blizzard": {
+    "Name": "暴風雪"
+  },
+  "FrozenThrone": {
+    "Name": "冰封王座"
+  },
+  "DoubleMana": {
+    "Name": "妖精的起床"
+  },
+  "Tether": {
+    "Name": "羈絆"
+  },
+  "FairyWrath": {
+    "Name": "自然之怒"
+  },
+  "FairyTeam": {
+    "Name": "妖精大戰爭"
+  },
+  "LarvaFriend": {
+    "Name": "夏夜之神拉爾瓦"
+  },
+  "FriendDraw": {
+    "Name": "花園集會"
+  },
+  "LilyFriend": {
+    "Name": "春日降臨莉莉白"
+  },
+  "CallFriends": {
+    "Name": "呼朋喚友"
+  },
+  "FairyTree": {
+    "Name": "妖精之家"
+  },
+  "MoreFriends": {
+    "Name": "社交達人"
+  },
+  "FairyOnIce": {
+    "Name": "冰上的妖精"
+  },
+  "FruitShake": {
+    "Name": "水果冰條"
+  },
+  "SummerParty": {
+    "Name": "冰爽派對"
+  },
+  "ColdChain": {
+    "Name": "冷鏈物流"
+  },
+  "FrozenOrb": {
+    "Name": "冰封球"
+  },
+  "IceBlock": {
+    "Name": "寒冰屏障"
+  },
+  "DeepFreeze": {
+    "Name": "冰尖之舞"
+  },
+  "IceMatrix": {
+    "Name": "冰凍矩陣"
+  },
+  "InstantFreeze": {
+    "Name": "急凍"
+  },
+  "ColdHearted": {
+    "Name": "冰冷血脈"
+  },
+  "BestFriend": {
+    "Name": "最好的朋友"
+  },
+  "CirnoEcho": {
+    "Name": "自然的饋贈"
+  },
+  "FairyAllOut": {
+    "Name": "全員出擊"
+  },
+  "LarvaDefense": {
+    "Name": "振翅飛行"
+  },
+  "MinengZhuru": {
+    "Name": "秘能注入"
+  },
+  "GatherFairy": {
+    "Name": "妖精集結"
+  },
+  "ForeverCool": {
+    "Name": "永遠涼爽的幻想四季"
+  },
+  "HualiIce": {
+    "Name": "華麗夏日冰"
+  },
+  "ChooseFriend": {
+    "Name": "相約霧之湖"
+  },
+  "LunaFriend": {
+    "Name": "靜謐的月光露娜"
+  },
+  "WhiteWorld": {
+    "Name": "純白的世界"
+  },
+  "PlayWithWaste": {
+    "Name": "垃圾堆探險"
+  },
+  "StarFriend": {
+    "Name": "傾瀉的星光斯塔"
+  },
+  "FairyTrick": {
+    "Name": "妖精惡作劇"
+  },
+  "BrainOverclock": {
+    "Name": "大腦超頻"
+  },
+  "SunnyFriend": {
+    "Name": "閃耀的日光桑尼"
+  },
+  "Xiguadao": {
+    "Name": "西瓜刀"
+  },
+  "ClownpieceFriend": {
+    "Name": "瘋狂的克勞恩皮絲"
+  },
+  "YoumuAttack": {
+    "Name": "心抄斬"
+  },
+  "YukariFlyObject": {
+    "Name": "超高速飛行物體"
+  },
+  "BailianJingang": {
+    "Name": "金剛體"
+  },
+  "YunyouShengdi": {
+    "Name": "雲遊聖地"
+  },
+  "NazrinBaota": {
+    "Name": "寶塔的眩光"
+  },
+  "RingoJinghua": {
+    "Name": "淨化大地"
+  },
+  "HuashanQingjing": {
+    "Name": "清靜"
+  },
+  "SanaeSpirit": {
+    "Name": "收集信仰"
+  },
+  "BailianNingshen": {
+    "Name": "聚精會神"
+  },
+  "PrismriverWhite": {
+    "Name": "小號獨奏"
+  },
+  "HuiyinRemove": {
+    "Name": "吞噬歷史"
+  },
+  "ShenziUpgradeAll": {
+    "Name": "得道升仙"
+  },
+  "HuiyeMarblePhantasm": {
+    "Name": "空想具現化"
+  },
+  "YukariSwarm": {
+    "Name": "飛光蟲之巢"
+  },
+  "YuetuInvincible": {
+    "Name": "天降的月兔"
+  },
+  "YuetuYuyi": {
+    "Name": "遺失的羽衣"
+  },
+  "BlueZeroAttack": {
+    "Name": "激流"
+  },
+  "PlayWithWater": {
+    "Name": "戲水"
+  },
+  "KokoroAttack": {
+    "Name": "杞人憂地"
+  },
+  "QinglanAttack": {
+    "Name": "兔已著陸"
+  },
+  "NitoriUnderWater": {
+    "Name": "水色絨毯"
+  },
+  "ShuimiUnderWater": {
+    "Name": "船底幽靈"
+  },
+  "HatateDiscard": {
+    "Name": "新聞捏造"
+  },
+  "QingeDraw": {
+    "Name": "道胎動"
+  },
+  "HuiyinMoreDraw": {
+    "Name": "傳道授業"
+  },
+  "WaterPrincess": {
+    "Name": "水精公主"
+  },
+  "YonglinDraw": {
+    "Name": "神代的記憶"
+  },
+  "DoremyDuplicate": {
+    "Name": "夢我夢中"
+  },
+  "GuijiZaoxingYuan": {
+    "Name": "圓形造形術"
+  },
+  "GuijiZaoxingFang": {
+    "Name": "方形造形術"
+  },
+  "GuijiZaoxingHu": {
+    "Name": "弧形造形術"
+  },
+  "YonglinCard": {
+    "Name": "賢者的歸隱"
+  },
+  "FakeMoon": {
+    "Name": "虛假之月"
+  },
+  "Shadow": {
+    "Name": "暗影"
+  },
+  "RumiaBlock": {
+    "Name": "遮光"
+  },
+  "YuyukoDebuff": {
+    "Name": "無壽之夢"
+  },
+  "ShannvAttack": {
+    "Name": "瘴氣四溢"
+  },
+  "SatoriAttack": {
+    "Name": "心花綻放"
+  },
+  "MystiaSing": {
+    "Name": "夜雀之歌"
+  },
+  "SatoriMemory": {
+    "Name": "深沉回憶"
+  },
+  "ShannvAbility": {
+    "Name": "原因不明的熱病"
+  },
+  "XiaoemoBook": {
+    "Name": "惡魔典籍"
+  },
+  "PrismriverBlack": {
+    "Name": "提琴獨奏"
+  },
+  "BlackHorseZui": {
+    "Name": "黑天馬的罪孽"
+  },
+  "HinaAttack": {
+    "Name": "厄運之輪"
+  },
+  "RemiliaFate": {
+    "Name": "操縱命運"
+  },
+  "BailianBlack": {
+    "Name": "擁抱黑暗"
+  },
+  "GrimoireStudy": {
+    "Name": "研讀魔導書"
+  },
+  "TrueMoon": {
+    "Name": "真實的滿月"
+  },
+  "YinglangHowl": {
+    "Name": "滿月咆哮"
+  },
+  "RemiliaJizao": {
+    "Name": "急躁"
+  },
+  "MeihongAttack": {
+    "Name": "鳳翼天翔"
+  },
+  "LeiguAttack": {
+    "Name": "低音的雷鼓"
+  },
+  "HuaBlock": {
+    "Name": "作戰姿態"
+  },
+  "BailianPower": {
+    "Name": "肉體強化"
+  },
+  "MeilingBlock": {
+    "Name": "紅寸勁"
+  },
+  "SuikaBigball": {
+    "Name": "元鬼玉"
+  },
+  "MeihongFire": {
+    "Name": "無差別起火符"
+  },
+  "PrismriverRed": {
+    "Name": "鍵盤獨奏"
+  },
+  "YongyiAttack": {
+    "Name": "鬼氣狂瀾"
+  },
+  "RemiliaBat": {
+    "Name": "化身蝙蝠"
+  },
+  "FlanFirepower": {
+    "Name": "之後就一個人都沒有了嗎？"
+  },
+  "MeihongPower": {
+    "Name": "不死的烈焰"
+  },
+  "SummerFlower": {
+    "Name": "盛夏之花"
+  },
+  "PatchouliGreenAttack": {
+    "Name": "春色閃光"
+  },
+  "RangziSeed": {
+    "Name": "春耕秋收"
+  },
+  "AhongMana": {
+    "Name": "櫻色之海"
+  },
+  "RangziFanshu": {
+    "Name": "香甜的番薯"
+  },
+  "SunflowerDefense": {
+    "Name": "太陽花田"
+  },
+  "YouxiangMoon": {
+    "Name": "花鳥風月"
+  },
+  "DizangLove": {
+    "Name": "即席菩提"
+  },
+  "YuyukoSing": {
+    "Name": "蝶之羽風"
+  },
+  "DanmuJade": {
+    "Name": "彈幕的玉繭"
+  },
+  "YouxiangAttack": {
+    "Name": "幻想鄉的花開"
+  },
+  "TakaneDefense": {
+    "Name": "最深的森域"
+  },
+  "GreenLotus": {
+    "Name": "荷塘月色"
+  },
+  "LimaoSchool": {
+    "Name": "狸貓的變身學校"
+  },
+  "MorphBird": {
+    "Name": "羽鳥變化"
+  },
+  "MorphDog": {
+    "Name": "肉食變化"
+  },
+  "MorphFrog": {
+    "Name": "兩棲變化"
+  },
+  "MorphMan": {
+    "Name": "靈長變化"
+  },
+  "HuiyeAttack": {
+    "Name": "蓬萊的樹海"
+  },
+  "HuiyeMana": {
+    "Name": "竹取的物語"
+  },
+  "WManaCard": {
+    "Name": "光芒"
+  },
+  "UManaCard": {
+    "Name": "水花"
+  },
+  "BManaCard": {
+    "Name": "靈異"
+  },
+  "RManaCard": {
+    "Name": "火焰"
+  },
+  "GManaCard": {
+    "Name": "生機"
+  },
+  "CManaCard": {
+    "Name": "純粹"
+  },
+  "PManaCard": {
+    "Name": "幻虹"
+  },
+  "Astrology": {
+    "Name": "占星"
+  },
+  "Xiaozhuo": {
+    "Name": "小酌怡情"
+  },
+  "Shoot": {
+    "Name": "射擊"
+  },
+  "Boundary": {
+    "Name": "結界"
+  },
+  "ShopAttack": {
+    "Name": "黃瓜導彈"
+  },
+  "ShopDefense": {
+    "Name": "清潔能源"
+  },
+  "ShopSearch": {
+    "Name": "私家雷達"
+  },
+  "MoonSea": {
+    "Name": "靜寂之海"
+  },
+  "FengjiAttack": {
+    "Name": "分解之風"
+  },
+  "MoonWorld": {
+    "Name": "無穢的世界"
+  },
+  "YijiEarthSpike": {
+    "Name": "裂地尖刺/祇園之力"
+  },
+  "YijiPurify": {
+    "Name": "伊豆能賣"
+  },
+  "YijiGraze": {
+    "Name": "天宇受賣命"
+  },
+  "YijiFirepower": {
+    "Name": "愛宕之火"
+  },
+  "HuiyinAttack": {
+    "Name": "水戶光國"
+  },
+  "ReadBook": {
+    "Name": "讀書看報"
+  },
+  "Panzi": {
+    "Name": "水碟"
+  },
+  "ShuimuBlock": {
+    "Name": "堆砌石林"
+  },
+  "TiangouOrder": {
+    "Name": "大天狗的號令"
+  },
+  "TianziRock": {
+    "Name": "有頂天的絕壁"
+  },
+  "YijiuDraw": {
+    "Name": "龍宮來訊"
+  },
+  "SeeFengshui": {
+    "Name": "考察風水"
+  },
+  "LanCard": {
+    "Name": "式神護法"
+  },
+  "RainbowMarket": {
+    "Name": "月虹市場"
+  },
+  "NiuqiDefense": {
+    "Name": "石之嬰兒"
+  },
+  "XiaodingKill": {
+    "Name": "脫魂儀式"
+  },
+  "SijiCard": {
+    "Name": "黑白裁決"
+  },
+  "YukariAttack": {
+    "Name": "生與死的境界"
+  },
+  "KokoroDance": {
+    "Name": "假面喪心舞"
+  },
+  "FutoLight": {
+    "Name": "大物忌正餐"
+  },
+  "HuiyeTime": {
+    "Name": "永遠與須臾"
+  },
+  "QingeUpgrade": {
+    "Name": "邪仙秘法"
+  },
+  "TannvCard": {
+    "Name": "形勢逆轉"
+  },
+  "SanaeMiracle": {
+    "Name": "白晝的客星"
+  },
+  "ChengDefense": {
+    "Name": "天仙鳴動"
+  },
+  "MogongAttack": {
+    "Name": "埴輪造形"
+  },
+  "TianziMana": {
+    "Name": "天人飛翔"
+  },
+  "HappyNewYear": {
+    "Name": "新年參拜"
+  },
+  "HuashanDefense": {
+    "Name": "務光雷擊"
+  },
+  "ZhenmiaowanAttack": {
+    "Name": "一寸法師的末裔"
+  },
+  "XingMoney": {
+    "Name": "光輝寶槍"
+  },
+  "SanaeSummonGod": {
+    "Name": "召請建御名方神"
+  },
+  "PoorAttack": {
+    "Name": "陷入貧困"
+  },
+  "AliceAttack": {
+    "Name": "慘虐之光"
+  },
+  "BaitianCard": {
+    "Name": "稗田的轉生"
+  },
+  "YukariBox": {
+    "Name": "打開的玉匣"
+  },
+  "MeilingWater": {
+    "Name": "背水陣"
+  },
+  "NueExile": {
+    "Name": "平安時代的黑雲"
+  },
+  "HuiyinRetain": {
+    "Name": "一條歸橋"
+  },
+  "XiaosanReflect": {
+    "Name": "反擊彈幕"
+  },
+  "YijiuAttack": {
+    "Name": "龍神電光"
+  },
+  "SuikaDraw": {
+    "Name": "酒鬼雲集"
+  },
+  "ReisenMana": {
+    "Name": "幻視調律"
+  },
+  "FourFlan": {
+    "Name": "四重存在"
+  },
+  "HekaHellRain": {
+    "Name": "地獄之雨"
+  },
+  "ReisenAttack": {
+    "Name": "瘋狂之夢"
+  },
+  "FlanPlayAlone": {
+    "Name": "獨自玩耍"
+  },
+  "FangxiangHeal": {
+    "Name": "吞噬欲望"
+  },
+  "HehuanAttack": {
+    "Name": "深山菜刀狂"
+  },
+  "QingeHeal": {
+    "Name": "通靈之術"
+  },
+  "RinDraw": {
+    "Name": "支配怨靈"
+  },
+  "CloseEyeShoot": {
+    "Name": "閉目射擊"
+  },
+  "KongMana": {
+    "Name": "爐心融解"
+  },
+  "Shengyan": {
+    "Name": "盛宴"
+  },
+  "ModuoluoFire": {
+    "Name": "穢那之火"
+  },
+  "Zhulianshen": {
+    "Name": "山神的注連繩"
+  },
+  "LilyChun": {
+    "Name": "春天到了！"
+  },
+  "XiangziEcho": {
+    "Name": "山谷回聲"
+  },
+  "YoumuHybrid": {
+    "Name": "半人半靈"
+  },
+  "YonglinUpgrade": {
+    "Name": "仙香玉兔"
+  },
+  "SanaeRice": {
+    "Name": "五谷豐登米之浴"
+  },
+  "SakuraBlade": {
+    "Name": "櫻花閃閃"
+  },
+  "YouxiangWake": {
+    "Name": "按時起床"
+  },
+  "LongArm": {
+    "Name": "延展手臂"
+  },
+  "HatateShot": {
+    "Name": "全景拍攝"
+  },
+  "ZoufangWater": {
+    "Name": "諏訪清流"
+  },
+  "MeilingRain": {
+    "Name": "極彩沛雨"
+  },
+  "RuowujiCard": {
+    "Name": "逆鱗的驚濤"
+  },
+  "SkyWater": {
+    "Name": "天水的奇蹟"
+  },
+  "LifeGame": {
+    "Name": "生命遊戲"
+  },
+  "PoisonTeaParty": {
+    "Name": "可疑的茶會"
+  },
+  "LigeluCard": {
+    "Name": "熒光之夜"
+  },
+  "PaluxiCurse": {
+    "Name": "丑時參拜"
+  },
+  "BlackPoison": {
+    "Name": "黑暗演舞"
+  },
+  "KisumeAttack": {
+    "Name": "釣瓶落之怪"
+  },
+  "MedicineGarden": {
+    "Name": "鈴蘭花園"
+  },
+  "ZoufangSnake": {
+    "Name": "土著神崇拜"
+  },
+  "YachieDefend": {
+    "Name": "龜甲地獄"
+  },
+  "JingyeGraze": {
+    "Name": "紛亂的落葉"
+  },
+  "FangxiangAttack": {
+    "Name": "劇毒抹消"
+  },
+  "MeilingAbility": {
+    "Name": "烈虹真拳"
+  },
+  "LimaoAttack": {
+    "Name": "月下的腹鼓舞"
+  },
+  "TodayYesterday": {
+    "Name": "今昔幻想鄉"
+  },
+  "AyaExtraTurn": {
+    "Name": "「幻想風靡」"
+  },
+  "AyaWindGirl": {
+    "Name": "風神少女"
+  },
+  "PatchouliLibrary": {
+    "Name": "不動的大圖書館"
+  },
+  "SanaeRestart": {
+    "Name": "海水分開之日"
+  },
+  "JinziSuperExtraTurn": {
+    "Name": "世紀的二重身超人"
+  },
+  "AnimalSpirit": {
+    "Name": "地獄的畜生道"
+  },
+  "PrismriverAll": {
+    "Name": "合葬「棱鏡協奏曲」"
+  },
+  "ZhenmiaowanAbility": {
+    "Name": "小槌的魔力"
+  },
+  "JunkoNightmare": {
+    "Name": "震顫的冰封噩夢"
+  },
+  "ModuoluoSeasons": {
+    "Name": "暴走的季節"
+  },
+  "YukariFriend": {
+    "Name": "幻想的境界八雲紫"
+  },
+  "BailianFire": {
+    "Name": "法界之火"
+  },
+  "ToolDraw": {
+    "Name": "補給包"
+  },
+  "ToolHeal": {
+    "Name": "罐頭食物"
+  },
+  "ToolWeak": {
+    "Name": "閃光燈"
+  },
+  "ToolVulnerable": {
+    "Name": "發電節拍器"
+  },
+  "ToolAttack": {
+    "Name": "水槍"
+  },
+  "ToolBlock": {
+    "Name": "防暴盾"
+  },
+  "ToolAmulet": {
+    "Name": "一次性護符"
+  },
+  "ToolMana": {
+    "Name": "能量飲品"
+  },
+  "ToolMicai": {
+    "Name": "光學迷彩服"
+  },
+  "ToolUpgrade": {
+    "Name": "軟盤"
+  },
+  "ToolFirstAid": {
+    "Name": "急救箱"
+  },
+  "ToolExile": {
+    "Name": "智能清掃機"
+  },
+  "ToolInvincible": {
+    "Name": "龍宮羽衣"
+  },
+  "ToolMaxHp": {
+    "Name": "香脆青瓜"
+  },
+  "ToolDroneBlock": {
+    "Name": "機械核心"
+  },
+  "ToolRandomTool": {
+    "Name": "戰術對講機"
+  },
+  "VampireShoot1": {
+    "Name": "使魔的射擊"
+  },
+  "VampireShoot2": {
+    "Name": "使魔的紅雨"
+  },
+  "WanderingSoul": {
+    "Name": "彷徨的靈魂"
+  },
+  "RabbitFoot": {
+    "Name": "幸運兔腿"
+  },
+  "GainTreasure": {
+    "Name": "招財進寶"
+  },
+  "MoonPurify": {
+    "Name": "除穢"
+  },
+  "ArtificialJewellery": {
+    "Name": "人造珠寶"
+  },
+  "LilyoftheValley": {
+    "Name": "鈴鈴"
+  },
+  "NewsPositive": {
+    "Name": "正面報導"
+  },
+  "NewsNegative": {
+    "Name": "負面報導"
+  },
+  "NewsEntertainment": {
+    "Name": "娛樂新聞"
+  },
+  "NewsTidbit": {
+    "Name": "花邊新聞"
+  },
+  "WolfFur": {
+    "Name": "狼毛"
+  },
+  "EmpCard": {
+    "Name": "電磁脈衝裝置"
+  },
+  "LarvaCure": {
+    "Name": "解毒劑"
+  },
+  "MoonTipsBag": {
+    "Name": "對月錦囊"
+  },
+  "MoonTipsAttack": {
+    "Name": "補充彈幕"
+  },
+  "MoonTipsDefense": {
+    "Name": "強化結界"
+  },
+  "MoonTipsHeal": {
+    "Name": "醫治傷痛"
+  },
+  "QiannianShenqiCard": {
+    "Name": "我的回合"
+  },
+  "MeilingLianhua": {
+    "Name": "極彩「彩光亂舞」"
+  },
+  "AyaNews": {
+    "Name": "《文文新聞》"
+  },
+  "HatateNews": {
+    "Name": "《花果子念報》"
+  },
+  "AyaNewsReimuSp": {
+    "Name": "《文文新聞》靈夢特刊"
+  },
+  "AyaNewsMarisaSp": {
+    "Name": "《文文新聞》魔理沙特刊"
+  },
+  "AyaNewsSakuyaSp": {
+    "Name": "《文文新聞》咲夜特刊"
+  },
+  "AyaNewsCirnoSp": {
+    "Name": "《文文新聞》琪露諾特刊"
+  },
+  "Riguang": {
+    "Name": "折射日光"
+  },
+  "Yueguang": {
+    "Name": "寂靜月光"
+  },
+  "Xingguang": {
+    "Name": "璀璨星光"
+  },
+  "Xuanguang": {
+    "Name": "眩光"
+  },
+  "CirnoFreeze": {
+    "Name": "法力凍結"
+  },
+  "Frog": {
+    "Name": "青蛙"
+  },
+  "BlackResidue": {
+    "Name": "黑暗殘留"
+  },
+  "SakuyaLock": {
+    "Name": "時間封鎖"
+  },
+  "Wushuai": {
+    "Name": "凌冽劍光"
+  },
+  "Payment": {
+    "Name": "轉帳"
+  },
+  "LoveLetter": {
+    "Name": "情書"
+  },
+  "Lunatic": {
+    "Name": "瘋狂"
+  },
+  "Chunguang": {
+    "Name": "純粹的光芒"
+  },
+  "Bribery": {
+    "Name": "賄賂"
+  },
+  "Nightmare": {
+    "Name": "噩夢"
+  },
+  "NightMana1": {
+    "Name": "月黑風高：子時"
+  },
+  "NightMana2": {
+    "Name": "月黑風高：丑時"
+  },
+  "NightMana3": {
+    "Name": "月黑風高：寅時"
+  },
+  "NightMana4": {
+    "Name": "月黑風高：卯時"
+  },
+  "Regret": {
+    "Name": "遺憾"
+  },
+  "Jealousy": {
+    "Name": "嫉妒"
+  },
+  "BefuddledLife": {
+    "Name": "渾渾噩噩"
+  },
+  "XiaosanJingxia": {
+    "Name": "驚嚇"
+  },
+  "MarisaForget": {
+    "Name": "遺忘"
+  },
+  "Yuebiao": {
+    "Name": "表之月"
+  },
+  "BuyPeace": {
+    "Name": "破財消災"
+  },
+  "SweetPoison": {
+    "Name": "甜蜜之毒"
+  },
+  "Pressure": {
+    "Name": "無形的壓力"
+  },
+  "Misfortune": {
+    "Name": "不幸"
+  },
+  "YuyukoMisfortune": {
+    "Name": "餓靈附身"
+  },
+  "Drunk": {
+    "Name": "醉酒"
+  },
+  "Zhukeling": {
+    "Name": "逐客令"
+  },
+  "Psychedelic": {
+    "Name": "迷幻"
+  },
+  "FanzhuanChongdong": {
+    "Name": "反轉衝動"
+  }
 }
