@@ -57,5 +57,16 @@
     "Attack": "攻擊",
     "AccurateAttack": "精準攻擊",
     "Clear": "清除"
+  },
+  "upgrade": "升級",
+  "cardTypes": {
+    "Attack": "攻擊",
+    "Defense": "防禦",
+    "Skill": "技能",
+    "Ability": "能力",
+    "Friend": "同伴",
+    "Tool": "道具",
+    "Status": "狀態",
+    "Misfortune": "厄運"
   }
 }

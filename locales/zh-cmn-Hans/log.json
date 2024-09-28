@@ -57,5 +57,16 @@
     "Attack": "攻击",
     "AccurateAttack": "精准攻击",
     "Clear": "清除"
+  },
+  "upgrade": "升级",
+  "cardTypes": {
+    "Attack": "攻击",
+    "Defense": "防御",
+    "Skill": "技能",
+    "Ability": "能力",
+    "Friend": "同伴",
+    "Tool": "道具",
+    "Status": "状态",
+    "Misfortune": "厄运"
   }
 }

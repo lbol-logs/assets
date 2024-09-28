@@ -57,5 +57,16 @@
     "Attack": "攻撃",
     "AccurateAttack": "精密攻撃",
     "Clear": "洗浄"
+  },
+  "upgrade": "アップグレード",
+  "cardTypes": {
+    "Attack": "攻撃",
+    "Defense": "防御",
+    "Skill": "スキル",
+    "Ability": "能力",
+    "Tool": "道具",
+    "Status": "状態異常",    
+    "Misfortune": "厄災",
+    "Friend": "パートナー"
   }
 }
