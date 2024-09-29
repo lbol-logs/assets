@@ -2246,7 +2246,8 @@
     "1": {
       "Loyalty": 6,
       "PassiveCost": 3
-    }
+    },
+    "OverrideUltimateCost": true
   },
   "MoguMaster": {
     "Rarity": "Uncommon",
@@ -4583,7 +4584,8 @@
       "Value2": 5,
       "Mana": "{5P}",
       "Loyalty": 9
-    }
+    },
+    "OverrideUltimateCost": true
   },
   "KoishiAttackG": {
     "Rarity": "Common",
