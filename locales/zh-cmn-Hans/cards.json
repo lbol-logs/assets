@@ -1,1682 +1,2605 @@
 {
   "ReimuAttackR": {
-    "Name": "博丽护符"
+    "Name": "博丽护符",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "ReimuBlockW": {
-    "Name": "弹幕辟护"
+    "Name": "弹幕辟护",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "ReimuAttackW": {
-    "Name": "札弹射击"
+    "Name": "札弹射击",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "ReimuBlockR": {
-    "Name": "退治弹幕"
+    "Name": "退治弹幕",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "YaoguaiBuster": {
-    "Name": "妖怪破坏者"
+    "Name": "妖怪破坏者",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />施加 <Value2 /> 回合<h>虚弱</h>。"
   },
   "DoubleJiejie": {
-    "Name": "二重结界"
+    "Name": "二重结界",
+    "Description": "造成 <Damage /> 点伤害。<br />如果<PlayerName />拥有<h>护盾</h>，造成 <Value1 /> 次伤害。"
   },
   "Fengmozhen": {
-    "Name": "封魔针"
+    "Name": "封魔针",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "Shenyuzha": {
-    "Name": "神域札"
+    "Name": "神域札",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "YinyangCard": {
-    "Name": "阴阳玉"
+    "Name": "阴阳玉",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Shield /> 点<h>护盾</h>。"
   },
   "ShengtianKick": {
-    "Name": "升天脚"
+    "Name": "升天脚",
+    "Description": "抽 <Value1 /> 张牌。<br />获得 <Value2 /> 点<h>暂得火力</h>。"
   },
   "MengzhiYuzha": {
-    "Name": "梦之御札"
+    "Name": "梦之御札",
+    "Description": "造成 <Damage /> 点伤害。<br />将一张<h>封魔针</h>加入手中。"
   },
   "Fengmozhen4": {
-    "Name": "封魔阵"
+    "Name": "封魔阵",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。"
   },
   "WunvKongwu": {
-    "Name": "巫女空舞"
+    "Name": "巫女空舞",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />抽 <Value2 /> 张牌。"
   },
   "TuimofuLuanwu": {
-    "Name": "退魔符乱舞"
+    "Name": "退魔符乱舞",
+    "Description": "随机对敌人造成 <Damage /> 点伤害 <Value1 /> 次。"
   },
   "SuikaOut": {
-    "Name": "驱邪除瘟"
+    "Name": "驱邪除瘟",
+    "Description": "选择一张手牌<h>放逐</h>。<br />获得 <Value1 /> 层<h>庇护</h>。"
   },
   "LingfuHuti": {
-    "Name": "灵符护体"
+    "Name": "灵符护体",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将一张<h>神域札</h>加入手中。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />将一张<h>神域札</h>加入手中。"
   },
   "Jinfuzhen": {
-    "Name": "紧缚阵"
+    "Name": "紧缚阵",
+    "Description": "造成 <Damage /> 点伤害。<br />如果<PlayerName />拥有<h>护盾</h>，施加 <Value1 /> 回合<h>易伤</h>。"
   },
   "JingshenYishi": {
-    "Name": "净身仪式"
+    "Name": "净身仪式",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />选择一张手牌<h>放逐</h>。"
   },
   "YinyangBaoyu": {
-    "Name": "阴阳宝玉"
+    "Name": "阴阳宝玉",
+    "Description": "造成 <Damage /> 点伤害。<br />将一张<h>阴阳玉</h>加入手中。"
   },
   "ReimuWeiyan": {
-    "Name": "真正的威严"
+    "Name": "真正的威严",
+    "Description": "对所有敌人施加 <Value1 /> 回合<h>虚弱</h>。"
   },
   "ZhujiThreeGod": {
-    "Name": "住吉三神"
+    "Name": "住吉三神",
+    "Description": "抽 <Value1 /> 张牌。<br />抽到每张攻击牌获得 <Value2 /> 点<h>暂得火力</h>，每张防御牌获得 <Value2 /> 点<h>暂得灵力</h>。"
   },
   "OverJingjie": {
-    "Name": "境界上空"
+    "Name": "境界上空",
+    "Description": "从 <Value1 /> 张随机的攻击牌中选择一张加入手中，它<h>暂塑</h>为<Mana />。"
   },
   "SmallPanding": {
-    "Name": "小型判定"
+    "Name": "小型判定",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />受到 <Value2 /> 回合<h>易伤</h>。",
+    "UpgradedDescription": "获得 <Value1 /> 层<h>闪避</h>。"
   },
   "Zhuizongfu": {
-    "Name": "追踪符"
+    "Name": "追踪符",
+    "Description": "随机对敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />如果<PlayerName />拥有<h>暂得火力</h>，获得<Mana />。"
   },
   "ReimuFestival": {
-    "Name": "神樱之舞"
+    "Name": "神樱之舞",
+    "Description": "获得 <Value1 /> 点<h>暂得火力</h>。<br /><PlayerName />的回合开始时获得 <Value1 /> 点<h>暂得火力</h>。"
   },
   "FengyinYaomo": {
-    "Name": "龙杀阵"
+    "Name": "龙杀阵",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 回合的<h>虚弱</h>和<h>易伤</h>。"
   },
   "DanmuDuijue": {
-    "Name": "弹幕对决"
+    "Name": "弹幕对决",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 点<h>反射</h>。<br /><SelfName />亦受<h>火力</h>加成。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>反射</h>。<br /><SelfName />亦受<h>火力</h>加成。"
   },
   "ReimuHeavyAttack": {
-    "Name": "博丽一拳"
+    "Name": "博丽一拳",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>火力</h>对<SelfName />效果提升为 <Value1 /> 倍。"
   },
   "ReverseJiejie": {
-    "Name": "逆转结界"
+    "Name": "逆转结界",
+    "Description": "当<PlayerName />失去一个正面效果时，获得 <Value1 /> 点<h>护盾</h>。"
   },
   "Changzhizhen": {
-    "Name": "常置阵"
+    "Name": "常置阵",
+    "Description": "<h>回合结束时</h>：对随机敌人造成 <Value1 /> 点伤害。<br /><h>手牌中</h>：当<PlayerName />失去一个正面效果时，伤害提高 <Value2 /> 点。"
   },
   "ReimuLucky": {
-    "Name": "吉签开运"
+    "Name": "吉签开运",
+    "Description": "获得 <Value1 /> 层<h>护身符</h>。<br />获得 <Value2 /> 点<Money />。"
   },
   "ShensheRichang": {
-    "Name": "神社日常"
+    "Name": "神社日常",
+    "Description": "恢复 <Value1 /> 点生命。<br />将所有<h>格挡</h>转换为等量的<h>护盾</h>。"
   },
   "TwoBalls": {
-    "Name": "平衡之玉"
+    "Name": "平衡之玉",
+    "Description": "将 <Value1 /> 张<h>阴阳玉</h>加入手中。",
+    "UpgradedDescription": "将 <Value1 /> 张<h>阴阳玉</h>加入手中，它们的费用<h>暂时降低</h><Mana />。"
   },
   "MojingShanjie": {
-    "Name": "魔净闪结"
+    "Name": "魔净闪结",
+    "Description": "从 <Value1 /> 张随机的防御牌中选择一张加入手中，它<h>暂塑</h>为<Mana />。"
   },
   "JiejieAttack": {
-    "Name": "结界猛击"
+    "Name": "结界猛击",
+    "Description": "造成 <Damage /> 点伤害。<br />额外造成相当于<PlayerName /><h>护盾</h>值 (<ShieldDamage />) 的伤害。"
   },
   "ReimuShrine": {
-    "Name": "博丽庙会"
+    "Name": "博丽庙会",
+    "Description": "获得 <Value1 /> 点<h>暂得灵力</h>。<br /><PlayerName />的回合开始时获得 <Value1 /> 点<h>暂得灵力</h>。"
   },
   "DoubleDajiejie": {
-    "Name": "二重大结界"
+    "Name": "二重大结界",
+    "Description": "获得 <Block /> 点<h>格挡</h>和 <Shield /> 点<h>护盾</h>。"
   },
   "HuanxiangBlock": {
-    "Name": "幻想边境"
+    "Name": "幻想边境",
+    "Description": "每当一张牌被<h>放逐</h>时，<PlayerName />获得 <Value1 /> 点<h>格挡</h>。"
   },
   "MingzhuAntou": {
-    "Name": "明珠暗投"
+    "Name": "明珠暗投",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />从 <Value1 /> 张<h>虹龙阴阳玉</h>中选择一张加入手中。<br /><h>战场</h>中每存在一张<h>阴阳玉</h>，<SelfName />费用降低<Mana />。"
   },
   "YakongDianxue": {
-    "Name": "亚空点穴"
+    "Name": "亚空点穴",
+    "Description": "造成 <Damage /> 点伤害。<br />当<PlayerName />失去一个正面效果时，从弃牌堆回到手中。"
   },
   "QinggeManwu": {
-    "Name": "清歌曼舞"
+    "Name": "清歌曼舞",
+    "Description": "抽 <Value1 /> 张牌，<h>升级</h>它们直到本场战斗结束。<br />如果抽到的牌已<h>升级</h>，改为获得 <Value2 /> 点<h>护盾</h>。"
   },
   "FreeFly": {
-    "Name": "自由飞行"
+    "Name": "自由飞行",
+    "Description": "<PlayerName />的回合开始时，获得<Mana />。"
   },
   "YinyangXueyin": {
-    "Name": "阴阳血印"
+    "Name": "阴阳血印",
+    "Description": "失去 <Value2 /> 点生命。<br />将一张<h>阴阳玉</h>加入手中。<br />打出<h>阴阳玉</h>后获得 <Value1 /> 点<h>暂得火力</h>和<h>暂得灵力</h>。"
   },
   "ReimuFreeAttack": {
-    "Name": "幻想一重"
+    "Name": "幻想一重",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />下 <Value1 /> 张攻击牌费用为<Mana />。"
   },
   "ReimuDrink": {
-    "Name": "御神酒"
+    "Name": "御神酒",
+    "Description": "恢复 <Value1 /> 点生命。<br />将 <Value2 /> 张<h>小酌怡情</h>加入手中。",
+    "UpgradedDescription": "恢复 <Value1 /> 点生命。<br />获得 <Value1 /> 点<h>暂得火力</h>。<br />将 <Value2 /> 张<h>小酌怡情</h>加入手中。"
   },
   "EvilTuiZhi": {
-    "Name": "妖邪退治"
+    "Name": "妖邪退治",
+    "Description": "下 <Value1 /> 张攻击牌造成双倍伤害。"
   },
   "MomentPower": {
-    "Name": "刹那亚空穴"
+    "Name": "刹那亚空穴",
+    "Description": "每当<PlayerName />获得<h>暂得火力</h>或<h>暂得灵力</h>时，其中 <Value1 /> 点转化为<h>火力</h>或<h>灵力</h>。"
   },
   "Wunvyu": {
-    "Name": "最凶恶的巫女玉"
+    "Name": "最凶恶的巫女玉",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。 <br /><h>手牌中</h>：抽牌阶段外每抽一张牌，本场战斗中伤害提高 <Value2 /> 。"
   },
   "TaijiLiangyi": {
-    "Name": "太极生两仪"
+    "Name": "太极生两仪",
+    "Description": "将一张<h>阴阳玉</h>加入手中。<br /><PlayerName />的回合开始时，如果手中没有<h>阴阳玉</h>，将一张<h>阴阳玉</h>加入手中。"
   },
   "ReimuSilence": {
-    "Name": "「梦想封印 寂」"
+    "Name": "「梦想封印 寂」",
+    "Description": "抽牌阶段外每抽 <Value1 /> 张牌，对所有敌人造成 <Damage /> 点攻击伤害。<br />抽 <Value1 /> 张牌。"
   },
   "ChuanyueJiejie": {
-    "Name": "穿越结界"
+    "Name": "穿越结界",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />从<h>放逐</h>区选择一张牌移回手中。"
   },
   "HuanxiangTouying": {
-    "Name": "幻想投影"
+    "Name": "幻想投影",
+    "Description": "获得<Mana />。<br />从 <Value1 /> 张卡牌中选择一张加入手中，它具有<h>放逐</h>、<h>虚无</h>。<br />这些卡牌的费用总数分别为一二三。",
+    "UpgradedDescription": "获得<Mana />。<br />从 <Value1 /> 张卡牌中选择一张加入手中，它具有<h>放逐</h>、<h>虚无</h>。<br />这些卡牌的费用总数分别为一二三四五。"
   },
   "OutInGap": {
-    "Name": "出入境界"
+    "Name": "出入境界",
+    "Description": "从 <Value1 /> 张<hp>完全随机</hp>的卡牌中选择一张加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "Jiangshen": {
-    "Name": "降神修行"
+    "Name": "降神修行",
+    "Description": "本场战斗中，所有临时获得的卡牌都会<h>升级</h>。<br />将 <Value1 /> 张<h>阴阳玉</h>加入手中。"
   },
   "BoliDajiejie": {
-    "Name": "博丽大结界"
+    "Name": "博丽大结界",
+    "Description": "本场战斗中，<PlayerName />的<h>格挡</h>均会转化为等量的<h>护盾</h>。"
   },
   "HuijuQiankun": {
-    "Name": "汇聚乾坤"
+    "Name": "汇聚乾坤",
+    "Description": "将一张<h>阴阳玉</h>加入手中。<br /><h>放逐</h>所有其它手牌，每<h>放逐</h>一张牌，<h>阴阳玉</h>伤害提高 <Value1 /> 点。",
+    "UpgradedDescription": "将一张<h>阴阳玉</h>加入手中。<br /><h>放逐</h>所有其它手牌，每<h>放逐</h>一张牌，<h>阴阳玉</h>伤害提高 <Value1 /> 点，<h>护盾</h>提高 <Value2 /> 点。"
   },
   "ReimuInstant": {
-    "Name": "「梦想封印 瞬」"
+    "Name": "「梦想封印 瞬」",
+    "Description": "造成 <Damage /> 点伤害。<br />结束<PlayerName />的回合，进行一个额外的回合。<br /><h>时间有限</h><Mana />。"
   },
   "DoubleLianhuadie": {
-    "Name": "二色莲花蝶"
+    "Name": "二色莲花蝶",
+    "Description": "每当<PlayerName />获得<h>格挡</h>或<h>护盾</h>时，对一名随机的敌人造成 <Value1 /> 点伤害。"
   },
   "BoliPhantom": {
-    "Name": "博丽幻影"
+    "Name": "博丽幻影",
+    "Description": "每<h>放逐</h>一张不是<h>封魔针</h>的牌，将一张<h>封魔针</h>加入手中，它<h>暂塑</h>为<Mana />。"
   },
   "KuosanJiejie": {
-    "Name": "扩散结界"
+    "Name": "扩散结界",
+    "Description": "<h>每支付</h><ManaW />：获得 <Block /> 点<h>格挡</h>。<br /><h>每支付</h><ManaR />：对所有敌人造成 <Damage /> 点伤害。"
   },
   "QiqingYishi": {
-    "Name": "祈晴仪式"
+    "Name": "祈晴仪式",
+    "Description": "将一张<h>幻虹</h>加入手中。",
+    "UpgradedDescription": "将一张<h>幻虹</h>和一张<h>光芒</h>加入手中。"
   },
   "KuosanLingfu": {
-    "Name": "扩散灵符"
+    "Name": "扩散灵符",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />造成未被阻挡的伤害时，获得等量的<h>护盾</h>。"
   },
   "DanceAroundLake": {
-    "Name": "池边起舞"
+    "Name": "池边起舞",
+    "Description": "每<h>放逐</h>一张牌，就抽 <Value1 /> 张牌。"
   },
   "ReimuHuashan": {
-    "Name": "接受指教"
+    "Name": "接受指教",
+    "Description": "选择手中的一张牌<h>放逐</h>，获得 <Value2 /> 点<Power />。<br />选择<h>能力</h>牌时额外获得 <Value1 /> 点最大生命值。（每场战斗中只能生效一次）"
   },
   "AutoQumobang": {
-    "Name": "暴走驱魔棒"
+    "Name": "暴走驱魔棒",
+    "Description": "<h>手牌中</h>：回合开始时多抽 <Value1 /> 张牌。<br />生效 <Value2 /> 次后<h>放逐</h>自身。"
   },
   "Qingshan": {
-    "Name": "人至之处的青山"
+    "Name": "人至之处的青山",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />随机<h>放逐</h> <Value1 /> 张手中的<h>厄运</h>或状态牌。"
   },
   "GapLady": {
-    "Name": "隙间女子"
+    "Name": "隙间女子",
+    "Description": "失去 <Value1 /> 点生命。<br />获得<Mana />。<br />抽 <Value2 /> 张牌。"
   },
   "ChunseXiaojing": {
-    "Name": "春色小径"
+    "Name": "春色小径",
+    "Description": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br /><h>透支</h> <Value2 /> 。"
   },
   "ReimuSakura": {
-    "Name": "梦想樱花封印"
+    "Name": "梦想樱花封印",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />恢复 <Value1 /> 点生命。<br /><h>成长</h>：费用降低<Mana />，直到战斗结束。"
   },
   "SenluoJiejie": {
-    "Name": "森罗结界"
+    "Name": "森罗结界",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />下回合开始时，失去全部<h>护盾</h>，对所有敌人造成相当于<h>护盾</h>值的伤害。"
   },
   "YinyangQueen": {
-    "Name": "能工巧匠魅须丸"
+    "Name": "能工巧匠魅须丸",
+    "Description": "<FriendP />获得 <Value2 /> 点<h>格挡</h>和<h>护盾</h>。"
   },
   "ShuihuoCard": {
-    "Name": "水火玉"
+    "Name": "水火玉",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Block /> 点<h>格挡</h>。<br /><h>被保留时</h>：伤害和<h>格挡</h>提高 <Value1 /> 点，直到战斗结束。"
   },
   "FengleiCard": {
-    "Name": "风雷玉"
+    "Name": "风雷玉",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。"
   },
   "ShanyuCard": {
-    "Name": "山雨玉"
+    "Name": "山雨玉",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Shield /> 点<h>护盾</h>。"
   },
   "MarisaAttackB": {
-    "Name": "幻象激光"
+    "Name": "幻象激光",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "MarisaBlockR": {
-    "Name": "扫把防御"
+    "Name": "扫把防御",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "MarisaAttackR": {
-    "Name": "热星冲击"
+    "Name": "热星冲击",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "MarisaBlockB": {
-    "Name": "星尘防御"
+    "Name": "星尘防御",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "CraftPotion": {
-    "Name": "精炼药水"
+    "Name": "精炼药水",
+    "Description": "将 <Value1 /> 张<h>不稳定魔药</h>洗入抽牌堆。<br />抽 <Value2 /> 张牌。",
+    "UpgradedDescription": "将 <Value1 /> 张<h>不稳定魔药</h>洗入抽牌堆。<br />抽 <Value2 /> 张牌。<br /><h>初见</h>：额外抽一张牌。"
   },
   "RedLaser": {
-    "Name": "火热射线"
+    "Name": "火热射线",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>超载 <Value2 /> </h>：改为造成 <UpgradeDamage /> 点伤害 <AttackTimes /> 次，施加 <Value1 /> 回合<h>易伤</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害 <AttackTimes /> 次。<br />施加 <Value1 /> 回合<h>易伤</h>。"
   },
   "Potion": {
-    "Name": "不稳定魔药"
+    "Name": "不稳定魔药",
+    "Description": "<h>进入手中时</h>：获得<Mana />，对一个随机敌人造成 <Damage /> 点伤害，<h>放逐</h><SelfName />。"
   },
   "SatelliteIllusion": {
-    "Name": "卫星幻觉"
+    "Name": "卫星幻觉",
+    "Description": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 张<h>占星</h>加入手中。"
   },
   "DropBook": {
-    "Name": "离经叛道"
+    "Name": "离经叛道",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将 <Value1 /> 张<h>占星</h>加入手中。"
   },
   "MarisaDraw": {
-    "Name": "随机应变"
+    "Name": "随机应变",
+    "Description": "抽 <Value1 /> 张牌。<br />如果<PlayerName />处于<h>爆发</h>，获得<Mana />。"
   },
   "DarkSatellite": {
-    "Name": "至暗卫星"
+    "Name": "至暗卫星",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />如果本场战斗打出的上一张牌包含黑色：抽 <Value1 /> 张牌。"
   },
   "MarisaEat": {
-    "Name": "大快朵颐"
+    "Name": "大快朵颐",
+    "Description": "获得 <Value1 /> 层<h>专注</h>。<br />恢复 <Value2 /> 点生命。"
   },
   "ReadyForBurst": {
-    "Name": "蓄势待发"
+    "Name": "蓄势待发",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>充能</h>。"
   },
   "BulletStudy": {
-    "Name": "弹幕笔记"
+    "Name": "弹幕笔记",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>超载 <Value2 /> </h>：获得 <Shield /> 点<h>护盾</h>。"
   },
   "AsteroidBelt": {
-    "Name": "小行星带"
+    "Name": "小行星带",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />如果本场战斗打出的上一张牌包含红色：获得 <Value2 /> 层<h>充能</h>。"
   },
   "HuojianSaoba": {
-    "Name": "火箭扫把"
+    "Name": "火箭扫把",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />获得 <Value2 /> 层<h>充能</h>。"
   },
   "JinjiBlock": {
-    "Name": "紧急防御"
+    "Name": "紧急防御",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "Alioth": {
-    "Name": "玉衡星"
+    "Name": "玉衡星",
+    "Description": "<h>占卜</h> <Scry /> ，抽 <Value1 /> 张牌。<br />获得 <Value2 /> 层<h>充能</h>。"
   },
   "ScryAttack": {
-    "Name": "导航之星"
+    "Name": "导航之星",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>占卜</h>时从弃牌堆回到手中。"
   },
   "MarisaSteal": {
-    "Name": "借来一用"
+    "Name": "借来一用",
+    "Description": "将 <Value1 /> 张<h>幻虹</h>加入手中。<br /><h>透支</h> <Value2 /> 。",
+    "UpgradedDescription": "将 <Value1 /> 张<h>幻虹</h>加入手中。"
   },
   "NightSeeStar": {
-    "Name": "夜观星象"
+    "Name": "夜观星象",
+    "Description": "<h>占卜</h> <Scry /> 。<br />抽 <Value1 /> 张牌。"
   },
   "ScryBlock": {
-    "Name": "早有预谋"
+    "Name": "早有预谋",
+    "Description": "每次<h>占卜</h>时，<PlayerName />获得 <Value1 /> 点<h>格挡</h>。"
   },
   "ShibaiChanwu": {
-    "Name": "失败产物"
+    "Name": "失败产物",
+    "Description": "将 <Value1 /> 张<h>不稳定魔药</h>洗入抽牌堆。<br />将 <Value2 /> 张<h>暗影</h>加入手中。"
   },
   "ShinningPotion": {
-    "Name": "夜光蘑菇"
+    "Name": "夜光蘑菇",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将一张<h>不稳定魔药</h>洗入抽牌堆。<br /><h>超载 <Value2 /> </h>：改为 <Value1 /> 张。"
   },
   "Yinhe": {
-    "Name": "银河"
+    "Name": "银河",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>被保留时</h>：<h>格挡</h>提高 <Value1 /> 点，直到战斗结束。"
   },
   "StarSky": {
-    "Name": "璀璨星空"
+    "Name": "璀璨星空",
+    "Description": "获得 <Value1 /> 层<h>充能</h>。"
   },
   "PoisonPotion": {
-    "Name": "魔女坩埚"
+    "Name": "魔女坩埚",
+    "Description": "<h>不稳定魔药</h>还会施加 <Value1 /> 层<h>中毒</h>。<br />将 <Value2 /> 张<h>不稳定魔药</h>洗入抽牌堆。"
   },
   "LearnAstrology": {
-    "Name": "天文研修"
+    "Name": "天文研修",
+    "Description": "<PlayerName />的回合开始时，如果手中没有<h>占星</h>，将一张<h>占星</h>加入手中。"
   },
   "PotionJungle": {
-    "Name": "荧光森林"
+    "Name": "荧光森林",
+    "Description": "<PlayerName />的回合结束时，将 <Value1 /> 张<h>不稳定魔药</h>洗入弃牌堆。"
   },
   "AccuracyLaser": {
-    "Name": "定向激光"
+    "Name": "定向激光",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br /><h>被保留时</h>：费用降低<Mana />，直到战斗结束。"
   },
   "RainbowStar": {
-    "Name": "虹星冲击"
+    "Name": "虹星冲击",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>每支付</h><Mana1 />：伤害提高 <Value1 /> 点。<br /><h>每支付</h><ManaP />：伤害提高 <Value2 /> 点。"
   },
   "WinterWarm": {
-    "Name": "冬日温暖"
+    "Name": "冬日温暖",
+    "Description": "选择至多 <Value1 /> 张手牌<h>放逐</h>，获得等量的<h>专注</h>。<br />抽 <Value2 /> 张牌。"
   },
   "CollectionDefense": {
-    "Name": "大而不倒"
+    "Name": "大而不倒",
+    "Description": "获得相当于抽牌堆数量的<h>格挡</h>。（<Block /> 点）",
+    "UpgradedDescription": "获得相当于抽牌堆数量的<h>护盾</h>。（<Shield /> 点）"
   },
   "BurstDraw": {
-    "Name": "速度对决"
+    "Name": "速度对决",
+    "Description": "进入<h>爆发</h>时抽 <Value1 /> 张牌。"
   },
   "StarFantasy": {
-    "Name": "星尘幻想"
+    "Name": "星尘幻想",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>被保留时</h>：伤害提高 <Value1 /> 点，直到战斗结束。"
   },
   "StarShower": {
-    "Name": "沐浴星尘"
+    "Name": "沐浴星尘",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>充能</h>；如果<PlayerName />没有<h>充能</h>，改为 <Value2 /> 层。"
   },
   "MarisaHoldCard": {
-    "Name": "难以割舍"
+    "Name": "难以割舍",
+    "Description": "选择至多 <Value1 /> 张手牌，<h>保留</h>一回合。<br />获得 <Block /> 点<h>格挡</h>。"
   },
   "ThrowBigStar": {
-    "Name": "赤星炸裂"
+    "Name": "赤星炸裂",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>超载 <Value2 /> </h>：造成两次伤害。"
   },
   "FireUpBagualu": {
-    "Name": "点燃炉火"
+    "Name": "点燃炉火",
+    "Description": "获得 <Value1 /> 层<h>充能</h>。<br />获得 <Value2 /> 点<h>火力</h>，此效果受到<h>爆发</h>加成。"
   },
   "ShootMoon": {
-    "Name": "射月"
+    "Name": "射月",
+    "Description": "造成 <Damage /> 点伤害 <AttackTimes /> 次。<br /><h>超载 <Value2 /> </h>：获得 <Value1 /> 层<h>闪避</h>。"
   },
   "RunAway": {
-    "Name": "逃离现场"
+    "Name": "逃离现场",
+    "Description": "弃掉所有手牌，这些牌的费用<h>暂时降低</h><Mana />。<br />获得 <Value1 /> 层<h>闪避</h>。",
+    "UpgradedDescription": "弃掉所有手牌，这些牌的费用<h>暂时降低</h><Mana />。<br />获得 <Value1 /> 层<h>闪避</h>。<br />抽 <Value2 /> 张牌。"
   },
   "MixAndShake": {
-    "Name": "花火药水"
+    "Name": "花火药水",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />抽牌堆和弃牌堆中每有一张<h>不稳定魔药</h>，伤害提高 <Value1 /> 点。"
   },
   "WizardStudy": {
-    "Name": "魔力转化器"
+    "Name": "魔力转化器",
+    "Description": "获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。<br /><h>法力冻结</h><Mana />。"
   },
   "ExilePotion": {
-    "Name": "废物利用"
+    "Name": "废物利用",
+    "Description": "选择至多 <Value1 /> 张手牌<h>放逐</h>，将等量的<h>不稳定魔药</h>洗入弃牌堆。",
+    "UpgradedDescription": "从手牌、抽牌堆和弃牌堆中选择至多 <Value1 /> 张牌<h>放逐</h>，将等量的<h>不稳定魔药</h>洗入弃牌堆。"
   },
   "EventHorizon": {
-    "Name": "黑洞视界"
+    "Name": "黑洞视界",
+    "Description": "进入<h>爆发</h>。<br />下回合开始时死亡。",
+    "UpgradedDescription": "进入<h>爆发</h>。<br />获得 <Value1 /> 点<h>暂得火力</h>。<br />下回合开始时死亡。"
   },
   "PotionDefense": {
-    "Name": "伴星飞行"
+    "Name": "伴星飞行",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />本回合内，每当一张<h>不稳定魔药</h>触发时，获得 <Value1 /> 点<h>护盾</h>。"
   },
   "UpgradePotion": {
-    "Name": "精研药水"
+    "Name": "精研药水",
+    "Description": "将 <Value2 /> 张<h>不稳定魔药</h>洗入抽牌堆。<br /><h>不稳定魔药</h>基础伤害提高 <Value1 /> 点。",
+    "UpgradedDescription": "将 <Value2 /> 张<h>不稳定魔药</h>洗入抽牌堆。<br /><h>不稳定魔药</h>基础伤害提高 <Value1 /> 点。<br /><PlayerName />的回合结束时，抽牌堆和弃牌堆中的<h>不稳定魔药</h>伤害提高 <Value1 /> 点。"
   },
   "OpenUniverse": {
-    "Name": "开放宇宙"
+    "Name": "开放宇宙",
+    "Description": "选择抽牌堆中的一张牌，将它移出本场战斗。<br />将两张它<h>暂塑</h>为<Mana />的复制加入手中，这些复制具有<h>放逐</h>。"
   },
   "SuperNova": {
-    "Name": "超新星"
+    "Name": "超新星",
+    "Description": "获得<Mana />。<br />将抽牌堆中的随机 <Value1 /> 张攻击牌移入手中。"
   },
   "RedGiantStar": {
-    "Name": "红巨星陨落"
+    "Name": "红巨星陨落",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>超载 <Value2 /> </h>：将一张<h>火焰</h>加入手中。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br /><h>超载 <Value2 /> </h>：将一张<h>幻虹</h>加入手中。"
   },
   "SolarSystem": {
-    "Name": "太阳系仪"
+    "Name": "太阳系仪",
+    "Description": "<PlayerName />的回合开始时，获得 <Value1 /> 层<h>充能</h>。"
   },
   "FinalSpark": {
-    "Name": "究极火花"
+    "Name": "究极火花",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>充盈</h>：获得<Mana />。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害。<br /><PlayerName />进入<h>爆发</h>时，从弃牌堆回到手中。<br /><h>充盈</h>：获得<Mana />。"
   },
   "HuoliQuankai": {
-    "Name": "火力全开"
+    "Name": "火力全开",
+    "Description": "<h>爆发</h>造成三倍伤害。<br />获得 <Value1 /> 层<h>充能</h>。",
+    "UpgradedDescription": "<h>爆发</h>造成三倍伤害。<br />进入<h>爆发</h>。"
   },
   "MasterOfCollection": {
-    "Name": "收集专家"
+    "Name": "收集专家",
+    "Description": "选择至多 <Value2 /> 张手牌赋予<h>保留</h>。<br />每当一张牌被<h>保留</h>时，降低 <Value1 /> 点它的随机费用，直到战斗结束。"
   },
   "ChargingPotion": {
-    "Name": "放射元素"
+    "Name": "放射元素",
+    "Description": "每当一张<h>不稳定魔药</h>触发时，获得 <Value1 /> 层<h>充能</h>。<br />将 <Value2 /> 张<h>不稳定魔药</h>加入手中。"
   },
   "StarlightTaifengSummoner": {
-    "Name": "汇聚星光"
+    "Name": "汇聚星光",
+    "Description": "将一张<h>星光台风</h>洗入抽牌堆。<br /><h>每支付</h><Mana />：它多造成一次伤害。<br /><h>每支付</h><ManaR />：它多造成 <Value1 /> 点伤害。",
+    "UpgradedDescription": "将一张<h>星光台风</h>置于抽牌堆顶。<br /><h>每支付</h><Mana />：它多造成一次伤害。<br /><h>每支付</h><ManaR />：它多造成 <Value1 /> 点伤害。"
   },
   "StarlightTaifeng": {
-    "Name": "星光台风"
+    "Name": "星光台风",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。"
   },
   "FindCollection": {
-    "Name": "远程支援"
+    "Name": "远程支援",
+    "Description": "从 <Value1 /> 张随机的非<PlayerName />牌中选择一张加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "WhiteLaser": {
-    "Name": "镭光射击"
+    "Name": "镭光射击",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Shield /> 点<h>护盾</h>，此效果受到<h>爆发</h>加成。"
   },
   "BlazingStar": {
-    "Name": "彗星"
+    "Name": "彗星",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<h>保留格挡</h>。<br />结束<PlayerName />的回合，进行一个额外的回合。<br /><h>时间有限</h><Mana />。"
   },
   "SplitPotion": {
-    "Name": "增产剂"
+    "Name": "增产剂",
+    "Description": "<h>不稳定魔药</h>额外攻击一个目标。<br />将 <Value1 /> 张<h>不稳定魔药</h>洗入抽牌堆。"
   },
   "IceSpark": {
-    "Name": "冰冻射线"
+    "Name": "冰冻射线",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，施加<h>寒冷</h>。"
   },
   "ColdPotion": {
-    "Name": "冷却剂"
+    "Name": "冷却剂",
+    "Description": "<h>不稳定魔药</h>还会施加<h>寒冷</h>。<br />将 <Value1 /> 张<h>不稳定魔药</h>洗入抽牌堆。"
   },
   "ChargingToMana": {
-    "Name": "充能转化"
+    "Name": "充能转化",
+    "Description": "失去所有的<h>充能</h>，每失去一层：获得<Mana />，抽一张牌。"
   },
   "DiscardToCharging": {
-    "Name": "补充燃料"
+    "Name": "补充燃料",
+    "Description": "选择任意张手牌丢弃。<br />每丢弃一张牌，获得 <Value1 /> 层<h>充能</h>。"
   },
   "PatchouliFriend": {
-    "Name": "炼金术士帕秋莉"
+    "Name": "炼金术士帕秋莉",
+    "Description": "<FriendP />将 <PassiveColor /> 点随机的法力转化为<h>彩色</h>。"
   },
   "MoguMaster": {
-    "Name": "蘑菇专家"
+    "Name": "蘑菇专家",
+    "Description": "从 <Value1 /> 张随机的<h>蘑菇</h>中选择 <Value2 /> 张加入手中。"
   },
   "RedMogu": {
-    "Name": "毒蝇伞"
+    "Name": "毒蝇伞",
+    "Description": "施加 <Value1 /> 层<h>中毒</h>。"
   },
   "GreenMogu": {
-    "Name": "鳞皮扇菇"
+    "Name": "鳞皮扇菇",
+    "Description": "将 <Value1 /> 张<h>不稳定魔药</h>洗入抽牌堆。"
   },
   "BlueMogu": {
-    "Name": "霍氏粉褶菌"
+    "Name": "霍氏粉褶菌",
+    "Description": "抽 <Value1 /> 张牌。"
   },
   "PurpleMogu": {
-    "Name": "紫蜡蘑"
+    "Name": "紫蜡蘑",
+    "Description": "恢复 <Value1 /> 点生命。"
   },
   "JungleMaster": {
-    "Name": "森林居民"
+    "Name": "森林居民",
+    "Description": "<h>战斗开始时</h>：<h>放逐</h><SelfName />，获得 <Value1 /> 点<h>护盾</h>。"
   },
   "ManaJungle": {
-    "Name": "森林探险"
+    "Name": "森林探险",
+    "Description": "<h>进入手中时</h>：将 <Value1 /> 张<h>幻虹</h>加入手中，然后<h>放逐</h><SelfName />。"
   },
   "SakuyaAttackW": {
-    "Name": "误导投掷"
+    "Name": "误导投掷",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "SakuyaBlockU": {
-    "Name": "预判来袭"
+    "Name": "预判来袭",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "SakuyaAttackU": {
-    "Name": "扑克飞射"
+    "Name": "扑克飞射",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "SakuyaBlockW": {
-    "Name": "黑键格挡"
+    "Name": "黑键格挡",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "KnifeBounce": {
-    "Name": "飞刀弹射"
+    "Name": "飞刀弹射",
+    "Description": "造成 <Damage /> 点伤害。<br />将 <Value1 /> 张<h>飞刀</h>加入手中。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />施加 <Value2 /> 层<h>锁定</h>。<br />将 <Value1 /> 张<h>飞刀</h>加入手中。"
   },
   "Lijian": {
-    "Name": "离剑之见"
+    "Name": "离剑之见",
+    "Description": "造成 <Damage /> 点伤害。<br />抽 <Value1 /> 张牌。<br /><h>进入手中时</h>：费用降低<Mana />，直到战斗结束。"
   },
   "PrivateVision": {
-    "Name": "个人幻影"
+    "Name": "个人幻影",
+    "Description": "选择一张手牌丢弃。<br />获得 <Value1 /> 层<h>闪避</h>。",
+    "UpgradedDescription": "选择一张手牌丢弃。<br />获得 <Value1 /> 层<h>闪避</h>。<br />获得 <Value2 /> 点<h>反射</h>。"
   },
   "Knife": {
-    "Name": "飞刀"
+    "Name": "飞刀",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>未打出而离开手牌</h>：对生命值最低的敌人造成 <DropDamage /> 点伤害。"
   },
   "SakuyaZeroDefense": {
-    "Name": "偏转弹幕"
+    "Name": "偏转弹幕",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "Dejavu": {
-    "Name": "既视感"
+    "Name": "既视感",
+    "Description": "选择至多 <Value1 /> 张手牌置于抽牌堆顶。<br />抽 <Value1 /> 张牌。<br />获得<Mana />。"
   },
   "SakuyaSnow": {
-    "Name": "雪地决行"
+    "Name": "雪地决行",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将 <Value1 /> 张<h>飞刀</h>加入手中。"
   },
   "CoolMaid": {
-    "Name": "潇洒女仆"
+    "Name": "潇洒女仆",
+    "Description": "将 <Value1 /> 张<h>飞刀</h>加入手中。<br />获得<Mana />。"
   },
   "SakuyaTwiceAttack": {
-    "Name": "闪光弹跳"
+    "Name": "闪光弹跳",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />将 <Value2 /> 张<h>飞刀</h>洗入弃牌堆。"
   },
   "SakuyaGoOut": {
-    "Name": "出行准备"
+    "Name": "出行准备",
+    "Description": "抽 <Value1 /> 张牌。<br />选择 <Value1 /> 张手牌丢弃。<br />获得<Mana />。"
   },
   "SakuyaWeak": {
-    "Name": "时空压制"
+    "Name": "时空压制",
+    "Description": "施加 <Value1 /> 回合<h>虚弱</h>。<br />获得<Mana />。"
   },
   "TimeAuraAttack": {
-    "Name": "时间魔术"
+    "Name": "时间魔术",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Value1 /> 层<h>时域冲击</h>。"
   },
   "SakuyaTea": {
-    "Name": "泡制红茶"
+    "Name": "泡制红茶",
+    "Description": "抽 <Value1 /> 张牌。<br /><h>初见</h>：恢复 <Value2 /> 点生命，费用降低<Mana />，直到战斗结束。"
   },
   "DefenseDraw": {
-    "Name": "月相轮转"
+    "Name": "月相轮转",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />抽 <Value1 /> 张牌。<br /><h>进入手中时</h>：费用降低<Mana />，直到战斗结束。"
   },
   "AttackMagic": {
-    "Name": "弹幕戏法"
+    "Name": "弹幕戏法",
+    "Description": "造成 <Damage /> 点伤害。<br />抽 <Value1 /> 张牌。<br />将 <Value2 /> 张<h>飞刀</h>加入手中。"
   },
   "SakuyaSleep": {
-    "Name": "稍作休息"
+    "Name": "稍作休息",
+    "Description": "将一张<h>光芒</h>加入手中。<br />结束<PlayerName />的回合。",
+    "UpgradedDescription": "将一张<h>光芒</h>加入手中。"
   },
   "CleanRoom": {
-    "Name": "打扫房间"
+    "Name": "打扫房间",
+    "Description": "选择一张手牌丢弃。<br />抽 <Value1 /> 张牌。<br />随机<h>升级</h> <Value2 /> 张手牌；如果丢弃的是<h>飞刀</h>，改为升级所有手牌。"
   },
   "ExileMagic": {
-    "Name": "调换魔法"
+    "Name": "调换魔法",
+    "Description": "选择至多 <Value1 /> 张手牌，<h>放逐</h>它们，将等量的<h>飞刀</h>加入手中。"
   },
   "SilverJump": {
-    "Name": "达摩克之刃"
+    "Name": "达摩克之刃",
+    "Description": "施加 <Value1 /> 回合<h>易伤</h>。<br />向抽牌堆和弃牌堆各洗入 <Value2 /> 张<h>飞刀</h>。"
   },
   "SakuyaInvestigate": {
-    "Name": "时停侦探"
+    "Name": "时停侦探",
+    "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。<br />进入额外的回合时再次生效。"
   },
   "GainKnife": {
-    "Name": "星剑飞舞"
+    "Name": "星剑飞舞",
+    "Description": "<PlayerName />的回合开始时，将 <Value1 /> 张<h>飞刀</h>加入手中。",
+    "UpgradedDescription": "<PlayerName />的回合开始时，将 <Value1 /> 张<h>飞刀</h>加入手中。<br />将 <Value2 /> 张<h>飞刀</h>加入手中。"
   },
   "SilverBullet": {
-    "Name": "银线编织"
+    "Name": "银线编织",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />获得 <Block /> 点<h>格挡</h>，手牌、抽牌堆和弃牌堆每一张<h>飞刀</h>提高 <Value1 /> 点。(<KnifeCount />张)"
   },
   "SakuyaDefenseRetain": {
-    "Name": "时刻警戒"
+    "Name": "时刻警戒",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>保留格挡</h>。"
   },
   "SakuyaAttackX": {
-    "Name": "推进之银"
+    "Name": "推进之银",
+    "Description": "<h>每支付</h><Mana />：造成 <Damage /> 点伤害。<br />目标被击败而攻击次数仍有剩余时，以另一个随机敌人为目标继续攻击。"
   },
   "SakuyaDraw": {
-    "Name": "毫无破绽"
+    "Name": "毫无破绽",
+    "Description": "当此牌被主动弃掉或<h>放逐</h>时，抽 <Value1 /> 张牌 。"
   },
   "VampireHunter": {
-    "Name": "吸血鬼猎手"
+    "Name": "吸血鬼猎手",
+    "Description": "造成 <Damage /> 点伤害。<br />如果目标具有<h>吸血鬼</h>效果，造成 <Value1 /> 倍伤害。"
   },
   "PrepareParty": {
-    "Name": "准备宴会"
+    "Name": "准备宴会",
+    "Description": "将至多一张手牌置于抽牌堆顶。<br />获得 <Block /> 点<h>格挡</h>。"
   },
   "SakuyaGraze": {
-    "Name": "意外躲避"
+    "Name": "意外躲避",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 层<h>闪避</h>。<br />洗牌时回到手中。"
   },
   "MihuanJack": {
-    "Name": "迷幻杰克"
+    "Name": "迷幻杰克",
+    "Description": "回合开始时，获得 <Value1 /> 层<h>时域冲击</h>。"
   },
   "SakuyaClock": {
-    "Name": "咲夜特制怀表"
+    "Name": "咲夜特制怀表",
+    "Description": "造成 <Damage /> 点伤害。<br />以<SelfName />击败一名敌人时，<h>放逐</h><SelfName />，结束<PlayerName />的回合，进行一个额外的回合。"
   },
   "LightSpeed": {
-    "Name": "光速跃迁"
+    "Name": "光速跃迁",
+    "Description": "造成 <Damage /> 点伤害。<br />如果这回合内弃过牌，获得<Mana />。"
   },
   "TimeLord": {
-    "Name": "主宰时空"
+    "Name": "主宰时空",
+    "Description": "获得 <Value1 /> 层<h>时域冲击</h>。"
   },
   "DangerousMagician": {
-    "Name": "危险的魔术师"
+    "Name": "危险的魔术师",
+    "Description": "每当一张<h>飞刀</h>生效时，<PlayerName />获得 <Value1 /> 层<h>时域冲击</h>。<br />将 <Value2 /> 张<h>飞刀</h>洗入抽牌堆。"
   },
   "ShengquanZaiwo": {
-    "Name": "胜券在握"
+    "Name": "胜券在握",
+    "Description": "获得<Mana />。"
   },
   "LunaDial": {
-    "Name": "个人空间"
+    "Name": "个人空间",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合。<br /><h>进入手中时</h>：费用降低<Mana />，直到战斗结束。"
   },
   "DropToKnife": {
-    "Name": "银之壁垒"
+    "Name": "银之壁垒",
+    "Description": "选择 <Value1 /> 张手牌丢弃。<br />每丢弃一张牌，将一张<h>飞刀</h>加入手中。"
   },
   "SakuyaFuneral": {
-    "Name": "过早的埋葬"
+    "Name": "过早的埋葬",
+    "Description": "失去 <Value1 /> 点生命。<br />从<h>放逐</h>区选择一张牌移回手中，它<h>暂塑</h>为<Mana />。"
   },
   "FakeTimeline": {
-    "Name": "假想时轴"
+    "Name": "假想时轴",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对所有敌人造成 <Damage /> 点伤害。<br />获得 <Value1 /> 层<h>时域冲击</h>。"
   },
   "SakuyaShop": {
-    "Name": "采购物资"
+    "Name": "采购物资",
+    "Description": "获得<Mana />。<br />抽 <Value1 /> 张牌。"
   },
   "SilverBlade": {
-    "Name": "银色异次元"
+    "Name": "银色异次元",
+    "Description": "每一张攻击牌生效后，获得 <Value1 /> 点<h>护盾</h>。"
   },
   "KnifeAim": {
-    "Name": "收缩的世界"
+    "Name": "收缩的世界",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 层<h>锁定</h>。<br />弃掉手中所有的<h>飞刀</h>，对目标造成伤害。"
   },
   "KnifeHell": {
-    "Name": "银之优雅"
+    "Name": "银之优雅",
+    "Description": "将 <Value1 /> 张<h>飞刀</h>加入手中。<br /><h>升级</h>所有的<h>飞刀</h>。"
   },
   "BackOfKnife": {
-    "Name": "吾刃回归"
+    "Name": "吾刃回归",
+    "Description": "将一张<h>尖刀快车</h>加入手中。<br /><h>放逐</h>区内的每张<h>飞刀</h>提高<h>尖刀快车</h> <Value1 /> 点伤害，将这些<h>飞刀</h>移出本场战斗。<br />（将会提高 <IncreasedDamage /> 点伤害）"
   },
   "GroupOfKnife": {
-    "Name": "尖刀快车"
+    "Name": "尖刀快车",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "BladePower": {
-    "Name": "快闪之银"
+    "Name": "快闪之银",
+    "Description": "主动使用<h>飞刀</h>后将一张随机的攻击牌加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。<br />将 <Value1 /> 张<h>飞刀</h>加入手中。"
   },
   "ClockCorpse": {
-    "Name": "钟表的残骸"
+    "Name": "钟表的残骸",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合，这一回合的抽牌阶段结束后无法再抽牌。"
   },
   "StopTime": {
-    "Name": "凝固时间"
+    "Name": "凝固时间",
+    "Description": "<PlayerName />的回合结束时，剩余法力中随机的 <Value1 /> 点，不会流失。"
   },
   "LoyalMaid": {
-    "Name": "忠实的仆从"
+    "Name": "忠实的仆从",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />在额外回合开始时，从弃牌堆回到手中，<h>暂塑</h>为<Mana />。"
   },
   "TimeWalk": {
-    "Name": "时间行走"
+    "Name": "时间行走",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合。<br />每场战斗中，只有第一张<SelfName />生效。"
   },
   "LunaClock": {
-    "Name": "月神之钟"
+    "Name": "月神之钟",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合，这一回合攻击无法造成伤害。"
   },
   "SpecialClock": {
-    "Name": "女仆秘技"
+    "Name": "女仆秘技",
+    "Description": "在<PlayerName />的回合开始时，选择至多一张手牌丢弃，抽等量的牌。"
   },
   "SakuyaDio": {
-    "Name": "下一个就轮到你了！"
+    "Name": "下一个就轮到你了！",
+    "Description": "主动使用的<h>飞刀</h>施加 <Value1 /> 层<h>锁定</h>。<br />结束<PlayerName />的回合，进行一个额外的回合。<br />跳过这一回合的抽牌阶段，改为将 <Value2 /> 张<h>飞刀</h>加入手中。"
   },
   "PerfectServant": {
-    "Name": "完美从者"
+    "Name": "完美从者",
+    "Description": "<h>每支付</h><ManaW /><ManaW />：下回合抽牌阶段结束时，所有手牌<h>暂时降低</h> <Value1 /> 点随机的费用。<br /><h>每支付</h><ManaU />：下回开始时获得<Mana />，并多抽 <Value2 /> 张牌。"
   },
   "BackToFuture": {
-    "Name": "回到未来"
+    "Name": "回到未来",
+    "Description": "对调抽牌堆和弃牌堆。<br />抽 <Value1 /> 张牌。"
   },
   "EvilMaid": {
-    "Name": "恶魔的女仆"
+    "Name": "恶魔的女仆",
+    "Description": "失去 <Value1 /> 点生命。<br /><PlayerName />的下个回合，所有的攻击造成双倍伤害。"
   },
   "ExtraTurnEveryone": {
-    "Name": "膨胀空间"
+    "Name": "膨胀空间",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合。<br />所有的敌人下次行动时，亦获得一个额外的回合。"
   },
   "TunnelEffect": {
-    "Name": "隧穿效应"
+    "Name": "隧穿效应",
+    "Description": "随机对敌人造成 <Damage /> 点伤害。<br />获得<Mana />。<br />洗牌时回到手中。"
   },
   "SakuyaKiller": {
-    "Name": "夜雾幻影杀人鬼"
+    "Name": "夜雾幻影杀人鬼",
+    "Description": "<PlayerName />的回合结束时，将 <Value1 /> 张<h>飞刀</h>洗入抽牌堆。<br />每当一名敌人被击败时亦如此。"
   },
   "BrokenTimeline": {
-    "Name": "破碎的时间线"
+    "Name": "破碎的时间线",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合，这一回合开始时不会从基础法力中获得法力。"
   },
   "AutoKnife": {
-    "Name": "妖器「银质飞刀」"
+    "Name": "妖器「银质飞刀」",
+    "Description": "本场战斗中，<h>飞刀</h>具有<h>自动放逐</h>。<br />将 <Value1 /> 张<h>飞刀</h>加入手中。"
   },
   "SakuyaDetective": {
-    "Name": "追查真凶"
+    "Name": "追查真凶",
+    "Description": "抽 <Value2 /> 张牌。<br />对阵真正的犯人时，战斗开始就对她造成 <Value1 /> 点伤害。<br />（已累计 <BossDamage /> 点）"
   },
   "SakuyaSpeedup": {
-    "Name": "加速时空"
+    "Name": "加速时空",
+    "Description": "将<h>时域冲击</h>的层数翻倍。<br /><h>充盈</h>：获得<Mana />。"
   },
   "SakuyaUsage": {
-    "Name": "咲夜的错误用法"
+    "Name": "咲夜的错误用法",
+    "Description": "抽 <Value1 /> 张牌。<br />第 <Value2 /> 次打出后，移出本场战斗；将一张<h>咲夜的正确用法</h>置于抽牌堆顶。"
   },
   "SakuyaUsage2": {
-    "Name": "咲夜的正确用法"
+    "Name": "咲夜的正确用法",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合。"
   },
   "MeilingFriend": {
-    "Name": "玩忽职守红美铃"
+    "Name": "玩忽职守红美铃",
+    "Description": "<FriendS />获得 <Graze /> 层<h>闪避</h>。<br /><FriendP />将一张<h>飞刀</h>加入手中。<br />当<PlayerName />受到一整轮攻击时额外触发一次。"
   },
   "UnlimitedTime": {
-    "Name": "完美的时停"
+    "Name": "完美的时停",
+    "Description": "从 <Value1 /> 张随机的<h>时间有限</h>牌中选择一张加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。<br />抹掉它的<h>时间有限</h>。"
   },
   "CirnoAttackU": {
-    "Name": "冰锥射击"
+    "Name": "冰锥射击",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "CirnoBlockG": {
-    "Name": "绿叶护体"
+    "Name": "绿叶护体",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "CirnoAttackG": {
-    "Name": "霜叶飞镖"
+    "Name": "霜叶飞镖",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "CirnoBlockU": {
-    "Name": "冰晶护罩"
+    "Name": "冰晶护罩",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "IceLance": {
-    "Name": "冰枪术"
+    "Name": "冰枪术",
+    "Description": "造成 <Damage /> 点伤害。<br />对<h>寒冷</h>的目标造成 <Value1 /> 倍伤害。"
   },
   "FreezeBullet": {
-    "Name": "冻结弹幕"
+    "Name": "冻结弹幕",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对下回合第一个攻击<PlayerName />的敌人施加<h>寒冷</h>。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />对下回合前两个攻击<PlayerName />的敌人施加<h>寒冷</h>。"
   },
   "DayaojingFriend": {
-    "Name": "调查助手大妖精"
+    "Name": "调查助手大妖精",
+    "Description": "<FriendP />对随机敌人造成 <Damage /> 点攻击伤害。"
   },
   "IceWing": {
-    "Name": "冰之翼"
+    "Name": "冰之翼",
+    "Description": "获得<Mana />。<br />展示抽牌堆中的随机两张蓝色牌，选择一张移入手中，将另一张置于牌堆底。"
   },
   "IceBolt": {
-    "Name": "冰弹"
+    "Name": "冰弹",
+    "Description": "造成 <Damage /> 点伤害，命中时施加<h>寒冷</h>。"
   },
   "Opt": {
-    "Name": "如履薄冰"
+    "Name": "如履薄冰",
+    "Description": "展示抽牌堆顶的牌，你可以将它置于抽牌堆底。<br />抽一张牌。<br />获得<Mana />。"
   },
   "OptBottom": {
-    "Name": "沉底"
+    "Name": "沉底",
+    "Description": "将<TargetName />置于抽牌堆底。"
   },
   "MaidFriend": {
-    "Name": "洋馆的女仆小霞"
+    "Name": "洋馆的女仆小霞",
+    "Description": "<FriendP />对生命值最低的敌人造成 <Damage /> 点攻击伤害。"
   },
   "ShiverArmor": {
-    "Name": "冰镜折射"
+    "Name": "冰镜折射",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>寒冰甲</h>。"
   },
   "FrostGarden": {
-    "Name": "闪亮登场"
+    "Name": "闪亮登场",
+    "Description": "对所有敌人施加<h>寒冷</h>。<br />如果手中有已召唤的<h>同伴牌</h>，<SelfName />费用为<Mana />。",
+    "UpgradedDescription": "对所有敌人施加<h>寒冷</h>。<br />下回合开始时再次生效。<br />如果手中有已召唤的<h>同伴牌</h>，<SelfName />费用为<Mana />。"
   },
   "GlacialSpike": {
-    "Name": "小小冰川"
+    "Name": "小小冰川",
+    "Description": "造成 <Damage /> 点伤害，命中时施加<h>寒冷</h>。<br />将一张<h>冰弹</h>加入手中。"
   },
   "CoolBreeze": {
-    "Name": "凉爽清风"
+    "Name": "凉爽清风",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />任意敌人处于<h>寒冷</h>时，<h>升级</h> <Value1 /> 张随机的手牌。"
   },
   "BlueRose": {
-    "Name": "凉爽蔷薇"
+    "Name": "凉爽蔷薇",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />造成 <Damage /> 点伤害。"
   },
   "SummerIce": {
-    "Name": "夏日冰沙"
+    "Name": "夏日冰沙",
+    "Description": "下回合开始时获得<Mana />。"
   },
   "CirnoInForest": {
-    "Name": "绝妙的伪装"
+    "Name": "绝妙的伪装",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>闪避</h>。"
   },
   "CirnoConsider": {
-    "Name": "深思熟虑"
+    "Name": "深思熟虑",
+    "Description": "<h>抉择</h>：获得 <Block /> 点<h>格挡</h>；或抽 <Value1 /> 张牌。"
   },
   "CirnoDraw": {
-    "Name": "妖精智慧"
+    "Name": "妖精智慧",
+    "Description": "抽 <Value1 /> 张牌。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。<br />下回合开始时，抽 <Value2 /> 张牌。"
   },
   "FreezeToIce": {
-    "Name": "冰冻标本"
+    "Name": "冰冻标本",
+    "Description": "选择至多 <Value1 /> 张手牌<h>放逐</h>，将等量的<h>冰之翼</h>洗入抽牌堆。",
+    "UpgradedDescription": "从手牌、抽牌堆和弃牌堆中选择至多 <Value1 /> 张牌<h>放逐</h>，将等量的<h>冰之翼</h>洗入抽牌堆。"
   },
   "IceLaser": {
-    "Name": "冰冻光线"
+    "Name": "冰冻光线",
+    "Description": "造成 <Damage /> 点伤害，命中时施加<h>寒冷</h>。<br />展示抽牌堆底的牌，如果它是蓝色牌，对另一个随机敌人再次生效。"
   },
   "CirnoFire": {
-    "Name": "可燃冰"
+    "Name": "可燃冰",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。<br />每有一个敌人处于<h>寒冷</h>，效果提高 <Value2 /> 点。"
   },
   "FreezeRiver": {
-    "Name": "浮冰"
+    "Name": "浮冰",
+    "Description": "将抽牌堆底的牌移入手中，它<h>暂塑</h>为<Mana />。"
   },
   "ColdBreath": {
-    "Name": "钻石气息"
+    "Name": "钻石气息",
+    "Description": "造成 <Damage /> 点伤害。<br />目标敌人处于<h>寒冷</h>时，获得<Mana />。"
   },
   "LeidiFriend": {
-    "Name": "凛冬的化身蕾蒂"
+    "Name": "凛冬的化身蕾蒂",
+    "Description": "<FriendP />对随机一名敌人施加<h>寒冷</h>。"
   },
   "ColdSnap": {
-    "Name": "快速降温"
+    "Name": "快速降温",
+    "Description": "将抽牌堆中的前 <Value1 /> 张蓝色牌移入手中，每张获得 <Value2 /> 点<h>护盾</h>。"
   },
   "IceSaber": {
-    "Name": "塑冰成剑"
+    "Name": "塑冰成剑",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次，施加<h>寒冷</h>。<br />打出时可以弃掉任意张数的蓝色手牌，每一张多攻击一次。"
   },
   "IceBarrier": {
-    "Name": "寒冰护体"
+    "Name": "寒冰护体",
+    "Description": "获得 <Value1 /> 层<h>寒冰甲</h>。"
   },
   "ZeroK": {
-    "Name": "绝对零度"
+    "Name": "绝对零度",
+    "Description": "提高 <Value1 /> 倍<h>寒冷</h>的叠加伤害。<br />对所有敌人施加<h>寒冷</h>。"
   },
   "Blizzard": {
-    "Name": "暴风雪"
+    "Name": "暴风雪",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，施加<h>寒冷</h>。<br />展示抽牌堆底的牌，如果它是蓝色牌，下回合开始时再次生效。"
   },
   "FrozenThrone": {
-    "Name": "冰封王座"
+    "Name": "冰封王座",
+    "Description": "将一张<h>冰弹</h>加入手中。<br /><PlayerName />的回合开始时，如果手中没有<h>冰弹</h>，将一张<h>冰弹</h>加入手中。"
   },
   "DoubleMana": {
-    "Name": "妖精的起床"
+    "Name": "妖精的起床",
+    "Description": "翻倍法力。<br /><h>透支</h> <Value1 /> 。"
   },
   "Tether": {
-    "Name": "羁绊"
+    "Name": "羁绊",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />手中的所有<h>同伴</h>牌获得 <Value1 /> 点<h>支援度</h>。"
   },
   "FairyWrath": {
-    "Name": "自然之怒"
+    "Name": "自然之怒",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />如果手中有已召唤的<h>调查助手大妖精</h>，将 <Value1 /> 张<h>盛夏之花</h>加入手中。"
   },
   "FairyTeam": {
-    "Name": "妖精大战争"
+    "Name": "妖精大战争",
+    "Description": "选择手中任意张<h>同伴</h>牌，<h>放逐</h>它们，获得它们的基础费用。<br />对随机敌人造成 <Damage /> 点伤害。<br />每选择了一张<h>同伴</h>牌，多造成一次伤害。"
   },
   "LarvaFriend": {
-    "Name": "夏夜之神拉尔瓦"
+    "Name": "夏夜之神拉尔瓦",
+    "Description": "<FriendP />对随机敌人施加 <Value1 /> 层<h>中毒</h>。"
   },
   "FriendDraw": {
-    "Name": "花园集会"
+    "Name": "花园集会",
+    "Description": "使用<h>同伴</h>的<ha>主动技能</ha>或<hu>终结技</hu>时，抽 <Value1 /> 张牌。<br />使用<hu>终结技</hu>时额外获得 <Value1 /> 点随机的法力。"
   },
   "LilyFriend": {
-    "Name": "春日降临莉莉白"
+    "Name": "春日降临莉莉白",
+    "Description": "<FriendS />随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。<br /><FriendP />获得<TurnMana />。"
   },
   "CallFriends": {
-    "Name": "呼朋唤友"
+    "Name": "呼朋唤友",
+    "Description": "从 <Value1 /> 张随机的<h>同伴</h>牌中选择一张加入手中，它们处于已召唤的状态。",
+    "UpgradedDescription": "从 <Value1 /> 张随机的<h>同伴</h>牌中选择一张加入手中，它们处于已召唤的状态。<br />额外添加一张<he>三月精</he>作为选项。"
   },
   "FairyTree": {
-    "Name": "妖精之家"
+    "Name": "妖精之家",
+    "Description": "主动打出而召唤一名<h>同伴</h>时，获得 <Value1 /> 点<h>格挡</h>。"
   },
   "MoreFriends": {
-    "Name": "社交达人"
+    "Name": "社交达人",
+    "Description": "<PlayerName />的回合开始时，将 <Value1 /> 张随机的<h>同伴</h>牌加入手中。<br />如此获得的<h>同伴</h>牌具有<h>虚无</h>，被召唤后会移除<h>虚无</h>。"
   },
   "FairyOnIce": {
-    "Name": "冰上的妖精"
+    "Name": "冰上的妖精",
+    "Description": "将 <Value1 /> 张<h>冰之翼</h>置于牌堆顶。<br />获得 <Value2 /> 层<h>闪避</h>。 "
   },
   "FruitShake": {
-    "Name": "水果碎碎冰"
+    "Name": "水果碎碎冰",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，命中时施加<h>寒冷</h>。<br />如果本回合召唤过一名<h>同伴</h>，<SelfName />费用为<Mana />。"
   },
   "SummerParty": {
-    "Name": "冰爽派对"
+    "Name": "冰爽派对",
+    "Description": "获得 <Value1 /> 层<h>寒冰甲</h>。<br />手中的所有<h>同伴</h>牌获得 <Value2 /> 点<h>支援度</h>。"
   },
   "ColdChain": {
-    "Name": "冷链物流"
+    "Name": "冷链物流",
+    "Description": "从抽牌堆中选择至多 <Value1 /> 张牌移入手中。"
   },
   "FrozenOrb": {
-    "Name": "冰封球"
+    "Name": "冰封球",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，施加<h>寒冷</h>。<br />将 <Value1 /> 张<h>冰弹</h>加入手中。"
   },
   "IceBlock": {
-    "Name": "寒冰屏障"
+    "Name": "寒冰屏障",
+    "Description": "免疫所有的伤害一回合。<br />移除所有的<h>格挡</h>、<h>护盾</h>和<h>闪避</h>。<br /><h>保留</h>当前的手牌一回合，结束<PlayerName />的回合。"
   },
   "DeepFreeze": {
-    "Name": "冰尖之舞"
+    "Name": "冰尖之舞",
+    "Description": "打出蓝色卡牌后，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>。"
   },
   "IceMatrix": {
-    "Name": "冰冻矩阵"
+    "Name": "冰冻矩阵",
+    "Description": "<PlayerName />对敌人施加<h>寒冷</h>时，获得 <Value1 /> 层<h>寒冰甲</h>。<br />获得 <Value2 /> 层<h>寒冰甲</h>。"
   },
   "InstantFreeze": {
-    "Name": "急速冷却"
+    "Name": "急速冷却",
+    "Description": "对所有敌人施加<h>寒冷</h>。<br />结束<PlayerName />的回合，进行一个额外的回合。<br /><h>时间有限</h><Mana />。"
   },
   "ColdHearted": {
-    "Name": "冰冷血脉"
+    "Name": "冰冷血脉",
+    "Description": "本回合内<h>冰枪术</h>对<h>寒冷</h>的目标造成三倍伤害。<br />将 <Value1 /> 张<h>冰枪术</h>加入手中，它们<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "BestFriend": {
-    "Name": "最好的朋友"
+    "Name": "最好的朋友",
+    "Description": "选择手中至多 <Value1 /> 张<h>同伴</h>牌，其<h>支援度</h>达到最高。<br /><h>充盈</h>：获得<Mana />。"
   },
   "CirnoEcho": {
-    "Name": "自然的馈赠"
+    "Name": "自然的馈赠",
+    "Description": "从弃牌堆中选择 <Value1 /> 张牌移回手中，赋予<h>回响</h>。"
   },
   "FairyAllOut": {
-    "Name": "全体出动"
+    "Name": "全体出动",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />手中所有已召唤的<h>同伴</h>牌，触发<hf>被动技能</hf>。"
   },
   "LarvaDefense": {
-    "Name": "振翅飞行"
+    "Name": "振翅飞行",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对所有敌人施加 <Value1 /> 回合<h>虚弱</h>。<br />如果手中有已召唤的<h>夏夜之神拉尔瓦</h>，额外施加 <Value2 /> 层<h>中毒</h>。"
   },
   "MinengZhuru": {
-    "Name": "秘能注入"
+    "Name": "秘能注入",
+    "Description": "<h>同伴</h>牌的<hf>被动技能</hf>生效时，额外生效一次。<br />支援度变化不会额外生效。"
   },
   "GatherFairy": {
-    "Name": "妖精集结"
+    "Name": "妖精集结",
+    "Description": "手牌上限提高至 <MaxHand /> 张。<br />抽 <Value1 /> 张牌。",
+    "UpgradedDescription": "手牌上限提高至 <MaxHand /> 张。<br />抽 <Value1 /> 张牌。<br />手中所有<h>同伴</h>牌提高 <Value2 /> 点<h>支援度</h>。"
   },
   "ForeverCool": {
-    "Name": "永远凉爽的幻想四季"
+    "Name": "永远凉爽的幻想四季",
+    "Description": "使用<h>同伴</h>的<ha>主动技能</ha>或<hu>终结技</hu>时，对随机敌人施加<h>寒冷</h>。<br />任意敌人受到<h>寒冷</h>时，手中随机的<h>同伴</h>牌获得 <Value1 /> 点<h>支援度</h>。"
   },
   "HualiIce": {
-    "Name": "华丽夏日冰"
+    "Name": "华丽夏日冰",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，施加<h>寒冷</h>。<br />本回合累计打出 <Value1 /> 张卡牌后费用为<Mana />。<br />（剩余 <Countdown /> 张）"
   },
   "ChooseFriend": {
-    "Name": "相约雾之湖"
+    "Name": "相约雾之湖",
+    "Description": "从 <Value1 /> 张随机的<h>同伴</h>牌中选择至多 <Value2 /> 张加入手中，它们的费用可以用任意颜色支付。"
   },
   "LunaFriend": {
-    "Name": "静谧的月光露娜"
+    "Name": "静谧的月光露娜",
+    "Description": "<FriendP />获得 <Block /> 点<h>格挡</h>。"
   },
   "WhiteWorld": {
-    "Name": "纯白的世界"
+    "Name": "纯白的世界",
+    "Description": "<PlayerName />的回合开始时，对所有敌人施加<h>寒冷</h>。<br />对所有敌人施加<h>寒冷</h>。"
   },
   "PlayWithWaste": {
-    "Name": "垃圾堆探险"
+    "Name": "垃圾堆探险",
+    "Description": "从 <Value1 /> 张随机的非稀有<h>道具牌</h>中选择一张加入手中。<br />它被标记为<h>复制品</h>，使用次数为一。"
   },
   "StarFriend": {
-    "Name": "倾泻的星光斯塔"
+    "Name": "倾泻的星光斯塔",
+    "Description": "<FriendP />对所有敌人造成 <Damage /> 点攻击伤害。"
   },
   "FairyTrick": {
-    "Name": "妖精恶作剧"
+    "Name": "妖精恶作剧",
+    "Description": "失去 <Value1 /> 点生命。<br />召唤三张<he>三月精</he>，将随机一张加入手中，其余的洗入抽牌堆。",
+    "UpgradedDescription": "失去 <Value1 /> 点生命。<br />召唤四张<he>三月精</he>，将随机一张加入手中，其余的洗入抽牌堆。"
   },
   "BrainOverclock": {
-    "Name": "大脑超频"
+    "Name": "大脑超频",
+    "Description": "获得<Mana />。<br />抽 <Value2 /> 张牌。<br /><h>透支</h> <Value1 /> 。"
   },
   "SunnyFriend": {
-    "Name": "闪耀的日光桑尼"
+    "Name": "闪耀的日光桑尼",
+    "Description": "<FriendP />随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。"
   },
   "Xiguadao": {
-    "Name": "西瓜刀"
+    "Name": "西瓜刀",
+    "Description": "随机对敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />获得 <Value2 /> 点<h>火力</h>。"
   },
   "ClownpieceFriend": {
-    "Name": "疯狂的克劳恩皮丝"
+    "Name": "疯狂的克劳恩皮丝",
+    "Description": "<FriendS />获得<StartMana />。<br /><FriendP />获得 <Value2 /> 点<h>暂得火力</h>。"
+  },
+  "KoishiAttackG": {
+    "Name": "双生的螺旋",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "KoishiBlockB": {
+    "Name": "自闭",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "KoishiAttackB": {
+    "Name": "溢出的爱",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "KoishiBlockG": {
+    "Name": "花团锦簇",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "DefaultPassion": {
+    "Name": "孤独之心",
+    "Description": "造成 <Damage /> 点伤害。<br />进入<h>热情</h>。"
+  },
+  "DefaultPeace": {
+    "Name": "热恋荆棘",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />进入<h>平静</h>。"
+  },
+  "FindInspiration": {
+    "Name": "寻找灵感",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Value1 /> 层<h>灵感迸发</h>。"
+  },
+  "InspirationCard": {
+    "Name": "灵感",
+    "Description": "<h>进入手中时</h>：转变为一张随机颜色的<he>灵感牌</he>，生效然后<h>放逐</h>自身。<br />在抽牌阶段具有<h>填充</h>。"
+  },
+  "InspirationBlack": {
+    "Name": "黑色灵感",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />对一个随机敌人造成 <Damage /> 点伤害。"
+  },
+  "InspirationGreen": {
+    "Name": "绿色灵感",
+    "Description": "获得<Mana />。"
+  },
+  "InspirationWhite": {
+    "Name": "白色灵感",
+    "Description": "<h>升级</h> <Value1 /> 张随机的手牌。<br />没有合适目标时，每张<h>升级</h>的机会转化为 <Value2 /> 点<h>格挡</h>。"
+  },
+  "InspirationRed": {
+    "Name": "红色灵感",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。"
+  },
+  "PassionDefense": {
+    "Name": "本能之爱",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>热情</h>：额外获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "EnterPassion": {
+    "Name": "热情的回忆",
+    "Description": "进入<h>热情</h>。"
+  },
+  "LeaveMoodAttack": {
+    "Name": "无意识的行动",
+    "Description": "造成 <Damage /> 点伤害。<br />离开当前的<h>心境</h>。"
+  },
+  "KoishiZeroAttack": {
+    "Name": "盲目之爱",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>神游</h>：造成两次伤害。"
+  },
+  "EnterPeace": {
+    "Name": "平静的回忆",
+    "Description": "进入<h>平静</h>。"
+  },
+  "LeaveMoodGraze": {
+    "Name": "无意识的回避",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />离开当前的<h>心境</h>。"
+  },
+  "MoodAttack": {
+    "Name": "心境连击",
+    "Description": "造成 <Damage /> 点伤害。<br />当<PlayerName />转化<h>心境</h>时，从弃牌堆回到手中。"
+  },
+  "PassionVulnerable": {
+    "Name": "本我的解放",
+    "Description": "<h>热情</h>：对所有敌人施加 <Value1 /> 回合<h>易伤</h>。<br />否则，进入<h>热情</h>。"
+  },
+  "NextTurnPassion": {
+    "Name": "被厌恶者的哲学",
+    "Description": "<PlayerName />的下回合开始时，进入<h>热情</h>，抽 <Value1 /> 张牌。"
+  },
+  "PassionAttackToDraw": {
+    "Name": "忘我之爱",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />进入<h>热情</h>。<br />将这张牌洗入抽牌堆。"
+  },
+  "PassionDraw": {
+    "Name": "热情抽牌",
+    "Description": "每当<PlayerName />进入<h>热情</h>时，抽 <Value1 /> 张牌。"
+  },
+  "PeaceEndTurn": {
+    "Name": "回神",
+    "Description": "进入<h>平静</h>。<br />结束<PlayerName />的回合。",
+    "UpgradedDescription": "从弃牌堆中选择至多 <Value1 /> 张牌移回手中，<h>保留</h>它一回合。<br />进入<h>平静</h>。<br />结束<PlayerName />的回合。"
+  },
+  "BabyDream": {
+    "Name": "胎儿之梦",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />进入<h>平静</h>。"
+  },
+  "PeaceDraw": {
+    "Name": "掌控自我",
+    "Description": "<h>平静</h>：抽 <Value1 /> 张牌。<br />否则，进入<h>平静</h>。"
+  },
+  "PeaceBlock": {
+    "Name": "平静格挡",
+    "Description": "<PlayerName />的回合结束时如果处于<h>平静</h>，获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "LeaveMoodDraw": {
+    "Name": "无意识的云游",
+    "Description": "抽 <Value1 /> 张牌。<br />离开当前的<h>心境</h>。"
+  },
+  "MoodChangeBlock": {
+    "Name": "心灵壁垒",
+    "Description": "每当<PlayerName />转化<h>心境</h>时，获得 <Value1 /> 点<h>格挡</h>。"
+  },
+  "PsycheLock": {
+    "Name": "心灵枷锁",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />获得<Mana />。<br /><SelfName />在手中时，<PlayerName />进入过三种不同的<h>心境</h>后才可以打出。（剩余 <Count /> 种未进入）"
+  },
+  "YaoguaiNaodianbo": {
+    "Name": "妖怪脑电波",
+    "Description": "造成 <Damage /> 点伤害，进入<h>热情</h>。<br /><h>直觉</h>：获得<Mana />。"
+  },
+  "YoubiKongjuzheng": {
+    "Name": "幽闭恐惧症",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>直觉</h>：获得 <Shield /> 点<h>护盾</h>。"
+  },
+  "QinchunPanni": {
+    "Name": "青春期叛逆",
+    "Description": "<h>不在热情中</h>：对生命值最低的敌人造成 <Damage /> 点伤害。<br /><h>热情中</h>：获得 <Block /> 点<h>格挡</h>，抽 <Value1 /> 张牌。"
+  },
+  "FlowerGone": {
+    "Name": "旧梦凋零",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>平静中</h>：获得 <Value1 /> 点<h>灵力</h>，放逐<SelfName />。"
+  },
+  "ZhuozhuangChengzhang": {
+    "Name": "茁壮成长",
+    "Description": "<PlayerName />的回合结束时，将 <Value1 /> 张<h>生机</h>加入手牌。",
+    "UpgradedDescription": "获得 <Value2 /> 层<h>闪避</h>。<br /><PlayerName />的回合结束时，将 <Value1 /> 张<h>生机</h>加入手牌。"
+  },
+  "LianaiChongdong": {
+    "Name": "恋爱冲动",
+    "Description": "<h>不在平静中</h>：下一张<h>基本</h>牌的数值提高 <Value1 />。<br /><h>平静中</h>：所有<h>基本</h>牌的数值提高 <Value2 />。"
+  },
+  "TaoqiQiangwei": {
+    "Name": "淘气蔷薇",
+    "Description": "获得 <Block /> 点<h>格挡</h>，抽 <Value1 /> 张牌。<br /><h>打出相邻手牌时</h>：费用减少<Mana />，直到战斗结束。"
+  },
+  "LoveSeed": {
+    "Name": "恋爱的种子",
+    "Description": "恢复 <Value1 /> 点生命，获得<TotalMana />。<br /><h>打出相邻手牌时</h>：获得的法力提高<Mana />。"
+  },
+  "BenwoTouying": {
+    "Name": "盲目的爱",
+    "Description": "每次进入<h>热情</h>时，将一张<hp>完全随机</hp>的<h>攻击</h>牌加入手中，暂塑为<Mana />且附带<h>放逐</h>。<br />进入<h>热情</h>。"
+  },
+  "BeihaiWangxiang": {
+    "Name": "被害妄想症",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得半数护盾的<h>抑制</h>。"
+  },
+  "CloseMemory": {
+    "Name": "尘封的回忆",
+    "Description": "抽 <Value1 /> 张牌。<br />抽取到的卡牌获得<h>回响</h>。"
+  },
+  "Danxiangsi": {
+    "Name": "单相思",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。<br /><h>被保留时</h>：获得的<h>火力</h>提高 <Value2 /> 点。"
+  },
+  "JiyiShitihua": {
+    "Name": "记忆实体化",
+    "Description": "复制手中的一张的攻击牌，复制品费用为<Mana />且附带<h>放逐</h>。<br />造成<Damage />点伤害。"
+  },
+  "PerfectCrime": {
+    "Name": "完美作案",
+    "Description": "窃取目标的<h>灵力</h>、<h>闪避</h>、<h>护身符</h>、<h>光学迷彩</h>、<h>天衣无缝</h>。<br />造成 <Damage /> 点伤害。"
+  },
+  "Kongxiangshang": {
+    "Name": "空想上的人格保持者",
+    "Description": "打出<h>基本防御</h>牌后进入<h>平静</h>。"
+  },
+  "ZuxianTuomeng": {
+    "Name": "祖先托梦",
+    "Description": "<h>抽取时</h>：<h>放逐</h>最左边的手牌，将 <Value1 /> 张被放逐卡牌的复制加入手牌，这些牌<h>暂塑</h>为<Mana />，附带<h>放逐</h>。"
+  },
+  "ChaoyueZiwo": {
+    "Name": "超越自我",
+    "Description": "<PlayerName />的回合开始时，如果处于<h>心境</h>，获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。"
+  },
+  "LoveFire": {
+    "Name": "恋之埋火",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>每支付</h><Mana />：伤害提高 <Value1 /> 点。<br />记录打出时支付的法力，下一次打出时返还记录的法力。"
+  },
+  "Beiyanwu": {
+    "Name": "被厌恶者的哲学",
+    "Description": "<h>放逐</h>相邻的手牌，每以此法放逐一张卡牌，获得<Mana />并抽 <Value1 /> 张牌。"
+  },
+  "WuyishiDNA": {
+    "Name": "灵魂出窍",
+    "Description": "进入<h>神游</h>，结束<PlayerName />的回合，进行一个额外的回合。<br /><PlayerName />的回合结束时，如果不处于<h>神游</h>，死亡。"
+  },
+  "QiangweiDiyu": {
+    "Name": "蔷薇地狱",
+    "Description": "获得<Value1 />层<h>蔷薇地狱</h>。<br />每当打出一张<h>基本</h>牌时，获得<Value2 />层<h>蔷薇地狱</h>，抽1张牌。<br />（蔷薇地狱：每当一张基本牌进入手中时，对随机敌人造成当前层数的伤害。）"
+  },
+  "WuyunJiekong": {
+    "Name": "五蕴皆空",
+    "Description": "放逐抽牌堆，手牌，弃牌堆内的所有<h>状态</h>或<h>诅咒</h>牌。<br />移除所有负面效果。"
+  },
+  "MirrorTest": {
+    "Name": "镜像测试",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br /><h>在手中</h>：打出相邻的手牌后，如果打出的是一张<h>攻击牌</h>，将<SelfName />转变为打出牌的复制，并获得 <Shield /> 点<h>护盾</h>。"
+  },
+  "EnterEnlight": {
+    "Name": "进入神游",
+    "Description": "进入<h>神游</h>。"
+  },
+  "QingxingMeng": {
+    "Name": "意识下潜",
+    "Description": "<PlayerName />的回合开始时，将 <Value1 /> 张<h>完全随机</h>的<h>稀有</h>牌加入手中，它暂塑为<Mana />，具有<h>放逐</h>、<h>虚无</h>。<br /><PlayerName />的每个回合只能打出 <Limit /> 张<h>稀有</h>牌。"
+  },
+  "LunaticPassion": {
+    "Name": "疯狂之爱",
+    "Description": "<h>热情</h>状态下的额外伤害比例改为 <Percentage />%。<br />进入<h>热情</h>。"
+  },
+  "SiwangLaiDian": {
+    "Name": "恐怖的可爱来电",
+    "Description": "选择并<h>放逐</h>手牌中的一张<h>攻击牌</h>，将 <Value1 /> 张复制置入抽牌堆顶部。<br />如果选择了<h>基本牌</h>，则使复制附带<h>填充</h>。",
+    "UpgradedDescription": "选择并<h>放逐</h>一张手牌，将 <Value1 /> 张复制置入抽牌堆顶部。<br />如果选择了<h>基本牌</h>，则使复制附带<h>填充</h>。"
+  },
+  "KokoroFriend": {
+    "Name": "人格面具觉醒秦心",
+    "Description": "<FriendP />被动效果。"
+  },
+  "AliceAttackW": {
+    "Name": "未来文乐",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "AliceAttackB": {
+    "Name": "回归虚无",
+    "Description": "造成 <Damage /> 点伤害。"
+  },
+  "AliceBlockU": {
+    "Name": "弹幕结界",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
+  },
+  "DeployShanghai": {
+    "Name": "部署上海人偶",
+    "Description": "<h>部署</h>一个<he>上海人偶</he>，发动其<h>操纵效果</h>。"
+  },
+  "UpgradeDoll": {
+    "Name": "少女文乐",
+    "Description": "升级一个<he>上海人偶</he>。"
+  },
+  "DeployPenglai": {
+    "Name": "部署蓬莱人偶",
+    "Description": "<h>部署</h>一个<he>蓬莱人偶</he>，发动其<h>操纵效果</h>。"
+  },
+  "SacrificeDoll": {
+    "Name": "自杀协议",
+    "Description": "选择一个人偶<h>撤离</h>，对所有敌人造成 <Damage /> 点伤害。"
+  },
+  "DoubleActiveTrigger": {
+    "Name": "双重触发",
+    "Description": "(WIP) 触发最前面的 Doll 主动效果两次"
+  },
+  "TriggerAllPassive": {
+    "Name": "触发全部被动",
+    "Description": "(WIP) 触发所有 Doll 被动效果"
+  },
+  "GainDollSlot": {
+    "Name": "Gain Doll Slot",
+    "Description": "(WIP) 获得 <Value1 /> Doll Slot"
   },
   "YoumuAttack": {
-    "Name": "心抄斩"
+    "Name": "心抄斩",
+    "Description": "造成 <Damage /> 点伤害。<br />选择一张手牌<h>放逐</h>。"
   },
   "YukariFlyObject": {
-    "Name": "超高速飞行物体"
+    "Name": "超高速飞行物体",
+    "Description": "下回合开始时，对生命值最高的敌人造成 <Value1 /> 点伤害。"
   },
   "BailianJingang": {
-    "Name": "金刚体"
+    "Name": "金刚体",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 点<h>反射</h>。"
   },
   "YunyouShengdi": {
-    "Name": "云游圣地"
+    "Name": "云游圣地",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />选择一张手牌<h>升级</h>，直到本场战斗结束。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br /><h>升级</h>所有手牌，直到本场战斗结束。"
   },
   "NazrinBaota": {
-    "Name": "宝塔的眩光"
+    "Name": "宝塔的眩光",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>升级</h> <Value1 /> 张随机的手牌，攻击牌优先。"
   },
   "RingoJinghua": {
-    "Name": "净化大地"
+    "Name": "净化大地",
+    "Description": "选择至多 <Value1 /> 张手牌<h>放逐</h>。<br />获得 <Value2 /> 点<Power />。",
+    "UpgradedDescription": "从手牌、抽牌堆和弃牌堆中选择至多 <Value1 /> 张牌<h>放逐</h>。<br />获得 <Value2 /> 点<Power />。"
   },
   "HuashanQingjing": {
-    "Name": "清静"
+    "Name": "清静",
+    "Description": "获得 <Block /> 点<h>格挡</h>。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />移除<PlayerName />的<h>易伤</h>。"
   },
   "SanaeSpirit": {
-    "Name": "收集信仰"
+    "Name": "收集信仰",
+    "Description": "获得 <Value1 /> 点<h>灵力</h>。"
   },
   "BailianNingshen": {
-    "Name": "凝神"
+    "Name": "凝神",
+    "Description": "从 <Value1 /> 张随机的普通牌中选择一张加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。",
+    "UpgradedDescription": "从 <Value1 /> 张随机的普通牌中选择一张加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。<br /><h>初见</h>：将一张<h>光芒</h>加入手中。"
   },
   "PrismriverWhite": {
-    "Name": "小号独奏"
+    "Name": "小号独奏",
+    "Description": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>折射日光</h>洗入弃牌堆。",
+    "UpgradedDescription": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>折射日光</h>洗入弃牌堆。<br /><h>初见</h>：获得 <Value2 /> 点<Power />。"
   },
   "HuiyinRemove": {
-    "Name": "吞噬历史"
+    "Name": "吞噬历史",
+    "Description": "从牌库中移除一张牌。<br /><SelfName />打出后移出战斗和牌库。"
   },
   "ShenziUpgradeAll": {
-    "Name": "得道升仙"
+    "Name": "得道升仙",
+    "Description": "<h>升级</h>所有牌，直到本场战斗结束。"
   },
   "HuiyeMarblePhantasm": {
-    "Name": "空想具现化"
+    "Name": "空想具现化",
+    "Description": "从 <Value1 /> 张随机的卡牌中选择一张加入手中，这些卡牌的原始费用总数为 X+1 。<br />它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "YukariSwarm": {
-    "Name": "飞光虫之巢"
+    "Name": "飞光虫之巢",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />如果<h>放逐</h>区有不少于 <Value1 /> 张牌，造成两次伤害。",
+    "UpgradedDescription": "选择至多 <Value2 /> 张手牌<h>放逐</h>。<br />对所有敌人造成 <Damage /> 点伤害。<br />如果<h>放逐</h>区有不少于 <Value1 /> 张牌，造成两次伤害。"
   },
   "YuetuInvincible": {
-    "Name": "天降的月兔"
+    "Name": "天降的月兔",
+    "Description": "获得 <Value1 /> 回合<h>天衣无缝</h>。<br />将 <Value2 /> 张<h>遗失的羽衣</h>洗入抽牌堆。"
   },
   "YuetuYuyi": {
-    "Name": "遗失的羽衣"
+    "Name": "遗失的羽衣",
+    "Description": "获得 <Value1 /> 回合<h>天衣无缝</h>。"
   },
   "BlueZeroAttack": {
-    "Name": "激流"
+    "Name": "激流",
+    "Description": "造成 <Damage /> 点伤害。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 回合<h>虚弱</h>。"
   },
   "PlayWithWater": {
-    "Name": "戏水"
+    "Name": "戏水",
+    "Description": "抽 <Value1 /> 张牌。<br />选择一张手牌丢弃。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。<br />选择至多一张手牌丢弃。"
   },
   "KokoroAttack": {
-    "Name": "杞人忧地"
+    "Name": "杞人忧地",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />抽 <Value1 /> 张牌。"
   },
   "QinglanAttack": {
-    "Name": "兔已着陆"
+    "Name": "兔已着陆",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>占卜</h> <Scry /> 。<br />抽 <Value2 /> 张牌。"
   },
   "NitoriUnderWater": {
-    "Name": "水色绒毯"
+    "Name": "水色绒毯",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />抽 <Value1 /> 张牌。"
   },
   "ShuimiUnderWater": {
-    "Name": "船底幽灵"
+    "Name": "船底幽灵",
+    "Description": "当此牌被主动弃掉或<h>放逐</h>时，获得<Mana />。"
   },
   "HatateDiscard": {
-    "Name": "新闻捏造"
+    "Name": "新闻捏造",
+    "Description": "选择 <Value1 /> 张手牌丢弃。<br />获得<Mana />。",
+    "UpgradedDescription": "选择 <Value1 /> 至 <Value2 /> 张手牌丢弃。<br />获得<Mana />。"
   },
   "QingeDraw": {
-    "Name": "道胎动"
+    "Name": "道胎动",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />抽 <Value1 /> 张牌，丢弃它们中费用总数大于一的牌。"
   },
   "HuiyinMoreDraw": {
-    "Name": "传道授业"
+    "Name": "传道授业",
+    "Description": "抽牌阶段多抽 <Value1 /> 张牌。"
   },
   "WaterPrincess": {
-    "Name": "水精公主"
+    "Name": "水精公主",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />每有一张手牌，就提高 <Value1 /> 点。（总计 <Special /> 点）<br /><h>初见</h>：将一张<h>水花</h>加入手中。"
   },
   "YonglinDraw": {
-    "Name": "神代的记忆"
+    "Name": "神代的记忆",
+    "Description": "抽 <Value1 /> 张牌，这些牌的费用<h>暂时降低</h><Mana />。"
   },
   "DoremyDuplicate": {
-    "Name": "梦我梦中"
+    "Name": "梦我梦中",
+    "Description": "选择一张手牌，将 <Value1 /> 张的它的复制加入手中。"
   },
   "GuijiZaoxingYuan": {
-    "Name": "圆形造形术"
+    "Name": "圆形造形术",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />造成 <Damage /> 点伤害。<br />打出后变化为另一张随机的<he>造形术</he>。"
   },
   "GuijiZaoxingFang": {
-    "Name": "方形造形术"
+    "Name": "方形造形术",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />打出后变化为另一张随机的<he>造形术</he>。"
   },
   "GuijiZaoxingHu": {
-    "Name": "弧形造形术"
+    "Name": "弧形造形术",
+    "Description": "造成 <Damage /> 点伤害。<br />抽 <Value1 /> 张牌。<br />打出后变化为另一张随机的<he>造形术</he>。"
   },
   "YonglinCard": {
-    "Name": "贤者的归隐"
+    "Name": "贤者的归隐",
+    "Description": "<PlayerName />的回合结束时，将 <Value1 /> 张<h>虚假之月</h>洗入抽牌堆。",
+    "UpgradedDescription": "<PlayerName />的回合结束时，将 <Value1 /> 张<h>虚假之月</h>洗入抽牌堆。<br />将 <Value2 /> 张<h>虚假之月</h>置于抽牌堆顶。"
   },
   "FakeMoon": {
-    "Name": "虚假之月"
-  },
-  "Shadow": {
-    "Name": "暗影"
+    "Name": "虚假之月",
+    "Description": "选择一张手牌，将 <Value1 /> 张它<h>暂塑</h>为<Mana />的复制加入手中，这张复制具有<h>放逐</h>和<h>虚无</h>。如果目标是<h>能力</h>牌或具有<h>放逐</h>，它成为<h>复制品</h>。"
   },
   "RumiaBlock": {
-    "Name": "遮光"
+    "Name": "遮光",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将 <Value1 /> 张<h>暗影</h>加入手中。"
   },
   "YuyukoDebuff": {
-    "Name": "无寿之梦"
+    "Name": "无寿之梦",
+    "Description": "施加 <Value1 /> 回合的<h>虚弱</h>和<h>易伤</h>。"
   },
   "ShannvAttack": {
-    "Name": "瘴气四溢"
+    "Name": "瘴气四溢",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 层<h>中毒</h>。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />对所有敌人施加 <Value1 /> 层<h>中毒</h>。"
   },
   "SatoriAttack": {
-    "Name": "心花绽放"
+    "Name": "心花绽放",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>直觉</h>：如果有敌人的意图为攻击，获得 <Block /> 点<h>格挡</h>。"
   },
   "MystiaSing": {
-    "Name": "夜雀之歌"
+    "Name": "夜雀之歌",
+    "Description": "对所有敌人施加 <Value1 /> 点<h>暂失火力</h>。<br />获得 <Value1 /> 点<Power />。<br />将 <Value2 /> 张<h>暗影</h>加入手中。"
   },
   "SatoriMemory": {
-    "Name": "深沉回忆"
+    "Name": "深沉回忆",
+    "Description": "展示弃牌堆中的随机 <Value1 /> 张牌，选择一张移回手中。<br /><h>直觉</h>：它<h>暂塑</h>为<Mana />。"
   },
   "ShannvAbility": {
-    "Name": "原因不明的热病"
+    "Name": "原因不明的热病",
+    "Description": "<PlayerName />的回合结束时，对所有敌人施加 <Value1 /> 层<h>中毒</h>。"
   },
   "XiaoemoBook": {
-    "Name": "恶魔典籍"
+    "Name": "恶魔典籍",
+    "Description": "选择一张手牌<h>放逐</h>。<br />抽 <Value1 /> 张牌。<br /><h>初见</h>：将一张<h>灵异</h>加入手中。"
   },
   "PrismriverBlack": {
-    "Name": "提琴独奏"
+    "Name": "提琴独奏",
+    "Description": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>寂静月光</h>洗入弃牌堆。",
+    "UpgradedDescription": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>寂静月光</h>洗入弃牌堆。<br /><h>初见</h>：获得 <Value2 /> 点<Power />。"
   },
   "BlackHorseZui": {
-    "Name": "黑天马的罪孽"
+    "Name": "黑天马的罪孽",
+    "Description": "失去 <Value1 /> 点生命。<br />对所有敌人造成 <Damage /> 点伤害 <Value2 /> 次。"
   },
   "HinaAttack": {
-    "Name": "厄运之轮"
+    "Name": "厄运之轮",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />牌库里每有一张<h>厄运</h>，多造成一次伤害。"
   },
   "RemiliaFate": {
-    "Name": "操纵命运"
+    "Name": "操纵命运",
+    "Description": "选择至多 <Value1 /> 张手牌丢弃。<br />将抽牌堆中随机的数张牌移入手中，它们的基础费用总数分别为一二三。",
+    "UpgradedDescription": "选择至多 <Value1 /> 张手牌丢弃。<br />将抽牌堆中随机的数张牌移入手中，它们的基础费用总数分别为一二三四五。"
   },
   "BailianBlack": {
-    "Name": "拥抱黑暗"
+    "Name": "拥抱黑暗",
+    "Description": "所有防御、技能和状态牌，打出后被<h>放逐</h>，它们的费用降至<Mana />。"
   },
   "GrimoireStudy": {
-    "Name": "研读魔导书"
+    "Name": "研读魔导书",
+    "Description": "失去 <Value2 /> 点生命。<br />将 <Value1 /> 张随机牌加入手中，它们<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "TrueMoon": {
-    "Name": "真实的满月"
+    "Name": "真实的满月",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>火力</h>。<br />打出 <Value2 /> 张牌后死亡。<br /><h>充盈</h>：获得<Mana />。"
   },
   "YinglangHowl": {
-    "Name": "满月咆哮"
+    "Name": "满月咆哮",
+    "Description": "对所有敌人施加 <Value1 /> 点<h>暂失火力</h>和 <Value2 /> 回合<h>易伤</h>。"
   },
   "RemiliaJizao": {
-    "Name": "急躁"
+    "Name": "急躁",
+    "Description": "抽 <Value1 /> 张牌。<br />这回合内无法再抽牌。"
   },
   "MeihongAttack": {
-    "Name": "凤翼天翔"
+    "Name": "凤翼天翔",
+    "Description": "失去 <Value1 /> 点生命。<br />对目标造成 <Damage /> 点伤害 <Value2 /> 次。"
   },
   "LeiguAttack": {
-    "Name": "低音的雷鼓"
+    "Name": "低音的雷鼓",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />拥有<h>护盾</h>或<h>格挡</h>的敌人会受到两次伤害。"
   },
   "HuaBlock": {
-    "Name": "作战姿态"
+    "Name": "作战姿态",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 点<h>暂得火力</h>。"
   },
   "BailianPower": {
-    "Name": "肉体强化"
+    "Name": "肉体强化",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。"
   },
   "MeilingBlock": {
-    "Name": "红寸劲"
+    "Name": "红寸劲",
+    "Description": "获得 <Block /> 点<h>格挡</h>和 <Shield /> 点<h>护盾</h>。<br /><SelfName />亦受<h>火力</h>加成。"
   },
   "SuikaBigball": {
-    "Name": "元鬼玉"
+    "Name": "元鬼玉",
+    "Description": "造成 <Damage /> 点伤害，对其他敌人造成一半 (<HalfDamage />) 的伤害。<br />失去 <Value1 /> 点<h>火力</h>。"
   },
   "MeihongFire": {
-    "Name": "无差别起火符"
+    "Name": "无差别起火符",
+    "Description": "<PlayerName />的回合结束时，对所有敌人造成 <Value1 /> 点伤害。<br />每抽到一张<h>厄运</h>或状态牌时亦如此。"
   },
   "PrismriverRed": {
-    "Name": "键盘独奏"
+    "Name": "键盘独奏",
+    "Description": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>璀璨星光</h>洗入弃牌堆。",
+    "UpgradedDescription": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>璀璨星光</h>洗入弃牌堆。<br /><h>初见</h>：获得 <Value2 /> 点<Power />。"
   },
   "YongyiAttack": {
-    "Name": "鬼气狂澜"
+    "Name": "鬼气狂澜",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />如果<PlayerName />拥有<h>暂得火力</h>，多造成一次伤害。"
   },
   "RemiliaBat": {
-    "Name": "化身蝙蝠"
+    "Name": "化身蝙蝠",
+    "Description": "获得 <Value1 /> 点<h>暂得火力</h>。<br />获得 <Value2 /> 层<h>闪避</h>。"
   },
   "FlanFirepower": {
-    "Name": "之后就一个人都没有了吗？"
+    "Name": "之后就一个人都没有了吗？",
+    "Description": "赋予所有手牌<h>虚无</h>，并获得等同手牌数量的<h>火力</h>。<br />现有 <Count /> 张其它手牌。"
   },
   "MeihongPower": {
-    "Name": "不死的烈焰"
+    "Name": "不死的烈焰",
+    "Description": "<PlayerName />的回合开始时，获得 <Value1 /> 点<h>火力</h>。<br />战斗结束时，如果<PlayerName />的生命值低于一半，恢复 <Value2 /> 点生命。"
   },
   "SummerFlower": {
-    "Name": "盛夏之花"
+    "Name": "盛夏之花",
+    "Description": "造成 <Damage /> 点伤害。<br />本场战斗中，所有的<SelfName />伤害提高 <Value1 /> 点。"
   },
   "PatchouliGreenAttack": {
-    "Name": "春色闪光"
+    "Name": "春色闪光",
+    "Description": "造成 <Damage /> 点伤害。<br />当前法力总点数（<BattleAmount />）高于基础法力总点数（<BaseAmount />）时才能打出。"
   },
   "RangziSeed": {
-    "Name": "春种秋收"
+    "Name": "春种秋收",
+    "Description": "将一张<h>生机</h>置于抽牌堆顶，它具有<h>填充</h>。",
+    "UpgradedDescription": "将一张<h>幻虹</h>置于抽牌堆顶，它具有<h>填充</h>。"
   },
   "AhongMana": {
-    "Name": "樱色之海"
+    "Name": "樱色之海",
+    "Description": "<h>进入手中时</h>：将 <Value1 /> 张<h>生机</h>加入手中，然后<h>放逐</h><SelfName />。",
+    "UpgradedDescription": "<h>进入手中时</h>：将 <Value1 /> 张<h>生机</h>加入手中，<h>升级</h> <Value2 /> 张随机的手牌，然后<h>放逐</h><SelfName />。"
   },
   "RangziFanshu": {
-    "Name": "香甜的番薯"
+    "Name": "香甜的番薯",
+    "Description": "战斗结束时，恢复 <Value1 /> 点生命。"
   },
   "SunflowerDefense": {
-    "Name": "太阳花田"
+    "Name": "太阳花田",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将 <Value1 /> 张<h>盛夏之花</h>加入手中。"
   },
   "YouxiangMoon": {
-    "Name": "花鸟风月"
+    "Name": "花鸟风月",
+    "Description": "<PlayerName />的回合开始时，获得<Mana />。<br />将 <Value1 /> 张<h>盛夏之花</h>加入手中。"
   },
   "DizangLove": {
-    "Name": "即席菩提"
+    "Name": "即席菩提",
+    "Description": "打出普通卡牌后，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>。<br />",
+    "UpgradedDescription": "打出普通卡牌后，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>。<br />将一张<h>生机</h>加入手中。"
   },
   "YuyukoSing": {
-    "Name": "蝶之羽风"
+    "Name": "蝶之羽风",
+    "Description": "造成 <Damage /> 点伤害。<br />可以多次<h>升级</h>。"
   },
   "DanmuJade": {
-    "Name": "弹幕的玉茧"
+    "Name": "弹幕的玉茧",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />将 <Value1 /> 张<h>幻虹</h>加入手中。<br /><h>每支付</h><Mana />：获得 <Value2 /> 点<h>火力</h>和<h>灵力</h>。"
   },
   "YouxiangAttack": {
-    "Name": "幻想乡的花开"
+    "Name": "幻想乡的花开",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>每额外支付</h><Mana />：伤害提高 <Value1 /> 点。<br />总计支付费用不低于 <Value2 /> 点时，攻击具有<h>精准</h>。"
   },
   "TakaneDefense": {
-    "Name": "最深的森域"
+    "Name": "最深的森域",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>每额外支付</h><Mana />：<h>格挡</h>提高 <Value1 /> 点。"
   },
   "GreenLotus": {
-    "Name": "荷塘月色"
+    "Name": "荷塘月色",
+    "Description": "获得<Mana />。"
   },
   "LimaoSchool": {
-    "Name": "狸猫的变身学校"
+    "Name": "狸猫的变身学校",
+    "Description": "从 <Value1 /> 张随机的<h>狸猫变化</h>中选择 <Value2 /> 张生效。"
   },
   "MorphBird": {
-    "Name": "羽鸟变化"
+    "Name": "羽鸟变化",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。"
   },
   "MorphDog": {
-    "Name": "肉食变化"
+    "Name": "肉食变化",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。"
   },
   "MorphFrog": {
-    "Name": "两栖变化"
+    "Name": "两栖变化",
+    "Description": "获得 <Value1 /> 点最大生命值。"
   },
   "MorphMan": {
-    "Name": "灵长变化"
+    "Name": "灵长变化",
+    "Description": "获得 <Value1 /> 点<Power />。"
   },
   "HuiyeAttack": {
-    "Name": "蓬莱的树海"
+    "Name": "蓬莱的树海",
+    "Description": "<h>每支付一点不同颜色的费用</h>：对所有敌人造成 <Damage /> 点伤害。<br />总计支付费用不低于 <Value2 /> 点时，从<h>放逐</h>区选择至多 <Value1 /> 张牌移回手中。"
   },
   "HuiyeMana": {
-    "Name": "竹取的物语"
+    "Name": "竹取的物语",
+    "Description": "<PlayerName />的回合开始时，获得 <Value1 /> 点随机的法力；每回合提高 <Value1 /> 点。"
   },
   "WManaCard": {
-    "Name": "光芒"
+    "Name": "光芒",
+    "Description": "获得<Mana />。"
   },
   "UManaCard": {
-    "Name": "水花"
+    "Name": "水花",
+    "Description": "获得<Mana />。"
   },
   "BManaCard": {
-    "Name": "灵异"
+    "Name": "灵异",
+    "Description": "获得<Mana />。"
   },
   "RManaCard": {
-    "Name": "火焰"
+    "Name": "火焰",
+    "Description": "获得<Mana />。"
   },
   "GManaCard": {
-    "Name": "生机"
+    "Name": "生机",
+    "Description": "获得<Mana />。"
   },
   "CManaCard": {
-    "Name": "纯粹"
+    "Name": "纯粹",
+    "Description": "获得<Mana />。"
   },
   "PManaCard": {
-    "Name": "幻虹"
+    "Name": "幻虹",
+    "Description": "获得<Mana />。"
   },
   "Astrology": {
-    "Name": "占星"
+    "Name": "占星",
+    "Description": "<h>占卜</h> <Scry /> 。<br />抽 <Value1 /> 张牌。"
   },
   "Xiaozhuo": {
-    "Name": "小酌怡情"
+    "Name": "小酌怡情",
+    "Description": "获得 <Value1 /> 点<h>暂得火力</h>。"
   },
   "Shoot": {
-    "Name": "射击"
+    "Name": "射击",
+    "Description": "造成 <Damage /> 点伤害。"
   },
   "Boundary": {
-    "Name": "结界"
+    "Name": "结界",
+    "Description": "获得 <Block /> 点<h>格挡</h>。"
   },
   "ShopAttack": {
-    "Name": "黄瓜导弹"
+    "Name": "黄瓜导弹",
+    "Description": "造成 <Damage /> 点伤害。<br />抽 <Value1 /> 张牌。"
   },
   "ShopDefense": {
-    "Name": "清洁能源"
+    "Name": "清洁能源",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />抽 <Value1 /> 张牌。"
   },
   "ShopSearch": {
-    "Name": "私家雷达"
+    "Name": "私家雷达",
+    "Description": "从抽牌堆中选择一张攻击牌或防御牌移入手中。"
   },
   "MoonSea": {
-    "Name": "静寂之海"
+    "Name": "静寂之海",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />将一张<h>纯粹</h>加入手中。",
+    "UpgradedDescription": "获得 <Block /> 点<h>格挡</h>。<br />从<h>纯粹</h>和<h>水花</h>中选择一张加入手中。"
   },
   "FengjiAttack": {
-    "Name": "分解之风"
+    "Name": "分解之风",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br /><h>每支付</h><ManaC />：伤害提高 <Value1 /> 点。",
+    "UpgradedDescription": "对所有敌人造成 <Damage /> 点伤害 <Value2 /> 次。<br /><h>每支付</h><ManaC />：伤害提高 <Value1 /> 点。"
+  },
+  "YijiSkill": {
+    "Name": "众神附体",
+    "Description": "从 <Value1 /> 个随机的<he>神明技能</he>中选择一个生效。",
+    "UpgradedDescription": "从 <Value1 /> 个随机的<he>神明技能</he>中选择一个生效。<br />稀有技能可能会出现。"
   },
   "MoonWorld": {
-    "Name": "无秽的世界"
+    "Name": "无秽的世界",
+    "Description": "<PlayerName />的回合开始时，<h>净化</h> <Value1 /> 张随机的手牌，在本场战斗中移除其费用的有色部分。"
   },
   "YijiEarthSpike": {
-    "Name": "裂地尖刺/祇园之力"
+    "Name": "裂地尖刺/祇园之力",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，施加 <Value1 /> 回合<h>虚弱</h>。"
   },
   "YijiPurify": {
-    "Name": "伊豆能卖"
+    "Name": "伊豆能卖",
+    "Description": "<h>净化</h>所有手牌，移除费用的有色部分，直到战斗结束。"
   },
   "YijiGraze": {
-    "Name": "天宇受卖命"
+    "Name": "天宇受卖命",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />抽 <Value2 /> 张牌。"
   },
   "YijiFirepower": {
-    "Name": "爱宕之火"
+    "Name": "爱宕之火",
+    "Description": "获得 <Value1 /> 点<h>火力</h>和<h>暂得火力</h>。<br />将 <Value2 /> 张随机的普通攻击牌加入手中，它们具有<h>放逐</h>、<h>虚无</h>；<br />它们已被<h>净化</h>，移除费用的有色部分。"
   },
   "HuiyinAttack": {
-    "Name": "水户光国"
+    "Name": "水户光国",
+    "Description": "造成 <Damage /> 点伤害。<br />选择至多 <Value1 /> 张手牌丢弃，抽等量的牌。"
   },
   "ReadBook": {
-    "Name": "读书看报"
+    "Name": "读书看报",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>初见</h>：从 <Value1 /> 张随机的卡牌中选择一张加入手中，这些卡牌只能包含蓝色或白色。"
   },
   "Panzi": {
-    "Name": "水盘子"
+    "Name": "水盘子",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>进入手中时</h>：将一张<SelfName />的复制加入手中。"
   },
   "ShuimuBlock": {
-    "Name": "堆砌石林"
+    "Name": "堆砌石林",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />这张牌每被打出一次，永久提高 <Value1 /> 点效果。"
   },
   "TiangouOrder": {
-    "Name": "大天狗的号令"
+    "Name": "大天狗的号令",
+    "Description": "造成 <Damage /> 点伤害。<br />当目标敌人受到攻击时，<PlayerName />获得 <Value1 /> 点<h>格挡</h>。"
   },
   "TianziRock": {
-    "Name": "有顶天的绝壁"
+    "Name": "有顶天的绝壁",
+    "Description": "<PlayerName />受到的攻击伤害降低 <Value1 /> 点。<br />这一效果无法叠加。<br />移除<PlayerName />的<h>锁定</h>。",
+    "UpgradedDescription": "<PlayerName />受到的攻击伤害降低 <Value1 /> 点。<br />这一效果无法叠加。<br /><PlayerName />免疫于<h>锁定</h>。"
   },
   "YijiuDraw": {
-    "Name": "龙宫来讯"
+    "Name": "龙宫来讯",
+    "Description": "<h>占卜</h> <Scry /> 。<br />抽 <Value1 /> 张牌。"
   },
   "SeeFengshui": {
-    "Name": "考察风水"
+    "Name": "考察风水",
+    "Description": "<PlayerName />的回合开始时，<h>占卜</h> <Value1 /> 。<br />这次<h>占卜</h>中每选择一张防御牌，获得 <Value2 /> 点<h>格挡</h>。"
   },
   "LanCard": {
-    "Name": "式神护法"
+    "Name": "式神护法",
+    "Description": "从 <Value1 /> 张随机的罕见牌中选择一张加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "RainbowMarket": {
-    "Name": "月虹市场"
+    "Name": "月虹市场",
+    "Description": "每当一张牌被<h>放逐</h>时，将一张随机的卡牌加入手中。"
   },
   "NiuqiDefense": {
-    "Name": "石之婴儿"
+    "Name": "石之婴儿",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />弃牌堆中每有一张牌，<h>格挡</h>提高 <Value1 /> 点。"
   },
   "XiaodingKill": {
-    "Name": "脱魂仪式"
+    "Name": "脱魂仪式",
+    "Description": "如果目标敌人的生命值不超过 <Value1 /> 点，使其直接死亡。"
   },
   "SijiCard": {
-    "Name": "有罪或无罪"
+    "Name": "有罪或无罪",
+    "Description": "选择一张手牌，如果它是<h>厄运</h>或状态牌，将它<h>放逐</h>；否则<h>保留</h>它一回合，它的费用降低<Mana />，直到战斗结束。"
   },
   "YukariAttack": {
-    "Name": "生与死的境界"
+    "Name": "生与死的境界",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br /><h>成长</h>：伤害提高 <Value2 /> 点。<br />如果<PlayerName />在自己回合内恢复或失去过生命，回合结束时<SelfName />从弃牌堆回到手中且<h>暂塑</h>为<Mana />。"
   },
   "KokoroDance": {
-    "Name": "假面丧心舞"
+    "Name": "假面丧心舞",
+    "Description": "每当敌人受到负面状态时，<PlayerName />对他造成 <Value1 /> 点伤害。<br />对所有敌人施加 <Value2 /> 点<h>暂失火力</h>。"
   },
   "FutoLight": {
-    "Name": "大物忌正餐"
+    "Name": "大物忌正餐",
+    "Description": "将所有费用总数大于一的手牌<h>暂塑</h>为<Mana />。"
   },
   "HuiyeTime": {
-    "Name": "永远与须臾"
+    "Name": "永远与须臾",
+    "Description": "选择至多 <Value1 /> 张手牌，<h>保留</h>它们一回合。<br />结束<PlayerName />的回合，进行一个额外的回合，这一回合内只能打出 <Value1 /> 张牌。"
   },
   "QingeUpgrade": {
-    "Name": "邪仙秘法"
+    "Name": "邪仙秘法",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>退治</h>时，永久<h>升级</h>一张牌。"
   },
   "TannvCard": {
-    "Name": "形势逆转"
+    "Name": "形势逆转",
+    "Description": "将抽牌堆顶和弃牌堆顶的各一张牌移回手中，它们<h>暂塑</h>为<Mana />。"
   },
   "SanaeMiracle": {
-    "Name": "白昼的客星"
+    "Name": "白昼的客星",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br />抽牌堆为空时费用为<Mana />。"
   },
   "ChengDefense": {
-    "Name": "天仙鸣动"
+    "Name": "天仙鸣动",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />下回合开始时获得 <Block /> 点<h>格挡</h>。"
   },
   "MogongAttack": {
-    "Name": "埴轮造形"
+    "Name": "埴轮造形",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />造成 <Damage /> 点伤害。<br /><h>手牌中</h>：打出其它牌时，提高<SelfName />的伤害和<h>格挡</h>，直到与打出卡牌的基础值相等。"
   },
   "TianziMana": {
-    "Name": "天人飞翔"
+    "Name": "天人飞翔",
+    "Description": "获得<Mana />。"
   },
   "HappyNewYear": {
-    "Name": "新年参拜"
+    "Name": "新年参拜",
+    "Description": "从三张随机的攻击或防御牌里选择一张加入手中。<br />如果选择了攻击牌，获得 <Value1 /> 点<h>火力</h>；否则获得 <Value1 /> 点<h>灵力</h>。"
   },
   "HuashanDefense": {
-    "Name": "务光雷击"
+    "Name": "务光雷击",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />在这回合内，获得 <Value1 /> 点<h>带电</h>。"
   },
   "ZhenmiaowanAttack": {
-    "Name": "一寸法师的末裔"
+    "Name": "一寸法师的末裔",
+    "Description": "造成 <Damage /> 点伤害。<br />本回合内技能牌的费用降低<Mana />。",
+    "UpgradedDescription": "造成 <Damage /> 点伤害。<br />本回合内所有卡牌的费用降低<Mana />。"
   },
   "XingMoney": {
-    "Name": "光辉宝枪"
+    "Name": "光辉宝枪",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>退治</h>时，获得 <Value1 /> 点<Money />。"
   },
   "SanaeSummonGod": {
-    "Name": "召请建御名方神"
+    "Name": "召请建御名方神",
+    "Description": "两回合后的回合开始时：获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。",
+    "UpgradedDescription": "下回合开始时：获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。"
   },
   "PoorAttack": {
-    "Name": "陷入贫困"
+    "Name": "陷入贫困",
+    "Description": "失去 <Value1 /> 点<Money />。<br />对目标造成 <Damage /> 点伤害 <Value2 /> 次。"
   },
   "AliceAttack": {
-    "Name": "惨虐之光"
+    "Name": "惨虐之光",
+    "Description": "造成 <Damage /> 点伤害。<br />获得<Mana />。"
   },
   "BaitianCard": {
-    "Name": "稗田的转生"
+    "Name": "稗田的转生",
+    "Description": "弃掉所有的手牌，抽等量的牌。",
+    "UpgradedDescription": "弃掉所有的手牌，抽等量的牌。"
   },
   "YukariBox": {
-    "Name": "打开的玉匣"
+    "Name": "打开的玉匣",
+    "Description": "<h>占卜</h> <Scry /> ，抽 <Value1 /> 张牌。<br />将弃牌堆洗入抽牌堆，然后重洗抽牌堆。"
   },
   "MeilingWater": {
-    "Name": "背水阵"
+    "Name": "背水阵",
+    "Description": "获得 <Value1 /> 点<h>火力</h>。<br />将抽牌堆中随机的 <Value2 /> 张攻击牌移入手中，<h>暂塑</h>为<Mana />。<br /><PlayerName />的回合开始时，失去 <Value1 /> 点生命。"
   },
   "NueExile": {
-    "Name": "平安时代的黑云"
+    "Name": "平安时代的黑云",
+    "Description": "选择一张手牌<h>放逐</h>。<br />将一张随机的卡牌加入手中，它<h>暂塑</h>为<Mana />。"
   },
   "HuiyinRetain": {
-    "Name": "一条归桥"
+    "Name": "一条归桥",
+    "Description": "从弃牌堆中选择至多 <Value1 /> 张牌移回手中，<h>保留</h>它们一回合。<br />结束<PlayerName />的回合，进行一个额外的回合。<br /><h>时间有限</h><Mana />。"
   },
   "XiaosanReflect": {
-    "Name": "反击弹幕"
+    "Name": "反击弹幕",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />获得 <Value1 /> 点<h>反射</h>。"
   },
   "YijiuAttack": {
-    "Name": "龙神电光"
+    "Name": "龙神电光",
+    "Description": "造成 <Damage /> 点伤害。<br />以<SelfName />击败一名敌人时，<h>放逐</h><SelfName />，获得 <Value1 /> 回合<h>天衣无缝</h>。"
   },
   "SuikaDraw": {
-    "Name": "酒鬼云集"
+    "Name": "酒鬼云集",
+    "Description": "抽牌直到手牌达到 <Value1 /> 张。"
   },
   "ReisenMana": {
-    "Name": "幻视调律"
+    "Name": "幻视调律",
+    "Description": "从<h>水花</h>和<h>火焰</h>中选择一张，将它的两张复制加入手中。"
   },
   "FourFlan": {
-    "Name": "四重存在"
+    "Name": "四重存在",
+    "Description": "造成 <Damage /> 点伤害。<br />获得 <Value1 /> 点<h>火力</h>。<br /><h>战斗开始时</h>：将 <Value2 /> 张复制洗入抽牌堆中，这些复制<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "HekaHellRain": {
-    "Name": "地狱之雨"
+    "Name": "地狱之雨",
+    "Description": "每打出一张牌，回合结束时对所有敌人造成 <Value1 /> 点伤害。"
   },
   "ReisenAttack": {
-    "Name": "疯狂之梦"
+    "Name": "疯狂之梦",
+    "Description": "<h>每支付</h><Mana />：对所有敌人造成 <Damage /> 点伤害。"
   },
   "FlanPlayAlone": {
-    "Name": "独自玩耍"
+    "Name": "独自玩耍",
+    "Description": "获得 <Value1 /> 点<h>暂得火力</h>。<br />弃掉所有的非攻击牌。"
   },
   "FangxiangHeal": {
-    "Name": "吞噬欲望"
+    "Name": "吞噬欲望",
+    "Description": "从弃牌堆里随机选择 <Value1 /> 张牌<h>放逐</h>，每<h>放逐</h>一张牌恢复 <Value2 /> 点生命。"
   },
   "HehuanAttack": {
-    "Name": "深山菜刀狂"
+    "Name": "深山菜刀狂",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />抽 <Value2 /> 张牌。"
   },
   "QingeHeal": {
-    "Name": "通灵之术"
+    "Name": "通灵之术",
+    "Description": "获得 <Value1 /> 点<h>暂得火力</h>。<br />恢复 <Value2 /> 点生命，下回合开始时失去 <Value2 /> 点生命。"
   },
   "RinDraw": {
-    "Name": "支配怨灵"
+    "Name": "支配怨灵",
+    "Description": "每抽到一张状态牌，抽 <Value1 /> 张牌。"
   },
   "CloseEyeShoot": {
-    "Name": "闭目射击"
+    "Name": "闭目射击",
+    "Description": "随机对敌人造成 <Damage /> 点伤害 <Value1 /> 次。"
   },
   "KongMana": {
-    "Name": "炉心融解"
+    "Name": "炉心融解",
+    "Description": "选择一张手牌<h>放逐</h>，获得相当于它费用的法力。<br />将一张<h>幻虹</h>加入手中。"
   },
   "Shengyan": {
-    "Name": "盛宴"
+    "Name": "盛宴",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>退治</h>时，获得 <Value1 /> 点最大生命值。"
   },
   "ModuoluoFire": {
-    "Name": "秽那之火"
+    "Name": "秽那之火",
+    "Description": "每当一点<ManaP />被支付时，对所有敌人造成 <Value1 /> 点伤害。"
   },
   "Zhulianshen": {
-    "Name": "山神的注连绳"
+    "Name": "山神的注连绳",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>庇护</h>。"
   },
   "LilyChun": {
-    "Name": "春天到了！"
+    "Name": "春天到了！",
+    "Description": "将 <Value1 /> 张随机一费卡牌加入手中，它们具有<h>放逐</h>、<h>虚无</h>。<br />",
+    "UpgradedDescription": "将 <Value1 /> 张随机一费卡牌加入手中，它们<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "XiangziEcho": {
-    "Name": "山谷回声"
+    "Name": "山谷回声",
+    "Description": "选择至多 <Value1 /> 张手牌赋予<h>回响</h>。"
   },
   "YoumuHybrid": {
-    "Name": "半人半灵"
+    "Name": "半人半灵",
+    "Description": "<h>每支付</h><ManaW />：选择至多 <Value1 /> 张手牌<h>放逐</h>。<br /><h>每支付</h><ManaG />：获得 <Value2 /> 层<h>闪避</h>。",
+    "UpgradedDescription": "<h>每支付</h><ManaW />：从手牌、抽牌堆和弃牌堆中选择至多 <Value1 /> 张牌<h>放逐</h>。<br /><h>每支付</h><ManaG />：获得 <Value2 /> 层<h>闪避</h>。"
   },
   "YonglinUpgrade": {
-    "Name": "仙香玉兔"
+    "Name": "仙香玉兔",
+    "Description": "恢复 <Value2 /> 点生命。<br /><PlayerName />的回合开始时，<h>升级</h> <Value1 /> 张随机的手牌。<br />"
   },
   "SanaeRice": {
-    "Name": "五谷丰登米之浴"
+    "Name": "五谷丰登米之浴",
+    "Description": "移除<PlayerName />身上的所有负面状态。<br />恢复 <Value1 /> 点生命。"
   },
   "SakuraBlade": {
-    "Name": "樱花闪闪"
+    "Name": "樱花闪闪",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />施加 <Value1 /> 层<h>锁定</h>。<br />获得 <Value1 /> 层<h>闪避</h>。"
   },
   "YouxiangWake": {
-    "Name": "按时起床"
+    "Name": "按时起床",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />两回合后的回合开始时：获得 <Value1 /> 点<h>火力</h>，将抽牌堆中随机的 <Value2 /> 张攻击牌移入手中，<h>暂塑</h>为<Mana />。",
+    "UpgradedDescription": "获得 <Shield /> 点<h>护盾</h>。<br />下回合开始时：获得 <Value1 /> 点<h>火力</h>，将抽牌堆中随机的 <Value2 /> 张攻击牌移入手中，<h>暂塑</h>为<Mana />。"
   },
   "LongArm": {
-    "Name": "延展手臂"
+    "Name": "延展手臂",
+    "Description": "造成 <Damage /> 点伤害。<br />如果打出<SelfName />前手牌数量不少于 <Value1 /> 张，获得<Mana />。"
   },
   "HatateShot": {
-    "Name": "全景拍摄"
+    "Name": "全景拍摄",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />每一点剩余的法力，提高 <Value1 /> 点<h>格挡</h>。（总计 <Special /> 点）"
   },
   "ZoufangWater": {
-    "Name": "诹访清流"
+    "Name": "诹访清流",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />每打出一张<h>能力</h>牌，伤害提高 <Value2 /> 点。（共计 <AdditionalDamage /> 点）"
   },
   "MeilingRain": {
-    "Name": "极彩沛雨"
+    "Name": "极彩沛雨",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <AttackTimes /> 次。<br /><h>每支付</h><Mana />：额外造成一次伤害。"
   },
   "RuowujiCard": {
-    "Name": "逆鳞的惊涛"
+    "Name": "逆鳞的惊涛",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，施加 <Value1 /> 层<h>溺水</h>。<br /><h>溺水</h>无法叠加。"
   },
   "SkyWater": {
-    "Name": "天水的奇迹"
+    "Name": "天水的奇迹",
+    "Description": "获得 <Shield /> 点<h>护盾</h>。<br />将手牌抽至上限。"
   },
   "LifeGame": {
-    "Name": "生命游戏"
+    "Name": "生命游戏",
+    "Description": "相邻的卡牌<h>暂塑</h>为<Mana />。<br />如果目标是<h>厄运</h>或状态牌，改为将其<h>放逐</h>。",
+    "UpgradedDescription": "相邻的卡牌<h>暂塑</h>为<Mana />，<h>升级</h>它们。<br />如果目标是<h>厄运</h>或状态牌，改为将其<h>放逐</h>。"
   },
   "PoisonTeaParty": {
-    "Name": "可疑的茶会"
+    "Name": "可疑的茶会",
+    "Description": "<PlayerName />恢复 <Value1 /> 点生命，受到 <Value1 /> 层<h>中毒</h>。<br />施加 <Value2 /> 层<h>中毒</h>。"
   },
   "LigeluCard": {
-    "Name": "荧光之夜"
+    "Name": "荧光之夜",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 点<Power />。"
   },
   "PaluxiCurse": {
-    "Name": "丑时参拜"
+    "Name": "丑时参拜",
+    "Description": "造成 <Damage /> 点伤害。<br />施加 <Value1 /> 回合<h>虚弱</h>和<h>易伤</h>。<br />将一张随机的<h>厄运</h>洗入弃牌堆（不会进入牌库）。"
   },
   "BlackPoison": {
-    "Name": "黑暗演舞"
+    "Name": "黑暗演舞",
+    "Description": "<PlayerName />每次攻击造成未被阻挡的伤害时，施加 <Value1 /> 层<h>中毒</h>。"
   },
   "KisumeAttack": {
-    "Name": "钓瓶落之怪"
+    "Name": "钓瓶落之怪",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />造成 <Damage /> 点伤害。<br />如果<SelfName />是本回合打出的第一张牌，施加 <Value1 /> 层<h>锁定</h>。"
   },
   "MedicineGarden": {
-    "Name": "铃兰花园"
+    "Name": "铃兰花园",
+    "Description": "为所有敌人恢复 <Value1 /> 点生命。<br />对所有敌人施加 <Value1 /> 层<h>中毒</h>。"
+  },
+  "ShirenKunchong": {
+    "Name": "食人昆虫",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />当敌人受到<h>负面状态</h>时，<PlayerName />获得 <Value1 /> 点<h>格挡</h>。"
   },
   "ZoufangSnake": {
-    "Name": "土著神崇拜"
+    "Name": "土著神崇拜",
+    "Description": "失去 <Value1 /> 点生命。<br />从 <Value2 /> 张随机的中立稀有<h>能力</h>牌中选择一张加入手中，它<h>暂塑</h>为<Mana />。"
   },
   "YachieDefend": {
-    "Name": "龟甲地狱"
+    "Name": "龟甲地狱",
+    "Description": "阻挡<PlayerName />的下 <Value1 /> 次生命损失。<br />如果伤害来源是敌人，还会将伤害反弹给对方。"
   },
   "JingyeGraze": {
-    "Name": "纷乱的落叶"
+    "Name": "纷乱的落叶",
+    "Description": "获得 <Value1 /> 层<h>闪避</h>。<br />获得<h>闪避</h>层数 <Value2 /> 倍的<h>暂得火力</h>。"
   },
   "FangxiangAttack": {
-    "Name": "剧毒抹消"
+    "Name": "剧毒抹消",
+    "Description": "如果目标已经<h>中毒</h>，对目标造成 <Damage /> 点伤害 <Value2 /> 次。<br />否则施加 <Value1 /> 层<h>中毒</h>。"
   },
   "MeilingAbility": {
-    "Name": "烈虹真拳"
+    "Name": "烈虹真拳",
+    "Description": "<PlayerName />获得双倍的<h>火力</h>和<h>暂得火力</h>。<br />获得 <Value1 /> 点<h>火力</h>。"
   },
   "LimaoAttack": {
-    "Name": "月下的腹鼓舞"
+    "Name": "月下的腹鼓舞",
+    "Description": "对所有敌人造成 <Damage /> 点伤害，获得<GainMana />。<br /><h>成长</h>：额外获得<Mana />。"
   },
   "TodayYesterday": {
-    "Name": "今昔幻想乡"
+    "Name": "今昔幻想乡",
+    "Description": "<PlayerName /><h>闪避</h>伤害时，获得 <Value1 /> 点<h>火力</h>。<br />获得 <Value2 /> 层<h>闪避</h>。"
   },
   "AyaExtraTurn": {
-    "Name": "「幻想风靡」"
+    "Name": "「幻想风靡」",
+    "Description": "结束<PlayerName />的回合，进行一个额外的回合。<br />下一回合开始时，获得 <Value1 /> 层<h>闪避</h>。<br /><h>时间有限</h><Mana />。"
   },
   "AyaWindGirl": {
-    "Name": "风神少女"
+    "Name": "风神少女",
+    "Description": "获得 <Value1 /> 层<h>风神少女</h>。"
   },
   "PatchouliLibrary": {
-    "Name": "不动的大图书馆"
+    "Name": "不动的大图书馆",
+    "Description": "获得<Mana />。<br />从 <Value1 /> 张随机的稀有牌中选择一张加入手中，它具有<h>放逐</h>、<h>虚无</h>。",
+    "UpgradedDescription": "获得<Mana />。<br />从 <Value1 /> 张随机的稀有牌和 <Value2 /> 张随机的罕见牌中选择一张加入手中，它具有<h>放逐</h>、<h>虚无</h>。"
   },
   "SanaeRestart": {
-    "Name": "海水分开之日"
+    "Name": "海水分开之日",
+    "Description": "选择任意张手牌，与弃牌堆一起洗入抽牌堆，重洗抽牌堆。<br />抽 <Value1 /> 张牌。<br />获得<Mana />。"
   },
   "JinziSuperExtraTurn": {
-    "Name": "世纪的二重身超人"
+    "Name": "世纪的二重身超人",
+    "Description": "<PlayerName />的<h>自然回合</h>结束时，进行一个额外的回合。<br />这一回合开始时不会失去<h>格挡</h>和<h>闪避</h>，只能打出 <Value1 /> 张牌。"
   },
   "AnimalSpirit": {
-    "Name": "地狱的畜生道"
+    "Name": "地狱的畜生道",
+    "Description": "使其它手牌被动物灵附身，获得一种随机效果：<br /><hr>狼</hr>：赋予<h>回响</h>；<hg>獭</hg>：赋予<h>填充</h>；<hp>鹰</hp>：<h>暂塑</h>为<Mana />。",
+    "UpgradedDescription": "抽 <Value1 /> 张牌。<br />使其它手牌被动物灵附身，获得一种随机效果：<br /><hr>狼</hr>：赋予<h>回响</h>；<hg>獭</hg>：赋予<h>填充</h>；<hp>鹰</hp>：<h>暂塑</h>为<Mana />。"
   },
   "PrismriverAll": {
-    "Name": "合葬「棱镜协奏曲」"
+    "Name": "合葬「棱镜协奏曲」",
+    "Description": "获得<Mana />。<br />本场战斗中，<PlayerName />获得的所有法力都转化为<h>彩色</h>。<br />将<h>折射日光</h>、<h>寂静月光</h>和<h>璀璨星光</h>洗入弃牌堆。",
+    "UpgradedDescription": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />本场战斗中，<PlayerName />获得的所有法力都转化为<h>彩色</h>。<br />将<h>折射日光</h>、<h>寂静月光</h>和<h>璀璨星光</h>洗入弃牌堆。"
   },
   "ZhenmiaowanAbility": {
-    "Name": "小锤的魔力"
+    "Name": "小锤的魔力",
+    "Description": "所有卡牌的费用降低<Mana />，直到战斗结束。"
   },
   "JunkoNightmare": {
-    "Name": "震颤的冰封噩梦"
+    "Name": "震颤的冰封噩梦",
+    "Description": "对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br /><h>放逐</h>所有的手牌，将等量的<h>纯粹</h>加入手中。",
+    "UpgradedDescription": "选择至多 <Value2 /> 张手牌免于<h>纯粹</h>化。<br />对所有敌人造成 <Damage /> 点伤害 <Value1 /> 次。<br /><h>放逐</h>所有的手牌，将等量的<h>纯粹</h>加入手中。"
   },
   "ModuoluoSeasons": {
-    "Name": "暴走的季节"
+    "Name": "暴走的季节",
+    "Description": "将随机的<h>水花</h>、<h>火焰</h>和<h>盛夏之花</h>加入手中，直到手牌上限。",
+    "UpgradedDescription": "获得 <Value1 /> 点<h>火力</h>。<br />将随机的<h>水花</h>、<h>火焰</h>和<h>盛夏之花</h>加入手中，直到手牌上限。"
   },
   "YukariFriend": {
-    "Name": "幻想的境界八云紫"
+    "Name": "幻想的境界八云紫",
+    "Description": "<FriendP />获得等同于本回合打出过防御牌数量的<h>火力</h>。（<Fire />张）"
   },
   "BailianFire": {
-    "Name": "法界之火"
+    "Name": "法界之火",
+    "Description": "<PlayerName />的回合开始时，将一张随机的技能牌加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。",
+    "UpgradedDescription": "<PlayerName />的回合开始时，将一张随机的技能牌加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。<br />立刻生效一次。"
   },
   "ToolDraw": {
-    "Name": "补给包"
+    "Name": "补给包",
+    "Description": "抽 <Value1 /> 张牌。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolHeal": {
-    "Name": "罐装食品"
+    "Name": "罐装食品",
+    "Description": "恢复 <Value1 /> 点生命。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolWeak": {
-    "Name": "闪光灯"
+    "Name": "闪光灯",
+    "Description": "施加 <Value1 /> 回合<h>虚弱</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolVulnerable": {
-    "Name": "发电节拍器"
+    "Name": "发电节拍器",
+    "Description": "施加 <Value1 /> 回合<h>易伤</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolAttack": {
-    "Name": "水枪"
+    "Name": "水枪",
+    "Description": "造成 <Damage /> 点伤害。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolBlock": {
-    "Name": "防暴盾"
+    "Name": "防暴盾",
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolAmulet": {
-    "Name": "一次性护符"
+    "Name": "一次性护符",
+    "Description": "获得 <Value1 /> 层<h>护身符</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolMana": {
-    "Name": "功能饮料"
+    "Name": "功能饮料",
+    "Description": "获得<Mana />。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolMicai": {
-    "Name": "光学迷彩服"
+    "Name": "光学迷彩服",
+    "Description": "获得 <Value1 /> 回合<h>光学迷彩</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolUpgrade": {
-    "Name": "软盘"
+    "Name": "软盘",
+    "Description": "<h>升级</h>所有手牌，直到本场战斗结束。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolFirstAid": {
-    "Name": "急救箱"
+    "Name": "急救箱",
+    "Description": "移除<PlayerName />身上的所有负面状态。<br />恢复 <Value1 /> 点生命。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolExile": {
-    "Name": "智能清扫机"
+    "Name": "智能清扫机",
+    "Description": "选择任意张手牌<h>放逐</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolInvincible": {
-    "Name": "龙宫羽衣"
+    "Name": "龙宫羽衣",
+    "Description": "获得 <Value1 /> 回合<h>天衣无缝</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolMaxHp": {
-    "Name": "香脆黄瓜"
+    "Name": "香脆黄瓜",
+    "Description": "获得 <Value1 /> 点最大生命值。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolDroneBlock": {
-    "Name": "机械核心"
+    "Name": "机械核心",
+    "Description": "获得 <Value1 /> 层<h>防御矩阵</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolRandomTool": {
-    "Name": "战术对讲机"
+    "Name": "战术对讲机",
+    "Description": "从 <Value1 /> 张随机的<h>道具牌</h>中选择一张加入手中。<br />它被标记为<h>复制品</h>，使用次数为一。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "VampireShoot1": {
-    "Name": "使魔的射击"
+    "Name": "使魔的射击",
+    "Description": "造成 <Damage /> 点伤害。<br />恢复 <Value1 /> 点生命。"
   },
   "VampireShoot2": {
-    "Name": "使魔的红雨"
+    "Name": "使魔的红雨",
+    "Description": "造成 <Damage /> 点伤害。<br />恢复 <Value1 /> 点生命。"
   },
   "WanderingSoul": {
-    "Name": "彷徨的灵魂"
+    "Name": "彷徨的灵魂",
+    "Description": "获得 <Value1 /> 回合<h>天衣无缝</h>。<br />这张牌还没有实际进入游戏。<br />请期待游戏更新。"
   },
   "RabbitFoot": {
-    "Name": "幸运兔腿"
+    "Name": "幸运兔腿",
+    "Description": "战斗结束时，如果<SelfName />没有被<h>放逐</h>，获得 <Value1 /> 点<Money />。"
   },
   "GainTreasure": {
-    "Name": "招财进宝"
+    "Name": "招财进宝",
+    "Description": "获得 <Value1 /> 点<Money />。"
   },
   "MoonPurify": {
-    "Name": "除秽"
+    "Name": "除秽",
+    "Description": "<h>净化</h>一张随机的手牌，在本场战斗中移除其费用的有色部分。<br />优先选择可净化的目标。",
+    "UpgradedDescription": "选择一张手牌<h>净化</h>，在本场战斗中移除其费用的有色部分。"
   },
   "ArtificialJewellery": {
-    "Name": "人造珠宝"
+    "Name": "人造珠宝",
+    "Description": "获得一点随机有色法力。",
+    "UpgradedDescription": "获得<Mana />。"
   },
   "LilyoftheValley": {
-    "Name": "铃铃"
+    "Name": "铃铃",
+    "Description": "获得<Mana />。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "NewsPositive": {
-    "Name": "正面报道"
+    "Name": "正面报道",
+    "Description": "获得 <Value1 /> 点<Power />。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "NewsNegative": {
-    "Name": "负面报道"
+    "Name": "负面报道",
+    "Description": "失去 <Value1 /> 点<Power />。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "NewsEntertainment": {
-    "Name": "娱乐新闻"
+    "Name": "娱乐新闻",
+    "Description": "将手牌抽至上限。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "NewsTidbit": {
-    "Name": "花边新闻"
+    "Name": "花边新闻",
+    "Description": "受到 <Value1 /> 层<h>锁定</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "WolfFur": {
-    "Name": "狼毛"
+    "Name": "狼毛",
+    "Description": "<h>消耗品【<DeckCounter />】</h>"
   },
   "EmpCard": {
-    "Name": "电磁脉冲装置"
+    "Name": "电磁脉冲装置",
+    "Description": "造成 <Damage /> 点攻击伤害。<br />如果目标是<h>无人机</h>，它 <Value1 /> 回合无法行动。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "LarvaCure": {
-    "Name": "解毒剂"
+    "Name": "解毒剂",
+    "Description": "移除<PlayerName />身上的<h>中毒</h>。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "MoonTipsBag": {
-    "Name": "对月锦囊"
+    "Name": "对月锦囊",
+    "Description": "从 <Value1 /> 条<hc>对月锦囊妙计</hc>中选择一项。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "MoonTipsAttack": {
-    "Name": "补充弹幕"
+    "Name": "补充弹幕",
+    "Description": "将 <Value1 /> 张<h>射击</h>洗入抽牌堆中，它们具有<h>填充</h>。"
   },
   "MoonTipsDefense": {
-    "Name": "强化结界"
+    "Name": "强化结界",
+    "Description": "获得 <Value1 /> 点<h>护盾</h>。"
   },
   "MoonTipsHeal": {
-    "Name": "医治伤痛"
+    "Name": "医治伤痛",
+    "Description": "恢复 <Value1 /> 点生命。"
   },
   "QiannianShenqiCard": {
-    "Name": "我的回合"
+    "Name": "我的回合",
+    "Description": "在抽牌达到<he>金字塔形状的积木</he>的上限后，还能以失去 <Value1 /> 点生命为代价继续抽牌。<br />打出后效果持续到本场战斗结束。"
   },
   "MeilingLianhua": {
-    "Name": "极彩「彩光乱舞」"
+    "Name": "极彩「彩光乱舞」",
+    "Description": "对所有敌人造成 <Damage /> 点伤害。<br />获得 <Value1 /> 点<h>火力</h>。"
   },
   "AyaNews": {
-    "Name": "《文文新闻》"
-  },
-  "HatateNews": {
-    "Name": "《花果子念报》"
+    "Name": "《文文新闻》",
+    "Description": "对随机敌人造成 <Damage /> 点伤害。"
   },
   "AyaNewsReimuSp": {
-    "Name": "《文文新闻》灵梦特刊"
+    "Name": "《文文新闻》灵梦特刊",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<h>灵力</h>。"
   },
   "AyaNewsMarisaSp": {
-    "Name": "《文文新闻》魔理沙特刊"
+    "Name": "《文文新闻》魔理沙特刊",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<h>灵力</h>。"
   },
   "AyaNewsSakuyaSp": {
-    "Name": "《文文新闻》咲夜特刊"
+    "Name": "《文文新闻》咲夜特刊",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<h>灵力</h>。"
   },
   "AyaNewsCirnoSp": {
-    "Name": "《文文新闻》琪露诺特刊"
+    "Name": "《文文新闻》琪露诺特刊",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<h>灵力</h>。"
+  },
+  "AyaNewsKoishiSp": {
+    "Name": "《文文新闻》恋特刊",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<h>灵力</h>。"
+  },
+  "AyaNewsAliceSp": {
+    "Name": "《文文新闻》爱丽丝特刊",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<h>灵力</h>。"
   },
   "Riguang": {
-    "Name": "折射日光"
+    "Name": "折射日光",
+    "Description": "<h>回合结束时</h>：受到 <Value1 /> 点伤害。"
   },
   "Yueguang": {
-    "Name": "寂静月光"
-  },
-  "Xingguang": {
-    "Name": "璀璨星光"
-  },
-  "Xuanguang": {
-    "Name": "眩光"
+    "Name": "寂静月光",
+    "Description": "<h>抽取时</h>：失去 <Value1 /> 点随机的法力。"
   },
   "CirnoFreeze": {
-    "Name": "法力冻结"
+    "Name": "法力冻结",
+    "Description": "如果手中有<SelfName />，所有手牌费用增加<Mana />。<br />打出卡牌承受 <FreezeTimes /> 次费用增加后<h>放逐</h><SelfName />。"
   },
   "Frog": {
-    "Name": "青蛙"
+    "Name": "青蛙",
+    "Description": "这张牌被诅咒了。<br />它曾经是：<CardName />"
   },
   "BlackResidue": {
-    "Name": "黑暗残留"
+    "Name": "黑暗残留",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点生命。"
   },
   "SakuyaLock": {
-    "Name": "时间封锁"
+    "Name": "时间封锁",
+    "Description": "触发一次<color=#B7F0FF>十六夜咲夜</color>的<h>银之封锁</h>。<br />（受到 <Value1 /> 点攻击伤害。）"
   },
   "Wushuai": {
-    "Name": "凌冽剑光"
+    "Name": "凌冽剑光",
+    "Description": "<h>抽取时</h>：受到 <Value1 /> 层<h>锁定</h>，然后<h>放逐</h><SelfName />。"
   },
   "Payment": {
-    "Name": "转账"
+    "Name": "转账",
+    "Description": "支付 <MoneyCost /> 点<Money />。<br /><color=#b7646b>诈骗兔子</color>直接离开战斗。"
   },
   "LoveLetter": {
-    "Name": "情书"
+    "Name": "情书",
+    "Description": "送给<color=#eab8bf>恋爱怨灵少女</color>，她会高兴。"
   },
   "Lunatic": {
-    "Name": "疯狂"
+    "Name": "疯狂",
+    "Description": "<PlayerName />的回合结束时，如果手牌、抽牌堆和弃牌堆中的<SelfName />达到 <Value1 /> 张，<h>放逐</h>它们，<PlayerName />失去 <Value2 /> 点生命。<br />现有 <LunaticCount /> 张。"
   },
   "Chunguang": {
-    "Name": "纯粹的光芒"
+    "Name": "纯粹的光芒",
+    "Description": "<h>抽取时</h>：<h>纯化</h> <Value1 /> 。"
   },
   "Bribery": {
-    "Name": "贿赂"
+    "Name": "贿赂",
+    "Description": "支付 <MoneyCost /> 点<Money />。<br /><color=#4f6e97>饭纲丸龙</color>会放水。"
   },
   "Nightmare": {
-    "Name": "噩梦"
+    "Name": "噩梦",
+    "Description": "手牌、抽牌堆和弃牌堆中总计有 <Value1 /> 张<SelfName />时，<h>放逐</h>它们，<PlayerName />立刻失败，无法避免。<br />现有 <NightmareCount /> 张。"
   },
   "NightMana1": {
-    "Name": "漫漫长夜：子时"
+    "Name": "漫漫长夜：子时",
+    "Description": "如果手中有<SelfName />，所有手牌费用增加<Mana />。<br />打出卡牌承受 <FreezeTimes /> 次费用增加后<h>放逐</h><SelfName />。"
   },
   "NightMana2": {
-    "Name": "漫漫长夜：丑时"
+    "Name": "漫漫长夜：丑时",
+    "Description": "如果手中有<SelfName />，所有手牌费用增加<Mana />。<br />打出卡牌承受 <FreezeTimes /> 次费用增加后<h>放逐</h><SelfName />。"
   },
   "NightMana3": {
-    "Name": "漫漫长夜：寅时"
+    "Name": "漫漫长夜：寅时",
+    "Description": "如果手中有<SelfName />，所有手牌费用增加<Mana />。<br />打出卡牌承受 <FreezeTimes /> 次费用增加后<h>放逐</h><SelfName />。"
   },
   "NightMana4": {
-    "Name": "漫漫长夜：卯时"
-  },
-  "Regret": {
-    "Name": "遗憾"
-  },
-  "Jealousy": {
-    "Name": "嫉妒"
-  },
-  "BefuddledLife": {
-    "Name": "浑浑噩噩"
+    "Name": "漫漫长夜：卯时",
+    "Description": "如果手中有<SelfName />，所有手牌费用增加<Mana />。<br />打出卡牌承受 <FreezeTimes /> 次费用增加后<h>放逐</h><SelfName />。"
   },
   "XiaosanJingxia": {
-    "Name": "惊吓"
+    "Name": "惊吓",
+    "Description": "<h>回合结束时</h>：受到 <Value1 /> 回合<h>虚弱</h>。"
   },
   "MarisaForget": {
-    "Name": "遗忘"
+    "Name": "遗忘",
+    "Description": "<h>回合结束时</h>：受到 <Value1 /> 回合<h>脆弱</h>。"
   },
   "Yuebiao": {
-    "Name": "表之月"
+    "Name": "表之月",
+    "Description": "<h>抽取时</h>：<h>纯化</h> <Value1 /> 。"
   },
   "BuyPeace": {
-    "Name": "破财消灾"
+    "Name": "破财消灾",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<Money />，获得 <Value2 /> 点生命。"
   },
   "SweetPoison": {
-    "Name": "甜蜜之毒"
+    "Name": "甜蜜之毒",
+    "Description": "<h>回合结束时</h>：受到 <Value1 /> 层<h>中毒</h>。"
   },
   "Pressure": {
-    "Name": "无形的压力"
+    "Name": "无形的压力",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<Power />。"
   },
   "Misfortune": {
-    "Name": "不幸"
+    "Name": "不幸",
+    "Description": "<h>回合结束时</h>：每持有 100 点<Money />，便失去 <Value1 /> 点生命。"
   },
   "YuyukoMisfortune": {
-    "Name": "饿灵附身"
+    "Name": "饿灵附身",
+    "Description": "<h>手牌中</h>：每当<PlayerName />打出一张牌，失去 <Value1 /> 点生命。"
   },
   "Drunk": {
-    "Name": "醉酒"
-  },
-  "Zhukeling": {
-    "Name": "逐客令"
+    "Name": "醉酒",
+    "Description": "<h>手牌中</h>：本回合只能打出 <Value1 /> 张牌。<br />（已经打出 <Count /> 张。）"
   },
   "Psychedelic": {
-    "Name": "迷幻"
+    "Name": "迷幻",
+    "Description": "<h>回合结束时</h>：失去 <Value1 /> 点生命，获得 <Value2 /> 点<Power />。"
   },
   "FanzhuanChongdong": {
-    "Name": "反转冲动"
+    "Name": "反转冲动",
+    "Description": "<h>回合结束时</h>：如果本回合没有恢复过生命，便失去 <Value1 /> 点生命。"
+  },
+  "FakeCard": {
+    "Name": "祖先托梦（伪）",
+    "Description": "<h>古明地恋</h>还在家里睡觉。<br />敬请期待游戏更新。"
+  },
+  "HistoryCard": {
+    "Name": "历史卡牌",
+    "Description": "这张卡牌在当前版本已经被移除。<br />卡牌 Id: <CardId />"
+  },
+  "FlanBlack": {
+    "Name": "魔化",
+    "Description": "这张牌还没有准备好。<br />请期待游戏更新。"
+  },
+  "ShenziWake": {
+    "Name": "圣人复苏",
+    "Description": "从 <Value1 /> 张随机的卡牌中选择一张加入手中，这些卡牌的原始费用总数为 X+1 。<br />它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
+  },
+  "DebugAddRandomCards": {
+    "Name": "添加随机卡牌",
+    "Description": "测试卡牌：添加随机卡牌到抽牌弃牌堆，各 <Value1 /> 张。"
+  },
+  "DebugExileDrawDiscard": {
+    "Name": "放逐抽牌弃牌堆",
+    "Description": "测试卡牌：放逐全部抽牌弃牌堆。"
+  },
+  "DebugAddRandomCardsSlow": {
+    "Name": "添加随机卡牌（慢）",
+    "Description": "测试卡牌：慢慢地添加随机卡牌到抽牌弃牌堆，各 <Value1 /> 张。"
+  },
+  "DebugAddDeckCards": {
+    "Name": "向牌库添加卡牌",
+    "Description": "测试卡牌：添加 <Value1 /> 张随机的卡牌到牌库。"
+  },
+  "DebugAddHandCards": {
+    "Name": "放逐所有手牌然后添加卡牌",
+    "Description": "测试卡牌：放逐所有手牌，然后添加 <Value1 /> 张随机的卡牌到手中。"
   }
 }
