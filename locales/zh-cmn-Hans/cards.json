@@ -1458,6 +1458,27 @@
     "Name": "Gain Doll Slot",
     "Description": "(WIP) 获得 <Value1 /> Doll Slot"
   },
+  "DollFactory": {
+    "Name": "人形工坊"
+  },
+  "AutoHousework": {
+    "Name": "家政自动化"
+  },
+  "DollRepair": {
+    "Name": "人形修缮"
+  },
+  "DollSacrifice": {
+    "Name": "回归虚无"
+  },
+  "Qianqiang": {
+    "Name": "萌萌大千枪"
+  },
+  "DollFangzhen": {
+    "Name": "人形方阵"
+  },
+  "DollZuzhou": {
+    "Name": "上吊的蓬莱人形"
+  },
   "YoumuAttack": {
     "Name": "心抄斩",
     "Description": "造成 <Damage /> 点伤害。<br />选择一张手牌<h>放逐</h>。"
@@ -1599,6 +1620,9 @@
   "FakeMoon": {
     "Name": "虚假之月",
     "Description": "选择一张手牌，将 <Value1 /> 张它<h>暂塑</h>为<Mana />的复制加入手中，这张复制具有<h>放逐</h>和<h>虚无</h>。如果目标是<h>能力</h>牌或具有<h>放逐</h>，它成为<h>复制品</h>。"
+  },
+  "Shadow": {
+    "Name": "暗影"
   },
   "RumiaBlock": {
     "Name": "遮光",
@@ -2430,6 +2454,9 @@
     "Name": "《文文新闻》",
     "Description": "对随机敌人造成 <Damage /> 点伤害。"
   },
+  "HatateNews": {
+    "Name": "《花果子念报》"
+  },
   "AyaNewsReimuSp": {
     "Name": "《文文新闻》灵梦特刊",
     "Description": "<h>回合结束时</h>：失去 <Value1 /> 点<h>灵力</h>。"
@@ -2461,6 +2488,12 @@
   "Yueguang": {
     "Name": "寂静月光",
     "Description": "<h>抽取时</h>：失去 <Value1 /> 点随机的法力。"
+  },
+  "Xingguang": {
+    "Name": "璀璨星光"
+  },
+  "Xuanguang": {
+    "Name": "眩光"
   },
   "CirnoFreeze": {
     "Name": "法力冻结",
@@ -2522,6 +2555,15 @@
     "Name": "漫漫长夜：卯时",
     "Description": "如果手中有<SelfName />，所有手牌费用增加<Mana />。<br />打出卡牌承受 <FreezeTimes /> 次费用增加后<h>放逐</h><SelfName />。"
   },
+  "Regret": {
+    "Name": "遗憾"
+  },
+  "Jealousy": {
+    "Name": "嫉妒"
+  },
+  "BefuddledLife": {
+    "Name": "浑浑噩噩"
+  },
   "XiaosanJingxia": {
     "Name": "惊吓",
     "Description": "<h>回合结束时</h>：受到 <Value1 /> 回合<h>虚弱</h>。"
@@ -2557,6 +2599,9 @@
   "Drunk": {
     "Name": "醉酒",
     "Description": "<h>手牌中</h>：本回合只能打出 <Value1 /> 张牌。<br />（已经打出 <Count /> 张。）"
+  },
+  "Zhukeling": {
+    "Name": "逐客令"
   },
   "Psychedelic": {
     "Name": "迷幻",

@@ -1450,6 +1450,27 @@
     "Name": "Gain Doll Slot",
     "Description": "(WIP)"
   },
+  "DollFactory": {
+    "Name": "Doll Workshop"
+  },
+  "AutoHousework": {
+    "Name": "Automated Housekeeping"
+  },
+  "DollRepair": {
+    "Name": "Doll Repair"
+  },
+  "DollSacrifice": {
+    "Name": "Return Inanimateness"
+  },
+  "Qianqiang": {
+    "Name": "Cutie Phalanx"
+  },
+  "DollFangzhen": {
+    "Name": "Doll Phalanx"
+  },
+  "DollZuzhou": {
+    "Name": "Hanged Hourai Dolls"
+  },
   "YoumuAttack": {
     "Name": "Heart Excerpt Slash",
     "Description": "Deal <Damage /> damage.<br /><h>Exile</h> a card from the hand."
@@ -1591,6 +1612,9 @@
   "FakeMoon": {
     "Name": "False Moon",
     "Description": "Choose a card in the hand. Add <Value1 /> <h>Cop{Value1:plural one='y' other='ies}</h> of it to the hand. {Value1:plural one='It' other='They'} <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana /> and {Value1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br />If the target card is an <h>Ability</h> card or has <h>Exile</h>, it becomes a <h>Copy</h>."
+  },
+  "Shadow": {
+    "Name": "Shadow"
   },
   "RumiaBlock": {
     "Name": "Shade",
@@ -2422,6 +2446,9 @@
     "Name": "Bunbunmaru Newspaper",
     "Description": "Deal <Damage /> damage to a random enemy."
   },
+  "HatateNews": {
+    "Name": "Kakashi Spirit News"
+  },
   "AyaNewsReimuSp": {
     "Name": "Bunbunmaru - Reimu Special",
     "Description": "<h>At the end of the turn</h>: Lose <Value1 /> <h>Spirit</h>."
@@ -2453,6 +2480,12 @@
   "Yueguang": {
     "Name": "Quiet Moonlight",
     "Description": "<h>When drawn</h>: Lose <Value1 /> random mana."
+  },
+  "Xingguang": {
+    "Name": "Glamorous Starlight"
+  },
+  "Xuanguang": {
+    "Name": "Glare"
   },
   "CirnoFreeze": {
     "Name": "Mana Freeze",
@@ -2514,6 +2547,15 @@
     "Name": "Long Night: 5AM",
     "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card{FreezeTimes:plural one=' is' other='s are'} played, <h>Exile</h> <SelfName />."
   },
+  "Regret": {
+    "Name": "Regret"
+  },
+  "Jealousy": {
+    "Name": "Jealous"
+  },
+  "BefuddledLife": {
+    "Name": "Befuddlement"
+  },
   "XiaosanJingxia": {
     "Name": "Scare",
     "Description": "<h>At the end of the turn</h>: Gain <Value1 /> <h>Weak</h>."
@@ -2549,6 +2591,9 @@
   "Drunk": {
     "Name": "Drunk",
     "Description": "<h>While in hand</h>: Only <Value1 /> cards may be played each turn.<br />({Count:plural one='% card' other='% cards'} played this turn.)"
+  },
+  "Zhukeling": {
+    "Name": "Eviction Order"
   },
   "Psychedelic": {
     "Name": "Psychedelic",

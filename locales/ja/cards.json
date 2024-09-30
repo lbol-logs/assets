@@ -1231,6 +1231,9 @@
     "Name": "無意識の行動",
     "Description": "<Damage />ダメージを与える。<br />現在の<h>精神状態</h>を解除する。"
   },
+  "KoishiZeroAttack": {
+    "Name": "恋は盲目"
+  },
   "EnterPeace": {
     "Name": "平静の想起",
     "Description": "<h>平静</h>状態に入る。"
@@ -1403,9 +1406,15 @@
     "Name": "弾幕結界",
     "Description": "<Block /><h>ブロック</h>を得る。"
   },
+  "DeployShanghai": {
+    "Name": "上海人形設置"
+  },
   "UpgradeDoll": {
     "Name": "乙女文楽",
     "Description": "<h>上海人形</h>1体を強化する。"
+  },
+  "DeployPenglai": {
+    "Name": "蓬莱人形設置"
   },
   "DoubleActiveTrigger": {
     "Name": "ダブル起動",
@@ -1560,6 +1569,9 @@
   "FakeMoon": {
     "Name": "偽物の月",
     "Description": "手札を1枚選び、そのカードの<h>臨時コスト</h><Mana />かつ<h>廃棄</h>と<h>虚無</h>を持つコピーを<Value1 />枚手札に加える。<br />対象が<h>能力</h>カードまたは<h>廃棄</h>を持つカードである場合、選んだカードにも<h>複製</h>を与える。"
+  },
+  "Shadow": {
+    "Name": "暗闇"
   },
   "RumiaBlock": {
     "Name": "遮光",
@@ -2391,6 +2403,9 @@
     "Name": "文々。新聞",
     "Description": "ランダムな敵に<Damage />ダメージを与える。"
   },
+  "HatateNews": {
+    "Name": "花果子念報"
+  },
   "AyaNewsReimuSp": {
     "Name": "文々。新聞　『博麗霊夢』特集",
     "Description": "<h>ターン終了時</h>：霊力<Value1 />を失う。"
@@ -2422,6 +2437,12 @@
   "Yueguang": {
     "Name": "月の静寂",
     "Description": "このカードを引いた時、ランダムなマナ<Value1 />点を失う。"
+  },
+  "Xingguang": {
+    "Name": "星の煌めき"
+  },
+  "Xuanguang": {
+    "Name": "眩輝"
   },
   "CirnoFreeze": {
     "Name": "マナ凍結",
@@ -2483,6 +2504,15 @@
     "Name": "永き夜：卯の刻",
     "Description": "<SelfName />が手札にある間、全てのカードのマナコストが<Mana />増える。<br /><FreezeTimes />枚のカードをプレイした後、<SelfName />を<h>廃棄</h>する。"
   },
+  "Regret": {
+    "Name": "怨恨"
+  },
+  "Jealousy": {
+    "Name": "嫉妬"
+  },
+  "BefuddledLife": {
+    "Name": "無知蒙昧"
+  },
   "XiaosanJingxia": {
     "Name": "仰天",
     "Description": "<h>ターン終了時</h>：<h>脱力</h><Value1 />を受ける。"
@@ -2518,6 +2548,9 @@
   "Drunk": {
     "Name": "泥酔",
     "Description": "<h>手札にある間</h>：1ターンに<Value1 />枚しかカードを使用できない。<br />（既に<Count />枚使用済み）"
+  },
+  "Zhukeling": {
+    "Name": "立ち退き命令"
   },
   "Psychedelic": {
     "Name": "迷幻",
