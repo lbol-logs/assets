@@ -2476,7 +2476,7 @@
   },
   "SakuyaLock": {
     "Name": "时间封锁",
-    "Description": "触发一次<color=#B7F0FF>十六夜咲夜</color>的<h>银之封锁</h>。<br />（受到 <Value1 /> 点攻击伤害。）"
+    "Description": "触发一次<Sakuya>十六夜咲夜</Sakuya>的<h>银之封锁</h>。<br />（受到 <Value1 /> 点攻击伤害。）"
   },
   "Wushuai": {
     "Name": "凌冽剑光",
@@ -2484,11 +2484,11 @@
   },
   "Payment": {
     "Name": "转账",
-    "Description": "支付 <MoneyCost /> 点<Money />。<br /><color=#b7646b>诈骗兔子</color>直接离开战斗。"
+    "Description": "支付 <MoneyCost /> 点<Money />。<br /><FraudRabbit>诈骗兔子</FraudRabbit>直接离开战斗。"
   },
   "LoveLetter": {
     "Name": "情书",
-    "Description": "送给<color=#eab8bf>恋爱怨灵少女</color>，她会高兴。"
+    "Description": "送给<LoveGirl>恋爱怨灵少女</LoveGirl>，她会高兴。"
   },
   "Lunatic": {
     "Name": "疯狂",
@@ -2500,7 +2500,7 @@
   },
   "Bribery": {
     "Name": "贿赂",
-    "Description": "支付 <MoneyCost /> 点<Money />。<br /><color=#4f6e97>饭纲丸龙</color>会放水。"
+    "Description": "支付 <MoneyCost /> 点<Money />。<br /><Long>饭纲丸龙</Long>会放水。"
   },
   "Nightmare": {
     "Name": "噩梦",

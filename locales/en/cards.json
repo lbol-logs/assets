@@ -2468,7 +2468,7 @@
   },
   "SakuyaLock": {
     "Name": "Time Lockdown",
-    "Description": "Trigger <color=#B7F0FF>Silver Lockdown</color> once.<br />(<PlayerName /> takes <Value1 /> attack damage.)"
+    "Description": "Trigger <Sakuya>Silver Lockdown</Sakuya> once.<br />(<PlayerName /> takes <Value1 /> attack damage.)"
   },
   "Wushuai": {
     "Name": "Shining Sword",
@@ -2476,11 +2476,11 @@
   },
   "Payment": {
     "Name": "Funds Transfer",
-    "Description": "Pay <MoneyCost /> <Money />.<br />The <color=#b7646b>Rabbit Trickster</color> immediately leaves."
+    "Description": "Pay <MoneyCost /> <Money />.<br />The <FraudRabbit>Rabbit Trickster</FraudRabbit> immediately leaves."
   },
   "LoveLetter": {
     "Name": "Loveletter",
-    "Description": "Give this to <color=#eab8bf>Lovesick Girl</color>. She'll be happy."
+    "Description": "Give this to <LoveGirl>Lovesick Girl</LoveGirl>. She'll be happy."
   },
   "Lunatic": {
     "Name": "Lunacy",
@@ -2492,7 +2492,7 @@
   },
   "Bribery": {
     "Name": "Bribery",
-    "Description": "Pay <MoneyCost /> <Money />.<br /><color=#4f6e97>Megumu</color> will go easier on you this combat."
+    "Description": "Pay <MoneyCost /> <Money />.<br /><Long>Megumu</Long> will go easier on you this combat."
   },
   "Nightmare": {
     "Name": "Nightmare",

@@ -2437,7 +2437,7 @@
   },
   "SakuyaLock": {
     "Name": "タイムロック",
-    "Description": "<color=#B7F0FF>十六夜咲夜</color>の<h>シルバーロックダウン</h>を1回発動させる。<br />（<Value1 />攻撃ダメージを受ける。）"
+    "Description": "<Sakuya>十六夜咲夜</Sakuya>の<h>シルバーロックダウン</h>を1回発動させる。<br />（<Value1 />攻撃ダメージを受ける。）"
   },
   "Wushuai": {
     "Name": "剣閃",
@@ -2445,11 +2445,11 @@
   },
   "Payment": {
     "Name": "送金",
-    "Description": "<Money /><MoneyCost />を払う。<br /><color=#b7646b>いたずらウサギ</color>が戦闘から離脱する。"
+    "Description": "<Money /><MoneyCost />を払う。<br /><FraudRabbit>いたずらウサギ</FraudRabbit>が戦闘から離脱する。"
   },
   "LoveLetter": {
     "Name": "恋文",
-    "Description": "<color=#eab8bf>恋する乙女</color>にあげる、彼女は喜ぶだろう。"
+    "Description": "<LoveGirl>恋する乙女</LoveGirl>にあげる、彼女は喜ぶだろう。"
   },
   "Lunatic": {
     "Name": "狂気",
@@ -2461,7 +2461,7 @@
   },
   "Bribery": {
     "Name": "袖の下",
-    "Description": "<Money /><MoneyCost />を払う。<br /><color=#4f6e97>龍</color>が手を抜いてくれる。"
+    "Description": "<Money /><MoneyCost />を払う。<br /><Long>龍</Long>が手を抜いてくれる。"
   },
   "Nightmare": {
     "Name": "悪夢",
