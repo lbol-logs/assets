@@ -142,7 +142,7 @@
   },
   "JiejieAttack": {
     "Name": "Barrier Slam",
-    "Description": "Deal <Damage /> damage.<br />Deal additional damage equal to <PlayerName />'s <h>Barrier</h>. (<ShieldDamage />)"
+    "Description": "Deal <Damage /> damage.<br />Deal additional damage equal to <PlayerName />'s <h>Barrier</h>."
   },
   "ReimuShrine": {
     "Name": "Hakurei Temple Fair",
@@ -437,8 +437,8 @@
   },
   "CollectionDefense": {
     "Name": "Too Big to Fail",
-    "Description": "Gain <h>Block</h> equal to the number of cards in the draw pile. (<Block />)",
-    "UpgradedDescription": "Gain <h>Barrier</h> equal to the number of cards in the draw pile. (<Shield />)"
+    "Description": "Gain <h>Block</h> equal to the number of cards in the draw pile.",
+    "UpgradedDescription": "Gain <h>Barrier</h> equal to the number of cards in the draw pile."
   },
   "BurstDraw": {
     "Name": "Speed Duel",
@@ -714,7 +714,7 @@
   },
   "SilverBullet": {
     "Name": "Silver Loom",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Block /> <h>Block</h>. Gain <Value1 /> more <h>Block</h> for each <h>Throwing Knife</h> in the hand, draw pile, and discard pile. (<h>Throwing Knife</h> Count: <KnifeCount />)"
+    "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Block /> <h>Block</h>. Gain <Value1 /> more <h>Block</h> for each <h>Throwing Knife</h> in the hand, draw pile, and discard pile."
   },
   "SakuyaDefenseRetain": {
     "Name": "Guard Up",
@@ -798,7 +798,7 @@
   },
   "BackOfKnife": {
     "Name": "My Knife's Recursions",
-    "Description": "Add a <h>Sharp Knife Express</h> to the hand. <br />Then, remove all <h>Exiled Throwing Knives</h> from combat. Increase its damage by <Value1 /> for each card removed this way.<br />(Its damage will be increased by <IncreasedDamage />.)"
+    "Description": "Add a <h>Sharp Knife Express</h> to the hand. <br />Then, remove all <h>Exiled Throwing Knives</h> from combat. Increase its damage by <Value1 /> for each card removed this way."
   },
   "GroupOfKnife": {
     "Name": "Sharp Knife Express",
@@ -1140,7 +1140,7 @@
   },
   "HualiIce": {
     "Name": "Stunning Summer Ice",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <h>Cold</h> to each enemy.<br />If <Value1 /> card{Value1:plural one=' has' other='s have'} been played this turn, <SelfName /> costs <Mana /> to play.<br />({Countdown:plural one='% card' other='% cards'} left.)"
+    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <h>Cold</h> to each enemy.<br />If <Value1 /> card{Value1:plural one=' has' other='s have'} been played this turn, <SelfName /> costs <Mana /> to play."
   },
   "ChooseFriend": {
     "Name": "Misty Lake Rendezvous",
@@ -1299,7 +1299,7 @@
   },
   "PsycheLock": {
     "Name": "Psyche-Lock",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Mana />.<br />Can only be played if <PlayerName /> has entered 3 diffrent <h>Mental States</h> while <SelfName /> is in the hand. (<Count /> left)"
+    "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Mana />.<br />Can only be played if <PlayerName /> has entered 3 diffrent <h>Mental States</h> while <SelfName /> is in the hand."
   },
   "YaoguaiNaodianbo": {
     "Name": "Youkai EEG",
@@ -1582,7 +1582,7 @@
   },
   "WaterPrincess": {
     "Name": "Princess Undine",
-    "Description": "Gain <Shield /> <h>Barrier</h>.<br />For each card in the hand, increase <SelfName />'s <h>Barrier</h> by <Value1 />. (Total <Special /> <h>Barrier</h>)<br /><h>Debut</h>: Add a <h>Splash</h> to the hand."
+    "Description": "For each card in the hand, gain <Value1 /> <h>Barrier</h>.<br /><h>Debut</h>: Add a <h>Splash</h> to the hand."
   },
   "YonglinDraw": {
     "Name": "Memories of the Divine Age",
@@ -1730,7 +1730,7 @@
   },
   "FlanFirepower": {
     "Name": "And Then Will There Be None?",
-    "Description": "Each card in the hand gains <h>Ethereal</h>. Gain <h>Firepower</h> equal to the number of cards in the hand.<br />There {Count:plural one='is' other='are'} currently <Count /> other card{Count:plural one='' other='s'} in the hand."
+    "Description": "Each card in the hand gains <h>Ethereal</h>. Gain <h>Firepower</h> equal to the number of cards in the hand."
   },
   "MeihongPower": {
     "Name": "The Immortal Flame",
@@ -1742,7 +1742,7 @@
   },
   "PatchouliGreenAttack": {
     "Name": "Flash of Spring",
-    "Description": "Deal <Damage /> damage.<br />Can only be played if the current mana total (<BattleAmount />) is higher than the mana base total (<BaseAmount />)."
+    "Description": "Deal <Damage /> damage.<br />Can only be played if the current mana total is higher than the mana base total."
   },
   "RangziSeed": {
     "Name": "Autumnal Harvest",
@@ -2493,7 +2493,7 @@
   },
   "Frog": {
     "Name": "Frog",
-    "Description": "This card has been jinxed.<br />It was originally: <CardName />"
+    "Description": "This card has been jinxed."
   },
   "BlackResidue": {
     "Name": "Dark Residue",
@@ -2501,7 +2501,7 @@
   },
   "SakuyaLock": {
     "Name": "Time Lockdown",
-    "Description": "Trigger <Sakuya>Silver Lockdown</Sakuya> once.<br />(<PlayerName /> takes <Value1 /> attack damage.)"
+    "Description": "Trigger <h>Silver Lockdown</h>."
   },
   "Wushuai": {
     "Name": "Shining Sword",
@@ -2517,7 +2517,7 @@
   },
   "Lunatic": {
     "Name": "Lunacy",
-    "Description": "At the end of <PlayerName />'s turn, if there are a total of <Value1 /> <SelfName />s in the hand, draw pile and/or discard pile, <h>Exile</h> them and lose <Value2 /> life.<br />There {LunaticCount:plural one='is' other='are'} currently <LunaticCount />."
+    "Description": "At the end of <PlayerName />'s turn, if there are a total of <Value1 /> <SelfName />s in the hand, draw pile and/or discard pile, <h>Exile</h> them and lose <Value2 /> life."
   },
   "Chunguang": {
     "Name": "Pure Radiance",
@@ -2529,7 +2529,7 @@
   },
   "Nightmare": {
     "Name": "Nightmare",
-    "Description": "When there are a total of <Value1 /> <SelfName />s in the hand, draw pile, and/or discard pile, <h>Exile</h> them. Then, <PlayerName /> loses the game.<br />There {NightmareCount:plural one='is' other='are'} currently <NightmareCount />."
+    "Description": "When there are a total of <Value1 /> <SelfName />s in the hand, draw pile, and/or discard pile, <h>Exile</h> them. Then, <PlayerName /> loses the game."
   },
   "NightMana1": {
     "Name": "Long Night: 11PM",
@@ -2590,7 +2590,7 @@
   },
   "Drunk": {
     "Name": "Drunk",
-    "Description": "<h>While in hand</h>: Only <Value1 /> cards may be played each turn.<br />({Count:plural one='% card' other='% cards'} played this turn.)"
+    "Description": "<h>While in hand</h>: Only <Value1 /> cards may be played each turn."
   },
   "Zhukeling": {
     "Name": "Eviction Order"

@@ -142,7 +142,7 @@
   },
   "JiejieAttack": {
     "Name": "結界猛撃",
-    "Description": "<Damage />ダメージを与える。<br />追加で<h>バリア</h>値のダメージを与える。（<ShieldDamage />）"
+    "Description": "<Damage />ダメージを与える。<br />追加で<h>バリア</h>値のダメージを与える。"
   },
   "ReimuShrine": {
     "Name": "博麗縁日",
@@ -437,8 +437,8 @@
   },
   "CollectionDefense": {
     "Name": "山の如し",
-    "Description": "山札にあるカードの数だけ<h>ブロック</h>を得る（ブロック<Block />）。",
-    "UpgradedDescription": "山札にあるカードの数だけ<h>バリア</h>を得る（バリア<Shield />）。"
+    "Description": "山札にあるカードの数だけ<h>ブロック</h>を得る。",
+    "UpgradedDescription": "山札にあるカードの数だけ<h>バリア</h>を得る。"
   },
   "BurstDraw": {
     "Name": "スピードバトル",
@@ -714,7 +714,7 @@
   },
   "SilverBullet": {
     "Name": "銀糸織り",
-    "Description": "敵全体に<Damage />ダメージを与える。<br /><Block /><h>ブロック</h>を得る。手札や山札、捨て札にある<h>投げナイフ</h>1枚につき得るブロックが<Value1 />増加する。(<KnifeCount />枚)"
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><Block /><h>ブロック</h>を得る。手札や山札、捨て札にある<h>投げナイフ</h>1枚につき得るブロックが<Value1 />増加する。"
   },
   "SakuyaDefenseRetain": {
     "Name": "時間厳守",
@@ -798,7 +798,7 @@
   },
   "BackOfKnife": {
     "Name": "マイナイフリカージョン",
-    "Description": "<h>閃刀エクスプレス</h>一枚を手札に加え、<h>廃棄場</h>にある<h>投げナイフ</h>全てをこの戦闘から消滅させる。<br />加えた<h>閃刀エクスプレス</h>は消滅させた<h>投げナイフ</h>一枚ごとに、<Value1 />ダメージを追加で与えるようになる。<br />（ <IncreasedDamage /> 点の追加ダメージ）"
+    "Description": "<h>閃刀エクスプレス</h>一枚を手札に加え、<h>廃棄場</h>にある<h>投げナイフ</h>全てをこの戦闘から消滅させる。<br />加えた<h>閃刀エクスプレス</h>は消滅させた<h>投げナイフ</h>一枚ごとに、<Value1 />ダメージを追加で与えるようになる。"
   },
   "GroupOfKnife": {
     "Name": "閃刀エクスプレス",
@@ -1140,7 +1140,7 @@
   },
   "HualiIce": {
     "Name": "パーフェクトサマーアイス",
-    "Description": "敵全体に<Damage />ダメージを与え、<h>冷気</h>を与える。<br />このターンにカードを<Value1 />枚以上使用している場合、このカードのコストは<Mana />。<br />（残り<Countdown />枚）"
+    "Description": "敵全体に<Damage />ダメージを与え、<h>冷気</h>を与える。<br />このターンにカードを<Value1 />枚以上使用している場合、このカードのコストは<Mana />。"
   },
   "ChooseFriend": {
     "Name": "待ち合わせ",
@@ -1287,7 +1287,7 @@
   },
   "PsycheLock": {
     "Name": "マインドロック",
-    "Description": "敵全体に<Damage />ダメージを<Value1 />回与える。<br /><Mana />を得る。<br /><SelfName />が手札にある間に3つの異なる<h>精神状態</h>に入っている場合のみ使用できる。(残り<Count />種類)"
+    "Description": "敵全体に<Damage />ダメージを<Value1 />回与える。<br /><Mana />を得る。<br /><SelfName />が手札にある間に3つの異なる<h>精神状態</h>に入っている場合のみ使用できる。"
   },
   "YaoguaiNaodianbo": {
     "Name": "妖怪ポリグラフ",
@@ -1539,7 +1539,7 @@
   },
   "WaterPrincess": {
     "Name": "プリンセスウンディネ",
-    "Description": "<Shield /><h>バリア</h>を得る。<br />手札1枚につき得られる<h>バリア</h>が<Value1 />増える。（合計：<Special />）<br /><h>初見</h>：<h>水沫</h>を手札に加える。"
+    "Description": "<Shield /><h>バリア</h>を得る。<br />手札1枚につき得られる<h>バリア</h>が<Value1 />増える。<br /><h>初見</h>：<h>水沫</h>を手札に加える。"
   },
   "YonglinDraw": {
     "Name": "神代の記憶",
@@ -1666,7 +1666,7 @@
   },
   "SuikaBigball": {
     "Name": "元鬼玉",
-    "Description": "<Damage />ダメージを与える。他の敵にその半分（<HalfDamage />ダメージ）を与える。<br /><h>火力</h><Value1 />を失う。"
+    "Description": "<Damage />ダメージを与える。他の敵にその半分を与える。<br /><h>火力</h><Value1 />を失う。"
   },
   "MeihongFire": {
     "Name": "無差別発火の符",
@@ -1687,7 +1687,7 @@
   },
   "FlanFirepower": {
     "Name": "そして誰もいなくなるか？",
-    "Description": "手札のカード全てに<h>虚無</h>を付与し、その枚数に等しい<h>火力</h>(<Count />)を得る。"
+    "Description": "手札のカード全てに<h>虚無</h>を付与し、その枚数に等しい<h>火力</h>を得る。"
   },
   "MeihongPower": {
     "Name": "不死の炎",
@@ -1699,7 +1699,7 @@
   },
   "PatchouliGreenAttack": {
     "Name": "春色の閃光",
-    "Description": "<Damage />ダメージを与える。<br />このカードは現在のマナの総数(<BattleAmount />)がマナ基盤のマナの総数(<BaseAmount />)より多い時のみ使用できる。"
+    "Description": "<Damage />ダメージを与える。<br />このカードは現在のマナの総数がマナ基盤のマナの総数より多い時のみ使用できる。"
   },
   "RangziSeed": {
     "Name": "春植えざれば秋実らず",
@@ -2450,7 +2450,7 @@
   },
   "Frog": {
     "Name": "カエル",
-    "Description": "このカードは呪われた。<br />元のカード：<CardName />"
+    "Description": "このカードは呪われた。"
   },
   "BlackResidue": {
     "Name": "残留思念",
@@ -2458,7 +2458,7 @@
   },
   "SakuyaLock": {
     "Name": "タイムロック",
-    "Description": "<Sakuya>十六夜咲夜</Sakuya>の<h>シルバーロックダウン</h>を1回発動させる。<br />（<Value1 />攻撃ダメージを受ける。）"
+    "Description": "<h>シルバーロックダウン</h>の効果を1回発動させる。"
   },
   "Wushuai": {
     "Name": "剣閃",
@@ -2474,7 +2474,7 @@
   },
   "Lunatic": {
     "Name": "狂気",
-    "Description": "<PlayerName />のターン終了時に <SelfName />が手札、山札、捨て札に合計で<Value1 />枚以上ある場合、すべての<SelfName />を<h>廃棄</h>し、ライフを<Value2 />失う。<br />現在：<LunaticCount />枚。"
+    "Description": "<PlayerName />のターン終了時に <SelfName />が手札、山札、捨て札に合計で<Value1 />枚以上ある場合、すべての<SelfName />を<h>廃棄</h>し、ライフを<Value2 />失う。"
   },
   "Chunguang": {
     "Name": "純粋なる輝き",
@@ -2486,7 +2486,7 @@
   },
   "Nightmare": {
     "Name": "悪夢",
-    "Description": "<SelfName />が手札、山札、捨て札に合計で<Value1 />枚存在する場合、それらを全て<h>廃棄</h>する。その後、<PlayerName />は敗北する。<br />現在：<NightmareCount />枚"
+    "Description": "<SelfName />が手札、山札、捨て札に合計で<Value1 />枚存在する場合、それらを全て<h>廃棄</h>する。その後、<PlayerName />は敗北する。"
   },
   "NightMana1": {
     "Name": "永き夜：子の刻",
@@ -2547,7 +2547,7 @@
   },
   "Drunk": {
     "Name": "泥酔",
-    "Description": "<h>手札にある間</h>：1ターンに<Value1 />枚しかカードを使用できない。<br />（既に<Count />枚使用済み）"
+    "Description": "<h>手札にある間</h>：1ターンに<Value1 />枚しかカードを使用できない。"
   },
   "Zhukeling": {
     "Name": "立ち退き命令"

@@ -142,7 +142,7 @@
   },
   "JiejieAttack": {
     "Name": "結界猛擊",
-    "Description": "造成 <Damage /> 點傷害。<br />額外造成相當於<PlayerName /><h>護盾</h>值 (<ShieldDamage />) 的傷害。"
+    "Description": "造成 <Damage /> 點傷害。<br />額外造成相當於<PlayerName /><h>護盾</h>值的傷害。"
   },
   "ReimuShrine": {
     "Name": "博麗廟會",
@@ -437,8 +437,8 @@
   },
   "CollectionDefense": {
     "Name": "大而不倒",
-    "Description": "獲得相當於抽牌堆數量的<h>格擋</h>。（<Block /> 點）",
-    "UpgradedDescription": "獲得相當於抽牌堆數量的<h>護盾</h>。（<Shield /> 點）"
+    "Description": "獲得相當於抽牌堆數量的<h>格擋</h>。",
+    "UpgradedDescription": "獲得相當於抽牌堆數量的<h>護盾</h>。"
   },
   "BurstDraw": {
     "Name": "速度對決",
@@ -714,7 +714,7 @@
   },
   "SilverBullet": {
     "Name": "銀線編織",
-    "Description": "對所有敵人造成 <Damage /> 點傷害。<br />獲得 <Block /> 點<h>格擋</h>，手牌、抽牌堆和棄牌堆每一張<h>飛刀</h>提高 <Value1 /> 點。(<KnifeCount />張)"
+    "Description": "對所有敵人造成 <Damage /> 點傷害。<br />獲得 <Block /> 點<h>格擋</h>，手牌、抽牌堆和棄牌堆每一張<h>飛刀</h>提高 <Value1 /> 點。"
   },
   "SakuyaDefenseRetain": {
     "Name": "時刻警戒",
@@ -798,7 +798,7 @@
   },
   "BackOfKnife": {
     "Name": "吾刃回歸",
-    "Description": "將一張<h>尖刀快車</h>加入手中。<br /><h>放逐</h>區內的每張<h>飛刀</h>提高<h>尖刀快車</h> <Value1 /> 點傷害，將這些<h>飛刀</h>移出本場戰鬥。<br />（將會提高 <IncreasedDamage /> 點傷害）"
+    "Description": "將一張<h>尖刀快車</h>加入手中。<br /><h>放逐</h>區內的每張<h>飛刀</h>提高<h>尖刀快車</h> <Value1 /> 點傷害，將這些<h>飛刀</h>移出本場戰鬥。"
   },
   "GroupOfKnife": {
     "Name": "尖刀快車",
@@ -1140,7 +1140,7 @@
   },
   "HualiIce": {
     "Name": "華麗夏日冰",
-    "Description": "對所有敵人造成 <Damage /> 點傷害，施加<h>寒冷</h>。<br />本回合累計打出 <Value1 /> 張卡牌後費用為<Mana />。<br />（剩餘 <Countdown /> 張）"
+    "Description": "對所有敵人造成 <Damage /> 點傷害，施加<h>寒冷</h>。<br />本回合累計打出 <Value1 /> 張卡牌後費用為<Mana />。"
   },
   "ChooseFriend": {
     "Name": "相約霧之湖",
@@ -1302,7 +1302,7 @@
   },
   "PsycheLock": {
     "Name": "心靈枷鎖",
-    "Description": "對所有敵人造成 <Damage /> 點傷害 <Value1 /> 次。<br />獲得<Mana />。<br /><SelfName />在手中時，<PlayerName />進入過三種不同的<h>心境</h>後才可以打出。 （剩餘 <Count /> 種未進入）"
+    "Description": "對所有敵人造成 <Damage /> 點傷害 <Value1 /> 次。<br />獲得<Mana />。<br /><SelfName />在手中時，<PlayerName />進入過三種不同的<h>心境</h>後才可以打出。"
   },
   "YaoguaiNaodianbo": {
     "Name": "妖怪腦波",
@@ -1586,7 +1586,7 @@
   },
   "WaterPrincess": {
     "Name": "水精公主",
-    "Description": "獲得 <Shield /> 點<h>護盾</h>。<br />每有一張手牌，就提高 <Value1 /> 點。（總計 <Special /> 點）<br /><h>初見</h>：將一張<h>水花</h>加入手中。"
+    "Description": "每有一張手牌，就獲得 <Value1 /> 點<h>護盾</h>。<br /><h>初見</h>：將一張<h>水花</h>加入手中。"
   },
   "YonglinDraw": {
     "Name": "神代的記憶",
@@ -1713,7 +1713,7 @@
   },
   "SuikaBigball": {
     "Name": "元鬼玉",
-    "Description": "造成 <Damage /> 點傷害，對其他敵人造成一半 (<HalfDamage />) 的傷害。<br />失去 <Value1 />點 <h>火力</h>。"
+    "Description": "造成 <Damage /> 點傷害，對其他敵人造成一半的傷害。<br />失去 <Value1 />點 <h>火力</h>。"
   },
   "MeihongFire": {
     "Name": "無差別起火符",
@@ -1734,7 +1734,7 @@
   },
   "FlanFirepower": {
     "Name": "之後就一個人都沒有了嗎？",
-    "Description": "賦予所有手牌<h>虛無</h>，並獲得等同手牌數量的<h>火力</h>。<br />現有 <Count /> 張其它手牌。"
+    "Description": "賦予所有手牌<h>虛無</h>，並獲得等同手牌數量的<h>火力</h>。"
   },
   "MeihongPower": {
     "Name": "不死的烈焰",
@@ -1746,7 +1746,7 @@
   },
   "PatchouliGreenAttack": {
     "Name": "春色閃光",
-    "Description": "造成 <Damage /> 點傷害。<br />當前法力總點數（<BattleAmount />）高於基礎法力總點數（<BaseAmount />）時才能打出。"
+    "Description": "造成 <Damage /> 點傷害。<br />當前法力總點數高於基礎法力總點數時才能打出。"
   },
   "RangziSeed": {
     "Name": "春耕秋收",
@@ -2497,7 +2497,7 @@
   },
   "Frog": {
     "Name": "青蛙",
-    "Description": "這張牌被詛咒了。<br />它曾經是：<CardName />"
+    "Description": "這張牌被詛咒了。"
   },
   "BlackResidue": {
     "Name": "黑暗殘留",
@@ -2505,7 +2505,7 @@
   },
   "SakuyaLock": {
     "Name": "時間封鎖",
-    "Description": "觸發一次<Sakuya>十六夜咲夜</Sakuya>的<h>銀之封鎖</h>。<br />（受到 <Value1 /> 點攻擊傷害。）"
+    "Description": "觸發一次<h>銀之封鎖</h>效果。"
   },
   "Wushuai": {
     "Name": "凌冽劍光",
@@ -2521,7 +2521,7 @@
   },
   "Lunatic": {
     "Name": "瘋狂",
-    "Description": "<PlayerName />的回合結束時，如果手牌、抽牌堆及棄牌堆中的<SelfName />達到 <Value1 /> 張，<h>放逐</h>它們，<PlayerName />失去 <Value2 /> 點生命。<br />現有 <LunaticCount /> 張。"
+    "Description": "<PlayerName />的回合結束時，如果手牌、抽牌堆及棄牌堆中的<SelfName />達到 <Value1 /> 張，<h>放逐</h>它們，<PlayerName />失去 <Value2 /> 點生命。"
   },
   "Chunguang": {
     "Name": "純粹的光芒",
@@ -2533,7 +2533,7 @@
   },
   "Nightmare": {
     "Name": "噩夢",
-    "Description": "手牌、抽牌堆及棄牌堆中總計有 <Value1 /> 張<SelfName />時，<h>放逐</h>它們，<PlayerName />立刻失敗，無法避免。<br />現有 <NightmareCount /> 張。"
+    "Description": "手牌、抽牌堆及棄牌堆中總計有 <Value1 /> 張<SelfName />時，<h>放逐</h>它們，<PlayerName />立刻失敗，無法避免。"
   },
   "NightMana1": {
     "Name": "月黑風高：子時",
@@ -2594,7 +2594,7 @@
   },
   "Drunk": {
     "Name": "醉酒",
-    "Description": "<h>手牌中</h>：本回合只能打出 <Value1 /> 張牌。<br />（已經打出 <Count /> 張。）"
+    "Description": "<h>手牌中</h>：本回合只能打出 <Value1 /> 張牌。"
   },
   "Zhukeling": {
     "Name": "逐客令"
