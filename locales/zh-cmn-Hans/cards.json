@@ -290,7 +290,9 @@
   },
   "YinyangQueen": {
     "Name": "能工巧匠魅须丸",
-    "Description": "<FriendP />获得 <Value2 /> 点<h>格挡</h>和<h>护盾</h>。"
+    "PassiveDescription": "获得 <Value2 /> 点<h>格挡</h>和<h>护盾</h>。",
+    "ActiveDescription": "将 <Value1 /> 张随机的<h>虹龙阴阳玉</h>加入手中。",
+    "UltimateDescription": "本场战斗中，所有<h>阴阳玉</h>的基础效果提高一倍。立刻获得一次<h>虹龙阴阳玉</h>。"
   },
   "ShuihuoCard": {
     "Name": "水火玉",
@@ -578,7 +580,9 @@
   },
   "PatchouliFriend": {
     "Name": "炼金术士帕秋莉",
-    "Description": "<FriendP />将 <PassiveColor /> 点随机的法力转化为<h>彩色</h>。"
+    "PassiveDescription": "将 <PassiveColor /> 点随机的法力转化为<h>彩色</h>。",
+    "ActiveDescription": "获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>，获得 {Power} 点<Power />。",
+    "UltimateDescription": "将 <Value2 /> 张<h>不稳定魔药</h>加入手中。"
   },
   "MoguMaster": {
     "Name": "蘑菇专家",
@@ -886,7 +890,8 @@
   },
   "MeilingFriend": {
     "Name": "玩忽职守红美铃",
-    "Description": "<FriendS />获得 <Graze /> 层<h>闪避</h>。<br /><FriendP />将一张<h>飞刀</h>加入手中。<br />当<PlayerName />受到一整轮攻击时额外触发一次。"
+    "PassiveDescription": "将一张<h>飞刀</h>加入手中。<br />当<PlayerName />受到一整轮攻击时额外触发一次。",
+    "UltimateDescription": "恢复 <Value1 /> 点生命，获得 <Value2 /> 点<h>火力</h>。"
   },
   "UnlimitedTime": {
     "Name": "完美的时停",
@@ -919,7 +924,11 @@
   },
   "DayaojingFriend": {
     "Name": "调查助手大妖精",
-    "Description": "<FriendP />对随机敌人造成 <Damage /> 点攻击伤害。"
+    "PassiveDescription": "对随机敌人造成 <Damage /> 点攻击伤害。",
+    "ActiveDescription": "获得 <Block /> 点<h>格挡</h>。",
+    "UpgradedActiveDescription": "获得 <Block /> 点<h>格挡</h>和 <Shield /> 点<h>护盾</h>。",
+    "UltimateDescription": "将 <Value1 /> 张<h>盛夏之花</h>加入手中。",
+    "UpgradedUltimateDescription": "将 <Value1 /> 张<h>盛夏之花+</h>加入手中。"
   },
   "IceWing": {
     "Name": "冰之翼",
@@ -939,7 +948,9 @@
   },
   "MaidFriend": {
     "Name": "洋馆的女仆小霞",
-    "Description": "<FriendP />对生命值最低的敌人造成 <Damage /> 点攻击伤害。"
+    "PassiveDescription": "对生命值最低的敌人造成 <Damage /> 点攻击伤害。",
+    "ActiveDescription": "立刻造成伤害。将 <Value2 /> 张<h>飞刀</h>加入手中。",
+    "UltimateDescription": "立刻造成伤害。所有的<SelfName />额外造成 <Value1 /> 点伤害。"
   },
   "ShiverArmor": {
     "Name": "冰镜折射",
@@ -1002,7 +1013,8 @@
   },
   "LeidiFriend": {
     "Name": "凛冬的化身蕾蒂",
-    "Description": "<FriendP />对随机一名敌人施加<h>寒冷</h>。"
+    "PassiveDescription": "对随机一名敌人施加<h>寒冷</h>。",
+    "UltimateDescription": "对所有敌人造成 <Damage /> 点伤害，施加<h>寒冷</h>。"
   },
   "ColdSnap": {
     "Name": "快速降温",
@@ -1046,7 +1058,9 @@
   },
   "LarvaFriend": {
     "Name": "夏夜之神拉尔瓦",
-    "Description": "<FriendP />对随机敌人施加 <Value1 /> 层<h>中毒</h>。"
+    "PassiveDescription": "对随机敌人施加 <Value1 /> 层<h>中毒</h>。",
+    "ActiveDescription": "<h>升级</h>所有的手牌。",
+    "UltimateDescription": "对所有敌人施加 <Value2 /> 层<h>中毒</h>，触发一次<h>中毒</h>伤害。"
   },
   "FriendDraw": {
     "Name": "花园集会",
@@ -1054,7 +1068,9 @@
   },
   "LilyFriend": {
     "Name": "春日降临莉莉白",
-    "Description": "<FriendS />随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。<br /><FriendP />获得<TurnMana />。"
+    "PassiveDescription": "获得<TurnMana />。",
+    "ActiveDescription": "获得{ActiveMana}。",
+    "UltimateDescription": "恢复 {Heal} 点生命。"
   },
   "CallFriends": {
     "Name": "呼朋唤友",
@@ -1148,7 +1164,9 @@
   },
   "LunaFriend": {
     "Name": "静谧的月光露娜",
-    "Description": "<FriendP />获得 <Block /> 点<h>格挡</h>。"
+    "PassiveDescription": "获得 <Block /> 点<h>格挡</h>。",
+    "ActiveDescription": "随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。",
+    "UltimateDescription": "获得 <Value2 /> 回合<h>天衣无缝</h>。"
   },
   "WhiteWorld": {
     "Name": "纯白的世界",
@@ -1160,7 +1178,9 @@
   },
   "StarFriend": {
     "Name": "倾泻的星光斯塔",
-    "Description": "<FriendP />对所有敌人造成 <Damage /> 点攻击伤害。"
+    "PassiveDescription": "对所有敌人造成 <Damage /> 点攻击伤害。",
+    "ActiveDescription": "立刻造成 <Value1 /> 次伤害。",
+    "UltimateDescription": "所有的<SelfName />造成伤害时，施加 <Light /> 层<h>锁定</h>。<br />立刻造成 <Value2 /> 次伤害。"
   },
   "FairyTrick": {
     "Name": "妖精恶作剧",
@@ -1173,7 +1193,9 @@
   },
   "SunnyFriend": {
     "Name": "闪耀的日光桑尼",
-    "Description": "<FriendP />随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。"
+    "PassiveDescription": "随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。",
+    "ActiveDescription": "获得 <Light /> 回合<h>光学迷彩</h>。",
+    "UltimateDescription": "立刻造成 <Value1 /> 次伤害。<br />获得 <Value2 /> 点<h>火力</h>。"
   },
   "Xiguadao": {
     "Name": "西瓜刀",
@@ -1181,7 +1203,10 @@
   },
   "ClownpieceFriend": {
     "Name": "疯狂的克劳恩皮丝",
-    "Description": "<FriendS />获得<StartMana />。<br /><FriendP />获得 <Value2 /> 点<h>暂得火力</h>。"
+    "PassiveDescription": "获得 <Value2 /> 点<h>暂得火力</h>。",
+    "ActiveDescription": "抽 <Value1 /> 张牌，将一张<h>疯狂</h>洗入弃牌堆。",
+    "UpgradedActiveDescription": "抽 <Value1 /> 张牌。",
+    "UltimateDescription": "获得<Mana />，将一张<h>疯狂</h>洗入弃牌堆。"
   },
   "KoishiAttackG": {
     "Name": "双生的螺旋",
@@ -1416,7 +1441,9 @@
   },
   "KokoroFriend": {
     "Name": "人格面具觉醒秦心",
-    "Description": "<FriendP />被动效果。"
+    "PassiveDescription": "被动效果。",
+    "ActiveDescription": "主动效果。",
+    "UltimateDescription": "大招效果。"
   },
   "AliceAttackW": {
     "Name": "未来文乐",
@@ -2293,7 +2320,9 @@
   },
   "YukariFriend": {
     "Name": "幻想的境界八云紫",
-    "Description": "<FriendP />获得等同于本回合打出过防御牌数量的<h>火力</h>。（<Fire />张）"
+    "PassiveDescription": "获得等同于本回合打出过防御牌数量的<h>火力</h>。（<Fire />张）",
+    "ActiveDescription": "从<h>放逐</h>区选择一张牌移回手中。",
+    "UltimateDescription": "<PlayerName />的回合开始时，将一张随机的中立三色牌加入手中，<h>暂塑</h>为<Mana />，具有<h>虚无</h>。"
   },
   "BailianFire": {
     "Name": "法界之火",
@@ -2517,15 +2546,15 @@
   },
   "Payment": {
     "Name": "转账",
-    "Description": "支付 <MoneyCost /> 点<Money />。<br /><FraudRabbit>诈骗兔子</FraudRabbit>直接离开战斗。"
+    "Description": "支付 <MoneyCost /> 点<Money />。<br /><color=#b7646b>诈骗兔子</color>直接离开战斗。"
   },
   "LoveLetter": {
     "Name": "情书",
-    "Description": "送给<LoveGirl>恋爱怨灵少女</LoveGirl>，她会高兴。"
+    "Description": "送给<color=#eab8bf>恋爱怨灵少女</color>，她会高兴。"
   },
   "Lunatic": {
     "Name": "疯狂",
-    "Description": "<PlayerName />的回合结束时，如果手牌、抽牌堆和弃牌堆中的<SelfName />达到 <Value1 /> 张，<h>放逐</h>它们，<PlayerName />失去 <Value2 /> 点生命。"
+    "Description": "<PlayerName />的回合结束时，如果手牌、抽牌堆和弃牌堆中的<SelfName />超过 <Value1 /> 张，<h>放逐</h>它们，<PlayerName /> 失去<Value2 /> 点生命。"
   },
   "Chunguang": {
     "Name": "纯粹的光芒",
@@ -2533,7 +2562,7 @@
   },
   "Bribery": {
     "Name": "贿赂",
-    "Description": "支付 <MoneyCost /> 点<Money />。<br /><Long>饭纲丸龙</Long>会放水。"
+    "Description": "支付 <MoneyCost /> 点<Money />。<br /><color=#4f6e97>饭纲丸龙</color>会放水。"
   },
   "Nightmare": {
     "Name": "噩梦",

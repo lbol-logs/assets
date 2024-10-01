@@ -292,7 +292,7 @@
     "Name": "Misumaru, Skilled Crafter",
     "PassiveDescription": "Gain <Value2 /> <h>Block</h> and <h>Barrier</h>.",
     "ActiveDescription": "Add <Value1 /> random <h>Rainbow Jade Yin-Yang Orb{Value1:plural one='' other='s'}</h> to the hand.",
-    "UltimateDescription": "For the rest of this combat, the effects of <h>Yin-Yang Orbs</h> are doubled. Immediately add <Value1 /> <h>Rainbow Jade Yin-Yang Orb{Value1:plural one='''' other=''s''}</h>."
+    "UltimateDescription": "For the rest of this combat, the effects of <h>Yin-Yang Orbs</h> are doubled. Immediately add <Value1 /> <h>Rainbow Jade Yin-Yang Orb{Value1:plural one='' other='s'}</h>."
   },
   "ShuihuoCard": {
     "Name": "Orb of Water and Fire",
@@ -581,7 +581,7 @@
   "PatchouliFriend": {
     "Name": "Patchouli, Elemental Alchemist",
     "PassiveDescription": "Convert <PassiveColor /> random mana into <h>Philosopher's Mana</h>.",
-    "ActiveDescription": "Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>. Gain <P /><Power />.",
+    "ActiveDescription": "Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>. Gain {Power} <Power />.",
     "UltimateDescription": "Add <Value2 /> <h>Unstable Potion{Value2:plural one='' other='s'}</h> to the hand."
   },
   "MoguMaster": {
@@ -890,7 +890,6 @@
   },
   "MeilingFriend": {
     "Name": "Meiling, Neglectful Gatekeeper",
-    "Description": "Gain <Graze /> <h>Graze</h>.",
     "PassiveDescription": "Add a <h>Throwing Knife</h> to the hand.<br />Whenever <PlayerName /> receives damage from an enemy's whole attack, it triggers for an additional time.",
     "UltimateDescription": "Gain <Value1 /> life and <Value2 /> <h>Firepower</h>."
   },
@@ -949,7 +948,9 @@
   },
   "MaidFriend": {
     "Name": "Kasumi, Mansion Maid",
-    "Description": "<FriendP />Deal <Damage /> attack damage to the enemy with the least life."
+    "PassiveDescription": "Deal <Damage /> attack damage to the enemy with the least life.",
+    "ActiveDescription": "Deal damage immediately. Add <Value2 /> <h>Throwing Kni{Value2:plural one='fe' other='ves'}</h> to the hand.",
+    "UltimateDescription": "Deal damage immediately. All <SelfName />s deal <Value1 /> additional damage."
   },
   "ShiverArmor": {
     "Name": "Frost Refraction",
@@ -1012,7 +1013,8 @@
   },
   "LeidiFriend": {
     "Name": "Letty, Winter Embodied",
-    "Description": "<FriendP />Apply <h>Cold</h> to a random enemy."
+    "PassiveDescription": "Apply <h>Cold</h> to a random enemy.",
+    "UltimateDescription": "Deal <Damage /> damage and apply <h>Cold</h> to each enemy."
   },
   "ColdSnap": {
     "Name": "Swift Cool",
@@ -1056,7 +1058,9 @@
   },
   "LarvaFriend": {
     "Name": "Larva, God of Evernight",
-    "Description": "<FriendP />Apply <Value1 /> <h>Poison</h> to a random enemy."
+    "PassiveDescription": "Apply <Value1 /> <h>Poison</h> to a random enemy.",
+    "ActiveDescription": "<h>Upgrade</h> each card in the hand.",
+    "UltimateDescription": "Apply <Value2 /> <h>Poison</h> to each enemy. Trigger <h>Poison</h>'s life loss effect once."
   },
   "FriendDraw": {
     "Name": "Garden Gathering",
@@ -1064,7 +1068,9 @@
   },
   "LilyFriend": {
     "Name": "Lily White, Herald of Spring",
-    "Description": "<FriendS />Deal <Damage /> attack damage to a random enemy <Value1 /> times.<br /><FriendP />Gain <TurnMana />."
+    "PassiveDescription": "Gain <TurnMana />.",
+    "ActiveDescription": "Gain {ActiveMana}.",
+    "UltimateDescription": "Gain {Heal} life."
   },
   "CallFriends": {
     "Name": "Call on Friends",
@@ -1158,7 +1164,9 @@
   },
   "LunaFriend": {
     "Name": "Luna, Silent Moonlight",
-    "Description": "<FriendP />Gain <Block /> <h>Block</h>."
+    "PassiveDescription": "Gain <Block /> <h>Block</h>.",
+    "ActiveDescription": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
+    "UltimateDescription": "Gain <h>Flawless</h> for <Value2 /> turn{Value2:plural one='' other='s'}."
   },
   "WhiteWorld": {
     "Name": "Pure White World",
@@ -1170,7 +1178,9 @@
   },
   "StarFriend": {
     "Name": "Star, Showering Starlight",
-    "Description": "<FriendP /> Deal <Damage /> attack damage to each enemy."
+    "PassiveDescription": "Deal <Damage /> attack damage to each enemy.",
+    "ActiveDescription": "Immediately deal damage <Value1 /> times.",
+    "UltimateDescription": "Whenever any <SelfName /> deals damage, apply <Light /> <h>Lock On</h>.<br />Immediately deal damage <Value2 /> times."
   },
   "FairyTrick": {
     "Name": "Fairy Mischief",
@@ -1183,7 +1193,9 @@
   },
   "SunnyFriend": {
     "Name": "Sunny, Dazzling Sunlight",
-    "Description": "<FriendP />Deal <Damage /> attack damage to a random enemy <Value1 /> times."
+    "PassiveDescription": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
+    "ActiveDescription": "Gain <h>Optical Camouflage</h> for <Light /> turn{Light:plural one='' other='s'}.",
+    "UltimateDescription": "Immediately deal damage <Value1 /> times.<br />Gain <Value2 /> <h>Firepower</h>."
   },
   "Xiguadao": {
     "Name": "Watermelon Knife",
@@ -1191,7 +1203,10 @@
   },
   "ClownpieceFriend": {
     "Name": "Clownpiece, Lunatic Fairy",
-    "Description": "<FriendS />Gain <StartMana />.<br /><FriendP />Gain <Value2 /> <h>Temporary Firepower</h>."
+    "PassiveDescription": "Gain <Value2 /> <h>Temporary Firepower</h>.",
+    "ActiveDescription": "Draw <Value1 /> card{Value1:plural one='' other='s'} and add a <h>Lunacy</h> to the discard pile.",
+    "UpgradedActiveDescription": "Draw {Value1:plural one='% card' other='% cards'}.",
+    "UltimateDescription": "Gain <Mana /> and add a <h>Lunacy</h> to the discard pile."
   },
   "KoishiAttackG": {
     "Name": "Double Helix",
@@ -1719,7 +1734,7 @@
   },
   "SuikaBigball": {
     "Name": "Oni Spirit Bomb",
-    "Description": "Deal <Damage /> damage. Then, deal <HalfDamage /> damage to each other enemy.<br />Lose <Value1 /> <h>Firepower</h>."
+    "Description": "Deal <Damage /> damage. Then, deal half that much damage to each other enemy.<br />Lose <Value1 /> <h>Firepower</h>."
   },
   "MeihongFire": {
     "Name": "Indiscriminate Ignition",
@@ -1740,7 +1755,7 @@
   },
   "FlanFirepower": {
     "Name": "And Then Will There Be None?",
-    "Description": "Each card in the hand gains <h>Ethereal</h>. Gain <h>Firepower</h> equal to the number of cards in the hand."
+    "Description": "Each card in the hand gains <h>Ethereal</h>. Gain <h>Firepower</h> equal to the number of cards in hand."
   },
   "MeihongPower": {
     "Name": "The Immortal Flame",
@@ -2295,7 +2310,9 @@
   },
   "YukariFriend": {
     "Name": "Yukari, Boundary of Fantasy",
-    "Description": "<FriendP />Gain <h>Firepower</h> equal to the number of defense cards played this turn. (<Fire />)"
+    "PassiveDescription": "Gain <h>Firepower</h> equal to the number of defense cards played this turn. (<Fire />)",
+    "ActiveDescription": "Choose a card from <h>Exile</h> and return it to the hand.",
+    "UltimateDescription": "At the start of <PlayerName />'s turn, add a random three-colored neutral card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Ethereal</h>."
   },
   "BailianFire": {
     "Name": "Fires of Hokkai",
@@ -2519,15 +2536,15 @@
   },
   "Payment": {
     "Name": "Funds Transfer",
-    "Description": "Pay <MoneyCost /> <Money />.<br />The <FraudRabbit>Rabbit Trickster</FraudRabbit> immediately leaves."
+    "Description": "Pay <MoneyCost /> <Money />.<br />The <color=#b7646b>Rabbit Trickster</color> immediately leaves."
   },
   "LoveLetter": {
     "Name": "Loveletter",
-    "Description": "Give this to <LoveGirl>Lovesick Girl</LoveGirl>. She'll be happy."
+    "Description": "Give this to <color=#eab8bf>Lovesick Girl</color>. She'll be happy."
   },
   "Lunatic": {
     "Name": "Lunacy",
-    "Description": "At the end of <PlayerName />'s turn, if there are a total of <Value1 /> <SelfName />s in the hand, draw pile and/or discard pile, <h>Exile</h> them and lose <Value2 /> life."
+    "Description": "At the end of <PlayerName />'s turn, if there are a total of <Value1 /> <SelfName />s in the hand, draw pile and discard pile, <h>Exile</h> them and lose <Value2 /> life."
   },
   "Chunguang": {
     "Name": "Pure Radiance",
@@ -2535,7 +2552,7 @@
   },
   "Bribery": {
     "Name": "Bribery",
-    "Description": "Pay <MoneyCost /> <Money />.<br /><Long>Megumu</Long> will go easier on you this combat."
+    "Description": "Pay <MoneyCost /> <Money />.<br /><color=#4f6e97>Megumu</color> will go easier on you this combat."
   },
   "Nightmare": {
     "Name": "Nightmare",

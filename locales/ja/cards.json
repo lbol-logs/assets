@@ -290,7 +290,9 @@
   },
   "YinyangQueen": {
     "Name": "本物の勾玉職人、魅須丸",
-    "Description": "<FriendP /><h>ブロック</h>と<h>バリア</h>を<Value2 />ずつ得る。"
+    "PassiveDescription": "<h>ブロック</h>と<h>バリア</h>を<Value2 />ずつ得る。",
+    "ActiveDescription": "ランダムな<h>虹龍陰陽玉</h>を<Value1 />枚手札に加える。",
+    "UltimateDescription": "この戦闘中、全ての<h>陰陽玉</h>の効果の基本値は倍になる。ランダムな<h>虹龍陰陽玉</h>を2枚手札に加える。"
   },
   "ShuihuoCard": {
     "Name": "水火玉",
@@ -578,7 +580,9 @@
   },
   "PatchouliFriend": {
     "Name": "七曜の錬金術師、パチュリー",
-    "Description": "<FriendP />ランダムな<PassiveColor />個のマナを<h>彩色</h>マナに変換する。"
+    "PassiveDescription": "ランダムな<PassiveColor />個のマナを<h>彩色</h>マナに変換する。",
+    "ActiveDescription": "<h>火力</h><Value1 />と<h>霊力</h><Value1 />を得る。<Power />{Power}を得る。",
+    "UltimateDescription": "<h>ポーション</h><Value2 />枚を手札に加える。"
   },
   "MoguMaster": {
     "Name": "キノコの専門家",
@@ -886,7 +890,8 @@
   },
   "MeilingFriend": {
     "Name": "サボリ門番、美鈴",
-    "Description": "<FriendS /><h>グレイズ</h><Graze />を得る。<br /><FriendP /><h>投げナイフ</h>を1枚手札に加える。<br /><PlayerName />が攻撃を受ける度、一度の攻撃行動につき1回この能力を再度発動する。"
+    "PassiveDescription": "<h>投げナイフ</h>を1枚手札に加える。<br /><PlayerName />が攻撃を受ける度、一度の攻撃行動につき1回この能力を再度発動する。",
+    "UltimateDescription": "ライフを<Value1 />回復する。<h>火力</h><Value2 />を得る。"
   },
   "UnlimitedTime": {
     "Name": "完全なる時停め",
@@ -919,7 +924,11 @@
   },
   "DayaojingFriend": {
     "Name": "異変調査助手、大妖精",
-    "Description": "<FriendP />ランダムな敵に<Damage />ダメージを与える。"
+    "PassiveDescription": "ランダムな敵に<Damage />ダメージを与える。",
+    "ActiveDescription": "<Block /><h>ブロック</h>を得る。",
+    "UpgradedActiveDescription": "<Block /><h>ブロック</h>と<Shield /><h>バリア</h>を得る。",
+    "UltimateDescription": "<h>真夏の花</h>を<Value1 />枚手札に加える。",
+    "UpgradedUltimateDescription": "<h>真夏の花+</h>を<Value1 />枚手札に加える。"
   },
   "IceWing": {
     "Name": "氷の翼",
@@ -939,7 +948,9 @@
   },
   "MaidFriend": {
     "Name": "メイド妖精、カスミ",
-    "Description": "<FriendP />最もライフの少ない敵に<Damage />ダメージを与える。"
+    "PassiveDescription": "最もライフの少ない敵に<Damage />ダメージを与える。",
+    "ActiveDescription": "上記のダメージを即時に与える。<br /><h>投げナイフ</h>を<Value2 />枚手札に加える。",
+    "UltimateDescription": "上記のダメージを即時に与える。全ての<SelfName />が与えるダメージが<Value1 />増加する。"
   },
   "ShiverArmor": {
     "Name": "氷鏡反射",
@@ -1002,7 +1013,8 @@
   },
   "LeidiFriend": {
     "Name": "真冬の化身、レティ",
-    "Description": "<FriendP />ランダムな敵一体に<h>冷気</h>を与える。"
+    "PassiveDescription": "ランダムな敵一体に<h>冷気</h>を与える。",
+    "UltimateDescription": "敵全体に<Damage />ダメージを与え、<h>冷気</h>を与える。"
   },
   "ColdSnap": {
     "Name": "高速なる解熱",
@@ -1046,7 +1058,9 @@
   },
   "LarvaFriend": {
     "Name": "真夏の妖精の夢、ラルバ",
-    "Description": "<FriendP />ランダムな敵に<h>毒</h><Value1 />を与える。"
+    "PassiveDescription": "ランダムな敵に<h>毒</h><Value1 />を与える。",
+    "ActiveDescription": "手札のカードを全て<h>アップグレード</h>する。",
+    "UltimateDescription": "敵全体に<h>毒</h><Value2 />を与える。<br /><h>毒</h>ダメージを誘発させる。"
   },
   "FriendDraw": {
     "Name": "花園での集い",
@@ -1054,7 +1068,9 @@
   },
   "LilyFriend": {
     "Name": "春告精、リリーホワイト",
-    "Description": "<FriendS />ランダムな敵に<Damage />ダメージを<Value1 />回与える。<br /><FriendP /><TurnMana />を得る。"
+    "PassiveDescription": "<TurnMana />を得る。",
+    "ActiveDescription": "{ActiveMana}を得る。",
+    "UltimateDescription": "ライフを{Heal}回復する。"
   },
   "CallFriends": {
     "Name": "友を呼ぶ",
@@ -1148,7 +1164,9 @@
   },
   "LunaFriend": {
     "Name": "静かなる月の光、ルナ",
-    "Description": "<FriendP /><Block /><h>ブロック</h>を得る。"
+    "PassiveDescription": "<Block /><h>ブロック</h>を得る。",
+    "ActiveDescription": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
+    "UltimateDescription": "<h>天衣無縫</h><Value2 />を得る。"
   },
   "WhiteWorld": {
     "Name": "銀世界",
@@ -1160,7 +1178,9 @@
   },
   "StarFriend": {
     "Name": "降り注ぐ星の光、スター",
-    "Description": "<FriendP />敵全体に<Damage />ダメージを与える。"
+    "PassiveDescription": "敵全体に<Damage />ダメージを与える。",
+    "ActiveDescription": "即時にダメージを<Value1 />回与える。",
+    "UltimateDescription": "全ての<SelfName />がダメージを与えるたび、<h>ロックオン</h><Light />を与える。<br /><Value2 />回ダメージを与える。"
   },
   "FairyTrick": {
     "Name": "妖精の悪戯",
@@ -1173,7 +1193,9 @@
   },
   "SunnyFriend": {
     "Name": "輝ける日の光、サニー",
-    "Description": "<FriendP />ランダムな敵に<Damage />ダメージを<Value1 />回与える。"
+    "PassiveDescription": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
+    "ActiveDescription": "<h>光学迷彩</h><Light />を得る。",
+    "UltimateDescription": "即時にダメージを<Value1 />回与える。<br /><h>火力</h><Value2 />を得る。"
   },
   "Xiguadao": {
     "Name": "スイカソード",
@@ -1181,7 +1203,10 @@
   },
   "ClownpieceFriend": {
     "Name": "狂気なる妖精、クラウンピース",
-    "Description": "<FriendS /><StartMana />を得る。<br /><FriendP /><h>臨時火力</h><Value2 />を得る。"
+    "PassiveDescription": "<h>臨時火力</h><Value2 />を得る。",
+    "ActiveDescription": "カードを<Value1 />枚引く。<h>狂気</h>を1枚捨て札に加える。",
+    "UpgradedActiveDescription": "カードを<Value1 />枚引く。",
+    "UltimateDescription": "<Mana />を得る。<h>狂気</h>を1枚捨て札に加える。"
   },
   "KoishiAttackG": {
     "Name": "二重らせん",
@@ -1666,7 +1691,7 @@
   },
   "SuikaBigball": {
     "Name": "元鬼玉",
-    "Description": "<Damage />ダメージを与える。他の敵にその半分を与える。<br /><h>火力</h><Value1 />を失う。"
+    "Description": "<Damage />ダメージを与える。他の敵にその半分のダメージを与える。<br /><h>火力</h><Value1 />を失う。"
   },
   "MeihongFire": {
     "Name": "無差別発火の符",
@@ -2242,7 +2267,9 @@
   },
   "YukariFriend": {
     "Name": "幻想の境界、八雲紫",
-    "Description": "<FriendP />このターンに使用した防御カードの枚数分（<Fire />）の<h>火力</h>を得る。"
+    "PassiveDescription": "このターンに使用した防御カードの枚数分（<Fire />）の<h>火力</h>を得る。",
+    "ActiveDescription": "<h>廃棄場</h>のカードを1枚選んで手札に戻す。",
+    "UltimateDescription": "<PlayerName />のターン開始時、このカード以外のランダムな三色の共通カードを１枚手札に加える。それは臨時コスト<Mana />と<h>虚無</h>を持つ。"
   },
   "BailianFire": {
     "Name": "法界の火",
@@ -2466,11 +2493,11 @@
   },
   "Payment": {
     "Name": "送金",
-    "Description": "<Money /><MoneyCost />を払う。<br /><FraudRabbit>いたずらウサギ</FraudRabbit>が戦闘から離脱する。"
+    "Description": "<Money /><MoneyCost />を払う。<br /><color=#b7646b>いたずらウサギ</color>が戦闘から離脱する。"
   },
   "LoveLetter": {
     "Name": "恋文",
-    "Description": "<LoveGirl>恋する乙女</LoveGirl>にあげる、彼女は喜ぶだろう。"
+    "Description": "<color=#eab8bf>恋する乙女</color>にあげる、彼女は喜ぶだろう。"
   },
   "Lunatic": {
     "Name": "狂気",
@@ -2482,7 +2509,7 @@
   },
   "Bribery": {
     "Name": "袖の下",
-    "Description": "<Money /><MoneyCost />を払う。<br /><Long>龍</Long>が手を抜いてくれる。"
+    "Description": "<Money /><MoneyCost />を払う。<br /><color=#4f6e97>龍</color>が手を抜いてくれる。"
   },
   "Nightmare": {
     "Name": "悪夢",
