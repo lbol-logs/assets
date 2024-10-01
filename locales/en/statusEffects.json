@@ -879,7 +879,7 @@
   },
   "QiangweiDiyuSe": {
     "Name": "Rose Hell",
-    "Description": " Whenever a Basic card enters the hand, deal <Count /> damage to each enemy and increase that value by <Level />."
+    "Description": "Whenever a Basic card enters the hand, deal <Count /> damage to each enemy and increase that value by <Level />."
   },
   "YukariFlyObjectSe": {
     "Name": "Superspeed Flier",

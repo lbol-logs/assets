@@ -837,7 +837,7 @@
   },
   "QiangweiDiyuSe": {
     "Name": "蔷薇地狱",
-    "Description": " 每当一张基本牌进入手牌时，对随机敌人造成 <Count /> 点伤害，然后将伤害提高 <Level /> 点。"
+    "Description": "每当一张基本牌进入手牌时，对随机敌人造成 <Count /> 点伤害，然后将伤害提高 <Level /> 点。"
   },
   "YukariFlyObjectSe": {
     "Name": "超高速飞行物体",
