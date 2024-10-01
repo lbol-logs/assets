@@ -644,7 +644,7 @@
   },
   "Knife": {
     "Name": "投げナイフ",
-    "Description": "<Damage />ダメージを与える。<br /><SelfName />が使用される以外の方法で手札を離れた時、ライフが最も少ない敵に<DropDamage />ダメージを与える。"
+    "Description": "<Damage />ダメージを与える。<br /><SelfName />が使用される以外の方法で手札を離れた時、ライフが最も少ない敵に<Value1 />ダメージを与える。"
   },
   "SakuyaZeroDefense": {
     "Name": "ディフレクション",
@@ -874,7 +874,7 @@
   },
   "SakuyaDetective": {
     "Name": "指名手配",
-    "Description": "カードを<Value2 />枚引く。<br />黒幕との戦闘で、戦闘開始時に<Value1 />ダメージを与える。<br />（累計<BossDamage />ダメージ）"
+    "Description": "カードを<Value2 />枚引く。<br />黒幕との戦闘で、戦闘開始時に<Value1 />ダメージを与える。"
   },
   "SakuyaSpeedup": {
     "Name": "タイムアクセル",
@@ -2144,11 +2144,11 @@
   },
   "HatateShot": {
     "Name": "フルパノラマショット",
-    "Description": "<Block /><h>ブロック</h>を得る。<br />残ったマナ1つにつき<Value1 /><h>ブロック</h>追加する。（合計<Special /><h>ブロック</h>）"
+    "Description": "<Block /><h>ブロック</h>を得る。<br />残ったマナ1つにつき<Value1 /><h>ブロック</h>追加する。"
   },
   "ZoufangWater": {
     "Name": "諏訪清水",
-    "Description": "<Damage />ダメージを<Value1 />回与える。<br />この戦闘中に使用した<h>能力</h>カード1枚につきダメージが<Value2 />増加する。<br />（追加ダメージ:<AdditionalDamage />）"
+    "Description": "<Damage />ダメージを<Value1 />回与える。<br />この戦闘中に使用した<h>能力</h>カード1枚につきダメージが<Value2 />増加する。"
   },
   "MeilingRain": {
     "Name": "極彩沛雨",
@@ -2217,7 +2217,7 @@
   },
   "LimaoAttack": {
     "Name": "満月のポンポコリン",
-    "Description": "敵全体に<Damage />ダメージを与える、<GainMana />を得る。<br /><h>成長</h>：追加の <Mana /> を得る。"
+    "Description": "敵全体に<Damage />ダメージを与える、<Mana />を得る。<br /><h>成長</h>：追加の <Mana /> を得る。"
   },
   "TodayYesterday": {
     "Name": "今昔幻想郷",
@@ -2270,7 +2270,7 @@
   },
   "YukariFriend": {
     "Name": "幻想の境界、八雲紫",
-    "PassiveDescription": "このターンに使用した防御カードの枚数分（<Fire />）の<h>火力</h>を得る。",
+    "PassiveDescription": "このターンに使用した防御カードの枚数分の<h>火力</h>を得る。",
     "ActiveDescription": "<h>廃棄場</h>のカードを1枚選んで手札に戻す。",
     "UltimateDescription": "<PlayerName />のターン開始時、このカード以外のランダムな三色の共通カードを１枚手札に加える。それは臨時コスト<Mana />と<h>虚無</h>を持つ。"
   },

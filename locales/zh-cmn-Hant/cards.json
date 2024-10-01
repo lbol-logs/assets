@@ -644,7 +644,7 @@
   },
   "Knife": {
     "Name": "飛刀",
-    "Description": "造成 <Damage /> 點傷害。<br /><h>未打出而離開手牌</h>：對生命值最低的敵人造成 <DropDamage /> 點傷害。"
+    "Description": "造成 <Damage /> 點傷害。<br /><h>未打出而離開手牌</h>：對生命值最低的敵人造成 <Value1 /> 點傷害。"
   },
   "SakuyaZeroDefense": {
     "Name": "偏轉彈幕",
@@ -874,7 +874,7 @@
   },
   "SakuyaDetective": {
     "Name": "追查真凶",
-    "Description": "抽 <Value2 /> 張牌。<br />對陣真正的犯人時，戰鬥開始就對她造成 <Value1 /> 點傷害。<br />（已累計 <BossDamage /> 點）"
+    "Description": "抽 <Value2 /> 張牌。<br />對陣真正的犯人時，戰鬥開始就對她造成 <Value1 /> 點傷害。"
   },
   "SakuyaSpeedup": {
     "Name": "加速時空",
@@ -2191,11 +2191,11 @@
   },
   "HatateShot": {
     "Name": "全景拍攝",
-    "Description": "獲得 <Block /> 點<h>格擋</h>。<br />每一點剩餘的法力，提高 <Value1 /> 點<h>格擋</h>。（總計 <Special /> 點）"
+    "Description": "獲得 <Block /> 點<h>格擋</h>。<br />每一點剩餘的法力，提高 <Value1 /> 點<h>格擋</h>。"
   },
   "ZoufangWater": {
     "Name": "諏訪清流",
-    "Description": "造成 <Damage /> 點傷害 <Value1 /> 次。<br />每打出一張<h>能力</h>牌，傷害提高 <Value2 /> 點。（共計 <AdditionalDamage /> 點）"
+    "Description": "造成 <Damage /> 點傷害 <Value1 /> 次。<br />每打出一張<h>能力</h>牌，傷害提高 <Value2 /> 點。"
   },
   "MeilingRain": {
     "Name": "極彩沛雨",
@@ -2264,7 +2264,7 @@
   },
   "LimaoAttack": {
     "Name": "月下的腹鼓舞",
-    "Description": "對所有敵人造成 <Damage /> 點傷害，獲得<GainMana />。<br /><h>成長</h>：額外獲得<Mana />。"
+    "Description": "對所有敵人造成 <Damage /> 點傷害，獲得<Mana />。<br /><h>成長</h>：額外獲得<Mana />。"
   },
   "TodayYesterday": {
     "Name": "今昔幻想鄉",
@@ -2317,7 +2317,7 @@
   },
   "YukariFriend": {
     "Name": "幻想的境界八雲紫",
-    "PassiveDescription": "獲得等同於本回合打出過防禦牌數量的<h>火力</h>。 （<Fire />張）",
+    "PassiveDescription": "獲得等同於本回合打出過防禦牌數量的<h>火力</h>。",
     "ActiveDescription": "從<h>放逐</h>區選擇一張牌移回手中。",
     "UltimateDescription": "<PlayerName />的回合開始時，將一張隨機的中立三色牌加入手中，<h>暫塑</h>為<Mana />，具有<h>虛無</h>。"
   },

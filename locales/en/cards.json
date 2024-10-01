@@ -644,7 +644,7 @@
   },
   "Knife": {
     "Name": "Throwing Knife",
-    "Description": "Deal <Damage /> damage.<br /><h>When <SelfName /> leaves the hand without being played</h>: Deal <DropDamage /> damage to the enemy with the least life."
+    "Description": "Deal <Damage /> damage.<br /><h>When <SelfName /> leaves the hand without being played</h>: Deal <Value1 /> damage to the enemy with the least life."
   },
   "SakuyaZeroDefense": {
     "Name": "Danmaku Deflection",
@@ -874,7 +874,7 @@
   },
   "SakuyaDetective": {
     "Name": "All-Points Bulletin",
-    "Description": "Draw <Value2 /> card{Value2:plural one='' other='s'}.<br />When playing against a real culprit, deal <Value1 /> damage to her at the beginning of combat.<br />(<BossDamage /> damage have been accumulated)"
+    "Description": "Draw <Value2 /> card{Value2:plural one='' other='s'}.<br />When playing against a real culprit, deal <Value1 /> damage to her at the beginning of combat."
   },
   "SakuyaSpeedup": {
     "Name": "Quicken Time",
@@ -2187,11 +2187,11 @@
   },
   "HatateShot": {
     "Name": "Panoramic Shot",
-    "Description": "Gain <Block /> <h>Block</h>.<br />For each unspent mana, increase <SelfName />'s <h>Block</h> by <Value1 />. (Total <Special /> <h>Block</h>)"
+    "Description": "Gain <Block /> <h>Block</h>.<br />For each unspent mana, increase <SelfName />'s <h>Block</h> by <Value1 />."
   },
   "ZoufangWater": {
     "Name": "Suwa Clear Water",
-    "Description": "Deal <Damage /> damage <Value1 /> times.<br />Increase <SelfName />'s damage by <Value2 /> for each <h>Ability</h> card played this combat. (<AdditionalDamage />)"
+    "Description": "Deal <Damage /> damage <Value1 /> times.<br />Increase <SelfName />'s damage by <Value2 /> for each <h>Ability</h> card played this combat."
   },
   "MeilingRain": {
     "Name": "Vivid Color Downpour",
@@ -2260,7 +2260,7 @@
   },
   "LimaoAttack": {
     "Name": "Full Moon Pompokolin",
-    "Description": "Deal <Damage /> damage to each enemy. <br />Gain <GainMana />.<br /><h>Growth</h>: Gives <Mana /> more."
+    "Description": "Deal <Damage /> damage to each enemy. <br />Gain <Mana />.<br /><h>Growth</h>: Gives <Mana /> more."
   },
   "TodayYesterday": {
     "Name": "Gensokyo, Past and Present",
@@ -2313,7 +2313,7 @@
   },
   "YukariFriend": {
     "Name": "Yukari, Boundary of Fantasy",
-    "PassiveDescription": "Gain <h>Firepower</h> equal to the number of defense cards played this turn. (<Fire />)",
+    "PassiveDescription": "Gain <h>Firepower</h> equal to the number of defense cards played this turn.",
     "ActiveDescription": "Choose a card from <h>Exile</h> and return it to the hand.",
     "UltimateDescription": "At the start of <PlayerName />'s turn, add a random three-colored neutral card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Ethereal</h>."
   },
