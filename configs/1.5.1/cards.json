@@ -4078,12 +4078,14 @@
       "Loyalty": 1,
       "PassiveCost": 1,
       "ActiveCost": "-3",
-      "UltimateCost": "-6"
+      "UltimateCost": "-6",
+      "ActiveMana": "UGG"
     },
     "1": {
       "Value1": 4,
       "Mana": "P",
-      "ActiveCost": "-3"
+      "ActiveCost": "-3",
+      "ActiveMana": "PGG"
     }
   },
   "CallFriends": {

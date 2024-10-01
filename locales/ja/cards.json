@@ -1071,7 +1071,7 @@
     "Name": "春告精、リリーホワイト",
     "Description": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
     "PassiveDescription": "<TurnMana />を得る。",
-    "ActiveDescription": "{ActiveMana}を得る。",
+    "ActiveDescription": "<ActiveMana />を得る。",
     "UltimateDescription": "ライフを{Heal}回復する。"
   },
   "CallFriends": {
