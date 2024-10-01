@@ -290,7 +290,9 @@
   },
   "YinyangQueen": {
     "Name": "Misumaru, Skilled Crafter",
-    "Description": "<FriendP />Gain <Value2 /> <h>Block</h> and <h>Barrier</h>."
+    "PassiveDescription": "Gain <Value2 /> <h>Block</h> and <h>Barrier</h>.",
+    "ActiveDescription": "Add <Value1 /> random <h>Rainbow Jade Yin-Yang Orb{Value1:plural one='' other='s'}</h> to the hand.",
+    "UltimateDescription": "For the rest of this combat, the effects of <h>Yin-Yang Orbs</h> are doubled. Immediately add <Value1 /> <h>Rainbow Jade Yin-Yang Orb{Value1:plural one='''' other=''s''}</h>."
   },
   "ShuihuoCard": {
     "Name": "Orb of Water and Fire",
@@ -578,7 +580,9 @@
   },
   "PatchouliFriend": {
     "Name": "Patchouli, Elemental Alchemist",
-    "Description": "<FriendP />Convert <PassiveColor /> random mana into <h>Philosopher's Mana</h>."
+    "PassiveDescription": "Convert <PassiveColor /> random mana into <h>Philosopher's Mana</h>.",
+    "ActiveDescription": "Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>. Gain <P /><Power />.",
+    "UltimateDescription": "Add <Value2 /> <h>Unstable Potion{Value2:plural one='' other='s'}</h> to the hand."
   },
   "MoguMaster": {
     "Name": "Mushroom Specialist",
@@ -886,7 +890,9 @@
   },
   "MeilingFriend": {
     "Name": "Meiling, Neglectful Gatekeeper",
-    "Description": "<FriendS />Gain <Graze /> <h>Graze</h>.<br /><FriendP />Add a <h>Throwing Knife</h> to the hand.<br />Whenever <PlayerName /> receives damage from an enemy's whole attack, it triggers for an additional time."
+    "Description": "Gain <Graze /> <h>Graze</h>.",
+    "PassiveDescription": "Add a <h>Throwing Knife</h> to the hand.<br />Whenever <PlayerName /> receives damage from an enemy's whole attack, it triggers for an additional time.",
+    "UltimateDescription": "Gain <Value1 /> life and <Value2 /> <h>Firepower</h>."
   },
   "UnlimitedTime": {
     "Name": "Perfect Time Stop",
@@ -919,7 +925,11 @@
   },
   "DayaojingFriend": {
     "Name": "Daiyousei, Lively Assistant",
-    "Description": "<FriendP />Deal <Damage /> attack damage to a random enemy."
+    "PassiveDescription": "Deal <Damage /> attack damage to a random enemy.",
+    "ActiveDescription": "Gain <Block /> <h>Block</h>.",
+    "UpgradedActiveDescription": "Gain <Block /> <h>Block</h> and <Shield /> <h>Barrier</h>.",
+    "UltimateDescription": "Add <Value1 /> <h>Midsummer Flowers</h> to the hand.",
+    "UpgradedUltimateDescription": "Add <Value1 /> <h>Midsummer Flowers+</h> to the hand."
   },
   "IceWing": {
     "Name": "Ice Wing",
