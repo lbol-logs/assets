@@ -1278,7 +1278,9 @@
       "Damage": 14,
       "Value1": 1,
       "Value2": 2,
-      "Keywords": "Overdrive"
+      "Keywords": "Overdrive",
+      "AttackTimes": 2,
+      "UpgradeDamage": 12
     },
     "1": {
       "Damage": 12
@@ -1828,7 +1830,8 @@
       "Damage": 8,
       "Value1": 2,
       "Value2": 2,
-      "Keywords": "Overdrive"
+      "Keywords": "Overdrive",
+      "AttackTimes": 2
     },
     "1": {
       "Damage": 12,
@@ -2242,12 +2245,14 @@
       "PassiveCost": 2,
       "ActiveCost": "-4",
       "UltimateCost": "-6",
-      "Power": 3
+      "Power": 3,
+      "PassiveColor": 2
     },
     "1": {
       "Loyalty": 6,
       "PassiveCost": 3,
-      "Power": 5
+      "Power": 5,
+      "PassiveColor": 3
     },
     "OverrideUltimateCost": true
   },
@@ -4375,7 +4380,8 @@
     "0": {
       "Cost": "1UG",
       "Value1": 4,
-      "Value2": 0
+      "Value2": 0,
+      "MaxHand": 12
     },
     "1": {
       "Value2": 2
@@ -4493,7 +4499,8 @@
       "Loyalty": 1,
       "PassiveCost": 1,
       "ActiveCost": "-3",
-      "UltimateCost": "-7"
+      "UltimateCost": "-7",
+      "Light": 1
     },
     "1": {
       "Damage": 10,
@@ -4545,7 +4552,8 @@
       "Loyalty": 2,
       "PassiveCost": 1,
       "ActiveCost": "-4",
-      "UltimateCost": "-7"
+      "UltimateCost": "-7",
+      "Light": 1
     },
     "1": {
       "Value1": 3,
@@ -4586,7 +4594,8 @@
       "Loyalty": 7,
       "PassiveCost": 0,
       "ActiveCost": "-1",
-      "UltimateCost": "-2"
+      "UltimateCost": "-2",
+      "StartMana": "PPP"
     },
     "1": {
       "Value2": 5,
@@ -5464,7 +5473,8 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "1R"
+      "Cost": "1R",
+      "Percentage": 100
     },
     "1": {
       "Cost": 0
@@ -5838,7 +5848,8 @@
       "Cost": "WW",
       "Value1": 3,
       "Value2": 10,
-      "Mana": "PP"
+      "Mana": "PP",
+      "Light": 1
     },
     "1": {
       "Keywords": "Debut"
@@ -6324,7 +6335,8 @@
       "Cost": "BB",
       "Value1": 3,
       "Value2": 10,
-      "Mana": "PP"
+      "Mana": "PP",
+      "Light": 1
     },
     "1": {
       "Keywords": "Debut"
@@ -6559,7 +6571,8 @@
       "Cost": "RR",
       "Value1": 3,
       "Value2": 10,
-      "Mana": "PP"
+      "Mana": "PP",
+      "Light": 2
     },
     "1": {
       "Keywords": "Debut"
@@ -8105,7 +8118,8 @@
     "0": {
       "Cost": "HH:HUG",
       "Damage": 10,
-      "Mana": "P"
+      "Mana": "P",
+      "AttackTimes": 1
     },
     "1": {
       "Cost": "1H:HUG",

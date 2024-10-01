@@ -874,7 +874,7 @@
   },
   "SakuyaDetective": {
     "Name": "追查真凶",
-    "Description": "抽 <Value2 /> 张牌。<br />对阵真正的犯人时，战斗开始就对她造成 <Value1 /> 点伤害。<br />（已累计 <BossDamage /> 点）"
+    "Description": "抽 <Value2 /> 张牌。<br />对阵真正的犯人时，战斗开始就对她造成 <Value1 /> 点伤害。"
   },
   "SakuyaSpeedup": {
     "Name": "加速时空",
@@ -2197,7 +2197,7 @@
   },
   "HatateShot": {
     "Name": "全景拍摄",
-    "Description": "获得 <Block /> 点<h>格挡</h>。<br />每一点剩余的法力，提高 <Value1 /> 点<h>格挡</h>。（总计 <Special /> 点）"
+    "Description": "获得 <Block /> 点<h>格挡</h>。<br />每一点剩余的法力，提高 <Value1 /> 点<h>格挡</h>。"
   },
   "ZoufangWater": {
     "Name": "诹访清流",
@@ -2270,7 +2270,7 @@
   },
   "LimaoAttack": {
     "Name": "月下的腹鼓舞",
-    "Description": "对所有敌人造成 <Damage /> 点伤害，获得<GainMana />。<br /><h>成长</h>：额外获得<Mana />。"
+    "Description": "对所有敌人造成 <Damage /> 点伤害，获得<Mana />。<br /><h>成长</h>：额外获得<Mana />。"
   },
   "TodayYesterday": {
     "Name": "今昔幻想乡",
@@ -2323,7 +2323,7 @@
   },
   "YukariFriend": {
     "Name": "幻想的境界八云紫",
-    "PassiveDescription": "获得等同于本回合打出过防御牌数量的<h>火力</h>。（<Fire />张）",
+    "PassiveDescription": "获得等同于本回合打出过防御牌数量的<h>火力</h>。",
     "ActiveDescription": "从<h>放逐</h>区选择一张牌移回手中。",
     "UltimateDescription": "<PlayerName />的回合开始时，将一张随机的中立三色牌加入手中，<h>暂塑</h>为<Mana />，具有<h>虚无</h>。"
   },
