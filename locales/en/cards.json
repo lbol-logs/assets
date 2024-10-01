@@ -581,7 +581,7 @@
   "PatchouliFriend": {
     "Name": "Patchouli, Elemental Alchemist",
     "PassiveDescription": "Convert <PassiveColor /> random mana into <h>Philosopher's Mana</h>.",
-    "ActiveDescription": "Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>. Gain {Power} <Power />.",
+    "ActiveDescription": "Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>. Gain <P /> <Power />.",
     "UltimateDescription": "Add <Value2 /> <h>Unstable Potion{Value2:plural one='' other='s'}</h> to the hand."
   },
   "MoguMaster": {
@@ -890,6 +890,7 @@
   },
   "MeilingFriend": {
     "Name": "Meiling, Neglectful Gatekeeper",
+    "Description": "Gain <Graze /> <h>Graze</h>.",
     "PassiveDescription": "Add a <h>Throwing Knife</h> to the hand.<br />Whenever <PlayerName /> receives damage from an enemy's whole attack, it triggers for an additional time.",
     "UltimateDescription": "Gain <Value1 /> life and <Value2 /> <h>Firepower</h>."
   },
@@ -1068,6 +1069,7 @@
   },
   "LilyFriend": {
     "Name": "Lily White, Herald of Spring",
+    "Description": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
     "PassiveDescription": "Gain <TurnMana />.",
     "ActiveDescription": "Gain {ActiveMana}.",
     "UltimateDescription": "Gain {Heal} life."
@@ -1203,6 +1205,7 @@
   },
   "ClownpieceFriend": {
     "Name": "Clownpiece, Lunatic Fairy",
+    "Description": "Gain <StartMana />.",
     "PassiveDescription": "Gain <Value2 /> <h>Temporary Firepower</h>.",
     "ActiveDescription": "Draw <Value1 /> card{Value1:plural one='' other='s'} and add a <h>Lunacy</h> to the discard pile.",
     "UpgradedActiveDescription": "Draw {Value1:plural one='% card' other='% cards'}.",

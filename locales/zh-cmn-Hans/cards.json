@@ -581,7 +581,7 @@
   "PatchouliFriend": {
     "Name": "炼金术士帕秋莉",
     "PassiveDescription": "将 <PassiveColor /> 点随机的法力转化为<h>彩色</h>。",
-    "ActiveDescription": "获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>，获得 {Power} 点<Power />。",
+    "ActiveDescription": "获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>，获得 <P /> 点<Power />。",
     "UltimateDescription": "将 <Value2 /> 张<h>不稳定魔药</h>加入手中。"
   },
   "MoguMaster": {
@@ -890,6 +890,7 @@
   },
   "MeilingFriend": {
     "Name": "玩忽职守红美铃",
+    "Description": "获得 <Graze /> 层<h>闪避</h>。",
     "PassiveDescription": "将一张<h>飞刀</h>加入手中。<br />当<PlayerName />受到一整轮攻击时额外触发一次。",
     "UltimateDescription": "恢复 <Value1 /> 点生命，获得 <Value2 /> 点<h>火力</h>。"
   },
@@ -1068,6 +1069,7 @@
   },
   "LilyFriend": {
     "Name": "春日降临莉莉白",
+    "Description": "随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。",
     "PassiveDescription": "获得<TurnMana />。",
     "ActiveDescription": "获得{ActiveMana}。",
     "UltimateDescription": "恢复 {Heal} 点生命。"
@@ -1203,6 +1205,7 @@
   },
   "ClownpieceFriend": {
     "Name": "疯狂的克劳恩皮丝",
+    "Description": "获得<StartMana />。",
     "PassiveDescription": "获得 <Value2 /> 点<h>暂得火力</h>。",
     "ActiveDescription": "抽 <Value1 /> 张牌，将一张<h>疯狂</h>洗入弃牌堆。",
     "UpgradedActiveDescription": "抽 <Value1 /> 张牌。",

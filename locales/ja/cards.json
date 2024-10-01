@@ -581,7 +581,7 @@
   "PatchouliFriend": {
     "Name": "七曜の錬金術師、パチュリー",
     "PassiveDescription": "ランダムな<PassiveColor />個のマナを<h>彩色</h>マナに変換する。",
-    "ActiveDescription": "<h>火力</h><Value1 />と<h>霊力</h><Value1 />を得る。<Power />{Power}を得る。",
+    "ActiveDescription": "<h>火力</h><Value1 />と<h>霊力</h><Value1 />を得る。<Power /><P />を得る。",
     "UltimateDescription": "<h>ポーション</h><Value2 />枚を手札に加える。"
   },
   "MoguMaster": {
@@ -890,6 +890,7 @@
   },
   "MeilingFriend": {
     "Name": "サボリ門番、美鈴",
+    "Description": "<h>グレイズ</h><Graze />を得る。",
     "PassiveDescription": "<h>投げナイフ</h>を1枚手札に加える。<br /><PlayerName />が攻撃を受ける度、一度の攻撃行動につき1回この能力を再度発動する。",
     "UltimateDescription": "ライフを<Value1 />回復する。<h>火力</h><Value2 />を得る。"
   },
@@ -1068,6 +1069,7 @@
   },
   "LilyFriend": {
     "Name": "春告精、リリーホワイト",
+    "Description": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
     "PassiveDescription": "<TurnMana />を得る。",
     "ActiveDescription": "{ActiveMana}を得る。",
     "UltimateDescription": "ライフを{Heal}回復する。"
@@ -1203,6 +1205,7 @@
   },
   "ClownpieceFriend": {
     "Name": "狂気なる妖精、クラウンピース",
+    "Description": "<StartMana />を得る。",
     "PassiveDescription": "<h>臨時火力</h><Value2 />を得る。",
     "ActiveDescription": "カードを<Value1 />枚引く。<h>狂気</h>を1枚捨て札に加える。",
     "UpgradedActiveDescription": "カードを<Value1 />枚引く。",

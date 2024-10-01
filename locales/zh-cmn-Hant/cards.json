@@ -581,7 +581,7 @@
   "PatchouliFriend": {
     "Name": "鍊金術士帕秋莉",
     "PassiveDescription": "將 <PassiveColor /> 點隨機的法力轉化為<h>彩色</h>。",
-    "ActiveDescription": "獲得 <Value1 /> 點<h>火力</h>和<h>靈力</h>，獲得 {Power} 點<Power />。",
+    "ActiveDescription": "獲得 <Value1 /> 點<h>火力</h>和<h>靈力</h>，獲得 <P /> 點<Power />。",
     "UltimateDescription": "將 <Value2 /> 張<h>不穩定魔藥</h>加入手中。"
   },
   "MoguMaster": {
@@ -890,6 +890,7 @@
   },
   "MeilingFriend": {
     "Name": "玩忽職守紅美鈴",
+    "Description": "獲得 <Graze /> 層<h>閃避</h>。",
     "PassiveDescription": "將一張<h>飛刀</h>加入手中。<br />當<PlayerName />受到一整輪攻擊時額外觸發一次。",
     "UltimateDescription": "恢復 <Value1 /> 點生命，獲得 <Value2 /> 點<h>火力</h>。"
   },
@@ -1068,6 +1069,7 @@
   },
   "LilyFriend": {
     "Name": "春日降臨莉莉白",
+    "Description": "隨機對敵人造成 <Damage /> 點攻擊傷害 <Value1 /> 次。",
     "PassiveDescription": "獲得<TurnMana />。",
     "ActiveDescription": "獲得{ActiveMana}。",
     "UltimateDescription": "恢復 {Heal} 點生命。"
@@ -1203,6 +1205,7 @@
   },
   "ClownpieceFriend": {
     "Name": "瘋狂的克勞恩皮絲",
+    "Description": "獲得<StartMana />。",
     "PassiveDescription": "獲得 <Value2 /> 點<h>暫得火力</h>。",
     "ActiveDescription": "抽 <Value1 /> 張牌，將一張<h>瘋狂</h>洗入棄牌堆。",
     "UpgradedActiveDescription": "抽 <Value1 /> 張牌。",
