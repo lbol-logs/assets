@@ -268,7 +268,8 @@
   "Baota": {
     "Rarity": "Rare",
     "Value1": 3,
-    "Mana": "P"
+    "Mana": "P",
+    "InitialCounter": 0
   },
   "XijianSan": {
     "Rarity": "Rare",
