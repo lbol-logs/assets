@@ -3413,11 +3413,13 @@
       "Value2": 3,
       "Loyalty": 1,
       "PassiveCost": 1,
-      "UltimateCost": "-7"
+      "UltimateCost": "-7",
+      "Graze": 1
     },
     "1": {
       "Value1": 16,
-      "Value2": 4
+      "Value2": 4,
+      "Graze": 2
     }
   },
   "UnlimitedTime": {
