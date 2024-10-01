@@ -1072,7 +1072,7 @@
     "Description": "随机对敌人造成 <Damage /> 点攻击伤害 <Value1 /> 次。",
     "PassiveDescription": "获得<TurnMana />。",
     "ActiveDescription": "获得<ActiveMana />。",
-    "UltimateDescription": "恢复 {Heal} 点生命。"
+    "UltimateDescription": "恢复 <Heal /> 点生命。"
   },
   "CallFriends": {
     "Name": "呼朋唤友",

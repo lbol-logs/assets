@@ -1072,7 +1072,7 @@
     "Description": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
     "PassiveDescription": "Gain <TurnMana />.",
     "ActiveDescription": "Gain <ActiveMana />.",
-    "UltimateDescription": "Gain {Heal} life."
+    "UltimateDescription": "Gain <Heal /> life."
   },
   "CallFriends": {
     "Name": "Call on Friends",
