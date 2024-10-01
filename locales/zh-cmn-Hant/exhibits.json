@@ -561,7 +561,7 @@
   },
   "Moping": {
     "Name": "魔瓶",
-    "Description": "戰鬥結束時，消耗一次使用次數，恢復 <Value1 /> 點生命與<Power />，可以使用 <Value2 /> 次。<br />在隙間小屋灌滿。"
+    "Description": "戰鬥結束時，消耗一次使用次數，恢復 <Value1 /> 點生命與<Power />，可以使用 <Counter /> 次。<br />在隙間小屋灌滿。"
   },
   "JingboliJing": {
     "Name": "淨玻璃之鏡",

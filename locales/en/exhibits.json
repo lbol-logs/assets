@@ -581,7 +581,7 @@
   },
   "Moping": {
     "Name": "Bottle",
-    "Description": "At the end of your next <Value2 /> combats, gain <Value1 /> life and <Value1 /> <Power />.<br /><h>Recharges when you visit a Gap</h>."
+    "Description": "At the end of your next <Counter /> combats, gain <Value1 /> life and <Value1 /> <Power />.<br /><h>Recharges when you visit a Gap</h>."
   },
   "JingboliJing": {
     "Name": "Cleansed Crystal Mirror",

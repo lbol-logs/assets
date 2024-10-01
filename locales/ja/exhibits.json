@@ -553,7 +553,7 @@
   },
   "Moping": {
     "Name": "空き瓶",
-    "Description": "戦闘終了時、ライフを<Value1 />回復し、<Power /><Value1 />を得る。（あと<Value2 />回）<br />スキマに入るたび、使用回数が回復する。"
+    "Description": "戦闘終了時、ライフを<Value1 />回復し、<Power /><Value1 />を得る。（あと<Counter />回）<br />スキマに入るたび、使用回数が回復する。"
   },
   "JingboliJing": {
     "Name": "浄玻璃鏡",
