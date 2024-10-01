@@ -2241,11 +2241,13 @@
       "Loyalty": 5,
       "PassiveCost": 2,
       "ActiveCost": "-4",
-      "UltimateCost": "-6"
+      "UltimateCost": "-6",
+      "Power": 3
     },
     "1": {
       "Loyalty": 6,
-      "PassiveCost": 3
+      "PassiveCost": 3,
+      "Power": 5
     },
     "OverrideUltimateCost": true
   },
