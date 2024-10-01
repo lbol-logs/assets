@@ -1070,7 +1070,7 @@
   "LilyFriend": {
     "Name": "Lily White, Herald of Spring",
     "Description": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
-    "PassiveDescription": "Gain <TurnMana />.",
+    "PassiveDescription": "Gain <Mana />.",
     "ActiveDescription": "Gain <ActiveMana />.",
     "UltimateDescription": "Gain <Heal /> life."
   },

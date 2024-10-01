@@ -1070,7 +1070,7 @@
   "LilyFriend": {
     "Name": "春日降臨莉莉白",
     "Description": "隨機對敵人造成 <Damage /> 點攻擊傷害 <Value1 /> 次。",
-    "PassiveDescription": "獲得<TurnMana />。",
+    "PassiveDescription": "獲得<Mana />。",
     "ActiveDescription": "獲得<ActiveMana />。",
     "UltimateDescription": "恢復 <Heal /> 點生命。"
   },
