@@ -842,7 +842,7 @@
   },
   "PerfectServant": {
     "Name": "Perfect Servant",
-    "Description": "<h>For each <ManaW /><ManaW /> spent</h>: At the start of <PlayerName />'s next turn, each card in the hand <h>temporarily costs</h> 1 random mana less.<br /><h>For each <ManaU /> spent</h>: At the start of <PlayerName />'s next turn, gain <Mana /> and draw an extra card."
+    "Description": "<h>For each <ManaWW /> spent</h>: At the start of <PlayerName />'s next turn, each card in the hand <h>temporarily costs</h> 1 random mana less.<br /><h>For each <ManaU /> spent</h>: At the start of <PlayerName />'s next turn, gain <Mana /> and draw an extra card."
   },
   "BackToFuture": {
     "Name": "Back to the Future",

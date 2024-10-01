@@ -842,7 +842,7 @@
   },
   "PerfectServant": {
     "Name": "完全で瀟洒な従者",
-    "Description": "<h><ManaW /><ManaW />につき</h>：次のターンのドローフェイズ終了時、手札の全てのカードのマナコストをランダムに<Value1 />つ減らす。<br /><h><ManaU />につき</h>：次のターン開始時に<Mana />を得て、カードを追加で<Value2 />枚引く。"
+    "Description": "<h><ManaWW />につき</h>：次のターンのドローフェイズ終了時、手札の全てのカードのマナコストをランダムに<Value1 />つ減らす。<br /><h><ManaU />につき</h>：次のターン開始時に<Mana />を得て、カードを追加で<Value2 />枚引く。"
   },
   "BackToFuture": {
     "Name": "未来逆行",
