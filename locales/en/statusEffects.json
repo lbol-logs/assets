@@ -700,7 +700,7 @@
     "Description": "<PlayerName />'s attacks deal no damage this turn."
   },
   "DrawPhaseAddKnife": {
-    "Name": "Turn Start Gain |Knives| Instead of Draw Cards",
+    "Name": "Turn Start Gain <h>Knives</h> Instead of Draw Cards",
     "Description": "Skip the card drawing phase of turn starting, add <Limit /> <h>Knives</h> to hand instead."
   },
   "BrokenTimelineSe": {
