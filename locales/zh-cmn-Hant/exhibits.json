@@ -61,11 +61,11 @@
   },
   "AliceW": {
     "Name": "上海人偶",
-    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br />戰鬥開始時，部署一個|e:上海人偶|。"
+    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br />戰鬥開始時，部署一個<he>上海人偶</he>。"
   },
   "AliceB": {
     "Name": "引爆裝置",
-    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br /><h>撤離</h>|e:蓬萊人偶|時造成雙倍傷害。"
+    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br /><h>撤離</h><he>蓬萊人偶</he>時造成雙倍傷害。"
   },
   "PiaoliangPanzi": {
     "Name": "漂亮的盤子",
@@ -169,7 +169,7 @@
   },
   "QicaiLianhua": {
     "Name": "七色蓮華",
-    "Description": "<PlayerName />的回合開始時，獲得一點隨機法力。<br />每場戰鬥中，擁有過所有七種顏色的法力時，將一張|e:彩光亂舞|加入手中。"
+    "Description": "<PlayerName />的回合開始時，獲得一點隨機法力。<br />每場戰鬥中，擁有過所有七種顏色的法力時，將一張<he>彩光亂舞</he>加入手中。"
   },
   "He3": {
     "Name": "氦-3",

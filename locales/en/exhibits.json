@@ -81,11 +81,11 @@
   },
   "AliceW": {
     "Name": "Shanghai Doll",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Alice</h> are added to the card pool.<br />At the start of combat, <h>Deploy</h> a |e:Shanghai Doll|."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Alice</h> are added to the card pool.<br />At the start of combat, <h>Deploy</h> a <he>Shanghai Doll</he>."
   },
   "AliceB": {
     "Name": "Detonator",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Alice</h> are added to the card pool.<br /><h>Exiting</h> |e:Hourai Dolls| deal double damage."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Alice</h> are added to the card pool.<br /><h>Exiting</h> <he>Hourai Dolls</he> deal double damage."
   },
   "PiaoliangPanzi": {
     "Name": "Beautiful Plate",
@@ -189,7 +189,7 @@
   },
   "QicaiLianhua": {
     "Name": "Rainbow Lotus",
-    "Description": "At the start of <PlayerName />'s turn, gain 1 random mana.<br />When there's at least 1 mana of each color (including <ManaC /> & <ManaP />), add a |e:Vivid Chaotic Dance| to the hand."
+    "Description": "At the start of <PlayerName />'s turn, gain 1 random mana.<br />When there's at least 1 mana of each color (including <ManaC /> & <ManaP />), add a <he>Vivid Chaotic Dance</he> to the hand."
   },
   "He3": {
     "Name": "Helium-3",
