@@ -1,4 +1,34 @@
 {
+  "plurals": {
+    "-s": "",
+    "-s_other": "s",
+    "-y": "y",
+    "-y_other": "ies",
+    "-fe": "fe",
+    "-fe_other": "ves"
+  },
+  "subjects": {
+    "It": "It",
+    "It_other": "They",
+    "is": "is",
+    "is_other": "are",
+    "has": "has",
+    "has_other": "have",
+    "-s": "s",
+    "-s_other": ""
+  },
+  "objects": {
+    "it": "it",
+    "it_other": "them"
+  },
+  "dependentPossessives": {
+    "its": "its",
+    "its_other": "their"
+  },
+  "ordinal_1": "<Value2 />st",
+  "ordinal_2": "<Value2 />nd",
+  "ordinal_3": "<Value2 />rd",
+  "ordinal": "<Value2 />th",
   "ReimuAttackR": {
     "Name": "Hakurei Amulet",
     "Description": "Deal <Damage /> damage."
@@ -17,7 +47,7 @@
   },
   "YaoguaiBuster": {
     "Name": "Youkai Buster",
-    "Description": "Deal <Damage /> damage <Value1 /> time{Value1:plural one='' other='s'}.<br />Apply <Value2 /> <h>Weak</h>."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Apply <Value2 /> <h>Weak</h>."
   },
   "DoubleJiejie": {
     "Name": "Duplex Barrier",
@@ -37,7 +67,7 @@
   },
   "ShengtianKick": {
     "Name": "Ascension Kick",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br />Gain <Value2 /> <h>Temporary Firepower</h>."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Value2 /> <h>Temporary Firepower</h>."
   },
   "MengzhiYuzha": {
     "Name": "Talisman of Dreams",
@@ -46,15 +76,15 @@
   "Fengmozhen4": {
     "Name": "Evil-Sealing Circle",
     "Description": "Deal <Damage /> damage to each enemy.",
-    "UpgradedDescription": "Deal <Damage /> damage to each enemy <Value1 /> time{Value1:plural one='' other='s'}."
+    "UpgradedDescription": "Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "WunvKongwu": {
     "Name": "Maiden's Aerial Dance",
-    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Draw {Value2:plural one='% card' other='% cards'}."
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "TuimofuLuanwu": {
     "Name": "Wild Exorcism Dance",
-    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time{Value1:plural one='' other='s'}."
+    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "SuikaOut": {
     "Name": "Cleansing Exorcism",
@@ -83,7 +113,7 @@
   },
   "ZhujiThreeGod": {
     "Name": "Three Gods of Sumiyoshi",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br />Gain <Value2 /> <h>Temporary Firepower</h> for each attack card and <Value2 /> <h>Temporary Spirit</h> for each defense card drawn this way."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Value2 /> <h>Temporary Firepower</h> for each attack card and <Value2 /> <h>Temporary Spirit</h> for each defense card drawn this way."
   },
   "OverJingjie": {
     "Name": "Above the Realm",
@@ -96,7 +126,7 @@
   },
   "Zhuizongfu": {
     "Name": "Homing Amulet",
-    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time{Value1:plural one='' other='s'}.<br />If <PlayerName /> has <h>Temporary Firepower</h>, gain <Mana />."
+    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />If <PlayerName /> has <h>Temporary Firepower</h>, gain <Mana />."
   },
   "ReimuFestival": {
     "Name": "Dance of Sacred Sakura",
@@ -113,7 +143,7 @@
   },
   "ReimuHeavyAttack": {
     "Name": "Fist of the Hakurei",
-    "Description": "Deal <Damage /> damage.<br /><h>Firepower</h> increases <SelfName />'s damage <Value1 /> time{Value1:plural one='' other='s'}."
+    "Description": "Deal <Damage /> damage.<br /><h>Firepower</h> increases <SelfName />'s damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ReverseJiejie": {
     "Name": "Reverse Boundary",
@@ -133,8 +163,8 @@
   },
   "TwoBalls": {
     "Name": "Balanced Orbs",
-    "Description": "Add {Value1:plural one='% <h>Yin-Yang Orb</h>' other='% <h>Yin-Yang Orbs</h>'} to the hand.",
-    "UpgradedDescription": "Add {Value1:plural one='% <h>Yin-Yang Orb</h>' other='% <h>Yin-Yang Orbs</h>'} to the hand. {Value1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana /> less to play."
+    "Description": "Add <Value1 /> <h>Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.",
+    "UpgradedDescription": "Add <Value1 /> <h>Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> less to play."
   },
   "MojingShanjie": {
     "Name": "Exorcising Border",
@@ -178,16 +208,16 @@
   },
   "ReimuFreeAttack": {
     "Name": "Fleeting Fantasy",
-    "Description": "Gain <Block /> <h>Block</h>.<br />The next <Value1 /> attack card{Value1:plural one='' other='s'} played cost{Value1:plural one='s' other=''} <Mana /> to play."
+    "Description": "Gain <Block /> <h>Block</h>.<br />The next <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) played cost$t(subjects.-s, { 'count': {{Value1}} }) <Mana /> to play."
   },
   "ReimuDrink": {
     "Name": "Sake Offering",
-    "Description": "Gain <Value1 /> life.<br />Add <Value2 /> <h>Tipsy{Value2:plural one='' other='s'}</h> to the hand.",
-    "UpgradedDescription": "Gain <Value1 /> life.<br />Gain <Value1 /> <h>Temporary Firepower</h>.<br />Add <Value2 /> <h>Tipsy{Value2:plural one='' other='s'}</h> to the hand."
+    "Description": "Gain <Value1 /> life.<br />Add <Value2 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand.",
+    "UpgradedDescription": "Gain <Value1 /> life.<br />Gain <Value1 /> <h>Temporary Firepower</h>.<br />Add <Value2 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "EvilTuiZhi": {
     "Name": "Evil Exterminate",
-    "Description": "The next <Value1 /> attack {Value1:plural one='card' other='cards'} activated deal{Value1:plural one='s' other=''} double damage."
+    "Description": "The next <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) activated deal$t(subjects.-s, { 'count': {{Value1}} }) double damage."
   },
   "MomentPower": {
     "Name": "Instant Dimensional Rift",
@@ -195,7 +225,7 @@
   },
   "Wunvyu": {
     "Name": "Hakurei's Evilest Orbs",
-    "Description": "Deal <Damage /> damage <Value1 /> time{Value1:plural one='' other='s'}.<br /><h>While in hand</h>: Whenever a card is drawn outside of the draw step, increase <SelfName />'s damage by <Value2 /> this combat."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>While in hand</h>: Whenever a card is drawn outside of the draw step, increase <SelfName />'s damage by <Value2 /> this combat."
   },
   "TaijiLiangyi": {
     "Name": "The Birth of Yin-Yang",
@@ -203,7 +233,7 @@
   },
   "ReimuSilence": {
     "Name": "\"Fantasy Seal -Worn-\"",
-    "Description": "For every <Value1 /> card{Value1:plural one='' other='s'} drawn outside of the draw step, deal <Damage /> attack damage to each enemy.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "For every <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) drawn outside of the draw step, deal <Damage /> attack damage to each enemy.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ChuanyueJiejie": {
     "Name": "Crossing the Border",
@@ -220,7 +250,7 @@
   },
   "Jiangshen": {
     "Name": "Faithful Meditation",
-    "Description": "Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it.<br />Add {Value1:plural one='% <h>Yin-Yang Orb</h>' other='% <h>Yin-Yang Orbs</h>'} to the hand."
+    "Description": "Whenever <PlayerName /> adds a card during this combat, <h>Upgrade</h> it.<br />Add <Value1 /> <h>Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
   },
   "BoliDajiejie": {
     "Name": "The Great Hakurei Barrier",
@@ -258,7 +288,7 @@
   },
   "DanceAroundLake": {
     "Name": "Lakeside Dance",
-    "Description": "Whenever a card is <h>Exiled</h>, draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Whenever a card is <h>Exiled</h>, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ReimuHuashan": {
     "Name": "Receive Guidance",
@@ -266,11 +296,11 @@
   },
   "AutoQumobang": {
     "Name": "Furious Purification Rod",
-    "Description": "<h>While in hand</h>: Draw <Value1 /> more {Value1:plural one='card' other='cards'} during each draw step.<br />After <SelfName /> is <h>Retained</h> <Value2 /> times, <h>Exile</h> it."
+    "Description": "<h>While in hand</h>: Draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during each draw step.<br />After <SelfName /> is <h>Retained</h> <Value2 /> times, <h>Exile</h> it."
   },
   "Qingshan": {
     "Name": "One's Last Home",
-    "Description": "Gain <Block /> <h>Block</h>.<br /><h>Exile</h> <Value1 /> random <h>Misfortune</h> and/or Status card{Value1:plural one='' other='s'} from the hand."
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>Exile</h> <Value1 /> random <h>Misfortune</h> and/or Status card$t(plurals.-s, { 'count': {{Value1}} }) from the hand."
   },
   "GapLady": {
     "Name": "Gap Lady",
@@ -278,7 +308,7 @@
   },
   "ChunseXiaojing": {
     "Name": "Spring-Colored Path",
-    "Description": "Gain <Mana />.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}.<br /><h>Overdraft</h> <Value2 />."
+    "Description": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Overdraft</h> <Value2 />."
   },
   "ReimuSakura": {
     "Name": "Blossoming Fantasy Seal",
@@ -291,8 +321,8 @@
   "YinyangQueen": {
     "Name": "Misumaru, Skilled Crafter",
     "PassiveDescription": "Gain <Value2 /> <h>Block</h> and <h>Barrier</h>.",
-    "ActiveDescription": "Add <Value1 /> random <h>Rainbow Jade Yin-Yang Orb{Value1:plural one='' other='s'}</h> to the hand.",
-    "UltimateDescription": "For the rest of this combat, the effects of <h>Yin-Yang Orbs</h> are doubled. Immediately add <Value1 /> <h>Rainbow Jade Yin-Yang Orb{Value1:plural one='' other='s'}</h>."
+    "ActiveDescription": "Add <Value1 /> random <h>Rainbow Jade Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.",
+    "UltimateDescription": "For the rest of this combat, the effects of <h>Yin-Yang Orbs</h> are doubled. Immediately add <Value1 /> <h>Rainbow Jade Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h>."
   },
   "ShuihuoCard": {
     "Name": "Orb of Water and Fire",
@@ -300,7 +330,7 @@
   },
   "FengleiCard": {
     "Name": "Orb of Wind and Thunder",
-    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time{Value1:plural one='' other='s'}."
+    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ShanyuCard": {
     "Name": "Orb of Mountain and Rain",
@@ -324,8 +354,8 @@
   },
   "CraftPotion": {
     "Name": "Craft Potion",
-    "Description": "Add <Value1 /> <h>Unstable Potion{Value1:plural one='' other='s'}</h> to the draw pile.<br />Draw <Value2 /> card{Value2:plural one='' other='s'}.",
-    "UpgradedDescription": "Add <Value1 /> <h>Unstable Potion{Value1:plural one='' other='s'}</h> to the draw pile.<br />Draw <Value2 /> card{Value2:plural one='' other='s'}.<br /><h>Debut</h>: Draw one more card."
+    "Description": "Add <Value1 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).",
+    "UpgradedDescription": "Add <Value1 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br /><h>Debut</h>: Draw one more card."
   },
   "RedLaser": {
     "Name": "Flammable Laser",
@@ -338,19 +368,19 @@
   },
   "SatelliteIllusion": {
     "Name": "Satellite Illusion",
-    "Description": "Deal <Damage /> damage.<br />Add <h>{Value1:plural one='% Astrology' other='% Astrologies'}</h> to the hand."
+    "Description": "Deal <Damage /> damage.<br />Add <h><Value1 /> Astrolog$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand."
   },
   "DropBook": {
     "Name": "Orthodox Rebellion",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Add <h>{Value1:plural one='% Astrology' other='% Astrologies'}</h> to the hand."
+    "Description": "Gain <Block /> <h>Block</h>.<br />Add <h><Value1 /> Astrolog$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand."
   },
   "MarisaDraw": {
     "Name": "Improvisation",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br />If <PlayerName /> is in <h>Burst</h>, gain <Mana />."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />If <PlayerName /> is in <h>Burst</h>, gain <Mana />."
   },
   "DarkSatellite": {
     "Name": "Dark Satellite",
-    "Description": "Gain <Block /> <h>Block</h>.<br />If the last card played this combat was black, draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Gain <Block /> <h>Block</h>.<br />If the last card played this combat was black, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "MarisaEat": {
     "Name": "Mushroom Feast",
@@ -366,7 +396,7 @@
   },
   "AsteroidBelt": {
     "Name": "Asteroid Belt",
-    "Description": "Deal <Damage /> damage {Value1:plural one='% time' other='% times'}.<br />If the last card played this combat was red, gain <Value2 /> <h>Charge</h>."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />If the last card played this combat was red, gain <Value2 /> <h>Charge</h>."
   },
   "HuojianSaoba": {
     "Name": "Rocket Broom",
@@ -378,7 +408,7 @@
   },
   "Alioth": {
     "Name": "Alioth",
-    "Description": "<h>Scry</h> <Scry />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Gain <Value2 /> <h>Charge</h>."
+    "Description": "<h>Scry</h> <Scry />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Value2 /> <h>Charge</h>."
   },
   "ScryAttack": {
     "Name": "Navigation Star",
@@ -386,12 +416,12 @@
   },
   "MarisaSteal": {
     "Name": "\"Borrow\" Materials",
-    "Description": "Add <Value1 /> <h>Rainbow{Value1:plural one='' other='s'}</h> to the hand.<br /><h>Overdraft</h> <Value2 />.",
-    "UpgradedDescription": "Add <Value1 /> <h>Rainbow{Value1:plural one='' other='s'}</h> to the hand."
+    "Description": "Add <Value1 /> <h>Rainbow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.<br /><h>Overdraft</h> <Value2 />.",
+    "UpgradedDescription": "Add <Value1 /> <h>Rainbow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
   },
   "NightSeeStar": {
     "Name": "Stargazing",
-    "Description": "<h>Scry</h> <Scry />.<br />Draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "<h>Scry</h> <Scry />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ScryBlock": {
     "Name": "Premeditation",
@@ -399,7 +429,7 @@
   },
   "ShibaiChanwu": {
     "Name": "Product of Failure",
-    "Description": "Add {Value1:plural one='% <h>Unstable Potion</h>' other='% <h>Unstable Potions</h>'} to the draw pile.<br />Add {Value2:plural one='% <h>Shadow</h>' other='% <h>Shadows</h>'} to the hand."
+    "Description": "Add <Value1 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile.<br />Add <Value2 /> <h>Shadow$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "ShinningPotion": {
     "Name": "Luminous Mushroom",
@@ -415,7 +445,7 @@
   },
   "PoisonPotion": {
     "Name": "Witch's Crucible",
-    "Description": "<h>Unstable Potions</h> also apply <Value1 /> <h>Poison</h> when activated.<br />Add {Value2:plural one='% <h>Unstable Potion</h>' other='% <h>Unstable Potions</h>'} to the draw pile."
+    "Description": "<h>Unstable Potions</h> also apply <Value1 /> <h>Poison</h> when activated.<br />Add <Value2 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value2}} })</h> to the draw pile."
   },
   "LearnAstrology": {
     "Name": "Astrology Study",
@@ -423,7 +453,7 @@
   },
   "PotionJungle": {
     "Name": "Fluorescent Forest",
-    "Description": "At the end of <PlayerName />'s turn, add {Value1:plural one='% <h>Unstable Potion</h>' other='% <h>Unstable Potions</h>'} to the discard pile."
+    "Description": "At the end of <PlayerName />'s turn, add <Value1 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value1}} })</h> to the discard pile."
   },
   "AccuracyLaser": {
     "Name": "Directional Laser",
@@ -435,7 +465,7 @@
   },
   "WinterWarm": {
     "Name": "Hand Warmer",
-    "Description": "<h>Exile</h> up to <Value1 /> card{Value1:plural one='' other='s'} in the hand. <br />Gain <h>Concentration</h> equal to the number of cards <h>Exiled</h> this way.<br />Draw <Value2 /> card{Value2:plural one='' other='s'}."
+    "Description": "<h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. <br />Gain <h>Concentration</h> equal to the number of cards <h>Exiled</h> this way.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "CollectionDefense": {
     "Name": "Too Big to Fail",
@@ -444,7 +474,7 @@
   },
   "BurstDraw": {
     "Name": "Speed Duel",
-    "Description": "Whenever <PlayerName /> enters <h>Burst</h>, draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Whenever <PlayerName /> enters <h>Burst</h>, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "StarFantasy": {
     "Name": "Stardust Reverie",
@@ -456,7 +486,7 @@
   },
   "MarisaHoldCard": {
     "Name": "Parting Woes",
-    "Description": "Choose up to <Value1 /> card{Value1:plural one='' other='s'} in the hand. <h>Retain</h> {Value1:plural one='it' other='them'} this turn.<br />Gain <Block /> <h>Block</h>."
+    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. <h>Retain</h> $t(objects.it, { 'count': {{Value1}} }) this turn.<br />Gain <Block /> <h>Block</h>."
   },
   "ThrowBigStar": {
     "Name": "Red Star Explosion",
@@ -473,7 +503,7 @@
   "RunAway": {
     "Name": "Run Away",
     "Description": "Discard each card in the hand. Cards discarded this way <h>temporarily cost</h> <Mana /> less.<br />Gain <Value1 /> <h>Graze</h>.",
-    "UpgradedDescription": "Discard each card in the hand. Cards discarded this way <h>temporarily cost</h> <Mana /> less.<br />Gain <Value1 /> <h>Graze</h>.<br />Draw {Value2:plural one='% card' other='% cards'}."
+    "UpgradedDescription": "Discard each card in the hand. Cards discarded this way <h>temporarily cost</h> <Mana /> less.<br />Gain <Value1 /> <h>Graze</h>.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "MixAndShake": {
     "Name": "Firework Potion",
@@ -499,8 +529,8 @@
   },
   "UpgradePotion": {
     "Name": "Refine Potion",
-    "Description": "Add {Value2:plural one='% <h>Unstable Potion</h>' other='% <h>Unstable Potions</h>'} to the draw pile.<br />Increase the damage of <h>Unstable Potions</h> by <Value1 />.",
-    "UpgradedDescription": "Add {Value2:plural one='% <h>Unstable Potion</h>' other='% <h>Unstable Potions</h>'} to the draw pile.<br />Increase the damage of <h>Unstable Potions</h> by <Value1 />.<br />At the end of <PlayerName />'s turn, increase the damage of all <h>Unstable Potions</h> in the draw and discard piles by <Value1 />."
+    "Description": "Add <Value2 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value2}} })</h> to the draw pile.<br />Increase the damage of <h>Unstable Potions</h> by <Value1 />.",
+    "UpgradedDescription": "Add <Value2 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value2}} })</h> to the draw pile.<br />Increase the damage of <h>Unstable Potions</h> by <Value1 />.<br />At the end of <PlayerName />'s turn, increase the damage of all <h>Unstable Potions</h> in the draw and discard piles by <Value1 />."
   },
   "OpenUniverse": {
     "Name": "Open Universe",
@@ -508,7 +538,7 @@
   },
   "SuperNova": {
     "Name": "Supernova",
-    "Description": "Gain <Mana />.<br />Put <Value1 /> random attack card{Value1:plural one='' other='s'} from the draw pile into the hand."
+    "Description": "Gain <Mana />.<br />Put <Value1 /> random attack card$t(plurals.-s, { 'count': {{Value1}} }) from the draw pile into the hand."
   },
   "RedGiantStar": {
     "Name": "Red Giant Impact",
@@ -531,11 +561,11 @@
   },
   "MasterOfCollection": {
     "Name": "Master of Collection",
-    "Description": "Choose up to <Value2 /> card{Value2:plural one='' other='s'} in the hand. {Value2:plural one='It gains' other='They gain'} <h>Retain</h>.<br />Whenever a card is <h>Retained</h>, it costs <Value1 /> random mana less this combat."
+    "Description": "Choose up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) in the hand. $t(subjects.It, { 'count': {{Value2}} }) gain$t(subjects.-s, { 'count': {{Value2}} }) <h>Retain</h>.<br />Whenever a card is <h>Retained</h>, it costs <Value1 /> random mana less this combat."
   },
   "ChargingPotion": {
     "Name": "Radioactive Elements",
-    "Description": "Whenever an <h>Unstable Potion</h> is activated, gain <Value1 /> <h>Charge</h>.<br />Add {Value2:plural one='% <h>Unstable Potion</h>' other='% <h>Unstable Potions</h>'} to the hand."
+    "Description": "Whenever an <h>Unstable Potion</h> is activated, gain <Value1 /> <h>Charge</h>.<br />Add <Value2 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "StarlightTaifengSummoner": {
     "Name": "Starlight Convergence",
@@ -544,7 +574,7 @@
   },
   "StarlightTaifeng": {
     "Name": "Starlight Typhoon",
-    "Description": "Deal <Damage /> damage {Value1:plural one='% time' other='% times'}."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "FindCollection": {
     "Name": "Remote Support",
@@ -560,7 +590,7 @@
   },
   "SplitPotion": {
     "Name": "Twofold Chemical",
-    "Description": "<h>Unstable Potions</h> deal damage to an additional target.<br />Add <Value1 /> <h>Unstable Potion{Value1:plural one='' other='s'}</h> to the draw pile."
+    "Description": "<h>Unstable Potions</h> deal damage to an additional target.<br />Add <Value1 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile."
   },
   "IceSpark": {
     "Name": "Frozen Laser",
@@ -568,7 +598,7 @@
   },
   "ColdPotion": {
     "Name": "Cooling Agent",
-    "Description": "<h>Unstable Potions</h> also apply <h>Cold</h> when activated.<br />Add <Value1 /> <h>Unstable Potion{Value1:plural one='' other='s'}</h> to the draw pile."
+    "Description": "<h>Unstable Potions</h> also apply <h>Cold</h> when activated.<br />Add <Value1 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile."
   },
   "ChargingToMana": {
     "Name": "Charge Conversion",
@@ -582,7 +612,7 @@
     "Name": "Patchouli, Elemental Alchemist",
     "PassiveDescription": "Convert <PassiveColor /> random mana into <h>Philosopher's Mana</h>.",
     "ActiveDescription": "Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>. Gain <P /> <Power />.",
-    "UltimateDescription": "Add <Value2 /> <h>Unstable Potion{Value2:plural one='' other='s'}</h> to the hand."
+    "UltimateDescription": "Add <Value2 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "MoguMaster": {
     "Name": "Mushroom Specialist",
@@ -594,11 +624,11 @@
   },
   "GreenMogu": {
     "Name": "Panellus Stipticus",
-    "Description": "Add {Value1:plural one='% <h>Unstable Potion</h>' other='% <h>Unstable Potions</h>'} to the draw pile."
+    "Description": "Add <Value1 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile."
   },
   "BlueMogu": {
     "Name": "Cobalt Pleurotus",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "PurpleMogu": {
     "Name": "Amethyst Laccaria",
@@ -610,7 +640,7 @@
   },
   "ManaJungle": {
     "Name": "Forest Adventure",
-    "Description": "<h>When <SelfName /> enters the hand</h>: Add <h><Value1 /> Rainbow{Value1:plural one='' other='s'}</h> to the hand and <h>Exile</h> <SelfName />."
+    "Description": "<h>When <SelfName /> enters the hand</h>: Add <h><Value1 /> Rainbow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand and <h>Exile</h> <SelfName />."
   },
   "SakuyaAttackW": {
     "Name": "Misdirection",
@@ -630,12 +660,12 @@
   },
   "KnifeBounce": {
     "Name": "Bouncing Knives",
-    "Description": "Deal <Damage /> damage.<br />Add <h>{Value1:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand.",
-    "UpgradedDescription": "Deal <Damage /> damage.<br />Apply <Value2 /> <h>Lock On</h>.<br />Add <h>{Value1:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand."
+    "Description": "Deal <Damage /> damage.<br />Add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Apply <Value2 /> <h>Lock On</h>.<br />Add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand."
   },
   "Lijian": {
     "Name": "Sight of Distant Blade",
-    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}.<br /><h>When <SelfName /> enters the hand</h>: <SelfName /> costs <Mana /> less this combat."
+    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>When <SelfName /> enters the hand</h>: <SelfName /> costs <Mana /> less this combat."
   },
   "PrivateVision": {
     "Name": "Private Vision",
@@ -652,23 +682,23 @@
   },
   "Dejavu": {
     "Name": "Déjà Vu",
-    "Description": "Place up to {Value1:plural one='% card' other='% cards'} from the hand on top of the draw pile.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Gain <Mana />."
+    "Description": "Place up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the hand on top of the draw pile.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Mana />."
   },
   "SakuyaSnow": {
     "Name": "Winter Resolution",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Add <h>{Value1:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand."
+    "Description": "Gain <Block /> <h>Block</h>.<br />Add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand."
   },
   "CoolMaid": {
     "Name": "Elegant Maid",
-    "Description": "Add <h>{Value1:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand.<br />Gain <Mana />."
+    "Description": "Add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand.<br />Gain <Mana />."
   },
   "SakuyaTwiceAttack": {
     "Name": "Luminous Ricochet",
-    "Description": "Deal <Damage /> damage to each enemy {Value1:plural one='% time' other='% times'}.<br />Add <h>{Value2:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the discard pile."
+    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <h><Value2 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the discard pile."
   },
   "SakuyaGoOut": {
     "Name": "Travel Preparation",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br />Discard <Value1 /> card{Value1:plural one='' other='s'}.<br />Gain <Mana />."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Discard <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Mana />."
   },
   "SakuyaWeak": {
     "Name": "Time Suppression",
@@ -680,15 +710,15 @@
   },
   "SakuyaTea": {
     "Name": "Tea Brewing",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br /><h>Debut</h>: Gain <Value2 /> life. <SelfName /> costs <Mana /> less this combat."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Debut</h>: Gain <Value2 /> life. <SelfName /> costs <Mana /> less this combat."
   },
   "DefenseDraw": {
     "Name": "Lunar Cycle",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Draw {Value1:plural one='% card' other='% cards'}.<br /><h>When <SelfName /> enters the hand</h>: <SelfName /> costs <Mana /> less this combat."
+    "Description": "Gain <Block /> <h>Block</h>.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>When <SelfName /> enters the hand</h>: <SelfName /> costs <Mana /> less this combat."
   },
   "AttackMagic": {
     "Name": "Trick Bullets",
-    "Description": "Deal <Damage /> damage.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Add <Value2 /> <h>Throwing Kni{Value2:plural one='fe' other='ves'}</h> to the hand."
+    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Value2 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the hand."
   },
   "SakuyaSleep": {
     "Name": "Short Break",
@@ -697,15 +727,15 @@
   },
   "CleanRoom": {
     "Name": "Room Cleaning",
-    "Description": "Discard a card.<br />Draw {Value1:plural one='% card' other='% cards'}.<br /><h>Upgrade</h> {Value2:plural one='% random card' other='% random cards'} in the hand until the end of combat. If a <h>Throwing Knife</h> was discarded this way, instead <h>Upgrade</h> all cards in the hand until the end of combat."
+    "Description": "Discard a card.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Upgrade</h> <Value2 /> random card$t(plurals.-s, { 'count': {{Value2}} }) in the hand until the end of combat. If a <h>Throwing Knife</h> was discarded this way, instead <h>Upgrade</h> all cards in the hand until the end of combat."
   },
   "ExileMagic": {
     "Name": "Changeling Magic",
-    "Description": "<h>Exile</h> up to {Value1:plural one='% card' other='% cards'} in the hand. Add that many <h>Throwing Knives</h> to the hand."
+    "Description": "<h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. Add that many <h>Throwing Knives</h> to the hand."
   },
   "SilverJump": {
     "Name": "Knife of Damocles",
-    "Description": "Apply <Value1 /> <h>Vulnerable</h>.<br />Add <h>{Value2:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the draw and discard piles."
+    "Description": "Apply <Value1 /> <h>Vulnerable</h>.<br />Add <h><Value2 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the draw and discard piles."
   },
   "SakuyaInvestigate": {
     "Name": "Time Stop Detective",
@@ -713,8 +743,8 @@
   },
   "GainKnife": {
     "Name": "Starry Sword Dance",
-    "Description": "At the start of <PlayerName />'s turn, add <h>{Value1:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand.",
-    "UpgradedDescription": "Add <h>{Value2:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand.<br />At the start of <PlayerName />'s turn, add <h>{Value1:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand."
+    "Description": "At the start of <PlayerName />'s turn, add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand.",
+    "UpgradedDescription": "Add <h><Value2 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the hand.<br />At the start of <PlayerName />'s turn, add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand."
   },
   "SilverBullet": {
     "Name": "Silver Loom",
@@ -730,7 +760,7 @@
   },
   "SakuyaDraw": {
     "Name": "Peak Perfection",
-    "Description": "<h>When discarded or Exiled</h>: Draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "<h>When discarded or Exiled</h>: Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "VampireHunter": {
     "Name": "Vampire Huntress",
@@ -762,7 +792,7 @@
   },
   "DangerousMagician": {
     "Name": "Dangerous Illusionist",
-    "Description": "Whenever a <h>Throwing Knife</h> is activated, gain <Value1 /> <h>Time Pulse</h>.<br />Add <Value2 /> <h>Throwing Kni{Value2:plural one='fe' other='ves'}</h> to the draw pile."
+    "Description": "Whenever a <h>Throwing Knife</h> is activated, gain <Value1 /> <h>Time Pulse</h>.<br />Add <Value2 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the draw pile."
   },
   "ShengquanZaiwo": {
     "Name": "Sure Gamble",
@@ -774,7 +804,7 @@
   },
   "DropToKnife": {
     "Name": "Fortress of Silver",
-    "Description": "Discard <Value1 /> card{Value1:plural one='' other='s'}.<br />Add that many <h>Throwing Knives</h> to the hand."
+    "Description": "Discard <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add that many <h>Throwing Knives</h> to the hand."
   },
   "SakuyaFuneral": {
     "Name": "Premature Burial",
@@ -786,7 +816,7 @@
   },
   "SakuyaShop": {
     "Name": "Purchase Materials",
-    "Description": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "SilverBlade": {
     "Name": "Silver Dimension",
@@ -798,7 +828,7 @@
   },
   "KnifeHell": {
     "Name": "Silver Elegance",
-    "Description": "Add <h>{Value1:plural one='% Throwing Knife' other='% Throwing Knives'}</h> into the hand.<br /><h>Upgrade</h> all <h>Throwing Knives</h> in the hand, the draw pile, and the discard pile."
+    "Description": "Add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> into the hand.<br /><h>Upgrade</h> all <h>Throwing Knives</h> in the hand, the draw pile, and the discard pile."
   },
   "BackOfKnife": {
     "Name": "My Knife's Recursions",
@@ -810,7 +840,7 @@
   },
   "BladePower": {
     "Name": "Dazzling Dash",
-    "Description": "Whenever a <h>Throwing Knife</h> is played, add a random attack card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Exile</h> and <h>Ethereal</h>.<br />Add <Value1 /> <h>Throwing Kni{Value1:plural one='fe' other='ves'}</h> to the hand."
+    "Description": "Whenever a <h>Throwing Knife</h> is played, add a random attack card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Exile</h> and <h>Ethereal</h>.<br />Add <Value1 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand."
   },
   "ClockCorpse": {
     "Name": "Clock Corpse",
@@ -838,7 +868,7 @@
   },
   "SakuyaDio": {
     "Name": "You Are Next!",
-    "Description": "When a <h>Throwing Knife</h> is played, apply <Value1 /> <h>Lock On</h>.<br />End <PlayerName />'s turn. Then, take an extra turn. During that extra turn, add <h>{Value2:plural one='% Throwing Knife' other='% Throwing Knives'}</h> to the hand instead of drawing cards during the draw step."
+    "Description": "When a <h>Throwing Knife</h> is played, apply <Value1 /> <h>Lock On</h>.<br />End <PlayerName />'s turn. Then, take an extra turn. During that extra turn, add <h><Value2 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the hand instead of drawing cards during the draw step."
   },
   "PerfectServant": {
     "Name": "Perfect Servant",
@@ -846,7 +876,7 @@
   },
   "BackToFuture": {
     "Name": "Back to the Future",
-    "Description": "Swap the draw and discard piles.<br />Draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Swap the draw and discard piles.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "EvilMaid": {
     "Name": "Devil's Maid",
@@ -862,7 +892,7 @@
   },
   "SakuyaKiller": {
     "Name": "Ripper in the Fog",
-    "Description": "At the end of <PlayerName />'s turn, add <h><Value1 /> Throwing Kni{Value1:plural one='fe' other='ves'}</h> to the draw pile.<br />This also happens whenever an enemy is defeated."
+    "Description": "At the end of <PlayerName />'s turn, add <h><Value1 /> Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the draw pile.<br />This also happens whenever an enemy is defeated."
   },
   "BrokenTimeline": {
     "Name": "Broken Timeline",
@@ -870,11 +900,11 @@
   },
   "AutoKnife": {
     "Name": "Bewitched Silver Knife",
-    "Description": "All <h>Throwing Knives</h> gain <h>Auto-Exile</h> until the end of combat.<br />Add <Value1 /> <h>Throwing Kni{Value1:plural one='fe' other='ves'}</h> to the hand."
+    "Description": "All <h>Throwing Knives</h> gain <h>Auto-Exile</h> until the end of combat.<br />Add <Value1 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the hand."
   },
   "SakuyaDetective": {
     "Name": "All-Points Bulletin",
-    "Description": "Draw <Value2 /> card{Value2:plural one='' other='s'}.<br />When playing against a real culprit, deal <Value1 /> damage to her at the beginning of combat."
+    "Description": "Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />When playing against a real culprit, deal <Value1 /> damage to her at the beginning of combat."
   },
   "SakuyaSpeedup": {
     "Name": "Quicken Time",
@@ -882,7 +912,7 @@
   },
   "SakuyaUsage": {
     "Name": "Wrong Sakuya Usage",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br /><h>After being played for the {Value2:ordinal one='%st' two='%nd' few='%rd' other='%th'} time</h>: Remove <SelfName /> from combat. Add a <h>Correct Sakuya Usage</h> on top of the draw pile."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>After being played for the $t(ordinal, { 'context': {{Value2}} }) time</h>: Remove <SelfName /> from combat. Add a <h>Correct Sakuya Usage</h> on top of the draw pile."
   },
   "SakuyaUsage2": {
     "Name": "Correct Sakuya Usage",
@@ -950,7 +980,7 @@
   "MaidFriend": {
     "Name": "Kasumi, Mansion Maid",
     "PassiveDescription": "Deal <Damage /> attack damage to the enemy with the least life.",
-    "ActiveDescription": "Deal damage immediately. Add <Value2 /> <h>Throwing Kni{Value2:plural one='fe' other='ves'}</h> to the hand.",
+    "ActiveDescription": "Deal damage immediately. Add <Value2 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the hand.",
     "UltimateDescription": "Deal damage immediately. All <SelfName />s deal <Value1 /> additional damage."
   },
   "ShiverArmor": {
@@ -968,7 +998,7 @@
   },
   "CoolBreeze": {
     "Name": "Refreshing Breeze",
-    "Description": "Gain <Block /> <h>Block</h>.<br />If any enemy has <h>Cold</h>, <h>Upgrade</h> <Value1 /> random card{Value1:plural one='' other='s'} in the hand."
+    "Description": "Gain <Block /> <h>Block</h>.<br />If any enemy has <h>Cold</h>, <h>Upgrade</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand."
   },
   "BlueRose": {
     "Name": "Cool Rose",
@@ -984,17 +1014,17 @@
   },
   "CirnoConsider": {
     "Name": "Careful Deliberation",
-    "Description": "<h>Choose</h>: Gain <Block /> <h>Block</h>, or draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "<h>Choose</h>: Gain <Block /> <h>Block</h>, or draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "CirnoDraw": {
     "Name": "Fairy Intellect",
-    "Description": "Draw <Value1 /> card{Value1:plural one='' other='s'}.",
-    "UpgradedDescription": "Draw <Value1 /> card{Value1:plural one='' other='s'}.<br />At the start of <PlayerName />'s next turn, draw <Value2 /> card{Value2:plural one='' other='s'}."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).",
+    "UpgradedDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />At the start of <PlayerName />'s next turn, draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "FreezeToIce": {
     "Name": "Frozen Specimen",
-    "Description": "<h>Exile</h> up to <Value1 /> card{Value1:plural one='' other='s'} in the hand. Add that many <h>Ice Wings</h> to the draw pile.",
-    "UpgradedDescription": "<h>Exile</h> up to <Value1 /> card{Value1:plural one='' other='s'} in the hand, draw pile and discard pile. Add that many <h>Ice Wings</h> to the draw pile."
+    "Description": "<h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. Add that many <h>Ice Wings</h> to the draw pile.",
+    "UpgradedDescription": "<h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand, draw pile and discard pile. Add that many <h>Ice Wings</h> to the draw pile."
   },
   "IceLaser": {
     "Name": "Freeze Beam",
@@ -1023,7 +1053,7 @@
   },
   "IceSaber": {
     "Name": "Ice-Forged Blade",
-    "Description": "Deal <Damage /> damage <Value1 /> time{Value1:plural one='' other='s'}.<br />Apply <h>Cold</h>.<br />Discard any number of blue cards. Deal that damage an additional time for each card discarded this way."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Apply <h>Cold</h>.<br />Discard any number of blue cards. Deal that damage an additional time for each card discarded this way."
   },
   "IceBarrier": {
     "Name": "Ice Barrier",
@@ -1031,7 +1061,7 @@
   },
   "ZeroK": {
     "Name": "Absolute Zero",
-    "Description": "Increase the damage dealt when stacking <h>Cold</h> by {Value1:plural one='% time' other='% times'}.<br />Apply <h>Cold</h> to each enemy."
+    "Description": "Increase the damage dealt when stacking <h>Cold</h> by <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Apply <h>Cold</h> to each enemy."
   },
   "Blizzard": {
     "Name": "Blizzard",
@@ -1065,7 +1095,7 @@
   },
   "FriendDraw": {
     "Name": "Garden Gathering",
-    "Description": "Whenever a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> is activated, draw <Value1 /> card{Value1:plural one='' other='s'}.<br />Whenever an <hu>Ultimate Skill</hu> is activated, gain <Value1 /> random mana."
+    "Description": "Whenever a <h>Teammate</h>'s <ha>Active Skill</ha> or <hu>Ultimate Skill</hu> is activated, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Whenever an <hu>Ultimate Skill</hu> is activated, gain <Value1 /> random mana."
   },
   "LilyFriend": {
     "Name": "Lily White, Herald of Spring",
@@ -1085,11 +1115,11 @@
   },
   "MoreFriends": {
     "Name": "Social Butterfly",
-    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> random <h>Teammate</h> card{Value1:plural one='' other='s'} to the hand.<br />These cards have <h>Ethereal</h> and lose <h>Ethereal</h> after being summoned."
+    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> random <h>Teammate</h> card$t(plurals.-s, { 'count': {{Value1}} }) to the hand.<br />These cards have <h>Ethereal</h> and lose <h>Ethereal</h> after being summoned."
   },
   "FairyOnIce": {
     "Name": "Fairy On Ice",
-    "Description": "Add <Value1 /> <h>Ice Wing{Value1:plural one='' other='s'}</h> to the top of draw pile. <br />Gain <Value2 /> <h>Graze</h>. "
+    "Description": "Add <Value1 /> <h>Ice Wing$t(plurals.-s, { 'count': {{Value1}} })</h> to the top of draw pile. <br />Gain <Value2 /> <h>Graze</h>. "
   },
   "FruitShake": {
     "Name": "Yummy Fruit Freezies",
@@ -1101,11 +1131,11 @@
   },
   "ColdChain": {
     "Name": "Cold Logistics Chain",
-    "Description": "Choose up to <Value1 /> card{Value1:plural one='' other='s'} from the draw pile and put {Value1:plural one='it' other='them'} into the hand."
+    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the draw pile and put $t(objects.it, { 'count': {{Value1}} }) into the hand."
   },
   "FrozenOrb": {
     "Name": "Frozen Orb",
-    "Description": "Deal <Damage /> damage and apply <h>Cold</h> to each enemy.<br />Add <Value1 /> <h>Ice Bullet{Value1:plural one='' other='s'}</h> to the hand."
+    "Description": "Deal <Damage /> damage and apply <h>Cold</h> to each enemy.<br />Add <Value1 /> <h>Ice Bullet$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
   },
   "IceBlock": {
     "Name": "Ice Block",
@@ -1125,15 +1155,15 @@
   },
   "ColdHearted": {
     "Name": "Ice-Blooded",
-    "Description": "This turn, <h>Ice Lance</h> deals triple damage to enemies with <h>Cold</h>.<br />Add <Value1 /> <h>Ice Lance{Value1:plural one='' other='s'}</h> to the hand. {Value1:plural one='It' other='They'} <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana /> and {Value1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "This turn, <h>Ice Lance</h> deals triple damage to enemies with <h>Cold</h>.<br />Add <Value1 /> <h>Ice Lance$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "BestFriend": {
     "Name": "Best Friend",
-    "Description": "Choose up to <Value1 /> <h>Teammate</h> card{Value1:plural one='' other='s'}. Max out {Value1:plural one='its' other='their'} <h>Unity</h>.<br /><h>Overflow</h>: Gain <Mana />."
+    "Description": "Choose up to <Value1 /> <h>Teammate</h> card$t(plurals.-s, { 'count': {{Value1}} }). Max out $t(dependentPossessives.its, { 'count': {{Value1}} }) <h>Unity</h>.<br /><h>Overflow</h>: Gain <Mana />."
   },
   "CirnoEcho": {
     "Name": "Gift of Nature",
-    "Description": "Choose <Value1 /> card{Value1:plural one='' other='s'} from the discard pile and return {Value1:plural one='it' other='them'} to the hand. {Value1:plural one='It gains' other='They gain'} <h>Echo</h>."
+    "Description": "Choose <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and return $t(objects.it, { 'count': {{Value1}} }) to the hand. $t(subjects.It, { 'count': {{Value1}} }) gain$t(subjects.-s, { 'count': {{Value1}} }) <h>Echo</h>."
   },
   "FairyAllOut": {
     "Name": "All Hands on Deck",
@@ -1149,8 +1179,8 @@
   },
   "GatherFairy": {
     "Name": "Fairy Assembly",
-    "Description": "The maximum hand size becomes <MaxHand />.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}.",
-    "UpgradedDescription": "The maximum hand size becomes <MaxHand />.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}.<br />All <h>Teammates</h> in the hand gain <Value2 /> <h>Unity</h>."
+    "Description": "The maximum hand size becomes <MaxHand />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).",
+    "UpgradedDescription": "The maximum hand size becomes <MaxHand />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />All <h>Teammates</h> in the hand gain <Value2 /> <h>Unity</h>."
   },
   "ForeverCool": {
     "Name": "Ever Cool Seasonal Fantasia",
@@ -1158,7 +1188,7 @@
   },
   "HualiIce": {
     "Name": "Stunning Summer Ice",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <h>Cold</h> to each enemy.<br />If <Value1 /> card{Value1:plural one=' has' other='s have'} been played this turn, <SelfName /> costs <Mana /> to play."
+    "Description": "Deal <Damage /> damage to each enemy.<br />Apply <h>Cold</h> to each enemy.<br />If <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) been played this turn, <SelfName /> costs <Mana /> to play."
   },
   "ChooseFriend": {
     "Name": "Misty Lake Rendezvous",
@@ -1168,7 +1198,7 @@
     "Name": "Luna, Silent Moonlight",
     "PassiveDescription": "Gain <Block /> <h>Block</h>.",
     "ActiveDescription": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
-    "UltimateDescription": "Gain <h>Flawless</h> for <Value2 /> turn{Value2:plural one='' other='s'}."
+    "UltimateDescription": "Gain <h>Flawless</h> for <Value2 /> turn$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "WhiteWorld": {
     "Name": "Pure White World",
@@ -1191,24 +1221,24 @@
   },
   "BrainOverclock": {
     "Name": "Brain Overclock",
-    "Description": "Gain <Mana />.<br />Draw <Value2 /> card{Value2:plural one='' other='s'}.<br /><h>Overdraft</h> <Value1 />."
+    "Description": "Gain <Mana />.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br /><h>Overdraft</h> <Value1 />."
   },
   "SunnyFriend": {
     "Name": "Sunny, Dazzling Sunlight",
     "PassiveDescription": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
-    "ActiveDescription": "Gain <h>Optical Camouflage</h> for <Light /> turn{Light:plural one='' other='s'}.",
+    "ActiveDescription": "Gain <h>Optical Camouflage</h> for <Light /> turn$t(plurals.-s, { 'count': {{Light}} }).",
     "UltimateDescription": "Immediately deal damage <Value1 /> times.<br />Gain <Value2 /> <h>Firepower</h>."
   },
   "Xiguadao": {
     "Name": "Watermelon Knife",
-    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time{Value1:plural one='' other='s'}.<br />Gain <Value2 /> <h>Firepower</h>."
+    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Value2 /> <h>Firepower</h>."
   },
   "ClownpieceFriend": {
     "Name": "Clownpiece, Lunatic Fairy",
     "Description": "Gain <StartMana />.",
     "PassiveDescription": "Gain <Value2 /> <h>Temporary Firepower</h>.",
-    "ActiveDescription": "Draw <Value1 /> card{Value1:plural one='' other='s'} and add a <h>Lunacy</h> to the discard pile.",
-    "UpgradedActiveDescription": "Draw {Value1:plural one='% card' other='% cards'}.",
+    "ActiveDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) and add a <h>Lunacy</h> to the discard pile.",
+    "UpgradedActiveDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).",
     "UltimateDescription": "Gain <Mana /> and add a <h>Lunacy</h> to the discard pile."
   },
   "KoishiAttackG": {
@@ -1253,7 +1283,7 @@
   },
   "InspirationWhite": {
     "Name": "White Inspiration",
-    "Description": "<h>Upgrade</h> <Value1 /> random card{Value1:plural one='' other='s'} in the hand.<br />If no valid cards remain, gain <Value2 /> <h>Block</h> for each card that would be <h>Upgraded</h> instead."
+    "Description": "<h>Upgrade</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand.<br />If no valid cards remain, gain <Value2 /> <h>Block</h> for each card that would be <h>Upgraded</h> instead."
   },
   "InspirationRed": {
     "Name": "Red Inspiration",
@@ -1292,19 +1322,19 @@
   },
   "NextTurnPassion": {
     "Name": "Philosophy of the Despised",
-    "Description": "At the start of <PlayerName />'s next turn, enter <h>Passion</h> and draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "At the start of <PlayerName />'s next turn, enter <h>Passion</h> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "PassionAttackToDraw": {
     "Name": "Selfless Love",
     "Description": "Deal <Damage /> damage <Value1 /> times.<br />Enter <h>Passion</h>.<br />Shuffle <SelfName /> into the draw pile."
   },
   "PassionDraw": {
-    "Description": "Whenever <PlayerName /> enters <h>Passion</h>, draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "Whenever <PlayerName /> enters <h>Passion</h>, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "PeaceEndTurn": {
     "Name": "Snap Out",
     "Description": "Enter <h>Serenity</h>.<br />End <PlayerName />'s turn.",
-    "UpgradedDescription": "Choose up to <Value1 /> card{Value1:plural one='' other='s'} from the discard pile and return them to the hand. <h>Retain</h> {Value1:plural one='it' other='them'} this turn.<br />Enter <h>Serenity</h>.<br />End <PlayerName />'s turn."
+    "UpgradedDescription": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and return them to the hand. <h>Retain</h> $t(objects.it, { 'count': {{Value1}} }) this turn.<br />Enter <h>Serenity</h>.<br />End <PlayerName />'s turn."
   },
   "BabyDream": {
     "Name": "Embryo's Dream",
@@ -1312,14 +1342,14 @@
   },
   "PeaceDraw": {
     "Name": "Self-Control",
-    "Description": "<h>In Serenity</h>: Draw <Value1 /> card{Value1:plural one='' other='s'}.<br /><h>Not in Serenity</h>: Enter <h>Serenity</h>."
+    "Description": "<h>In Serenity</h>: Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Not in Serenity</h>: Enter <h>Serenity</h>."
   },
   "PeaceBlock": {
     "Description": "At the end of <PlayerName />'s turn, if she's in <h>Serenity</h>, gain <Value1 /> <h>Block</h>."
   },
   "LeaveMoodDraw": {
     "Name": "Unconscious Wandering",
-    "Description": "Draw <Value1 /> card{Value1:plural one='' other='s'}<br />Exit the current <h>Mental State</h>."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })<br />Exit the current <h>Mental State</h>."
   },
   "MoodChangeBlock": {
     "Name": "Mental Fortress",
@@ -1339,7 +1369,7 @@
   },
   "QinchunPanni": {
     "Name": "Adolescent Rebellion",
-    "Description": "<h>Not in Passion</h>: Deal <Damage /> damage to the enemy with the least life.<br /><h>In Passion</h>: Gain <Block /> <h>Block</h> and draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "<h>Not in Passion</h>: Deal <Damage /> damage to the enemy with the least life.<br /><h>In Passion</h>: Gain <Block /> <h>Block</h> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "FlowerGone": {
     "Name": "Withering Dreams",
@@ -1347,8 +1377,8 @@
   },
   "ZhuozhuangChengzhang": {
     "Name": "Healthy Growth",
-    "Description": "At the end of <PlayerName />'s turn, add <Value1 /> <h>Vitalit{Value1:plural one='y' other='ies'}</h> to the hand.",
-    "UpgradedDescription": "Gain <Value2 /> <h>Graze</h>.<br />At the end of <PlayerName />'s turn, add <Value1 /> <h>Vitalit{Value1:plural one='y' other='ies'}</h> to the hand."
+    "Description": "At the end of <PlayerName />'s turn, add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand.",
+    "UpgradedDescription": "Gain <Value2 /> <h>Graze</h>.<br />At the end of <PlayerName />'s turn, add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand."
   },
   "LianaiChongdong": {
     "Name": "Love Impulse",
@@ -1356,7 +1386,7 @@
   },
   "TaoqiQiangwei": {
     "Name": "Willful Rose",
-    "Description": "Gain <Block /> <h>Block</h> and draw <Value1 /> card{Value1:plural one='' other='s'}.<br /><h>When an adjacent card is played</h>: Reduce <SelfName />'s cost by <Mana /> until the end of combat."
+    "Description": "Gain <Block /> <h>Block</h> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>When an adjacent card is played</h>: Reduce <SelfName />'s cost by <Mana /> until the end of combat."
   },
   "LoveSeed": {
     "Name": "Seedlings of Love",
@@ -1372,7 +1402,7 @@
   },
   "CloseMemory": {
     "Name": "Neglected Memories",
-    "Description": "Draw <Value1 /> card{Value1:plural one='' other='s'}<br />Cards drawn this way gain <h>Echo</h>."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })<br />Cards drawn this way gain <h>Echo</h>."
   },
   "Danxiangsi": {
     "Name": "Unrequited Love",
@@ -1392,7 +1422,7 @@
   },
   "ZuxianTuomeng": {
     "Name": "Ancestral Dreams",
-    "Description": "<h>When drawn</h>: <h>Exile</h> the leftmost card in the hand. Add <Value1 /> <h>Cop{Value1:plural one='y' other='ies'}</h> of it that <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana /> and ha{Value1:plural one='s' other='ve'} <h>Exile</h>."
+    "Description": "<h>When drawn</h>: <h>Exile</h> the leftmost card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it that <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h>."
   },
   "ChaoyueZiwo": {
     "Name": "Exceed Oneself",
@@ -1404,7 +1434,7 @@
   },
   "Beiyanwu": {
     "Name": "Philosophy of the Despised",
-    "Description": "<h>Exile</h> the cards adjacent to <SelfName />. For each card <h>Exiled</h> this way, gain <Mana /> and draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "<h>Exile</h> the cards adjacent to <SelfName />. For each card <h>Exiled</h> this way, gain <Mana /> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "WuyishiDNA": {
     "Name": "Astral Projection",
@@ -1427,7 +1457,7 @@
   },
   "QingxingMeng": {
     "Name": "Sinking Consciousness",
-    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> <hp>completely random</hp> Rare card{Value1:plural one='' other='s'} to hand. {Value1:plural one='It' other='They'} <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana /> and {Value1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card{Limit:plural one='' other='s'} every turn."
+    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Value1}} }) to hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card$t(plurals.-s, { 'count': {{Limit}} }) every turn."
   },
   "LunaticPassion": {
     "Name": "Lunatic Love",
@@ -1435,8 +1465,8 @@
   },
   "SiwangLaiDian": {
     "Name": "Terrifyingly Cute Caller",
-    "Description": "<h>Exile</h> an <h>Attack</h> card in the hand. Add <Value1 /> <h>Cop{Value1:plural one='y' other='ies'}</h> of it to the top of the draw pile.<br />If the chosen card is <h>Basic</h>, the added {Value1:plural one='<h>Copy</h> has' other='<h>Copies</h> have'} <h>Replenish</h>.",
-    "UpgradedDescription": "<h>Exile</h> a card in the hand. Add <Value1 /> <h>Cop{Value1:plural one='y' other='ies'}</h> of it to the top of the draw pile.<br />If the chosen card is <h>Basic</h>, the added {Value1:plural one='<h>Copy</h> has' other='<h>Copies</h> have'} <h>Replenish</h>."
+    "Description": "<h>Exile</h> an <h>Attack</h> card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it to the top of the draw pile.<br />If the chosen card is <h>Basic</h>, the added <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> $t(subjects.has, { 'count': {{Value1}} })y</h> has' other='<h>Copies</h> have'} <h>Replenish</h>.",
+    "UpgradedDescription": "<h>Exile</h> a card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it to the top of the draw pile.<br />If the chosen card is <h>Basic</h>, the added <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> $t(subjects.has, { 'count': {{Value1}} })y</h> has' other='<h>Copies</h> have'} <h>Replenish</h>."
   },
   "AliceAttackW": {
     "Name": "Futuristic Bunraku",
@@ -1518,7 +1548,7 @@
   },
   "NazrinBaota": {
     "Name": "Pagoda's Glare",
-    "Description": "Deal <Damage /> damage to each enemy.<br /><h>Upgrade</h> <Value1 /> random card{Value1:plural one='' other='s'} in the hand. Prioritizes attack cards."
+    "Description": "Deal <Damage /> damage to each enemy.<br /><h>Upgrade</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. Prioritizes attack cards."
   },
   "RingoJinghua": {
     "Name": "Purify the Land",
@@ -1541,8 +1571,8 @@
   },
   "PrismriverWhite": {
     "Name": "Trumpet Solo",
-    "Description": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Add <Light /> <h>Refracted Sunlight{Light:plural one='' other='s'}</h> to the discard pile.",
-    "UpgradedDescription": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Add <Light /> <h>Refracted Sunlight{Light:plural one='' other='s'}</h> to the discard pile.<br /><h>Debut</h>: Gain <Value2 /> <Power />."
+    "Description": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Refracted Sunlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.",
+    "UpgradedDescription": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Refracted Sunlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.<br /><h>Debut</h>: Gain <Value2 /> <Power />."
   },
   "HuiyinRemove": {
     "Name": "Devour History",
@@ -1558,16 +1588,16 @@
   },
   "YukariSwarm": {
     "Name": "Noctilucae's Nest",
-    "Description": "Deal <Damage /> damage to each enemy.<br />If there are <Value1 /> or more card{Value1:plural one='' other='s'} in <h>Exile</h>, deal that much damage twice instead.",
-    "UpgradedDescription": "<h>Exile</h> up to <Value2 /> card{Value2:plural one='' other='s'} in the hand.<br />Deal <Damage /> damage to each enemy.<br />If there are <Value1 /> or more card{Value1:plural one='' other='s'} in <h>Exile</h>, deal that much damage twice instead."
+    "Description": "Deal <Damage /> damage to each enemy.<br />If there are <Value1 /> or more card$t(plurals.-s, { 'count': {{Value1}} }) in <h>Exile</h>, deal that much damage twice instead.",
+    "UpgradedDescription": "<h>Exile</h> up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) in the hand.<br />Deal <Damage /> damage to each enemy.<br />If there are <Value1 /> or more card$t(plurals.-s, { 'count': {{Value1}} }) in <h>Exile</h>, deal that much damage twice instead."
   },
   "YuetuInvincible": {
     "Name": "The Falling Moon-Rabbit",
-    "Description": "Gain <h>Flawless</h> for <Value1 /> turn{Value1:plural one='' other='s'}.<br />Add <Value2 /> <h>Lost Raiments</h> to the draw pile."
+    "Description": "Gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Value2 /> <h>Lost Raiments</h> to the draw pile."
   },
   "YuetuYuyi": {
     "Name": "Lost Raiment",
-    "Description": "Gain <h>Flawless</h> for {Value1:plural one='% turn' other='% turns'}."
+    "Description": "Gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "BlueZeroAttack": {
     "Name": "Riptide",
@@ -1576,20 +1606,20 @@
   },
   "PlayWithWater": {
     "Name": "Play With Water",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br />Discard a card.",
-    "UpgradedDescription": "Draw {Value1:plural one='% card' other='% cards'}.<br />Discard up to one card."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Discard a card.",
+    "UpgradedDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Discard up to one card."
   },
   "KokoroAttack": {
     "Name": "Melancholy Eruption",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Deal <Damage /> damage to each enemy.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "QinglanAttack": {
     "Name": "Rabbit Landing",
-    "Description": "Deal <Damage /> damage.<br /><h>Scry</h> <Scry />.<br />Draw {Value2:plural one='% card' other='% cards'}."
+    "Description": "Deal <Damage /> damage.<br /><h>Scry</h> <Scry />.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "NitoriUnderWater": {
     "Name": "Water Blanket",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "Gain <Block /> <h>Block</h>.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ShuimiUnderWater": {
     "Name": "Ship's Phantom",
@@ -1597,16 +1627,16 @@
   },
   "HatateDiscard": {
     "Name": "News Fabrication",
-    "Description": "Discard {Value1:plural one='% card' other='% cards'}.<br />Gain <Mana />.",
+    "Description": "Discard <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Mana />.",
     "UpgradedDescription": "Discard between <Value1 /> to <Value2 /> cards.<br />Gain <Mana />."
   },
   "QingeDraw": {
     "Name": "Tao Fetal Movement",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}.<br />Discard any cards drawn this way with a total cost greater than 1."
+    "Description": "Gain <Block /> <h>Block</h>.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Discard any cards drawn this way with a total cost greater than 1."
   },
   "HuiyinMoreDraw": {
     "Name": "Teacher's Dedication",
-    "Description": "Draw <Value1 /> more {Value1:plural one='card' other='cards'} during the draw step."
+    "Description": "Draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during the draw step."
   },
   "WaterPrincess": {
     "Name": "Princess Undine",
@@ -1614,11 +1644,11 @@
   },
   "YonglinDraw": {
     "Name": "Memories of the Divine Age",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}. Cards drawn this way <h>temporarily cost</h> <Mana /> less."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }). Cards drawn this way <h>temporarily cost</h> <Mana /> less."
   },
   "DoremyDuplicate": {
     "Name": "Lost in Paradise",
-    "Description": "Choose a card in the hand. Add <Value1 /> <h>Cop{Value1:plural one='y' other='ies'}</h> of it to the hand."
+    "Description": "Choose a card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it to the hand."
   },
   "GuijiZaoxingYuan": {
     "Name": "Sculpture - Circle",
@@ -1630,23 +1660,23 @@
   },
   "GuijiZaoxingHu": {
     "Name": "Sculpture - Arc",
-    "Description": "Deal <Damage /> damage.<br />Draw {Value1:plural one='% card' other='% cards'}.<br /><SelfName /> transforms into another <he>Sculpture</he> until the end of combat."
+    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><SelfName /> transforms into another <he>Sculpture</he> until the end of combat."
   },
   "YonglinCard": {
     "Name": "The Reclusive Sage",
-    "Description": "At the end of <PlayerName />'s turn, add <Value1 /> <h>False Moon{Value1:plural one='' other='s'}</h> to the draw pile.",
-    "UpgradedDescription": "At the end of <PlayerName />'s turn, add <Value1 /> <h>False Moon{Value1:plural one='' other='s'}</h> to the draw pile.<br />Add <Value2 /> <h>False Moon{Value1:plural one='' other='s'}</h> to the draw pile."
+    "Description": "At the end of <PlayerName />'s turn, add <Value1 /> <h>False Moon$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile.",
+    "UpgradedDescription": "At the end of <PlayerName />'s turn, add <Value1 /> <h>False Moon$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile.<br />Add <Value2 /> <h>False Moon$t(plurals.-s, { 'count': {{Value1}} })</h> to the draw pile."
   },
   "FakeMoon": {
     "Name": "False Moon",
-    "Description": "Choose a card in the hand. Add <Value1 /> <h>Cop{Value1:plural one='y' other='ies}</h> of it to the hand. {Value1:plural one='It' other='They'} <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana /> and {Value1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>.<br />If the target card is an <h>Ability</h> card or has <h>Exile</h>, it becomes a <h>Copy</h>."
+    "Description": "Choose a card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.<br />If the target card is an <h>Ability</h> card or has <h>Exile</h>, it becomes a <h>Copy</h>."
   },
   "Shadow": {
     "Name": "Shadow"
   },
   "RumiaBlock": {
     "Name": "Shade",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Add <Value1 /> <h>Shadow{Value1:plural one='' other='s'}</h> to the hand."
+    "Description": "Gain <Block /> <h>Block</h>.<br />Add <Value1 /> <h>Shadow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
   },
   "YuyukoDebuff": {
     "Name": "Ageless Dream",
@@ -1663,7 +1693,7 @@
   },
   "MystiaSing": {
     "Name": "Song of the Night Sparrow",
-    "Description": "Apply <Value1 /> <h>Temporary Firepower Down</h> to each enemy.<br />Gain <Value1 /> <Power />.<br />Add <Value2 /> <h>Shadow{Value2:plural one='' other='s'}</h> to the hand."
+    "Description": "Apply <Value1 /> <h>Temporary Firepower Down</h> to each enemy.<br />Gain <Value1 /> <Power />.<br />Add <Value2 /> <h>Shadow$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "SatoriMemory": {
     "Name": "Deep Memories",
@@ -1675,25 +1705,25 @@
   },
   "XiaoemoBook": {
     "Name": "Devil's Codex",
-    "Description": "<h>Exile</h> a card from the hand.<br />Draw {Value1:plural one='% card' other='% cards'}.<br /><h>Debut</h>: Add an <h>Occult</h> to the hand."
+    "Description": "<h>Exile</h> a card from the hand.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Debut</h>: Add an <h>Occult</h> to the hand."
   },
   "PrismriverBlack": {
     "Name": "Violin Solo",
-    "Description": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Add <Light /> <h>Quiet Moonlight{Light:plural one='' other='s'}</h> to the discard pile.",
-    "UpgradedDescription": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Add <Light /> <h>Quiet Moonlight{Light:plural one='' other='s'}</h> to the discard pile.<br /><h>Debut</h>: Gain <Value2 /> <Power />."
+    "Description": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Quiet Moonlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.",
+    "UpgradedDescription": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Quiet Moonlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.<br /><h>Debut</h>: Gain <Value2 /> <Power />."
   },
   "BlackHorseZui": {
     "Name": "Sin of the Black Horse",
-    "Description": "Lose <Value1 /> life.<br />Deal <Damage /> damage to each enemy {Value2:plural one='% time' other='% times'}."
+    "Description": "Lose <Value1 /> life.<br />Deal <Damage /> damage to each enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "HinaAttack": {
     "Name": "Wheel of Misfortune",
-    "Description": "Deal <Damage /> damage {Value1:plural one='% time' other='% times'}.<br />For each <h>Misfortune</h> in the library, <SelfName /> deals damage an additional time."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />For each <h>Misfortune</h> in the library, <SelfName /> deals damage an additional time."
   },
   "RemiliaFate": {
     "Name": "Manipulation of Fate",
-    "Description": "Discard up to <Value1 /> card{Value1:plural one='' other='s'}.<br />Put random cards with total costs of 1, 2 and 3 from the draw pile into the hand.",
-    "UpgradedDescription": "Discard up to <Value1 /> card{Value1:plural one='' other='s'}.<br />Put random cards with total costs of 1, 2, 3, 4 and 5 from the draw pile into the hand."
+    "Description": "Discard up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Put random cards with total costs of 1, 2 and 3 from the draw pile into the hand.",
+    "UpgradedDescription": "Discard up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Put random cards with total costs of 1, 2, 3, 4 and 5 from the draw pile into the hand."
   },
   "BailianBlack": {
     "Name": "Embrace the Darkness",
@@ -1701,11 +1731,11 @@
   },
   "GrimoireStudy": {
     "Name": "Grimoire Study",
-    "Description": "Lose <Value2 /> life.<br />Add <Value1 /> random card{Value1:plural one='' other='s'} to the hand. {Value1:plural one='It' other='They'} <h>temporarily cost{Value1:plural one='s' other=''}</h> <Mana /> and {Value1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "Lose <Value2 /> life.<br />Add <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "TrueMoon": {
     "Name": "True Full Moon",
-    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Firepower</h>.<br />After {Value2:plural one='% card' other='% cards'} are played, <PlayerName /> loses the game.<br /><h>Overflow</h>: Gain <Mana />."
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Firepower</h>.<br />After <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) are played, <PlayerName /> loses the game.<br /><h>Overflow</h>: Gain <Mana />."
   },
   "YinglangHowl": {
     "Name": "Full Moon Howl",
@@ -1713,11 +1743,11 @@
   },
   "RemiliaJizao": {
     "Name": "Impatience",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br />No more cards can be drawn this turn."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />No more cards can be drawn this turn."
   },
   "MeihongAttack": {
     "Name": "Phoenix Wings Rise",
-    "Description": "Lose <Value1 /> life.<br />Deal <Damage /> damage <Value2 /> time{Value2:plural one='' other='s'}."
+    "Description": "Lose <Value1 /> life.<br />Deal <Damage /> damage <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "LeiguAttack": {
     "Name": "Bass of Taiko",
@@ -1745,8 +1775,8 @@
   },
   "PrismriverRed": {
     "Name": "Keyboard Solo",
-    "Description": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Add <Light /> <h>Glamorous Starlight{Light:plural one='' other='s'}</h> to the discard pile.",
-    "UpgradedDescription": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Add <Light /> <h>Glamorous Starlight{Light:plural one='' other='s'}</h> to the discard pile.<br /><h>Debut</h>: Gain <Value2 /> <Power />."
+    "Description": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Glamorous Starlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.",
+    "UpgradedDescription": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Glamorous Starlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.<br /><h>Debut</h>: Gain <Value2 /> <Power />."
   },
   "YongyiAttack": {
     "Name": "Dreadful Raging Waves",
@@ -1779,8 +1809,8 @@
   },
   "AhongMana": {
     "Name": "Sakura-Colored Sea",
-    "Description": "<h>When <SelfName /> enters the hand</h>: Add <Value1 /> <h>Vitalit{Value1:plural one='y' other='ies'}</h> to the hand and <h>Exile</h> <SelfName />.",
-    "UpgradedDescription": "<h>When <SelfName /> enters the hand</h>: Add <Value1 /> <h>Vitalit{Value1:plural one='y' other='ies'}</h> to the hand, then <h>Upgrade</h> <Value2 /> random card{Value2:plural one='' other='s'} in the hand and <h>Exile</h> <SelfName />."
+    "Description": "<h>When <SelfName /> enters the hand</h>: Add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand and <h>Exile</h> <SelfName />.",
+    "UpgradedDescription": "<h>When <SelfName /> enters the hand</h>: Add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand, then <h>Upgrade</h> <Value2 /> random card$t(plurals.-s, { 'count': {{Value2}} }) in the hand and <h>Exile</h> <SelfName />."
   },
   "RangziFanshu": {
     "Name": "Sweet Sweet Potato",
@@ -1792,7 +1822,7 @@
   },
   "YouxiangMoon": {
     "Name": "Beauties of Nature",
-    "Description": "At the start of <PlayerName />'s turn, gain <Mana />.<br />Add <Value1 /> <h>Midsummer Flower{Value1:plural one='' other='s'}</h> to the hand."
+    "Description": "At the start of <PlayerName />'s turn, gain <Mana />.<br />Add <Value1 /> <h>Midsummer Flower$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand."
   },
   "DizangLove": {
     "Name": "Instant Bodhi",
@@ -1805,7 +1835,7 @@
   },
   "DanmuJade": {
     "Name": "Rainbow Danmaku Dupion",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Add <Value1 /> <h>Rainbow{Value1:plural one='' other='s'}</h> to the hand.<br /><h>For each <Mana /> spent</h>: Gain <Value2 /> <h>Firepower</h> and <h>Spirit</h>."
+    "Description": "Deal <Damage /> damage to each enemy.<br />Add <Value1 /> <h>Rainbow$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.<br /><h>For each <Mana /> spent</h>: Gain <Value2 /> <h>Firepower</h> and <h>Spirit</h>."
   },
   "YouxiangAttack": {
     "Name": "Gensokyo's Blossoming",
@@ -1841,7 +1871,7 @@
   },
   "HuiyeAttack": {
     "Name": "Hourai's Sea of Trees",
-    "Description": "<h>For each mana of a different color spent</h>: Deal <Damage /> damage to each enemy.<br />If at least <Value2 /> mana was spent, return up to <Value1 /> card{Value1:plural one='' other='s'} from <h>Exile</h> to the hand."
+    "Description": "<h>For each mana of a different color spent</h>: Deal <Damage /> damage to each enemy.<br />If at least <Value2 /> mana was spent, return up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from <h>Exile</h> to the hand."
   },
   "HuiyeMana": {
     "Name": "Tale of the Bamboo Cutter",
@@ -1877,7 +1907,7 @@
   },
   "Astrology": {
     "Name": "Astrology",
-    "Description": "<h>Scry</h> <Scry />.<br />Draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "<h>Scry</h> <Scry />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "Xiaozhuo": {
     "Name": "Tipsy",
@@ -1893,11 +1923,11 @@
   },
   "ShopAttack": {
     "Name": "Cucumber Missile",
-    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ShopDefense": {
     "Name": "Clean Energy",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "Gain <Block /> <h>Block</h>.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ShopSearch": {
     "Name": "Private Radar",
@@ -1911,7 +1941,7 @@
   "FengjiAttack": {
     "Name": "Disintegrating Winds",
     "Description": "Deal <Damage /> damage to each enemy.<br /><h>For each <ManaC /> spent</h>: Deal <Value1 /> more damage.",
-    "UpgradedDescription": "Deal <Damage /> damage to each enemy <Value2 /> time{Value2:plural one='' other='s'}.<br /><h>For each <ManaC /> spent</h>: Deal <Value1 /> more damage."
+    "UpgradedDescription": "Deal <Damage /> damage to each enemy <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).<br /><h>For each <ManaC /> spent</h>: Deal <Value1 /> more damage."
   },
   "YijiSkill": {
     "Name": "Channeling The Gods",
@@ -1920,7 +1950,7 @@
   },
   "MoonWorld": {
     "Name": "Filthless World",
-    "Description": "At the start of <PlayerName />'s turn, {Value1:plural one='% random card in the hand gains' other='% random cards in the hand gain'} <h>Pure</h> this combat."
+    "Description": "At the start of <PlayerName />'s turn, <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand$t(subjects.-s, { 'count': {{Value1}} }) <h>Pure</h> this combat."
   },
   "YijiEarthSpike": {
     "Name": "Power of Gion",
@@ -1932,15 +1962,15 @@
   },
   "YijiGraze": {
     "Name": "Ame-No-Uzume",
-    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Draw <Value2 /> card{Value2:plural one='' other='s'}."
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "YijiFirepower": {
     "Name": "Fires of Atago",
-    "Description": "Gain <Value1 /> <h>Firepower</h> and <h>Temporary Firepower</h>.<br />Add <Value2 /> common attack card{Value2: plural one='' other='s'} to the hand. <br />{Value2: plural one='It has' other='They have'} <h>Exile</h>, <h>Ethereal</h> and <h>Pure</h>."
+    "Description": "Gain <Value1 /> <h>Firepower</h> and <h>Temporary Firepower</h>.<br />Add <Value2 /> common attack card$t(plurals.-s, { 'count': {{Value2}} }) to the hand. <br />$t(subjects.It, { 'count': {{Value2}} }) $t(subjects.has, { 'count': {{Value2}} }) <h>Exile</h>, <h>Ethereal</h> and <h>Pure</h>."
   },
   "HuiyinAttack": {
     "Name": "Mito no Mitsukuni",
-    "Description": "Deal <Damage /> damage.<br />Discard up to {Value1:plural one='% card' other='% cards'}, then draw that many cards."
+    "Description": "Deal <Damage /> damage.<br />Discard up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }), then draw that many cards."
   },
   "ReadBook": {
     "Name": "Youkai Study",
@@ -1965,7 +1995,7 @@
   },
   "YijiuDraw": {
     "Name": "Dragon Palace's Message",
-    "Description": "<h>Scry</h> <Scry />.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}."
+    "Description": "<h>Scry</h> <Scry />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "SeeFengshui": {
     "Name": "Feng Shui Manipulation",
@@ -2005,7 +2035,7 @@
   },
   "HuiyeTime": {
     "Name": "Eternal and Instantaneous",
-    "Description": "Choose up to <Value1 /> card{Value1:plural one='' other='s'} in the hand. <h>Retain</h> {Value1:plural one='it' other='them'} this turn.<br />End <PlayerName />'s turn. Then, take an extra turn. Only up to <Value1 /> card{Value1:plural one='' other='s'} can be played that turn."
+    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. <h>Retain</h> $t(objects.it, { 'count': {{Value1}} }) this turn.<br />End <PlayerName />'s turn. Then, take an extra turn. Only up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) can be played that turn."
   },
   "QingeUpgrade": {
     "Name": "Trick of Wicked Hermit",
@@ -2017,7 +2047,7 @@
   },
   "SanaeMiracle": {
     "Name": "Daytime Guest Stars",
-    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time{Value1:plural one='' other='s'}.<br />If the draw pile is empty, <SelfName /> costs <Mana /> to play."
+    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />If the draw pile is empty, <SelfName /> costs <Mana /> to play."
   },
   "ChengDefense": {
     "Name": "Tianxian's Rumbling",
@@ -2055,7 +2085,7 @@
   },
   "PoorAttack": {
     "Name": "Fall into Poverty",
-    "Description": "Lose <Value1 /> <Money />.<br />Deal <Damage /> damage <Value2 /> time{Value2:plural one='' other='s'}."
+    "Description": "Lose <Value1 /> <Money />.<br />Deal <Damage /> damage <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "AliceAttack": {
     "Name": "Devilry Light Ray",
@@ -2068,11 +2098,11 @@
   },
   "YukariBox": {
     "Name": "\"Gifts\" Given",
-    "Description": "<h>Scry</h> <Scry />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Shuffle the discard pile into the draw pile."
+    "Description": "<h>Scry</h> <Scry />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Shuffle the discard pile into the draw pile."
   },
   "MeilingWater": {
     "Name": "Last Stand Formation",
-    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Put <Value2 /> random attack card{Value2:plural one='' other='s'} from the draw pile to the hand. {Value2:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />.<br />At the start of <PlayerName />'s turn, lose <Value1 /> life."
+    "Description": "Gain <Value1 /> <h>Firepower</h>.<br />Put <Value2 /> random attack card$t(plurals.-s, { 'count': {{Value2}} }) from the draw pile to the hand. $t(subjects.It, { 'count': {{Value2}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value2}} })</h> <Mana />.<br />At the start of <PlayerName />'s turn, lose <Value1 /> life."
   },
   "NueExile": {
     "Name": "Heian Dark Clouds",
@@ -2080,7 +2110,7 @@
   },
   "HuiyinRetain": {
     "Name": "Ichijou Returning Bridge",
-    "Description": "Return up to {Value1:plural one='% card' other='% cards'} from the discard pile to the hand. <h>Retain</h> them this turn.<br />End <PlayerName />'s turn. Then, take an extra turn.<br /><h>Time Limit</h> <Mana />."
+    "Description": "Return up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile to the hand. <h>Retain</h> them this turn.<br />End <PlayerName />'s turn. Then, take an extra turn.<br /><h>Time Limit</h> <Mana />."
   },
   "XiaosanReflect": {
     "Name": "Counter Danmaku",
@@ -2088,7 +2118,7 @@
   },
   "YijiuAttack": {
     "Name": "Dragon God's Thunderbolt",
-    "Description": "Deal <Damage /> damage.<br />When an enemy is defeated using <SelfName />, <h>Exile</h> it and gain <h>Flawless</h> for <Value1 /> turn{Value1:plural one='' other='s'}."
+    "Description": "Deal <Damage /> damage.<br />When an enemy is defeated using <SelfName />, <h>Exile</h> it and gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "SuikaDraw": {
     "Name": "Gathering of Drunk Oni",
@@ -2116,11 +2146,11 @@
   },
   "FangxiangHeal": {
     "Name": "Devour Desires",
-    "Description": "<h>Exile</h> <Value1 /> random card{Value1:plural one='' other='s'} from the discard pile. Gain <Value2 /> life for each card exiled in this way."
+    "Description": "<h>Exile</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile. Gain <Value2 /> life for each card exiled in this way."
   },
   "HehuanAttack": {
     "Name": "Serial Cleaver",
-    "Description": "Deal <Damage /> damage {Value1:plural one='% time' other='% times'}.<br />Draw {Value2:plural one='% card' other='% cards'}."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "QingeHeal": {
     "Name": "Necromancy",
@@ -2128,11 +2158,11 @@
   },
   "RinDraw": {
     "Name": "Spirit Assignment",
-    "Description": "Whenever a Status card is drawn, draw {Value1:plural one='% card' other='% cards'}."
+    "Description": "Whenever a Status card is drawn, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "CloseEyeShoot": {
     "Name": "Close-Eye Shot",
-    "Description": "Deal <Damage /> damage to a random enemy {Value1:plural one='% time' other='% times'}."
+    "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "KongMana": {
     "Name": "Meltdown",
@@ -2152,21 +2182,21 @@
   },
   "LilyChun": {
     "Name": "Spring is Here!",
-    "Description": "Add <Value1 /> random card{Value1:plural one='' other='s'} that {Value1:plural one='has' other='have'} a total cost of 1 to the hand. {Value1:plural one='It has' other='They have'} <h>Exile</h> and <h>Ethereal</h>.<br />",
-    "UpgradedDescription": "Add <Value1 /> random card{Value1:plural one='' other='s'} that {Value1:plural one='has' other='have'} a total cost of 1 to the hand. {Value1:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana /> and {Value1:plural one='has' other='have'} <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "Add <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) that $t(subjects.has, { 'count': {{Value1}} }) a total cost of 1 to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.<br />",
+    "UpgradedDescription": "Add <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) that $t(subjects.has, { 'count': {{Value1}} }) a total cost of 1 to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "XiangziEcho": {
     "Name": "Mountain Echo",
-    "Description": "Choose <Value1 /> card{Value1:plural one='' other='s'} in the hand. {Value1:plural one='It gains' other='They gain'} <h>Echo</h>."
+    "Description": "Choose <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. $t(subjects.It, { 'count': {{Value1}} }) gain$t(subjects.-s, { 'count': {{Value1}} }) <h>Echo</h>."
   },
   "YoumuHybrid": {
     "Name": "Half-Human, Half-Phantom",
-    "Description": "<h>For each <ManaW /> spent</h>: <h>Exile</h> up to <Value1 /> card{Value1:plural one='' other='s'} from the hand.<br /><h>For each <ManaG /> spent</h>: Gain <Value2 /> <h>Graze</h>.",
-    "UpgradedDescription": "<h>For each <ManaW /> spent</h>: <h>Exile</h> up to <Value1 /> card{Value1:plural one='' other='s'} from the hand, draw pile, and discard pile.<br /><h>For each <ManaG /> spent</h>: Gain <Value2 /> <h>Graze</h>."
+    "Description": "<h>For each <ManaW /> spent</h>: <h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the hand.<br /><h>For each <ManaG /> spent</h>: Gain <Value2 /> <h>Graze</h>.",
+    "UpgradedDescription": "<h>For each <ManaW /> spent</h>: <h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the hand, draw pile, and discard pile.<br /><h>For each <ManaG /> spent</h>: Gain <Value2 /> <h>Graze</h>."
   },
   "YonglinUpgrade": {
     "Name": "Lunar Rabbit Incense",
-    "Description": "Gain <Value2 /> life.<br />At the start of <PlayerName />'s turn, <h>Upgrade</h> <Value1 /> random card{Value1:plural one='' other='s'} in the hand.<br />"
+    "Description": "Gain <Value2 /> life.<br />At the start of <PlayerName />'s turn, <h>Upgrade</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand.<br />"
   },
   "SanaeRice": {
     "Name": "Bumper Crop Rice Shower",
@@ -2174,16 +2204,16 @@
   },
   "SakuraBlade": {
     "Name": "Flashing Cherry Blossoms",
-    "Description": "Deal <Damage /> damage <Value1 /> time{Value1:plural one='' other='s'}.<br />Apply <Value1 /> <h>Lock On</h>.<br />Gain <Value1 /> <h>Graze</h>."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Apply <Value1 /> <h>Lock On</h>.<br />Gain <Value1 /> <h>Graze</h>."
   },
   "YouxiangWake": {
     "Name": "Early Bird",
-    "Description": "Gain <Shield /> <h>Barrier</h>.<br />At the start of <PlayerName />'s second turn after <SelfName /> was played, gain <Value1 /> <h>Firepower</h> and put <Value2 /> random attack card{Value2:plural one='' other='s'} from the draw pile into the hand. {Value2:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />.",
-    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br />At the start of <PlayerName />'s next turn, gain <Value1 /> <h>Firepower</h> and put <Value2 /> random attack card{Value2:plural one='' other='s'} from the draw pile into the hand. {Value2:plural one='It <h>temporarily costs</h>' other='They <h>temporarily cost</h>'} <Mana />."
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />At the start of <PlayerName />'s second turn after <SelfName /> was played, gain <Value1 /> <h>Firepower</h> and put <Value2 /> random attack card$t(plurals.-s, { 'count': {{Value2}} }) from the draw pile into the hand. $t(subjects.It, { 'count': {{Value2}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value2}} })</h> <Mana />.",
+    "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br />At the start of <PlayerName />'s next turn, gain <Value1 /> <h>Firepower</h> and put <Value2 /> random attack card$t(plurals.-s, { 'count': {{Value2}} }) from the draw pile into the hand. $t(subjects.It, { 'count': {{Value2}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value2}} })</h> <Mana />."
   },
   "LongArm": {
     "Name": "Exteeending Aaaarm",
-    "Description": "Deal <Damage /> damage.<br />If there's at least <Value1 /> card{Value1:plural one='' other='s'} in the hand, gain <Mana />."
+    "Description": "Deal <Damage /> damage.<br />If there's at least <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand, gain <Mana />."
   },
   "HatateShot": {
     "Name": "Panoramic Shot",
@@ -2195,7 +2225,7 @@
   },
   "MeilingRain": {
     "Name": "Vivid Color Downpour",
-    "Description": "Deal <Damage /> damage to each enemy <AttackTimes /> time{AttackTimes:plural one='' other='s'}.<br /><h>For each <Mana /> spent</h>: Deal that damage to each enemy an additional time."
+    "Description": "Deal <Damage /> damage to each enemy <AttackTimes /> time$t(plurals.-s, { 'count': {{AttackTimes}} }).<br /><h>For each <Mana /> spent</h>: Deal that damage to each enemy an additional time."
   },
   "RuowujiCard": {
     "Name": "Waves of Reversed Scale",
@@ -2244,7 +2274,7 @@
   },
   "YachieDefend": {
     "Name": "Tortoiseshell Hell",
-    "Description": "Prevent the next {Value1:plural one='% time' other='% times'} <PlayerName /> would lose life.<br />If that life loss was from an enemy, redirect that life loss to that enemy."
+    "Description": "Prevent the next <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }) <PlayerName /> would lose life.<br />If that life loss was from an enemy, redirect that life loss to that enemy."
   },
   "JingyeGraze": {
     "Name": "Frantic Falling Leaves",
@@ -2252,7 +2282,7 @@
   },
   "FangxiangAttack": {
     "Name": "Poison Raze",
-    "Description": "If the target is <h>Poisoned</h>, deal <Damage /> damage <Value2 /> time{Value2:plural one='' other='s'}.<br />Otherwise, apply <Value1 /> <h>Poison</h>."
+    "Description": "If the target is <h>Poisoned</h>, deal <Damage /> damage <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} }).<br />Otherwise, apply <Value1 /> <h>Poison</h>."
   },
   "MeilingAbility": {
     "Name": "Intense Rainbow Fist",
@@ -2281,21 +2311,21 @@
   },
   "SanaeRestart": {
     "Name": "The Day the Sea Split",
-    "Description": "Return the discard pile and any number of cards in the hand to the draw pile. Shuffle the draw pile.<br />Draw <Value1 /> card{Value1:plural one='' other='s'}.<br />Gain <Mana />."
+    "Description": "Return the discard pile and any number of cards in the hand to the draw pile. Shuffle the draw pile.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Mana />."
   },
   "JinziSuperExtraTurn": {
     "Name": "Century's Doppelgangers",
-    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> are not lost at the start of that extra turn, and only <Value1 /> card{Value1:plural one='' other='s'} may be played."
+    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> are not lost at the start of that extra turn, and only <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) may be played."
   },
   "AnimalSpirit": {
     "Name": "Hell's Animal Realm Road",
     "Description": "All other cards in the hand are possessed by animal spirits, granting them one of the following effects:<br /><hr>Wolf</hr>: Gains <h>Echo</h>.<br /><hg>Otter</hg>: Gains <h>Replenish</h>.<br /><hp>Eagle</hp>: <h>Temporarily costs</h> <Mana />.",
-    "UpgradedDescription": "Draw <Value1 /> card{Value1:plural one='' other='s'}.<br />All other cards in the hand are possessed by animal spirits, granting them one of the following effects:<br /><hr>Wolf</hr>: Gains <h>Echo</h>.<br /><hg>Otter</hg>: Gains <h>Replenish</h>.<br /><hp>Eagle</hp>: <h>Temporarily costs</h> <Mana />."
+    "UpgradedDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />All other cards in the hand are possessed by animal spirits, granting them one of the following effects:<br /><hr>Wolf</hr>: Gains <h>Echo</h>.<br /><hg>Otter</hg>: Gains <h>Replenish</h>.<br /><hp>Eagle</hp>: <h>Temporarily costs</h> <Mana />."
   },
   "PrismriverAll": {
     "Name": "Prism Concerto",
     "Description": "Gain <Mana />.<br />Convert all mana <PlayerName /> would gain this combat to <ManaP />.<br />Add a <h>Refracted Sunlight</h>, <h>Quiet Moonlight</h> and <h>Glamorous Starlight</h> to the discard pile.",
-    "UpgradedDescription": "Gain <Mana />.<br />Draw {Value1:plural one='% card' other='% cards'}.<br />Convert all mana <PlayerName /> would gain this combat to <ManaP />.<br />Add a <h>Refracted Sunlight</h>, <h>Quiet Moonlight</h> and <h>Glamorous Starlight</h> to the discard pile."
+    "UpgradedDescription": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Convert all mana <PlayerName /> would gain this combat to <ManaP />.<br />Add a <h>Refracted Sunlight</h>, <h>Quiet Moonlight</h> and <h>Glamorous Starlight</h> to the discard pile."
   },
   "ZhenmiaowanAbility": {
     "Name": "Magic of the Mallet",
@@ -2303,8 +2333,8 @@
   },
   "JunkoNightmare": {
     "Name": "Shivering Nightmare",
-    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time{Value1:plural one='' other='s'}.<br /><h>Exile</h> the hand. Add that many <h>Pures</h> to the hand.",
-    "UpgradedDescription": "Choose up to <Value2 /> card{Value2:plural one='' other='s'}.<br />Deal <Damage /> damage to each enemy <Value1 /> time{Value1:plural one='' other='s'}.<br /><h>Exile</h> all but the chosen cards from the hand. Add that many <h>Pures</h> to the hand."
+    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Exile</h> the hand. Add that many <h>Pures</h> to the hand.",
+    "UpgradedDescription": "Choose up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Exile</h> all but the chosen cards from the hand. Add that many <h>Pures</h> to the hand."
   },
   "ModuoluoSeasons": {
     "Name": "Runaway Seasons",
@@ -2324,7 +2354,7 @@
   },
   "ToolDraw": {
     "Name": "Supply Backpack",
-    "Description": "Draw {Value1:plural one='% card' other='% cards'}.<br /><h>Limited【<DeckCounter />】</h>"
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Limited【<DeckCounter />】</h>"
   },
   "ToolHeal": {
     "Name": "Canned Food",
@@ -2356,7 +2386,7 @@
   },
   "ToolMicai": {
     "Name": "Optical Camouflage Clothing",
-    "Description": "Gain <h>Optical Camouflage</h> for <Value1 /> turn{Value1:plural one='' other='s'}.<br /><h>Limited【<DeckCounter />】</h>"
+    "Description": "Gain <h>Optical Camouflage</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Limited【<DeckCounter />】</h>"
   },
   "ToolUpgrade": {
     "Name": "Floppy Disk",
@@ -2372,7 +2402,7 @@
   },
   "ToolInvincible": {
     "Name": "Angel's Raiment",
-    "Description": "Gain <h>Flawless</h> for <Value1 /> turn{Value1:plural one='' other='s'}.<br /><h>Limited【<DeckCounter />】</h>"
+    "Description": "Gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Limited【<DeckCounter />】</h>"
   },
   "ToolMaxHp": {
     "Name": "Crispy Cucumber",
@@ -2396,7 +2426,7 @@
   },
   "WanderingSoul": {
     "Name": "Wandering Soul",
-    "Description": "Gain <h>Flawless</h> for <Value1 /> turn{Value1:plural one='' other='s'}.<br />This card is still in development.<br />Please look forward to future updates."
+    "Description": "Gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} }).<br />This card is still in development.<br />Please look forward to future updates."
   },
   "RabbitFoot": {
     "Name": "Lucky Rabbit's Foot",
@@ -2454,7 +2484,7 @@
   },
   "MoonTipsAttack": {
     "Name": "Extra Danmaku",
-    "Description": "Add <Value1 /> <h>Shoot</h> card{Value1:plural one='' other='s'} to the draw pile. {Value1:plural one='It has' other='They have'} <h>Replenish</h>."
+    "Description": "Add <Value1 /> <h>Shoot</h> card$t(plurals.-s, { 'count': {{Value1}} }) to the draw pile. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Replenish</h>."
   },
   "MoonTipsDefense": {
     "Name": "More Defense",
@@ -2519,7 +2549,7 @@
   },
   "CirnoFreeze": {
     "Name": "Mana Freeze",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card{FreezeTimes:plural one=' is' other='s are'} played, <h>Exile</h> a <SelfName /> in the hand."
+    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> a <SelfName /> in the hand."
   },
   "Frog": {
     "Name": "Frog",
@@ -2563,19 +2593,19 @@
   },
   "NightMana1": {
     "Name": "Long Night: 11PM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card{FreezeTimes:plural one=' is' other='s are'} played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "NightMana2": {
     "Name": "Long Night: 1AM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card{FreezeTimes:plural one=' is' other='s are'} played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "NightMana3": {
     "Name": "Long Night: 3AM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card{FreezeTimes:plural one=' is' other='s are'} played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "NightMana4": {
     "Name": "Long Night: 5AM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card{FreezeTimes:plural one=' is' other='s are'} played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "Regret": {
     "Name": "Regret"
