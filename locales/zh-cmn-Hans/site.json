@@ -13,7 +13,7 @@
     "step4": "在游戏的文件夹内找出runLogger的文件夹，然后在里面找出纪录下的局",
     "step5": "<upload>上载</upload>纪录以分享"
   },
-  "runLogs": {
+  "lbolLogs": {
     "update": "预定更新",
     "tasks": [
       "改善UI和UX"

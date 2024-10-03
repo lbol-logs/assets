@@ -13,7 +13,7 @@
     "step4": "Find the run data file in runLogger folder inside the game folder",
     "step5": "Share your run data from the <upload>Upload</upload> page"
   },
-  "runLogs": {
+  "lbolLogs": {
     "update": "Update plan",
     "tasks": [
       "Improve UI & UX"

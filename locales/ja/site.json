@@ -13,7 +13,7 @@
     "step4": "ゲームフォルダ内の runLogger フォルダから履歴データファイルを見つける",
     "step5": "<upload>アップロード</upload> ページから履歴データを共有"
   },
-  "runLogs": {
+  "lbolLogs": {
     "update": "サイトの更新予定",
     "tasks": [
       "UI・UX改善"
