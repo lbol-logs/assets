@@ -16,8 +16,10 @@
   "lbolLogs": {
     "update": "サイトの更新予定",
     "tasks": [
-      "UI・UX改善"
-    ]
+      "UI・UX改善",
+      "キャラクターMod対応"
+    ],
+    "supportedCharacterMods": "対応しているキャラクターMod"
   },
   "attention": {
     "key": "注意事項",

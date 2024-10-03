@@ -16,8 +16,10 @@
   "lbolLogs": {
     "update": "Update plan",
     "tasks": [
-      "Improve UI & UX"
-    ]
+      "Improve UI & UX",
+      "Character Mods support"
+    ],
+    "supportedCharacterMods": "Supported Character Mods"
   },
   "attention": {
     "key": "Attention",
