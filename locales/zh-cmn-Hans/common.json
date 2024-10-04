@@ -13,16 +13,6 @@
     "P": "彩",
     "A": "随机"
   },
-  "spellcards": {
-    "ReimuA": "灵符「梦想封印」",
-    "ReimuB": "神技「八方鬼缚阵」",
-    "MarisaA": "黑魔「真空坍缩」",
-    "MarisaB": "恋符「极限火花」",
-    "SakuyaA": "幻符「杀人玩偶」",
-    "SakuyaB": "幻世「The World」",
-    "CirnoA": "冻符「完美冻结」",
-    "CirnoB": "花符「冰晶绽放」"
-  },
   "requests": {
     "HalfDrug": "抗药性",
     "LowMaxHp": "向死而生",
