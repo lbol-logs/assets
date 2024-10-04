@@ -1,6 +1,7 @@
 {
   "loading": "Now Loading...",
   "processing": "Now Processing...",
+  "latest": "latest",
   "card": "Card",
   "card_other": "Cards",
   "exhibit": "Exhibit",
