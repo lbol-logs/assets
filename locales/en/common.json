@@ -14,7 +14,8 @@
     "G": "Green",
     "C": "Colorless",
     "P": "Philosopher",
-    "A": "Random"
+    "A": "Random",
+    "N": "Unknown"
   },
   "requests": {
     "HalfDrug": "Bitter Medicine",
