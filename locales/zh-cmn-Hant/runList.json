@@ -1,10 +1,5 @@
 {
   "filter": "篩選",
-  "results": {
-    "format": "在 <total />中找到了 <found />",
-    "found": "<strong>{{count}}</strong> 個",
-    "total": "<strong>{{count}}</strong> 個"
-  },
   "remark": "(每{{min}}分鐘更新)",
   "name": "名字",
   "character": "角色",
