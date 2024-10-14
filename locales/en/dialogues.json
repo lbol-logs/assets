@@ -8,6 +8,7 @@
     "line:06f5f1b": "<l>\"Feel free to take anything you need.\"</l><br />Choose one <h>Advantage</h> (Passing the Bamboo Forest will bring additional options).",
     "line:01d41f9": "[Sponsor] Gain {{0}} <Money />.",
     "line:0f87a81": "[Swap] Lose starting Exhibit and gain a random Shining Exhibit.",
+    "line:08ab19a": "[Invalid] Full Power is active in the Jade Box, cannot swap starting Exhibit.",
     "line:05100b8": "[Recall] From 3 random Uncommon cards, choose one to add to the library.",
     "line:097011d": "[Enlighten] Add a random Rare card to the library.",
     "line:02cfa2c": "[Trade] Lose all money, gain a random Rare Exhibit.",
