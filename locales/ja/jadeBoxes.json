@@ -1,0 +1,70 @@
+{
+  "StartWithMythic": {
+    "Name": "輝夜の秘宝",
+    "Description": "輝夜の<h>秘宝</h>の一つを所持してゲームを始めます。Normal以上の難易度でも<hb>最終章</hb>に進めます。<br />注意：これによりゲームがベリーイージーになります。"
+  },
+  "TwoColorStart": {
+    "Name": "本気モード",
+    "Description": "キャラクターの初期展示品を両方持っている状態で攻略を開始し、5番目のマナの色を<Mana />に変化します。<br />ゲームの難易度が大幅に下げることになります。"
+  },
+  "StartWithJingjie": {
+    "Name": "明察秋毫",
+    "Description": "ゲーム開始時、<h>境界感知器</h>を入手する。<br />関連する外界の展示品を入手することはできない。"
+  },
+  "SelectCard": {
+    "Name": "選りすぐり",
+    "Description": "ゲーム開始時、10枚のカードを選び、スターターデッキとする 。<br />厄災：<h>立ち退き命令</h>。"
+  },
+  "Start50": {
+    "Name": "虹色の支配者",
+    "Description": "ランダムな<Value1 />枚のカードでゲームを開始する。<br />ターン開始時、1つのランダムなマナを<Mana />に変換する。"
+  },
+  "NoRareCard": {
+    "Name": "凡庸の喜び",
+    "Description": "レアカードを引くか手札に加えられた際、<h>廃棄</h>してカードを一枚引き、<Mana />を得る。"
+  },
+  "FastMana": {
+    "Name": "先手必勝",
+    "Description": "戦闘開始時、全てのカードのコストが<Mana />減少する；<br /><PlayerName />の<Value1 />ターンが経過するごとに、全てのカードのコストが<Mana />増加する。"
+  },
+  "SlowMana": {
+    "Name": "超越",
+    "Description": "戦闘開始時、コモン以外のカードのコストが<Mana />増加する；<br />コモン以外のカードをプレイするたび、戦闘終了までそのコストは<Value1 />減少する。"
+  },
+  "ExtraTurn": {
+    "Name": "時空紊乱",
+    "Description": "戦闘開始後、<PlayerName />は<Value1 />ターンごとに<h>再設定</h><Mana />の(コストが<Mana />の)<h>膨張する空間</h>を手札に加える。"
+  },
+  "Capital": {
+    "Name": "資本の蓄積",
+    "Description": "ターン終了時、所持金 <Value1 /><Money />ごとにライフを<Value2 />失う失う。<br />戦闘終了時、所持金<Money /> の<Value3 />% を追加で獲得する。"
+  },
+  "AllCharacterCards": {
+    "Name": "共感覚",
+    "Description": "全てのキャラクターの専用カードがドロップする。"
+  },
+  "FourCards": {
+    "Name": "四重の存在",
+    "Description": "報酬か店でデッキにカードを追加するとき、それがコモン/アンコモンカードなら、それぞれ <Value1 />/<Value2 /> 枚の追加のコピーをデッキに加える。"
+  },
+  "DefensePhilosophy": {
+    "Name": "幻繭の夢",
+    "Description": "防御カードがプレイされるたび、<PlayerName />は<Mana />を得て、手札の左端のカードを捨てる。"
+  },
+  "HpToPower": {
+    "Name": "沸血の舞",
+    "Description": "<PlayerName />がライフを失うたび、<Value1 />点の<Power />を失ったライフごとに得る。<br />スペルカード使用時、<PlayerName />は<Value2 />点の最大ライフを失う。"
+  },
+  "QuickAct1": {
+    "Name": "電光石火",
+    "Description": "各章の最初の1/4のセクターで遭遇する敵は体力を半分失う。<br />各章の開始時、<PlayerName />は現在のライフの <Value1 />%を失う。"
+  },
+  "CatchGoblin": {
+    "Name": "ラッキースター",
+    "Description": "戦闘開始時、ランダムで1つの敵に「受けるダメージが33%減少する。撃破される時50<Money />を落とす」バフを与える。このバフは<Value1 />ターン継続する。"
+  },
+  "StartEthereal": {
+    "Name": "胡蝶の夢",
+    "Description": "戦闘開始時、すべての手札に<h>虚無</h>を与える。"
+  }
+}

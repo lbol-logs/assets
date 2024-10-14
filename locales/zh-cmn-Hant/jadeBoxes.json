@@ -1,0 +1,70 @@
+{
+  "StartWithMythic": {
+    "Name": "輝夜秘寶",
+    "Description": "選擇一件輝夜的<h>秘寶</h>開始遊戲，Normal以上難度可以進入<hb>最終幕</hb>。<br />這會大幅降低遊戲難度。"
+  },
+  "TwoColorStart": {
+    "Name": "全力以赴",
+    "Description": "以兩個角色的初始展品開始遊戲，第五點法力顏色改為<Mana />。<br />這會大幅降低遊戲難度。"
+  },
+  "StartWithJingjie": {
+    "Name": "明察秋毫",
+    "Description": "遊戲開始時，直接獲得<h>境界感知儀</h>。<br />無法獲得外界系列展品。"
+  },
+  "SelectCard": {
+    "Name": "精挑細選",
+    "Description": "通過10次選牌獲得你的初始套牌 。<br />厄運：<h>逐客令</h>。"
+  },
+  "Start50": {
+    "Name": "虹色主宰",
+    "Description": "以 <Value1 /> 張隨機的卡牌開始遊戲。<br />回合開始時，一點隨機的法力轉化為<Mana />。"
+  },
+  "NoRareCard": {
+    "Name": "凡庸之樂",
+    "Description": "稀有牌被抽取或加入手牌時，<h>放逐</h>它，抽一張牌，獲得<Mana />。"
+  },
+  "FastMana": {
+    "Name": "先手致勝",
+    "Description": "戰鬥開始後，所有卡牌的費用減少<Mana />；<br /><PlayerName />每經過 <Value1 /> 個回合，所有卡牌的費用增加<Mana />。"
+  },
+  "SlowMana": {
+    "Name": "超凡入聖",
+    "Description": "戰鬥開始時，非普通的牌費用增加<Mana />；<br />非普通的牌被打出後，費用隨機減少 <Value1 /> 點，直到戰鬥結束。"
+  },
+  "ExtraTurn": {
+    "Name": "時空紊亂",
+    "Description": "戰鬥開始後，<PlayerName />每經過 <Value1 /> 個回合，將一張<h>重塑</h>為<Mana />的<h>膨脹空間</h>加入手中。"
+  },
+  "Capital": {
+    "Name": "資本積累",
+    "Description": "回合結束時，每有 <Value1 /><Money />，失去 <Value2 /> 點生命值。<br />戰鬥結束時，獲得現有<Money />的 <Value3 />% 。"
+  },
+  "AllCharacterCards": {
+    "Name": "通感通意",
+    "Description": "可以獲得所有角色牌。"
+  },
+  "FourCards": {
+    "Name": "四重存在",
+    "Description": "獎勵及商店卡牌進入牌庫時，如果它是普通/罕見牌，將它的 <Value1 />/<Value2 /> 張複製加入牌庫。"
+  },
+  "DefensePhilosophy": {
+    "Name": "幻繭之夢",
+    "Description": "打出一張防禦牌時，<PlayerName />獲得<Mana />，丟棄最左邊的手牌。"
+  },
+  "HpToPower": {
+    "Name": "沸血之舞",
+    "Description": "<PlayerName />每失去一點生命值，獲得 <Value1 /> 點<Power />。<br />使用符卡時，<PlayerName />失去 <Value2 /> 點最大生命值。"
+  },
+  "QuickAct1": {
+    "Name": "電光石火",
+    "Description": "每一幕的第一節內，遭遇的敵人失去一半生命值。<br />每一幕開始時，<PlayerName />失去當前生命值的 <Value1 />%。"
+  },
+  "CatchGoblin": {
+    "Name": "福星高照",
+    "Description": "戰鬥開始時，一個隨機敵人受到的傷害減少 33%，擊敗後掉落 50<Money />，持續 <Value1 /> 回合。"
+  },
+  "StartEthereal": {
+    "Name": "大夢初醒",
+    "Description": "<PlayerName />的第一回合開始時，所有手牌獲得<h>虛無</h>。"
+  }
+}
