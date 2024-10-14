@@ -1,0 +1,30 @@
+{
+  "HalfDrug": {
+    "Name": "抗藥性",
+    "Description": "八意永琳給的藥丸效果減半"
+  },
+  "LowMaxHp": {
+    "Name": "向死而生",
+    "Description": "最大生命值降低 10 點"
+  },
+  "StartMisfortune": {
+    "Name": "不受歡迎",
+    "Description": "遊戲開始時將一張<h>逐客令</h>加入牌庫"
+  },
+  "LowStageRegen": {
+    "Name": "補給不足",
+    "Description": "Boss 戰鬥後的金錢<Money />、能量<Power />及生命恢復減半"
+  },
+  "LowUpgradeRate": {
+    "Name": "通貨膨脹",
+    "Description": "升級過的牌出現率減半，山城高嶺出售的物品價格提高 10%"
+  },
+  "PayForUpgrade": {
+    "Name": "健身房開始收費",
+    "Description": "隙間小屋內升級非基礎卡牌需要支付 25 點<Money />"
+  },
+  "NightMana": {
+    "Name": "長夜的疲憊",
+    "Description": "戰鬥開始時將一張<h>月黑風高</h>加入手中"
+  }
+}

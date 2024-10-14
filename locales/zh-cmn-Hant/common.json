@@ -15,15 +15,6 @@
     "A": "隨機",
     "N": "不明"
   },
-  "requests": {
-    "HalfDrug": "抗藥性",
-    "LowMaxHp": "向死而生",
-    "StartMisfortune": "不受歡迎",
-    "LowStageRegen": "補給不足",
-    "LowUpgradeRate": "通貨膨脹",
-    "PayForUpgrade": "健身房開始收費",
-    "NightMana": "長夜的疲憊"
-  },
   "difficulties": {
     "Easy": "簡單",
     "Normal": "普通",

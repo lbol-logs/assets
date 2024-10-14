@@ -1,0 +1,30 @@
+{
+  "HalfDrug": {
+    "Name": "薬剤耐性",
+    "Description": "永琳の薬の効果が半減する"
+  },
+  "LowMaxHp": {
+    "Name": "死中に活",
+    "Description": "最大ライフが10減少する"
+  },
+  "StartMisfortune": {
+    "Name": "歓迎されず",
+    "Description": "デッキに<h>立ち退き命令</h>を加えた状態でゲームを開始する"
+  },
+  "LowStageRegen": {
+    "Name": "補給不足",
+    "Description": "次の章に入る際のライフ回復量が最大ライフの半分になる、ボス戦で得られる<Money />と<Power />は半分となる"
+  },
+  "LowUpgradeRate": {
+    "Name": "物価高騰",
+    "Description": "アップグレード済みのカードの出現率が半減し、たかねの店の価格が10%高くなる"
+  },
+  "PayForUpgrade": {
+    "Name": "フィットネス費用",
+    "Description": "スキマで基本でないカードをアップグレードするには25<Money />が必要"
+  },
+  "NightMana": {
+    "Name": "永き夜の疲れ",
+    "Description": "戦闘開始時、<h>永き夜</h>を1枚手札に加える"
+  }
+}
