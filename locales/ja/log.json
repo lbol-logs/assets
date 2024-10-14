@@ -25,6 +25,7 @@
   "IsAutoSeed_true": "シード値未設定",
   "IsAutoSeed_false": "シード値設定",
   "ReloadTimes": "時戻しの回数：{{count}}",
+  "JadeBox": "玉匣",
   "description": "説明",
   "act": "第{{act}}章",
   "act_4": "最終章",
