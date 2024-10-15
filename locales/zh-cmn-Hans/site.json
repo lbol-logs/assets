@@ -17,9 +17,10 @@
     "update": "预定更新",
     "tasks": [
       "改善UI和UX",
-      "兼容角色Mod"
+      "新增完全支持的角色Mod"
     ],
-    "supportedCharacterMods": "支援的角色Mod"
+    "fullSupport": "完全支持的角色Mod",
+    "fullSupportRemark": "除了完全支持（包括设定、文字和图像）的Mod，其他Mod也可以上传和查看，因此欢迎使用！"
   },
   "attention": {
     "key": "注意事项",

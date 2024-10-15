@@ -17,9 +17,10 @@
     "update": "サイトの更新予定",
     "tasks": [
       "UI・UX改善",
-      "キャラクターMod対応"
+      "フル対応のキャラクターModの追加"
     ],
-    "supportedCharacterMods": "対応しているキャラクターMod"
+    "fullSupport": "フル対応のキャラクターMod",
+    "fullSupportRemark": "フル対応（設定、テキスト、画像付き）でないModもアップロード・閲覧可能なので、ご利用は大歓迎です！"
   },
   "attention": {
     "key": "注意事項",
