@@ -19,6 +19,33 @@
     "Name": "蓬萊玉枝",
     "Description": "<PlayerName />獲得的所有法力都轉化為<h>彩色</h>。<br />多餘的法力會保留到下一回合。"
   },
+  "SingleJiandao": {
+    "Name": "巨大的單片剪刀"
+  },
+  "Shendeng": {
+    "Name": "前端很長的茶壺"
+  },
+  "HolyGrail": {
+    "Name": "裝飾浮誇的金杯"
+  },
+  "SihunYu": {
+    "Name": "散發邪氣的挂墜"
+  },
+  "MadokaBow": {
+    "Name": "迸發光芒的長弓"
+  },
+  "QiannianShenqi": {
+    "Name": "金字塔形狀的積木"
+  },
+  "InfinityGems": {
+    "Name": "鑲有寶石的手套"
+  },
+  "SakuraWand": {
+    "Name": "長翅膀的鑰匙"
+  },
+  "DragonBall": {
+    "Name": "印著星星的玻璃球"
+  },
   "ReimuR": {
     "Name": "渴望鮮血的陰陽玉",
     "Description": "提供基礎法力<BaseMana />，<h>靈夢</h>的專屬卡牌會加入牌池。<br />每當一名敵人被擊敗，<PlayerName />獲得 <Value1 /> 點<h>火力</h>，恢復 <Value2 /> 點生命。"

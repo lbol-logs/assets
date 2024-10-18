@@ -39,6 +39,33 @@
     "Name": "Jeweled Branch of Hourai",
     "Description": "Convert all mana <PlayerName /> would gain to <ManaP />.<br />Unspent mana isn't lost at the end of each turn."
   },
+  "SingleJiandao": {
+    "Name": "Giant Scissor Blade"
+  },
+  "Shendeng": {
+    "Name": "Teapot with Long Spout"
+  },
+  "HolyGrail": {
+    "Name": "Overdecorated Gold Cup"
+  },
+  "SihunYu": {
+    "Name": "Pendants That Emit Evil Spirits"
+  },
+  "MadokaBow": {
+    "Name": "Shining Longbow"
+  },
+  "QiannianShenqi": {
+    "Name": "Pyramid-Shaped Puzzle"
+  },
+  "InfinityGems": {
+    "Name": "Gem-Encrusted Gloves"
+  },
+  "SakuraWand": {
+    "Name": "Winged Key"
+  },
+  "DragonBall": {
+    "Name": "Starred Crystalline Ball"
+  },
   "ReimuR": {
     "Name": "Bloodthirsty Yin-Yang Orb",
     "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Reimu</h> are added to the card pool.<br />Whenever an enemy is defeated, <PlayerName /> gains <Value1 /> <h>Firepower</h> and <Value2 /> life."

@@ -19,6 +19,33 @@
     "Name": "蓬莱の玉の枝",
     "Description": "<PlayerName />が得るマナは全て<h>彩色</h>になる。<br />ターン終了時に残ったマナが失われない。"
   },
+  "SingleJiandao": {
+    "Name": "半分の巨大な鋏"
+  },
+  "Shendeng": {
+    "Name": "注ぎ口の長いティーポット"
+  },
+  "HolyGrail": {
+    "Name": "装飾が施された金の杯"
+  },
+  "SihunYu": {
+    "Name": "邪気を放つペンダント"
+  },
+  "MadokaBow": {
+    "Name": "光輝く長弓"
+  },
+  "QiannianShenqi": {
+    "Name": "ピラミッド型のパズル"
+  },
+  "InfinityGems": {
+    "Name": "宝石が埋め込まれたガントレット"
+  },
+  "SakuraWand": {
+    "Name": "翼のついた鍵"
+  },
+  "DragonBall": {
+    "Name": "星が描かれたボール"
+  },
   "ReimuR": {
     "Name": "血に飢えた陰陽玉",
     "Description": "マナ基盤に<BaseMana />を加え、<h>霊夢</h>専用のカードが出現するようになる。<br />敵を1体倒す度、<PlayerName />は<h>火力</h><Value1 />を得てライフを<Value2 />回復する。"
