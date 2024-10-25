@@ -22,6 +22,7 @@
     "fullSupport": "フル対応のキャラクターMod",
     "fullSupportRemark": "フル対応（設定、テキスト、画像付き）でないModもアップロード・閲覧可能なので、ご利用は大歓迎です！"
   },
+  "ogp": "OGPはアップロード後{{min}}以内に生成されます",
   "attention": {
     "key": "注意事項",
     "value": [
