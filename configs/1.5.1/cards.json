@@ -1123,8 +1123,8 @@
       "Value2": 1,
       "Loyalty": 4,
       "PassiveCost": 1,
-      "ActiveCost": "-2",
-      "UltimateCost": "-8"
+      "ActiveCost": -2,
+      "UltimateCost": -8
     },
     "1": {
       "Value2": 2,
@@ -2243,8 +2243,8 @@
       "Value2": 2,
       "Loyalty": 5,
       "PassiveCost": 2,
-      "ActiveCost": "-4",
-      "UltimateCost": "-6",
+      "ActiveCost": -4,
+      "UltimateCost": -6,
       "Power": 3,
       "PassiveColor": 2
     },
@@ -3418,7 +3418,7 @@
       "Value2": 3,
       "Loyalty": 1,
       "PassiveCost": 1,
-      "UltimateCost": "-7",
+      "UltimateCost": -7,
       "Graze": 1
     },
     "1": {
@@ -3560,8 +3560,8 @@
       "Value1": 2,
       "Loyalty": 3,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-7"
+      "ActiveCost": -3,
+      "UltimateCost": -7
     },
     "1": {
       "Damage": 8,
@@ -3639,13 +3639,13 @@
       "Value2": 2,
       "Loyalty": 3,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-5"
+      "ActiveCost": -3,
+      "UltimateCost": -5
     },
     "1": {
       "Damage": 10,
       "Value1": 10,
-      "ActiveCost": "-2"
+      "ActiveCost": -2
     }
   },
   "ShiverArmor": {
@@ -3873,8 +3873,8 @@
       "Cost": "2U",
       "Damage": 12,
       "Loyalty": 3,
-      "PassiveCost": "-1",
-      "UltimateCost": "-2"
+      "PassiveCost": -1,
+      "UltimateCost": -2
     },
     "1": {
       "Damage": 16,
@@ -4045,13 +4045,13 @@
       "Value2": 15,
       "Loyalty": 3,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-7"
+      "ActiveCost": -3,
+      "UltimateCost": -7
     },
     "1": {
       "Value1": 4,
       "Value2": 18,
-      "ActiveCost": "-2"
+      "ActiveCost": -2
     }
   },
   "FriendDraw": {
@@ -4082,15 +4082,15 @@
       "Mana": "G",
       "Loyalty": 1,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-6",
+      "ActiveCost": -3,
+      "UltimateCost": -6,
       "ActiveMana": "UGG",
       "Heal": 6
     },
     "1": {
       "Value1": 4,
       "Mana": "P",
-      "ActiveCost": "-3",
+      "ActiveCost": -3,
       "ActiveMana": "PGG",
       "Heal": 8
     }
@@ -4448,8 +4448,8 @@
       "Value2": 1,
       "Loyalty": 1,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-7"
+      "ActiveCost": -3,
+      "UltimateCost": -7
     },
     "1": {
       "Block": 8,
@@ -4498,8 +4498,8 @@
       "Value2": 2,
       "Loyalty": 1,
       "PassiveCost": 1,
-      "ActiveCost": "-3",
-      "UltimateCost": "-7",
+      "ActiveCost": -3,
+      "UltimateCost": -7,
       "Light": 1
     },
     "1": {
@@ -4551,14 +4551,14 @@
       "Value2": 3,
       "Loyalty": 2,
       "PassiveCost": 1,
-      "ActiveCost": "-4",
-      "UltimateCost": "-7",
+      "ActiveCost": -4,
+      "UltimateCost": -7,
       "Light": 1
     },
     "1": {
       "Value1": 3,
       "Value2": 4,
-      "ActiveCost": "-3"
+      "ActiveCost": -3
     }
   },
   "Xiguadao": {
@@ -4593,8 +4593,8 @@
       "Mana": "{4P}",
       "Loyalty": 7,
       "PassiveCost": 0,
-      "ActiveCost": "-1",
-      "UltimateCost": "-2",
+      "ActiveCost": -1,
+      "UltimateCost": -2,
       "StartMana": "PPP"
     },
     "1": {
@@ -5505,8 +5505,8 @@
       "Cost": "WB",
       "Loyalty": 3,
       "PassiveCost": 1,
-      "ActiveCost": "-4",
-      "UltimateCost": "-7"
+      "ActiveCost": -4,
+      "UltimateCost": -7
     },
     "1": {}
   },
@@ -8544,12 +8544,12 @@
       "Mana": 0,
       "Loyalty": 4,
       "PassiveCost": 1,
-      "ActiveCost": "-4",
-      "UltimateCost": "-9"
+      "ActiveCost": -4,
+      "UltimateCost": -9
     },
     "1": {
       "Loyalty": 5,
-      "UltimateCost": "-8"
+      "UltimateCost": -8
     }
   },
   "BailianFire": {
