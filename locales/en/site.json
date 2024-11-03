@@ -22,7 +22,6 @@
     "fullSupport": "Character Mods with Full Support",
     "fullSupportRemark": "Apart from Mods with full support (with configs, texts and images), other Mods are also uploadable and viewable. You are welcomed to do so!"
   },
-  "ogp": "OGP will be ready in {{min}} minutes after uploaded",
   "attention": {
     "key": "Attention",
     "value": [

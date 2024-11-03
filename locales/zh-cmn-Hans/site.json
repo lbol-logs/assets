@@ -22,7 +22,6 @@
     "fullSupport": "完全支持的角色Mod",
     "fullSupportRemark": "除了完全支持（包括设定、文字和图像）的Mod，其他Mod也可以上传和查看，因此欢迎使用！"
   },
-  "ogp": "OGP会在上载后{{min}}内自动生成",
   "attention": {
     "key": "注意事项",
     "value": [
