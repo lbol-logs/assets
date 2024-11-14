@@ -582,7 +582,7 @@
     "Name": "七曜の錬金術師、パチュリー",
     "PassiveDescription": "ランダムな<PassiveColor />個のマナを<h>彩色</h>マナに変換する。",
     "ActiveDescription": "<h>火力</h><Value1 />と<h>霊力</h><Value1 />を得る。<Power /><P />を得る。",
-    "UltimateDescription": "<h>ポーション</h><Value2 />枚を手札に加える。"
+    "Active2Description": "<h>ポーション</h><Value2 />枚を手札に加える。"
   },
   "MoguMaster": {
     "Name": "キノコの専門家",
@@ -1209,7 +1209,7 @@
     "PassiveDescription": "<h>臨時火力</h><Value2 />を得る。",
     "ActiveDescription": "カードを<Value1 />枚引く。<h>狂気</h>を1枚捨て札に加える。",
     "UpgradedActiveDescription": "カードを<Value1 />枚引く。",
-    "UltimateDescription": "<Mana />を得る。<h>狂気</h>を1枚捨て札に加える。"
+    "Active2Description": "<Mana />を得る。<h>狂気</h>を1枚捨て札に加える。"
   },
   "KoishiAttackG": {
     "Name": "二重らせん",

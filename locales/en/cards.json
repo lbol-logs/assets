@@ -612,7 +612,7 @@
     "Name": "Patchouli, Elemental Alchemist",
     "PassiveDescription": "Convert <PassiveColor /> random mana into <h>Philosopher's Mana</h>.",
     "ActiveDescription": "Gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>. Gain <P /> <Power />.",
-    "UltimateDescription": "Add <Value2 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
+    "Active2Description": "Add <Value2 /> <h>Unstable Potion$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "MoguMaster": {
     "Name": "Mushroom Specialist",
@@ -1239,7 +1239,7 @@
     "PassiveDescription": "Gain <Value2 /> <h>Temporary Firepower</h>.",
     "ActiveDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) and add a <h>Lunacy</h> to the discard pile.",
     "UpgradedActiveDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).",
-    "UltimateDescription": "Gain <Mana /> and add a <h>Lunacy</h> to the discard pile."
+    "Active2Description": "Gain <Mana /> and add a <h>Lunacy</h> to the discard pile."
   },
   "KoishiAttackG": {
     "Name": "Double Helix",

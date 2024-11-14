@@ -2244,7 +2244,7 @@
       "Loyalty": 5,
       "PassiveCost": 2,
       "ActiveCost": -4,
-      "UltimateCost": -6,
+      "ActiveCost2": -6,
       "Power": 3,
       "PassiveColor": 2
     },
@@ -2253,8 +2253,7 @@
       "PassiveCost": 3,
       "Power": 5,
       "PassiveColor": 3
-    },
-    "OverrideUltimateCost": true
+    }
   },
   "MoguMaster": {
     "Rarity": "Uncommon",
@@ -4594,15 +4593,14 @@
       "Loyalty": 7,
       "PassiveCost": 0,
       "ActiveCost": -1,
-      "UltimateCost": -2,
+      "ActiveCost2": -2,
       "StartMana": "PPP"
     },
     "1": {
       "Value2": 5,
       "Mana": "{5P}",
       "Loyalty": 9
-    },
-    "OverrideUltimateCost": true
+    }
   },
   "KoishiAttackG": {
     "Rarity": "Common",
