@@ -582,7 +582,7 @@
     "Name": "炼金术士帕秋莉",
     "PassiveDescription": "将 <PassiveColor /> 点随机的法力转化为<h>彩色</h>。",
     "ActiveDescription": "获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>，获得 <P /> 点<Power />。",
-    "UltimateDescription": "将 <Value2 /> 张<h>不稳定魔药</h>加入手中。"
+    "Active2Description": "将 <Value2 /> 张<h>不稳定魔药</h>加入手中。"
   },
   "MoguMaster": {
     "Name": "蘑菇专家",
@@ -1209,7 +1209,7 @@
     "PassiveDescription": "获得 <Value2 /> 点<h>暂得火力</h>。",
     "ActiveDescription": "抽 <Value1 /> 张牌，将一张<h>疯狂</h>洗入弃牌堆。",
     "UpgradedActiveDescription": "抽 <Value1 /> 张牌。",
-    "UltimateDescription": "获得<Mana />，将一张<h>疯狂</h>洗入弃牌堆。"
+    "Active2Description": "获得<Mana />，将一张<h>疯狂</h>洗入弃牌堆。"
   },
   "KoishiAttackG": {
     "Name": "双生的螺旋",
