@@ -130,5 +130,8 @@
   },
   "BuduSuanming": {
     "money": 30
+  },
+  "SatoriCounseling": {
+    "leave": 3
   }
 }
