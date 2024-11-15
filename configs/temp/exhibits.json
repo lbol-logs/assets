@@ -1,50 +1,28 @@
 {
   "LongjingYu": {
     "Rarity": "Mythic",
-    "Mana": "WUBRG"
+    "Mana": "WUBRG",
+    "BaseMana": "P"
   },
   "FoyushiBo": {
     "Rarity": "Mythic",
-    "Value1": 1
+    "Value1": 1,
+    "BaseMana": "P"
   },
   "HuoshuPiyi": {
     "Rarity": "Mythic",
     "Value1": 20,
-    "Value2": 3
+    "Value2": 3,
+    "BaseMana": "P"
   },
   "YanZianbei": {
     "Rarity": "Mythic",
-    "Value1": 5
+    "Value1": 5,
+    "BaseMana": "P"
   },
   "PenglaiYuzhi": {
-    "Rarity": "Mythic"
-  },
-  "SingleJiandao": {
-    "Rarity": "Mythic"
-  },
-  "Shendeng": {
-    "Rarity": "Mythic"
-  },
-  "HolyGrail": {
-    "Rarity": "Mythic"
-  },
-  "SihunYu": {
-    "Rarity": "Mythic"
-  },
-  "MadokaBow": {
-    "Rarity": "Mythic"
-  },
-  "QiannianShenqi": {
-    "Rarity": "Mythic"
-  },
-  "InfinityGems": {
-    "Rarity": "Mythic"
-  },
-  "SakuraWand": {
-    "Rarity": "Mythic"
-  },
-  "DragonBall": {
-    "Rarity": "Mythic"
+    "Rarity": "Mythic",
+    "BaseMana": "P"
   },
   "ReimuR": {
     "Owner": "Reimu",
@@ -102,13 +80,12 @@
     "Owner": "Koishi",
     "Rarity": "Shining",
     "Value1": 1,
-    "Value2": 1,
     "BaseMana": "G"
   },
   "KoishiB": {
     "Owner": "Koishi",
     "Rarity": "Shining",
-    "Value1": 4,
+    "Value1": 10,
     "BaseMana": "B"
   },
   "AliceW": {
@@ -769,5 +746,32 @@
   },
   "KongZhanpinhe": {
     "Rarity": "Common"
+  },
+  "SingleJiandao": {
+    "Rarity": "Mythic"
+  },
+  "Shendeng": {
+    "Rarity": "Mythic"
+  },
+  "HolyGrail": {
+    "Rarity": "Mythic"
+  },
+  "SihunYu": {
+    "Rarity": "Mythic"
+  },
+  "MadokaBow": {
+    "Rarity": "Mythic"
+  },
+  "QiannianShenqi": {
+    "Rarity": "Mythic"
+  },
+  "InfinityGems": {
+    "Rarity": "Mythic"
+  },
+  "SakuraWand": {
+    "Rarity": "Mythic"
+  },
+  "DragonBall": {
+    "Rarity": "Mythic"
   }
 }
