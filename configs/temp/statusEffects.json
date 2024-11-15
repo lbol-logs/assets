@@ -28,6 +28,7 @@
   "LockedOn": {},
   "Graze": {},
   "ExtraTurn": {},
+  "SuperExtraTurn": {},
   "LimitedDamage": {},
   "BossAct": {},
   "Invincible": {},
@@ -77,6 +78,7 @@
   "EnemyLarva": {},
   "EnemyLily": {},
   "EnemyMaid": {},
+  "KoishiUnknown": {},
   "ShenlingGold": {},
   "ShenlingHp": {},
   "Appliance": {},
@@ -194,6 +196,7 @@
   "DangerousMagicianSe": {},
   "AutoKnifeSe": {},
   "KnifeTarget": {},
+  "KnifeDamageUpSe": {},
   "Cold": {
     "BaseDamage": 9,
     "StackMultiply": 2
@@ -226,26 +229,25 @@
   },
   "MoodPassion": {},
   "MoodPeace": {},
-  "MoodEnlight": {
-    "Mana": "PPP"
+  "MoodEpiphany": {
+    "Mana": "P"
   },
-  "InspirationSe": {},
-  "NextTurnPassionSe": {},
+  "NextTurnPassion": {},
   "PassionDrawSe": {},
-  "PeaceBlockSe": {},
-  "MoodChangeBlockSe": {},
   "LunaticPassionSe": {},
-  "Constrain": {},
-  "WuyishiDNASe": {},
-  "BenwoTouyingSe": {},
-  "ChaofanyinSe": {},
-  "ChaoyueZiwoSe": {},
-  "KongxiangshangSe": {},
-  "ShortLove": {},
-  "LongLove": {},
-  "ZhuozhuangChengzhangSe": {},
-  "QingxingMengSe": {},
-  "QiangweiDiyuSe": {},
+  "PeaceBlockSe": {},
+  "UpgradePeace": {},
+  "Inspiration": {},
+  "Tired": {},
+  "GainInspirationSe": {},
+  "MoodChangeBlockSe": {},
+  "CloseEyeSe": {},
+  "GainZeroAttackSe": {},
+  "LoveFireSe": {},
+  "KoishiDnaSe": {},
+  "UpgradeAllHandSe": {},
+  "ButterflyDreamSe": {},
+  "KoishiPhoneSe": {},
   "YukariFlyObjectSe": {},
   "LoseSpiritSe": {},
   "MoreDraw": {},
@@ -255,6 +257,7 @@
   "GrimoireStudySe": {},
   "ShannvAbilitySe": {},
   "BailianBlackSe": {},
+  "DreamExpressSe": {},
   "MeihongFireSe": {},
   "MeihongPowerSe": {},
   "HuiyeManaSe": {},
@@ -292,11 +295,12 @@
     "hasExtra": true,
     "Limit": 1
   },
+  "BailianMagicSe": {},
   "PrismriverSe": {},
   "BailianFireSe": {
     "Mana": 1
   },
-  "SuperExtraTurn": {},
+  "JinziDoppelgangerSe": {},
   "ZhenmiaowanAbilitySe": {
     "Mana": 1
   },
