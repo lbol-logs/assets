@@ -301,9 +301,11 @@
   },
   "SatoriCounseling": {
     "line:0595176": "\"Please lie down and tell me about your condition.\"",
+    "line:0ff4b4a": "\"Great, now how about you lie down and let sis ease your mind?\"",
     "line:0f753ad": "[Talk Therapy] Pay {{0}} <Money />, select one of the three upgraded Uncommon cards to get.",
     "line:02f3a36": "[Invalid] Insufficient <Money />.",
     "line:04fdd25": "[Suggestion Therapy] Choose one of twenty Uncommon or Common cards to add to the library.",
+    "line:07db6e4": "[Allowance] Choose one of twenty Upgraded Uncommon or Common cards to add to the library.",
     "line:0dd3ef4": "[Hypnotherapy] Restore {{0}} life.",
     "line:0e5474b": "\"That will depend on the test. Have you felt invincible lately?\"",
     "line:0006a4e": "Yes (Wish to gain <PlayerName />'s exclusive cards).",

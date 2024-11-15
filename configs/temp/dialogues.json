@@ -477,11 +477,13 @@
   "SatoriCounseling": [
     {
       "current": "line:0595176",
+      "current_Koishi": "line:0ff4b4a",
       "next": {
         "0": "line:0f753ad",
         "0_invalid": "line:02f3a36",
         "1": "line:04fdd25",
-        "2": "line:0dd3ef4"
+        "2": "line:07db6e4",
+        "3": "line:0dd3ef4"
       }
     },
     {

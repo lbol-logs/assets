@@ -42,5 +42,16 @@
       "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "CirnoAttackG", "CirnoAttackG", "CirnoBlockU", "CirnoBlockU", "CirnoBlockU", "DayaojingFriend"],
       "Exhibit": "CirnoG"
     }
+  },
+  "Koishi": {
+    "BaseMana": "BBGG",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "KoishiAttackG", "KoishiAttackG", "KoishiBlockB", "KoishiBlockB", "DefaultPassion", "DefaultPeace"],
+      "Exhibit": "KoishiG"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "KoishiAttackB", "KoishiAttackB", "KoishiBlockG", "KoishiBlockG", "KoishiBlockG", "KoishiKiss", "BaseFollower"],
+      "Exhibit": "KoishiB"
+    }
   }
 }
