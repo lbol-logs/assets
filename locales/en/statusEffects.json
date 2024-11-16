@@ -14,8 +14,8 @@
     "level_other": "<Level /> ",
     "turns": "until end of turn",
     "turns_other": "for the next <Duration /> turns",
-    "sumOf": "",
-    "sumOf_other": "the sum of",
+    "theSumOf": "",
+    "theSumOf_other": "the sum of ",
     "upTo": "a",
     "upTo_other": "up to",
     "since": "",
@@ -937,7 +937,7 @@
   },
   "DreamExpressSe": {
     "Name": "Dream Express",
-    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Level />, then deal damage to each enemy equal twice $t(plurals.sumOf, { 'count': {{Level}} }) the total cost$t(plurals.-s, { 'count': {{Level}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Level}} })."
+    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Level />, then deal damage to each enemy equal twice $t(plurals.theSumOf, { 'count': {{Level}} })the total cost$t(plurals.-s, { 'count': {{Level}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "MeihongFireSe": {
     "Name": "Indiscriminate Ignition",
