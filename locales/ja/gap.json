@@ -15,7 +15,7 @@
     "DrinkTea_HuangyouJiqiren": "{{CardCount}}枚のカード報酬から1枚選びデッキに加える。",
     "UpgradeCard": "カードを1枚アップグレードする。",
     "UpgradeCard_PayForUpgrade": "基本でないカードをアップグレードするには<Money />{{Price}}が必要。",
-    "FindExhibit": "展示物を1個入手する。",
+    "FindExhibit": "展示品を1個入手する。",
     "GetMoney": "<Money />{{Value}}を得る。",
     "RemoveCard": "デッキからカードを1枚削除する。",
     "GetRareCard": "{{Value}}枚のランダムなレアカードから1枚選んでデッキに加える",
