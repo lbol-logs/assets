@@ -1826,7 +1826,7 @@
   },
   "DizangLove": {
     "Name": "Instant Bodhi",
-    "Description": "After <PlayerName /> plays a Common card, gain <Value1 /> <h>Temporary Firepower</h>.<br />",
+    "Description": "After <PlayerName /> plays a Common card, gain <Value1 /> <h>Temporary Firepower</h>.",
     "UpgradedDescription": "After <PlayerName /> plays a Common card, gain <Value1 /> <h>Temporary Firepower</h>.<br />Add a <h>Vitality</h> to the hand."
   },
   "YuyukoSing": {
@@ -2182,7 +2182,7 @@
   },
   "LilyChun": {
     "Name": "Spring is Here!",
-    "Description": "Add <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) that $t(subjects.has, { 'count': {{Value1}} }) a total cost of 1 to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.<br />",
+    "Description": "Add <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) that $t(subjects.has, { 'count': {{Value1}} }) a total cost of 1 to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.",
     "UpgradedDescription": "Add <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) that $t(subjects.has, { 'count': {{Value1}} }) a total cost of 1 to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "XiangziEcho": {
@@ -2196,7 +2196,7 @@
   },
   "YonglinUpgrade": {
     "Name": "Lunar Rabbit Incense",
-    "Description": "Gain <Value2 /> life.<br />At the start of <PlayerName />'s turn, <h>Upgrade</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand.<br />"
+    "Description": "Gain <Value2 /> life.<br />At the start of <PlayerName />'s turn, <h>Upgrade</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand."
   },
   "SanaeRice": {
     "Name": "Bumper Crop Rice Shower",

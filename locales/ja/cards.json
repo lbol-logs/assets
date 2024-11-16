@@ -1753,7 +1753,7 @@
   },
   "DizangLove": {
     "Name": "即席菩薩",
-    "Description": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。<br />",
+    "Description": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。",
     "UpgradedDescription": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。<br /><h>活力</h>を1枚手札に加える。"
   },
   "YuyukoSing": {
@@ -2109,7 +2109,7 @@
   },
   "LilyChun": {
     "Name": "春ですよー！",
-    "Description": "ランダムなマナ総量が1のカードを<Value1 />枚手札に加える。それらは<h>廃棄</h>と<h>虚無</h>を得る。<br />",
+    "Description": "ランダムなマナ総量が1のカードを<Value1 />枚手札に加える。それらは<h>廃棄</h>と<h>虚無</h>を得る。",
     "UpgradedDescription": "ランダムなマナ総量が1のカードを<Value1 />枚手札に加える。それらは<h>臨時コスト</h><Mana />と<h>廃棄</h>、<h>虚無</h>を得る。"
   },
   "XiangziEcho": {
@@ -2123,7 +2123,7 @@
   },
   "YonglinUpgrade": {
     "Name": "仙香玉兎",
-    "Description": "ライフを<Value2 />回復する。<br />ターン開始時に、ランダムな手札のカードを<Value1 />枚<h>アップグレード</h>する。<br />"
+    "Description": "ライフを<Value2 />回復する。<br />ターン開始時に、ランダムな手札のカードを<Value1 />枚<h>アップグレード</h>する。"
   },
   "SanaeRice": {
     "Name": "五穀豊穣ライスシャワー",

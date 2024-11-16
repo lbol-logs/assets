@@ -1806,7 +1806,7 @@
   },
   "DizangLove": {
     "Name": "即席菩提",
-    "Description": "打出普通卡牌后，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>。<br />",
+    "Description": "打出普通卡牌后，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>。",
     "UpgradedDescription": "打出普通卡牌后，<PlayerName />获得 <Value1 /> 点<h>暂得火力</h>。<br />将一张<h>生机</h>加入手中。"
   },
   "YuyukoSing": {
@@ -2162,7 +2162,7 @@
   },
   "LilyChun": {
     "Name": "春天到了！",
-    "Description": "将 <Value1 /> 张随机一费卡牌加入手中，它们具有<h>放逐</h>、<h>虚无</h>。<br />",
+    "Description": "将 <Value1 /> 张随机一费卡牌加入手中，它们具有<h>放逐</h>、<h>虚无</h>。",
     "UpgradedDescription": "将 <Value1 /> 张随机一费卡牌加入手中，它们<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "XiangziEcho": {
@@ -2176,7 +2176,7 @@
   },
   "YonglinUpgrade": {
     "Name": "仙香玉兔",
-    "Description": "恢复 <Value2 /> 点生命。<br /><PlayerName />的回合开始时，<h>升级</h> <Value1 /> 张随机的手牌。<br />"
+    "Description": "恢复 <Value2 /> 点生命。<br /><PlayerName />的回合开始时，<h>升级</h> <Value1 /> 张随机的手牌。"
   },
   "SanaeRice": {
     "Name": "五谷丰登米之浴",
