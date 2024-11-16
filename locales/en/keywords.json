@@ -5,11 +5,14 @@
   "Forbidden": "Unplayable",
   "Exile": "Exile",
   "Echo": "Echo",
+  "EternalEcho": "Permanent Echo",
   "Ethereal": "Ethereal",
   "Initial": "Innate",
   "Retain": "Retain",
   "TempRetain": "Temporary Retain",
   "Replenish": "Replenish",
   "Purified": "Pure",
-  "AutoExile": "Auto Exile"
+  "AutoExile": "Auto Exile",
+  "FollowCard": "Follow-Up Card",
+  "DreamCard": "Dream Card"
 }

@@ -5,11 +5,14 @@
   "Forbidden": "禁止",
   "Exile": "放逐",
   "Echo": "回响",
+  "EternalEcho": "持续回响",
   "Ethereal": "虚无",
   "Initial": "固有",
   "Retain": "保留",
   "TempRetain": "暂留",
   "Replenish": "填充",
   "Purified": "已净化",
-  "AutoExile": "自动放逐"
+  "AutoExile": "自动放逐",
+  "FollowCard": "追击牌",
+  "DreamCard": "梦境牌"
 }

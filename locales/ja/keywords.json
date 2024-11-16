@@ -5,11 +5,14 @@
   "Forbidden": "禁止",
   "Exile": "廃棄",
   "Echo": "反復",
+  "EternalEcho": "持続反復",
   "Ethereal": "虚無",
   "Initial": "固有",
   "Retain": "保留",
   "TempRetain": "一時保留",
   "Replenish": "補充",
   "Purified": "浄化済み",
-  "AutoExile": "自動廃棄"
+  "AutoExile": "自動廃棄",
+  "FollowCard": "追撃",
+  "DreamCard": "夢境"
 }
