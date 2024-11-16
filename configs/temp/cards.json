@@ -2635,13 +2635,13 @@
     "Owner": "Sakuya",
     "0": {
       "Cost": "3U",
-      "Block": 14,
+      "Block": 15,
       "Value1": 1,
       "Mana": 1
     },
     "1": {
       "Cost": "2U",
-      "Block": 15
+      "Block": 16
     }
   },
   "AttackMagic": {
@@ -2651,13 +2651,12 @@
     "IsXCost": false,
     "Owner": "Sakuya",
     "0": {
-      "Cost": "WU",
-      "Damage": 12,
-      "Value1": 1,
-      "Value2": 1
+      "Cost": "H:HWU",
+      "Damage": 8,
+      "Value1": 1
     },
     "1": {
-      "Cost": "H:HWU"
+      "Damage": 12
     }
   },
   "SakuyaSleep": {
@@ -2730,7 +2729,7 @@
       "Value1": 3
     },
     "1": {
-      "Cost": "W"
+      "Value1": 4
     }
   },
   "GainKnife": {
@@ -2780,19 +2779,20 @@
       "Block": 24
     }
   },
-  "SakuyaAttackX": {
+  "KnifeDamageUp": {
     "Rarity": "Uncommon",
-    "Type": "Attack",
+    "Type": "Ability",
     "Colors": "W",
-    "IsXCost": true,
+    "IsXCost": false,
     "Owner": "Sakuya",
     "0": {
-      "Cost": "W",
-      "Damage": 7,
-      "Mana": 1
+      "Cost": "WWW",
+      "Value1": 4,
+      "Value2": 1
     },
     "1": {
-      "Damage": 9
+      "Cost": "WW",
+      "Value2": 2
     }
   },
   "SakuyaDraw": {
@@ -3110,7 +3110,7 @@
     "IsXCost": false,
     "Owner": "Sakuya",
     "0": {
-      "Cost": "2WW",
+      "Cost": "3WW",
       "Value1": 1,
       "Mana": 0
     },
@@ -4570,12 +4570,12 @@
       "Cost": "2R",
       "Damage": 9,
       "Value1": 3,
-      "Value2": 2,
+      "Value2": 1,
       "Keywords": "Accuracy"
     },
     "1": {
       "Value1": 4,
-      "Value2": 3,
+      "Value2": 2,
       "Keywords": "Accuracy"
     }
   },
@@ -4645,12 +4645,12 @@
     "0": {
       "Cost": "1B",
       "Damage": 10,
-      "Keywords": "Basic"
+      "Keywords": "Basic,FollowCard"
     },
     "1": {
       "Cost": 2,
       "Damage": 14,
-      "Keywords": "Basic"
+      "Keywords": "Basic,FollowCard"
     }
   },
   "KoishiBlockG": {
@@ -4677,7 +4677,7 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "BB",
+      "Cost": "1B",
       "Damage": 12
     },
     "1": {
@@ -4691,101 +4691,60 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "2G",
+      "Cost": "1GG",
       "Block": 12
     },
     "1": {
       "Block": 17
     }
   },
-  "FindInspiration": {
-    "Rarity": "Common",
-    "Type": "Attack",
-    "Colors": "BG",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "BG",
-      "Damage": 10,
-      "Value1": 1
-    },
-    "1": {
-      "Cost": "H:HBG"
-    }
-  },
-  "InspirationCard": {
-    "Rarity": "Common",
-    "Type": "Skill",
-    "Colors": "BG",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": 0
-    },
-    "1": {}
-  },
-  "InspirationBlack": {
+  "KoishiKiss": {
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": 0,
-      "Damage": 12,
-      "Block": 12,
-      "Keywords": "Accuracy"
+      "Cost": "BB",
+      "Damage": 6,
+      "Value1": 0
     },
     "1": {
-      "Damage": 16,
-      "Block": 16,
-      "Keywords": "Accuracy"
+      "Damage": 10,
+      "Value1": 1
     }
   },
-  "InspirationGreen": {
+  "BaseFollower": {
     "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 20,
+      "Keywords": "FollowCard"
+    },
+    "1": {
+      "Damage": 25,
+      "Keywords": "Accuracy,FollowCard"
+    }
+  },
+  "InspirationCard": {
+    "Rarity": "Uncommon",
     "Type": "Skill",
     "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
       "Cost": 0,
-      "Mana": "PPP"
+      "Value1": 1,
+      "Mana": "P",
+      "Keywords": "Replenish"
     },
     "1": {
-      "Mana": "{4P}"
-    }
-  },
-  "InspirationWhite": {
-    "Rarity": "Common",
-    "Type": "Skill",
-    "Colors": "W",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": 0,
-      "Value1": 3,
-      "Value2": 6
-    },
-    "1": {
-      "Value1": 4
-    }
-  },
-  "InspirationRed": {
-    "Rarity": "Common",
-    "Type": "Attack",
-    "Colors": "R",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": 0,
-      "Damage": 10,
-      "Value1": 2,
-      "Keywords": "Accuracy"
-    },
-    "1": {
-      "Value1": 3,
-      "Keywords": "Accuracy"
+      "Mana": "PP",
+      "Keywords": "Replenish"
     }
   },
   "PassionDefense": {
@@ -4796,15 +4755,15 @@
     "Owner": "Koishi",
     "0": {
       "Cost": 0,
-      "Block": 3,
-      "Value1": 9
+      "Block": 4,
+      "Value1": 8
     },
     "1": {
-      "Block": 5,
+      "Block": 6,
       "Value1": 12
     }
   },
-  "EnterPassion": {
+  "PassionMemory": {
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "B",
@@ -4819,48 +4778,101 @@
       "Keywords": "Exile,Retain"
     }
   },
-  "LeaveMoodAttack": {
+  "Claustrophobia": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Block": 12,
+      "Shield": 6,
+      "Keywords": "Instinct"
+    },
+    "1": {
+      "Block": 16,
+      "Shield": 8,
+      "Keywords": "Instinct"
+    }
+  },
+  "MultiFollower": {
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "1B",
-      "Damage": 14
+      "Cost": "2B",
+      "Damage": 9,
+      "Value1": 2,
+      "Keywords": "FollowCard"
     },
     "1": {
-      "Cost": 2,
-      "Damage": 18
+      "Value1": 3,
+      "Keywords": "FollowCard"
     }
   },
-  "KoishiZeroAttack": {
+  "ToAllFollower": {
     "Rarity": "Common",
     "Type": "Attack",
-    "Colors": "G",
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": 0,
-      "Damage": 5
+      "Cost": "2B",
+      "Damage": 16,
+      "Keywords": "FollowCard"
     },
     "1": {
-      "Damage": 8
+      "Damage": 20,
+      "Keywords": "FollowCard"
     }
   },
-  "EnterPeace": {
+  "DefenseFollowAttack": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1BB",
+      "Block": 13,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 18
+    }
+  },
+  "KoishiDrawTop": {
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "1G",
-      "Keywords": "Exile,Retain"
+      "Cost": "G",
+      "Value1": 2,
+      "Value2": 1,
+      "Keywords": "Exile"
     },
     "1": {
-      "Cost": 1,
-      "Keywords": "Exile,Retain"
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "LeaveMoodAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Damage": 14
+    },
+    "1": {
+      "Cost": 1
     }
   },
   "LeaveMoodGraze": {
@@ -4874,7 +4886,23 @@
       "Value1": 1
     },
     "1": {
-      "Value1": 2
+      "Cost": 1
+    }
+  },
+  "FlowerGone": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Block": 18,
+      "Shield": 18
+    },
+    "1": {
+      "Block": 24,
+      "Shield": 24
     }
   },
   "MoodAttack": {
@@ -4885,10 +4913,26 @@
     "Owner": "Koishi",
     "0": {
       "Cost": 0,
-      "Damage": 6
+      "Damage": 6,
+      "Keywords": "FollowCard"
     },
     "1": {
-      "Damage": 9
+      "Damage": 9,
+      "Keywords": "FollowCard"
+    }
+  },
+  "GrazeFollowAttack": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "H:HBG"
     }
   },
   "PassionVulnerable": {
@@ -4905,7 +4949,20 @@
       "Value1": 4
     }
   },
-  "NextTurnPassion": {
+  "PlayDrawTop": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B"
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "TheChariot": {
     "Rarity": "Uncommon",
     "Type": "Skill",
     "Colors": "B",
@@ -4913,10 +4970,26 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "1B",
-      "Value1": 2
+      "Value1": 2,
+      "Scry": 3
     },
     "1": {
-      "Cost": 1
+      "Cost": 1,
+      "Scry": 5
+    }
+  },
+  "CloseEye": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Shield": 18
+    },
+    "1": {
+      "Shield": 22
     }
   },
   "PassionAttackToDraw": {
@@ -4927,7 +5000,7 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "BB",
-      "Damage": 10,
+      "Damage": 9,
       "Value1": 2
     },
     "1": {
@@ -4948,6 +5021,109 @@
       "Cost": 0
     }
   },
+  "BabyDream": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Block": 18,
+      "Value1": 3
+    },
+    "1": {
+      "Block": 24,
+      "Value1": 5
+    }
+  },
+  "DuplicateFollower": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 16,
+      "Value1": 1,
+      "Mana": "B",
+      "Keywords": "FollowCard"
+    },
+    "1": {
+      "Damage": 20,
+      "Mana": "P",
+      "Keywords": "FollowCard"
+    }
+  },
+  "AncestorDream": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 17,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 22,
+      "Value1": 5,
+      "Keywords": "Accuracy"
+    }
+  },
+  "YaoguaiLaser": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3B",
+      "Damage": 16,
+      "Keywords": "Instinct"
+    },
+    "1": {
+      "Cost": "2B",
+      "Keywords": "Instinct"
+    }
+  },
+  "KoishiZeroAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Damage": 4,
+      "Keywords": "EternalEcho"
+    },
+    "1": {
+      "Damage": 7,
+      "Keywords": "EternalEcho"
+    }
+  },
+  "KoishiWake": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "G",
+      "Shield": 16,
+      "Value1": 4,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Shield": 24,
+      "Value1": 6,
+      "Keywords": "Exile"
+    }
+  },
   "PeaceEndTurn": {
     "Rarity": "Uncommon",
     "Type": "Skill",
@@ -4962,21 +5138,37 @@
       "Value1": 1
     }
   },
-  "BabyDream": {
+  "KoishiGainColorless": {
     "Rarity": "Uncommon",
-    "Type": "Attack",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "G",
+      "Mana": "CCC"
+    },
+    "1": {
+      "Cost": 1,
+      "Mana": "{4C}"
+    }
+  },
+  "PeaceMemory": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
     "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
       "Cost": "1G",
-      "Damage": 5
+      "Keywords": "Exile,Retain"
     },
     "1": {
-      "Damage": 10
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
     }
   },
-  "PeaceDraw": {
+  "KoishiSpringOut": {
     "Rarity": "Uncommon",
     "Type": "Skill",
     "Colors": "G",
@@ -4988,6 +5180,37 @@
     },
     "1": {
       "Cost": 1
+    }
+  },
+  "InspirationDefense": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Block": 10,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 14
+    }
+  },
+  "KoishiFire": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3
     }
   },
   "PeaceBlock": {
@@ -5002,6 +5225,84 @@
     },
     "1": {
       "Value1": 9
+    }
+  },
+  "KoishiFlower": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Damage": 12,
+      "Block": 12,
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Damage": 16,
+      "Block": 16
+    }
+  },
+  "TheHermit": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Mana": "PPP",
+      "Scry": 3
+    },
+    "1": {
+      "Scry": 5
+    }
+  },
+  "FindInspiration": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1GG",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "KoishiGrowAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3G",
+      "Damage": 20,
+      "Value1": 4,
+      "Mana": 2
+    },
+    "1": {
+      "Damage": 25,
+      "Value1": 5
+    }
+  },
+  "GainZeroAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2GG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "2G"
     }
   },
   "LeaveMoodDraw": {
@@ -5032,366 +5333,141 @@
       "Value1": 7
     }
   },
+  "BlackEpiphany": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "B",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
   "PsycheLock": {
     "Rarity": "Rare",
-    "Type": "Attack",
+    "Type": "Skill",
     "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
       "Cost": 0,
-      "Damage": 15,
-      "Value1": 2,
-      "Mana": "PPP",
       "Keywords": "Exile,Retain"
     },
     "1": {
-      "Damage": 20,
-      "Mana": "{5P}",
       "Keywords": "Exile,Retain"
     }
   },
-  "YaoguaiNaodianbo": {
-    "Rarity": "Common",
-    "Type": "Attack",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "2B",
-      "Damage": 15,
-      "Value1": 1,
-      "Mana": "BB",
-      "Keywords": "Instinct"
-    },
-    "1": {
-      "Damage": 18,
-      "Value1": 1,
-      "Mana": "PP",
-      "Keywords": "Instinct"
-    }
-  },
-  "YoubiKongjuzheng": {
-    "Rarity": "Common",
-    "Type": "Defense",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1B",
-      "Block": 10,
-      "Shield": 10,
-      "Keywords": "Instinct"
-    },
-    "1": {
-      "Block": 12,
-      "Shield": 12,
-      "Keywords": "Instinct"
-    }
-  },
-  "QinchunPanni": {
-    "Rarity": "Common",
-    "Type": "Attack",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "B",
-      "Damage": 12,
-      "Block": 14,
-      "Value1": 2
-    },
-    "1": {
-      "Damage": 16,
-      "Block": 18,
-      "Value1": 2
-    }
-  },
-  "FlowerGone": {
-    "Rarity": "Uncommon",
-    "Type": "Defense",
-    "Colors": "G",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "2G",
-      "Block": 18,
-      "Value1": 2
-    },
-    "1": {
-      "Block": 22,
-      "Value1": 3,
-      "Keywords": "Retain"
-    }
-  },
-  "ZhuozhuangChengzhang": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
-    "Colors": "G",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "3G",
-      "Value1": 1,
-      "Value2": 0
-    },
-    "1": {
-      "Value1": 1,
-      "Value2": 1
-    }
-  },
-  "LianaiChongdong": {
-    "Rarity": "Uncommon",
+  "FakeBullet": {
+    "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": "G",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1G",
-      "Value1": 12,
-      "Value2": 3
-    },
-    "1": {
-      "Value1": 16,
-      "Value2": 4
-    }
-  },
-  "TaoqiQiangwei": {
-    "Rarity": "Uncommon",
-    "Type": "Defense",
-    "Colors": "G",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "4GG",
-      "Block": 18,
-      "Value1": 3,
-      "Mana": 1
-    },
-    "1": {
-      "Cost": "4G",
-      "Block": 20,
-      "Value1": 3
-    }
-  },
-  "LoveSeed": {
-    "Rarity": "Uncommon",
-    "Type": "Skill",
-    "Colors": "G",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "GG",
-      "Value1": 3,
-      "Mana": "P",
-      "Keywords": "Exile",
-      "TotalMana": "G"
-    },
-    "1": {
-      "Cost": "1G",
-      "Value1": 6,
-      "Mana": "P",
-      "Keywords": "Exile"
-    }
-  },
-  "BenwoTouying": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "2B",
-      "Mana": 0
-    },
-    "1": {
-      "Cost": "B",
-      "Mana": 0
-    }
-  },
-  "BeihaiWangxiang": {
-    "Rarity": "Uncommon",
-    "Type": "Defense",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1B",
-      "Shield": 26
-    },
-    "1": {
-      "Shield": 32
-    }
-  },
-  "CloseMemory": {
-    "Rarity": "Uncommon",
-    "Type": "Skill",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "BB",
-      "Value1": 2,
-      "Keywords": "Exile"
-    },
-    "1": {
-      "Value1": 3,
-      "Keywords": "Exile"
-    }
-  },
-  "Danxiangsi": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
     "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
       "Cost": "1BB",
-      "Value1": 2,
-      "Value2": 1,
-      "Keywords": "Retain"
+      "Value1": 2
     },
     "1": {
-      "Cost": "1B",
-      "Value1": 2,
-      "Keywords": "Initial,Retain"
+      "Value1": 3
     }
   },
-  "JiyiShitihua": {
-    "Rarity": "Uncommon",
-    "Type": "Attack",
-    "Colors": "BG",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "2BG",
-      "Damage": 15,
-      "Value1": 1,
-      "Mana": 0,
-      "Keywords": "Exile"
-    },
-    "1": {
-      "Cost": "1BG",
-      "Damage": 20,
-      "Value1": 1,
-      "Mana": 0,
-      "Keywords": "Exile"
-    }
-  },
-  "PerfectCrime": {
+  "KoishiMana": {
     "Rarity": "Rare",
     "Type": "Attack",
-    "Colors": "G",
+    "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "3G",
-      "Damage": 22,
-      "Keywords": "Exile"
+      "Cost": "3B",
+      "Damage": 6,
+      "Mana": "WUBRG"
     },
     "1": {
-      "Cost": "1G",
-      "Damage": 22,
-      "Keywords": "Exile,Retain"
+      "Mana": "WUBRGCP"
     }
   },
-  "Kongxiangshang": {
+  "KoishiSpark": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3BB",
+      "Damage": 32,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 36,
+      "Keywords": "Accuracy,FollowCard"
+    }
+  },
+  "LoveFire": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2BBB",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "2BB"
+    }
+  },
+  "GainInspiration": {
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "GGG"
+      "Cost": "GGG",
+      "Value1": 1
     },
     "1": {
       "Cost": "G"
     }
   },
-  "ZuxianTuomeng": {
+  "PerfectCrime": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": "B",
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": 0,
-      "Value1": 2,
-      "Mana": 1,
-      "Keywords": "Forbidden,Ethereal"
-    },
-    "1": {
-      "Value1": 2,
-      "Mana": 0,
-      "Keywords": "Forbidden,Ethereal,Replenish"
-    }
-  },
-  "ChaoyueZiwo": {
-    "Rarity": "Rare",
-    "Type": "Ability",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1B",
-      "Value1": 1
-    },
-    "1": {
-      "Value1": 1
-    }
-  },
-  "LoveFire": {
-    "Rarity": "Rare",
-    "Type": "Attack",
-    "Colors": "B",
-    "IsXCost": true,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "B",
-      "Damage": 5,
-      "Value1": 5,
-      "Mana": 1
-    },
-    "1": {
-      "Damage": 6,
-      "Value1": 6,
-      "Mana": 1,
-      "Keywords": "Retain"
-    }
-  },
-  "Beiyanwu": {
-    "Rarity": "Rare",
-    "Type": "Skill",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "BB",
-      "Value1": 2,
-      "Mana": "PP",
+      "Cost": "3GG",
+      "Value1": 3,
       "Keywords": "Exile"
     },
     "1": {
-      "Value1": 2,
-      "Mana": "PPP",
+      "Cost": "2G",
       "Keywords": "Exile"
     }
   },
-  "WuyishiDNA": {
+  "TheFool": {
     "Rarity": "Rare",
     "Type": "Skill",
     "Colors": "BG",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": 0,
-      "Keywords": "Exile"
+      "Cost": "BG",
+      "Scry": 3
     },
     "1": {
-      "Keywords": "Exile,Retain"
+      "Scry": 7
     }
   },
-  "QiangweiDiyu": {
+  "KoishiDna": {
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "BG",
@@ -5399,98 +5475,56 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "BBGG",
-      "Value1": 6,
-      "Value2": 2
+      "Value1": 1
     },
     "1": {
-      "Value1": 10,
-      "Value2": 2
+      "Cost": "BG"
     }
   },
-  "WuyunJiekong": {
+  "KoishiAttackX": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "BG",
+    "IsXCost": true,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BG",
+      "Damage": 9,
+      "Mana": "G"
+    },
+    "1": {
+      "Damage": 12,
+      "Mana": "P"
+    }
+  },
+  "Anatta": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "4W",
+      "Mana": "{4P}"
+    },
+    "1": {
+      "Cost": "2W"
+    }
+  },
+  "ButterflyDream": {
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "W",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
+      "Cost": "3W",
+      "Value1": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {
       "Cost": "2W",
-      "Keywords": "Retain"
-    },
-    "1": {
-      "Cost": "1W",
-      "Keywords": "Echo,Retain"
-    }
-  },
-  "MirrorTest": {
-    "Rarity": "Uncommon",
-    "Type": "Defense",
-    "Colors": "U",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1U",
-      "Shield": 12
-    },
-    "1": {
-      "Shield": 16
-    }
-  },
-  "EnterEnlight": {
-    "Rarity": "Uncommon",
-    "Type": "Skill",
-    "Colors": "U",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1U",
-      "Keywords": "Exile"
-    },
-    "1": {}
-  },
-  "QingxingMeng": {
-    "Rarity": "Rare",
-    "Type": "Ability",
-    "Colors": "U",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "2UB",
-      "Value1": 1,
-      "Mana": 1
-    },
-    "1": {
-      "Cost": "UB",
-      "Value1": 1,
-      "Mana": 1
-    }
-  },
-  "LunaticPassion": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
-    "Colors": "R",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1R",
-      "Percentage": 100
-    },
-    "1": {
-      "Cost": 0
-    }
-  },
-  "SiwangLaiDian": {
-    "Rarity": "Rare",
-    "Type": "Skill",
-    "Colors": "R",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "1R",
-      "Value1": 3
-    },
-    "1": {
-      "Value1": 3
+      "Keywords": "Ethereal"
     }
   },
   "KokoroFriend": {
@@ -5501,12 +5535,93 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "WB",
-      "Loyalty": 3,
+      "Value1": 1,
+      "Loyalty": 4,
       "PassiveCost": 1,
-      "ActiveCost": -4,
-      "UltimateCost": -7
+      "ActiveCost": -2,
+      "ActiveCost2": -4,
+      "UltimateCost": -5
     },
-    "1": {}
+    "1": {
+      "Cost": "H:HWB",
+      "Loyalty": 5
+    }
+  },
+  "EnterEpiphany": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1U",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "KoishiDive": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1U",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 5
+    }
+  },
+  "LunaticPassion": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "R"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Initial"
+    }
+  },
+  "KoishiPhone": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "4R",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "3R"
+    }
+  },
+  "FollowAttackFiller": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Damage": 12,
+      "Keywords": "FollowCard"
+    },
+    "1": {
+      "Cost": 0,
+      "Damage": 16,
+      "Keywords": "FollowCard"
+    }
   },
   "AliceAttackW": {
     "Rarity": "Common",
@@ -5601,38 +5716,16 @@
       "Damage": 20
     }
   },
-  "DoubleActiveTrigger": {
+  "DollBlock": {
     "Rarity": "Common",
-    "Type": "Skill",
+    "Type": "Defense",
+    "Colors": "W",
     "IsXCost": false,
     "Owner": "Alice",
     "0": {
-      "Cost": 1
+      "Cost": "W"
     },
     "1": {}
-  },
-  "TriggerAllPassive": {
-    "Rarity": "Common",
-    "Type": "Skill",
-    "IsXCost": false,
-    "Owner": "Alice",
-    "0": {
-      "Cost": 1
-    },
-    "1": {}
-  },
-  "GainDollSlot": {
-    "Rarity": "Common",
-    "Type": "Skill",
-    "IsXCost": false,
-    "Owner": "Alice",
-    "0": {
-      "Cost": 1,
-      "Value1": 2
-    },
-    "1": {
-      "Value1": 3
-    }
   },
   "DollFactory": {
     "Rarity": "Uncommon",
@@ -5711,6 +5804,50 @@
     },
     "1": {}
   },
+  "Zhendijianzao": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Alice",
+    "0": {
+      "Cost": "1B"
+    },
+    "1": {}
+  },
+  "DoubleActiveTrigger": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "Owner": "Alice",
+    "0": {
+      "Cost": 1
+    },
+    "1": {}
+  },
+  "TriggerAllPassive": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "Owner": "Alice",
+    "0": {
+      "Cost": 1
+    },
+    "1": {}
+  },
+  "GainDollSlot": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "Owner": "Alice",
+    "0": {
+      "Cost": 1,
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
   "YoumuAttack": {
     "Rarity": "Common",
     "Type": "Attack",
@@ -5750,8 +5887,8 @@
     },
     "1": {
       "Cost": 2,
-      "Block": 13,
-      "Value1": 13
+      "Block": 14,
+      "Value1": 14
     }
   },
   "YunyouShengdi": {
@@ -5903,7 +6040,7 @@
     "IsXCost": false,
     "0": {
       "Cost": "2W",
-      "Damage": 20,
+      "Damage": 18,
       "Value1": 8,
       "Value2": 0,
       "Keywords": "Accuracy"
@@ -6413,6 +6550,19 @@
       "Keywords": "Exile"
     }
   },
+  "DreamExpress": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "3B",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
   "TrueMoon": {
     "Rarity": "Rare",
     "Type": "Ability",
@@ -6647,7 +6797,7 @@
     },
     "1": {
       "Damage": 16,
-      "Value1": 5,
+      "Value1": 4,
       "Keywords": "Exile,Ethereal"
     }
   },
@@ -6712,12 +6862,12 @@
     "IsXCost": false,
     "0": {
       "Cost": "1G",
-      "Block": 12,
+      "Block": 10,
       "Value1": 1
     },
     "1": {
       "Cost": 2,
-      "Block": 16
+      "Block": 14
     }
   },
   "YouxiangMoon": {
@@ -6727,11 +6877,11 @@
     "IsXCost": false,
     "0": {
       "Cost": "1G",
-      "Value1": 2,
+      "Value1": 1,
       "Mana": "G"
     },
     "1": {
-      "Cost": 1
+      "Value1": 2
     }
   },
   "DizangLove": {
@@ -7201,22 +7351,6 @@
       "Cost": 0,
       "Value1": 1,
       "Value2": 2
-    }
-  },
-  "HuiyinAttack": {
-    "Rarity": "Common",
-    "Type": "Attack",
-    "Colors": "WU",
-    "IsXCost": false,
-    "0": {
-      "Cost": "1H:HWU",
-      "Damage": 14,
-      "Value1": 1
-    },
-    "1": {
-      "Cost": 2,
-      "Damage": 18,
-      "Value1": 2
     }
   },
   "ReadBook": {
@@ -7720,6 +7854,22 @@
       "Keywords": "Exile"
     }
   },
+  "JunkoNightmare": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2UB",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": "1UB",
+      "Value2": 1
+    }
+  },
   "XiaosanReflect": {
     "Rarity": "Common",
     "Type": "Defense",
@@ -7732,8 +7882,37 @@
     },
     "1": {
       "Cost": 2,
-      "Shield": 13,
-      "Value1": 13
+      "Shield": 14,
+      "Value1": 14
+    }
+  },
+  "SuikaDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HUR",
+      "Value1": 6
+    },
+    "1": {
+      "Value1": 7
+    }
+  },
+  "FourFlan": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HUR",
+      "Damage": 12,
+      "Value1": 1,
+      "Value2": 3,
+      "Mana": "H:HUR"
+    },
+    "1": {
+      "Mana": 0
     }
   },
   "YijiuAttack": {
@@ -7751,19 +7930,6 @@
       "Keywords": "Accuracy"
     }
   },
-  "SuikaDraw": {
-    "Rarity": "Uncommon",
-    "Type": "Skill",
-    "Colors": "UR",
-    "IsXCost": false,
-    "0": {
-      "Cost": "H:HUR",
-      "Value1": 6
-    },
-    "1": {
-      "Value1": 7
-    }
-  },
   "ReisenMana": {
     "Rarity": "Uncommon",
     "Type": "Skill",
@@ -7776,20 +7942,17 @@
       "Cost": "UR"
     }
   },
-  "FourFlan": {
+  "BailianMagic": {
     "Rarity": "Rare",
-    "Type": "Attack",
+    "Type": "Skill",
     "Colors": "UR",
     "IsXCost": false,
     "0": {
-      "Cost": "1H:HUR",
-      "Damage": 14,
-      "Value1": 1,
-      "Value2": 3,
-      "Mana": "H:HUR"
+      "Cost": "H:HUR",
+      "Value1": 1
     },
     "1": {
-      "Mana": 0
+      "Value1": 2
     }
   },
   "HekaHellRain": {
@@ -8205,13 +8368,12 @@
     "Colors": "BG",
     "IsXCost": false,
     "0": {
-      "Cost": "BG",
+      "Cost": "1H:HBG",
       "Damage": 20,
       "Value1": 1,
       "Keywords": "Accuracy"
     },
     "1": {
-      "Cost": "1H:HBG",
       "Damage": 22,
       "Value1": 2,
       "Keywords": "Accuracy"
@@ -8445,7 +8607,7 @@
       "Keywords": "Exile,Retain"
     }
   },
-  "JinziSuperExtraTurn": {
+  "JinziDoppelganger": {
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "UGB",
@@ -8500,22 +8662,17 @@
       "Keywords": "Initial"
     }
   },
-  "JunkoNightmare": {
+  "HuiyeSuperExtraTurn": {
     "Rarity": "Rare",
-    "Type": "Attack",
+    "Type": "Ability",
     "Colors": "WUB",
     "IsXCost": false,
     "0": {
-      "Cost": "WUB",
-      "Damage": 4,
-      "Value1": 4,
-      "Value2": 0
+      "Cost": "2WUB",
+      "Value1": 1,
+      "Keywords": "Ethereal"
     },
-    "1": {
-      "Damage": 5,
-      "Value1": 5,
-      "Value2": 1
-    }
+    "1": {}
   },
   "ModuoluoSeasons": {
     "Rarity": "Rare",
@@ -9105,6 +9262,15 @@
       "Keywords": "Forbidden"
     }
   },
+  "KoishiDiscard": {
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Forbidden,Ethereal"
+    }
+  },
   "Frog": {
     "Rarity": "Common",
     "Type": "Status",
@@ -9400,7 +9566,7 @@
   "FakeCard": {
     "Rarity": "Common",
     "Type": "Skill",
-    "Colors": "B",
+    "Colors": "G",
     "IsXCost": false,
     "0": {
       "Cost": "G"
@@ -9442,6 +9608,29 @@
       "Keywords": "Exile"
     }
   },
+  "AttackX": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": true,
+    "0": {
+      "Cost": "W",
+      "Damage": 7,
+      "Mana": 1
+    },
+    "1": {
+      "Damage": 9
+    }
+  },
+  "DebugExileDrawDiscard": {
+    "Rarity": "Common",
+    "Type": "Ability",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0
+    },
+    "1": {}
+  },
   "DebugAddRandomCards": {
     "Rarity": "Common",
     "Type": "Ability",
@@ -9454,16 +9643,31 @@
       "Value1": 10
     }
   },
-  "DebugExileDrawDiscard": {
+  "DebugAddRandomCardsSlow": {
     "Rarity": "Common",
     "Type": "Ability",
     "IsXCost": false,
     "0": {
-      "Cost": 0
+      "Cost": 0,
+      "Value1": 5
     },
-    "1": {}
+    "1": {
+      "Value1": 10
+    }
   },
-  "DebugAddRandomCardsSlow": {
+  "DebugAddRandomCardsToExile": {
+    "Rarity": "Common",
+    "Type": "Ability",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 5
+    },
+    "1": {
+      "Value1": 10
+    }
+  },
+  "DebugAddRandomCardsToExileSlow": {
     "Rarity": "Common",
     "Type": "Ability",
     "IsXCost": false,
@@ -9488,6 +9692,36 @@
     }
   },
   "DebugAddHandCards": {
+    "Rarity": "Common",
+    "Type": "Ability",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 5
+    },
+    "1": {
+      "Value1": 10
+    }
+  },
+  "DebugRemoveHand": {
+    "Rarity": "Common",
+    "Type": "Ability",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0
+    },
+    "1": {}
+  },
+  "DebugRemoveAllHandWhenDraw": {
+    "Rarity": "Common",
+    "Type": "Ability",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0
+    },
+    "1": {}
+  },
+  "DebugUpgradeAllZone": {
     "Rarity": "Common",
     "Type": "Ability",
     "IsXCost": false,
