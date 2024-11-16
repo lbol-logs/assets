@@ -47,7 +47,7 @@
   "power": "パワー",
   "money": "資金力",
   "round": "ラウンド",
-  "roundCounter": "ラウンド {{0}}",
+  "roundCounter": "第{{0}}ラウンド",
   "turnCounter": "ターン {{0}}",
   "startOfTurn": "ターン開始時",
   "endOfTurn": "ターン終了時",
