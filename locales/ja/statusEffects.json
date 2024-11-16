@@ -825,7 +825,8 @@
   },
   "ZhenmiaowanAttackSe": {
     "Name": "一寸法師の末裔",
-    "Description": "このターン中、スキルカードのコストが<Mana />減る。"
+    "Description": "このターン中、スキルカードのコストが<Mana />減る。",
+    "ExtraDescription": "このターン中、カードのコストが<Mana />減る。"
   },
   "ModuoluoFireSe": {
     "Name": "穢那の火",

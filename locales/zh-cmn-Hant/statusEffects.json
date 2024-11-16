@@ -901,7 +901,8 @@
   },
   "ZhenmiaowanAttackSe": {
     "Name": "一寸法師的末裔",
-    "Description": "本回合內技能牌的費用降低<Mana />。"
+    "Description": "本回合內技能牌的費用降低<Mana />。",
+    "ExtraDescription": "本回合內卡牌的費用降低<Mana />。"
   },
   "ModuoluoFireSe": {
     "Name": "穢那之火",

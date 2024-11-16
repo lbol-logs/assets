@@ -275,7 +275,9 @@
   "RangziFanshuSe": {},
   "DizangLoveSe": {},
   "ZhenmiaowanAttackSe": {
-    "Mana": 1
+    "Mana": 1,
+    "hasExtra": true,
+    "Limit": 1
   },
   "ModuoluoFireSe": {},
   "RinDrawSe": {},

@@ -965,7 +965,8 @@
   },
   "ZhenmiaowanAttackSe": {
     "Name": "Descendant of Issun-Boushi",
-    "Description": "In this turn, the cost of skill cards are decreased by <Mana />."
+    "Description": "In this turn, the cost of skill cards are decreased by <Mana />.",
+    "ExtraDescription": "In this turn, the cost of cards are decreased by <Mana />."
   },
   "ModuoluoFireSe": {
     "Name": "Fire of Ena",
