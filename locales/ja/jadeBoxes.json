@@ -29,7 +29,7 @@
   },
   "SlowMana": {
     "Name": "超越",
-    "Description": "戦闘開始時、コモン以外のカードのコストが<Mana />増加する；<br />コモン以外のカードをプレイするたび、戦闘終了までそのコストは<Value1 />減少する。"
+    "Description": "戦闘開始時、コモン以外のカードのコストが<Mana />増加する；<br />コモン以外のカードを使用するたび、戦闘終了までそのコストは<Value1 />減少する。"
   },
   "ExtraTurn": {
     "Name": "時空紊乱",
@@ -49,7 +49,7 @@
   },
   "DefensePhilosophy": {
     "Name": "幻繭の夢",
-    "Description": "防御カードがプレイされるたび、<PlayerName />は<Mana />を得て、手札の左端のカードを捨てる。"
+    "Description": "防御カードが使用されるたび、<PlayerName />は<Mana />を得て、手札の左端のカードを捨てる。"
   },
   "HpToPower": {
     "Name": "沸血の舞",
