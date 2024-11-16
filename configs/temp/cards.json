@@ -737,7 +737,8 @@
     "1": {
       "Cost": 1,
       "Value1": 2
-    }
+    },
+    "Version": "1.6.0"
   },
   "MomentPower": {
     "Rarity": "Rare",
@@ -2657,7 +2658,8 @@
     },
     "1": {
       "Damage": 12
-    }
+    },
+    "Version": "1.6.0"
   },
   "SakuyaSleep": {
     "Rarity": "Uncommon",

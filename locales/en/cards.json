@@ -5,7 +5,11 @@
     "-y": "y",
     "-y_other": "ies",
     "-fe": "fe",
-    "-fe_other": "ves"
+    "-fe_other": "ves",
+    "value1": "",
+    "value1_other": "<Value1 /> ",
+    "theSumOf": "",
+    "theSumOf_other": "the sum of "
   },
   "subjects": {
     "It": "It",
@@ -187,7 +191,7 @@
     "Description": "Whenever a card is <h>Exiled</h>, gain <Value1 /> <h>Block</h>."
   },
   "MingzhuAntou": {
-    "Name": "Secret Border",
+    "Name": "Secret Orbs",
     "Description": "Deal <Damage /> damage to each enemy.<br />Choose 1 of <Value1 /> <h>Rainbow Jade Yin-Yang Orbs</h> to add to the hand.<br />For each <h>Yin-Yang Orb</h> on the <h>battlefield</h>, <SelfName /> costs <Mana /> less to play."
   },
   "YakongDianxue": {
@@ -217,7 +221,8 @@
   },
   "EvilTuiZhi": {
     "Name": "Evil Exterminate",
-    "Description": "The next <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) activated deal$t(subjects.-s, { 'count': {{Value1}} }) double damage."
+    "Description": "The next <Value1 /> attack card$t(plurals.-s, { 'count': {{Value1}} }) activated deal$t(subjects.-s, { 'count': {{Value1}} }) double damage.",
+    "Description_1.6.0": "In this turn, the next $t(plurals.value1, { 'count': {{Value1}} })attack card$t(plurals.-s, { 'count': {{Value1}} }) will be played twice."
   },
   "MomentPower": {
     "Name": "Instant Dimensional Rift",
@@ -232,7 +237,7 @@
     "Description": "Add a <h>Yin-Yang Orb</h> to the hand.<br />At the start of <PlayerName />'s turn, if there are no <h>Yin-Yang Orbs</h> in hand, add a <h>Yin-Yang Orb</h> to the hand."
   },
   "ReimuSilence": {
-    "Name": "\"Fantasy Seal -Worn-\"",
+    "Name": "\"Fantasy Seal -Silence-\"",
     "Description": "For every <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) drawn outside of the draw step, deal <Damage /> attack damage to each enemy.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "ChuanyueJiejie": {
@@ -296,7 +301,7 @@
   },
   "AutoQumobang": {
     "Name": "Furious Purification Rod",
-    "Description": "<h>While in hand</h>: Draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during each draw step.<br />After <SelfName /> is <h>Retained</h> <Value2 /> times, <h>Exile</h> it."
+    "Description": "<h>While in hand</h>: Draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) at the start of <PlayerName />'s turn.<br />After <SelfName /> is <h>Retained</h> <Value2 /> times, <h>Exile</h> it."
   },
   "Qingshan": {
     "Name": "One's Last Home",
@@ -322,7 +327,7 @@
     "Name": "Misumaru, Skilled Crafter",
     "PassiveDescription": "Gain <Value2 /> <h>Block</h> and <h>Barrier</h>.",
     "ActiveDescription": "Add <Value1 /> random <h>Rainbow Jade Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.",
-    "UltimateDescription": "For the rest of this combat, the effects of <h>Yin-Yang Orbs</h> are doubled. Immediately add <Value1 /> <h>Rainbow Jade Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h>."
+    "UltimateDescription": "For the rest of combat, the effects of all <h>Yin-Yang Orbs</h> are doubled. Immediately add <Value1 /> <h>Rainbow Jade Yin-Yang Orb$t(plurals.-s, { 'count': {{Value1}} })</h>."
   },
   "ShuihuoCard": {
     "Name": "Orb of Water and Fire",
@@ -525,7 +530,7 @@
   },
   "PotionDefense": {
     "Name": "Starry Flight",
-    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Until end of turn, whenever an <h>Unstable Potion</h> is activated, gain <Value1 /> <h>Barrier</h>."
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />In this turn, whenever an <h>Unstable Potion</h> is activated, gain <Value1 /> <h>Barrier</h>."
   },
   "UpgradePotion": {
     "Name": "Refine Potion",
@@ -718,7 +723,8 @@
   },
   "AttackMagic": {
     "Name": "Trick Bullets",
-    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Value2 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the hand."
+    "Description": "Deal <Damage /> damage.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Value2 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the hand.",
+    "Description_1.6.0": "Deal <Damage /> damage.<br />Discard up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }), then draw that many cards."
   },
   "SakuyaSleep": {
     "Name": "Short Break",
@@ -754,6 +760,10 @@
     "Name": "Guard Up",
     "Description": "Gain <Block /> <h>Block</h>.<br /><h>Block</h> is not lost at the start of <PlayerName />'s next turn."
   },
+  "KnifeDamageUp": {
+    "Name": "Propelling Silver",
+    "Description": "Increase the damage dealt by <h>Throwing Knives</h> by <Value1 />.<br />Add <Value2 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value2}} })</h> to the hand."
+  },
   "SakuyaAttackX": {
     "Name": "Propelling Silver",
     "Description": "<h>For each <Mana /> spent</h>: Deal <Damage /> damage.<br />Leftover attacks will target another random enemy and continue to deal damage if selected target is defeated."
@@ -772,7 +782,7 @@
   },
   "SakuyaGraze": {
     "Name": "Accidental Dodge",
-    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Graze</h>.<br />When the draw pile is shuffled, return <SelfName /> from the discard pile to the hand."
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Graze</h>.<br />When shuffling, return <SelfName /> from the discard pile to the hand."
   },
   "MihuanJack": {
     "Name": "Jack the Ludo Bile",
@@ -888,7 +898,7 @@
   },
   "TunnelEffect": {
     "Name": "Quantum Tunneling",
-    "Description": "Deal <Damage /> damage to a random enemy.<br />Gain <Mana />.<br />When the draw pile is shuffled, return <SelfName /> from the discard pile to the hand."
+    "Description": "Deal <Damage /> damage to a random enemy.<br />Gain <Mana />.<br />When shuffling, return <SelfName /> from the discard pile to the hand."
   },
   "SakuyaKiller": {
     "Name": "Ripper in the Fog",
@@ -1155,7 +1165,7 @@
   },
   "ColdHearted": {
     "Name": "Ice-Blooded",
-    "Description": "This turn, <h>Ice Lance</h> deals triple damage to enemies with <h>Cold</h>.<br />Add <Value1 /> <h>Ice Lance$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>."
+    "Description": "In this turn, <h>Ice Lance</h> deals triple damage to enemies with <h>Cold</h>.<br />Add <Value1 /> <h>Ice Lance$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
   "BestFriend": {
     "Name": "Best Friend",
@@ -1205,19 +1215,19 @@
     "Description": "At the start of <PlayerName />'s turn, apply <h>Cold</h> to each enemy.<br />Apply <h>Cold</h> to each enemy."
   },
   "PlayWithWaste": {
-    "Name": "Dumpster Diving",
+    "Name": "Neighbours from Hell",
     "Description": "Choose 1 of <Value1 /> non-Rare <h>Tool</h> cards to add to the hand.<br />It's treated as a <h>Copy</h> and has <h>Limited【1】</h>."
   },
   "StarFriend": {
     "Name": "Star, Showering Starlight",
     "PassiveDescription": "Deal <Damage /> attack damage to each enemy.",
     "ActiveDescription": "Immediately deal damage <Value1 /> times.",
-    "UltimateDescription": "Whenever any <SelfName /> deals damage, apply <Light /> <h>Lock On</h>.<br />Immediately deal damage <Value2 /> times."
+    "UltimateDescription": "Whenever any <SelfName /> deals damage, apply <Light /> <h>Lock On</h>.<br />Immediately deal damage <Value2 /> time$t(plurals.-s, { 'count': {{Value2}} })."
   },
   "FairyTrick": {
     "Name": "Fairy Mischief",
-    "Description": "Lose <Value1 /> life.<br />Summon 3 <he>Fairies of Light</he>. Add one to the hand and the shuffle the others to the draw pile.",
-    "UpgradedDescription": "Lose <Value1 /> life.<br />Summon 4 <he>Fairies of Light</he>. Add one to the hand and the shuffle the others to the draw pile."
+    "Description": "Lose <Value1 /> life.<br />Summon 3 <he>Fairies of Light</he>. Add one to the hand and shuffle the others to the draw pile.",
+    "UpgradedDescription": "Lose <Value1 /> life.<br />Summon 4 <he>Fairies of Light</he>. Add one to the hand and shuffle the others to the draw pile."
   },
   "BrainOverclock": {
     "Name": "Brain Overclock",
@@ -1227,7 +1237,7 @@
     "Name": "Sunny, Dazzling Sunlight",
     "PassiveDescription": "Deal <Damage /> attack damage to a random enemy <Value1 /> times.",
     "ActiveDescription": "Gain <h>Optical Camouflage</h> for <Light /> turn$t(plurals.-s, { 'count': {{Light}} }).",
-    "UltimateDescription": "Immediately deal damage <Value1 /> times.<br />Gain <Value2 /> <h>Firepower</h>."
+    "UltimateDescription": "Immediately deal damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Value2 /> <h>Firepower</h>."
   },
   "Xiguadao": {
     "Name": "Watermelon Knife",
@@ -1258,226 +1268,273 @@
     "Description": "Gain <Block /> <h>Block</h>."
   },
   "DefaultPassion": {
-    "Name": "Lonely Heart",
+    "Name": "Romantic Rose",
     "Description": "Deal <Damage /> damage.<br />Enter <h>Passion</h>."
   },
   "DefaultPeace": {
-    "Name": "Lovestruck Thorns",
+    "Name": "Selflessness",
     "Description": "Gain <Block /> <h>Block</h>.<br />Enter <h>Serenity</h>."
   },
-  "FindInspiration": {
-    "Name": "Seek Inspiration",
-    "Description": "Deal <Damage /> damage.<br />Gain <Value1 /> <h>Flash of Inspiration</h>."
+  "KoishiKiss": {
+    "Name": "Air Kiss",
+    "Description": "Deal <Damage /> damage.<br />Perform a <h>Follow-Up Attack</h>.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />Apply <Value1 /> <h>Weak</h>.<br />Perform a <h>Follow-Up Attack</h>."
+  },
+  "BaseFollower": {
+    "Name": "Instinctive Love",
+    "Description": "Deal <Damage /> damage."
   },
   "InspirationCard": {
-    "Name": "Inspiration",
-    "Description": "<h>When <SelfName /> enters the hand</h>: Transform it into a randomly colored <he>Inspiration Card</he>, activate its effect and <h>Exile</h> it.<br />During the draw step, <SelfName /> has <h>Replenish</h>."
-  },
-  "InspirationBlack": {
-    "Name": "Black Inspiration",
-    "Description": "Gain <Block /> <h>Block</h>.<br />Deal <Damage /> damage to a random enemy."
-  },
-  "InspirationGreen": {
-    "Name": "Green Inspiration",
-    "Description": "Gain <Mana />."
-  },
-  "InspirationWhite": {
-    "Name": "White Inspiration",
-    "Description": "<h>Upgrade</h> <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand.<br />If no valid cards remain, gain <Value2 /> <h>Block</h> for each card that would be <h>Upgraded</h> instead."
-  },
-  "InspirationRed": {
-    "Name": "Red Inspiration",
-    "Description": "Deal <Damage /> damage to each enemy <Value1 /> times."
+    "Name": "Eureka!",
+    "Description": "<h>When <SelfName /> enters the hand</h>: Gain <Mana />, gain <Value1 /> <h>Inspiration</h> and <h>Exile</h> <SelfName />."
   },
   "PassionDefense": {
-    "Name": "Instinctual Love",
+    "Name": "Low Profile",
     "Description": "Gain <Block /> <h>Block</h>.<br /><h>In Passion</h>: Gain <Value1 /> more <h>Block</h>."
   },
-  "EnterPassion": {
+  "PassionMemory": {
     "Name": "Passionate Memories",
     "Description": "Enter <h>Passion</h>."
   },
-  "LeaveMoodAttack": {
-    "Name": "Unconscious Act",
-    "Description": "Deal <Damage /> damage.<br />Exit the current <h>Mental State</h>."
-  },
-  "KoishiZeroAttack": {
-    "Name": "Blind Love",
-    "Description": "Deal <Damage /> damage to each enemy.<br /><h>In Fugue</h>: Deal damage twice."
-  },
-  "EnterPeace": {
-    "Name": "Serene Memories",
-    "Description": "Enter <h>Serenity</h>."
-  },
-  "LeaveMoodGraze": {
-    "Name": "Unconscious Evasion",
-    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Exit the current <h>Mental State</h>."
-  },
-  "MoodAttack": {
-    "Description": "Deal <Damage /> damage.<br />Whenever <PlayerName /> changes <h>Mental States</h>. return <SelfName /> from the discard pile to the hand."
-  },
-  "PassionVulnerable": {
-    "Name": "Release of the Id",
-    "Description": "<h>In Passion</h>: Apply <Value1 /> <h>Vulnerable</h> to each enemy.<br /><h>Not in Passion</h>: Enter <h>Passion</h>."
-  },
-  "NextTurnPassion": {
-    "Name": "Philosophy of the Despised",
-    "Description": "At the start of <PlayerName />'s next turn, enter <h>Passion</h> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
-  },
-  "PassionAttackToDraw": {
-    "Name": "Selfless Love",
-    "Description": "Deal <Damage /> damage <Value1 /> times.<br />Enter <h>Passion</h>.<br />Shuffle <SelfName /> into the draw pile."
-  },
-  "PassionDraw": {
-    "Description": "Whenever <PlayerName /> enters <h>Passion</h>, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
-  },
-  "PeaceEndTurn": {
-    "Name": "Snap Out",
-    "Description": "Enter <h>Serenity</h>.<br />End <PlayerName />'s turn.",
-    "UpgradedDescription": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and return them to the hand. <h>Retain</h> $t(objects.it, { 'count': {{Value1}} }) this turn.<br />Enter <h>Serenity</h>.<br />End <PlayerName />'s turn."
-  },
-  "BabyDream": {
-    "Name": "Embryo's Dream",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Enter <h>Serenity</h>."
-  },
-  "PeaceDraw": {
-    "Name": "Self-Control",
-    "Description": "<h>In Serenity</h>: Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Not in Serenity</h>: Enter <h>Serenity</h>."
-  },
-  "PeaceBlock": {
-    "Description": "At the end of <PlayerName />'s turn, if she's in <h>Serenity</h>, gain <Value1 /> <h>Block</h>."
-  },
-  "LeaveMoodDraw": {
-    "Name": "Unconscious Wandering",
-    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })<br />Exit the current <h>Mental State</h>."
-  },
-  "MoodChangeBlock": {
-    "Name": "Mental Fortress",
-    "Description": "Whenever <PlayerName /> changes <h>Mental States</h>, gain <Value1 /> <h>Block</h>."
-  },
-  "PsycheLock": {
-    "Name": "Psyche-Lock",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Mana />.<br />Can only be played if <PlayerName /> has entered 3 diffrent <h>Mental States</h> while <SelfName /> is in the hand."
-  },
-  "YaoguaiNaodianbo": {
-    "Name": "Youkai EEG",
-    "Description": "Deal <Damage /> damage and enter <h>Passion</h>.<br /><h>Instinct</h>: Gain <Mana />."
-  },
-  "YoubiKongjuzheng": {
+  "Claustrophobia": {
     "Name": "Claustrophobia",
     "Description": "Gain <Block /> <h>Block</h>.<br /><h>Instinct</h>: Gain <Shield /> <h>Barrier</h>."
   },
-  "QinchunPanni": {
-    "Name": "Adolescent Rebellion",
-    "Description": "<h>Not in Passion</h>: Deal <Damage /> damage to the enemy with the least life.<br /><h>In Passion</h>: Gain <Block /> <h>Block</h> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
+  "MultiFollower": {
+    "Name": "Dance of the Heart",
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
+  },
+  "ToAllFollower": {
+    "Name": "Emotional Surge",
+    "Description": "Deal <Damage /> damage to each enemy.<br /><h>In Fugue</h>: Deal damage an additional time."
+  },
+  "DefenseFollowAttack": {
+    "Name": "Persecutory Delusions",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Perform a <h>Follow-Up Attack</h>."
+  },
+  "KoishiDrawTop": {
+    "Name": "Talk Through the Hat",
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Place <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) from the hand on top of the draw pile.",
+    "UpgradedDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Upgrade</h> <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) in the hand and place $t(objects.it, { 'count': {{Value2}} }) on top of the draw pile."
+  },
+  "LeaveMoodAttack": {
+    "Name": "Spiraling Consciousness",
+    "Description": "Deal <Damage /> damage.<br />Exit the current <h>Mental State</h>."
+  },
+  "LeaveMoodGraze": {
+    "Name": "Presence Concealment",
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Exit the current <h>Mental State</h>."
   },
   "FlowerGone": {
     "Name": "Withering Dreams",
-    "Description": "Gain <Block /> <h>Block</h>.<br /><h>In Serenity</h>: Gain <Value1 /> <h>Spirit</h> and <h>Exile</h> <SelfName />."
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>In Serenity</h>: Gain <Shield /> <h>Barrier</h> instead."
   },
-  "ZhuozhuangChengzhang": {
-    "Name": "Healthy Growth",
-    "Description": "At the end of <PlayerName />'s turn, add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand.",
-    "UpgradedDescription": "Gain <Value2 /> <h>Graze</h>.<br />At the end of <PlayerName />'s turn, add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand."
+  "MoodAttack": {
+    "Name": "Transference Blade",
+    "Description": "Deal <Damage /> damage.<br />Whenever <PlayerName /> changes <h>Mental States</h>. return <SelfName /> from the discard pile to the hand."
   },
-  "LianaiChongdong": {
-    "Name": "Love Impulse",
-    "Description": "<h>Not in Serenity</h>: Increase the next <h>Basic</h> card's numerical value by <Value1 />.<br /><h>In Serenity</h>: Increase each <h>Basic</h> card's numerical value by <Value2 />."
+  "GrazeFollowAttack": {
+    "Name": "Instinctive Action",
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Perform a <h>Follow-Up Attack</h>."
   },
-  "TaoqiQiangwei": {
-    "Name": "Willful Rose",
-    "Description": "Gain <Block /> <h>Block</h> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>When an adjacent card is played</h>: Reduce <SelfName />'s cost by <Mana /> until the end of combat."
+  "PassionVulnerable": {
+    "Name": "Sleepless Night",
+    "Description": "<h>In Passion</h>: Apply <Value1 /> <h>Vulnerable</h> to each enemy.<br />Otherwise, enter <h>Passion</h>."
   },
-  "LoveSeed": {
-    "Name": "Seedlings of Love",
-    "Description": "Gain <Value1 /> life and <TotalMana />.<br /><h>When an adjacent card is played</h>: Increase <SelfName />'s mana by <Mana />."
+  "PlayDrawTop": {
+    "Name": "Unconscious Action",
+    "Description": "Play the top card on the draw pile."
   },
-  "BenwoTouying": {
-    "Name": "Blind Love",
-    "Description": "Whenever <PlayerName /> enters <h>Passion</h>, add a <hp>completely random</hp> <h>Attack</h> card to the hand. It <h>temporarily costs</h> <Mana /> and has <h>Exile</h>.<br />Enter <h>Passion</h>."
+  "TheChariot": {
+    "Name": "Tarot: The Chariot",
+    "Description": "<h>Scry</h> <Scry />.<br />At the start of <PlayerName />'s next turn, enter <h>Passion</h> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
-  "BeihaiWangxiang": {
-    "Name": "Persecutory Delusions",
-    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <h>Suppresion</h> equal to half the current <h>Barrier</h>."
+  "CloseEye": {
+    "Name": "Closed Heart",
+    "Description": "Gain <Shield /> <h>Barrier</h>.<br />Enemy intents cannot be seen during <PlayerName />'s next turn."
   },
-  "CloseMemory": {
-    "Name": "Neglected Memories",
-    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })<br />Cards drawn this way gain <h>Echo</h>."
+  "PassionAttackToDraw": {
+    "Name": "Danmaku Paranoia",
+    "Description": "Deal <Damage /> damage <Value1 /> times.<br />Enter <h>Passion</h>.<br />Shuffle <SelfName /> into the draw pile."
   },
-  "Danxiangsi": {
-    "Name": "Unrequited Love",
-    "Description": "Gain <Value1 /> <h>Firepower</h>.<br /><h>When Retained</h>: Increase <h>Firepower</h> gain by <Value2 />."
+  "PassionDraw": {
+    "Name": "Lovesickness",
+    "Description": "Whenever <PlayerName /> enters <h>Passion</h>, draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
-  "JiyiShitihua": {
-    "Name": "Memory Manifestation",
-    "Description": "Choose an attack card in the hand. Add a <h>Copy</h> of it to the hand that <h>temporarily costs</h> <Mana /> and has <h>Exile</h>.<br />Deal <Damage /> damage."
+  "BabyDream": {
+    "Name": "Embryo's Dream",
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>Dream</h> <Value1 />."
   },
-  "PerfectCrime": {
-    "Name": "Perfect Crime",
-    "Description": "Steal target's <h>Spirit</h>, <h>Graze</h>, <h>Amulet</h>, <h>Optical Camouflage</h>, <h>Flawless</h>.<br />Deal <Damage /> damage."
+  "DuplicateFollower": {
+    "Name": "Lonely Heart",
+    "Description": "Deal <Damage /> damage.<br />Gain <Mana />.<br /><h>At the start of combat</h>: Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of <SelfName /> to the draw pile."
   },
-  "Kongxiangshang": {
-    "Name": "Ideal Self Retention",
-    "Description": "After a <h>Basic Defense</h> card is played, enter <h>Serenity</h>."
-  },
-  "ZuxianTuomeng": {
+  "AncestorDream": {
     "Name": "Ancestral Dreams",
-    "Description": "<h>When drawn</h>: <h>Exile</h> the leftmost card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it that <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h>."
+    "Description": "Deal <Damage /> damage to each enemy.<br /><h>Dream</h> <Value1 />."
   },
-  "ChaoyueZiwo": {
-    "Name": "Exceed Oneself",
-    "Description": "At the start of <PlayerName />'s turn, if in a <h>Mental State</h>, gain <Value1 /> <h>Firepower</h> and <h>Spirit</h>."
+  "YaoguaiLaser": {
+    "Name": "Youkai EEG",
+    "Description": "Deal <Damage /> damage.<br />Perform a <h>Follow-Up Attack</h>.<br /><h>Instinct</h>: Perform an additional <h>Follow-Up Attack</h>."
+  },
+  "KoishiZeroAttack": {
+    "Name": "DNA Transcript",
+    "Description": "Deal <Damage /> damage."
+  },
+  "KoishiWake": {
+    "Name": "Mental Reset",
+    "Description": "Exit the current <h>Mental State</h>. Gain <Value1 /> life.<br /><h>In Fugue</h>: Gain <Shield /> <h>Barrier</h>."
+  },
+  "PeaceEndTurn": {
+    "Name": "Moment of Respite",
+    "Description": "Enter <h>Serenity</h>.<br />End <PlayerName />'s turn.",
+    "UpgradedDescription": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and return them to the hand. <h>Retain</h> $t(objects.it, { 'count': {{Value1}} }) this turn.<br />Enter <h>Serenity</h>.<br />End <PlayerName />'s turn."
+  },
+  "KoishiGainColorless": {
+    "Name": "Calm Mind",
+    "Description": "Gain <Mana />.",
+    "UpgradedDescription": "Gain <Mana />."
+  },
+  "PeaceMemory": {
+    "Name": "Serene Memories",
+    "Description": "Enter <h>Serenity</h>."
+  },
+  "KoishiSpringOut": {
+    "Name": "Springtime Vacation",
+    "Description": "<h>In Serenity</h>: Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Otherwise, enter <h>Serenity</h>."
+  },
+  "InspirationDefense": {
+    "Name": "Moment of Inspiration",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Inspiration</h>."
+  },
+  "KoishiFire": {
+    "Name": "Capriciousness",
+    "Description": "Gain <Value1 /> <h>Firepower</h>.<br /><h>In Passion</h>: Gain <Value2 /> more <h>Firepower</h>.<br /><h>In Serenity</h>: Gain <Value1 /> <h>Spirit</h> instead."
+  },
+  "PeaceBlock": {
+    "Name": "Self-Control",
+    "Description": "At the end of <PlayerName />'s turn, if she's in <h>Serenity</h>, gain <Value1 /> <h>Block</h>."
+  },
+  "KoishiFlower": {
+    "Name": "Mischievous Rose",
+    "Description": "Gain <Block /> <h>Block</h>.<br />Deal <Damage /> damage.<br />Add <Value1 /> <h>Midsummer Flowers</h> to the hand.<br /><h>In Fugue</h>: Add <Value2 /> instead."
+  },
+  "TheHermit": {
+    "Name": "Tarot: The Hermit",
+    "Description": "<h>Scry</h> <Scry />.<br />Gain <Mana />.<br /><h>In Fugue</h>: <SelfName /> costs <Mana0 /> to play.",
+    "UpgradedDescription": "<h>Scry</h> <Scry />.<br /><h>Upgrade</h> the top card of the draw pile.<br />Gain <Mana />.<br /><h>In Fugue</h>: <SelfName /> costs <Mana0 /> to play."
+  },
+  "FindInspiration": {
+    "Name": "Flash of Inspiration",
+    "Description": "Add <Value1 /> <h>Eureka$t(plurals.-s, { 'count': {{Value1}} })!</h> to the draw pile."
+  },
+  "KoishiGrowAttack": {
+    "Name": "Crazed Thorns",
+    "Description": "Deal <Damage /> damage.<br /><h>Growth</h>: Increase damage by <Value1 />.<br /><h>In Serenity</h>: <SelfName /> costs <Mana /> to play."
+  },
+  "GainZeroAttack": {
+    "Name": "DNA's Flaw",
+    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> <h>DNA Transcript$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.",
+    "UpgradedDescription": "At the start of <PlayerName />'s turn, add <Value1 /> <h>DNA Transcript$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.<br />Trigger <SelfName /> once."
+  },
+  "LeaveMoodDraw": {
+    "Name": "Curiosity",
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Exit the current <h>Mental State</h>."
+  },
+  "MoodChangeBlock": {
+    "Name": "A.T. Field",
+    "Description": "Whenever <PlayerName /> changes <h>Mental States</h>, gain <Value1 /> <h>Block</h>."
+  },
+  "BlackEpiphany": {
+    "Name": "Slipping Consciousness",
+    "Description": "Enter <h>Fugue</h>.<br />Only <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) can be played during <PlayerName />'s next turn."
+  },
+  "PsycheLock": {
+    "Name": "Psyche-Lock",
+    "Description": "End <PlayerName />'s turn. Then, take an extra turn.<br />Can only be played if <PlayerName /> has entered 3 different <h>Mental States</h> while <SelfName /> is in the hand.",
+    "UpgradedDescription": "End <PlayerName />'s turn. Then, take an extra turn.<br />At the start of <PlayerName />'s next turn, <h>Upgrade</h> all cards in the hand.<br />Can only be played if <PlayerName /> has entered 3 different <h>Mental States</h> while <SelfName /> is in the hand."
+  },
+  "FakeBullet": {
+    "Name": "Imaginary Danmaku",
+    "Description": "Perform <Value1 /> <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Value1}} })</h>.<br />If there are not enough <h>Follow-Up</h> cards in the draw pile, random <h>Follow-Up</h> cards will be generated to perform the <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Value1}} })</h>."
+  },
+  "KoishiMana": {
+    "Name": "Unleashed Potential",
+    "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Mana />."
+  },
+  "KoishiSpark": {
+    "Name": "Youkai Polygraph",
+    "Description": "Deal <Damage /> damage to each enemy."
   },
   "LoveFire": {
     "Name": "Embers of Love",
-    "Description": "Deal <Damage /> damage.<br /><h>For each <Mana /> spent</h>: Increase <SelfName />'s damage by <Value1 />.<br />Records mana spent for playing <SelfName />, and returns mana recorded for the next time <SelfName /> is played."
+    "Description": "Perform a <h>Follow-Up Attack</h>.<br />At the end of <PlayerName />'s turn, if a <h>Follow-Up Attack</h> was performed, gain <Value1 /> <h>Firepower</h>."
   },
-  "Beiyanwu": {
-    "Name": "Philosophy of the Despised",
-    "Description": "<h>Exile</h> the cards adjacent to <SelfName />. For each card <h>Exiled</h> this way, gain <Mana /> and draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
+  "GainInspiration": {
+    "Name": "Lemme Think",
+    "Description": "At the end of <PlayerName />'s turn, add an <h>Eureka!</h> to the draw pile.<br />"
   },
-  "WuyishiDNA": {
-    "Name": "Astral Projection",
-    "Description": "Enter <h>Fugue</h>. End the turn. Then, take an extra turn.<br />At the end of <PlayerName />'s turn, if <PlayerName /> is not in <h>Fugue</h>, she loses the game."
+  "PerfectCrime": {
+    "Name": "Perfect Crime",
+    "Description": "Steal target's <h>Graze</h>, <h>Optical Camouflage</h>, <h>Flawless</h>, and up to <Value1 /> <h>Firepower</h> and <h>Spirit</h>."
   },
-  "QiangweiDiyu": {
+  "TheFool": {
+    "Name": "Tarot: The Fool",
+    "Description": "<h>Scry</h> <Scry />.<br />Play the top card of the draw pile."
+  },
+  "KoishiDna": {
+    "Name": "Hartmann's Youkai Girl",
+    "Description": "At the start of <PlayerName />'s turn, play the top card of the draw pile."
+  },
+  "KoishiAttackX": {
     "Name": "Rose Hell",
-    "Description": "Gain <Value1 /> <h>Rose Hell</h>.<br />Whenever a <h>Basic</h> card enters the hand, gain <Value2 /> <h>Rose Hell</h> and draw a card.<br />(<h>Rose Hell</h>: Whenever a <h>Basic</h> card enters the hand, deal that much damage to a random enemy.)"
+    "Description": "<h>For each <Mana2 /> spent</h>: Deal <Damage /> damage to each enemy and gain <Mana />."
   },
-  "WuyunJiekong": {
-    "Name": "Five Skandhas",
-    "Description": "<h>Exile</h> all Status and <h>Misfortune</h> cards in the hand, draw pile and discard pile.<br />Remove all debuffs from <PlayerName />."
+  "Anatta": {
+    "Name": "Anatta",
+    "Description": "Increase the mana gained from exiting <h>Serenity</h> to <Mana />.<br />Enter <h>Serenity</h>."
   },
-  "MirrorTest": {
-    "Name": "Mirror Test",
-    "Description": "Gain <Shield /> <h>Barrier</h>.<br /><h>While in hand</h>: If an adjacent attack card is played, transform <SelfName /> into a <h>Copy</h> of that card and gain <Shield /> <h>Barrier</h>."
+  "ButterflyDream": {
+    "Name": "The Butterfly Dream",
+    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Value1}} }) to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>, and mana of any color can be spent to pay $t(dependentPossessives.its, { 'count': {{Value1}} }) cost$t(plurals.-s, { 'count': {{Value1}} })."
   },
-  "EnterEnlight": {
+  "KokoroFriend": {
+    "Name": "Kokoro, Awoken Persona",
+    "PassiveDescription": "<h>Dream</h> <Value1 />.",
+    "ActiveDescription": "Enter <h>Passion</h>.",
+    "Active2Description": "Enter <h>Serenity</h>.",
+    "UltimateDescription": "Enter <h>Fugue</h>."
+  },
+  "EnterEpiphany": {
+    "Name": "Epiphany",
     "Description": "Enter <h>Fugue</h>."
   },
-  "QingxingMeng": {
-    "Name": "Sinking Consciousness",
-    "Description": "At the start of <PlayerName />'s turn, add <Value1 /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Value1}} }) to hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card$t(plurals.-s, { 'count': {{Limit}} }) every turn."
+  "KoishiDive": {
+    "Name": "Diving Consciousness",
+    "Description": "Enter <h>Serenity</h>.<br /><h>Dream</h> <Value1 />.<br />Return up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) from the discard pile to the hand."
   },
   "LunaticPassion": {
     "Name": "Lunatic Love",
     "Description": "<h>Passion</h>'s damage modifier becomes <Percentage />%.<br />Enter <h>Passion</h>."
   },
-  "SiwangLaiDian": {
-    "Name": "Terrifyingly Cute Caller",
-    "Description": "<h>Exile</h> an <h>Attack</h> card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it to the top of the draw pile.<br />If the chosen card is <h>Basic</h>, the added <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> $t(subjects.has, { 'count': {{Value1}} })y</h> has' other='<h>Copies</h> have'} <h>Replenish</h>.",
-    "UpgradedDescription": "<h>Exile</h> a card in the hand. Add <Value1 /> <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> of it to the top of the draw pile.<br />If the chosen card is <h>Basic</h>, the added <h>Cop$t(plurals.-y, { 'count': {{Value1}} })</h> $t(subjects.has, { 'count': {{Value1}} })y</h> has' other='<h>Copies</h> have'} <h>Replenish</h>."
+  "KoishiPhone": {
+    "Name": "Terrifyingly Cute Call",
+    "Description": "Whenever an attack card is activated, perform a <h>Follow-Up Attack</h>.<br />If there are no <h>Follow-Up</h> cards in the draw pile, <h>Ring-Ring</h> will be used as a <h>Follow-Up</h>."
+  },
+  "FollowAttackFiller": {
+    "Name": "Ring-Ring",
+    "Description": "Deal <Damage /> damage."
   },
   "AliceAttackW": {
-    "Name": "Futuristic Bunraku",
+    "Name": "Doll Spears",
     "Description": "Deal <Damage /> damage."
   },
   "AliceAttackB": {
-    "Name": "Return Inanimateness",
+    "Name": "Flanking Flash",
     "Description": "Deal <Damage /> damage."
   },
   "AliceBlockU": {
-    "Name": "Danmaku Barrier",
+    "Name": "Defense Magic",
     "Description": "Gain <Block /> <h>Block</h>."
   },
   "DeployShanghai": {
@@ -1496,17 +1553,8 @@
     "Name": "Suicide Pact",
     "Description": "Choose a Doll to <h>Exit</h>.<br />Deal <Damage /> damage to each enemy."
   },
-  "DoubleActiveTrigger": {
-    "Name": "Double Activation",
-    "Description": "(WIP)"
-  },
-  "TriggerAllPassive": {
-    "Name": "Activate Passives",
-    "Description": "(WIP)"
-  },
-  "GainDollSlot": {
-    "Name": "Gain Doll Slot",
-    "Description": "(WIP)"
+  "DollBlock": {
+    "Name": "Doll Shield"
   },
   "DollFactory": {
     "Name": "Doll Workshop"
@@ -1528,6 +1576,21 @@
   },
   "DollZuzhou": {
     "Name": "Hanged Hourai Dolls"
+  },
+  "Zhendijianzao": {
+    "Name": "Territory Creation"
+  },
+  "DoubleActiveTrigger": {
+    "Name": "Double Activation",
+    "Description": "(WIP)"
+  },
+  "TriggerAllPassive": {
+    "Name": "Activate Passives",
+    "Description": "(WIP)"
+  },
+  "GainDollSlot": {
+    "Name": "Gain Doll Slot",
+    "Description": "(WIP)"
   },
   "YoumuAttack": {
     "Name": "Heart Excerpt Slash",
@@ -1733,6 +1796,10 @@
     "Name": "Grimoire Study",
     "Description": "Lose <Value2 /> life.<br />Add <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) to the hand. $t(subjects.It, { 'count': {{Value1}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Value1}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
+  "DreamExpress": {
+    "Name": "Dream Express",
+    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Value1 />, then deal damage to each enemy equal twice $t(plurals.theSumOf, { 'count': {{Value1}} })the total cost$t(plurals.-s, { 'count': {{Value1}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Value1}} })."
+  },
   "TrueMoon": {
     "Name": "True Full Moon",
     "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Firepower</h>.<br />After <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) are played, <PlayerName /> loses the game.<br /><h>Overflow</h>: Gain <Mana />."
@@ -1787,7 +1854,7 @@
     "Description": "Gain <Value1 /> <h>Temporary Firepower</h>.<br />Gain <Value2 /> <h>Graze</h>."
   },
   "FlanFirepower": {
-    "Name": "And Then Will There Be None?",
+    "Name": "Ten Little Soldiers",
     "Description": "Each card in the hand gains <h>Ethereal</h>. Gain <h>Firepower</h> equal to the number of cards in hand."
   },
   "MeihongPower": {
@@ -2071,8 +2138,8 @@
   },
   "ZhenmiaowanAttack": {
     "Name": "Descendant of the Inchlings",
-    "Description": "Deal <Damage /> damage.<br />Skill cards cost <Mana /> less this turn.",
-    "UpgradedDescription": "Deal <Damage /> damage.<br />Cards cost <Mana /> less this turn."
+    "Description": "Deal <Damage /> damage.<br />In this turn, skill cards cost <Mana /> less.",
+    "UpgradedDescription": "Deal <Damage /> damage.<br />In this turn, cards cost <Mana /> less."
   },
   "XingMoney": {
     "Name": "Glorious Treasure Spear",
@@ -2112,25 +2179,34 @@
     "Name": "Ichijou Returning Bridge",
     "Description": "Return up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile to the hand. <h>Retain</h> them this turn.<br />End <PlayerName />'s turn. Then, take an extra turn.<br /><h>Time Limit</h> <Mana />."
   },
+  "JunkoNightmare": {
+    "Name": "Shivering Nightmare",
+    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Exile</h> the hand. Add that many <h>Pures</h> to the hand.",
+    "UpgradedDescription": "Choose up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Exile</h> all but the chosen cards from the hand. Add that many <h>Pures</h> to the hand."
+  },
   "XiaosanReflect": {
     "Name": "Counter Danmaku",
     "Description": "Gain <Shield /> <h>Barrier</h>.<br />Gain <Value1 /> <h>Reflection</h>."
-  },
-  "YijiuAttack": {
-    "Name": "Dragon God's Thunderbolt",
-    "Description": "Deal <Damage /> damage.<br />When an enemy is defeated using <SelfName />, <h>Exile</h> it and gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "SuikaDraw": {
     "Name": "Gathering of Drunk Oni",
     "Description": "Draw cards until there are <Value1 /> cards in the hand."
   },
+  "FourFlan": {
+    "Name": "Four of a Kind",
+    "Description": "Deal <Damage /> damage.<br />Gain <Value1 /> <h>Firepower</h>.<br /><h>At the start of combat</h>: Add <Value2 /> <h>Copies</h> of <SelfName /> to the draw pile. They <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Ethereal</h>."
+  },
+  "YijiuAttack": {
+    "Name": "Dragon God's Thunderbolt",
+    "Description": "Deal <Damage /> damage.<br />When an enemy is defeated using <SelfName />, <h>Exile</h> it and gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} })."
+  },
   "ReisenMana": {
     "Name": "Visionary Tuning",
     "Description": "Add either 2 <h>Flames</h> or 2 <h>Splashes</h> to the hand."
   },
-  "FourFlan": {
-    "Name": "Four of a Kind",
-    "Description": "Deal <Damage /> damage.<br />Gain <Value1 /> <h>Firepower</h>.<br /><h>At the start of combat</h>: Add <Value2 /> <h>Copies</h> of <SelfName /> to the draw pile. They <h>temporarily cost</h> <Mana /> and have <h>Exile</h> and <h>Ethereal</h>."
+  "BailianMagic": {
+    "Name": "Devil's Recitation",
+    "Description": "In this turn, the next <Value1 /> <h>Ability</h> card$t(plurals.-s, { 'count': {{Value1}} }) $t(subject.is, { 'count': {{Value1}} }) played twice."
   },
   "HekaHellRain": {
     "Name": "Rain of Hell",
@@ -2313,6 +2389,10 @@
     "Name": "The Day the Sea Split",
     "Description": "Return the discard pile and any number of cards in the hand to the draw pile. Shuffle the draw pile.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Gain <Mana />."
   },
+  "JinziDoppelganger": {
+    "Name": "Century's Doppelgangers",
+    "Description": "The first card played during <PlayerName />'s turn is played twice."
+  },
   "JinziSuperExtraTurn": {
     "Name": "Century's Doppelgangers",
     "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> are not lost at the start of that extra turn, and only <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) may be played."
@@ -2331,10 +2411,9 @@
     "Name": "Magic of the Mallet",
     "Description": "All cards cost <Mana /> less until the end of combat."
   },
-  "JunkoNightmare": {
-    "Name": "Shivering Nightmare",
-    "Description": "Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Exile</h> the hand. Add that many <h>Pures</h> to the hand.",
-    "UpgradedDescription": "Choose up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />Deal <Damage /> damage to each enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br /><h>Exile</h> all but the chosen cards from the hand. Add that many <h>Pures</h> to the hand."
+  "HuiyeSuperExtraTurn": {
+    "Name": "\"End of Imperishable Night\"",
+    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> are not lost at the start of that extra turn, and only <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) may be played."
   },
   "ModuoluoSeasons": {
     "Name": "Runaway Seasons",
@@ -2551,6 +2630,10 @@
     "Name": "Mana Freeze",
     "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> a <SelfName /> in the hand."
   },
+  "KoishiDiscard": {
+    "Name": "Unconscious Amnesia",
+    "Description": "<h>When drawn</h>: Discard a random card."
+  },
   "Frog": {
     "Name": "Frog",
     "Description": "This card has been jinxed."
@@ -2664,8 +2747,8 @@
     "Description": "<h>At the end of the turn</h>: Lose <Value1 /> life if no life was gained this turn."
   },
   "FakeCard": {
-    "Name": "Ancestral Dreams (Forged)",
-    "Description": "<h>d:</h>Koishi Komeiji<h> is still asleep.<br />Please check back in a future update!</h>"
+    "Name": "Tale of the Bamboo Cutter (Forged)",
+    "Description": "This card is still in Early Access.<br />Please check back in a future update."
   },
   "HistoryCard": {
     "Name": "Removed Card",
@@ -2679,17 +2762,29 @@
     "Name": "Revive the Saint",
     "Description": "Choose 1 of <Value1 /> random cards with a total cost of X+1 to add into the hand. It <h>temporarily costs</h> <Mana /> and has <h>Exile</h> and <h>Ethereal</h>."
   },
-  "DebugAddRandomCards": {
-    "Name": "Add Random Cards",
-    "Description": "Test Card: Add <Value1 /> cards to the draw/discard pile."
+  "AttackX": {
+    "Name": "Continue attacking after target is defeated",
+    "Description": "<h>For each <Mana /> spent</h>: Deal <Damage /> damage.<br />When <SelfName />'s target is defeated, if it still has excess attacks, it continues attacking using a random enemy as the new target."
   },
   "DebugExileDrawDiscard": {
     "Name": "Exile Draw and Discard Pile",
     "Description": "Test Card: <h>Exile</h> the draw/discard pile."
   },
+  "DebugAddRandomCards": {
+    "Name": "Add Random Cards",
+    "Description": "Test Card: Add <Value1 /> cards to the draw/discard pile."
+  },
   "DebugAddRandomCardsSlow": {
     "Name": "Add Random Cards (Slow)",
     "Description": "Test Card: Slowly add <Value1 /> cards to the draw/discard pile."
+  },
+  "DebugAddRandomCardsToExile": {
+    "Name": "Add Random Cards to Exile",
+    "Description": "Test Card: Adds <Value1 /> cards to Exile."
+  },
+  "DebugAddRandomCardsToExileSlow": {
+    "Name": "Add Random Cards to Exile (Slowly)",
+    "Description": "Test Card: Slowly adds <Value1 /> cards to Exile."
   },
   "DebugAddDeckCards": {
     "Name": "Add Cards to Library",
@@ -2698,5 +2793,17 @@
   "DebugAddHandCards": {
     "Name": "Exile Hand then Add Cards to Hand",
     "Description": "Test Card: <h>Exile</h> the hand, then add <Value1 /> cards to the hand."
+  },
+  "DebugRemoveHand": {
+    "Name": "Remove Hand",
+    "Description": "Test Card: Choose any number of cards in your hand to remove from combat."
+  },
+  "DebugRemoveAllHandWhenDraw": {
+    "Name": "Remove Hand When Drawn",
+    "Description": "Test Card: When drawn, remove all cards in your hand from combat (including this one)."
+  },
+  "DebugUpgradeAllZone": {
+    "Name": "Upgrade Cards in Each Pile",
+    "Description": "Test Card: Upgrade the top <Value1 /> cards in the draw and discard pile."
   }
 }
