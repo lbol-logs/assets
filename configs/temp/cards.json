@@ -5547,7 +5547,8 @@
     "1": {
       "Cost": "H:HWB",
       "Loyalty": 5
-    }
+    },
+    "OverrideUltimateCost": true
   },
   "EnterEpiphany": {
     "Rarity": "Uncommon",
