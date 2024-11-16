@@ -10,14 +10,14 @@
     "-y_other": "ies",
     "-fe": "fe",
     "-fe_other": "ves",
-    "no": "",
-    "no_other": "<Level /> ",
-    "turn": "turn",
-    "turn_other": "<Level /> turns",
+    "level": "",
+    "level_other": "<Level /> ",
     "turns": "until end of turn",
     "turns_other": "for the next <Duration /> turns",
-    "card": "a card",
-    "card_other": "up to <Level /> cards",
+    "sumOf": "",
+    "sumOf_other": "the sum of",
+    "upTo": "a",
+    "upTo_other": "up to",
     "since": "",
     "since_other": " from now",
     "less": "no",
@@ -28,6 +28,8 @@
   "subjects": {
     "It": "It",
     "It_other": "They",
+    "is": "is",
+    "is_other": "are",
     "has": "has",
     "has_other": "have",
     "-s": "s",
@@ -38,6 +40,10 @@
   "objects": {
     "it": "it",
     "it_other": "them"
+  },
+  "demonstratives": {
+    "This": "This",
+    "This_other": "These"
   },
   "ordinal_1": "next",
   "ordinal_2": "<Count />nd",
@@ -115,6 +121,10 @@
     "Name": "Extra Turn",
     "Description": "<OwnerName /> will take <Level /> extra turn$t(plurals.-s, { 'count': {{Level}} }) after this turn."
   },
+  "SuperExtraTurn": {
+    "Name": "\"End of Imperishable Night\"",
+    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> aren't lost at the start of that extra turn, and only <Level /> card$t(plurals.-s, { 'count': {{Level}} }) can be played."
+  },
   "LimitedDamage": {
     "Name": "Liberator of Items",
     "Description": "<OwnerName /> may only be dealt up to <Limit /> damage each turn. Can still be dealt <Count /> damage this turn."
@@ -133,7 +143,7 @@
   },
   "TurnStartDontLoseBlock": {
     "Name": "Retain Block",
-    "Description": "<OwnerName /> does not lose <h>Block</h> at the start of the next $t(plurals.turn, { 'count': {{Level}} })."
+    "Description": "<OwnerName /> does not lose <h>Block</h> at the start of the next $t(plurals.level, { 'count': {{Level}} })turn$t(plurals.-s, { 'count': {{Level}} })."
   },
   "WindGirl": {
     "Name": "Wind God Girl",
@@ -311,6 +321,10 @@
     "Name": "Kasumi's Cleanup",
     "Description": "At the end of <OwnerName />'s turn, she deals <Level /> damage to <PlayerName />."
   },
+  "KoishiUnknown": {
+    "Name": "Unpredictable",
+    "Description": "<OwnerName />'s intent is partially unknown.<br />Additional levels will further hide her intent."
+  },
   "ShenlingGold": {
     "Name": "Gift of Wealth",
     "Description": "<OwnerName /> drops <Level /> <Money /> when defeated."
@@ -481,7 +495,8 @@
   },
   "MadokaBowSe": {
     "Name": "Bow Which Shoots Light",
-    "Description": "At the end of <OwnerName />'s turn, add <Level /> random Status cards to the draw pile."
+    "Description": "At the end of <OwnerName />'s turn, add <Level /> random Status cards to the draw pile.",
+    "Description_1.6.0": "At the end of <OwnerName />'s turn, add <Level /> random Status cards, shuffle half of them to the draw pile and the other half to the discard pile."
   },
   "QiannianShenqiSe": {
     "Name": "Pyramid-Shaped Puzzle",
@@ -521,7 +536,8 @@
   },
   "EvilTuiZhiSe": {
     "Name": "Evil Exterminate",
-    "Description": "The next attack card$t(plurals.-s, { 'count': {{Level}} }) activated deal$t(subjects.-s, { 'count': {{Level}} }) double damage."
+    "Description": "The next attack card$t(plurals.-s, { 'count': {{Level}} }) activated deal$t(subjects.-s, { 'count': {{Level}} }) double damage.",
+    "Description_1.6.0": "The next attack card$t(plurals.-s, { 'count': {{Level}} }) activated will be played twice this turn."
   },
   "YinyangXueyinSe": {
     "Name": "Yin-Yang Rune",
@@ -560,8 +576,8 @@
     "Description": "Whenever <OwnerName /> gains <h>Temporary Firepower</h> or <h>Temporary Spirit</h>, convert <Level /> of them into <h>Firepower</h> or <h>Spirit</h>, respectively."
   },
   "ReimuSilenceSe": {
-    "Name": "\"Fantasy Seal -Worn-\"",
-    "Description": "For every <Limit /> card$t(plurals.-s, { 'count': {{Limit}} }) drawn outside of the draw step, deal <Damage /> attack damage to each enemy.<br /><Count /> cards left."
+    "Name": "\"Fantasy Seal -Silence-\"",
+    "Description": "For every <Limit /> card$t(plurals.-s, { 'count': {{Limit}} }) drawn outside of the draw step, deal <Damage /> attack damage to each enemy.<br /><Count /> card$t(plurals.-s, { 'count': {{Count}} }) left."
   },
   "SenluoJiejieSe": {
     "Name": "Aggregate Border",
@@ -577,7 +593,7 @@
   },
   "Concentration": {
     "Name": "Concentration",
-    "Description": "The next $t(plurals.no, { 'count': {{Level}} })<h>Overdrive</h> effect$t(plurals.-s, { 'count': {{Level}} }) do$t(subjects.-es, { 'count': {{Level}} }) not cost <h>Charge</h> to activate."
+    "Description": "The next $t(plurals.level, { 'count': {{Level}} })<h>Overdrive</h> effect$t(plurals.-s, { 'count': {{Level}} }) do$t(subjects.-es, { 'count': {{Level}} }) not cost <h>Charge</h> to activate."
   },
   "BurstUpgrade": {
     "Name": "All Out",
@@ -617,7 +633,7 @@
   },
   "PotionDefenseSe": {
     "Name": "Shooting Echo",
-    "Description": "Until end of turn, whenever an <h>Unstable Potion</h> is activated, gain <Level /> <h>Barrier</h>."
+    "Description": "In this turn, whenever an <h>Unstable Potion</h> is activated, gain <Level /> <h>Barrier</h>."
   },
   "ChargingPotionSe": {
     "Name": "Radioactive Elements",
@@ -661,7 +677,7 @@
   },
   "EvilMaidSe": {
     "Name": "Devil's Maid",
-    "Description": "<OwnerName />'s attacks deal double damage for the next $t(plurals.turn, { 'count': {{Level}} })."
+    "Description": "<OwnerName />'s attacks deal double damage for the next $t(plurals.level, { 'count': {{Level}} })turn$t(plurals.-s, { 'count': {{Level}} })."
   },
   "EvilMaidDoubleAttack": {
     "Name": "Power of the Devil",
@@ -685,7 +701,7 @@
   },
   "SpecialClockSe": {
     "Name": "Special Stopwatch",
-    "Description": "At the start of <PlayerName />'s turn, select $t(plurals.card, { 'count': {{Level}} }) and discard them, draw as much as discarded."
+    "Description": "At the start of <PlayerName />'s turn, select $t(plurals.upTo, { 'count': {{Level}} }) $t(plurals.level, { 'count': {{Level}} })card$t(plurals.-s, { 'count': {{Level}} }) and discard them, draw as much as discarded."
   },
   "KnifeWithLockedOn": {
     "Name": "You Are Next!",
@@ -718,6 +734,10 @@
   "KnifeTarget": {
     "Name": "Lock On Target",
     "Description": "<h>Throwing Knives</h> will target <OwnerName /> when activated."
+  },
+  "KnifeDamageUpSe": {
+    "Name": "Propelling Silver",
+    "Description": "<h>Throwing Knives</h> deal <Level /> more damage."
   },
   "Cold": {
     "Name": "Cold",
@@ -811,75 +831,73 @@
     "Name": "Serenity",
     "Description": "Upon exiting <h>Serenity</h>, gain <Mana />.<br /><h>Serenity</h> is a <h>Mental State</h>, of which <PlayerName /> can only have one at a time."
   },
-  "MoodEnlight": {
+  "MoodEpiphany": {
     "Name": "Fugue",
-    "Description": "Upon entering <h>Fugue</h>, gain <Mana />.<br />While in <h>Fugue</h>, whenever a card is played, draw a card.<br /><h>Fugue</h> is a <h>Mental State</h>, of which <PlayerName /> can only have one at a time."
+    "Description": "While in <h>Fugue</h>, gain <Mana /> and draw a card for each card played.<br />At the end of <PlayerName />'s turn, or when <Count /> card$t(plurals.-s, { 'count': {{Count}} }) $t(subjects.is, { 'count': {{Count}} }) played, exit <h>Fugue</h>.<br /><h>Fugue</h> is a <h>Mental State</h>, of which <PlayerName /> can only have one at a time."
   },
-  "InspirationSe": {
-    "Name": "Flash of Inspiration",
-    "Description": "When <PlayerName /> has <TriggerLevel /> <h>Flash of Inspiration</h>, add that many <h>Inspirations</h> to the draw pile and enter <h>Fugue</h>."
-  },
-  "NextTurnPassionSe": {
-    "Name": "Philosophy of the Despised",
-    "Description": "At the start of [PlayerName}'s next turn, enter <h>Passion</h> and draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
+  "NextTurnPassion": {
+    "Name": "Next Turn Passion",
+    "Description": "At the start of <PlayerName />'s next turn, enter <h>Passion</h> and draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "PassionDrawSe": {
+    "Name": "Lovesickness",
     "Description": "Whenever <PlayerName /> enters <h>Passion</h>, draw <Level /> card$t(plurals.-s, { 'count': {{Level}} })."
-  },
-  "PeaceBlockSe": {
-    "Description": "At the end of <PlayerName />'s turn, if she's in <h>Serenity</h>, gain <Level /> <h>Block</h>."
-  },
-  "MoodChangeBlockSe": {
-    "Name": "Mental Fortress",
-    "Description": "Whenever <PlayerName /> changes <h>Mental States</h>, gain <Level /> <h>Block</h>."
   },
   "LunaticPassionSe": {
     "Name": "Lunatic Love",
     "Description": "<h>Passion</h>'s damage modifier is changed to <Percentage />%."
   },
-  "Constrain": {
-    "Name": "Suppression",
-    "Description": "Subtracts <h>Block</h> and <h>Barrier</h> gained."
+  "PeaceBlockSe": {
+    "Name": "Self-Control",
+    "Description": "At the end of <PlayerName />'s turn, if she's in <h>Serenity</h>, gain <Level /> <h>Block</h>."
   },
-  "WuyishiDNASe": {
-    "Name": "Genetics of the Unconscious",
-    "Description": "At the end of <PlayerName />'s turn, if she's not in <h>Epiphany</h>, she loses the game."
+  "UpgradePeace": {
+    "Name": "Anatta",
+    "Description": "Increases the mana gained from exiting <h>Serenity</h>."
   },
-  "BenwoTouyingSe": {
-    "Name": "Ego Projection",
-    "Description": "When entering <h>Passion</h>, add <Level /> completely random attack card$t(plurals.-s, { 'count': {{Level}} }) to the hand that <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>."
+  "Inspiration": {
+    "Name": "Inspiration",
+    "Description": "When <PlayerName /> has <TriggerLevel /> <h>Inspiration</h>, enter <h>Fugue</h>."
   },
-  "ChaofanyinSe": {
-    "Name": "Hyperreactivity",
-    "Description": "When a non-<h>Copy</h> card with <h>Instinct</h> is played and doesn't trigger its <h>Instinct</h> effect, add <Level /> <h>Cop$t(plurals.-y, { 'count': {{Level}} })</h> of it to the hand that <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>."
+  "Tired": {
+    "Name": "Fatigue",
+    "Description": "Only <Limit /> cards may be played this turn. (<Count /> left)"
   },
-  "ChaoyueZiwoSe": {
-    "Name": "Exceed Oneself",
-    "Description": "At the end of <PlayerName />'s turn, if in <h>Serenity</h>, gain <Level /> <h>Firepower</h> and <h>Spirit</h>."
+  "GainInspirationSe": {
+    "Name": "Unceasing Inspiration",
+    "Description": "At the end of <PlayerName />'s turn, add <Level /> <h>Eureka!</h> to the draw pile."
   },
-  "KongxiangshangSe": {
-    "Name": "Ideal Self Retention",
-    "Description": "After a <h>Basic Defense</h> card is played, enter <h>Serenity</h>."
+  "MoodChangeBlockSe": {
+    "Name": "A.T. Field",
+    "Description": "Whenever <PlayerName /> changes <h>Mental States</h>, gain <Level /> <h>Block</h>."
   },
-  "ShortLove": {
-    "Name": "Spark of Love",
-    "Description": "The next <h>Basic</h> card played has its numerical value increased by <Level />."
+  "CloseEyeSe": {
+    "Name": "Closed Eye",
+    "Description": "Enemy's intentions are unknown.<br />Remaining Turns: <Level />"
   },
-  "LongLove": {
-    "Name": "Lovesick",
-    "Description": "All <h>Basic</h> cards have their numerical value increased by <Level />."
+  "GainZeroAttackSe": {
+    "Name": "DNA's Flaw",
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <h>DNA Transcript$t(plurals.-s, { 'count': {{Level}} })</h> to the hand. $t(subjects.It, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
-  "ZhuozhuangChengzhangSe": {
-    "Name": "Healthy Growth",
-    "Description": "At the end of <PlayerName />'s turn, add <Level /> <h>Vitalit$t(plurals.-y, { 'count': {{Level}} })</h> to the hand."
+  "LoveFireSe": {
+    "Name": "Embers of Love",
+    "Description": "At the end of <PlayerName />'s turn, if a <h>Follow-Up Attack</h> was performed, gain <Level /> <h>Firepower</h>.<br />A <h>Follow-Up Attack</h> was performed this turn."
   },
-  "QingxingMengSe": {
-    "Name": "Lucid Daydream",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to hand. $t(subjects.It, { 'count': {{Level}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana1 /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h> and <h>Ethereal</h>.<br /><PlayerName /> can only play <Limit /> Rare card$t(plurals.-s, { 'count': {{Limit}} }) every turn. (<Count /> left)"
+  "KoishiDnaSe": {
+    "Name": "Hartmann's Youkai Girl",
+    "Description": "At the start of <PlayerName />'s turn, immediately play the top $t(plurals.level, { 'count': {{Level}} })card$t(plurals.-s, { 'count': {{Level}} }) in the draw pile."
   },
-  "QiangweiDiyuSe": {
-    "Name": "Rose Hell",
-    "Description": "Whenever a Basic card enters the hand, deal <Count /> damage to each enemy and increase that value by <Level />."
+  "UpgradeAllHandSe": {
+    "Name": "Psyche-Lock",
+    "Description": "At the start of <PlayerName />'s next turn, <h>Upgrade</h> each card in the hand."
+  },
+  "ButterflyDreamSe": {
+    "Name": "The Butterfly Dream",
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to the hand. $t(demonstratives.This, { 'count': {{Level}} }) card$t(plurals.-s, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>, <h>Ethereal</h> and mana of any color can be spent to pay the mana cost."
+  },
+  "KoishiPhoneSe": {
+    "Name": "Terrifyingly Cute Call",
+    "Description": "For each attack card played, perform <Level /> <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Level}} })</h>.<br />If there are no <h>Follow-Up</h> cards in the draw pile, instead play <h>Ring-Ring</h>."
   },
   "YukariFlyObjectSe": {
     "Name": "Superspeed Flier",
@@ -915,7 +933,11 @@
   },
   "BailianBlackSe": {
     "Name": "Embrace the Darkness",
-    "Description": "All non-attack, non-ability cards' costs are reduced to <Mana />. They have <h>Exile</h>."
+    "Description": "All defense, skill, and Status cards have <h>Exile<h>. Their costs are reduced to <Mana />."
+  },
+  "DreamExpressSe": {
+    "Name": "Dream Express",
+    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Level />, then deal damage to each enemy equal twice $t(plurals.sumOf, { 'count': {{Level}} }) the total cost$t(plurals.-s, { 'count': {{Level}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "MeihongFireSe": {
     "Name": "Indiscriminate Ignition",
@@ -943,7 +965,7 @@
   },
   "ZhenmiaowanAttackSe": {
     "Name": "Descendant of Issun-Boushi",
-    "Description": "Cost of skill card decrease by <Mana /> in this turn."
+    "Description": "In this turn, the cost of skill cards are decreased by <Mana />."
   },
   "ModuoluoFireSe": {
     "Name": "Fire of Ena",
@@ -999,7 +1021,7 @@
   },
   "HuiyeTimeSe": {
     "Name": "Between Instantaneous",
-    "Description": "Only <Limit /> cards may be played each turn. ( <Count /> left )"
+    "Description": "Only <Limit /> cards may be each this turn. (<Count /> left)"
   },
   "ShirenKunchongSe": {
     "Name": "Cannibalistic Insect",
@@ -1022,6 +1044,10 @@
     "Description": "Whenever <OwnerName /> receives attack damage, reduce it by <Level />.",
     "ExtraDescription": "Whenever <OwnerName /> receives attack damage, reduce it by <Level />.<br /><OwnerName /> can't be applied with <h>Lock On</h>."
   },
+  "BailianMagicSe": {
+    "Name": "Devil's Recitation",
+    "Description": "In this turn, the next $t(plurals.level, { 'count': {{Level}} })<h>Ability</h> card$t(plurals.-s, { 'count': {{Level}} }) activated will be played twice."
+  },
   "PrismriverSe": {
     "Name": "Prism Concerto",
     "Description": "Whenever <PlayerName /> would gain an amount of mana, she gains that much <ManaP /> instead."
@@ -1030,9 +1056,9 @@
     "Name": "Fires of Hokkai",
     "Description": "At the start of <PlayerName />'s turn, add <Level /> random skill card$t(plurals.-s, { 'count': {{Level}} }) to the hand. <br />$t(subjects.It, { 'count': {{Level}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
-  "SuperExtraTurn": {
+  "JinziDoppelgangerSe": {
     "Name": "Century's Doppelgangers",
-    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> aren't lost at the start of that extra turn, and only <Level /> card$t(plurals.-s, { 'count': {{Level}} }) can be played."
+    "Description": "The first $t(plurals.level, { 'count': {{Level}} })card$t(plurals.-s, { 'count': {{Level}} }) played during <PlayerName />'s turn $t(subjects.is, { 'count': {{Level}} }) played twice. (<Count /> left)"
   },
   "ZhenmiaowanAbilitySe": {
     "Name": "Magic of the Mallet",
@@ -1044,7 +1070,7 @@
   },
   "MoonWorldSe": {
     "Name": "Pure World",
-    "Description": "At the start of <PlayerName />'s turn, <Level /> random card$t(plurals.-s, { 'count': {{Level}} }) in the hand gain <h>Pure</h>."
+    "Description": "At the start of <PlayerName />'s turn, <Level /> random card$t(plurals.-s, { 'count': {{Level}} }) in the hand gain$t(subjects.-s, { 'count': {{Level}} }) <h>Pure</h>."
   },
   "CatchGoblinSe": {
     "Name": "Fortuna's Trial",

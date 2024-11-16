@@ -1,4 +1,16 @@
 {
+  "subjects": {
+    "It": "它",
+    "It_other": "它们"
+  },
+  "objects": {
+    "it": "它",
+    "it_other": "它们"
+  },
+  "dependentPossessives": {
+    "its": "它",
+    "its_other": "它们"
+  },
   "TempFirepower": {
     "Name": "暂得火力",
     "Description": "在一回合内，获得 <Level /> 点火力。<br />火力提高攻击造成的伤害。"
@@ -71,6 +83,10 @@
     "Name": "额外回合",
     "Description": "<OwnerName />的回合结束后，进行额外的回合，剩余 <Level /> 次。"
   },
+  "SuperExtraTurn": {
+    "Name": "「永夜返」",
+    "Description": "<PlayerName />的<h>自然回合</h>结束时，进行一个额外的回合。<br />这一回合开始时不会失去<h>格挡</h>和<h>闪避</h>，只能打出 <Level /> 张牌。"
+  },
   "LimitedDamage": {
     "Name": "道具的解放者",
     "Description": "<OwnerName />每回合只能受到 <Limit /> 点伤害，剩余 <Count /> 点。"
@@ -101,7 +117,7 @@
   },
   "AmuletForCard": {
     "Name": "庇护",
-    "Description": "抵挡接下来受到的 <Level /> 张状态牌（将它们<h>放逐</h>）。"
+    "Description": "抵挡接下来受到的 <Level /> 张状态牌（将$t(objects.it, { 'count': {{Level}} })<h>放逐</h>）。"
   },
   "Electric": {
     "Name": "带电",
@@ -266,6 +282,10 @@
   "EnemyMaid": {
     "Name": "小霞的清扫",
     "Description": "<OwnerName />的回合结束时，对<PlayerName />造成 <Level /> 点伤害。"
+  },
+  "KoishiUnknown": {
+    "Name": "难以捉摸",
+    "Description": "<OwnerName />的部分行动意图隐藏。<br />额外的层数将提高隐藏行动的强度。"
   },
   "ShenlingGold": {
     "Name": "富贵之赐",
@@ -437,7 +457,8 @@
   },
   "MadokaBowSe": {
     "Name": "迸发光芒的长弓",
-    "Description": "<OwnerName />回合结束时，将 <Level /> 张随机的状态牌洗入抽牌堆。"
+    "Description": "<OwnerName />回合结束时，将 <Level /> 张随机的状态牌洗入抽牌堆。",
+    "Description_1.6.0": "<OwnerName />回合结束时，将 <Level /> 张随机的状态牌，一半洗入抽牌堆，一半洗入弃牌堆。"
   },
   "QiannianShenqiSe": {
     "Name": "金字塔形状的积木",
@@ -477,7 +498,8 @@
   },
   "EvilTuiZhiSe": {
     "Name": "妖邪退治",
-    "Description": "下 <Level /> 张攻击牌造成双倍伤害。"
+    "Description": "下 <Level /> 张攻击牌造成双倍伤害。",
+    "Description_1.6.0": "本回合内，下 <Level /> 张攻击牌会打出两次。"
   },
   "YinyangXueyinSe": {
     "Name": "阴阳血印",
@@ -485,7 +507,7 @@
   },
   "BoliPhantomSe": {
     "Name": "博丽幻影",
-    "Description": "每<h>放逐</h>一张不是<h>封魔针</h>的牌，将 <Level /> 张<h>封魔针</h>加入手中，它们<h>暂塑</h>为<Mana />。"
+    "Description": "每<h>放逐</h>一张不是<h>封魔针</h>的牌，将 <Level /> 张<h>封魔针</h>加入手中，$t(subjects.it, { 'count': {{Level}} })<h>暂塑</h>为<Mana />。"
   },
   "TaijiLiangyiSe": {
     "Name": "太极生两仪",
@@ -605,7 +627,7 @@
   },
   "BladePowerSe": {
     "Name": "快闪之银",
-    "Description": "主动使用<h>飞刀</h>后将 <Level /> 张随机的攻击牌加入手中，它们<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
+    "Description": "主动使用<h>飞刀</h>后将 <Level /> 张随机的攻击牌加入手中，$t(subjects.it, { 'count': {{Level}} })<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "PerfectServantUSe": {
     "Name": "额外备案",
@@ -674,6 +696,10 @@
   "KnifeTarget": {
     "Name": "锁定的目标",
     "Description": "<h>飞刀</h>会优先攻击<OwnerName />。"
+  },
+  "KnifeDamageUpSe": {
+    "Name": "推进之银",
+    "Description": "<h>飞刀</h>造成的伤害提高 <Level /> 点。"
   },
   "Cold": {
     "Name": "寒冷",
@@ -767,77 +793,73 @@
     "Name": "平静",
     "Description": "离开<h>平静</h>时获得<Mana />。<br /><h>平静</h>是一种<h>心境</h>，<PlayerName />只能处于一种<h>心境</h>中。"
   },
-  "MoodEnlight": {
+  "MoodEpiphany": {
     "Name": "神游",
-    "Description": "进入<h>神游</h>时获得<Mana />。<br />处于<h>神游</h>时，每打出一张牌抽一张牌。<br /><h>神游</h>是一种<h>心境</h>，<PlayerName />只能处于一种<h>心境</h>中。"
+    "Description": "处于<h>神游</h>时，每打出一张牌就获得<Mana />并抽一张牌。<br />回合结束或打出 <Count /> 张牌后离开<h>神游</h>。<br /><h>神游</h>是一种<h>心境</h>，<PlayerName />只能处于一种<h>心境</h>中。"
   },
-  "InspirationSe": {
-    "Name": "灵感迸发",
-    "Description": "<PlayerName />累计 <TriggerLevel /> 层<h>灵感迸发</h>时，将等量的<h>灵感</h>洗入抽牌堆，进入<h>神游</h>。"
-  },
-  "NextTurnPassionSe": {
-    "Name": "被厌恶者的哲学",
+  "NextTurnPassion": {
+    "Name": "下回合进入热情",
     "Description": "<PlayerName />的下回合开始时，进入<h>热情</h>，抽 <Level /> 张牌。"
   },
   "PassionDrawSe": {
-    "Name": "热恋抽牌",
+    "Name": "相思之情",
     "Description": "每当<PlayerName />进入<h>热情</h>时，抽 <Level /> 张牌。"
-  },
-  "PeaceBlockSe": {
-    "Name": "平静格挡",
-    "Description": "<PlayerName />的回合结束时如果处于<h>平静</h>，获得 <Level /> 点<h>格挡</h>。"
-  },
-  "MoodChangeBlockSe": {
-    "Name": "心灵壁垒",
-    "Description": "每当<PlayerName />转化<h>心境</h>时，获得 <Level /> 点<h>格挡</h>。"
   },
   "LunaticPassionSe": {
     "Name": "疯狂之爱",
     "Description": "<h>热情</h>的伤害提高改为 <Percentage />%。"
   },
-  "Constrain": {
-    "Name": "抑制",
-    "Description": "抵消获得的<h>格挡</h>和<h>护盾</h>。"
+  "PeaceBlockSe": {
+    "Name": "掌控自我",
+    "Description": "<PlayerName />的回合结束时如果处于<h>平静</h>，获得 <Level /> 点<h>格挡</h>。"
   },
-  "WuyishiDNASe": {
-    "Name": "无意识的基因",
-    "Description": "<PlayerName />的回合结束时，如果不处于<h>顿悟</h>，死亡。"
+  "UpgradePeace": {
+    "Name": "无我之境",
+    "Description": "提高离开<h>平静</h>时获得的法力。"
   },
-  "BenwoTouyingSe": {
-    "Name": "自我投影",
-    "Description": "每次进入<h>热恋</h>时，将 <Level /> 张完全随机的攻击牌加入手牌，<h>暂塑</h>为<Mana />且附带<h>放逐</h>。"
+  "Inspiration": {
+    "Name": "灵感",
+    "Description": "<PlayerName />累计 <TriggerLevel /> 层<h>灵感</h>时，进入<h>神游</h>。"
   },
-  "ChaofanyinSe": {
-    "Name": "超反应知觉",
-    "Description": "每当你打出一张不是<h>复制</h>的直觉牌时，如果没有触发<h>直觉</h>，将 <Level /> 张费用为<Mana />且附带<h>放逐</h>的复制加入手中。"
+  "Tired": {
+    "Name": "疲惫",
+    "Description": "本回合只能打出 <Limit /> 张牌，剩余 <Count /> 张。"
   },
-  "ChaoyueZiwoSe": {
-    "Name": "超越自我",
-    "Description": "<PlayerName />的回合结束时，如果处于<h>平静</h>，获得 <Level /> 点<h>火力</h>和<h>灵力</h>。"
+  "GainInspirationSe": {
+    "Name": "持续获得灵感",
+    "Description": "<PlayerName />的回合结束时，将 <Level /> 张<h>找到灵感了！</h>洗入抽牌堆。"
   },
-  "KongxiangshangSe": {
-    "Name": "空想上的人格保持者",
-    "Description": "打出<h>基本防御</h>牌后进入<h>平静</h>。"
+  "MoodChangeBlockSe": {
+    "Name": "A.T. 力场",
+    "Description": "每当<PlayerName />转化<h>心境</h>时，获得 <Level /> 点<h>格挡</h>。"
   },
-  "ShortLove": {
-    "Name": "闪电恋",
-    "Description": "下一张<h>基本</h>卡的数值提高 <Level />。"
+  "CloseEyeSe": {
+    "Name": "紧闭的眼",
+    "Description": "无法看到敌人的意图，剩余 <Level /> 次。"
   },
-  "LongLove": {
-    "Name": "长相思",
-    "Description": "所有<h>基本</h>卡的数值提高 <Level />。"
+  "GainZeroAttackSe": {
+    "Name": "DNA 的瑕疵",
+    "Description": "<PlayerName />的回合开始时，将 <Level /> 张<h>DNA 转录</h>加入手中，$t(subjects.it, { 'count': {{Level}} })具有<h>放逐</h>、<h>虚无</h>。"
   },
-  "ZhuozhuangChengzhangSe": {
-    "Name": "茁壮成长",
-    "Description": "<PlayerName />的回合结束时，将 <Level /> 张<h>生机</h>加入手牌。"
+  "LoveFireSe": {
+    "Name": "恋之埋火",
+    "Description": "<PlayerName />的回合结束时，如果本回合进行过<h>追加攻击</h>，获得 <Level /> 点<h>火力</h>。<br />已进行过<h>追加攻击</h>。"
   },
-  "QingxingMengSe": {
-    "Name": "白日清醒梦",
-    "Description": "<PlayerName />的回合开始时，将 <Level /> 张<h>完全随机</h>的<h>稀有</h>牌加入手中，它暂塑为<Mana1 />，具有<h>放逐</h>、<h>虚无</h>。<br /><PlayerName />的每个回合只能打出 <Limit /> 层张<h>稀有</h>牌，剩余 <Count /> 张。"
+  "KoishiDnaSe": {
+    "Name": "哈德曼的妖怪少女",
+    "Description": "<PlayerName />的回合开始时，打出抽牌堆顶的 <Level /> 张牌。"
   },
-  "QiangweiDiyuSe": {
-    "Name": "蔷薇地狱",
-    "Description": "每当一张基本牌进入手牌时，对随机敌人造成 <Count /> 点伤害，然后将伤害提高 <Level /> 点。"
+  "UpgradeAllHandSe": {
+    "Name": "心灵解放",
+    "Description": "回合开始时<h>升级</h>所有的手牌。"
+  },
+  "ButterflyDreamSe": {
+    "Name": "庄周梦蝶",
+    "Description": "<PlayerName />的回合开始时，将 <Level /> 张<hp>完全随机</hp>的稀有牌加入手中，它具有<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。"
+  },
+  "KoishiPhoneSe": {
+    "Name": "恐怖的可爱来电",
+    "Description": "每打出一张攻击牌，进行 <Level /> 次<h>追加攻击</h>。<br />当抽牌堆没有<h>追击</h>牌时，将以<h>电话响了</h>进行追击。"
   },
   "YukariFlyObjectSe": {
     "Name": "超高速飞行物体",
@@ -874,6 +896,10 @@
   "BailianBlackSe": {
     "Name": "拥抱黑暗",
     "Description": "所有防御、技能和状态牌，打出后被<h>放逐</h>，它们的费用降至<Mana />。"
+  },
+  "DreamExpressSe": {
+    "Name": "梦幻快车",
+    "Description": "<PlayerName />的回合结束时，<h>入梦</h> <Level /> ，对所有敌人造成两倍于$t(dependentPossessives.it, { 'count': {{Level}} })基础费用之和的伤害。"
   },
   "MeihongFireSe": {
     "Name": "无差别起火符",
@@ -980,6 +1006,10 @@
     "Description": "<OwnerName />受到的攻击伤害降低 <Level /> 点。",
     "ExtraDescription": "<OwnerName />受到的攻击伤害降低 <Level /> 点。<br /><OwnerName />免疫于<h>锁定</h>。"
   },
+  "BailianMagicSe": {
+    "Name": "魔神复诵",
+    "Description": "本回合内，下 <Level /> 张<h>能力</h>牌会打出两次。"
+  },
   "PrismriverSe": {
     "Name": "棱镜协奏曲",
     "Description": "本场战斗中，<PlayerName />获得的所有法力都转化为<h>彩色</h>。"
@@ -988,9 +1018,9 @@
     "Name": "法界之火",
     "Description": "<PlayerName />的回合开始时，将 <Level /> 张随机的技能牌加入手中，它<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
-  "SuperExtraTurn": {
+  "JinziDoppelgangerSe": {
     "Name": "世纪的二重身超人",
-    "Description": "<PlayerName />的<h>自然回合</h>结束时，进行一个额外的回合。<br />这一回合开始时不会失去<h>格挡</h>和<h>闪避</h>，只能打出 <Level /> 张牌。"
+    "Description": "<PlayerName />每回合打出的前 <Level /> 张牌会打出两次，剩余 <Count /> 张。"
   },
   "ZhenmiaowanAbilitySe": {
     "Name": "小锤的魔力",
