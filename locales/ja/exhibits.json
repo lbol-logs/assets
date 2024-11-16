@@ -58,7 +58,7 @@
   },
   "KoishiG": {
     "Name": "満開の薔薇",
-    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />戦闘開始時、<Value1 /><h>活力</h>を<Value1 />枚手札に加える。"
+    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>活力</h>を<Value1 />枚手札に加える。"
   },
   "KoishiB": {
     "Name": "特注のサングラス",

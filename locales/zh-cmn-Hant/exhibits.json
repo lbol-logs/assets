@@ -58,11 +58,11 @@
   },
   "KoishiG": {
     "Name": "盛開的薔薇",
-    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br />對戰精英和首領敵人時，<PlayerName />在戰鬥開始時獲得 <Value1 /> 點<h>護盾</h>。\n不會受到<h>折射日光</h>的傷害。"
+    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br /><PlayerName />的第一回合開始時，將 <Value1 /> 張<h>生機</h>加入手中。"
   },
   "KoishiB": {
     "Name": "定製太陽鏡",
-    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br /><PlayerName />進入<h>熱情</h>時獲得 <Value1 /> 點<h>格擋</h>。"
+    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br />對戰精英和首領敵人時，<PlayerName />在戰鬥開始時獲得 <Value1 /> 點<h>護盾</h>。\n不會受到<h>折射日光</h>的傷害。"
   },
   "AliceW": {
     "Name": "上海人偶",
