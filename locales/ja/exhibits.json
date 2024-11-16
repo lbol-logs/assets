@@ -1,50 +1,28 @@
 {
   "LongjingYu": {
     "Name": "龍の頸の玉",
-    "Description": "戦闘開始時、<Mana />を得る。"
+    "Description": "戦闘開始時、<Mana />を得る。",
+    "Description_1.6.0": "マナ基盤に<BaseMana />を加える。<br />戦闘開始時、<Mana />を得る。"
   },
   "FoyushiBo": {
     "Name": "仏の御石の鉢",
-    "Description": "防御カードをプレイするたび、ランダムな色のマナを<Value1 />つ得る。"
+    "Description": "防御カードをプレイするたび、ランダムな色のマナを<Value1 />つ得る。",
+    "Description_1.6.0": "マナ基盤に<BaseMana />を加える。<br />防御カードは二回使用される。"
   },
   "HuoshuPiyi": {
     "Name": "火鼠の皮衣",
-    "Description": "戦闘開始時、<Value1 /><h>バリア</h>と<h>火力</h><Value2 />を得る。"
+    "Description": "戦闘開始時、<Value1 /><h>バリア</h>と<h>火力</h><Value2 />を得る。",
+    "Description_1.6.0": "マナ基盤に<BaseMana />を加える。<br />戦闘開始時、<Value1 /><h>バリア</h>と<h>火力</h><Value2 />を得る。"
   },
   "YanZianbei": {
     "Name": "燕の子安貝",
-    "Description": "<PlayerName />のターンの開始時、ライフを<Value1 />回復する。"
+    "Description": "<PlayerName />のターンの開始時、ライフを<Value1 />回復する。",
+    "Description_1.6.0": "マナ基盤に<BaseMana />を加える。<br /><PlayerName />のターンの開始時、ライフを<Value1 />回復する。"
   },
   "PenglaiYuzhi": {
     "Name": "蓬莱の玉の枝",
-    "Description": "<PlayerName />が得るマナは全て<h>彩色</h>になる。<br />ターン終了時に残ったマナが失われない。"
-  },
-  "SingleJiandao": {
-    "Name": "半分の巨大な鋏"
-  },
-  "Shendeng": {
-    "Name": "注ぎ口の長いティーポット"
-  },
-  "HolyGrail": {
-    "Name": "装飾が施された金の杯"
-  },
-  "SihunYu": {
-    "Name": "邪気を放つペンダント"
-  },
-  "MadokaBow": {
-    "Name": "光輝く長弓"
-  },
-  "QiannianShenqi": {
-    "Name": "ピラミッド型のパズル"
-  },
-  "InfinityGems": {
-    "Name": "宝石が埋め込まれたガントレット"
-  },
-  "SakuraWand": {
-    "Name": "翼のついた鍵"
-  },
-  "DragonBall": {
-    "Name": "星が描かれたボール"
+    "Description": "<PlayerName />が得るマナは全て<h>彩色</h>になる。<br />ターン終了時に残ったマナが失われない。",
+    "Description_1.6.0": "マナ基盤に<BaseMana />を加える。<br /><PlayerName />が得るマナは全て<h>彩色</h>になる。<br />ターン終了時に残ったマナが失われない。"
   },
   "ReimuR": {
     "Name": "血に飢えた陰陽玉",
@@ -60,7 +38,7 @@
   },
   "MarisaR": {
     "Name": "ミニ八卦炉",
-    "Description": "マナ基盤に<BaseMana />を加え、<h>魔理沙</h>専用のカードが出現するようになる。<br /><Mana />を支払って攻撃カードをプレイするたび、<h>チャージ</h><Value1 />を得る。"
+    "Description": "マナ基盤に<BaseMana />を加え、<h>魔理沙</h>専用のカードが出現するようになる。<br /><Mana />を支払って攻撃カードを使用するたび、<h>チャージ</h><Value1 />を得る。"
   },
   "SakuyaW": {
     "Name": "予備のナイフ",
@@ -79,12 +57,12 @@
     "Description": "マナ基盤に<BaseMana />を加え、<h>チルノ</h>専用のカードが出現するようになる。<br /><h>パートナー</h>を召喚する度、<h>真夏の花</h>を<Value1 />枚手札に加える。"
   },
   "KoishiG": {
-    "Name": "棘のあるバラ",
-    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br /><h>平静</h>状態になるたびに<Value1 /><h>ブロック</h>を得る。"
+    "Name": "満開の薔薇",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />戦闘開始時、<Value1 /><h>活力</h>を<Value1 />枚手札に加える。"
   },
   "KoishiB": {
-    "Name": "イマジナリーフレンド",
-    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br /><PlayerName />が<h>情熱</h>状態になる度、<Value1 />ブロックを得る。"
+    "Name": "特注のサングラス",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />エリートやボスとの戦闘開始時に<PlayerName />は<Value1 /><h>バリア</h>を得る。<br /><PlayerName />は<h>日の照射</h>によるダメージを受けない。"
   },
   "PiaoliangPanzi": {
     "Name": "きれいなお皿",
@@ -176,7 +154,7 @@
   },
   "HuiyeBaoxiang": {
     "Name": "輝夜の財宝箱",
-    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を得る。<br />取得時、ランダムな<Value1 />個の展示物を得る。<br />厄災：<h>立ち退き命令</h>をデッキに追加する。"
+    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を得る。<br />取得時、ランダムな<Value1 />個の展示品を得る。<br />厄災：<h>立ち退き命令</h>をデッキに追加する。"
   },
   "QipaiYouhua": {
     "Name": "人目を引く油絵",
@@ -188,7 +166,7 @@
   },
   "QicaiLianhua": {
     "Name": "虹の水蓮",
-    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を得る。<br />各戦闘中に全ての種類のマナを得た時、<he>彩光乱舞</he>を1枚手札に加える。"
+    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を得る。<br />各戦闘中に7種類全てのマナを1回以上得た時、<he>彩光乱舞</he>を1枚手札に加える。（1戦闘につき1回）"
   },
   "He3": {
     "Name": "ヘリウム3",
@@ -676,6 +654,33 @@
   },
   "KongZhanpinhe": {
     "Name": "空の展示箱",
-    "Description": "これ以上展示物を入手できない。"
+    "Description": "これ以上展示品を入手できない。"
+  },
+  "SingleJiandao": {
+    "Name": "半分の巨大な鋏"
+  },
+  "Shendeng": {
+    "Name": "注ぎ口の長いティーポット"
+  },
+  "HolyGrail": {
+    "Name": "装飾が施された金の杯"
+  },
+  "SihunYu": {
+    "Name": "邪気を放つペンダント"
+  },
+  "MadokaBow": {
+    "Name": "光輝く長弓"
+  },
+  "QiannianShenqi": {
+    "Name": "ピラミッド型のパズル"
+  },
+  "InfinityGems": {
+    "Name": "宝石が埋め込まれたガントレット"
+  },
+  "SakuraWand": {
+    "Name": "翼のついた鍵"
+  },
+  "DragonBall": {
+    "Name": "星が描かれたボール"
   }
 }

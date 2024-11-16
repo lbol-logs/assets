@@ -2,27 +2,32 @@
   "LongjingYu": {
     "Rarity": "Mythic",
     "Mana": "WUBRG",
-    "BaseMana": "P"
+    "BaseMana": "P",
+    "Version": "1.6.0"
   },
   "FoyushiBo": {
     "Rarity": "Mythic",
     "Value1": 1,
-    "BaseMana": "P"
+    "BaseMana": "P",
+    "Version": "1.6.0"
   },
   "HuoshuPiyi": {
     "Rarity": "Mythic",
     "Value1": 20,
     "Value2": 3,
-    "BaseMana": "P"
+    "BaseMana": "P",
+    "Version": "1.6.0"
   },
   "YanZianbei": {
     "Rarity": "Mythic",
     "Value1": 5,
-    "BaseMana": "P"
+    "BaseMana": "P",
+    "Version": "1.6.0"
   },
   "PenglaiYuzhi": {
     "Rarity": "Mythic",
-    "BaseMana": "P"
+    "BaseMana": "P",
+    "Version": "1.6.0"
   },
   "ReimuR": {
     "Owner": "Reimu",

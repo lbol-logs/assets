@@ -1,50 +1,28 @@
 {
   "LongjingYu": {
     "Name": "龍頸之玉",
-    "Description": "戰鬥開始時，獲得<Mana />。"
+    "Description": "戰鬥開始時，獲得<Mana />。",
+    "Description_1.6.0": "提供基礎法力<BaseMana />。<br />戰鬥開始時，獲得<Mana />。"
   },
   "FoyushiBo": {
     "Name": "佛御石之缽",
-    "Description": "每打出一張防禦牌，獲得 <Value1 /> 點隨機法力。"
+    "Description": "每打出一張防禦牌，獲得 <Value1 /> 點隨機法力。",
+    "Description_1.6.0": "提供基礎法力<BaseMana />。<br />防禦牌會打出兩次。"
   },
   "HuoshuPiyi": {
     "Name": "火鼠的皮衣",
-    "Description": "戰鬥開始時，獲得 <Value1 /> 點<h>護盾</h>及 <Value2 /> 點<h>火力</h>。"
+    "Description": "戰鬥開始時，獲得 <Value1 /> 點<h>護盾</h>及 <Value2 /> 點<h>火力</h>。",
+    "Description_1.6.0": "提供基礎法力<BaseMana />。<br />戰鬥開始時，獲得 <Value1 /> 點<h>護盾</h>和 <Value2 /> 點<h>火力</h>。"
   },
   "YanZianbei": {
     "Name": "燕的子安貝",
-    "Description": "<PlayerName />的回合開始時，恢復 <Value1 /> 點生命。"
+    "Description": "<PlayerName />的回合開始時，恢復 <Value1 /> 點生命。",
+    "Description_1.6.0": "提供基礎法力<BaseMana />。<br /><PlayerName />的回合開始時，恢復 <Value1 /> 點生命。"
   },
   "PenglaiYuzhi": {
     "Name": "蓬萊玉枝",
-    "Description": "<PlayerName />獲得的所有法力都轉化為<h>彩色</h>。<br />多餘的法力會保留到下一回合。"
-  },
-  "SingleJiandao": {
-    "Name": "巨大的單片剪刀"
-  },
-  "Shendeng": {
-    "Name": "前端很長的茶壺"
-  },
-  "HolyGrail": {
-    "Name": "裝飾浮誇的金杯"
-  },
-  "SihunYu": {
-    "Name": "散發邪氣的挂墜"
-  },
-  "MadokaBow": {
-    "Name": "迸發光芒的長弓"
-  },
-  "QiannianShenqi": {
-    "Name": "金字塔形狀的積木"
-  },
-  "InfinityGems": {
-    "Name": "鑲有寶石的手套"
-  },
-  "SakuraWand": {
-    "Name": "長翅膀的鑰匙"
-  },
-  "DragonBall": {
-    "Name": "印著星星的玻璃球"
+    "Description": "<PlayerName />獲得的所有法力都轉化為<h>彩色</h>。<br />多餘的法力會保留到下一回合。",
+    "Description_1.6.0": "提供基礎法力<BaseMana />。<br /><PlayerName />獲得的所有法力都轉化為<h>彩色</h>。<br />多餘的法力會保留到下一回合。"
   },
   "ReimuR": {
     "Name": "渴望鮮血的陰陽玉",
@@ -79,11 +57,11 @@
     "Description": "提供基礎法力<BaseMana />，<h>琪露諾</h>的專屬卡牌會加入牌池。<br />主動打出而召喚一名<h>同伴</h>時，將 <Value1 /> 張<h>盛夏之花</h>加入手中。"
   },
   "KoishiG": {
-    "Name": "帶刺的薔薇",
-    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br /><PlayerName />的第一回合開始時，獲得 <Value1 /> 層<h>靈感迸發</h>，將 <Value2 /> 張<h>靈感</h>洗入抽牌堆。"
+    "Name": "盛開的薔薇",
+    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br />對戰精英和首領敵人時，<PlayerName />在戰鬥開始時獲得 <Value1 /> 點<h>護盾</h>。\n不會受到<h>折射日光</h>的傷害。"
   },
   "KoishiB": {
-    "Name": "假想的朋友",
+    "Name": "定製太陽鏡",
     "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br /><PlayerName />進入<h>熱情</h>時獲得 <Value1 /> 點<h>格擋</h>。"
   },
   "AliceW": {
@@ -685,5 +663,32 @@
   "KongZhanpinhe": {
     "Name": "空的展品盒",
     "Description": "已經找不到更多的展覽品了。"
+  },
+  "SingleJiandao": {
+    "Name": "巨大的單片剪刀"
+  },
+  "Shendeng": {
+    "Name": "前端很長的茶壺"
+  },
+  "HolyGrail": {
+    "Name": "裝飾浮誇的金杯"
+  },
+  "SihunYu": {
+    "Name": "散發邪氣的挂墜"
+  },
+  "MadokaBow": {
+    "Name": "迸發光芒的長弓"
+  },
+  "QiannianShenqi": {
+    "Name": "金字塔形狀的積木"
+  },
+  "InfinityGems": {
+    "Name": "鑲有寶石的手套"
+  },
+  "SakuraWand": {
+    "Name": "長翅膀的鑰匙"
+  },
+  "DragonBall": {
+    "Name": "印著星星的玻璃球"
   }
 }

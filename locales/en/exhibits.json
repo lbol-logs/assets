@@ -21,50 +21,28 @@
   "ordinal": "<Value1 />th",
   "LongjingYu": {
     "Name": "Jewel from the Dragon's Neck",
-    "Description": "At the start of combat, gain <Mana />."
+    "Description": "At the start of combat, gain <Mana />.",
+    "Description_1.6.0": "Adds <BaseMana /> to the mana base.<br />At the start of combat, gain <Mana />."
   },
   "FoyushiBo": {
     "Name": "Buddha's Stone Bowl",
-    "Description": "Whenever a defense card is played, gain <Value1 /> random mana."
+    "Description": "Whenever a defense card is played, gain <Value1 /> random mana.",
+    "Description_1.6.0": "Adds <BaseMana /> to the mana base.<br />Defense cards are played twice."
   },
   "HuoshuPiyi": {
     "Name": "Robe of Fire Rat",
-    "Description": "At the start of combat, gain <Value1 /> <h>Barrier</h> and <Value2 /> <h>Firepower</h>."
+    "Description": "At the start of combat, gain <Value1 /> <h>Barrier</h> and <Value2 /> <h>Firepower</h>.",
+    "Description_1.6.0": "Adds <BaseMana /> to the mana base.<br />At the start of combat, gain <Value1 /> <h>Barrier</h> and <Value2 /> <h>Firepower</h>."
   },
   "YanZianbei": {
     "Name": "Swallow's Cowrie Shell",
-    "Description": "At the start of <PlayerName />'s turn, she gains <Value1 /> life."
+    "Description": "At the start of <PlayerName />'s turn, she gains <Value1 /> life.",
+    "Description_1.6.0": "Adds <BaseMana /> to the mana base.<br />At the start of <PlayerName />'s turn, she gains <Value1 /> life."
   },
   "PenglaiYuzhi": {
     "Name": "Jeweled Branch of Hourai",
-    "Description": "Convert all mana <PlayerName /> would gain to <ManaP />.<br />Unspent mana isn't lost at the end of each turn."
-  },
-  "SingleJiandao": {
-    "Name": "Giant Scissor Blade"
-  },
-  "Shendeng": {
-    "Name": "Teapot with Long Spout"
-  },
-  "HolyGrail": {
-    "Name": "Overdecorated Gold Cup"
-  },
-  "SihunYu": {
-    "Name": "Pendants That Emit Evil Spirits"
-  },
-  "MadokaBow": {
-    "Name": "Shining Longbow"
-  },
-  "QiannianShenqi": {
-    "Name": "Pyramid-Shaped Puzzle"
-  },
-  "InfinityGems": {
-    "Name": "Gem-Encrusted Gloves"
-  },
-  "SakuraWand": {
-    "Name": "Winged Key"
-  },
-  "DragonBall": {
-    "Name": "Starred Crystalline Ball"
+    "Description": "Convert all mana <PlayerName /> would gain to <ManaP />.<br />Unspent mana isn't lost at the end of each turn.",
+    "Description_1.6.0": "Adds <BaseMana /> to the mana base.<br />Convert all mana <PlayerName /> would gain to <ManaP />.<br />Unspent mana isn't lost at the end of each turn."
   },
   "ReimuR": {
     "Name": "Bloodthirsty Yin-Yang Orb",
@@ -84,7 +62,7 @@
   },
   "SakuyaW": {
     "Name": "Spare Throwing Knives",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />At the start of combat and when the draw pile is shuffled, add <Value1 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the draw pile."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />At the start of combat and when shuffling, add <Value1 /> <h>Throwing Kni$t(plurals.-fe, { 'count': {{Value1}} })</h> to the draw pile."
   },
   "SakuyaU": {
     "Name": "Magic Poker",
@@ -99,12 +77,12 @@
     "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Cirno</h> are added to the card pool.<br />Whenever a <h>Teammate</h> is summoned by being played, add <Value1 /> <h>Midsummer Flowers</h> to the hand."
   },
   "KoishiG": {
-    "Name": "Thorny Rose",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn, gain <Value1 /> <h>Flash of Inspiration</h> and add <Value2 /> <h>Inspiration$t(plurals.-s, { 'count': {{Value2}} })</h> to the draw pile."
+    "Name": "Blooming Rose",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn, add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand."
   },
   "KoishiB": {
-    "Name": "Imaginary Friend",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />When entering <h>Passion</h>, <PlayerName /> gains <Value1 /> <h>Block</h>."
+    "Name": "Custom Sunglasses",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of each elite and boss combat, <PlayerName /> gains <Value1 /> <h>Barrier</h>.<br /><h>Refracted Sunlights</h> deal no damage."
   },
   "AliceW": {
     "Name": "Shanghai Doll",
@@ -216,7 +194,7 @@
   },
   "QicaiLianhua": {
     "Name": "Rainbow Lotus",
-    "Description": "At the start of <PlayerName />'s turn, gain 1 random mana.<br />When there's at least 1 mana of each color (including <ManaC /> & <ManaP />), add a <he>Vivid Chaotic Dance</he> to the hand."
+    "Description": "At the start of <PlayerName />'s turn, gain 1 random mana.<br />Once per combat, if 7 different colors of mana have been gained, add a <he>Vivid Chaotic Dance</he> to the hand."
   },
   "He3": {
     "Name": "Helium-3",
@@ -664,7 +642,7 @@
   },
   "IdolTshirt": {
     "Name": "Idol T-Shirt",
-    "Description": "At the start of combat, <PlayerName /> gains <Counter /> maximum life, then gains <Counter /> <h>Lock-On</h>."
+    "Description": "At the start of combat, <PlayerName /> gains <Counter /> maximum life, then gains <Counter /> <h>Lock On</h>."
   },
   "Qingshu": {
     "Name": "Love Letter",
@@ -705,5 +683,32 @@
   "KongZhanpinhe": {
     "Name": "Empty Exhibit Box",
     "Description": "<h>Exhibits</h> can no longer be found."
+  },
+  "SingleJiandao": {
+    "Name": "Giant Scissor Blade"
+  },
+  "Shendeng": {
+    "Name": "Teapot with Long Spout"
+  },
+  "HolyGrail": {
+    "Name": "Overdecorated Gold Cup"
+  },
+  "SihunYu": {
+    "Name": "Pendants That Emit Evil Spirits"
+  },
+  "MadokaBow": {
+    "Name": "Shining Longbow"
+  },
+  "QiannianShenqi": {
+    "Name": "Pyramid-Shaped Puzzle"
+  },
+  "InfinityGems": {
+    "Name": "Gem-Encrusted Gloves"
+  },
+  "SakuraWand": {
+    "Name": "Winged Key"
+  },
+  "DragonBall": {
+    "Name": "Starred Crystalline Ball"
   }
 }
