@@ -33,7 +33,7 @@
   },
   "Fragil": {
     "Name": "脆弱化",
-    "Description": "<PlayerName />がカードをプレイするによって得られる<h>ブロック</h>と<h>バリア</h>が<Value />%減少する。残り<Duration />ターン持続。"
+    "Description": "<PlayerName />がカードを使用することで得られる<h>ブロック</h>と<h>バリア</h>が<Value />%減少する。残り<Duration />ターン持続。"
   },
   "Weak": {
     "Name": "脱力",
@@ -54,6 +54,10 @@
   "ExtraTurn": {
     "Name": "追加ターン",
     "Description": "<OwnerName />のターン終了時、追加のターンを得る。残り<Level />回有効。"
+  },
+  "SuperExtraTurn": {
+    "Name": "「永夜返し」",
+    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Level />枚しか使用できない。"
   },
   "LimitedDamage": {
     "Name": "道具の解放者",
@@ -101,11 +105,11 @@
   },
   "NextAttackUp": {
     "Name": "攻撃ダメージ増加",
-    "Description": "次にプレイする<h>攻撃カード</h>のダメージが<Level />点増加する。"
+    "Description": "次に使用する<h>攻撃カード</h>のダメージが<Level />点増加する。"
   },
   "ManaFreezed": {
     "Name": "マナ凍結",
-    "Description": "各ターン最初にプレイするカードのコストが<Mana />増える。"
+    "Description": "各ターン最初に使用するカードのコストが<Mana />増える。"
   },
   "NextTurnLoseHp": {
     "Name": "次ターンライフ喪失",
@@ -233,7 +237,7 @@
   },
   "PrivateSquare": {
     "Name": "シルバーロックダウン",
-    "Description": "カードを<Limit />枚プレイするごとに、<OwnerName />は<PlayerName />に<Level />点のダメージを与える。<br />残り<Count />枚。"
+    "Description": "カードを<Limit />枚使用するごとに、<OwnerName />は<PlayerName />に<Level />点のダメージを与える。<br />残り<Count />枚。"
   },
   "EnemyDayaojing": {
     "Name": "大妖精のサポート",
@@ -250,6 +254,10 @@
   "EnemyMaid": {
     "Name": "カスミの掃除",
     "Description": "<OwnerName />のターン終了時、<PlayerName />に<Level />点のダメージを与える。"
+  },
+  "KoishiUnknown": {
+    "Name": "不可思議",
+    "Description": "<OwnerName />の行動予定の一部が隠されている。<br />数値が増加すると隠蔽がより強力になる。"
   },
   "ShenlingGold": {
     "Name": "富の恩寵",
@@ -333,7 +341,7 @@
   },
   "PowerByDefense": {
     "Name": "無堅不摧",
-    "Description": "防御カードをプレイするたび、<OwnerName />は<Level />点の<h>火力</h>を得る。"
+    "Description": "防御カードを使用するたび、<OwnerName />は<Level />点の<h>火力</h>を得る。"
   },
   "PurifyModule": {
     "Name": "浄化モジュール",
@@ -389,11 +397,11 @@
   },
   "ScarletDestiny": {
     "Name": "紅色の運命",
-    "Description": "一ターンのうちに<Limit />枚のカードをプレイすると、<OwnerName />は<PlayerName />のターンを終了する。<br />残り<Count />枚。"
+    "Description": "一ターンのうちに<Limit />枚のカードを使用すると、<OwnerName />は<PlayerName />のターンを終了する。<br />残り<Count />枚。"
   },
   "JunkoPurify": {
     "Name": "純化の光",
-    "Description": "<PlayerName />がカードをプレイするたび、<h>純化</h><Level />。"
+    "Description": "<PlayerName />がカードを使用するたび、<h>純化</h><Level />。"
   },
   "JunkoLily": {
     "Name": "殺意の百合",
@@ -405,7 +413,7 @@
   },
   "SingleJiandaoSe": {
     "Name": "半分の巨大な鋏",
-    "Description": "<PlayerName />はカードをプレイするたびに、<Level />ダメージを受ける。"
+    "Description": "<PlayerName />はカードを使用するたびに、<Level />ダメージを受ける。"
   },
   "ShendengSe": {
     "Name": "注ぎ口の長いティーポット",
@@ -421,7 +429,8 @@
   },
   "MadokaBowSe": {
     "Name": "光輝く長弓",
-    "Description": "<OwnerName />のターン開始時、<Level />枚のランダムな状態異常カードを山札に加える。"
+    "Description": "<OwnerName />のターン開始時、<Level />枚のランダムな状態異常カードを山札に加える。",
+    "Description_1.6.0": "<OwnerName />のターン開始時、<Level />枚のランダムな状態異常カードを山札と捨て札に半分ずつ加える。"
   },
   "QiannianShenqiSe": {
     "Name": "ピラミッド型のパズル",
@@ -461,7 +470,8 @@
   },
   "EvilTuiZhiSe": {
     "Name": "妖怪退治",
-    "Description": "次の<Level />枚の攻撃カードは2倍のダメージを与える。"
+    "Description": "次の<Level />枚の攻撃カードは2倍のダメージを与える。",
+    "Description_1.6.0": "このターンの間、次の<Level />枚の攻撃カードは二回使用される。"
   },
   "YinyangXueyinSe": {
     "Name": "陰陽血印",
@@ -659,6 +669,10 @@
     "Name": "ターゲット固定",
     "Description": "<h>投げナイフ</h>は<OwnerName />を優先して狙う。"
   },
+  "KnifeDamageUpSe": {
+    "Name": "シルバープッシュ",
+    "Description": "<h>投げナイフ</h>のダメージが<Level />増加する。"
+  },
   "Cold": {
     "Name": "冷気",
     "Description": "<OwnerName />はターン開始時、 <BaseDamage /> 点のライフを失い、<h>冷気</h>を取り除く。<br />再び<h>冷気</h>が付与されたとき、 <StackMultiply /> 倍のライフを失う。（<StackDamage />点）。"
@@ -701,7 +715,7 @@
   },
   "FairyTreeSe": {
     "Name": "妖精の家",
-    "Description": "プレイによって<h>パートナー</h>が召喚されるたび、<Level /><h>ブロック</h>を得る。"
+    "Description": "<h>パートナー</h>カードを使用して<h>パートナー</h>が召喚されるたび、<Level /><h>ブロック</h>を得る。"
   },
   "MinengZhuruSe": {
     "Name": "秘能注入",
@@ -717,7 +731,7 @@
   },
   "ForeverCoolSe": {
     "Name": "エバークールシーズンファンタジア",
-    "Description": "<h>パートナー</h>の<ha>起動能力</ha>か<hu>奥義</hu>をプレイする度、ランダムな敵に<h>冷気</h>を<Level />回与える。<br /><h>冷気</h>を与える度、手札のランダムな<h>パートナー</h>は<h>支援度</h><Level />を得る。"
+    "Description": "<h>パートナー</h>の<ha>起動能力</ha>か<hu>奥義</hu>を使用する度、ランダムな敵に<h>冷気</h>を<Level />回与える。<br /><h>冷気</h>を与える度、手札のランダムな<h>パートナー</h>は<h>支援度</h><Level />を得る。"
   },
   "MoreFriendsSe": {
     "Name": "社交的な妖精",
@@ -745,23 +759,79 @@
   },
   "MoodPassion": {
     "Name": "熱情",
-    "Description": "<PlayerName />が与える攻撃ダメージ及び受ける攻撃ダメージが<Percentage />%増加する。<br /><h>熱情</h>は<h>精神状態</h>の一つであり、<PlayerName />は同時に複数の精神状態に入ることはできない。"
+    "Description": "<PlayerName />が与える攻撃ダメージ及び受ける攻撃ダメージが<Percentage />%増加する。<br /><h>熱情</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
   },
   "MoodPeace": {
     "Name": "平静",
-    "Description": "<h>平静</h>状態を解除した時、<Mana />を得る。<br /><h>平静</h>は<h>精神状態</h>の一つであり、<PlayerName />は同時に複数の精神状態に入ることはできない。"
+    "Description": "<h>平静</h>を解除した時、<Mana />を得る。<br /><h>平静</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
   },
-  "WuyishiDNASe": {
-    "Name": "無意識の遺伝子",
-    "Description": "<PlayerName />のターン終了時、<h>覚</h>状態でない場合死亡する。"
+  "MoodEpiphany": {
+    "Name": "遁走",
+    "Description": "<h>遁走</h>状態でカードを使用する度、<Mana />を得てカードを1枚引く。<br />ターン終了時、またはカードを<Count />枚使用した時<h>遁走</h>を解除する。<br /><h>遁走</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
   },
-  "BenwoTouyingSe": {
-    "Name": "自我投影",
-    "Description": "<h>情熱</h>状態に入る度、完全にランダムな攻撃カード<Level />枚を手札に加える。それらは臨時コスト<Mana />で<h>廃棄</h>を持つ。"
+  "NextTurnPassion": {
+    "Name": "次ターン熱情",
+    "Description": "<PlayerName />の次のターン開始時、カードを<Level />枚引いて<h>熱情</h>に入る。"
   },
-  "ChaofanyinSe": {
-    "Name": "超反応センス",
-    "Description": "<h>直感</h>を持ち、<h>複製</h>でないカードの<h>直感</h>の効果が発動しなかった時、コスト<Mana />かつ<h>廃棄</h>を持つコピーを<Level />枚手札に加える。"
+  "PassionDrawSe": {
+    "Name": "恋煩い",
+    "Description": "<PlayerName />が<h>熱情</h>に入る度、カードを<Level />枚引く。"
+  },
+  "LunaticPassionSe": {
+    "Name": "狂気の愛",
+    "Description": "<h>情熱</h>のダメージ補正が<Percentage />%になる。"
+  },
+  "PeaceBlockSe": {
+    "Name": "セルフコントロール",
+    "Description": "<PlayerName />がターン終了時に<h>平静</h>である場合、<Level /><h>ブロック</h>を得る。"
+  },
+  "UpgradePeace": {
+    "Name": "無我の境",
+    "Description": "<h>平静</h>を解除した時に得るマナを増やす。"
+  },
+  "Inspiration": {
+    "Name": "閃き",
+    "Description": "<PlayerName />の<h>閃き</h>が<TriggerLevel />に達した時、<h>遁走</h>に入る。"
+  },
+  "Tired": {
+    "Name": "疲弊",
+    "Description": "このターンはカードを<Limit />枚しか使用できない。残り<Count />枚。"
+  },
+  "GainInspirationSe": {
+    "Name": "閃き続ける",
+    "Description": "<PlayerName />のターン開始時、<h>閃いた！</h>を<Level />枚山札に加える。<br />"
+  },
+  "MoodChangeBlockSe": {
+    "Name": "A.T.フィールド",
+    "Description": "<PlayerName />の<h>心境</h>が変化する度、<Level /><h>ブロック</h>を得る。"
+  },
+  "CloseEyeSe": {
+    "Name": "閉じた瞳",
+    "Description": "敵の行動予定を見ることができない。残り<Level />ターン。"
+  },
+  "GainZeroAttackSe": {
+    "Name": "DNAの瑕",
+    "Description": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Level />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持つ。"
+  },
+  "LoveFireSe": {
+    "Name": "恋の埋火",
+    "Description": "<PlayerName />のターン終了時、そのターンに<h>追加攻撃</h>が行われていたなら<h>火力</h><Level />を得る。<br /><h>追加攻撃</h>が行われた。"
+  },
+  "KoishiDnaSe": {
+    "Name": "ハルトマンの妖怪少女",
+    "Description": "<PlayerName />のターン開始時、山札の一番上のカードを<Level />枚使用する。"
+  },
+  "UpgradeAllHandSe": {
+    "Name": "精神解放",
+    "Description": "ターン開始時に手札を全て<h>アップグレード</h>する。"
+  },
+  "ButterflyDreamSe": {
+    "Name": "胡蝶の夢",
+    "Description": "<PlayerName />のターン開始時、<hp>完全ランダム</hp>なレアカードを<Level />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。"
+  },
+  "KoishiPhoneSe": {
+    "Name": "恐怖！可愛い電話の声",
+    "Description": "攻撃カードを使用する度、<h>追加攻撃</h>を<Level />回行う。<br />山札に<h>追撃</h>カードが無い場合、<h>電話だよ！</h>を<h>追撃</h>として扱う。"
   },
   "YukariFlyObjectSe": {
     "Name": "超高速飛行体",
@@ -797,7 +867,11 @@
   },
   "BailianBlackSe": {
     "Name": "闇の抱擁",
-    "Description": "<h>防御</h>または<h>スキル</h>カードのコストが<Mana />になり、使用時に<h>廃棄</h>される。"
+    "Description": "<h>防御</h>、<h>スキル</h>、<h>状態異常</h>カードのコストが<Mana />になり、使用時に<h>廃棄</h>される。"
+  },
+  "DreamExpressSe": {
+    "Name": "ドリームエクスプレス",
+    "Description": "<PlayerName />のターン終了時、<h>夢見</h><Level />。その後、敵全体にそれらのカードの元々のマナ総量の合計の2倍のダメージを与える。"
   },
   "MeihongFireSe": {
     "Name": "無差符発火符",
@@ -821,7 +895,7 @@
   },
   "DizangLoveSe": {
     "Name": "即席菩薩",
-    "Description": "コモンカードをプレイするたび、<OwnerName />は<Level />点の<h>臨時火力</h>を得る。"
+    "Description": "コモンカードを使用するたび、<OwnerName />は<Level />点の<h>臨時火力</h>を得る。"
   },
   "ZhenmiaowanAttackSe": {
     "Name": "一寸法師の末裔",
@@ -838,7 +912,7 @@
   },
   "HekaHellRainSe": {
     "Name": "地獄に降る雨",
-    "Description": "カードをプレイするたび、ターン終了時にすべての敵に<Level />のダメージを与える。<br />このターン<Count />のダメージを溜めた。"
+    "Description": "カードを使用するたび、ターン終了時にすべての敵に<Level />のダメージを与える。<br />このターン<Count />のダメージを溜めた。"
   },
   "TiangouOrderSe": {
     "Name": "大天狗の号令",
@@ -882,7 +956,7 @@
   },
   "HuiyeTimeSe": {
     "Name": "須臾の間",
-    "Description": "このターン<Limit />枚のカードをプレイしかできない、残り<Count />枚。"
+    "Description": "このターンカードを<Limit />枚しか使用できない、残り<Count />枚。"
   },
   "ShirenKunchongSe": {
     "Name": "人喰い虫",
@@ -905,6 +979,10 @@
     "Description": "<OwnerName />が受ける攻撃ダメージを<Level />減らす。",
     "ExtraDescription": "<OwnerName />が受ける攻撃ダメージを<Level />減らす。<br /><OwnerName />は<h>ロックオン</h>を受けない。"
   },
+  "BailianMagicSe": {
+    "Name": "魔神復誦",
+    "Description": "このターン中に次に使用する<h>能力</h>カード<Level />枚は二回使用される。"
+  },
   "PrismriverSe": {
     "Name": "プリズムコンチェルト",
     "Description": "この戦闘中、<PlayerName />が得るマナはすべて<h>彩色</h>に変換される。"
@@ -913,9 +991,9 @@
     "Name": "法界の火",
     "Description": "<PlayerName />のターン開始時、<Level />枚のランダムなスキルカードを手札に加える。これは<h>臨時コスト</h><Mana />で、<h>廃棄</h>、<h>虚無</h>を持つ。"
   },
-  "SuperExtraTurn": {
+  "JinziDoppelgangerSe": {
     "Name": "世紀のダブルエスパー",
-    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Level />枚しか使用できない。"
+    "Description": "<PlayerName />が各ターンの最初に使用するカード<Level />枚は二回使用される。残り<Count />枚。"
   },
   "ZhenmiaowanAbilitySe": {
     "Name": "小槌の魔力",
