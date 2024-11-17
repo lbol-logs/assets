@@ -234,7 +234,9 @@
   "MoodPassion": {
     "Percentage": 50
   },
-  "MoodPeace": {},
+  "MoodPeace": {
+    "Mana": "PPP"
+  },
   "MoodEpiphany": {
     "Mana": "P"
   },
