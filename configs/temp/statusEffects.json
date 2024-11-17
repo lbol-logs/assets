@@ -231,7 +231,9 @@
   "StarFriendSe": {
     "SourceCardName": "StarFriend"
   },
-  "MoodPassion": {},
+  "MoodPassion": {
+    "Percentage": 50
+  },
   "MoodPeace": {},
   "MoodEpiphany": {
     "Mana": "P"
