@@ -15,7 +15,10 @@
     "C": "Colorless",
     "P": "Philosopher",
     "A": "Random",
-    "N": "Unknown"
+    "N": "Unknown",
+    "0": "0",
+    "1": "1",
+    "2": "2"
   },
   "difficulties": {
     "Easy": "Easy",
