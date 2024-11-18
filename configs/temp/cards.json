@@ -2329,11 +2329,11 @@
       "Block": 0,
       "Shield": 0,
       "Value1": 6,
-      "Keywords": "Forbidden"
+      "Keywords": "Forbidden,Ethereal"
     },
     "1": {
       "Value1": 10,
-      "Keywords": "Forbidden"
+      "Keywords": "Forbidden,Ethereal"
     }
   },
   "ManaJungle": {
@@ -2344,12 +2344,10 @@
     "Owner": "Marisa",
     "0": {
       "Cost": 0,
-      "Value1": 2,
-      "Keywords": "Forbidden"
+      "Value1": 2
     },
     "1": {
-      "Value1": 3,
-      "Keywords": "Forbidden"
+      "Value1": 3
     }
   },
   "SakuyaAttackW": {
@@ -4709,11 +4707,10 @@
     "0": {
       "Cost": "BB",
       "Damage": 6,
-      "Value1": 0
+      "Value1": 1
     },
     "1": {
-      "Damage": 10,
-      "Value1": 1
+      "Cost": "B"
     }
   },
   "BaseFollower": {
@@ -4806,7 +4803,7 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "2B",
-      "Damage": 9,
+      "Damage": 10,
       "Value1": 2,
       "Keywords": "FollowCard"
     },
@@ -4823,11 +4820,11 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "2B",
-      "Damage": 16,
+      "Damage": 17,
       "Keywords": "FollowCard"
     },
     "1": {
-      "Damage": 20,
+      "Damage": 22,
       "Keywords": "FollowCard"
     }
   },
@@ -4838,12 +4835,12 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "1BB",
-      "Block": 13,
+      "Cost": "2B",
+      "Block": 15,
       "Value1": 1
     },
     "1": {
-      "Block": 18
+      "Block": 20
     }
   },
   "KoishiDrawTop": {
@@ -4871,10 +4868,12 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "1G",
-      "Damage": 14
+      "Damage": 14,
+      "Keywords": "FollowCard"
     },
     "1": {
-      "Cost": 1
+      "Cost": 1,
+      "Keywords": "FollowCard"
     }
   },
   "LeaveMoodGraze": {
@@ -5002,7 +5001,7 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "BB",
-      "Damage": 9,
+      "Damage": 8,
       "Value1": 2
     },
     "1": {
@@ -5031,12 +5030,11 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "2B",
-      "Block": 18,
-      "Value1": 3
+      "Block": 20,
+      "Value1": 5
     },
     "1": {
-      "Block": 24,
-      "Value1": 5
+      "Block": 25
     }
   },
   "DuplicateFollower": {
@@ -5067,12 +5065,11 @@
     "0": {
       "Cost": "2B",
       "Damage": 17,
-      "Value1": 3,
+      "Value1": 5,
       "Keywords": "Accuracy"
     },
     "1": {
-      "Damage": 22,
-      "Value1": 5,
+      "Cost": "1B",
       "Keywords": "Accuracy"
     }
   },
@@ -5084,7 +5081,7 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "3B",
-      "Damage": 16,
+      "Damage": 18,
       "Keywords": "Instinct"
     },
     "1": {
@@ -5366,6 +5363,21 @@
       "Keywords": "Exile,Retain"
     }
   },
+  "KoishiMana": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3",
+      "Damage": 6,
+      "Mana": "WUBRG"
+    },
+    "1": {
+      "Mana": "WUBRGCP"
+    }
+  },
   "FakeBullet": {
     "Rarity": "Rare",
     "Type": "Skill",
@@ -5378,21 +5390,6 @@
     },
     "1": {
       "Value1": 3
-    }
-  },
-  "KoishiMana": {
-    "Rarity": "Rare",
-    "Type": "Attack",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "3B",
-      "Damage": 6,
-      "Mana": "WUBRG"
-    },
-    "1": {
-      "Mana": "WUBRGCP"
     }
   },
   "KoishiSpark": {
@@ -5446,12 +5443,12 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "3GG",
+      "Cost": "2GG",
       "Value1": 3,
       "Keywords": "Exile"
     },
     "1": {
-      "Cost": "2G",
+      "Cost": "1G",
       "Keywords": "Exile"
     }
   },
@@ -5506,11 +5503,11 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "4W",
+      "Cost": "3W",
       "Mana": "{4P}"
     },
     "1": {
-      "Cost": "2W"
+      "Cost": "1W"
     }
   },
   "ButterflyDream": {
@@ -5520,13 +5517,13 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "3W",
+      "Cost": "2W",
       "Value1": 1,
       "Keywords": "Ethereal"
     },
     "1": {
-      "Cost": "2W",
-      "Keywords": "Ethereal"
+      "Cost": "1W",
+      "Keywords": "Ethereal,Initial"
     }
   },
   "KokoroFriend": {
@@ -5557,11 +5554,11 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "1U",
+      "Cost": "2U",
       "Keywords": "Exile"
     },
     "1": {
-      "Cost": 0,
+      "Cost": 1,
       "Keywords": "Exile"
     }
   },
@@ -5588,7 +5585,8 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "R"
+      "Cost": "R",
+      "Percentage": 150
     },
     "1": {
       "Cost": 1,
@@ -6837,12 +6835,10 @@
     "0": {
       "Cost": 0,
       "Value1": 1,
-      "Value2": 0,
-      "Keywords": "Forbidden"
+      "Value2": 0
     },
     "1": {
-      "Value2": 3,
-      "Keywords": "Forbidden"
+      "Value2": 3
     }
   },
   "RangziFanshu": {

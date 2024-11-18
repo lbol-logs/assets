@@ -232,7 +232,7 @@
     "SourceCardName": "StarFriend"
   },
   "MoodPassion": {
-    "Percentage": 50
+    "Percentage": 100
   },
   "MoodPeace": {
     "Mana": "PPP"
@@ -243,7 +243,7 @@
   "NextTurnPassion": {},
   "PassionDrawSe": {},
   "LunaticPassionSe": {
-    "Percentage": 100
+    "Percentage": 150
   },
   "PeaceBlockSe": {},
   "UpgradePeace": {},
