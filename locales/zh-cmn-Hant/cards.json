@@ -1243,12 +1243,11 @@
   },
   "KoishiKiss": {
     "Name": "飛吻",
-    "Description": "造成 <Damage /> 點傷害。<br />進行一次<h>追加攻擊</h>。",
-    "UpgradedDescription": "造成 <Damage /> 點傷害。<br />施加 <Value1 /> 回合<h>虛弱</h>。<br />進行一次<h>追加攻擊</h>。"
+    "Description": "造成 <Damage /> 點傷害。<br />施加 <Value1 /> 回合<h>虛弱</h>。<br />進行一次<h>追加攻擊</h>。"
   },
   "BaseFollower": {
     "Name": "本能之愛",
-    "Description": "造成 <Damage /> 點傷害。"
+    "Description": "造成 <Damage /> 點傷害。<br />戰鬥開始和洗牌時置於抽牌堆底部。"
   },
   "InspirationCard": {
     "Name": "找到靈感了！",
@@ -1268,7 +1267,7 @@
   },
   "MultiFollower": {
     "Name": "心的舞步",
-    "Description": "造成 <Damage /> 點傷害 <Value1 /> 次。"
+    "Description": "造成 <Damage /> 點傷害 <Value1 /> 次。<br />戰鬥開始和洗牌時置於抽牌堆底部。"
   },
   "ToAllFollower": {
     "Name": "心潮澎湃",
@@ -1320,7 +1319,7 @@
     "Description": "獲得 <Shield /> 點<h>護盾</h>。<br />下一回合內無法看到敵人的意圖。"
   },
   "PassionAttackToDraw": {
-    "Name": "彈幕偏執症",
+    "Name": "薔薇囚籠",
     "Description": "造成 <Damage /> 點傷害 <Value1 /> 次。<br />進入<h>熱情</h>。<br />將這張牌洗入抽牌堆。"
   },
   "PassionDraw": {
@@ -1400,8 +1399,8 @@
   },
   "GainZeroAttack": {
     "Name": "DNA 的瑕疵",
-    "Description": "<PlayerName />的回合開始時，將 <Value1 /> 張<h> DNA 轉錄</h>加入手中，它具有<h>放逐</h>、<h>虛無</h>。",
-    "UpgradedDescription": "<PlayerName />的回合开始时，将 <Value1 /> 张<h> DNA 转录</h>加入手中，它具有<h>放逐</h>、<h>虚无</h><br />立刻生效一次。"
+    "Description": "<PlayerName />的回合開始時，將 <Value1 /> 張<h>DNA 轉錄</h>加入手中，它具有<h>放逐</h>、<h>虛無</h>。",
+    "UpgradedDescription": "<PlayerName />的回合開始時，將 <Value1 /> 張<h>DNA 轉錄</h>加入手中，它具有<h>放逐</h>、<h>虛無</h><br />立刻生效一次。"
   },
   "LeaveMoodDraw": {
     "Name": "好奇心",
@@ -1420,16 +1419,16 @@
     "Description": "結束<PlayerName />的回合，進行一個額外的回合。<br /><SelfName />在手中時，<PlayerName />進入過三種不同的<h>心境</h>後才可以打出。",
     "UpgradedDescription": "結束<PlayerName />的回合，進行一個額外的回合。這一回合開始時，<h>升級</h>所有的手牌。<br /><SelfName />在手中時，<PlayerName />進入過三種不同的<h>心境</h>後才可以打出。"
   },
-  "FakeBullet": {
-    "Name": "假想的彈幕",
-    "Description": "進行 <Value1 /> 次<h>追加攻擊</h>。<br />當抽牌堆沒有<h>追擊</h>牌時，將以隨機產生的<h>追擊</h>牌進行追擊。"
-  },
   "KoishiMana": {
     "Name": "潛能釋放",
     "Description": "對所有敵人造成 <Damage /> 點傷害。<br />獲得<Mana />。"
   },
+  "FakeBullet": {
+    "Name": "假想的彈幕",
+    "Description": "進行 <Value1 /> 次<h>追加攻擊</h>。<br />當抽牌堆沒有<h>追擊</h>牌時，將以隨機產生的<h>追擊</h>牌進行追擊。"
+  },
   "KoishiSpark": {
-    "Name": "妖怪測謊儀",
+    "Name": "浪漫夜的最後來電",
     "Description": "對所有敵人造成 <Damage /> 點傷害。"
   },
   "LoveFire": {
@@ -1481,7 +1480,7 @@
   },
   "LunaticPassion": {
     "Name": "瘋狂之愛",
-    "Description": "<h>熱情</h>狀態下的額外傷害比例改為 <Percentage />%。<br />進入<h>熱情</h>。"
+    "Description": "<PlayerName />處於<h>熱情</h>時造成的額外傷害比例改為 <Percentage />%。<br />進入<h>熱情</h>。"
   },
   "KoishiPhone": {
     "Name": "恐怖的可愛來電",

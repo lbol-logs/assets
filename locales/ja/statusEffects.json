@@ -766,8 +766,8 @@
     "Description": "<h>平静</h>を解除した時、<Mana />を得る。<br /><h>平静</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
   },
   "MoodEpiphany": {
-    "Name": "遁走",
-    "Description": "<h>遁走</h>状態でカードを使用する度、<Mana />を得てカードを1枚引く。<br />ターン終了時、またはカードを<Count />枚使用した時<h>遁走</h>を解除する。<br /><h>遁走</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
+    "Name": "無心",
+    "Description": "<h>無心</h>状態でカードを使用する度、<Mana />を得てカードを1枚引く。<br />ターン終了時、またはカードを<Count />枚使用した時<h>無心</h>を解除する。<br /><h>無心</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
   },
   "NextTurnPassion": {
     "Name": "次ターン熱情",
@@ -791,7 +791,7 @@
   },
   "Inspiration": {
     "Name": "閃き",
-    "Description": "<PlayerName />の<h>閃き</h>が<TriggerLevel />に達した時、<h>遁走</h>に入る。"
+    "Description": "<PlayerName />の<h>閃き</h>が<TriggerLevel />に達した時、<h>無心</h>に入る。"
   },
   "Tired": {
     "Name": "疲弊",

@@ -1248,7 +1248,7 @@
   },
   "BaseFollower": {
     "Name": "本能之爱",
-    "Description": "造成 <Damage /> 点伤害。"
+    "Description": "造成 <Damage /> 点伤害。<br />战斗开始和洗牌时置于抽牌堆底部。"
   },
   "InspirationCard": {
     "Name": "找到灵感了！",
@@ -1268,7 +1268,7 @@
   },
   "MultiFollower": {
     "Name": "心的舞步",
-    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。"
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />战斗开始和洗牌时置于抽牌堆底部。"
   },
   "ToAllFollower": {
     "Name": "心潮澎湃",
@@ -1320,7 +1320,7 @@
     "Description": "获得 <Shield /> 点<h>护盾</h>。<br />下一回合内无法看到敌人的意图。"
   },
   "PassionAttackToDraw": {
-    "Name": "弹幕偏执症",
+    "Name": "蔷薇囚笼",
     "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />进入<h>热情</h>。<br />将这张牌洗入抽牌堆。"
   },
   "PassionDraw": {
@@ -1420,16 +1420,16 @@
     "Description": "结束<PlayerName />的回合，进行一个额外的回合。<br /><SelfName />在手中时，<PlayerName />进入过三种不同的<h>心境</h>后才可以打出。",
     "UpgradedDescription": "结束<PlayerName />的回合，进行一个额外的回合。这一回合开始时，<h>升级</h>所有的手牌。<br /><SelfName />在手中时，<PlayerName />进入过三种不同的<h>心境</h>后才可以打出。"
   },
-  "FakeBullet": {
-    "Name": "假想的弹幕",
-    "Description": "进行 <Value1 /> 次<h>追加攻击</h>。<br />当抽牌堆没有<h>追击</h>牌时，将以随机产生的<h>追击</h>牌进行追击。"
-  },
   "KoishiMana": {
     "Name": "潜能释放",
     "Description": "对所有敌人造成 <Damage /> 点伤害。<br />获得<Mana />。"
   },
+  "FakeBullet": {
+    "Name": "假想的弹幕",
+    "Description": "进行 <Value1 /> 次<h>追加攻击</h>。<br />当抽牌堆没有<h>追击</h>牌时，将以随机产生的<h>追击</h>牌进行追击。"
+  },
   "KoishiSpark": {
-    "Name": "妖怪测谎仪",
+    "Name": "浪漫夜的最后来电",
     "Description": "对所有敌人造成 <Damage /> 点伤害。"
   },
   "LoveFire": {
@@ -1481,7 +1481,7 @@
   },
   "LunaticPassion": {
     "Name": "疯狂之爱",
-    "Description": "<h>热情</h>状态下的额外伤害比例改为 <Percentage />%。<br />进入<h>热情</h>。"
+    "Description": "<PlayerName />处于<h>热情</h>时造成的额外伤害比例改为 <Percentage />%。<br />进入<h>热情</h>。"
   },
   "KoishiPhone": {
     "Name": "恐怖的可爱来电",

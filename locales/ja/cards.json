@@ -1243,19 +1243,18 @@
   },
   "KoishiKiss": {
     "Name": "投げキッス",
-    "Description": "<Damage />ダメージを与える。<br /><h>追加攻撃</h>を行う。",
-    "UpgradedDescription": "<Damage />ダメージを与える。<br /><h>脱力</h><Value1 />を与える。<br /><h>追加攻撃</h>を行う。"
+    "Description": "<Damage />ダメージを与える。<br /><h>脱力</h><Value1 />を与える。<br /><h>追加攻撃</h>を行う。"
   },
   "BaseFollower": {
     "Name": "本能の愛",
-    "Description": "<Damage />ダメージを与える。"
+    "Description": "<Damage />ダメージを与える。<br />戦闘開始時及びシャッフルした時、このカードを山札の底に置く。"
   },
   "InspirationCard": {
     "Name": "閃いた！",
     "Description": "<SelfName />が手札に加わった時、<Mana />と<h>閃き</h><Value1 />を得て<SelfName />を<h>廃棄</h>する。"
   },
   "PassionDefense": {
-    "Name": "低調",
+    "Name": "へりくだり",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>熱情</h>状態なら追加で<Value1 /><h>ブロック</h>を得る。"
   },
   "PassionMemory": {
@@ -1268,11 +1267,11 @@
   },
   "MultiFollower": {
     "Name": "ハートのダンス",
-    "Description": "<Damage />ダメージを<Value1 />回与える。"
+    "Description": "<Damage />ダメージを<Value1 />回与える。<br />戦闘開始時及びシャッフルした時、このカードを山札の底に置く。"
   },
   "ToAllFollower": {
     "Name": "高鳴る鼓動",
-    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>遁走</h>状態ならダメージを追加で1回与える。"
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>無心</h>状態ならダメージを追加で1回与える。"
   },
   "DefenseFollowAttack": {
     "Name": "被害妄想",
@@ -1292,15 +1291,15 @@
     "Description": "<h>グレイズ</h><Value1 />を得る。<br />現在の<h>心境</h>を解除する。"
   },
   "FlowerGone": {
-    "Name": "色褪せた記憶",
+    "Name": "色褪せた夢",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>平静</h>状態なら代わりに<Shield /><h>バリア</h>を得る。"
   },
   "MoodAttack": {
-    "Name": "転移の刃",
+    "Name": "心変わりの刃",
     "Description": "<Damage />ダメージを与える。<br /><PlayerName />の<h>心境</h>が変化する度、捨て札の<SelfName />を手札に加える。"
   },
   "GrazeFollowAttack": {
-    "Name": "衝動",
+    "Name": "サバイバル本能",
     "Description": "<h>グレイズ</h><Value1 />を得る。<br /><h>追加攻撃</h>を行う。"
   },
   "PassionVulnerable": {
@@ -1308,7 +1307,7 @@
     "Description": "<h>熱情</h>状態なら敵全体に<h>弱体</h><Value1 />を与える。<br />そうでない場合、<h>熱情</h>に入る。"
   },
   "PlayDrawTop": {
-    "Name": "無意識的行動",
+    "Name": "無意識の行動",
     "Description": "山札の一番上のカードを使用する。"
   },
   "TheChariot": {
@@ -1320,11 +1319,11 @@
     "Description": "<Shield /><h>バリア</h>を得る。<br />次のターンの間、敵の行動予定を見ることができなくなる。"
   },
   "PassionAttackToDraw": {
-    "Name": "弾幕パラノイア",
+    "Name": "ローズケージ",
     "Description": "<Damage />ダメージを<Value1 />回与える。<br /><h>熱情</h>に入る。<br /><SelfName />を山札に戻す。"
   },
   "PassionDraw": {
-    "Name": "恋煩い",
+    "Name": "両思いの恋煩い",
     "Description": "<PlayerName />が<h>熱情</h>に入る度、カードを<Value1 />枚引く。"
   },
   "BabyDream": {
@@ -1336,11 +1335,11 @@
     "Description": "<Damage />ダメージを与える。<Mana />を得る。<br /><h>戦闘開始時</h>：このカードのコピーを<Value1 />枚山札に加える。"
   },
   "AncestorDream": {
-    "Name": "先祖の夢",
+    "Name": "夢枕にご先祖総立ち",
     "Description": "敵全体に<Damage />ダメージを与える。<br /><h>夢見</h><Value1 />。"
   },
   "YaoguaiLaser": {
-    "Name": "妖怪脳電図",
+    "Name": "妖怪サイコショック",
     "Description": "<Damage />ダメージを与える。<br /><h>追加攻撃</h>を行う。<br /><h>直感</h>:もう1回<h>追加攻撃</h>を行う。"
   },
   "KoishiZeroAttack": {
@@ -1349,7 +1348,7 @@
   },
   "KoishiWake": {
     "Name": "我に返る",
-    "Description": "現在の<h>心境</h>を解除し、ライフを<Value1 />回復する。<br /><h>遁走</h>状態なら追加で<Shield /><h>バリア</h>を得る。"
+    "Description": "現在の<h>心境</h>を解除し、ライフを<Value1 />回復する。<br /><h>無心</h>状態なら追加で<Shield /><h>バリア</h>を得る。"
   },
   "PeaceEndTurn": {
     "Name": "一時の平穏",
@@ -1374,28 +1373,28 @@
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>閃き</h><Value1 />を得る。"
   },
   "KoishiFire": {
-    "Name": "気まぐれ",
+    "Name": "移り気",
     "Description": "<h>火力</h><Value1 />を得る。<br /><h>熱情</h>状態なら追加で<h>火力</h><Value2 />を得る。<br /><h>平静</h>状態なら代わりに<h>霊力</h><Value1 />を得る。"
   },
   "PeaceBlock": {
-    "Name": "セルフコントロール",
+    "Name": "エゴコントロール",
     "Description": "<PlayerName />がターン終了時に<h>平静</h>状態なら、<Value1 /><h>ブロック</h>を得る。"
   },
   "KoishiFlower": {
-    "Name": "奔放な薔薇",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><Damage />ダメージを与える。<br /><h>真夏の花</h>を<Value1 />枚手札に加える。<br /><h>遁走</h>状態なら代わりに<Value2 />枚加える。"
+    "Name": "わんぱくな薔薇",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><Damage />ダメージを与える。<br /><h>真夏の花</h>を<Value1 />枚手札に加える。<br /><h>無心</h>状態なら代わりに<Value2 />枚加える。"
   },
   "TheHermit": {
     "Name": "隠者のタロット",
-    "Description": "<h>占術</h><Scry />。<br /><Mana />を得る。<br /><h>遁走</h>状態なら<SelfName />のコストは<Mana0 />。",
-    "UpgradedDescription": "<h>占術</h><Scry />。山札の一番上のカードを<h>アップグレード</h>する。<br /><Mana />を得る。<br /><h>遁走</h>状態なら<SelfName />のコストは<Mana0 />。"
+    "Description": "<h>占術</h><Scry />。<br /><Mana />を得る。<br /><h>無心</h>状態なら<SelfName />のコストは<Mana0 />。",
+    "UpgradedDescription": "<h>占術</h><Scry />。山札の一番上のカードを<h>アップグレード</h>する。<br /><Mana />を得る。<br /><h>無心</h>状態なら<SelfName />のコストは<Mana0 />。"
   },
   "FindInspiration": {
     "Name": "天啓",
     "Description": "<h>閃いた！</h>を<Value1 />枚山札に加える。"
   },
   "KoishiGrowAttack": {
-    "Name": "舞うは茨",
+    "Name": "いばらの舞",
     "Description": "<Damage />ダメージを与える。<br /><h>成長</h>：ダメージが<Value1 />増加する。<br /><h>平静</h>状態なら<SelfName />のコストは<Mana />。"
   },
   "GainZeroAttack": {
@@ -1413,23 +1412,23 @@
   },
   "BlackEpiphany": {
     "Name": "トランス",
-    "Description": "<h>遁走</h>に入る。<br /><PlayerName />は次のターン、カードを<Value1 />枚しか使用できない。"
+    "Description": "<h>無心</h>に入る。<br /><PlayerName />は次のターン、カードを<Value1 />枚しか使用できない。"
   },
   "PsycheLock": {
     "Name": "サイコ・ロック",
     "Description": "<PlayerName />のターンを終了し、追加ターンを得る。<br /><SelfName />が手札にある間に<PlayerName />が3種類全ての<h>心境</h>に入っている場合のみ使用できる。",
     "UpgradedDescription": "<PlayerName />のターンを終了し、追加ターンを得る。次のターン開始時、手札を全て<h>アップグレード</h>する。<br /><SelfName />が手札にある間に<PlayerName />が3種類全ての<h>心境</h>に入っている場合のみ使用できる。"
   },
+  "KoishiMana": {
+    "Name": "潜在能力解放",
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><Mana />を得る。"
+  },
   "FakeBullet": {
     "Name": "仮想弾幕",
     "Description": "<h>追加攻撃</h>を<Value1 />回行う。<br />山札の<h>追撃</h>カードが不足している場合、足りない枚数分ランダムな<h>追撃</h>カードの効果を発動する。"
   },
-  "KoishiMana": {
-    "Name": "解き放たれる潜在能力",
-    "Description": "敵全体に<Damage />ダメージを与える。<br /><Mana />を得る。"
-  },
   "KoishiSpark": {
-    "Name": "妖怪ポリグラフ",
+    "Name": "ロマンスの夜のラストコール",
     "Description": "敵全体に<Damage />ダメージを与える。"
   },
   "LoveFire": {
@@ -1442,7 +1441,7 @@
   },
   "PerfectCrime": {
     "Name": "完全犯罪",
-    "Description": "対象の<h>グレイズ</h>、<h>加護</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を奪う。<br />対象の<h>火力</h>と<h>霊力</h>を最大で<Value1 />奪う。"
+    "Description": "対象の<h>グレイズ</h>、<h>光学迷彩</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を奪う。<br />対象の<h>火力</h>と<h>霊力</h>を最大で<Value1 />奪う。"
   },
   "TheFool": {
     "Name": "愚者のタロット",
@@ -1457,7 +1456,7 @@
     "Description": "<Mana2 /><h>ごとに</h>：敵全体に<Damage />ダメージを与え、<Mana />を得る。"
   },
   "Anatta": {
-    "Name": "無我の境",
+    "Name": "無我の境地",
     "Description": "<h>平静</h>を解除する際に得るマナを<Mana />にする。<br /><h>平静</h>に入る。"
   },
   "ButterflyDream": {
@@ -1469,11 +1468,11 @@
     "PassiveDescription": "<h>夢見</h><Value1 />。",
     "ActiveDescription": "<h>熱情</h>に入る。",
     "Active2Description": "<h>平静</h>に入る。",
-    "UltimateDescription": "<h>遁走</h>に入る。"
+    "UltimateDescription": "<h>無心</h>に入る。"
   },
   "EnterEpiphany": {
     "Name": "悟り",
-    "Description": "<h>遁走</h>に入る。"
+    "Description": "<h>無心</h>に入る。"
   },
   "KoishiDive": {
     "Name": "意識潜行",
@@ -1481,10 +1480,10 @@
   },
   "LunaticPassion": {
     "Name": "狂える愛",
-    "Description": "<h>熱情</h>によるダメージ補正が<Percentage />%になる。<br /><h>熱情</h>に入る。"
+    "Description": "<h>熱情</h>による<PlayerName />が与えるダメージ補正が<Percentage />%になる。<br /><h>熱情</h>に入る。"
   },
   "KoishiPhone": {
-    "Name": "恐怖！可愛い電話の声",
+    "Name": "恐怖！可愛い電話の音",
     "Description": "攻撃カードを使用する度、<h>追加攻撃</h>を行う。<br />山札に<h>追撃</h>カードが無い場合、<h>電話だよ！</h>を<h>追撃</h>として扱う。"
   },
   "FollowAttackFiller": {
@@ -1492,15 +1491,15 @@
     "Description": "<Damage />ダメージを与える。"
   },
   "AliceAttackW": {
-    "Name": "未来文楽",
+    "Name": "人形槍撃",
     "Description": "<Damage />ダメージを与える。"
   },
   "AliceAttackB": {
-    "Name": "リターンイナニメトネス",
+    "Name": "サイドフラッシュ",
     "Description": "<Damage />ダメージを与える。"
   },
   "AliceBlockU": {
-    "Name": "弾幕結界",
+    "Name": "防御魔法",
     "Description": "<Block /><h>ブロック</h>を得る。"
   },
   "DeployShanghai": {
@@ -2564,7 +2563,7 @@
     "Description": "<SelfName />が手札にある間、全てのカードのマナコストが<Mana />増える。<br />カードを<FreezeTimes />枚使用した時、<SelfName />を<h>廃棄</h>する。"
   },
   "KoishiDiscard": {
-    "Name": "健忘",
+    "Name": "無意識な物忘れ",
     "Description": "このカードを引いた時、ランダムに手札を1枚捨てる。"
   },
   "Frog": {

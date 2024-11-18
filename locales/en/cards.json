@@ -1277,12 +1277,11 @@
   },
   "KoishiKiss": {
     "Name": "Air Kiss",
-    "Description": "Deal <Damage /> damage.<br />Perform a <h>Follow-Up Attack</h>.",
-    "UpgradedDescription": "Deal <Damage /> damage.<br />Apply <Value1 /> <h>Weak</h>.<br />Perform a <h>Follow-Up Attack</h>."
+    "Description": "Deal <Damage /> damage.<br />Apply <Value1 /> <h>Weak</h>.<br />Perform a <h>Follow-Up Attack</h>."
   },
   "BaseFollower": {
     "Name": "Instinctive Love",
-    "Description": "Deal <Damage /> damage."
+    "Description": "Deal <Damage /> damage.<br />At the start of combat and when shuffling, <SelfName /> is placed at the bottom of the draw pile."
   },
   "InspirationCard": {
     "Name": "Eureka!",
@@ -1302,7 +1301,7 @@
   },
   "MultiFollower": {
     "Name": "Dance of the Heart",
-    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />At the start of combat and when shuffling, <SelfName /> is placed at the bottom of the draw pile."
   },
   "ToAllFollower": {
     "Name": "Emotional Surge",
@@ -1354,7 +1353,7 @@
     "Description": "Gain <Shield /> <h>Barrier</h>.<br />Enemy intents cannot be seen during <PlayerName />'s next turn."
   },
   "PassionAttackToDraw": {
-    "Name": "Danmaku Paranoia",
+    "Name": "Cage of Roses",
     "Description": "Deal <Damage /> damage <Value1 /> times.<br />Enter <h>Passion</h>.<br />Shuffle <SelfName /> into the draw pile."
   },
   "PassionDraw": {
@@ -1454,16 +1453,16 @@
     "Description": "End <PlayerName />'s turn. Then, take an extra turn.<br />Can only be played if <PlayerName /> has entered 3 different <h>Mental States</h> while <SelfName /> is in the hand.",
     "UpgradedDescription": "End <PlayerName />'s turn. Then, take an extra turn.<br />At the start of <PlayerName />'s next turn, <h>Upgrade</h> all cards in the hand.<br />Can only be played if <PlayerName /> has entered 3 different <h>Mental States</h> while <SelfName /> is in the hand."
   },
-  "FakeBullet": {
-    "Name": "Imaginary Danmaku",
-    "Description": "Perform <Value1 /> <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Value1}} })</h>.<br />If there are not enough <h>Follow-Up</h> cards in the draw pile, random <h>Follow-Up</h> cards will be generated to perform the <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Value1}} })</h>."
-  },
   "KoishiMana": {
     "Name": "Unleashed Potential",
     "Description": "Deal <Damage /> damage to each enemy.<br />Gain <Mana />."
   },
+  "FakeBullet": {
+    "Name": "Imaginary Danmaku",
+    "Description": "Perform <Value1 /> <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Value1}} })</h>.<br />If there are not enough <h>Follow-Up</h> cards in the draw pile, random <h>Follow-Up</h> cards will be generated to perform the <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Value1}} })</h>."
+  },
   "KoishiSpark": {
-    "Name": "Youkai Polygraph",
+    "Name": "Last Romantic Night Call",
     "Description": "Deal <Damage /> damage to each enemy."
   },
   "LoveFire": {
@@ -1511,11 +1510,11 @@
   },
   "KoishiDive": {
     "Name": "Diving Consciousness",
-    "Description": "Enter <h>Serenity</h>.<br /><h>Dream</h> <Value1 />.<br />Return up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) from the discard pile to the hand."
+    "Description": "Enter <h>Serenity</h>.<br /><h>Dream</h> <Value1 />.<br />Return up to <Value2 /> <h>Dream Card$t(plurals.-s, { 'count': {{Value2}} })</h> from the discard pile to the hand."
   },
   "LunaticPassion": {
     "Name": "Lunatic Love",
-    "Description": "<h>Passion</h>'s damage modifier becomes <Percentage />%.<br />Enter <h>Passion</h>."
+    "Description": "<h>Passion</h>'s damage modifier for <PlayerName />'s attacks becomes <Percentage />%.<br />Enter <h>Passion</h>."
   },
   "KoishiPhone": {
     "Name": "Terrifyingly Cute Call",
