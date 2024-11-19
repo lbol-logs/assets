@@ -39,5 +39,6 @@
     "alreadyExist": "<log>Already exist</log>",
     "unknownError": "Uknown error"
   },
-  "success": "<log>Uploaded</log>"
+  "success": "<log>Uploaded</log>",
+  "cardPool": "Card Pool"
 }

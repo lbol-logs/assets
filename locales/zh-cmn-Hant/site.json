@@ -39,5 +39,6 @@
     "alreadyExist": "<log>已經存在</log>",
     "unknownError": "不明的錯誤"
   },
-  "success": "<log>上載完成</log>"
+  "success": "<log>上載完成</log>",
+  "cardPool": "牌池"
 }

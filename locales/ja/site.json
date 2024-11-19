@@ -39,5 +39,6 @@
     "alreadyExist": "<log>すでにアップロードされている</log>",
     "unknownError": "不明なエラー"
   },
-  "success": "<log>アップロード完了</log>"
+  "success": "<log>アップロード完了</log>",
+  "cardPool": "カードプール"
 }
