@@ -8433,6 +8433,7 @@
     }
   },
   "HistoryCard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
