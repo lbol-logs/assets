@@ -1,5 +1,6 @@
 {
   "ReimuAttackR": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "R",
@@ -17,6 +18,7 @@
     }
   },
   "ReimuBlockW": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "W",
@@ -34,6 +36,7 @@
     }
   },
   "ReimuAttackW": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "W",
@@ -51,6 +54,7 @@
     }
   },
   "ReimuBlockR": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "R",
@@ -99,6 +103,7 @@
     }
   },
   "Fengmozhen": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "R",
@@ -115,6 +120,7 @@
     }
   },
   "Shenyuzha": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "W",
@@ -131,6 +137,7 @@
     }
   },
   "YinyangCard": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Attack",
     "Colors": "WR",
@@ -1133,6 +1140,7 @@
     }
   },
   "ShuihuoCard": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Attack",
     "Colors": "UR",
@@ -1151,6 +1159,7 @@
     }
   },
   "FengleiCard": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Attack",
     "Colors": "BG",
@@ -1168,6 +1177,7 @@
     }
   },
   "ShanyuCard": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Defense",
     "Colors": "WU",
@@ -1185,6 +1195,7 @@
     }
   },
   "MarisaAttackB": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "B",
@@ -1202,6 +1213,7 @@
     }
   },
   "MarisaBlockR": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "R",
@@ -1219,6 +1231,7 @@
     }
   },
   "MarisaAttackR": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "R",
@@ -1236,6 +1249,7 @@
     }
   },
   "MarisaBlockB": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "B",
@@ -1288,6 +1302,7 @@
     }
   },
   "Potion": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "B",
@@ -2092,6 +2107,7 @@
     }
   },
   "StarlightTaifeng": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Attack",
     "Colors": "BR",
@@ -2274,6 +2290,7 @@
     }
   },
   "RedMogu": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "G",
@@ -2285,6 +2302,7 @@
     }
   },
   "GreenMogu": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "G",
@@ -2296,6 +2314,7 @@
     }
   },
   "BlueMogu": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "G",
@@ -2307,6 +2326,7 @@
     }
   },
   "PurpleMogu": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "G",
@@ -2351,6 +2371,7 @@
     }
   },
   "SakuyaAttackW": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "W",
@@ -2368,6 +2389,7 @@
     }
   },
   "SakuyaBlockU": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "U",
@@ -2385,6 +2407,7 @@
     }
   },
   "SakuyaAttackU": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "U",
@@ -2402,6 +2425,7 @@
     }
   },
   "SakuyaBlockW": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "W",
@@ -2467,6 +2491,7 @@
     }
   },
   "Knife": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "IsXCost": false,
@@ -3089,6 +3114,7 @@
     }
   },
   "GroupOfKnife": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Attack",
     "Colors": "W",
@@ -3391,6 +3417,7 @@
     }
   },
   "SakuyaUsage2": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Skill",
     "Colors": "G",
@@ -3444,6 +3471,7 @@
     }
   },
   "CirnoAttackU": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "U",
@@ -3461,6 +3489,7 @@
     }
   },
   "CirnoBlockG": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "G",
@@ -3478,6 +3507,7 @@
     }
   },
   "CirnoAttackG": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "G",
@@ -3495,6 +3525,7 @@
     }
   },
   "CirnoBlockU": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "U",
@@ -3569,6 +3600,7 @@
     }
   },
   "IceWing": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "U",
@@ -3586,6 +3618,7 @@
     }
   },
   "IceBolt": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "U",
@@ -3617,6 +3650,7 @@
     }
   },
   "OptBottom": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -4603,6 +4637,7 @@
     }
   },
   "KoishiAttackG": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "G",
@@ -4620,6 +4655,7 @@
     }
   },
   "KoishiBlockB": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "B",
@@ -4637,6 +4673,7 @@
     }
   },
   "KoishiAttackB": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "B",
@@ -4654,6 +4691,7 @@
     }
   },
   "KoishiBlockG": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "G",
@@ -4730,6 +4768,7 @@
     }
   },
   "InspirationCard": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Skill",
     "Colors": "G",
@@ -5608,6 +5647,7 @@
     }
   },
   "FollowAttackFiller": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "R",
@@ -5841,6 +5881,7 @@
     }
   },
   "YuetuYuyi": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Skill",
     "Colors": "W",
@@ -6049,6 +6090,7 @@
     }
   },
   "GuijiZaoxingFang": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Attack",
     "Colors": "U",
@@ -6063,6 +6105,7 @@
     }
   },
   "GuijiZaoxingHu": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Attack",
     "Colors": "U",
@@ -6093,6 +6136,7 @@
     }
   },
   "FakeMoon": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Skill",
     "Colors": "U",
@@ -6109,6 +6153,7 @@
     }
   },
   "Shadow": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "Colors": "B",
@@ -6561,6 +6606,7 @@
     }
   },
   "SummerFlower": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "Colors": "G",
@@ -6761,6 +6807,7 @@
     }
   },
   "MorphBird": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "G",
@@ -6771,6 +6818,7 @@
     }
   },
   "MorphDog": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "G",
@@ -6781,6 +6829,7 @@
     }
   },
   "MorphFrog": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "G",
@@ -6791,6 +6840,7 @@
     }
   },
   "MorphMan": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Ability",
     "Colors": "G",
@@ -6833,6 +6883,7 @@
     }
   },
   "WManaCard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6847,6 +6898,7 @@
     }
   },
   "UManaCard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6861,6 +6913,7 @@
     }
   },
   "BManaCard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6875,6 +6928,7 @@
     }
   },
   "RManaCard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6889,6 +6943,7 @@
     }
   },
   "GManaCard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6903,6 +6958,7 @@
     }
   },
   "CManaCard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6917,6 +6973,7 @@
     }
   },
   "PManaCard": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Skill",
     "IsXCost": false,
@@ -6931,6 +6988,7 @@
     }
   },
   "Astrology": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6946,6 +7004,7 @@
     }
   },
   "Xiaozhuo": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -6960,6 +7019,7 @@
     }
   },
   "Shoot": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "IsXCost": false,
@@ -6974,6 +7034,7 @@
     }
   },
   "Boundary": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Defense",
     "IsXCost": false,
@@ -7075,6 +7136,7 @@
     }
   },
   "YijiEarthSpike": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Attack",
     "Colors": "C",
@@ -7086,6 +7148,7 @@
     }
   },
   "YijiPurify": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Skill",
     "Colors": "C",
@@ -7095,6 +7158,7 @@
     }
   },
   "YijiGraze": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Skill",
     "Colors": "C",
@@ -7106,6 +7170,7 @@
     }
   },
   "YijiFirepower": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Skill",
     "Colors": "C",
@@ -8639,6 +8704,7 @@
     }
   },
   "VampireShoot1": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "IsXCost": false,
@@ -8654,6 +8720,7 @@
     }
   },
   "VampireShoot2": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Attack",
     "IsXCost": false,
@@ -8670,6 +8737,7 @@
     }
   },
   "WanderingSoul": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Skill",
     "IsXCost": false,
@@ -8684,6 +8752,7 @@
     }
   },
   "RabbitFoot": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Skill",
     "IsXCost": false,
@@ -8698,6 +8767,7 @@
     }
   },
   "GainTreasure": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Skill",
     "IsXCost": false,
@@ -8712,6 +8782,7 @@
     }
   },
   "MoonPurify": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Skill",
     "Colors": "C",
@@ -8725,6 +8796,7 @@
     }
   },
   "ArtificialJewellery": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Skill",
     "IsXCost": false,
@@ -8736,6 +8808,7 @@
     }
   },
   "LilyoftheValley": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Tool",
     "IsXCost": false,
@@ -8747,6 +8820,7 @@
     }
   },
   "NewsPositive": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Tool",
     "IsXCost": false,
@@ -8757,6 +8831,7 @@
     }
   },
   "NewsNegative": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Tool",
     "IsXCost": false,
@@ -8767,6 +8842,7 @@
     }
   },
   "NewsEntertainment": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Tool",
     "IsXCost": false,
@@ -8776,6 +8852,7 @@
     }
   },
   "NewsTidbit": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Tool",
     "IsXCost": false,
@@ -8786,6 +8863,7 @@
     }
   },
   "WolfFur": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Tool",
     "IsXCost": false,
@@ -8796,6 +8874,7 @@
     }
   },
   "EmpCard": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Tool",
     "IsXCost": false,
@@ -8808,6 +8887,7 @@
     }
   },
   "LarvaCure": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Tool",
     "IsXCost": false,
@@ -8818,6 +8898,7 @@
     }
   },
   "MoonTipsBag": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Tool",
     "IsXCost": false,
@@ -8829,6 +8910,7 @@
     }
   },
   "MoonTipsAttack": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Tool",
     "IsXCost": false,
@@ -8839,6 +8921,7 @@
     }
   },
   "MoonTipsDefense": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Tool",
     "IsXCost": false,
@@ -8849,6 +8932,7 @@
     }
   },
   "MoonTipsHeal": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Tool",
     "IsXCost": false,
@@ -8859,6 +8943,7 @@
     }
   },
   "QiannianShenqiCard": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Tool",
     "IsXCost": false,
@@ -8870,6 +8955,7 @@
     }
   },
   "MeilingLianhua": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Attack",
     "Colors": "WUBRGC",
@@ -8882,6 +8968,7 @@
     }
   },
   "AyaNews": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -8892,6 +8979,7 @@
     }
   },
   "HatateNews": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -8901,6 +8989,7 @@
     }
   },
   "AyaNewsReimuSp": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -8911,6 +9000,7 @@
     }
   },
   "AyaNewsMarisaSp": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -8921,6 +9011,7 @@
     }
   },
   "AyaNewsSakuyaSp": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -8931,6 +9022,7 @@
     }
   },
   "AyaNewsCirnoSp": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -8941,6 +9033,7 @@
     }
   },
   "AyaNewsKoishiSp": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -8951,6 +9044,7 @@
     }
   },
   "Riguang": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -8961,6 +9055,7 @@
     }
   },
   "Yueguang": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -8971,6 +9066,7 @@
     }
   },
   "Xingguang": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -8980,6 +9076,7 @@
     }
   },
   "Xuanguang": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -8989,6 +9086,7 @@
     }
   },
   "CirnoFreeze": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -8999,6 +9097,7 @@
     }
   },
   "KoishiDiscard": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -9008,6 +9107,7 @@
     }
   },
   "Frog": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -9017,6 +9117,7 @@
     }
   },
   "BlackResidue": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Status",
     "Colors": "B",
@@ -9028,6 +9129,7 @@
     }
   },
   "SakuyaLock": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Status",
     "IsXCost": false,
@@ -9038,6 +9140,7 @@
     }
   },
   "Wushuai": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Status",
     "IsXCost": false,
@@ -9048,6 +9151,7 @@
     }
   },
   "Payment": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Status",
     "IsXCost": false,
@@ -9058,6 +9162,7 @@
     }
   },
   "LoveLetter": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Status",
     "IsXCost": false,
@@ -9067,6 +9172,7 @@
     }
   },
   "Lunatic": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Status",
     "IsXCost": false,
@@ -9078,6 +9184,7 @@
     }
   },
   "Chunguang": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -9088,6 +9195,7 @@
     }
   },
   "Bribery": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -9098,6 +9206,7 @@
     }
   },
   "Nightmare": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -9108,6 +9217,7 @@
     }
   },
   "NightMana1": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Status",
     "IsXCost": false,
@@ -9119,6 +9229,7 @@
     }
   },
   "NightMana2": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Status",
     "IsXCost": false,
@@ -9130,6 +9241,7 @@
     }
   },
   "NightMana3": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -9141,6 +9253,7 @@
     }
   },
   "NightMana4": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Status",
     "IsXCost": false,
@@ -9152,6 +9265,7 @@
     }
   },
   "Regret": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9161,6 +9275,7 @@
     }
   },
   "Jealousy": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9170,6 +9285,7 @@
     }
   },
   "BefuddledLife": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9179,6 +9295,7 @@
     }
   },
   "XiaosanJingxia": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9189,6 +9306,7 @@
     }
   },
   "MarisaForget": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9199,6 +9317,7 @@
     }
   },
   "Yuebiao": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9209,6 +9328,7 @@
     }
   },
   "BuyPeace": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9220,6 +9340,7 @@
     }
   },
   "SweetPoison": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9230,6 +9351,7 @@
     }
   },
   "Pressure": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9240,6 +9362,7 @@
     }
   },
   "Misfortune": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9250,6 +9373,7 @@
     }
   },
   "YuyukoMisfortune": {
+    "IsPooled": false,
     "Rarity": "Common",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9260,6 +9384,7 @@
     }
   },
   "Drunk": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9270,6 +9395,7 @@
     }
   },
   "Zhukeling": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9279,6 +9405,7 @@
     }
   },
   "Psychedelic": {
+    "IsPooled": false,
     "Rarity": "Uncommon",
     "Type": "Misfortune",
     "IsXCost": false,
@@ -9290,6 +9417,7 @@
     }
   },
   "FanzhuanChongdong": {
+    "IsPooled": false,
     "Rarity": "Rare",
     "Type": "Misfortune",
     "IsXCost": false,
