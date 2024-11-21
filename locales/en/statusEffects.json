@@ -897,7 +897,7 @@
   },
   "KoishiPhoneSe": {
     "Name": "Terrifyingly Cute Call",
-    "Description": "For each attack card played, perform <Level /> <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Level}} })</h>.<br />If there are no <h>Follow-Up</h> cards in the draw pile, instead play <h>Ring-Ring</h>."
+    "Description": "Whenever an attack card is played, perform <Level /> <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Level}} })</h>.<br />If there are no <h>Follow-Up</h> cards in the draw pile, <h>Ring-Ring</h> will be used as a <h>Follow-Up</h>."
   },
   "YukariFlyObjectSe": {
     "Name": "Superspeed Flier",

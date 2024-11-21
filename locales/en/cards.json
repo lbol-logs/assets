@@ -1518,7 +1518,7 @@
   },
   "KoishiPhone": {
     "Name": "Terrifyingly Cute Call",
-    "Description": "Whenever an attack card is activated, perform a <h>Follow-Up Attack</h>.<br />If there are no <h>Follow-Up</h> cards in the draw pile, <h>Ring-Ring</h> will be used as a <h>Follow-Up</h>."
+    "Description": "Whenever an attack card is played, perform a <h>Follow-Up Attack</h>.<br />If there are no <h>Follow-Up</h> cards in the draw pile, <h>Ring-Ring</h> will be used as a <h>Follow-Up</h>."
   },
   "FollowAttackFiller": {
     "Name": "Ring-Ring",
@@ -1654,7 +1654,7 @@
     "UpgradedDescription": "<h>Exile</h> up to <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }) in the hand.<br />Deal <Damage /> damage to each enemy.<br />If there are <Value1 /> or more card$t(plurals.-s, { 'count': {{Value1}} }) in <h>Exile</h>, deal that much damage twice instead."
   },
   "YuetuInvincible": {
-    "Name": "The Falling Moon-Rabbit",
+    "Name": "The Falling Moon Rabbit",
     "Description": "Gain <h>Flawless</h> for <Value1 /> turn$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Value2 /> <h>Lost Raiments</h> to the draw pile."
   },
   "YuetuYuyi": {
@@ -1905,11 +1905,11 @@
   },
   "YouxiangAttack": {
     "Name": "Gensokyo's Blossoming",
-    "Description": "Deal <Damage /> damage.<br /><h>For each <Mana /> spent</h>: Deal <Value1 /> more damage.<br />If at least <Value2 /> mana was spent, this damage becomes <h>Accurate</h>."
+    "Description": "Deal <Damage /> damage.<br /><h>For each additional <Mana /> spent</h>: Deal <Value1 /> more damage.<br />If at least <Value2 /> mana was spent, this damage becomes <h>Accurate</h>."
   },
   "TakaneDefense": {
     "Name": "Forest Depths",
-    "Description": "Gain <Block /> <h>Block</h>.<br /><h>For each <Mana /> spent</h>: Gain <Value1 /> more <h>Block</h>."
+    "Description": "Gain <Block /> <h>Block</h>.<br /><h>For each additional <Mana /> spent</h>: Gain <Value1 /> more <h>Block</h>."
   },
   "GreenLotus": {
     "Name": "Moonlit Lotus",
@@ -2397,7 +2397,7 @@
     "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> are not lost at the start of that extra turn, and only <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) may be played."
   },
   "AnimalSpirit": {
-    "Name": "Hell's Animal Realm Road",
+    "Name": "Hell's Animal Realm",
     "Description": "All other cards in the hand are possessed by animal spirits, granting them one of the following effects:<br /><hr>Wolf</hr>: Gains <h>Echo</h>.<br /><hg>Otter</hg>: Gains <h>Replenish</h>.<br /><hp>Eagle</hp>: <h>Temporarily costs</h> <Mana />.",
     "UpgradedDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />All other cards in the hand are possessed by animal spirits, granting them one of the following effects:<br /><hr>Wolf</hr>: Gains <h>Echo</h>.<br /><hg>Otter</hg>: Gains <h>Replenish</h>.<br /><hp>Eagle</hp>: <h>Temporarily costs</h> <Mana />."
   },

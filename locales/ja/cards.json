@@ -293,7 +293,7 @@
     "Name": "本物の勾玉職人、魅須丸",
     "PassiveDescription": "<h>ブロック</h>と<h>バリア</h>を<Value2 />ずつ得る。",
     "ActiveDescription": "ランダムな<h>虹龍陰陽玉</h>を<Value1 />枚手札に加える。",
-    "UltimateDescription": "全ての<h>陰陽玉</h>の効果の基本値を<he>1</he>倍分増加させる。<h>虹龍陰陽玉</h>を<Value1 />枚手札に加える。"
+    "UltimateDescription": "全ての<h>陰陽玉</h>の効果の基本値を<he>1</he>倍分増加させる。ランダムな<h>虹龍陰陽玉</h>を<Value1 />枚手札に加える。"
   },
   "ShuihuoCard": {
     "Name": "水火玉",
