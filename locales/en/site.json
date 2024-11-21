@@ -41,6 +41,7 @@
   },
   "success": "<log>Uploaded</log>",
   "cardPool": "Card Pool",
+  "showDiff": "Show Diff",
   "custom": "Custom",
   "color": "Color",
   "rarity": "Rarity",

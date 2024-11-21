@@ -15,6 +15,7 @@
   "both": "两者",
   "inactive": "禁用",
   "active": "启用（完全一致）",
+  "active_pool": "启用",
   "apply": "套用",
   "reset": "重置"
 }

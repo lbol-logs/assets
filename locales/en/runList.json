@@ -15,6 +15,7 @@
   "both": "Both",
   "inactive": "Inactive",
   "active": "Active (exact match)",
+  "active_pool": "Active",
   "apply": "Apply",
   "reset": "Reset"
 }

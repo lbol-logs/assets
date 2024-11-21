@@ -41,6 +41,7 @@
   },
   "success": "<log>上載完成</log>",
   "cardPool": "牌池",
+  "showDiff": "顯示差異",
   "custom": "自訂",
   "color": "顏色",
   "rarity": "稀有度",

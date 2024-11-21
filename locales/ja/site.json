@@ -41,6 +41,7 @@
   },
   "success": "<log>アップロード完了</log>",
   "cardPool": "カードプール",
+  "showDiff": "差分表示",
   "custom": "カスタム",
   "color": "色",
   "rarity": "レア度",
