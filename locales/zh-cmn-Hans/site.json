@@ -40,5 +40,10 @@
     "unknownError": "不明的错误"
   },
   "success": "<log>上载完成</log>",
-  "cardPool": "牌池"
+  "cardPool": "牌池",
+  "custom": "自订",
+  "color": "颜色",
+  "rarity": "稀有度",
+  "cardType": "卡牌类型",
+  "totalCost": "费用总数"
 }

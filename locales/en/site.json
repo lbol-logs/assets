@@ -40,5 +40,10 @@
     "unknownError": "Uknown error"
   },
   "success": "<log>Uploaded</log>",
-  "cardPool": "Card Pool"
+  "cardPool": "Card Pool",
+  "custom": "Custom",
+  "color": "Color",
+  "rarity": "Rarity",
+  "cardType": "Card Type",
+  "totalCost": "Total Cost"
 }

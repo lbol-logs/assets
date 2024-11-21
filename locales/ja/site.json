@@ -40,5 +40,10 @@
     "unknownError": "不明なエラー"
   },
   "success": "<log>アップロード完了</log>",
-  "cardPool": "カードプール"
+  "cardPool": "カードプール",
+  "custom": "カスタム",
+  "color": "色",
+  "rarity": "レア度",
+  "cardType": "カードタイプ",
+  "totalCost": "マナ総量"
 }
