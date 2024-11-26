@@ -46,5 +46,6 @@
   "color": "Color",
   "rarity": "Rarity",
   "cardType": "Card Type",
-  "totalCost": "Total Cost"
+  "totalCost": "Total Cost",
+  "neutral": "Neutral"
 }

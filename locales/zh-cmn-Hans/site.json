@@ -46,5 +46,6 @@
   "color": "颜色",
   "rarity": "稀有度",
   "cardType": "卡牌类型",
-  "totalCost": "费用总数"
+  "totalCost": "费用总数",
+  "neutral": "中立牌"
 }
