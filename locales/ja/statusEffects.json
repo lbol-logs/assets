@@ -815,7 +815,7 @@
   },
   "LoveFireSe": {
     "Name": "恋の埋火",
-    "Description": "<PlayerName />のターン終了時、そのターンに<h>追加攻撃</h>が行われていたなら<h>火力</h><Level />を得る。<br /><h>追加攻撃</h>が行われた。"
+    "Description": "<PlayerName />のターン終了時、そのターンに<h>追加攻撃</h>が行われていたなら<h>火力</h><Level />を得る。"
   },
   "KoishiDnaSe": {
     "Name": "ハルトマンの妖怪少女",
