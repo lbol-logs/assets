@@ -1266,7 +1266,7 @@
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>直感</h>：追加で<Shield />バリアを得る。"
   },
   "MultiFollower": {
-    "Name": "ハートのダンス",
+    "Name": "ハートステップ",
     "Description": "<Damage />ダメージを<Value1 />回与える。<br />戦闘開始時及びシャッフルした時、このカードを山札の底に置く。"
   },
   "ToAllFollower": {
