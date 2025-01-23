@@ -84,7 +84,8 @@
   "KoishiG": {
     "Owner": "Koishi",
     "Rarity": "Shining",
-    "Value1": 1,
+    "Value1": 2,
+    "Mana": "B",
     "BaseMana": "G"
   },
   "KoishiB": {

@@ -153,6 +153,10 @@
   "MomentPowerSe": {},
   "ReimuSilenceSe": {},
   "SenluoJiejieSe": {},
+  "Grace": {},
+  "ReimuGraceSe": {},
+  "ReimuEvilTerminatorSe": {},
+  "AutoQumobangSe": {},
   "Charging": {
     "TriggerLevel": 8
   },
@@ -245,7 +249,6 @@
   "LunaticPassionSe": {
     "Percentage": 150
   },
-  "PeaceBlockSe": {},
   "UpgradePeace": {},
   "Inspiration": {
     "TriggerLevel": 3
@@ -253,9 +256,9 @@
   "Tired": {},
   "GainInspirationSe": {},
   "MoodChangeBlockSe": {},
+  "SelfControlSe": {},
   "CloseEyeSe": {},
   "GainZeroAttackSe": {},
-  "LoveFireSe": {},
   "KoishiDnaSe": {},
   "UpgradeAllHandSe": {},
   "ButterflyDreamSe": {},
@@ -277,7 +280,6 @@
     "Mana": "G"
   },
   "RangziFanshuSe": {},
-  "DizangLoveSe": {},
   "ZhenmiaowanAttackSe": {
     "Mana": 1,
     "hasExtra": true,
@@ -299,7 +301,6 @@
   "YonglinUpgradeSe": {},
   "YinyangQueenSe": {},
   "HuiyeTimeSe": {},
-  "ShirenKunchongSe": {},
   "MeilingWaterSe": {},
   "YouxiangWakeSe": {
     "Mana": 0
@@ -321,6 +322,7 @@
   "YukariFriendSe": {
     "Mana": 0
   },
+  "CommonFireSe": {},
   "MoonWorldSe": {},
   "CatchGoblinSe": {}
 }
