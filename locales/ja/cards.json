@@ -52,6 +52,11 @@
     "Name": "空を飛ぶ不思議な巫女",
     "Description": "<h>グレイズ</h><Value1 />を得る。<br />カードを<Value2 />枚引く。"
   },
+  "SmallPanding": {
+    "Name": "当たり判定・小",
+    "Description": "<h>グレイズ</h><Value1 />を得る。<br /><h>弱体</h><Value2 />を得る。",
+    "UpgradedDescription": "<h>グレイズ</h><Value1 />を得る。"
+  },
   "TuimofuLuanwu": {
     "Name": "退魔符乱舞",
     "Description": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。"
@@ -60,14 +65,14 @@
     "Name": "厄祓い",
     "Description": "手札を1枚<h>廃棄</h>する。<br /><h>庇護</h><Value1 />を得る。"
   },
+  "Jinfuzhen": {
+    "Name": "緊縛陣",
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある時、<h>弱体</h><Value1 />を与える。"
+  },
   "LingfuHuti": {
     "Name": "護身の霊符",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>神域札</h>を1枚手札に加える。",
     "UpgradedDescription": "<Shield /><h>バリア</h>を得る。<br /><h>神域札</h>を1枚手札に加える。"
-  },
-  "Jinfuzhen": {
-    "Name": "緊縛陣",
-    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある時、<h>弱体</h><Value1 />を与える。"
   },
   "JingshenYishi": {
     "Name": "清めの儀式",
@@ -88,11 +93,6 @@
   "OverJingjie": {
     "Name": "境界上空",
     "Description": "<Value1 />枚のランダムな攻撃カードから1枚を選び、手札に加える。<br />選んだカードの<h>臨時コスト</h>を<Mana />にする。"
-  },
-  "SmallPanding": {
-    "Name": "当たり判定・小",
-    "Description": "<h>グレイズ</h><Value1 />を得る。<br /><h>弱体</h><Value2 />を得る。",
-    "UpgradedDescription": "<h>グレイズ</h><Value1 />を得る。"
   },
   "Zhuizongfu": {
     "Name": "ホーミングアミュレット",
@@ -182,8 +182,8 @@
   },
   "ReimuDrink": {
     "Name": "御神酒",
-    "Description": "ライフを<Value1 />回復する。<br /><h>ちょい飲み</h>を<Value2 />枚手札に加える。",
-    "UpgradedDescription": "ライフを<Value1 />回復する。<br /><h>臨時火力</h><Value1 />を得る。<br /><h>ちょい飲み</h>を<Value2 />枚手札に加える。"
+    "Description_1.5.1": "ライフを<Value1 />回復する。<br /><h>ちょい飲み</h>を<Value2 />枚手札に加える。",
+    "UpgradedDescription_1.5.1": "ライフを<Value1 />回復する。<br /><h>臨時火力</h><Value1 />を得る。<br /><h>ちょい飲み</h>を<Value2 />枚手札に加える。"
   },
   "EvilTuiZhi": {
     "Name": "悪霊退散",
@@ -1095,7 +1095,7 @@
   },
   "FairyOnIce": {
     "Name": "氷上の妖精",
-    "Description": "<h>氷の翼</h>を<Value1 />枚山札の一番上に置く。<br /><h>グレイズ</h><Value2 />を得る。 "
+    "Description": "<h>氷の翼</h>を<Value1 />枚山札の一番上に置く。<br /><h>グレイズ</h><Value2 />を得る。"
   },
   "FruitShake": {
     "Name": "フルーツクラッシュアイス",
@@ -1437,7 +1437,7 @@
   },
   "GainInspiration": {
     "Name": "考えさせて",
-    "Description": "<PlayerName />のターン終了時、<h>閃いた！</h>を1枚山札に加える。<br />"
+    "Description": "<PlayerName />のターン終了時、<h>閃いた！</h>を1枚山札に加える。"
   },
   "PerfectCrime": {
     "Name": "完全犯罪",
@@ -1825,8 +1825,8 @@
   },
   "DizangLove": {
     "Name": "即席菩薩",
-    "Description": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。",
-    "UpgradedDescription": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。<br /><h>活力</h>を1枚手札に加える。"
+    "Description_1.5.1": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。",
+    "UpgradedDescription_1.5.1": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。<br /><h>活力</h>を1枚手札に加える。"
   },
   "YuyukoSing": {
     "Name": "蝶の羽風",
@@ -2271,10 +2271,6 @@
   "MedicineGarden": {
     "Name": "鈴蘭の花園",
     "Description": "敵全体のライフを<Value1 />回復する。<br />敵全体に<h>毒</h><Value1 />を与える。"
-  },
-  "ShirenKunchong": {
-    "Name": "人喰い虫",
-    "Description": "敵全体に<Damage />ダメージを与える。<br />それらの敵がデバフを受ける度、<PlayerName />は<Value1 /><h>ブロック</h>を得る。"
   },
   "ZoufangSnake": {
     "Name": "土着神崇拝",

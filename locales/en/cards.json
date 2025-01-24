@@ -86,6 +86,11 @@
     "Name": "Maiden's Aerial Dance",
     "Description": "Gain <Value1 /> <h>Graze</h>.<br />Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} })."
   },
+  "SmallPanding": {
+    "Name": "Tiny Hitbox",
+    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Gain <Value2 /> <h>Vulnerable</h>.",
+    "UpgradedDescription": "Gain <Value1 /> <h>Graze</h>."
+  },
   "TuimofuLuanwu": {
     "Name": "Wild Exorcism Dance",
     "Description": "Deal <Damage /> damage to a random enemy <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} })."
@@ -94,14 +99,14 @@
     "Name": "Cleansing Exorcism",
     "Description": "<h>Exile</h> a card from the hand.<br />Gain <Value1 /> <h>Ward</h>."
   },
+  "Jinfuzhen": {
+    "Name": "Binding Border",
+    "Description": "Deal <Damage /> damage.<br />If <PlayerName /> has <h>Barrier</h>, apply <Value1 /> <h>Vulnerable</h>."
+  },
   "LingfuHuti": {
     "Name": "Talisman Protection",
     "Description": "Gain <Block /> <h>Block</h>.<br />Add a <h>Kami-Aura Talisman</h> to the hand.",
     "UpgradedDescription": "Gain <Shield /> <h>Barrier</h>.<br />Add a <h>Kami-Aura Talisman</h> to the hand."
-  },
-  "Jinfuzhen": {
-    "Name": "Binding Border",
-    "Description": "Deal <Damage /> damage.<br />If <PlayerName /> has <h>Barrier</h>, apply <Value1 /> <h>Vulnerable</h>."
   },
   "JingshenYishi": {
     "Name": "Cleansing Ritual",
@@ -122,11 +127,6 @@
   "OverJingjie": {
     "Name": "Above the Realm",
     "Description": "Choose 1 of <Value1 /> random attack cards to add to the hand. It <h>temporarily costs</h> <Mana />."
-  },
-  "SmallPanding": {
-    "Name": "Tiny Hitbox",
-    "Description": "Gain <Value1 /> <h>Graze</h>.<br />Gain <Value2 /> <h>Vulnerable</h>.",
-    "UpgradedDescription": "Gain <Value1 /> <h>Graze</h>."
   },
   "Zhuizongfu": {
     "Name": "Homing Amulet",
@@ -216,8 +216,8 @@
   },
   "ReimuDrink": {
     "Name": "Sake Offering",
-    "Description": "Gain <Value1 /> life.<br />Add <Value2 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand.",
-    "UpgradedDescription": "Gain <Value1 /> life.<br />Gain <Value1 /> <h>Temporary Firepower</h>.<br />Add <Value2 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
+    "Description_1.5.1": "Gain <Value1 /> life.<br />Add <Value2 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand.",
+    "UpgradedDescription_1.5.1": "Gain <Value1 /> life.<br />Gain <Value1 /> <h>Temporary Firepower</h>.<br />Add <Value2 /> <h>Tipsy$t(plurals.-s, { 'count': {{Value2}} })</h> to the hand."
   },
   "EvilTuiZhi": {
     "Name": "Evil Exterminate",
@@ -1129,7 +1129,7 @@
   },
   "FairyOnIce": {
     "Name": "Fairy On Ice",
-    "Description": "Add <Value1 /> <h>Ice Wing$t(plurals.-s, { 'count': {{Value1}} })</h> to the top of draw pile. <br />Gain <Value2 /> <h>Graze</h>. "
+    "Description": "Add <Value1 /> <h>Ice Wing$t(plurals.-s, { 'count': {{Value1}} })</h> to the top of draw pile. <br />Gain <Value2 /> <h>Graze</h>."
   },
   "FruitShake": {
     "Name": "Yummy Fruit Freezies",
@@ -1471,7 +1471,7 @@
   },
   "GainInspiration": {
     "Name": "Lemme Think",
-    "Description": "At the end of <PlayerName />'s turn, add an <h>Eureka!</h> to the draw pile.<br />"
+    "Description": "At the end of <PlayerName />'s turn, add an <h>Eureka!</h> to the draw pile."
   },
   "PerfectCrime": {
     "Name": "Perfect Crime",
@@ -1892,8 +1892,8 @@
   },
   "DizangLove": {
     "Name": "Instant Bodhi",
-    "Description": "After <PlayerName /> plays a Common card, gain <Value1 /> <h>Temporary Firepower</h>.",
-    "UpgradedDescription": "After <PlayerName /> plays a Common card, gain <Value1 /> <h>Temporary Firepower</h>.<br />Add a <h>Vitality</h> to the hand."
+    "Description_1.5.1": "After <PlayerName /> plays a Common card, gain <Value1 /> <h>Temporary Firepower</h>.",
+    "UpgradedDescription_1.5.1": "After <PlayerName /> plays a Common card, gain <Value1 /> <h>Temporary Firepower</h>.<br />Add a <h>Vitality</h> to the hand."
   },
   "YuyukoSing": {
     "Name": "Butterfly's Wingbeats",
@@ -2338,10 +2338,6 @@
   "MedicineGarden": {
     "Name": "Melancholic Garden",
     "Description": "Each enemy gains <Value1 /> life.<br />Apply <Value1 /> <h>Poison</h> to each enemy."
-  },
-  "ShirenKunchong": {
-    "Name": "Cannibalistic Insect",
-    "Description": "Deal <Damage /> damage to each enemy.<br />Whenever an enemy gains a <h>Debuff</h>, <PlayerName /> gains <Value1 /> <h>Block</h>."
   },
   "ZoufangSnake": {
     "Name": "Faith of Native God",

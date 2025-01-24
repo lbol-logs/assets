@@ -729,7 +729,8 @@
     "1": {
       "Cost": 0,
       "Keywords": "Exile"
-    }
+    },
+    "Version": "1.5.1"
   },
   "EvilTuiZhi": {
     "Rarity": "Rare",
@@ -6713,7 +6714,8 @@
       "Cost": "GG",
       "Value1": 1
     },
-    "1": {}
+    "1": {},
+    "Version": "1.5.1"
   },
   "YuyukoSing": {
     "Rarity": "Uncommon",

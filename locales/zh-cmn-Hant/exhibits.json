@@ -57,8 +57,8 @@
     "Description": "提供基礎法力<BaseMana />，<h>琪露諾</h>的專屬卡牌會加入牌池。<br />主動打出而召喚一名<h>同伴</h>時，將 <Value1 /> 張<h>盛夏之花</h>加入手中。"
   },
   "KoishiG": {
-    "Name": "盛開的薔薇",
-    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br /><PlayerName />的第一回合開始時，將 <Value1 /> 張<h>生機</h>加入手中。"
+    "Name": "舊地獄薔薇",
+    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br />每場戰鬥的前 <Value1 /> 回合，獲得<Mana />。"
   },
   "KoishiB": {
     "Name": "定製太陽鏡",
@@ -230,7 +230,7 @@
   },
   "Zuoshan": {
     "Name": "左扇",
-    "Description": "每場戰鬥中使用第一張牌後，將一張該牌<h>暫塑</h>為<Mana />的複製加入手中，這張複製具有<h>放逐</h>。"
+    "Description": "每場戰鬥中使用第一張牌後，將一張該牌<h>暫塑</h>為<Mana />的複製加入手中，它具有<h>放逐</h>。"
   },
   "Zijing": {
     "Name": "紫鏡",

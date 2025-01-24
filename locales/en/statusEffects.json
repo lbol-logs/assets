@@ -1024,10 +1024,6 @@
     "Name": "Between Instantaneous",
     "Description": "Only <Limit /> cards may be each this turn. (<Count /> left)"
   },
-  "ShirenKunchongSe": {
-    "Name": "Cannibalistic Insect",
-    "Description": "Whenever <OwnerName /> gains a <h>Debuff</h>, <PlayerName /> gains <Level /> <h>Block</h>."
-  },
   "MeilingWaterSe": {
     "Name": "Cornered",
     "Description": "At the start of <OwnerName />'s turn, lose <Level /> life."

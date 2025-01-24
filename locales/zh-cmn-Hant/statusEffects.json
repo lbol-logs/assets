@@ -84,7 +84,7 @@
     "Description": "<OwnerName />的回合結束後，進行額外的回合，剩餘<Level /> 次。"
   },
   "SuperExtraTurn": {
-    "Name": "世紀的二重身超人",
+    "Name": "「永夜返」",
     "Description": "<PlayerName />的<h>自然回合</h>結束時，進行額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Level /> 張牌。"
   },
   "LimitedDamage": {
@@ -545,6 +545,22 @@
     "Name": "森羅結界",
     "Description": "下回合開始時引爆<h>護盾</h>。"
   },
+  "Grace": {
+    "Name": "神恩",
+    "Description": "<h>神恩</h>視為<h>火力</h>和<h>靈力</h>，在對一張卡牌或符卡生效後消失。"
+  },
+  "ReimuGraceSe": {
+    "Name": "博麗的眷顧",
+    "Description": "<PlayerName />的回合開始時獲得 <Level /> 點<h>神恩</h>。"
+  },
+  "ReimuEvilTerminatorSe": {
+    "Name": "除魔專家",
+    "Description": "每當一名敵人被擊敗，獲得<Mana />。"
+  },
+  "AutoQumobangSe": {
+    "Name": "暴走驅魔棒",
+    "Description": "抽牌階段多抽 <Level /> 張牌，剩餘 <Count /> 回合。"
+  },
   "Charging": {
     "Name": "充能",
     "Description": "<PlayerName />累計 <TriggerLevel /> 層<h>充能</h>時，進入<h>爆發</h>狀態。"
@@ -833,6 +849,10 @@
     "Name": "A.T. 力場",
     "Description": "每當<PlayerName />轉化<h>心境</h>時，獲得 <Level /> 點<h>格擋</h>。"
   },
+  "SelfControlSe": {
+    "Name": "掌控自我",
+    "Description": "<PlayerName />的回合結束時：處於<h>熱情</h>則獲得 <Level /> 點<h>火力</h>；處於<h>平靜</h>則獲得 <Count /> 點<h>格擋</h>。"
+  },
   "CloseEyeSe": {
     "Name": "緊閉的眼",
     "Description": "無法看到敵人的意圖，剩餘 <Level /> 次。"
@@ -986,10 +1006,6 @@
     "Name": "須臾之間",
     "Description": "本回合只能打出 <Limit /> 張牌，剩餘<Count /> 張。"
   },
-  "ShirenKunchongSe": {
-    "Name": "食人昆蟲",
-    "Description": "當<OwnerName />受到<h>負面狀態</h>時，<PlayerName />獲得 <Level /> 點<h>格擋</h>。"
-  },
   "MeilingWaterSe": {
     "Name": "無處可退",
     "Description": "<OwnerName />的回合開始時，失去 <Level /> 點生命。"
@@ -1030,6 +1046,10 @@
   "YukariFriendSe": {
     "Name": "幻想的境界",
     "Description": "<PlayerName />的回合開始時，將 <Level /> 張隨機的其它中立三色牌加入手中，<h>暫塑</h>為<Mana />，具有<h>虛無</h>。"
+  },
+  "CommonFireSe": {
+    "Name": "平凡之力",
+    "Description": "打出普通卡牌後，<OwnerName />獲得 <Level /> 點<h>暫得火力</h>。"
   },
   "MoonWorldSe": {
     "Name": "無穢的世界",

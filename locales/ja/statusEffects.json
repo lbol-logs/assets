@@ -799,7 +799,7 @@
   },
   "GainInspirationSe": {
     "Name": "閃き続ける",
-    "Description": "<PlayerName />のターン開始時、<h>閃いた！</h>を<Level />枚山札に加える。<br />"
+    "Description": "<PlayerName />のターン開始時、<h>閃いた！</h>を<Level />枚山札に加える。"
   },
   "MoodChangeBlockSe": {
     "Name": "A.T.フィールド",
@@ -957,10 +957,6 @@
   "HuiyeTimeSe": {
     "Name": "須臾の間",
     "Description": "このターンカードを<Limit />枚しか使用できない、残り<Count />枚。"
-  },
-  "ShirenKunchongSe": {
-    "Name": "人喰い虫",
-    "Description": "<OwnerName />がデバフを受ける度、<PlayerName />は<Level /><h>ブロック</h>を得る。"
   },
   "MeilingWaterSe": {
     "Name": "不退転",

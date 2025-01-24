@@ -296,7 +296,8 @@
     "1": {
       "Value1": 3,
       "Value2": 4
-    }
+    },
+    "Version": "1.6.1"
   },
   "YinyangBaoyu": {
     "Rarity": "Common",
@@ -393,7 +394,8 @@
       "Value1": 3,
       "Mana": "RR",
       "Keywords": "Accuracy"
-    }
+    },
+    "Version": "1.6.1"
   },
   "FengyinYaomo": {
     "Rarity": "Uncommon",
@@ -654,7 +656,8 @@
     "1": {
       "Cost": 1,
       "Value1": 7
-    }
+    },
+    "Version": "1.6.1"
   },
   "QinggeManwu": {
     "Rarity": "Uncommon",
@@ -1015,7 +1018,8 @@
     "1": {
       "Cost": "1H:HWU",
       "Keywords": "Exile"
-    }
+    },
+    "Version": "1.6.1"
   },
   "AutoQumobang": {
     "Rarity": "Uncommon",
@@ -1032,7 +1036,8 @@
     "1": {
       "Value1": 2,
       "Keywords": "Replenish"
-    }
+    },
+    "Version": "1.6.1"
   },
   "ReimuEvilTerminator": {
     "Rarity": "Uncommon",
@@ -5096,7 +5101,8 @@
     "1": {
       "Block": 24,
       "Value1": 5
-    }
+    },
+    "Version": "1.6.1"
   },
   "DuplicateFollower": {
     "Rarity": "Uncommon",
@@ -5134,7 +5140,8 @@
       "Damage": 20,
       "Value1": 5,
       "Keywords": "Accuracy"
-    }
+    },
+    "Version": "1.6.1"
   },
   "YaoguaiLaser": {
     "Rarity": "Uncommon",
@@ -5547,7 +5554,8 @@
     "1": {
       "Cost": "1G",
       "Keywords": "Exile"
-    }
+    },
+    "Version": "1.6.1"
   },
   "SelfControl": {
     "Rarity": "Rare",
@@ -5591,7 +5599,8 @@
     },
     "1": {
       "Cost": "BG"
-    }
+    },
+    "Version": "1.6.1"
   },
   "KoishiAttackX": {
     "Rarity": "Rare",
@@ -5637,7 +5646,8 @@
     "1": {
       "Cost": "1W",
       "Keywords": "Ethereal,Initial"
-    }
+    },
+    "Version": "1.6.1"
   },
   "KokoroFriend": {
     "Rarity": "Uncommon",
@@ -6788,7 +6798,8 @@
     },
     "1": {
       "Value1": 3
-    }
+    },
+    "Version": "1.6.1"
   },
   "YuyukoSing": {
     "Rarity": "Uncommon",
@@ -7664,7 +7675,8 @@
       "Value1": 4,
       "Value2": 5
     },
-    "1": {}
+    "1": {},
+    "Version": "1.6.1"
   },
   "PoorAttack": {
     "Rarity": "Common",
