@@ -583,6 +583,22 @@
     "Name": "Aggregate Border",
     "Description": "At the start of <OwnerName />'s next turn, she detonates all of her <h>Barrier</h>."
   },
+  "Grace": {
+    "Name": "Divine Favor",
+    "Description": "<h>Divine Favor</h> counts as <h>Firepower</h> and <h>Spirit</h>, and wears off whenever either a card is played or the <h>Spell Card</h> is activated."
+  },
+  "ReimuGraceSe": {
+    "Name": "Hakurei's Providence",
+    "Description": "At the start of <PlayerName />'s turn, gain <Level /> <h>Divine Favor</h>."
+  },
+  "ReimuEvilTerminatorSe": {
+    "Name": "Ace Exterminator",
+    "Description": "Whenever an enemy is defeated, gain <Mana />."
+  },
+  "AutoQumobangSe": {
+    "Name": "Furious Purification Rod",
+    "Description": "Draw <Level /> more card$t(plurals.-s, { 'count': {{Level}} }) during the draw step.<br />Remaining Turns: <Count />"
+  },
   "Charging": {
     "Name": "Charge",
     "Description": "When <PlayerName /> has <TriggerLevel /> or more <h>Charge</h>, she enters <h>Burst</h>."
@@ -871,6 +887,10 @@
     "Name": "A.T. Field",
     "Description": "Whenever <PlayerName /> changes <h>Mental States</h>, gain <Level /> <h>Block</h>."
   },
+  "SelfControlSe": {
+    "Name": "Self-Control",
+    "Description": "At the end of <PlayerName />'s turn, gain <Level /> <h>Firepower</h> if she's in <h>Passion</h>, or <Count /> <h>Block</h> if she's in <h>Serenity</h>."
+  },
   "CloseEyeSe": {
     "Name": "Closed Eye",
     "Description": "Enemy's intentions are unknown.<br />Remaining Turns: <Level />"
@@ -1064,6 +1084,10 @@
   "YukariFriendSe": {
     "Name": "Boundary of Fantasy",
     "Description": "At the start of <PlayerName />'s turn, add <Level /> random three-colored neutral card$t(plurals.-s, { 'count': {{Level}} }) to the hand. $t(subjects.It, { 'count': {{Level}} }) <h>temporarily cost$t(subjects.-s, { 'count': {{Level}} })</h> <Mana /> and $t(subjects.has, { 'count': {{Level}} }) <h>Ethereal</h>."
+  },
+  "CommonFireSe": {
+    "Name": "Power of the Ordinary",
+    "Description": "After a Common card is played, <OwnerName /> gains <Level /> <h>Temporary Firepower</h>."
   },
   "MoonWorldSe": {
     "Name": "Pure World",

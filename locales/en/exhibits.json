@@ -77,8 +77,9 @@
     "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Cirno</h> are added to the card pool.<br />Whenever a <h>Teammate</h> is summoned by being played, add <Value1 /> <h>Midsummer Flowers</h> to the hand."
   },
   "KoishiG": {
-    "Name": "Blooming Rose",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn, add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand."
+    "Name": "Former Hell Rose",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of <PlayerName />'s first turn, add <Value1 /> <h>Vitalit$t(plurals.-y, { 'count': {{Value1}} })</h> to the hand.",
+    "Description_1.6.1": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of <PlayerName />'s first <Value1 /> turns, gain <Mana />."
   },
   "KoishiB": {
     "Name": "Custom Sunglasses",

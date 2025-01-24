@@ -1865,7 +1865,7 @@
     "Name": "即席菩薩",
     "Description_1.5.1": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。",
     "UpgradedDescription_1.5.1": "コモンカードをプレイするたび、<PlayerName />は<h>臨時火力</h><Value1 />を得る。<br /><h>活力</h>を1枚手札に加える。",
-    "Description_1.6.1": "最大ライフを<Value1 />増やす。<br />全ての{SelfName}の効果は各戦闘で1回しか発動しない。"
+    "Description_1.6.1": "最大ライフを<Value1 />増やす。<br />全ての<SelfName />の効果は各戦闘で1回しか発動しない。"
   },
   "YuyukoSing": {
     "Name": "蝶の羽風",
