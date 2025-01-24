@@ -237,7 +237,7 @@
   },
   "PrivateSquare": {
     "Name": "シルバーロックダウン",
-    "Description": "カードを<Limit />枚使用するごとに、<OwnerName />は<PlayerName />に<Level />点のダメージを与える。<br />残り<Count />枚。"
+    "Description": "カードを<Limit />枚使用するごとに、<OwnerName />は<PlayerName />に<Level />点の攻撃ダメージを与える。<br />残り<Count />枚。"
   },
   "EnemyDayaojing": {
     "Name": "大妖精のサポート",
@@ -257,7 +257,7 @@
   },
   "KoishiUnknown": {
     "Name": "不可思議",
-    "Description": "<OwnerName />の行動予定の一部が隠されている。<br />数値が増加すると隠蔽がより強力になる。"
+    "Description": "<OwnerName />の行動予定の一部が隠されている。<br />数値が増加すると隠された行動がより強力になる。"
   },
   "ShenlingGold": {
     "Name": "富の恩寵",
@@ -517,6 +517,22 @@
     "Name": "森羅結界",
     "Description": "次のターン開始時に<h>バリア</h>を爆発させる。"
   },
+  "Grace": {
+    "Name": "神恩",
+    "Description": "<h>神恩</h>は同じ値の<h>火力</h>及び<h>霊力</h>として扱う。カード又は<h>スペルカード</h>を使用すると失われる。"
+  },
+  "ReimuGraceSe": {
+    "Name": "博麗の庇護",
+    "Description": "<PlayerName />のターン開始時、<h>神恩</h><Level />を得る。"
+  },
+  "ReimuEvilTerminatorSe": {
+    "Name": "妖怪退治の専門家",
+    "Description": "敵を1体倒す度、<Mana />を得る。"
+  },
+  "AutoQumobangSe": {
+    "Name": "暴れるお祓い棒",
+    "Description": "ドローフェイズにカードを<Level />枚多く引く。<br />残り<Count />ターン。"
+  },
   "Charging": {
     "Name": "チャージ",
     "Description": "<PlayerName />が <TriggerLevel /> 以上の<h>チャージ</h>を得ると、<h>バースト</h>状態に入る。"
@@ -703,7 +719,7 @@
   },
   "Immune": {
     "Name": "アイスブロック",
-    "Description": "<OwnerName />はあらゆるダメージを受けない。残り <Duration /> ターン持続。"
+    "Description": "<OwnerName />はライフを失わない。残り <Duration /> ターン持続。"
   },
   "ExtraBlizzard": {
     "Name": "吹雪到来",
@@ -799,11 +815,15 @@
   },
   "GainInspirationSe": {
     "Name": "閃き続ける",
-    "Description": "<PlayerName />のターン開始時、<h>閃いた！</h>を<Level />枚山札に加える。<br />"
+    "Description": "<PlayerName />のターン開始時、<h>閃いた！</h>を<Level />枚山札に加える。"
   },
   "MoodChangeBlockSe": {
     "Name": "A.T.フィールド",
     "Description": "<PlayerName />の<h>心境</h>が変化する度、<Level /><h>ブロック</h>を得る。"
+  },
+  "SelfControlSe": {
+    "Name": "エゴコントロール",
+    "Description": "<PlayerName />のターン終了時、<h>熱情</h>状態なら<h>火力</h><Level />を得る。<h>平静</h>状態なら<h>ブロック</h><Count />を得る。"
   },
   "CloseEyeSe": {
     "Name": "閉じた瞳",
@@ -958,10 +978,6 @@
     "Name": "須臾の間",
     "Description": "このターンカードを<Limit />枚しか使用できない、残り<Count />枚。"
   },
-  "ShirenKunchongSe": {
-    "Name": "人喰い虫",
-    "Description": "<OwnerName />がデバフを受ける度、<PlayerName />は<Level /><h>ブロック</h>を得る。"
-  },
   "MeilingWaterSe": {
     "Name": "不退転",
     "Description": "<OwnerName />のターン開始時、ライフを<Level />失う。"
@@ -1002,6 +1018,10 @@
   "YukariFriendSe": {
     "Name": "幻想の境界",
     "Description": "<PlayerName />のターン開始時、<Level />枚のランダムな三色の共通カードを手札に加える。それは臨時コスト<Mana />と<h>虚無</h>を持つ。"
+  },
+  "CommonFireSe": {
+    "Name": "弱者の力",
+    "Description": "コモンのカードを使用する度、<OwnerName />は<h>臨時火力</h><Level />を得る。"
   },
   "MoonWorldSe": {
     "Name": "穢れ無き世界",

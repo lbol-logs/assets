@@ -200,19 +200,19 @@
       "Value1": 2
     }
   },
-  "WunvKongwu": {
+  "SmallPanding": {
     "Rarity": "Common",
     "Type": "Skill",
     "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "0": {
-      "Cost": "RR",
-      "Value1": 1,
-      "Value2": 2
+      "Cost": "1R",
+      "Value1": 2,
+      "Value2": 1
     },
     "1": {
-      "Cost": "R"
+      "Value2": 0
     }
   },
   "TuimofuLuanwu": {
@@ -248,22 +248,6 @@
       "Keywords": "Exile"
     }
   },
-  "LingfuHuti": {
-    "Rarity": "Common",
-    "Type": "Defense",
-    "Colors": "W",
-    "IsXCost": false,
-    "Owner": "Reimu",
-    "0": {
-      "Cost": "1W",
-      "Block": 10,
-      "Shield": 0
-    },
-    "1": {
-      "Block": 0,
-      "Shield": 12
-    }
-  },
   "Jinfuzhen": {
     "Rarity": "Common",
     "Type": "Attack",
@@ -282,19 +266,38 @@
       "Keywords": "Accuracy"
     }
   },
-  "JingshenYishi": {
+  "LingfuHuti": {
     "Rarity": "Common",
     "Type": "Defense",
     "Colors": "W",
     "IsXCost": false,
     "Owner": "Reimu",
     "0": {
-      "Cost": "WW",
-      "Block": 15
+      "Cost": "1W",
+      "Block": 10,
+      "Shield": 0
     },
     "1": {
-      "Block": 20
+      "Block": 0,
+      "Shield": 12
     }
+  },
+  "JingshenYishi": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Value1": 2,
+      "Value2": 3
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 4
+    },
+    "Version": "1.6.1"
   },
   "YinyangBaoyu": {
     "Rarity": "Common",
@@ -359,19 +362,18 @@
       "Keywords": "Exile"
     }
   },
-  "SmallPanding": {
+  "ReimuFestival": {
     "Rarity": "Uncommon",
-    "Type": "Skill",
+    "Type": "Ability",
     "Colors": "R",
     "IsXCost": false,
     "Owner": "Reimu",
     "0": {
       "Cost": "1R",
-      "Value1": 2,
-      "Value2": 1
+      "Value1": 2
     },
     "1": {
-      "Value2": 0
+      "Value1": 3
     }
   },
   "Zhuizongfu": {
@@ -392,21 +394,8 @@
       "Value1": 3,
       "Mana": "RR",
       "Keywords": "Accuracy"
-    }
-  },
-  "ReimuFestival": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
-    "Colors": "R",
-    "IsXCost": false,
-    "Owner": "Reimu",
-    "0": {
-      "Cost": "RR",
-      "Value1": 2
     },
-    "1": {
-      "Value1": 3
-    }
+    "Version": "1.6.1"
   },
   "FengyinYaomo": {
     "Rarity": "Uncommon",
@@ -560,6 +549,20 @@
       "Keywords": "Exile"
     }
   },
+  "ReimuShrine": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
   "JiejieAttack": {
     "Rarity": "Uncommon",
     "Type": "Attack",
@@ -574,20 +577,6 @@
     "1": {
       "Cost": "W",
       "Keywords": "Accuracy"
-    }
-  },
-  "ReimuShrine": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
-    "Colors": "W",
-    "IsXCost": false,
-    "Owner": "Reimu",
-    "0": {
-      "Cost": "WW",
-      "Value1": 2
-    },
-    "1": {
-      "Value1": 3
     }
   },
   "DoubleDajiejie": {
@@ -654,6 +643,22 @@
       "Keywords": "Accuracy"
     }
   },
+  "ReimuDrink": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "H:HWR",
+      "Value1": 5
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 7
+    },
+    "Version": "1.6.1"
+  },
   "QinggeManwu": {
     "Rarity": "Uncommon",
     "Type": "Skill",
@@ -712,23 +717,6 @@
     },
     "1": {
       "Value1": 2
-    }
-  },
-  "ReimuDrink": {
-    "Rarity": "Rare",
-    "Type": "Skill",
-    "Colors": "R",
-    "IsXCost": false,
-    "Owner": "Reimu",
-    "0": {
-      "Cost": "R",
-      "Value1": 3,
-      "Value2": 2,
-      "Keywords": "Exile"
-    },
-    "1": {
-      "Cost": 0,
-      "Keywords": "Exile"
     }
   },
   "EvilTuiZhi": {
@@ -791,6 +779,24 @@
     },
     "1": {
       "Cost": "1R"
+    }
+  },
+  "ReimuInstant": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "4R",
+      "Damage": 18,
+      "Mana": 1,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Cost": "3R",
+      "Damage": 24,
+      "Keywords": "Accuracy,Exile"
     }
   },
   "ReimuSilence": {
@@ -882,6 +888,20 @@
       "Cost": "2W"
     }
   },
+  "ReimuGrace": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WR",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
   "HuijuQiankun": {
     "Rarity": "Rare",
     "Type": "Skill",
@@ -895,24 +915,6 @@
     },
     "1": {
       "Value2": 4
-    }
-  },
-  "ReimuInstant": {
-    "Rarity": "Rare",
-    "Type": "Attack",
-    "Colors": "WR",
-    "IsXCost": false,
-    "Owner": "Reimu",
-    "0": {
-      "Cost": "3WR",
-      "Damage": 18,
-      "Mana": 1,
-      "Keywords": "Accuracy,Exile"
-    },
-    "1": {
-      "Cost": "2WR",
-      "Damage": 24,
-      "Keywords": "Accuracy,Exile"
     }
   },
   "DoubleLianhuadie": {
@@ -937,10 +939,11 @@
     "Owner": "Reimu",
     "0": {
       "Cost": "1WWRR",
-      "Mana": 0,
-      "Keywords": "Ethereal"
+      "Mana": 0
     },
-    "1": {}
+    "1": {
+      "Cost": "WWRR"
+    }
   },
   "KuosanJiejie": {
     "Rarity": "Rare",
@@ -994,11 +997,11 @@
     "IsXCost": false,
     "Owner": "Reimu",
     "0": {
-      "Cost": "1U",
+      "Cost": "2U",
       "Value1": 1
     },
     "1": {
-      "Cost": 0
+      "Cost": "U"
     }
   },
   "ReimuHuashan": {
@@ -1008,15 +1011,15 @@
     "IsXCost": false,
     "Owner": "Reimu",
     "0": {
-      "Cost": "H:HWU",
+      "Cost": "1WU",
       "Value1": 2,
-      "Value2": 10,
       "Keywords": "Exile"
     },
     "1": {
-      "Value1": 4,
+      "Cost": "1H:HWU",
       "Keywords": "Exile"
-    }
+    },
+    "Version": "1.6.1"
   },
   "AutoQumobang": {
     "Rarity": "Uncommon",
@@ -1027,27 +1030,29 @@
     "0": {
       "Cost": 0,
       "Value1": 1,
-      "Value2": 4,
-      "Keywords": "Forbidden,Retain"
+      "Value2": 3,
+      "Keywords": "Replenish"
     },
     "1": {
       "Value1": 2,
-      "Keywords": "Forbidden,Retain"
-    }
+      "Keywords": "Replenish"
+    },
+    "Version": "1.6.1"
   },
-  "Qingshan": {
+  "ReimuEvilTerminator": {
     "Rarity": "Uncommon",
-    "Type": "Defense",
+    "Type": "Ability",
     "Colors": "B",
     "IsXCost": false,
     "Owner": "Reimu",
     "0": {
-      "Cost": "2B",
-      "Block": 20,
-      "Value1": 2
+      "Cost": "B",
+      "Value1": 2,
+      "Mana": "PP"
     },
     "1": {
-      "Cost": 2
+      "Value1": 3,
+      "Mana": "PPP"
     }
   },
   "GapLady": {
@@ -1128,14 +1133,14 @@
     "0": {
       "Cost": "WG",
       "Value1": 2,
-      "Value2": 1,
+      "Value2": 2,
       "Loyalty": 4,
       "PassiveCost": 1,
       "ActiveCost": -2,
       "UltimateCost": -8
     },
     "1": {
-      "Value2": 2,
+      "Cost": "H:HWG",
       "PassiveCost": 2
     }
   },
@@ -3141,7 +3146,7 @@
       "Mana": 0
     },
     "1": {
-      "Cost": "2W"
+      "Cost": "2WW"
     }
   },
   "ClockCorpse": {
@@ -4730,10 +4735,11 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "1GG",
-      "Block": 12
+      "Block": 13
     },
     "1": {
-      "Block": 17
+      "Cost": "2G",
+      "Block": 18
     }
   },
   "KoishiKiss": {
@@ -4783,6 +4789,28 @@
     "1": {
       "Mana": "PP",
       "Keywords": "Replenish"
+    }
+  },
+  "KoishiUltimateToken": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 1,
+      "Mana": "G",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Damage": 8,
+      "Value1": 8,
+      "Mana": "P",
+      "Keywords": "Exile,Retain"
     }
   },
   "PassionDefense": {
@@ -4889,15 +4917,12 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "G",
+      "Cost": 1,
       "Value1": 2,
       "Value2": 1,
       "Keywords": "Exile"
     },
-    "1": {
-      "Cost": 0,
-      "Keywords": "Exile"
-    }
+    "1": {}
   },
   "LeaveMoodAttack": {
     "Rarity": "Common",
@@ -5069,12 +5094,15 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "2B",
-      "Block": 20,
-      "Value1": 5
+      "Block": 18,
+      "Value1": 3,
+      "Value2": 1
     },
     "1": {
-      "Block": 25
-    }
+      "Block": 24,
+      "Value1": 5
+    },
+    "Version": "1.6.1"
   },
   "DuplicateFollower": {
     "Rarity": "Uncommon",
@@ -5104,13 +5132,16 @@
     "0": {
       "Cost": "2B",
       "Damage": 17,
-      "Value1": 5,
+      "Value1": 3,
+      "Value2": 1,
       "Keywords": "Accuracy"
     },
     "1": {
-      "Cost": "1B",
+      "Damage": 20,
+      "Value1": 5,
       "Keywords": "Accuracy"
-    }
+    },
+    "Version": "1.6.1"
   },
   "YaoguaiLaser": {
     "Rarity": "Uncommon",
@@ -5136,11 +5167,11 @@
     "Owner": "Koishi",
     "0": {
       "Cost": 0,
-      "Damage": 4,
+      "Damage": 5,
       "Keywords": "EternalEcho"
     },
     "1": {
-      "Damage": 7,
+      "Damage": 8,
       "Keywords": "EternalEcho"
     }
   },
@@ -5251,20 +5282,6 @@
       "Value1": 3
     }
   },
-  "PeaceBlock": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
-    "Colors": "G",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "GG",
-      "Value1": 6
-    },
-    "1": {
-      "Value1": 9
-    }
-  },
   "KoishiFlower": {
     "Rarity": "Uncommon",
     "Type": "Attack",
@@ -5298,6 +5315,18 @@
       "Scry": 5
     }
   },
+  "GainZeroAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Value1": 1
+    },
+    "1": {}
+  },
   "FindInspiration": {
     "Rarity": "Uncommon",
     "Type": "Skill",
@@ -5329,20 +5358,6 @@
       "Value1": 5
     }
   },
-  "GainZeroAttack": {
-    "Rarity": "Uncommon",
-    "Type": "Ability",
-    "Colors": "G",
-    "IsXCost": false,
-    "Owner": "Koishi",
-    "0": {
-      "Cost": "2GG",
-      "Value1": 1
-    },
-    "1": {
-      "Cost": "2G"
-    }
-  },
   "LeaveMoodDraw": {
     "Rarity": "Uncommon",
     "Type": "Skill",
@@ -5371,6 +5386,20 @@
       "Value1": 7
     }
   },
+  "PsycheLock": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Keywords": "Exile,Retain"
+    }
+  },
   "BlackEpiphany": {
     "Rarity": "Rare",
     "Type": "Skill",
@@ -5388,33 +5417,49 @@
       "Keywords": "Exile"
     }
   },
-  "PsycheLock": {
+  "KoishiTouying": {
     "Rarity": "Rare",
     "Type": "Skill",
     "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": 0,
-      "Keywords": "Exile,Retain"
+      "Cost": "BB",
+      "Value1": 3,
+      "Value2": 4,
+      "Mana": "PP"
     },
     "1": {
-      "Keywords": "Exile,Retain"
+      "Value1": 5
     }
   },
-  "KoishiMana": {
+  "KoishiPlayDiscard": {
     "Rarity": "Rare",
-    "Type": "Attack",
+    "Type": "Skill",
     "Colors": "B",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "3",
-      "Damage": 6,
-      "Mana": "WUBRG"
+      "Cost": "2B",
+      "Value1": 1
     },
     "1": {
-      "Mana": "WUBRGCP"
+      "Value1": 2
+    }
+  },
+  "KoishiPotential": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BBB",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1BB",
+      "Value1": 3
     }
   },
   "FakeBullet": {
@@ -5424,7 +5469,7 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "1BB",
+      "Cost": "3B",
       "Value1": 2
     },
     "1": {
@@ -5447,18 +5492,38 @@
       "Keywords": "Accuracy,FollowCard"
     }
   },
-  "LoveFire": {
+  "KoishiDrawTopCards": {
     "Rarity": "Rare",
-    "Type": "Ability",
-    "Colors": "B",
+    "Type": "Skill",
+    "Colors": "G",
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "2BBB",
-      "Value1": 3
+      "Cost": "G",
+      "Value1": 3,
+      "Keywords": "Initial"
     },
     "1": {
-      "Cost": "2BB"
+      "Cost": 1,
+      "Value1": 4,
+      "Keywords": "Initial"
+    }
+  },
+  "KoishiMana": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Damage": 6,
+      "Mana": "WUBRG"
+    },
+    "1": {
+      "Cost": "2G",
+      "Damage": 8,
+      "Mana": "WUBRGCP"
     }
   },
   "GainInspiration": {
@@ -5489,6 +5554,23 @@
     "1": {
       "Cost": "1G",
       "Keywords": "Exile"
+    },
+    "Version": "1.6.1"
+  },
+  "SelfControl": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "4G",
+      "Value1": 3,
+      "Value2": 9
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 12
     }
   },
   "TheFool": {
@@ -5517,7 +5599,8 @@
     },
     "1": {
       "Cost": "BG"
-    }
+    },
+    "Version": "1.6.1"
   },
   "KoishiAttackX": {
     "Rarity": "Rare",
@@ -5563,7 +5646,8 @@
     "1": {
       "Cost": "1W",
       "Keywords": "Ethereal,Initial"
-    }
+    },
+    "Version": "1.6.1"
   },
   "KokoroFriend": {
     "Rarity": "Uncommon",
@@ -5578,11 +5662,10 @@
       "PassiveCost": 1,
       "ActiveCost": -2,
       "ActiveCost2": -4,
-      "UltimateCost": -5
+      "UltimateCost": -6
     },
     "1": {
-      "Cost": "H:HWB",
-      "Loyalty": 5
+      "Loyalty": 6
     },
     "OverrideUltimateCost": true
   },
@@ -5597,7 +5680,7 @@
       "Keywords": "Exile"
     },
     "1": {
-      "Cost": 1,
+      "Cost": 2,
       "Keywords": "Exile"
     }
   },
@@ -5671,10 +5754,10 @@
     "IsXCost": false,
     "0": {
       "Cost": "W",
-      "Damage": 10
+      "Damage": 8
     },
     "1": {
-      "Damage": 15
+      "Damage": 12
     }
   },
   "YukariFlyObject": {
@@ -6491,20 +6574,6 @@
       "Value1": 3
     }
   },
-  "MeilingBlock": {
-    "Rarity": "Uncommon",
-    "Type": "Defense",
-    "Colors": "R",
-    "IsXCost": false,
-    "0": {
-      "Cost": "1RR",
-      "Block": 8,
-      "Shield": 8
-    },
-    "1": {
-      "Cost": "1R"
-    }
-  },
   "SuikaBigball": {
     "Rarity": "Uncommon",
     "Type": "Attack",
@@ -6530,6 +6599,20 @@
     },
     "1": {
       "Cost": "1R"
+    }
+  },
+  "MeilingBlock": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2RR",
+      "Block": 10,
+      "Shield": 10
+    },
+    "1": {
+      "Cost": "2R"
     }
   },
   "PrismriverRed": {
@@ -6710,10 +6793,13 @@
     "Colors": "G",
     "IsXCost": false,
     "0": {
-      "Cost": "GG",
-      "Value1": 1
+      "Cost": "1GG",
+      "Value1": 2
     },
-    "1": {}
+    "1": {
+      "Value1": 3
+    },
+    "Version": "1.6.1"
   },
   "YuyukoSing": {
     "Rarity": "Uncommon",
@@ -7103,6 +7189,17 @@
     "1": {
       "Block": 16
     }
+  },
+  "CommonFire": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": "CC",
+      "Value1": 1
+    },
+    "1": {}
   },
   "FengjiAttack": {
     "Rarity": "Uncommon",
@@ -7575,9 +7672,11 @@
     "IsXCost": false,
     "0": {
       "Cost": "2WR",
-      "Value1": 4
+      "Value1": 4,
+      "Value2": 5
     },
-    "1": {}
+    "1": {},
+    "Version": "1.6.1"
   },
   "PoorAttack": {
     "Rarity": "Common",
@@ -8218,23 +8317,6 @@
     },
     "1": {
       "Value1": 2
-    }
-  },
-  "KisumeAttack": {
-    "Rarity": "Uncommon",
-    "Type": "Attack",
-    "Colors": "BG",
-    "IsXCost": false,
-    "0": {
-      "Cost": "1BG",
-      "Damage": 14,
-      "Block": 14,
-      "Value1": 2
-    },
-    "1": {
-      "Damage": 17,
-      "Block": 17,
-      "Value1": 3
     }
   },
   "MedicineGarden": {

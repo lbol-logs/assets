@@ -545,6 +545,22 @@
     "Name": "森罗结界",
     "Description": "下回合开始时引爆<h>护盾</h>。"
   },
+  "Grace": {
+    "Name": "神恩",
+    "Description": "<h>神恩</h>视为<h>火力</h>和<h>灵力</h>，在对一张卡牌或符卡生效后消失。"
+  },
+  "ReimuGraceSe": {
+    "Name": "博丽的眷顾",
+    "Description": "<PlayerName />的回合开始时获得 <Level /> 点<h>神恩</h>。"
+  },
+  "ReimuEvilTerminatorSe": {
+    "Name": "除魔专家",
+    "Description": "每当一名敌人被击败，获得<Mana />。"
+  },
+  "AutoQumobangSe": {
+    "Name": "暴走驱魔棒",
+    "Description": "抽牌阶段多抽 <Level /> 张牌，剩余 <Count /> 回合。"
+  },
   "Charging": {
     "Name": "充能",
     "Description": "<PlayerName />累计 <TriggerLevel /> 层<h>充能</h>时，进入<h>爆发</h>状态。"
@@ -833,6 +849,10 @@
     "Name": "A.T. 力场",
     "Description": "每当<PlayerName />转化<h>心境</h>时，获得 <Level /> 点<h>格挡</h>。"
   },
+  "SelfControlSe": {
+    "Name": "掌控自我",
+    "Description": "<PlayerName />的回合结束时：处于<h>热情</h>则获得 <Level /> 点<h>火力</h>；处于<h>平静</h>则获得 <Count /> 点<h>格挡</h>。"
+  },
   "CloseEyeSe": {
     "Name": "紧闭的眼",
     "Description": "无法看到敌人的意图，剩余 <Level /> 次。"
@@ -986,10 +1006,6 @@
     "Name": "须臾之间",
     "Description": "本回合只能打出 <Limit /> 张牌，剩余 <Count /> 张。"
   },
-  "ShirenKunchongSe": {
-    "Name": "食人昆虫",
-    "Description": "当<OwnerName />受到<h>负面状态</h>时，<PlayerName />获得 <Level /> 点<h>格挡</h>。"
-  },
   "MeilingWaterSe": {
     "Name": "无处可退",
     "Description": "<OwnerName />的回合开始时，失去 <Level /> 点生命。"
@@ -1030,6 +1046,10 @@
   "YukariFriendSe": {
     "Name": "幻想的境界",
     "Description": "<PlayerName />的回合开始时，将 <Level /> 张随机的其它中立三色牌加入手中，<h>暂塑</h>为<Mana />，具有<h>虚无</h>。"
+  },
+  "CommonFireSe": {
+    "Name": "平凡之力",
+    "Description": "打出普通卡牌后，<OwnerName />获得 <Level /> 点<h>暂得火力</h>。"
   },
   "MoonWorldSe": {
     "Name": "无秽的世界",
