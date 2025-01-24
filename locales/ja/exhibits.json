@@ -57,8 +57,9 @@
     "Description": "マナ基盤に<BaseMana />を加え、<h>チルノ</h>専用のカードが出現するようになる。<br /><h>パートナー</h>を召喚する度、<h>真夏の花</h>を<Value1 />枚手札に加える。"
   },
   "KoishiG": {
-    "Name": "満開の薔薇",
-    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>活力</h>を<Value1 />枚手札に加える。"
+    "Name": "旧地獄の薔薇",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>活力</h>を<Value1 />枚手札に加える。",
+    "Description_1.6.1": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />各戦闘の<Value1 />ターン目まで、ターン開始時に<Mana />を得る。"
   },
   "KoishiB": {
     "Name": "特注のサングラス",
@@ -446,7 +447,7 @@
   },
   "ChuRenou": {
     "Name": "雛人形",
-    "Description": "次に受ける<h>厄災</h>を<InitialCounter />まで無効にする、残り<Counter />回。"
+    "Description": "次に受ける<h>厄災</h>を<InitialCounter />回まで無効にする。残り<Counter />回。"
   },
   "Chaidao": {
     "Name": "ナタ",

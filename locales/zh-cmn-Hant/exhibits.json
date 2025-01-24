@@ -58,7 +58,8 @@
   },
   "KoishiG": {
     "Name": "舊地獄薔薇",
-    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br />每場戰鬥的前 <Value1 /> 回合，獲得<Mana />。"
+    "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br /><PlayerName />的第一回合開始時，將 <Value1 /> 張<h>生機</h>加入手中。",
+    "Description_1.6.1": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br />每場戰鬥的前 <Value1 /> 回合，獲得<Mana />。"
   },
   "KoishiB": {
     "Name": "定製太陽鏡",

@@ -86,7 +86,8 @@
     "Rarity": "Shining",
     "Value1": 2,
     "Mana": "B",
-    "BaseMana": "G"
+    "BaseMana": "G",
+    "Version": "1.6.1"
   },
   "KoishiB": {
     "Owner": "Koishi",

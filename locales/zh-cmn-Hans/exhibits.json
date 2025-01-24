@@ -58,7 +58,8 @@
   },
   "KoishiG": {
     "Name": "旧地狱蔷薇",
-    "Description": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br />每场战斗的前 <Value1 /> 回合，获得<Mana />。"
+    "Description": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br /><PlayerName />的第一回合开始时，将 <Value1 /> 张<h>生机</h>加入手中。",
+    "Description_1.6.1": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br />每场战斗的前 <Value1 /> 回合，获得<Mana />。"
   },
   "KoishiB": {
     "Name": "定制太阳镜",

@@ -2161,8 +2161,8 @@
   "SanaeSummonGod": {
     "Name": "召请建御名方神",
     "Description": "两回合后的回合开始时：获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。",
-    "Description_1.6.1": "获得 <Value2 /> 点<h>神恩</h>。<br />两回合后的回合开始时：获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。",
     "UpgradedDescription": "下回合开始时：获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。",
+    "Description_1.6.1": "获得 <Value2 /> 点<h>神恩</h>。<br />两回合后的回合开始时：获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。",
     "UpgradedDescription_1.6.1": "获得 <Value2 /> 点<h>神恩</h>。<br />下回合开始时：获得 <Value1 /> 点<h>火力</h>和<h>灵力</h>。"
   },
   "PoorAttack": {
