@@ -861,7 +861,8 @@
   },
   "LunaticPassionSe": {
     "Name": "Lunatic Love",
-    "Description": "<h>Passion</h>'s damage modifier is changed to <Percentage />%."
+    "Description": "<h>Passion</h>'s damage modifier is changed to <Percentage />%.",
+    "Description_1.6.1": "<h>Passion</h>'s damage modifier is changed to <Percentage />%.<br />While <PlayerName /> is in <h>Passion</h>, damage from attack cards is <h>Accurate</h>."
   },
   "PeaceBlockSe": {
     "Name": "Self-Control",

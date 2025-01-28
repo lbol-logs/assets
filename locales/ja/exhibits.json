@@ -103,7 +103,7 @@
   },
   "Ganggenier": {
     "Name": "グングニル",
-    "Description": "マナ基盤に<BaseMana />を加える。<br />全ての攻撃カードは<h>精密</h>を持つ。"
+    "Description": "マナ基盤に<BaseMana />を加える。<br />攻撃カードによって与えるダメージは<h>精密</h>を持つ。"
   },
   "GuizuJiubei": {
     "Name": "鬼の杯",

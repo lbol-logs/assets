@@ -823,7 +823,8 @@
   },
   "LunaticPassionSe": {
     "Name": "疯狂之爱",
-    "Description": "<h>热情</h>的伤害提高改为 <Percentage />%。"
+    "Description": "<h>热情</h>的伤害提高改为 <Percentage />%。",
+    "Description_1.6.1": "<h>热情</h>的伤害提高改为 <Percentage />%。<br /><PlayerName />处于<h>热情</h>时，攻击牌造成的伤害都具有<h>精准</h>。"
   },
   "PeaceBlockSe": {
     "Name": "掌控自我",

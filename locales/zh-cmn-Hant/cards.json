@@ -1446,6 +1446,10 @@
     "Name": "戀之埋火",
     "Description": "進行一次<h>追加攻擊</h>。<br /><PlayerName />的回合結束時，如果本回合進行過<h>追加攻擊</h>，獲得 <Value1 /> 點<h>火力</h>。"
   },
+  "KoishiPlayDiscard": {
+    "Name": "被厭惡者的哲學",
+    "Description": "從棄牌堆中選擇至多 <Value1 /> 張牌追加打出。<br />目標卡牌不是<h>追擊牌</h>時將它<h>放逐</h>。"
+  },
   "KoishiPotential": {
     "Name": "潛能釋放",
     "Description": "展示抽牌堆頂的 <Value1 /> 張牌，選擇一張，將它打出兩次，然後<h>放逐</h>它。"

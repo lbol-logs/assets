@@ -1457,7 +1457,8 @@
   },
   "LeaveMoodDraw": {
     "Name": "Curiosity",
-    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Exit the current <h>Mental State</h>."
+    "Description": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Exit the current <h>Mental State</h>.",
+    "Description_1.6.1": "Exit the current <h>Mental State</h>.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "MoodChangeBlock": {
     "Name": "A.T. Field",
@@ -1482,7 +1483,7 @@
   },
   "KoishiPlayDiscard": {
     "Name": "Philosophy of the Despised",
-    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and play them as Follow-Ups.<br />Any non-<h>Follow-Up</h> cards chosen are <h>Exiled</h>."
+    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and play $t(objects.it, { 'count': {{Value1}} }) as Follow-Up$t(plurals.-s, { 'count': {{Value1}} }).<br />Any non-<h>Follow-Up</h> cards chosen are <h>Exiled</h>."
   },
   "KoishiPotential": {
     "Name": "Unleashed Potential",
@@ -1556,7 +1557,8 @@
   },
   "LunaticPassion": {
     "Name": "Lunatic Love",
-    "Description": "<h>Passion</h>'s damage modifier for <PlayerName />'s attacks becomes <Percentage />%.<br />Enter <h>Passion</h>."
+    "Description": "<h>Passion</h>'s damage modifier for <PlayerName />'s attacks becomes <Percentage />%.<br />Enter <h>Passion</h>.",
+    "Description_1.6.1": "<h>Passion</h>'s damage modifier for <PlayerName />'s attacks becomes <Percentage />%, and damage from attack cards becomes <h>Accurate</h>.<br />Enter <h>Passion</h>."
   },
   "KoishiPhone": {
     "Name": "Terrifyingly Cute Call",

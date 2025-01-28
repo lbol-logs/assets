@@ -1268,7 +1268,7 @@
   },
   "KoishiUltimateToken": {
     "Name": "生命の開花",
-    "Description": "<Damage />ダメージを与え、<Mana />を得る。<br />このカードが<h>保留</h>されるたびに、ダメージが<Value1 />増加し、得るマナが<Mana />増加する。"
+    "Description": "<Damage />ダメージを与える。<br /><Mana />を得る。<br />このカードが<h>保留</h>されるたびに、ダメージが<Value1 />増加し、得るマナが<Mana />増加する。"
   },
   "PassionDefense": {
     "Name": "控え目",
@@ -1419,7 +1419,8 @@
   },
   "LeaveMoodDraw": {
     "Name": "好奇心",
-    "Description": "カードを<Value1 />枚引く。<br />現在の<h>心境</h>を解除する。"
+    "Description": "カードを<Value1 />枚引く。<br />現在の<h>心境</h>を解除する。",
+    "Description_1.6.1": "現在の<h>心境</h>を解除する。<br />カードを<Value1 />枚引く。"
   },
   "MoodChangeBlock": {
     "Name": "A.T.フィールド",
@@ -1518,7 +1519,8 @@
   },
   "LunaticPassion": {
     "Name": "狂える愛",
-    "Description": "<h>熱情</h>による<PlayerName />が与えるダメージ補正が<Percentage />%になる。<br /><h>熱情</h>に入る。"
+    "Description": "<h>熱情</h>による<PlayerName />が与えるダメージ補正が<Percentage />%になる。<br /><h>熱情</h>に入る。",
+    "Description_1.6.1": "<h>熱情</h>による<PlayerName />が与えるダメージ補正が<Percentage />%になる。全ての攻撃カードは<h>精密</h>を持つ。<br /><h>熱情</h>に入る。"
   },
   "KoishiPhone": {
     "Name": "恐怖！可愛い電話の音",
@@ -1572,7 +1574,7 @@
   },
   "BailianJingang": {
     "Name": "金剛身",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><Value1 /><h>反射</h>を得る。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>反射</h><Value1 />を得る。"
   },
   "YunyouShengdi": {
     "Name": "聖地巡礼",
@@ -2164,7 +2166,7 @@
   },
   "XiaosanReflect": {
     "Name": "反撃の弾幕",
-    "Description": "<Shield /><h>バリア</h>を得る。<br /><Value1 /><h>反射</h>を得る。"
+    "Description": "<Shield /><h>バリア</h>を得る。<br /><h>反射</h><Value1 />を得る。"
   },
   "SuikaDraw": {
     "Name": "酒鬼による雲集",
@@ -2324,7 +2326,7 @@
   },
   "YachieDefend": {
     "Name": "亀甲地獄",
-    "Description": "次の<Value1 />回、<PlayerName />がライフを失うときそれを無効化する。<br />その発生源が敵である場合、その敵は同量のライフを失う。"
+    "Description": "次の<Value1 />回、<PlayerName />がライフを失うときそれを無効化する。<br />その発生源が敵である場合、その敵に無効化した数値分のダメージを与える。"
   },
   "JingyeGraze": {
     "Name": "狂いの落葉",

@@ -795,7 +795,8 @@
   },
   "LunaticPassionSe": {
     "Name": "狂気の愛",
-    "Description": "<h>熱情</h>のダメージ補正が<Percentage />%になる。"
+    "Description": "<h>熱情</h>のダメージ補正が<Percentage />%になる。",
+    "Description_1.6.1": "<h>熱情</h>のダメージ補正が<Percentage />%になる。<br /><h>熱情</h>状態の<PlayerName />が攻撃カードによって与えるダメージは<h>精密</h>を持つ。"
   },
   "PeaceBlockSe": {
     "Name": "セルフコントロール",

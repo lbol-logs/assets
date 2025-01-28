@@ -5368,7 +5368,8 @@
     },
     "1": {
       "Cost": "H:HBG"
-    }
+    },
+    "Version": "1.6.1"
   },
   "MoodChangeBlock": {
     "Rarity": "Uncommon",
@@ -5711,7 +5712,8 @@
     "1": {
       "Cost": 1,
       "Keywords": "Initial"
-    }
+    },
+    "Version": "1.6.1"
   },
   "KoishiPhone": {
     "Rarity": "Rare",

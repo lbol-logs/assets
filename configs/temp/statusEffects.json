@@ -247,7 +247,8 @@
   "NextTurnPassion": {},
   "PassionDrawSe": {},
   "LunaticPassionSe": {
-    "Percentage": 150
+    "Percentage": 150,
+    "Version": "1.6.1"
   },
   "UpgradePeace": {},
   "Inspiration": {
