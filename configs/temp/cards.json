@@ -4932,12 +4932,10 @@
     "Owner": "Koishi",
     "0": {
       "Cost": "1G",
-      "Damage": 14,
-      "Keywords": "FollowCard"
+      "Damage": 14
     },
     "1": {
-      "Cost": 1,
-      "Keywords": "FollowCard"
+      "Cost": 1
     }
   },
   "LeaveMoodGraze": {
@@ -4979,11 +4977,11 @@
     "0": {
       "Cost": 0,
       "Damage": 6,
-      "Keywords": "FollowCard"
+      "Keywords": "Accuracy"
     },
     "1": {
       "Damage": 9,
-      "Keywords": "FollowCard"
+      "Keywords": "Accuracy"
     }
   },
   "GrazeFollowAttack": {
