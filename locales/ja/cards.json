@@ -262,7 +262,7 @@
   },
   "KuosanLingfu": {
     "Name": "拡散アミュレット",
-    "Description": "敵全体に<Damage />ダメージを与える。<br />このダメージが敵のライフを減らした時、それと同じ値の<h>バリア</h>を得る。"
+    "Description": "敵全体に<Damage />ダメージを与える。<br />このダメージで減らした敵のライフの合計値に等しい<h>バリア</h>を得る。"
   },
   "DanceAroundLake": {
     "Name": "湖畔の舞",
@@ -869,7 +869,7 @@
   },
   "EvilMaid": {
     "Name": "悪魔のメイド",
-    "Description": "ライフを<Value1 />失う。<br /><PlayerName />は次のターン、カードによる全てのダメージが倍となる。"
+    "Description": "ライフを<Value1 />失う。<br /><PlayerName />は次のターン、与える攻撃ダメージが倍になる。"
   },
   "ExtraTurnEveryone": {
     "Name": "膨張する空間",
@@ -1396,7 +1396,7 @@
     "Description": "<h>火力</h><Value1 />を得る。<br /><h>熱情</h>状態なら追加で<h>火力</h><Value2 />を得る。<br /><h>平静</h>状態なら代わりに<h>霊力</h><Value1 />を得る。"
   },
   "KoishiFlower": {
-    "Name": "わんぱくな薔薇",
+    "Name": "やんちゃな薔薇",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><Damage />ダメージを与える。<br /><h>真夏の花</h>を<Value1 />枚手札に加える。<br /><h>無心</h>状態なら代わりに<Value2 />枚加える。"
   },
   "TheHermit": {
@@ -1520,7 +1520,7 @@
   "LunaticPassion": {
     "Name": "狂える愛",
     "Description": "<h>熱情</h>による<PlayerName />が与えるダメージ補正が<Percentage />%になる。<br /><h>熱情</h>に入る。",
-    "Description_1.6.1": "<h>熱情</h>による<PlayerName />が与えるダメージ補正が<Percentage />%になる。全ての攻撃カードは<h>精密</h>を持つ。<br /><h>熱情</h>に入る。"
+    "Description_1.6.1": "<h>熱情</h>による<PlayerName />が与えるダメージ補正が<Percentage />%になり、<h>熱情</h>状態では攻撃カードによるダメージが<h>精密</h>を得る。<br /><h>熱情</h>に入る。"
   },
   "KoishiPhone": {
     "Name": "恐怖！可愛い電話の音",

@@ -239,7 +239,7 @@
   },
   "ShanliangDengpao": {
     "Name": "煌めく電球",
-    "Description": "スキマで、<Value1 />枚のランダムなレアカードから1枚のカード選んでデッキに加える<h>閃き</h>が選択できる。"
+    "Description": "スキマで、<Value1 />枚のランダムなレアカードから1枚のカードを選んでデッキに加える<h>閃き</h>が選択できる。"
   },
   "ZhanshuDaoliqi": {
     "Name": "戦術オーブメント",
@@ -362,7 +362,7 @@
     "Description": "ボス戦の開始時、<PlayerName />のライフをデッキの枚数と同じ値だけ回復する。"
   },
   "ShoushiYubi": {
-    "Name": "守矢のお守り",
+    "Name": "守矢の御幣",
     "Description": "スキマで、カードを1枚削除する<h>お祓い</h>が選択できる。"
   },
   "Saiqianxiang": {

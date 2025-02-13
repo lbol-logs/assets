@@ -1423,7 +1423,8 @@
   },
   "LeaveMoodDraw": {
     "Name": "好奇心",
-    "Description": "抽 <Value1 /> 張牌。<br />離開當前的<h>心境</h>。"
+    "Description": "抽 <Value1 /> 張牌。<br />離開當前的<h>心境</h>。",
+    "Description_1.6.1": "離開當前的<h>心境</h>。<br />抽 <Value1 /> 張牌。"
   },
   "MoodChangeBlock": {
     "Name": "A.T. 力場",
@@ -1522,7 +1523,8 @@
   },
   "LunaticPassion": {
     "Name": "瘋狂之愛",
-    "Description": "<PlayerName />處於<h>熱情</h>時造成的額外傷害比例改為 <Percentage />%。<br />進入<h>熱情</h>。"
+    "Description": "<PlayerName />處於<h>熱情</h>時造成的額外傷害比例改為 <Percentage />%。<br />進入<h>熱情</h>。",
+    "Description_1.6.1": "<PlayerName />處於<h>熱情</h>時造成的額外傷害比例改為 <Percentage />%，攻擊牌造成的傷害都具有<h>精準</h>。<br />進入<h>熱情</h>。"
   },
   "KoishiPhone": {
     "Name": "恐怖的可愛來電",
@@ -2021,7 +2023,7 @@
   "FengjiAttack": {
     "Name": "分解之風",
     "Description": "對所有敵人造成 <Damage /> 點傷害。<br /><h>每支付</h><ManaC />：傷害提高 <Value1 /> 點。",
-    "UpgradedDescription": "對所有敵人造成 <Damage /> 點傷害。<br /><h>每支付</h><ManaC />：傷害提高 <Value1 /> 點。"
+    "UpgradedDescription": "對所有敵人造成 <Damage /> 點傷害 <Value2 /> 次。<br /><h>每支付</h><ManaC />：傷害提高 <Value1 /> 點。"
   },
   "YijiSkill": {
     "Name": "眾神附體",

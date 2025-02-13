@@ -1441,7 +1441,7 @@
   },
   "KoishiTouying": {
     "Name": "恋之埋火",
-    "Description": "获得<Mana />。<br />从 <Value1 /> 张卡牌中选择一张置于牌堆顶，它具有<h>填充</h>、<h>放逐</h>、<h>虚无</h>。<br />这些卡牌的费用总数不少于 <Value2 />。"
+    "Description": "获得<Mana />。<br />从 <Value1 /> 张随机的卡牌中选择一张置于牌堆顶，它具有<h>填充</h>、<h>放逐</h>、<h>虚无</h>。<br />这些卡牌的费用总数不少于 <Value2 />。"
   },
   "LoveFire": {
     "Name": "恋之埋火",
