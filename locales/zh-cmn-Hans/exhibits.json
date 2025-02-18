@@ -247,7 +247,7 @@
   },
   "ShanliangDengpao": {
     "Name": "闪亮的灯泡",
-    "Description": "可以在隙间小屋<h>发想</h>，从 <Value1 /> 张随机的稀有牌中选择一张加入牌库。"
+    "Description": "可以在隙间小屋<h>发想</h>，从 <Value1 /> 张随机的稀有牌中选择至多一张加入牌库。"
   },
   "ZhanshuDaoliqi": {
     "Name": "战术导力器",

@@ -18,7 +18,7 @@
     "FindExhibit": "找到一件随机展品",
     "GetMoney": "获得 {{Value}} 点<Money />",
     "RemoveCard": "移除牌库中的一张牌",
-    "GetRareCard": "从 {{Value}} 张随机的稀有牌中选择一张加入牌库",
+    "GetRareCard": "从 {{Value}} 张随机的稀有牌中选择至多一张加入牌库",
     "UpgradeBaota": "升级毘沙门天的宝塔"
   }
 }
