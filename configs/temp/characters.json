@@ -24,7 +24,7 @@
   "Sakuya": {
     "BaseMana": "WWUU",
     "A": {
-      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SakuyaAttackW", "SakuyaAttackW", "SakuyaBlockU", "SakuyaBlockU", "SakuyaBlockU", "KnifeBounce"],
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SakuyaAttackW", "SakuyaAttackW", "SakuyaBlockU", "SakuyaBlockU", "KnifeBounce", "SakuyaSnow"],
       "Exhibit": "SakuyaW"
     },
     "B": {
