@@ -25,7 +25,9 @@
       "Player": 25
     }
   },
+  "EnemyVulnerable": {},
   "LockedOn": {},
+  "EnemyLockedOn": {},
   "Graze": {},
   "ExtraTurn": {},
   "SuperExtraTurn": {},
@@ -205,6 +207,7 @@
   "AutoKnifeSe": {},
   "KnifeTarget": {},
   "KnifeDamageUpSe": {},
+  "TimeMagicSe": {},
   "Cold": {
     "BaseDamage": 9,
     "StackMultiply": 2
@@ -235,6 +238,7 @@
   "StarFriendSe": {
     "SourceCardName": "StarFriend"
   },
+  "MaxHandSe": {},
   "MoodPassion": {
     "Percentage": 100
   },
@@ -261,6 +265,7 @@
   "CloseEyeSe": {},
   "GainZeroAttackSe": {},
   "KoishiDnaSe": {},
+  "KoishiUltimateSe": {},
   "UpgradeAllHandSe": {},
   "ButterflyDreamSe": {},
   "KoishiPhoneSe": {},
