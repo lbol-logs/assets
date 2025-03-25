@@ -60,6 +60,7 @@
     "Owner": "Sakuya",
     "Rarity": "Shining",
     "Value1": 1,
+    "Mana": 0,
     "BaseMana": "W"
   },
   "SakuyaU": {
@@ -421,8 +422,8 @@
   },
   "WeifengHuban": {
     "Rarity": "Uncommon",
-    "Value1": 2,
-    "Value2": 4
+    "Value1": 3,
+    "Value2": 5
   },
   "Zixingche": {
     "Rarity": "Uncommon"
@@ -527,6 +528,7 @@
   },
   "TiangouYuyi": {
     "Rarity": "Common",
+    "Value1": 1,
     "InitialCounter": 3
   },
   "TiangouDunpai": {
@@ -587,8 +589,8 @@
   },
   "PingfanDao": {
     "Rarity": "Common",
-    "Value1": 2,
-    "Value2": 4,
+    "Value1": 3,
+    "Value2": 6,
     "Mana": 1
   },
   "YinzhiHuaibiao": {
@@ -648,7 +650,8 @@
   },
   "HeiseBijiben": {
     "Rarity": "Common",
-    "Value1": 30
+    "Value1": 30,
+    "Value2": 1
   },
   "Guangjian": {
     "Rarity": "Common",
