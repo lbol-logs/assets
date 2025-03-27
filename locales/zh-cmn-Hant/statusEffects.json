@@ -3,14 +3,6 @@
     "It": "它",
     "It_other": "它們"
   },
-  "objects": {
-    "it": "它",
-    "it_other": "它們"
-  },
-  "dependentPossessives": {
-    "its": "它",
-    "its_other": "它們"
-  },
   "TempFirepower": {
     "Name": "暫得火力",
     "Description": "在一回合內，獲得 <Level /> 點火力。<br />火力提高攻擊造成的傷害。"
@@ -71,13 +63,22 @@
     "Name": "易傷",
     "Description": "<OwnerName />受到攻擊的傷害增加 <Value />%，剩餘<Duration /> 回合。"
   },
+  "EnemyVulnerable": {
+    "Name": "即將施加易傷",
+    "Description": "所有敵人行動完畢後，對<PlayerName />施加 <Level /> 回合<h>易傷</h>。"
+  },
   "LockedOn": {
     "Name": "鎖定",
     "Description": "<OwnerName />受到的攻擊傷害增加 <Level /> 點。<br />回合開始時降低 1 層。"
   },
+  "EnemyLockedOn": {
+    "Name": "即將施加鎖定",
+    "Description": "所有敵人行動完畢後，對<PlayerName />施加 <Level /> 層<h>鎖定</h>。"
+  },
   "Graze": {
     "Name": "閃避",
-    "Description": "<OwnerName />受到的攻擊傷害降至 0 ，剩餘<Level /> 次。<br />受到攻擊或回合開始時降低 1 層。"
+    "Description": "<OwnerName />受到的攻擊傷害降至 0 ，剩餘<Level /> 次。<br />受到攻擊或回合開始時降低 1 層。",
+    "Description_1.7.0": "<OwnerName />受到的攻擊傷害降至 0 ，剩餘 <Level /> 次。<br />受到攻擊或<h>自然回合</h>開始時失去 1 層。"
   },
   "ExtraTurn": {
     "Name": "額外回合",
@@ -85,7 +86,8 @@
   },
   "SuperExtraTurn": {
     "Name": "「永夜返」",
-    "Description": "<PlayerName />的<h>自然回合</h>結束時，進行額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Level /> 張牌。"
+    "Description": "<PlayerName />的<h>自然回合</h>結束時，進行額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Level /> 張牌。",
+    "Description_1.7.0": "<PlayerName />的<h>自然回合</h>結束時，進行額外的回合。<br />這一回合開始時不會失去<h>格擋</h>，只能打出 <Level /> 張牌。"
   },
   "LimitedDamage": {
     "Name": "道具的解放者",
@@ -117,7 +119,7 @@
   },
   "AmuletForCard": {
     "Name": "庇護",
-    "Description": "抵擋接下來受到的 <Level /> 張狀態牌（將$t(objects.it, { 'count': {{Level}} })<h>放逐</h>）。"
+    "Description": "抵擋接下來受到的 <Level /> 張狀態牌（將$t(subjects.It, { 'count': {{Level}} })<h>放逐</h>）。"
   },
   "Electric": {
     "Name": "帶電",
@@ -125,7 +127,8 @@
   },
   "TempElectric": {
     "Name": "帶電",
-    "Description": "受到攻擊傷害時，對攻擊者造成 <Level /> 點傷害。<br /><OwnerName />的下回合開始時移除本效果。"
+    "Description": "受到攻擊傷害時，對攻擊者造成 <Level /> 點傷害。<br /><OwnerName />的下回合開始時移除本效果。",
+    "Description_1.7.0": "受到攻擊傷害時，對攻擊者造成 <Level /> 點傷害。<br /><OwnerName />的下個<h>自然回合</h>開始時移除本效果。"
   },
   "Reflect": {
     "Name": "反射",
@@ -213,7 +216,7 @@
   },
   "PhoneBillSe": {
     "Name": "電話費",
-    "Description": "<OwnerName />打電話時收取<PlayerName /> <Level /> 點<Money />。<br />被擊敗時掉落 <Count /> 點<Money />。"
+    "Description": "<OwnerName />打電話時收取<PlayerName /> <Level /> 點<Money />。<br />被擊敗時額外掉落 <Count /> 點<Money />。"
   },
   "FoxCharm": {
     "Name": "妖狐魅惑",
@@ -341,11 +344,13 @@
   },
   "LongLight": {
     "Name": "閃光三腳架",
-    "Description": "<OwnerName />變得愈發炫光奪目，傷害提高，強化她添加的狀態牌。"
+    "Description": "<OwnerName />變得愈發炫光奪目，傷害提高，強化她添加的狀態牌。",
+    "Description_1.7.0": "<OwnerName />變得愈發炫光奪目，強化她添加的狀態牌。"
   },
   "LongEscape": {
     "Name": "放水",
-    "Description": "<OwnerName />會在生命值低於 <Level /> 時離開戰鬥。"
+    "Description": "<OwnerName />會在生命值低於 <Level /> 時離開戰鬥。",
+    "Description_1.7.0": "<OwnerName />會在生命值低於 <Level /> 時離開戰鬥；<br />被擊敗時額外掉落 <Level /> 點<Money />。"
   },
   "FlatPeach": {
     "Name": "仙桃",
@@ -445,7 +450,8 @@
   },
   "ShendengSe": {
     "Name": "前端很長的茶壺",
-    "Description": "<OwnerName />的回合結束時，對<PlayerName />施加 <Level /> 回合負面狀態。從<h>虛弱</h>、<h>脆弱</h>及<h>易傷</h>中隨機。"
+    "Description": "<OwnerName />的回合結束時，對<PlayerName />施加 <Level /> 回合負面狀態。從<h>虛弱</h>、<h>脆弱</h>和<h>易傷</h>中隨機。",
+    "Description_1.7.0": "所有敵人行動完畢後，對<PlayerName />施加 <Level /> 回合負面狀態。從<h>虛弱</h>、<h>脆弱</h>和<h>易傷</h>中隨機。"
   },
   "HolyGrailSe": {
     "Name": "裝飾浮誇的金杯",
@@ -683,7 +689,7 @@
   },
   "KnifeWithLockedOn": {
     "Name": "下一個就輪到你了！",
-    "Description": "主動使用的<h>飛刀</h>施加 <Level /> 層<h>鎖定</h>。"
+    "Description": "主動使用的<h>飛刀</h>額外施加 <Level /> 層<h>鎖定</h>。"
   },
   "ClockCorpseSe": {
     "Name": "鐘錶的殘骸",
@@ -716,6 +722,10 @@
   "KnifeDamageUpSe": {
     "Name": "推進之銀",
     "Description": "<h>飛刀</h>造成的傷害提高 <Level /> 點。"
+  },
+  "TimeMagicSe": {
+    "Name": "時間魔術",
+    "Description": "<PlayerName />的每個額外回合開始時：從 <Limit /> 張<hp>完全隨機</hp>的非普通卡牌卡牌中選擇 <Level /> 張加入手中，$t(subjects.It, { 'count': {{Level}} })具有<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付並減少<Mana />。"
   },
   "Cold": {
     "Name": "寒冷",
@@ -801,6 +811,10 @@
     "Name": "星羅棋布",
     "Description": "<SourceCardName />造成傷害時，施加 <Level /> 層<h>鎖定</h>。"
   },
+  "MaxHandSe": {
+    "Name": "妖精集結",
+    "Description": "手牌上限提高至 <MaxHand /> 張。"
+  },
   "MoodPassion": {
     "Name": "熱情",
     "Description": "處於<h>熱情</h>時，<PlayerName />造成和受到的攻擊傷害提高 <Percentage />%。<br /><h>熱情</h>是一種<h>心境</h>，<PlayerName />只能處於一種<h>心境</h>中。"
@@ -862,13 +876,18 @@
     "Name": "DNA 的瑕疵",
     "Description": "<PlayerName />的回合開始時，將 <Level /> 張<h>DNA 轉錄</h>加入手中，$t(subjects.it, { 'count': {{Level}} })具有<h>放逐</h>、<h>虛無</h>。"
   },
+  "KoishiDnaSe": {
+    "Name": "DNA 的瑕疵",
+    "Description": "<PlayerName />的回合開始時，打出抽牌堆頂的 <Level /> 張牌。",
+    "Description_1.7.0": "<PlayerName />的回合開始時，將 <Level /> 張<h>DNA 轉錄</h>加入手中。"
+  },
+  "KoishiUltimateSe": {
+    "Name": "真我降臨",
+    "Description": "<PlayerName />的回合開始時，打出抽牌堆頂的 <Level /> 張牌。"
+  },
   "LoveFireSe": {
     "Name": "戀之埋火",
     "Description": "<PlayerName />的回合結束時，如果本回合進行過<h>追加攻擊</h>，獲得 <Level /> 點<h>火力</h>。<br />已進行過<h>追加攻擊</h>。"
-  },
-  "KoishiDnaSe": {
-    "Name": "哈德曼的妖怪少女",
-    "Description": "<PlayerName />的回合開始時，打出抽牌堆頂的 <Level /> 張牌。"
   },
   "UpgradeAllHandSe": {
     "Name": "心靈解放",
@@ -920,7 +939,7 @@
   },
   "DreamExpressSe": {
     "Name": "夢幻快車",
-    "Description": "<PlayerName />的回合結束時，<h>入夢</h> <Level /> ，對所有敵人造成兩倍於$t(dependentPossessives.it, { 'count': {{Level}} })基礎費用之和的傷害。"
+    "Description": "<PlayerName />的回合結束時，<h>入夢</h> <Level /> ，對所有敵人造成兩倍於$t(subjects.It, { 'count': {{Level}} })基礎費用之和的傷害。"
   },
   "MeihongFireSe": {
     "Name": "無差別起火符",

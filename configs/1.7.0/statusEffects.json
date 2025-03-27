@@ -28,9 +28,13 @@
   "EnemyVulnerable": {},
   "LockedOn": {},
   "EnemyLockedOn": {},
-  "Graze": {},
+  "Graze": {
+    "Version": "1.7.0"
+  },
   "ExtraTurn": {},
-  "SuperExtraTurn": {},
+  "SuperExtraTurn": {
+    "Version": "1.7.0"
+  },
   "LimitedDamage": {},
   "BossAct": {},
   "Invincible": {},
@@ -40,7 +44,9 @@
   "Amulet": {},
   "AmuletForCard": {},
   "Electric": {},
-  "TempElectric": {},
+  "TempElectric": {
+    "Version": "1.7.0"
+  },
   "Reflect": {},
   "NextAttackUp": {},
   "ManaFreezed": {},
@@ -94,8 +100,12 @@
   "KokoroYou": {},
   "KokoroRenzhen": {},
   "KokoroDarkPower": {},
-  "LongLight": {},
-  "LongEscape": {},
+  "LongLight": {
+    "Version": "1.7.0"
+  },
+  "LongEscape": {
+    "Version": "1.7.0"
+  },
   "FlatPeach": {},
   "EnemyEnergy": {},
   "EnemyEnergyNegative": {},
@@ -120,7 +130,9 @@
   "JunkoLily": {},
   "JunkoColor": {},
   "SingleJiandaoSe": {},
-  "ShendengSe": {},
+  "ShendengSe": {
+    "Version": "1.7.0"
+  },
   "HolyGrailSe": {},
   "SihunYuSe": {},
   "MadokaBowSe": {
@@ -207,7 +219,9 @@
   "AutoKnifeSe": {},
   "KnifeTarget": {},
   "KnifeDamageUpSe": {},
-  "TimeMagicSe": {},
+  "TimeMagicSe": {
+    "Mana": 3
+  },
   "Cold": {
     "BaseDamage": 9,
     "StackMultiply": 2
@@ -238,7 +252,9 @@
   "StarFriendSe": {
     "SourceCardName": "StarFriend"
   },
-  "MaxHandSe": {},
+  "MaxHandSe": {
+    "MaxHand": 12
+  },
   "MoodPassion": {
     "Percentage": 100
   },
@@ -264,7 +280,9 @@
   "SelfControlSe": {},
   "CloseEyeSe": {},
   "GainZeroAttackSe": {},
-  "KoishiDnaSe": {},
+  "KoishiDnaSe": {
+    "Version": "1.7.0"
+  },
   "KoishiUltimateSe": {},
   "UpgradeAllHandSe": {},
   "ButterflyDreamSe": {},

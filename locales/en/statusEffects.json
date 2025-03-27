@@ -41,6 +41,10 @@
     "it": "it",
     "it_other": "them"
   },
+  "dependentPossessives": {
+    "its": "its",
+    "its_other": "their"
+  },
   "demonstratives": {
     "This": "This",
     "This_other": "These"
@@ -109,13 +113,22 @@
     "Name": "Vulnerable",
     "Description": "<OwnerName /> takes <Value />% more damage from attacks $t(plurals.turns, { 'count': {{Duration}} })."
   },
+  "EnemyVulnerable": {
+    "Name": "Incoming Vulnerable",
+    "Description": "After all enemies take their turn, <PlayerName /> gains <Level /> <h>Vulnerable</h>."
+  },
   "LockedOn": {
     "Name": "Lock On",
     "Description": "<OwnerName /> takes <Level /> more damage from attacks.<br />Lose 1 <h>Lock On</h> at the start of each turn."
   },
+  "EnemyLockedOn": {
+    "Name": "Incoming Lock On",
+    "Description": "After all enemies take their turn, <PlayerName /> gains <Level /> <h>Lock On</h>."
+  },
   "Graze": {
     "Name": "Graze",
-    "Description": "<OwnerName /> takes 0 damage from the next attack$t(plurals.-s, { 'count': {{Level}} }).<br />Lose 1 <h>Graze</h> when attacked or when turn starts."
+    "Description": "<OwnerName /> takes 0 damage from the next attack$t(plurals.-s, { 'count': {{Level}} }).<br />Lose 1 <h>Graze</h> when attacked or when turn starts.",
+    "Description_1.7.0": "<OwnerName /> takes 0 damage from the next attack$t(plurals.-s, { 'count': {{Level}} }).<br />Lose 1 <h>Graze</h> when attacked or when a <h>Natural Turn</h> starts."
   },
   "ExtraTurn": {
     "Name": "Extra Turn",
@@ -123,7 +136,8 @@
   },
   "SuperExtraTurn": {
     "Name": "\"End of Imperishable Night\"",
-    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> aren't lost at the start of that extra turn, and only <Level /> card$t(plurals.-s, { 'count': {{Level}} }) can be played."
+    "Description": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> and <h>Graze</h> aren't lost at the start of that extra turn, and only <Level /> card$t(plurals.-s, { 'count': {{Level}} }) can be played.",
+    "Description_1.7.0": "At the end of <PlayerName />'s <h>Natural Turn</h>, take an extra turn.<br /><h>Block</h> is not lost at the start of that extra turn, and only <Level /> card$t(plurals.-s, { 'count': {{Level}} }) can be played."
   },
   "LimitedDamage": {
     "Name": "Liberator of Items",
@@ -163,7 +177,8 @@
   },
   "TempElectric": {
     "Name": "Static Charge",
-    "Description": "When damaged, deal <Level /> damage back to the attacker.<br />Removed at the start of <OwnerName />'s next turn."
+    "Description": "When damaged, deal <Level /> damage back to the attacker.<br />Removed at the start of <OwnerName />'s next turn.",
+    "Description_1.7.0": "When damaged, deal <Level /> damage back to the attacker.<br />Removed at the start of <OwnerName />'s next <h>Natural Turn</h>."
   },
   "Reflect": {
     "Name": "Reflection",
@@ -379,11 +394,13 @@
   },
   "LongLight": {
     "Name": "Shining Tripod",
-    "Description": "<OwnerName /> shines like a star! She deals more damage and her Status cards are more powerful."
+    "Description": "<OwnerName /> shines like a star! She deals more damage and her Status cards are more powerful.",
+    "Description_1.7.0": "<OwnerName /> shines like a star! Her Status cards are more powerful."
   },
   "LongEscape": {
     "Name": "Ease Up",
-    "Description": "<OwnerName /> will leave combat when her life is less than <Level />."
+    "Description": "<OwnerName /> will leave combat when her life is less than <Level />.",
+    "Description_1.7.0": "<OwnerName /> will leave combat when her life is less than <Level />.<br />Will drop <Level /> <Money /> when defeated."
   },
   "FlatPeach": {
     "Name": "Heavenly Peach",
@@ -483,7 +500,8 @@
   },
   "ShendengSe": {
     "Name": "Teapot With Long Spout",
-    "Description": "At the end of <OwnerName />'s turn, <PlayerName /> randomly gains <Level /> <h>Weak</h>, <h>Frail</h> or <h>Vulnerable</h>."
+    "Description": "At the end of <OwnerName />'s turn, <PlayerName /> randomly gains <Level /> <h>Weak</h>, <h>Frail</h> or <h>Vulnerable</h>.",
+    "Description_1.7.0": "After all enemies take their turn, <PlayerName /> randomly gains <Level /> <h>Weak</h>, <h>Frail</h> or <h>Vulnerable</h>."
   },
   "HolyGrailSe": {
     "Name": "Overdecorated Gold Cup",
@@ -755,6 +773,10 @@
     "Name": "Propelling Silver",
     "Description": "<h>Throwing Knives</h> deal <Level /> more damage."
   },
+  "TimeMagicSe": {
+    "Name": "Time Magic",
+    "Description": "At the start of <PlayerName />'s extra turn, choose <Level /> of <Limit /> <hp>completely random</hp> non-Common card$t(plurals.-s, { 'count': {{Limit}} }) to the hand. $t(subjects.It, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>, and <h>Ethereal</h>, and mana of any color can be spent to pay $t(dependentPossessives.its, { 'count': {{Level}} }) cost$t(plurals.-s, { 'count': {{Level}} }), which is reduced by <Mana />."
+  },
   "Cold": {
     "Name": "Cold",
     "Description": "At the start of <OwnerName />'s turn, they lose <BaseDamage /> life and lose <h>Cold</h>.<br />Whenever <h>Cold</h> is applied to <OwnerName />, they lose <StackMultiply /> times that much life. (<StackDamage /> life.)"
@@ -839,6 +861,10 @@
     "Name": "Like Stars in the Sky",
     "Description": "When <SourceCardName /> deals damage, apply <Level /> <h>Lock On</h>."
   },
+  "MaxHandSe": {
+    "Name": "Fairy Assembly",
+    "Description": "Maximum hand size increased to <MaxHand />."
+  },
   "MoodPassion": {
     "Name": "Passion",
     "Description": "While in <h>Passion</h>, <PlayerName /> deals and takes <Percentage />% more damage.<br /><h>Passion</h> is a <h>Mental State</h>, of which <PlayerName /> can only have one at a time."
@@ -900,12 +926,17 @@
     "Name": "DNA's Flaw",
     "Description": "At the start of <PlayerName />'s turn, add <Level /> <h>DNA Transcript$t(plurals.-s, { 'count': {{Level}} })</h> to the hand. $t(subjects.It, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h> and <h>Ethereal</h>."
   },
+  "KoishiDnaSe": {
+    "Name": "DNA's Flaw",
+    "Description": "At the start of <PlayerName />'s turn, immediately play the top $t(plurals.level, { 'count': {{Level}} })card$t(plurals.-s, { 'count': {{Level}} }) in the draw pile.",
+    "Description_1.7.0": "At the start of <PlayerName />'s turn, add <Level /> <h>DNA Transcript$t(plurals.-s, { 'count': {{Level}} })</h> to the hand with <h>Exile</h> and <h>Ethereal</h>."
+  },
   "LoveFireSe": {
     "Name": "Embers of Love",
     "Description": "At the end of <PlayerName />'s turn, if a <h>Follow-Up Attack</h> was performed, gain <Level /> <h>Firepower</h>.<br />A <h>Follow-Up Attack</h> was performed this turn."
   },
-  "KoishiDnaSe": {
-    "Name": "Hartmann's Youkai Girl",
+  "KoishiUltimateSe": {
+    "Name": "True Self's Awakening",
     "Description": "At the start of <PlayerName />'s turn, immediately play the top $t(plurals.level, { 'count': {{Level}} })card$t(plurals.-s, { 'count': {{Level}} }) in the draw pile."
   },
   "UpgradeAllHandSe": {
