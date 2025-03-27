@@ -46,7 +46,8 @@
   },
   "SakuyaU": {
     "Name": "魔術撲克",
-    "Description": "提供基礎法力<BaseMana />，<h>咲夜</h>的專屬卡牌會加入牌池。<br />每場戰鬥的前 <Value2 /> 回合，抽牌階段多抽 <Value1 /> 張牌。"
+    "Description": "提供基礎法力<BaseMana />，<h>咲夜</h>的專屬卡牌會加入牌池。<br />每場戰鬥的前 <Value2 /> 回合，抽牌階段多抽 <Value1 /> 張牌。",
+    "Description_1.7.0": "提供基礎法力<BaseMana />，<h>咲夜</h>的專屬卡牌會加入牌池。<br /><PlayerName />的前 <Value2 /> 個回合和額外回合，抽牌階段多抽 <Value1 /> 張牌。"
   },
   "CirnoU": {
     "Name": "冰晶翅膀",
@@ -65,13 +66,13 @@
     "Name": "定製太陽鏡",
     "Description": "提供基礎法力<BaseMana />，<h>戀</h>的專屬卡牌會加入牌池。<br />對戰精英和首領敵人時，<PlayerName />在戰鬥開始時獲得 <Value1 /> 點<h>護盾</h>。\n不會受到<h>折射日光</h>的傷害。"
   },
-  "AliceW": {
+  "AliceU": {
     "Name": "上海人偶",
-    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br />戰鬥開始時，部署一個<he>上海人偶</he>。"
+    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br />戰鬥開始時，<h>部署</h>一個<he>上海人偶</he>。"
   },
   "AliceB": {
-    "Name": "引爆裝置",
-    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br /><h>撤離</h><he>蓬萊人偶</he>時造成雙倍傷害。"
+    "Name": "蓬萊人偶",
+    "Description": "提供基礎法力<BaseMana />，<h>愛麗絲</h>的專屬卡牌會加入牌池。<br />戰鬥開始時，<h>部署</h>一個<he>蓬萊人偶</he>。"
   },
   "PiaoliangPanzi": {
     "Name": "漂亮的盤子",
@@ -247,11 +248,11 @@
   },
   "ShanliangDengpao": {
     "Name": "閃亮的燈泡",
-    "Description": "可以在隙間小屋<h>發想</h>，從 <Value1 /> 張隨機的稀有牌中選擇一張加入牌庫。"
+    "Description": "可以在隙間小屋<h>發想</h>，從 <Value1 /> 張隨機的稀有牌中選擇至多一張加入牌庫。"
   },
   "ZhanshuDaoliqi": {
     "Name": "戰術導體",
-    "Description": "在戰鬥中，<PlayerName />的技能牌費用降低<Mana />。"
+    "Description": "在戰鬥中，所有的技能牌費用降低<Mana />。"
   },
   "Yashemao": {
     "Name": "鴨舌帽",
@@ -443,7 +444,8 @@
   },
   "TiangouYuyi": {
     "Name": "鴉天狗的羽翼",
-    "Description": "<PlayerName />選擇下一關時可以無視路線，剩餘 <Counter /> 次。"
+    "Description": "<PlayerName />選擇下一關時可以無視路線，剩餘 <Counter /> 次。",
+    "Description_1.7.0": "<PlayerName />選擇下一關時可以無視路線，剩餘 <Counter /> 次。<br /><PlayerName />的第一回合開始時，獲得 <Value1 /> 層<h>閃避</h>。"
   },
   "TiangouDunpai": {
     "Name": "狼天狗的盾牌",
@@ -534,7 +536,7 @@
     "Description": "戰鬥開始時，獲得 <Value1 /> 層<h>護身符</h>。"
   },
   "Yushenqian": {
-    "Name": "御神簽",
+    "Name": "御神籤",
     "Description": "卡牌獎勵選擇數量加 <Value1 /> 張。"
   },
   "Cookie": {
@@ -555,7 +557,8 @@
   },
   "HeiseBijiben": {
     "Name": "黑色筆記本",
-    "Description": "戰鬥開始時，已知姓名的敵人失去 <Value1 /> 點生命。"
+    "Description": "戰鬥開始時，已知姓名的敵人失去 <Value1 /> 點生命。",
+    "Description_1.7.0": "戰鬥開始時，已知姓名的敵人失去 <Value1 /> 點生命，受到 <Value2 /> 回合<h>易傷</h>。"
   },
   "Guangjian": {
     "Name": "光劍",
@@ -587,7 +590,12 @@
   },
   "LouguanJian": {
     "Name": "樓觀劍",
-    "Description": "<PlayerName />造成攻擊傷害後，施加 <Value1 /> 層<h>鎖定</h>。"
+    "Description": "<PlayerName />造成攻擊傷害後，施加 <Value1 /> 層<h>鎖定</h>。",
+    "Description_1.7.0": "<PlayerName />造成攻擊傷害後，施加 <Value1 /> 層<h>鎖定</h>。<br />不會丟失。"
+  },
+  "AliceBook": {
+    "Name": "《究極的魔法》",
+    "Description": "在戰鬥中，所有卡牌的<h>增幅</h>費用降低<Mana />。<br />不會丟失。"
   },
   "WaijieYanjing": {
     "Name": "外界的高科技眼鏡",
