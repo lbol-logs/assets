@@ -849,7 +849,7 @@
   },
   "TimeMagic": {
     "Name": "タイムマジック",
-    "Description": "<Value2 />枚の<hp>完全ランダム</hp>なアンコモンカードから<Value1 />枚選んで手札に加える。$t(subjects.It, { 'count': {{Value1}} })<h>は</h>廃棄<h>と</h>虚無|を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。<br /><PlayerName />の追加ターン開始時、この効果を発動する。"
+    "Description": "<Value2 />枚の<hp>完全ランダム</hp>なアンコモンカードから<Value1 />枚選んで手札に加える。$t(subjects.It, { 'count': {{Value1}} })は<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。<br /><PlayerName />の追加ターン開始時、この効果を発動する。"
   },
   "TimeWalk": {
     "Name": "時渡り",
