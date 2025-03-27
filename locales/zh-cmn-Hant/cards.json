@@ -1,4 +1,8 @@
 {
+  "subjects": {
+    "It": "它",
+    "-It_other": "它們"
+  },
   "ReimuAttackR": {
     "Name": "博麗護符",
     "Description": "造成 <Damage /> 點傷害。"
@@ -160,7 +164,7 @@
   },
   "MingzhuAntou": {
     "Name": "明珠暗投",
-    "Description": "對所有敵人造成 <Damage /> 點傷害。<br />從 <Value1 /> 張<h>虹龍陰陽玉</h>中選擇一張加入手中。<br /><h>戰場</h>中每存在一張<h>陰陽玉</h>，<SelfName />費用降低<Mana />。"
+    "Description": "對所有敵人造成 <Damage /> 點傷害。<br />從 <Value1 /> 張<h>虹龍陰陽玉</h>中選擇一張加入手中。<br /><h>戰場</h>中每存在一張<h>陰陽玉牌</h>，<SelfName />費用降低<Mana />。"
   },
   "YakongDianxue": {
     "Name": "亞空點穴",
@@ -182,7 +186,7 @@
   },
   "YinyangXueyin": {
     "Name": "陰陽血印",
-    "Description": "失去 <Value2 /> 點生命。<br />將一張<h>陰陽玉</h>加入手中。<br />打出<h>陰陽玉</h>後獲得 <Value1 /> 點<h>暫得火力</h>及<h>暫得靈力</h>。"
+    "Description": "失去 <Value2 /> 點生命。<br />將一張<h>陰陽玉</h>加入手中。<br />打出<h>陰陽玉牌</h>後獲得 <Value1 /> 點<h>暫得火力</h>及<h>暫得靈力</h>。"
   },
   "ReimuFreeAttack": {
     "Name": "幻想一重",
@@ -306,7 +310,7 @@
     "Name": "能工巧匠魅須丸",
     "PassiveDescription": "獲得 <Value2 /> 點<h>格擋</h>及<h>護盾</h>。",
     "ActiveDescription": "將 <Value1 /> 張隨機的<h>虹龍陰陽玉</h>加入手中。",
-    "UltimateDescription": "本場戰鬥中，所有<h>陰陽玉</h>的基礎效果提高一倍。立刻獲得一次<h>虹龍陰陽玉</h>。"
+    "UltimateDescription": "本場戰鬥中，所有<h>陰陽玉牌</h>的基礎效果提高一倍。立刻獲得一次<h>虹龍陰陽玉</h>。"
   },
   "ShuihuoCard": {
     "Name": "水火玉",
@@ -645,7 +649,11 @@
   "KnifeBounce": {
     "Name": "飛刀彈射",
     "Description": "造成 <Damage /> 點傷害。<br />將 <Value1 /> 張<h>飛刀</h>加入手中。",
-    "UpgradedDescription": "造成 <Damage /> 點傷害。<br />施加 <Value2 /> 層<h>鎖定</h>。<br />將 <Value1 /> 張<h>飛刀</h>加入手中。"
+    "UpgradedDescription_1.5.1": "造成 <Damage /> 點傷害。<br />施加 <Value2 /> 層<h>鎖定</h>。<br />將 <Value1 /> 張<h>飛刀</h>加入手中。"
+  },
+  "SakuyaSnow": {
+    "Name": "雪地決行",
+    "Description": "獲得 <Block /> 點<h>格擋</h>。<br />將 <Value1 /> 張<h>飛刀</h>加入手中。"
   },
   "Lijian": {
     "Name": "離劍之見",
@@ -668,10 +676,6 @@
     "Name": "既視感",
     "Description": "選擇至多 <Value1 /> 張手牌置於抽牌堆頂。<br />抽 <Value1 /> 張牌。<br />獲得<Mana />。"
   },
-  "SakuyaSnow": {
-    "Name": "雪地決行",
-    "Description": "獲得 <Block /> 點<h>格擋</h>。<br />將 <Value1 /> 張<h>飛刀</h>加入手中。"
-  },
   "CoolMaid": {
     "Name": "瀟灑女僕",
     "Description": "將 <Value1 /> 張<h>飛刀</h>加入手中。<br />獲得<Mana />。"
@@ -689,7 +693,7 @@
     "Description": "施加 <Value1 /> 回合<h>虛弱</h>。<br />獲得<Mana />。"
   },
   "TimeAuraAttack": {
-    "Name": "時間魔術",
+    "Name": "空間幻術",
     "Description": "造成 <Damage /> 點傷害。<br />獲得 <Value1 /> 層<h>時域衝擊</h>。"
   },
   "SakuyaTea": {
@@ -843,6 +847,10 @@
     "Name": "忠實的僕從",
     "Description": "獲得 <Shield /> 點<h>護盾</h>。<br />在額外回合開始時，從棄牌堆回到手中，<h>暫塑</h>為<Mana />。"
   },
+  "TimeMagic": {
+    "Name": "時間魔術",
+    "Description": "從 <Value2 /> 張<hp>完全隨機</hp>的非普通卡牌中選擇 <Value1 /> 張加入手中，$t(subjects.It, { 'count': {{Value1}} })具有<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付並減少<Mana />。<br /><PlayerName />的每個額外回合開始時再次生效。"
+  },
   "TimeWalk": {
     "Name": "時間行走",
     "Description": "結束<PlayerName />的回合，進行一個額外的回合。<br />每場戰鬥中，只有第一張<SelfName />生效。"
@@ -857,7 +865,7 @@
   },
   "SakuyaDio": {
     "Name": "下一個就輪到你了！",
-    "Description": "主動使用的<h>飛刀</h>施加 <Value1 /> 層<h>鎖定</h>。<br />結束<PlayerName />的回合，進行一個額外的回合。<br />跳過這一回合的抽牌階段，改為將 <Value2 /> 張<h>飛刀</h>加入手中。"
+    "Description": "主動使用的<h>飛刀</h>額外施加 <Value1 /> 層<h>鎖定</h>。<br />結束<PlayerName />的回合，進行一個額外的回合。<br />跳過這一回合的抽牌階段，改為將 <Value2 /> 張<h>飛刀</h>加入手中。"
   },
   "PerfectServant": {
     "Name": "完美從者",
@@ -1270,6 +1278,24 @@
     "Name": "生命綻放",
     "Description": "造成 <Damage /> 點傷害，獲得<Mana />。<br /><h>被保留時</h>：傷害提高 <Value1 /> 點，法力獲取提高<Mana />。"
   },
+  "KoishiDrawTop": {
+    "Name": "順口開河",
+    "Description_1.6.0": "抽 <Value1 /> 張牌。<br />將 <Value2 /> 張手牌置於抽牌堆頂。",
+    "UpgradedDescription_1.6.0": "抽 <Value1 /> 張牌。<br />選擇 <Value2 /> 張手牌，<h>升級</h>它並置於抽牌堆頂。",
+    "Description_1.7.0": "抽 <Value1 /> 張牌。<br />選擇 <Value2 /> 張手牌，<h>升級</h>它並置於抽牌堆頂。"
+  },
+  "LeaveMoodAttack": {
+    "Name": "情緒釋放",
+    "Description": "造成 <Damage /> 點傷害。<br />離開當前的<h>心境</h>。"
+  },
+  "LeaveMoodGraze": {
+    "Name": "氣息遮蔽",
+    "Description": "獲得 <Value1 /> 層<h>閃避</h>。<br />離開當前的<h>心境</h>。"
+  },
+  "FlowerGone": {
+    "Name": "舊夢凋零",
+    "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>平靜</h>：改為獲得 <Shield /> 點<h>護盾</h>。"
+  },
   "PassionDefense": {
     "Name": "低調",
     "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>熱情</h>：額外獲得 <Value1 /> 點<h>格擋</h>。"
@@ -1294,23 +1320,6 @@
     "Name": "被害妄想症",
     "Description": "獲得 <Block /> 點<h>格擋</h>。<br />進行一次<h>追加攻擊</h>。"
   },
-  "KoishiDrawTop": {
-    "Name": "順口開河",
-    "Description": "抽 <Value1 /> 張牌。<br />將 <Value2 /> 張手牌置於抽牌堆頂。",
-    "UpgradedDescription": "抽 <Value1 /> 張牌。<br />選擇 <Value2 /> 張手牌，<h>升級</h>它並置於抽牌堆頂。"
-  },
-  "LeaveMoodAttack": {
-    "Name": "意識漩渦",
-    "Description": "造成 <Damage /> 點傷害。<br />離開當前的<h>心境</h>。"
-  },
-  "LeaveMoodGraze": {
-    "Name": "氣息遮蔽",
-    "Description": "獲得 <Value1 /> 層<h>閃避</h>。<br />離開當前的<h>心境</h>。"
-  },
-  "FlowerGone": {
-    "Name": "舊夢凋零",
-    "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>平靜</h>：改為獲得 <Shield /> 點<h>護盾</h>。"
-  },
   "MoodAttack": {
     "Name": "移情刃",
     "Description": "造成 <Damage /> 點傷害。<br />當<PlayerName />轉化<h>心境</h>時，從棄牌堆回到手中。"
@@ -1319,65 +1328,26 @@
     "Name": "本能行動",
     "Description": "獲得 <Value1 /> 層<h>閃避</h>。<br />進行一次<h>追加攻擊</h>。"
   },
-  "PassionVulnerable": {
-    "Name": "無眠之夜",
-    "Description": "<h>熱情</h>：對所有敵人施加 <Value1 /> 回合<h>易傷</h>。<br />否則，進入<h>熱情</h>。"
-  },
-  "PlayDrawTop": {
-    "Name": "無意識的行動",
-    "Description": "打出抽牌堆頂的牌。"
-  },
-  "TheChariot": {
-    "Name": "塔羅牌：戰車",
-    "Description": "<h>占卜</h> <Scry /> 。<br /><PlayerName />的下回合開始時，進入<h>熱情</h>，抽 <Value1 /> 張牌。"
-  },
-  "CloseEye": {
-    "Name": "封閉心靈",
-    "Description": "獲得 <Shield /> 點<h>護盾</h>。<br />下一回合內無法看到敵人的意圖。"
-  },
-  "PassionAttackToDraw": {
-    "Name": "薔薇囚籠",
-    "Description": "造成 <Damage /> 點傷害 <Value1 /> 次。<br />進入<h>熱情</h>。<br />將這張牌洗入抽牌堆。"
-  },
-  "PassionDraw": {
-    "Name": "相思之情",
-    "Description": "每當<PlayerName />進入<h>熱情</h>時，抽 <Value1 /> 張牌。"
-  },
-  "BabyDream": {
-    "Name": "胎兒之夢",
-    "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>入夢</h> <Value1 /> 。",
-    "Description_1.6.1": "獲得 <Block /> 點<h>格擋</h>。<br /><h>入夢</h> <Value1 /> ，將其中第一張<h>追擊</h>牌打出。"
-  },
-  "DuplicateFollower": {
-    "Name": "孤獨的心",
-    "Description": "造成 <Damage /> 點傷害，獲得<Mana />。<br /><h>戰鬥開始時</h>：將 <Value1 /> 張複製洗入抽牌堆中。"
-  },
-  "AncestorDream": {
-    "Name": "祖先託夢",
-    "Description": "對所有敵人造成 <Damage /> 點傷害。<br /><h>入夢</h> <Value1 /> 。",
-    "Description_1.6.1": "對所有敵人造成 <Damage /> 點傷害。<br /><h>入夢</h> <Value1 /> ，將其中第一張<h>追擊</h>牌打出。"
-  },
-  "YaoguaiLaser": {
-    "Name": "妖怪腦電波",
-    "Description": "造成 <Damage /> 點傷害。<br />進行一次<h>追加攻擊</h>。<br /><h>直覺</h>：額外進行一次<h>追加攻擊</h>。"
-  },
   "KoishiZeroAttack": {
     "Name": "DNA 轉錄",
     "Description": "造成 <Damage /> 點傷害。"
   },
   "KoishiWake": {
     "Name": "回神",
-    "Description": "離開當前的<h>心境</h>，恢復 <Value1 /> 點生命。<br /><h>神遊</h>：額外獲得 <Shield /> 點<h>護盾</h>。"
-  },
-  "PeaceEndTurn": {
-    "Name": "片刻安寧",
-    "Description": "進入<h>平靜</h>。<br />結束<PlayerName />的回合。",
-    "UpgradedDescription": "從棄牌堆中選擇至多 <Value1 /> 張牌移回手中，<h>保留</h>它一回合。<br />進入<h>平靜</h>。<br />結束<PlayerName />的回合。"
+    "Description": "離開當前的<h>心境</h>，恢復 <Value1 /> 點生命。<br /><h>神遊</h>：額外獲得 <Shield /> 點<h>護盾</h>。",
+    "Description_1.7.0": "<h>熱情</h>：進行一次<h>追加攻擊</h>。<br /><h>平靜</h>：獲得 <Shield /> 點<h>護盾</h>。<br /><h>神遊</h>：獲得 <Value1 /> 次<h>神遊</h>出牌機會。"
   },
   "KoishiGainColorless": {
     "Name": "放空思緒",
     "Description": "獲得<Mana />。",
     "UpgradedDescription": "獲得<Mana />。"
+  },
+  "PeaceEndTurn": {
+    "Name": "片刻安寧",
+    "Description": "進入<h>平靜</h>。<br />結束<PlayerName />的回合。",
+    "UpgradedDescription": "從棄牌堆中選擇至多 <Value1 /> 張牌移回手中，<h>保留</h>它一回合。<br />進入<h>平靜</h>。<br />結束<PlayerName />的回合。",
+    "Description_1.7.0": "選擇至多 <Value1 /> 張手牌，<h>保留</h>$t(subjects.It, { 'count': {{Value1}} })一回合。<br />進入<h>平靜</h>。<br />結束<PlayerName />的回合。",
+    "UpgradedDescription_1.7.0": "從手牌或棄牌堆中選擇至多 <Value1 /> 張牌移回手中，<h>保留</h>$t(subjects.It, { 'count': {{Value1}} })一回合。<br />進入<h>平靜</h>。<br />結束<PlayerName />的回合。"
   },
   "PeaceMemory": {
     "Name": "平靜的回憶",
@@ -1413,6 +1383,17 @@
     "Description": "<PlayerName />的回合開始時，將 <Value1 /> 張<h>DNA 轉錄</h>加入手中，它具有<h>放逐</h>、<h>虛無</h>。",
     "UpgradedDescription": "<PlayerName />的回合開始時，將 <Value1 /> 張<h>DNA 轉錄</h>加入手中，它具有<h>放逐</h>、<h>虛無</h><br />立刻生效一次。"
   },
+  "KoishiDna": {
+    "Name": "DNA 的瑕疵",
+    "Description": "<PlayerName />的回合開始時，打出抽牌堆頂的牌。",
+    "Description_1.6.1": "打出抽牌堆頂的牌。<br /><PlayerName />的回合開始時，打出抽牌堆頂的牌。",
+    "Description_1.7.0": "<PlayerName />的回合開始時，將 <Value1 /> 張<h> DNA 轉錄</h>加入手中。",
+    "UpgradedDescription_1.7.0": "<PlayerName />的回合開始時，將 <Value1 /> 張<h> DNA 轉錄</h>加入手中。<br />立刻生效一次。"
+  },
+  "KoishiDnaAttack": {
+    "Name": "DNA 轉錄",
+    "Description": "造成 <Damage /> 點傷害。"
+  },
   "FindInspiration": {
     "Name": "靈光一閃",
     "Description": "將 <Value1 /> 張<h>找到靈感了！</h>洗入抽牌堆。"
@@ -1420,6 +1401,55 @@
   "KoishiGrowAttack": {
     "Name": "熱舞荊棘",
     "Description": "造成 <Damage /> 點傷害。<br /><h>成長</h>：傷害提高 <Value1 /> 點。<br /><h>平靜</h>：<SelfName />費用為<Mana />。"
+  },
+  "KoishiDance": {
+    "Name": "熱舞荊棘",
+    "Description": "獲得 <Block /> 點<h>格擋</h>。<br />對所有敵人造成 <Damage /> 點傷害。<br />進行一次<h>追加攻擊</h>。"
+  },
+  "PassionVulnerable": {
+    "Name": "無眠之夜",
+    "Description": "<h>熱情</h>：對所有敵人施加 <Value1 /> 回合<h>易傷</h>。<br />否則，進入<h>熱情</h>。",
+    "UpgradedDescription_1.7.0": "<h>熱情</h>：對所有敵人施加 <Value1 /> 回合<h>易傷</h>和 <Value2 /> 層<h>鎖定</h>。<br />否則，進入<h>熱情</h>。"
+  },
+  "PlayDrawTop": {
+    "Name": "無意識的行動",
+    "Description": "打出抽牌堆頂的牌。",
+    "Description_1.7.0": "獲得 <Block /> 點<h>格擋</h>。<br />打出抽牌堆頂的牌。"
+  },
+  "TheChariot": {
+    "Name": "塔羅牌：戰車",
+    "Description": "<h>占卜</h> <Scry /> 。<br /><PlayerName />的下回合開始時，進入<h>熱情</h>，抽 <Value1 /> 張牌。"
+  },
+  "CloseEye": {
+    "Name": "封閉心靈",
+    "Description": "獲得 <Shield /> 點<h>護盾</h>。<br />下一回合內無法看到敵人的意圖。"
+  },
+  "PassionAttackToDraw": {
+    "Name": "薔薇囚籠",
+    "Description": "造成 <Damage /> 點傷害 <Value1 /> 次。<br />進入<h>熱情</h>。<br />將這張牌洗入抽牌堆。"
+  },
+  "PassionDraw": {
+    "Name": "相思之情",
+    "Description": "每當<PlayerName />進入<h>熱情</h>時，抽 <Value1 /> 張牌。"
+  },
+  "BabyDream": {
+    "Name": "胎兒之夢",
+    "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>入夢</h> <Value1 /> 。",
+    "Description_1.6.1": "獲得 <Block /> 點<h>格擋</h>。<br /><h>入夢</h> <Value1 /> ，將其中第一張<h>追擊</h>牌打出。"
+  },
+  "DuplicateFollower": {
+    "Name": "孤獨的心",
+    "Description": "造成 <Damage /> 點傷害，獲得<Mana />。<br /><h>戰鬥開始時</h>：將 <Value1 /> 張複製洗入抽牌堆中。"
+  },
+  "AncestorDream": {
+    "Name": "祖先託夢",
+    "Description": "對所有敵人造成 <Damage /> 點傷害。<br /><h>入夢</h> <Value1 /> 。",
+    "Description_1.6.1": "對所有敵人造成 <Damage /> 點傷害。<br /><h>入夢</h> <Value1 /> ，將其中第一張<h>追擊</h>牌打出。"
+  },
+  "YaoguaiLaser": {
+    "Name": "妖怪腦電波",
+    "Description": "造成 <Damage /> 點傷害。<br />進行一次<h>追加攻擊</h>。<br /><h>直覺</h>：額外進行一次<h>追加攻擊</h>。",
+    "Description_1.7.0": "獲得 <Block /> 點<h>格擋</h>。<br />造成 <Damage /> 點傷害。<br />進行一次<h>追加攻擊</h>。<br /><h>直覺</h>：額外進行一次<h>追加攻擊</h>。"
   },
   "LeaveMoodDraw": {
     "Name": "好奇心",
@@ -1429,6 +1459,27 @@
   "MoodChangeBlock": {
     "Name": "A.T. 力場",
     "Description": "每當<PlayerName />轉化<h>心境</h>時，獲得 <Value1 /> 點<h>格擋</h>。"
+  },
+  "KoishiDrawTopCards": {
+    "Name": "墨跡測驗",
+    "Description": "展示抽牌堆頂的 <Value1 /> 張牌，選擇一張置於原處，抽取剩餘的牌。"
+  },
+  "GainInspiration": {
+    "Name": "讓我好好想想",
+    "Description": "<PlayerName />的回合結束時，將一張<h>找到靈感了！</h>洗入抽牌堆。"
+  },
+  "KoishiMana": {
+    "Name": "地底薔薇",
+    "Description": "對所有敵人造成 <Damage /> 點傷害。<br />獲得<Mana />。"
+  },
+  "PerfectCrime": {
+    "Name": "完美作案",
+    "Description": "竊取目標的<h>閃避</h>、<h>光學迷彩</h>、<h>天衣無縫</h>；竊取目標的<h>火力</h>、<h>靈力</h>，至多 <Value1 /> 點。",
+    "Description_1.6.1": "竊取目標的<h>護盾</h>、<h>閃避</h>、<h>光學迷彩</h>、<h>天衣無縫</h>；竊取目標的<h>火力</h>、<h>靈力</h>，至多 <Value1 /> 點。"
+  },
+  "SelfControl": {
+    "Name": "掌控自我",
+    "Description": "<h>抉擇</h>：進入<h>熱情</h>或<h>平靜</h>。<br /><PlayerName />的回合結束時：處於<h>熱情</h>則獲得 <Value1 /> 點<h>火力</h>；處於<h>平靜</h>則獲得 <Value2 /> 點<h>格擋</h>。"
   },
   "PsycheLock": {
     "Name": "心靈枷鎖",
@@ -1441,7 +1492,7 @@
   },
   "KoishiTouying": {
     "Name": "戀之埋火",
-    "Description": "獲得<Mana />。<br />從 <Value1 /> 張卡牌中選擇一張置於牌堆頂，它具有<h>填充</h>、<h>放逐</h>、<h>虛無</h>。<br />這些卡牌的費用總數不少於 <Value2 />。"
+    "Description": "獲得<Mana />。<br />從 <Value1 /> 張隨機的卡牌中選擇一張置於牌堆頂，它具有<h>填充</h>、<h>放逐</h>、<h>虛無</h>。<br />這些卡牌的費用總數不少於 <Value2 />。"
   },
   "LoveFire": {
     "Name": "戀之埋火",
@@ -1463,35 +1514,13 @@
     "Name": "浪漫夜的最後來電",
     "Description": "對所有敵人造成 <Damage /> 點傷害。"
   },
-  "KoishiDrawTopCards": {
-    "Name": "墨跡測驗",
-    "Description": "展示抽牌堆頂的 <Value1 /> 張牌，選擇一張置於原處，抽取剩餘的牌。"
-  },
-  "KoishiMana": {
-    "Name": "地底薔薇",
-    "Description": "對所有敵人造成 <Damage /> 點傷害。<br />獲得<Mana />。"
-  },
-  "GainInspiration": {
-    "Name": "讓我好好想想",
-    "Description": "<PlayerName />的回合結束時，將一張<h>找到靈感了！</h>洗入抽牌堆。"
-  },
-  "PerfectCrime": {
-    "Name": "完美作案",
-    "Description": "竊取目標的<h>閃避</h>、<h>光學迷彩</h>、<h>天衣無縫</h>；竊取目標的<h>火力</h>、<h>靈力</h>，至多 <Value1 /> 點。",
-    "Description_1.6.1": "竊取目標的<h>護盾</h>、<h>閃避</h>、<h>光學迷彩</h>、<h>天衣無縫</h>；竊取目標的<h>火力</h>、<h>靈力</h>，至多 <Value1 /> 點。"
-  },
-  "SelfControl": {
-    "Name": "掌控自我",
-    "Description": "<h>抉擇</h>：進入<h>熱情</h>或<h>平靜</h>。<br /><PlayerName />的回合結束時：處於<h>熱情</h>則獲得 <Value1 /> 點<h>火力</h>；處於<h>平靜</h>則獲得 <Value2 /> 點<h>格擋</h>。"
-  },
   "TheFool": {
     "Name": "塔羅牌：愚者",
     "Description": "<h>占卜</h> <Scry /> 。<br />打出抽牌堆頂的牌。"
   },
-  "KoishiDna": {
-    "Name": "哈德曼的妖怪少女",
-    "Description": "<PlayerName />的回合開始時，打出抽牌堆頂的牌。",
-    "Description_1.6.1": "打出抽牌堆頂的牌。<br /><PlayerName />的回合開始時，打出抽牌堆頂的牌。"
+  "KoishiUltimate": {
+    "Name": "真我降臨",
+    "Description": "打出抽牌堆頂的牌。<br /><PlayerName />的回合開始時，打出抽牌堆頂的牌。"
   },
   "KoishiAttackX": {
     "Name": "薔薇地獄",
@@ -1503,8 +1532,8 @@
   },
   "ButterflyDream": {
     "Name": "莊周夢蝶",
-    "Description": "<PlayerName />的回合開始時，將 <Value1 /> 張<hp>完全隨機</hp>的稀有牌加入手中，它具有<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付。",
-    "Description_1.6.1": "將 <Value1 /> 張<hp>完全隨機</hp>的稀有牌置於牌堆頂，它具有<h>填充</h>、<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付。<br /><PlayerName />的每個回合開始後再次生效。"
+    "Description": "<PlayerName />的回合開始時，將 <Value1 /> 張<hp>完全隨機</hp>的稀有牌加入手中，$t(subjects.It, { 'count': {{Value1}} })具有<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付。",
+    "Description_1.6.1": "將 <Value1 /> 張<hp>完全隨機</hp>的稀有牌置於牌堆頂，$t(subjects.It, { 'count': {{Value1}} })具有<h>填充</h>、<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付。<br /><PlayerName />的每個回合開始後再次生效。"
   },
   "KokoroFriend": {
     "Name": "人格面具覺醒秦心",
@@ -1513,13 +1542,14 @@
     "Active2Description": "進入<h>平靜</h>。",
     "UltimateDescription": "進入<h>神遊</h>。"
   },
+  "KoishiDive": {
+    "Name": "意識下潛",
+    "Description": "進入<h>平靜</h>。<br /><h>入夢</h> <Value1 />。<br />從棄牌堆的<h>夢境牌</h>中選擇至多 <Value2 /> 張移回手中。",
+    "Description_1.7.0": "<h>入夢</h> <Value1 />。<br />從棄牌堆的<h>夢境牌</h>中選擇至多 <Value2 /> 張移回手中。"
+  },
   "EnterEpiphany": {
     "Name": "頓悟",
     "Description": "進入<h>神遊</h>。"
-  },
-  "KoishiDive": {
-    "Name": "意識下潛",
-    "Description": "進入<h>平靜</h>。<br /><h>入夢</h> <Value1 />。<br />從棄牌堆的<h>夢境牌</h>中選擇至多 <Value2 /> 張移回手中。"
   },
   "LunaticPassion": {
     "Name": "瘋狂之愛",
@@ -1534,7 +1564,7 @@
     "Name": "電話響了",
     "Description": "造成 <Damage /> 點傷害。"
   },
-  "AliceAttackW": {
+  "AliceAttackU": {
     "Name": "人形槍擊",
     "Description": "造成 <Damage /> 點傷害。"
   },
@@ -1546,48 +1576,61 @@
     "Name": "防禦魔法",
     "Description": "獲得 <Block /> 點<h>格擋</h>。"
   },
-  "DeployShanghai": {
-    "Name": "部署上海人偶",
-    "Description": "<h>部署</h>一個<he>上海人偶</he>，發動其<h>操縱效果</h>。"
+  "AliceBlockB": {
+    "Name": "愛麗絲黑色防禦",
+    "Description": "獲得 <Block /> 點<h>格擋</h>。"
   },
-  "UpgradeDoll": {
-    "Name": "少女文樂",
-    "Description": "升級一個<he>上海人偶</he>。"
+  "DeployShanghai": {
+    "Name": "修繕人偶",
+    "Description": "<h>部署</h>一個<he>上海人偶</he>；<br />(WIP) 或<h>晉升</h>一個人偶。"
   },
   "DeployPenglai": {
-    "Name": "部署蓬萊人偶",
-    "Description": "<h>部署</h>一個<he>蓬萊人偶</he>，發動其<h>操縱效果</h>。"
+    "Name": "少女文樂",
+    "Description": "<h>部署</h>一個<he>蓬萊人偶</he>。<br /><h>增幅<KickerCost />：</h>改為兩個。"
   },
   "SacrificeDoll": {
-    "Name": "自殺協議",
-    "Description": "選擇一個人偶<h>撤離</h>，對所有敵人造成 <Damage /> 點傷害。"
+    "Name": "回歸虛無",
+    "Description": "(WIP) 選擇一個人偶撤離戰場，對所有敵人造成 <Damage /> 點傷害。<br /><h>增幅<KickerCost />：</h>可以執行兩次。"
+  },
+  "AliceKickerAttack": {
+    "Name": "增幅攻擊",
+    "Description": "造成 <Damage /> 點傷害。<br /><h>增幅<KickerCost />：</h>造成兩次傷害。"
   },
   "DollBlock": {
-    "Name": "人形當身"
+    "Name": "人形當身",
+    "Description": "(WIP) "
   },
   "DollFactory": {
-    "Name": "人形工房"
+    "Name": "人形工房",
+    "Description": "(WIP) "
   },
   "AutoHousework": {
-    "Name": "家政自動化"
-  },
-  "DollRepair": {
-    "Name": "人形修繕"
-  },
-  "DollSacrifice": {
-    "Name": "回歸虛無"
+    "Name": "家政自動化",
+    "Description": "(WIP) "
   },
   "Qianqiang": {
-    "Name": "萌萌大千槍"
+    "Name": "萌萌大千槍",
+    "Description": "(WIP) "
   },
   "DollFangzhen": {
-    "Name": "人形方陣"
-  },
-  "DollZuzhou": {
-    "Name": "上吊的蓬萊人形"
+    "Name": "人形方陣",
+    "Description": "(WIP) "
   },
   "Zhendijianzao": {
-    "Name": "陣地建造"
+    "Name": "陣地建造",
+    "Description": "(WIP) "
+  },
+  "MansionNight": {
+    "Name": "洋館驚魂夜",
+    "Description": "(WIP) "
+  },
+  "DollFormation": {
+    "Name": "小小戰團",
+    "Description": "(WIP) "
+  },
+  "DollFire": {
+    "Name": "人形火葬",
+    "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
     "Name": "雙重觸發",
@@ -2054,13 +2097,13 @@
     "Name": "水戶光國",
     "Description": "造成 <Damage /> 點傷害。<br />選擇至多 <Value1 /> 張手牌丟棄，抽等量的牌。"
   },
-  "ReadBook": {
-    "Name": "讀書看報",
-    "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>初見</h>：從 <Value1 /> 張隨機的卡牌中選擇一張加入手中，這些卡牌只能包含藍色或白色。"
-  },
   "Panzi": {
     "Name": "水碟",
     "Description": "造成 <Damage /> 點傷害。<br /><h>進入手中時</h>：將一張<SelfName />的複製加入手中。"
+  },
+  "ReadBook": {
+    "Name": "讀書看報",
+    "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>初見</h>：從 <Value1 /> 張隨機的卡牌中選擇一張加入手中，這些卡牌只能包含藍色或白色。"
   },
   "ShuimuBlock": {
     "Name": "堆砌石林",
@@ -2138,6 +2181,10 @@
   "MogongAttack": {
     "Name": "埴輪造形",
     "Description": "獲得 <Block /> 點<h>格擋</h>。<br />造成 <Damage /> 點傷害。<br /><h>手牌中</h>：打出其它牌時，提高<SelfName />的傷害及<h>格擋</h>，直到與打出卡牌的基礎值相等。"
+  },
+  "SanaeStar": {
+    "Name": "星落",
+    "Description": "抽 <Value1 /> 張牌。<br />獲得 <Value2 /> 點<h>神恩</h>。"
   },
   "TianziMana": {
     "Name": "天人飛翔",
@@ -2387,7 +2434,8 @@
   },
   "AyaExtraTurn": {
     "Name": "「幻想風靡」",
-    "Description": "結束<PlayerName />的回合，進行一個額外的回合。<br />下一回合開始時，獲得 <Value1 /> 層<h>閃避</h>。<br /><h>時間有限</h><Mana />。"
+    "Description": "結束<PlayerName />的回合，進行一個額外的回合。<br />下一回合開始時，獲得 <Value1 /> 層<h>閃避</h>。<br /><h>時間有限</h><Mana />。",
+    "Description_1.7.0": "獲得 <Value1 /> 層<h>閃避</h>。<br />結束<PlayerName />的回合，進行一個額外的回合。<br /><h>時間有限</h><Mana />。"
   },
   "AyaWindGirl": {
     "Name": "風神少女",
@@ -2426,7 +2474,8 @@
   },
   "HuiyeSuperExtraTurn": {
     "Name": "「永夜返」",
-    "Description": "<PlayerName />的<h>自然回合</h>結束時，進行一個額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Value1 /> 張牌。"
+    "Description": "<PlayerName />的<h>自然回合</h>結束時，進行一個額外的回合。<br />這一回合開始時不會失去<h>格擋</h>和<h>閃避</h>，只能打出 <Value1 /> 張牌。",
+    "Description_1.7.0": "<PlayerName />的<h>自然回合</h>結束時，進行一個額外的回合。<br />這一回合開始時不會失去<h>格擋</h>，只能打出 <Value1 /> 張牌。"
   },
   "ModuoluoSeasons": {
     "Name": "暴走的季節",
@@ -2649,7 +2698,8 @@
   },
   "Frog": {
     "Name": "青蛙",
-    "Description": "這張牌被詛咒了。"
+    "Description": "這張牌被詛咒了。",
+    "Description_1.7.0": "這張牌被詛咒了。<br />打出<SelfName />可以取回原卡牌。"
   },
   "BlackResidue": {
     "Name": "黑暗殘留",

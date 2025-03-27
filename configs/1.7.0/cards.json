@@ -4843,7 +4843,8 @@
     },
     "1": {
       "Value1": 3
-    }
+    },
+    "Version": "1.7.0"
   },
   "LeaveMoodAttack": {
     "Rarity": "Common",
@@ -5032,7 +5033,8 @@
     "1": {
       "Value1": 4,
       "Keywords": "Retain"
-    }
+    },
+    "Version": "1.7.0"
   },
   "KoishiGainColorless": {
     "Rarity": "Uncommon",
@@ -5061,7 +5063,8 @@
     },
     "1": {
       "Cost": 1
-    }
+    },
+    "Version": "1.7.0"
   },
   "PeaceMemory": {
     "Rarity": "Uncommon",
@@ -5167,7 +5170,7 @@
       "Value1": 1
     },
     "1": {},
-    "Version": "1.6.1"
+    "Version": "1.7.0"
   },
   "KoishiDnaAttack": {
     "Rarity": "Uncommon",
@@ -5229,7 +5232,8 @@
     "1": {
       "Cost": 1,
       "Value2": 3
-    }
+    },
+    "Version": "1.7.0"
   },
   "PlayDrawTop": {
     "Rarity": "Uncommon",
@@ -5243,7 +5247,8 @@
     },
     "1": {
       "Cost": 1
-    }
+    },
+    "Version": "1.7.0"
   },
   "TheChariot": {
     "Rarity": "Uncommon",
@@ -5375,7 +5380,8 @@
     "1": {
       "Cost": "2B",
       "Keywords": "Instinct"
-    }
+    },
+    "Version": "1.7.0"
   },
   "LeaveMoodDraw": {
     "Rarity": "Uncommon",
@@ -5701,7 +5707,8 @@
     },
     "1": {
       "Value2": 2
-    }
+    },
+    "Version": "1.7.0"
   },
   "EnterEpiphany": {
     "Rarity": "Rare",
@@ -8474,7 +8481,8 @@
       "Cost": "1RG",
       "Value1": 3,
       "Keywords": "Exile"
-    }
+    },
+    "Version": "1.7.0"
   },
   "AyaWindGirl": {
     "Rarity": "Rare",
@@ -8585,7 +8593,8 @@
       "Value1": 1,
       "Keywords": "Ethereal"
     },
-    "1": {}
+    "1": {},
+    "Version": "1.7.0"
   },
   "ModuoluoSeasons": {
     "Rarity": "Rare",
@@ -9216,7 +9225,8 @@
     "0": {
       "Cost": 4,
       "Keywords": "Ethereal"
-    }
+    },
+    "Version": "1.7.0"
   },
   "BlackResidue": {
     "IsPooled": false,
