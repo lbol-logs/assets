@@ -1,4 +1,8 @@
 {
+  "subjects": {
+    "It": "それ",
+    "-It_other": "それら"
+  },
   "TempFirepower": {
     "Name": "臨時火力",
     "Description": "ターン終了まで<Level />点の火力を得る。<br />火力は攻撃のダメージを増加させる。"
@@ -31,6 +35,22 @@
     "Name": "霊力ダウン",
     "Description": "<Level /> 点の霊力を失う。<br />霊力は得られる<h>ブロック</h>、<h>バリア</h>を増加させる。"
   },
+  "TempControl": {
+    "Name": "臨時操力",
+    "Description": "ターン終了まで<Level />点の操力を得る。<br />操力は人形の効果を増加させる。"
+  },
+  "Control": {
+    "Name": "操力",
+    "Description": "<Level />点の操力を得る。<br />操力は人形の効果を増加させる。"
+  },
+  "TempControlNegative": {
+    "Name": "臨時操力ダウン",
+    "Description": "ターン終了まで<Level />点の操力を失う。<br />操力は人形の効果を増加させる。"
+  },
+  "ControlNegative": {
+    "Name": "操力ダウン",
+    "Description": "<Level />点の操力を失う。<br />操力は人形の効果を増加させる。"
+  },
   "Fragil": {
     "Name": "脆弱化",
     "Description": "<PlayerName />がカードを使用することで得られる<h>ブロック</h>と<h>バリア</h>が<Value />%減少する。残り<Duration />ターン持続。"
@@ -43,13 +63,22 @@
     "Name": "弱体",
     "Description": "<OwnerName />が受ける攻撃ダメージが<Value />%増加する。残り<Duration />ターン持続。"
   },
+  "EnemyVulnerable": {
+    "Name": "弱体付与",
+    "Description": "敵全体の行動終了時、<PlayerName />は<h>弱体</h><Level />を受ける。"
+  },
   "LockedOn": {
     "Name": "ロックオン",
     "Description": "<OwnerName />が受ける攻撃ダメージが<Level />点増加する。<br />各ターン開始時に1減少する。"
   },
+  "EnemyLockedOn": {
+    "Name": "ロックオン付与",
+    "Description": "敵全体の行動終了時、<PlayerName />は<h>ロックオン</h><Level />を受ける。"
+  },
   "Graze": {
     "Name": "グレイズ",
-    "Description": "<OwnerName />が受ける攻撃ダメージを0にする。残り<Level />回有効。<br />攻撃されるかターン開始時に1減少する。"
+    "Description": "<OwnerName />が受ける攻撃ダメージを0にする。残り<Level />回有効。<br />攻撃されるかターン開始時に1減少する。",
+    "Description_1.7.0": "<OwnerName />が受ける攻撃ダメージを0にする。残り<Level />回有効。<br />攻撃されるか通常ターン開始時に1減少する。"
   },
   "ExtraTurn": {
     "Name": "追加ターン",
@@ -57,7 +86,8 @@
   },
   "SuperExtraTurn": {
     "Name": "「永夜返し」",
-    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Level />枚しか使用できない。"
+    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Level />枚しか使用できない。",
+    "Description_1.7.0": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを得る。<br />この効果で得た追加ターンでは<h>ブロック</h>が失われず、カードを<Level />枚しか使用できない。"
   },
   "LimitedDamage": {
     "Name": "道具の解放者",
@@ -89,7 +119,7 @@
   },
   "AmuletForCard": {
     "Name": "庇護",
-    "Description": "次の<Level />回の状態異常カードの追加を無効化する。（それらを<h>廃棄</h>する）。"
+    "Description": "次の<Level />回の状態異常カードの追加を無効化する。（$t(subjects.It, { 'count': {{Level}} })を<h>廃棄</h>する）。"
   },
   "Electric": {
     "Name": "帯電",
@@ -97,7 +127,8 @@
   },
   "TempElectric": {
     "Name": "帯電",
-    "Description": "攻撃してきた相手に<Level />点のダメージを与える。<br /><OwnerName />のターン開始時にこの効果は取り除かれる。"
+    "Description": "攻撃してきた相手に<Level />点のダメージを与える。<br /><OwnerName />のターン開始時にこの効果は取り除かれる。",
+    "Description_1.7.0": "攻撃してきた相手に<Level />点のダメージを与える。<br /><OwnerName />の通常ターン開始時にこの効果は取り除かれる。"
   },
   "Reflect": {
     "Name": "反射",
@@ -313,11 +344,13 @@
   },
   "LongLight": {
     "Name": "光る三脚",
-    "Description": "<OwnerName />はより眩しく輝き、ダメージが増加し、追加する状態異常カードを強化する。"
+    "Description": "<OwnerName />はより眩しく輝き、ダメージが増加し、追加する状態異常カードを強化する。",
+    "Description_1.7.0": "<OwnerName />はより眩しく輝き、追加する状態異常カードを強化する。"
   },
   "LongEscape": {
     "Name": "手抜き",
-    "Description": "<OwnerName />は体力が<Level />を下回ると戦闘から離脱する。"
+    "Description": "<OwnerName />は体力が<Level />を下回ると戦闘から離脱する。",
+    "Description_1.7.0": "<OwnerName />は体力が<Level />を下回ると戦闘から離脱する。<br />撃破すると<Money /><Level />を得る。"
   },
   "FlatPeach": {
     "Name": "仙桃",
@@ -417,7 +450,8 @@
   },
   "ShendengSe": {
     "Name": "注ぎ口の長いティーポット",
-    "Description": "<OwnerName />のターン終了時、<PlayerName />は<h>脱力</h>、<h>脆弱化</h>、<h>弱体</h>のうちランダムな一つを<Level />得る。"
+    "Description": "<OwnerName />のターン終了時、<PlayerName />は<h>脱力</h>、<h>脆弱化</h>、<h>弱体</h>のうちランダムな一つを<Level />得る。",
+    "Description_1.7.0": "敵全体の行動終了時、<PlayerName />は<h>脱力</h>、<h>脆弱化</h>、<h>弱体</h>のうちランダムな一つを<Level />得る。"
   },
   "HolyGrailSe": {
     "Name": "装飾が施された金の杯",
@@ -519,7 +553,7 @@
   },
   "Grace": {
     "Name": "神恩",
-    "Description": "<h>神恩</h>は同じ値の<h>火力</h>及び<h>霊力</h>として扱う。カード又は<h>スペルカード</h>を使用すると失われる。"
+    "Description": "<h>神恩</h>は同じ値の<h>火力</h>及び<h>霊力</h>として扱う。効果を受けたカード又は<h>スペルカード</h>を使用すると失われる。"
   },
   "ReimuGraceSe": {
     "Name": "博麗の庇護",
@@ -655,7 +689,7 @@
   },
   "KnifeWithLockedOn": {
     "Name": "次は貴様だ！",
-    "Description": "<h>投げナイフ</h>を使用時、対象に<h>ロックオン</h><Level />を与える。"
+    "Description": "<h>投げナイフ</h>を使用時、追加で対象に<h>ロックオン</h><Level />を与える。"
   },
   "ClockCorpseSe": {
     "Name": "クロックコープス",
@@ -688,6 +722,10 @@
   "KnifeDamageUpSe": {
     "Name": "シルバープッシュ",
     "Description": "<h>投げナイフ</h>のダメージが<Level />増加する。"
+  },
+  "TimeMagicSe": {
+    "Name": "タイムマジック",
+    "Description": "<PlayerName />の追加ターンの開始時、<Limit />枚の<hp>完全ランダム</hp>なアンコモンカードから<Level />枚選んで手札に加える。$t(subjects.It, { 'count': {{Value1}} })は<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。"
   },
   "Cold": {
     "Name": "冷気",
@@ -773,6 +811,10 @@
     "Name": "星の数ほど",
     "Description": "<SourceCardName />がダメージを与えた時、<h>ロックオン</h><Level />を与える。"
   },
+  "MaxHandSe": {
+    "Name": "妖精大集結",
+    "Description": "手札の上限が<MaxHand />枚になる。"
+  },
   "MoodPassion": {
     "Name": "熱情",
     "Description": "<PlayerName />が与える攻撃ダメージ及び受ける攻撃ダメージが<Percentage />%増加する。<br /><h>熱情</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
@@ -834,13 +876,18 @@
     "Name": "DNAの瑕",
     "Description": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Level />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持つ。"
   },
+  "KoishiDnaSe": {
+    "Name": "DNAの瑕",
+    "Description": "<PlayerName />のターン開始時、山札の一番上のカードを<Level />枚使用する。",
+    "Description_1.7.0": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Level />枚手札に加える。"
+  },
+  "KoishiUltimateSe": {
+    "Name": "真我の目覚め",
+    "Description": "<PlayerName />のターン開始時、山札の一番上のカードを<Level />枚使用する。"
+  },
   "LoveFireSe": {
     "Name": "恋の埋火",
     "Description": "<PlayerName />のターン終了時、そのターンに<h>追加攻撃</h>が行われていたなら<h>火力</h><Level />を得る。"
-  },
-  "KoishiDnaSe": {
-    "Name": "ハルトマンの妖怪少女",
-    "Description": "<PlayerName />のターン開始時、山札の一番上のカードを<Level />枚使用する。"
   },
   "UpgradeAllHandSe": {
     "Name": "精神解放",

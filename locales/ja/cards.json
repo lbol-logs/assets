@@ -1,4 +1,8 @@
 {
+  "subjects": {
+    "It": "それ",
+    "-It_other": "それら"
+  },
   "ReimuAttackR": {
     "Name": "博麗アミュレット",
     "Description": "<Damage />ダメージを与える。"
@@ -21,7 +25,7 @@
   },
   "DoubleJiejie": {
     "Name": "二重結界",
-    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある時、ダメージを2回与える。"
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある場合、ダメージを<Value1 />回与える。"
   },
   "Fengmozhen": {
     "Name": "封魔針",
@@ -67,7 +71,7 @@
   },
   "Jinfuzhen": {
     "Name": "緊縛陣",
-    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある時、<h>弱体</h><Value1 />を与える。"
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある場合、<h>弱体</h><Value1 />を与える。"
   },
   "LingfuHuti": {
     "Name": "護身の霊符",
@@ -160,7 +164,7 @@
   },
   "MingzhuAntou": {
     "Name": "明珠暗投",
-    "Description": "敵全体に<Damage />ダメージを与える。<br /><Value1 />枚の<h>虹龍陰陽玉</h>から1枚を選び、手札に加える。<br /><h>フィールド</h>に存在する<h>陰陽玉</h>1枚につき<SelfName />のコストを<Mana />減少。"
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><Value1 />枚の<h>虹龍陰陽玉</h>から1枚を選び、手札に加える。<br /><h>フィールド</h>に存在する<h>陰陽玉カード</h>1枚につき<SelfName />のコストを<Mana />減少。"
   },
   "YakongDianxue": {
     "Name": "亜空点穴",
@@ -182,7 +186,7 @@
   },
   "YinyangXueyin": {
     "Name": "陰陽血印",
-    "Description": "ライフを<Value2 />失う。<br /><h>陰陽玉</h>を1枚手札に加える。<br /><h>陰陽玉</h>をプレイするたび、<h>臨時火力</h><Value1 />と<h>臨時霊力</h><Value1 />を得る。"
+    "Description": "ライフを<Value2 />失う。<br /><h>陰陽玉</h>を1枚手札に加える。<br /><h>陰陽玉カード</h>をプレイするたび、<h>臨時火力</h><Value1 />と<h>臨時霊力</h><Value1 />を得る。"
   },
   "ReimuFreeAttack": {
     "Name": "幻想一重",
@@ -306,7 +310,7 @@
     "Name": "本物の勾玉職人、魅須丸",
     "PassiveDescription": "<h>ブロック</h>と<h>バリア</h>を<Value2 />ずつ得る。",
     "ActiveDescription": "ランダムな<h>虹龍陰陽玉</h>を<Value1 />枚手札に加える。",
-    "UltimateDescription": "全ての<h>陰陽玉</h>の効果の基本値を<he>1</he>倍分増加させる。ランダムな<h>虹龍陰陽玉</h>を<Value1 />枚手札に加える。"
+    "UltimateDescription": "全ての<h>陰陽玉カード</h>の効果の基本値を<he>1</he>倍分増加させる。ランダムな<h>虹龍陰陽玉</h>を<Value1 />枚手札に加える。"
   },
   "ShuihuoCard": {
     "Name": "水火玉",
@@ -645,7 +649,11 @@
   "KnifeBounce": {
     "Name": "跳弾するナイフ",
     "Description": "<Damage />ダメージを与える。<br /><h>投げナイフ</h>を<Value1 />枚手札に加える。",
-    "UpgradedDescription": "<Damage />ダメージを与える。<br /><h>ロックオン</h><Value2 />を与える。<br /><h>投げナイフ</h>を<Value1 />枚手札に加える。"
+    "UpgradedDescription_1.5.1": "<Damage />ダメージを与える。<br /><h>ロックオン</h><Value2 />を与える。<br /><h>投げナイフ</h>を<Value1 />枚手札に加える。"
+  },
+  "SakuyaSnow": {
+    "Name": "降雪決行",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>投げナイフ</h>を<Value1 />枚手札に加える。"
   },
   "Lijian": {
     "Name": "離剣乱舞",
@@ -668,10 +676,6 @@
     "Name": "デジャヴ",
     "Description": "手札のカードを最大<Value1 />枚まで選び山札の一番上に置く。<br />カードを<Value1 />枚引く。<br /><Mana />を得る。"
   },
-  "SakuyaSnow": {
-    "Name": "降雪決行",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>投げナイフ</h>を<Value1 />枚手札に加える。"
-  },
   "CoolMaid": {
     "Name": "瀟洒なメイド",
     "Description": "<h>投げナイフ</h>を<Value1 />枚手札に加える。<br /><Mana />を得る。"
@@ -689,7 +693,7 @@
     "Description": "<h>脱力</h><Value1 />を与える。<br /><Mana />を得る。"
   },
   "TimeAuraAttack": {
-    "Name": "タイムマジック",
+    "Name": "空間幻術",
     "Description": "<Damage />ダメージを与える。<br /><h>タイムパルス</h><Value1 />を得る。"
   },
   "SakuyaTea": {
@@ -843,6 +847,10 @@
     "Name": "忠実なる召使い",
     "Description": "<Shield /><h>バリア</h>を得る。<br />追加ターンを得る度、捨て札から手札へと加えられ、<h>臨時コスト</h><Mana />になる。"
   },
+  "TimeMagic": {
+    "Name": "タイムマジック",
+    "Description": "<Value2 />枚の<hp>完全ランダム</hp>なアンコモンカードから<Value1 />枚選んで手札に加える。$t(subjects.It, { 'count': {{Value1}} })は<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。<br /><PlayerName />の追加ターン開始時、この効果を発動する。"
+  },
   "TimeWalk": {
     "Name": "時渡り",
     "Description": "<PlayerName />はこのターンを終了し、追加ターンを得る。<br />全ての<SelfName />の効果は各戦闘で1回しか発動しない。"
@@ -857,7 +865,7 @@
   },
   "SakuyaDio": {
     "Name": "次は貴様だ！",
-    "Description": "直接使用された<h>投げナイフ</h>は対象に<h>ロックオン</h><Value1 />を与える。<br /><PlayerName />はターンを終了し、追加ターンを得る。<br />その追加ターンはドローフェイズが無くなる代わり、<Value2 />枚の<h>投げナイフ</h>が手札に加えられる。"
+    "Description": "直接使用された<h>投げナイフ</h>は対象に追加で<h>ロックオン</h><Value1 />を与える。<br /><PlayerName />はターンを終了し、追加ターンを得る。<br />その追加ターンはドローフェイズが無くなる代わり、<Value2 />枚の<h>投げナイフ</h>が手札に加えられる。"
   },
   "PerfectServant": {
     "Name": "完全で瀟洒な従者",
@@ -872,7 +880,7 @@
     "Description": "ライフを<Value1 />失う。<br /><PlayerName />は次のターン、与える攻撃ダメージが倍になる。"
   },
   "ExtraTurnEveryone": {
-    "Name": "膨張する空間",
+    "Name": "インフレーションスクウェア",
     "Description": "<PlayerName />はターンを終了し、追加ターンを得る。<br />全ての敵は次の行動開始時、追加ターンを行う。"
   },
   "TunnelEffect": {
@@ -1017,7 +1025,7 @@
   },
   "IceLaser": {
     "Name": "冷凍ビーム",
-    "Description": "<Damage />ダメージを与える。<br />命中した場合、<h>冷気</h>を与える。<br />山札の底にあるカードを表示し、それが青のカードだった場合それ以外のランダムな敵へ再度この効果を発動させる。"
+    "Description": "<Damage />ダメージを与える。<br />命中した場合、<h>冷気</h>を与える。<br />山札の底にあるカードを表示し、それが青のカードだった場合対象を除くランダムな敵に再度この効果を発動させる。"
   },
   "CirnoFire": {
     "Name": "燃える氷",
@@ -1037,8 +1045,8 @@
     "UltimateDescription": "敵全体に<Damage />ダメージを与え、<h>冷気</h>を与える。"
   },
   "ColdSnap": {
-    "Name": "高速なる解熱",
-    "Description": "山札の上から<Value1 />枚の青のカードを手札に加える。加えたカード1枚につき<Value2 /><h>バリア</h>を得る。"
+    "Name": "急速冷却",
+    "Description": "山札の上から順に青のカードを<Value1 />枚手札に加える。加えたカード1枚につき<Value2 /><h>バリア</h>を得る。"
   },
   "IceSaber": {
     "Name": "ソードフリーザー",
@@ -1112,7 +1120,7 @@
   },
   "FruitShake": {
     "Name": "フルーツクラッシュアイス",
-    "Description": "敵全体に<Damage />ダメージを与える。<br />命中した場合、<h>冷気</h>を与える。<br />このターン中に<h>パートナー</h>を召喚した場合、<SelfName />のコストを<Mana />にする。"
+    "Description": "敵全体に<Damage />ダメージを与える。<br />命中した場合、<h>冷気</h>を与える。<br />このターン中に<h>パートナー</h>を召喚した場合、<SelfName />ののコストは<Mana />。"
   },
   "SummerParty": {
     "Name": "冰爽なるパーティー",
@@ -1120,7 +1128,7 @@
   },
   "ColdChain": {
     "Name": "コールドチェーン",
-    "Description": "山札から<Value1 />枚のカードを選んで手札に加える。"
+    "Description": "山札から最大<Value1 />枚のカードを選んで手札に加える。"
   },
   "FrozenOrb": {
     "Name": "フローズンオーブ",
@@ -1270,6 +1278,24 @@
     "Name": "生命の開花",
     "Description": "<Damage />ダメージを与える。<br /><Mana />を得る。<br />このカードが<h>保留</h>されるたびに、ダメージが<Value1 />増加し、得るマナが<Mana />増加する。"
   },
+  "KoishiDrawTop": {
+    "Name": "出まかせ",
+    "Description_1.6.0": "カードを<Value1 />枚引く。<br />手札を<Value2 />枚山札の一番上に置く。",
+    "UpgradedDescription_1.6.0": "カードを<Value1 />枚引く。<br />手札を<Value2 />枚選び、<h>アップグレード</h>した後山札の一番上に置く。",
+    "Description": "カードを<Value1 />枚引く。<br />手札を<Value2 />枚選んで<h>アップグレード</h>し、それを山札の一番上に置く。"
+  },
+  "LeaveMoodAttack": {
+    "Name": "心の解放",
+    "Description": "<Damage />ダメージを与える。<br />現在の<h>心境</h>を解除する。"
+  },
+  "LeaveMoodGraze": {
+    "Name": "気配遮断",
+    "Description": "<h>グレイズ</h><Value1 />を得る。<br />現在の<h>心境</h>を解除する。"
+  },
+  "FlowerGone": {
+    "Name": "色褪せた夢",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>平静</h>状態なら代わりに<Shield /><h>バリア</h>を得る。"
+  },
   "PassionDefense": {
     "Name": "控え目",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>熱情</h>状態なら追加で<Value1 /><h>ブロック</h>を得る。"
@@ -1294,23 +1320,6 @@
     "Name": "被害妄想",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>追加攻撃</h>を行う。"
   },
-  "KoishiDrawTop": {
-    "Name": "出まかせ",
-    "Description": "カードを<Value1 />枚引く。<br />手札を<Value2 />枚山札の一番上に置く。",
-    "UpgradedDescription": "カードを<Value1 />枚引く。<br />手札を<Value2 />枚選び、<h>アップグレード</h>した後山札の一番上に置く。"
-  },
-  "LeaveMoodAttack": {
-    "Name": "渦巻く意識",
-    "Description": "<Damage />ダメージを与える。<br />現在の<h>心境</h>を解除する。"
-  },
-  "LeaveMoodGraze": {
-    "Name": "気配遮断",
-    "Description": "<h>グレイズ</h><Value1 />を得る。<br />現在の<h>心境</h>を解除する。"
-  },
-  "FlowerGone": {
-    "Name": "色褪せた夢",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>平静</h>状態なら代わりに<Shield /><h>バリア</h>を得る。"
-  },
   "MoodAttack": {
     "Name": "心変わりの刃",
     "Description": "<Damage />ダメージを与える。<br /><PlayerName />の<h>心境</h>が変化する度、捨て札の<SelfName />を手札に加える。"
@@ -1319,13 +1328,89 @@
     "Name": "サバイバル本能",
     "Description": "<h>グレイズ</h><Value1 />を得る。<br /><h>追加攻撃</h>を行う。"
   },
+  "KoishiZeroAttack": {
+    "Name": "DNA転写",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "KoishiWake": {
+    "Name": "我に返る",
+    "Description": "現在の<h>心境</h>を解除し、ライフを<Value1 />回復する。<br /><h>無心</h>状態なら追加で<Shield /><h>バリア</h>を得る。",
+    "Description_1.7.0": "<h>熱情</h>状態なら<h>追加攻撃</h>を行う。<br /><h>平静</h>状態なら<Shield /><h>バリア</h>を得る。<br /><h>無心</h>状態なら<h>無心</h>の発動回数を<Value1 />回増やす。"
+  },
+  "KoishiGainColorless": {
+    "Name": "無の心",
+    "Description": "<Mana />を得る。",
+    "UpgradedDescription": "<Mana />を得る。"
+  },
+  "PeaceEndTurn": {
+    "Name": "一時の平穏",
+    "Description": "<h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
+    "UpgradedDescription": "捨て札のカードを<Value1 />枚選んで手札に加え、それらをそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
+    "Description_1.7.0": "手札のカードを最大<Value1 />枚選び、$t(subjects.It, { 'count': {{Value1}} })をそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
+    "UpgradedDescription1.7.0": "手札か捨て札のカードを最大<Value1 />枚選んで手札に加え、$t(subjects.It, { 'count': {{Value1}} })をそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。"
+  },
+  "PeaceMemory": {
+    "Name": "平静の追憶",
+    "Description": "<h>平静</h>に入る。"
+  },
+  "KoishiSpringOut": {
+    "Name": "春の野遊び",
+    "Description": "<h>平静</h>状態ならカードを<Value1 />枚引く。<br />そうでないなら、<h>平静</h>に入る。"
+  },
+  "InspirationDefense": {
+    "Name": "閃きの瞬間",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>閃き</h><Value1 />を得る。"
+  },
+  "KoishiFire": {
+    "Name": "移り気",
+    "Description": "<h>火力</h><Value1 />を得る。<br /><h>熱情</h>状態なら追加で<h>火力</h><Value2 />を得る。<br /><h>平静</h>状態なら代わりに<h>霊力</h><Value1 />を得る。"
+  },
+  "KoishiFlower": {
+    "Name": "やんちゃな薔薇",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><Damage />ダメージを与える。<br /><h>真夏の花</h>を<Value1 />枚手札に加える。<br /><h>無心</h>状態なら代わりに<Value2 />枚加える。"
+  },
+  "TheHermit": {
+    "Name": "隠者のタロット",
+    "Description": "<h>占術</h><Scry />。<br /><Mana />を得る。<br /><h>無心</h>状態なら<SelfName />のコストは<Mana0 />。",
+    "UpgradedDescription": "<h>占術</h><Scry />。山札の一番上のカードを<h>アップグレード</h>する。<br /><Mana />を得る。<br /><h>無心</h>状態なら<SelfName />のコストは<Mana0 />。"
+  },
+  "GainZeroAttack": {
+    "Name": "DNAの瑕",
+    "Description": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Value1 />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持つ。",
+    "UpgradedDescription": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Value1 />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持つ。<br />使用時に<SelfName />のターン開始時の効果を1回発動する。"
+  },
+  "KoishiDna": {
+    "Name": "DNAの瑕",
+    "Description": "<PlayerName />のターン開始時、山札の一番上のカードを使用する。",
+    "Description_1.6.1": "山札の一番上のカードを使用する。<br /><PlayerName />のターン開始時、山札の一番上のカードを使用する。",
+    "Description_1.7.0": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Value1 />枚手札に加える。",
+    "UpgradedDescription_1.7.0": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Value1 />枚手札に加える。<br />使用時に<SelfName />のターン開始時の効果を1回発動する。"
+  },
+  "KoishiDnaAttack": {
+    "Name": "DNA転写",
+    "Description": "<Damage />ダメージを与える。"
+  },
+  "FindInspiration": {
+    "Name": "天啓",
+    "Description": "<h>閃いた！</h>を<Value1 />枚山札に加える。"
+  },
+  "KoishiGrowAttack": {
+    "Name": "いばらの舞",
+    "Description": "<Damage />ダメージを与える。<br /><h>成長</h>：ダメージが<Value1 />増加する。<br /><h>平静</h>状態なら<SelfName />のコストは<Mana />。"
+  },
+  "KoishiDance": {
+    "Name": "いばらの舞",
+    "Description": "<Block /><h>ブロック</h>を得る。<br />敵全体に<Damage />ダメージを与える。<br /><h>追加攻撃</h>を行う。"
+  },
   "PassionVulnerable": {
     "Name": "眠れぬ夜",
-    "Description": "<h>熱情</h>状態なら敵全体に<h>弱体</h><Value1 />を与える。<br />そうでない場合、<h>熱情</h>に入る。"
+    "Description": "<h>熱情</h>状態なら敵全体に<h>弱体</h><Value1 />を与える。<br />そうでない場合、<h>熱情</h>に入る。",
+    "UpgradedDescription_1.7.0": "<h>熱情</h>状態なら敵全体に<h>弱体</h><Value1 />と<h>ロックオン</h><Value2 />を与える。<br />そうでない場合、<h>熱情</h>に入る。"
   },
   "PlayDrawTop": {
     "Name": "無意識の行動",
-    "Description": "山札の一番上のカードを使用する。"
+    "Description": "山札の一番上のカードを使用する。",
+    "Description_1.7.0": "<Block /><h>ブロック</h>を得る。<br />山札の一番上のカードを使用する。"
   },
   "TheChariot": {
     "Name": "戦車のタロット",
@@ -1359,63 +1444,8 @@
   },
   "YaoguaiLaser": {
     "Name": "妖怪サイコショック",
-    "Description": "<Damage />ダメージを与える。<br /><h>追加攻撃</h>を行う。<br /><h>直感</h>:もう1回<h>追加攻撃</h>を行う。"
-  },
-  "KoishiZeroAttack": {
-    "Name": "DNA転写",
-    "Description": "<Damage />ダメージを与える。"
-  },
-  "KoishiWake": {
-    "Name": "我に返る",
-    "Description": "現在の<h>心境</h>を解除し、ライフを<Value1 />回復する。<br /><h>無心</h>状態なら追加で<Shield /><h>バリア</h>を得る。"
-  },
-  "PeaceEndTurn": {
-    "Name": "一時の平穏",
-    "Description": "<h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
-    "UpgradedDescription": "捨て札のカードを<Value1 />枚選んで手札に加え、それらをそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。"
-  },
-  "KoishiGainColorless": {
-    "Name": "無の心",
-    "Description": "<Mana />を得る。",
-    "UpgradedDescription": "<Mana />を得る。"
-  },
-  "PeaceMemory": {
-    "Name": "平静の追憶",
-    "Description": "<h>平静</h>に入る。"
-  },
-  "KoishiSpringOut": {
-    "Name": "春の野遊び",
-    "Description": "<h>平静</h>状態ならカードを<Value1 />枚引く。<br />そうでないなら、<h>平静</h>に入る。"
-  },
-  "InspirationDefense": {
-    "Name": "閃きの瞬間",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>閃き</h><Value1 />を得る。"
-  },
-  "KoishiFire": {
-    "Name": "移り気",
-    "Description": "<h>火力</h><Value1 />を得る。<br /><h>熱情</h>状態なら追加で<h>火力</h><Value2 />を得る。<br /><h>平静</h>状態なら代わりに<h>霊力</h><Value1 />を得る。"
-  },
-  "KoishiFlower": {
-    "Name": "やんちゃな薔薇",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><Damage />ダメージを与える。<br /><h>真夏の花</h>を<Value1 />枚手札に加える。<br /><h>無心</h>状態なら代わりに<Value2 />枚加える。"
-  },
-  "TheHermit": {
-    "Name": "隠者のタロット",
-    "Description": "<h>占術</h><Scry />。<br /><Mana />を得る。<br /><h>無心</h>状態なら<SelfName />のコストは<Mana0 />。",
-    "UpgradedDescription": "<h>占術</h><Scry />。山札の一番上のカードを<h>アップグレード</h>する。<br /><Mana />を得る。<br /><h>無心</h>状態なら<SelfName />のコストは<Mana0 />。"
-  },
-  "GainZeroAttack": {
-    "Name": "DNAの瑕",
-    "Description": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Value1 />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持つ。",
-    "UpgradedDescription": "<PlayerName />のターン開始時、<h>DNA転写</h>を<Value1 />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持つ。<br />使用時に<SelfName />のターン開始時の効果を1回発動する。"
-  },
-  "FindInspiration": {
-    "Name": "天啓",
-    "Description": "<h>閃いた！</h>を<Value1 />枚山札に加える。"
-  },
-  "KoishiGrowAttack": {
-    "Name": "いばらの舞",
-    "Description": "<Damage />ダメージを与える。<br /><h>成長</h>：ダメージが<Value1 />増加する。<br /><h>平静</h>状態なら<SelfName />のコストは<Mana />。"
+    "Description": "<Damage />ダメージを与える。<br /><h>追加攻撃</h>を行う。<br /><h>直感</h>:もう1回<h>追加攻撃</h>を行う。",
+    "Description_1.7.0": "<Block /><h>ブロック</h>を得る。<br /><Damage />ダメージを与える。<br /><h>追加攻撃</h>を行う。<br /><h>直感</h>:もう1回<h>追加攻撃</h>を行う。"
   },
   "LeaveMoodDraw": {
     "Name": "好奇心",
@@ -1425,6 +1455,27 @@
   "MoodChangeBlock": {
     "Name": "A.T.フィールド",
     "Description": "<PlayerName />が<h>心境</h>を変化させる度、<Value1 /><h>ブロック</h>を得る。"
+  },
+  "KoishiDrawTopCards": {
+    "Name": "弾幕のロールシャッハ",
+    "Description": "山札の上から<Value1 />枚のカードを見る。山札に残すカードを1枚選び、残りを全て引く。"
+  },
+  "GainInspiration": {
+    "Name": "考えさせて",
+    "Description": "<PlayerName />のターン終了時、<h>閃いた！</h>を1枚山札に加える。"
+  },
+  "KoishiMana": {
+    "Name": "サブタレイニアンローズ",
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><Mana />を得る。"
+  },
+  "PerfectCrime": {
+    "Name": "完全犯罪",
+    "Description": "対象の<h>グレイズ</h>、<h>光学迷彩</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を奪う。<br />対象の<h>火力</h>と<h>霊力</h>を最大で<Value1 />奪う。",
+    "Description_1.6.1": "対象の<h>バリア</h>、<h>グレイズ</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を奪う。<br />対象の<h>火力</h>と<h>霊力</h>を最大で<Value1 />奪う。"
+  },
+  "SelfControl": {
+    "Name": "エゴコントロール",
+    "Description": "<h>チョイス</h>:<h>熱情</h>か<h>平静</h>に入る。<br /><PlayerName />のターン終了時、<h>熱情</h>状態なら<h>火力</h><Value1 />を得る。<h>平静</h>状態なら<h>ブロック</h><Value2 />を得る。"
   },
   "PsycheLock": {
     "Name": "サイコ・ロック",
@@ -1459,35 +1510,13 @@
     "Name": "ロマンスの夜のラストコール",
     "Description": "敵全体に<Damage />ダメージを与える。"
   },
-  "KoishiDrawTopCards": {
-    "Name": "弾幕のロールシャッハ",
-    "Description": "山札の上から<Value1 />枚のカードを見る。山札に残すカードを1枚選び、残りを全て引く。"
-  },
-  "KoishiMana": {
-    "Name": "サブタレイニアンローズ",
-    "Description": "敵全体に<Damage />ダメージを与える。<br /><Mana />を得る。"
-  },
-  "GainInspiration": {
-    "Name": "考えさせて",
-    "Description": "<PlayerName />のターン終了時、<h>閃いた！</h>を1枚山札に加える。"
-  },
-  "PerfectCrime": {
-    "Name": "完全犯罪",
-    "Description": "対象の<h>グレイズ</h>、<h>光学迷彩</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を奪う。<br />対象の<h>火力</h>と<h>霊力</h>を最大で<Value1 />奪う。",
-    "Description_1.6.1": "対象の<h>バリア</h>、<h>グレイズ</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を奪う。<br />対象の<h>火力</h>と<h>霊力</h>を最大で<Value1 />奪う。"
-  },
-  "SelfControl": {
-    "Name": "エゴコントロール",
-    "Description": "<h>チョイス</h>:<h>熱情</h>か<h>平静</h>に入る。<br /><PlayerName />のターン終了時、<h>熱情</h>状態なら<h>火力</h><Value1 />を得る。<h>平静</h>状態なら<h>ブロック</h><Value2 />を得る。"
-  },
   "TheFool": {
     "Name": "愚者のタロット",
     "Description": "<h>占術</h><Scry />。<br />山札の一番上のカードを使用する。"
   },
-  "KoishiDna": {
-    "Name": "ハルトマンの妖怪少女",
-    "Description": "<PlayerName />のターン開始時、山札の一番上のカードを使用する。",
-    "Description_1.6.1": "山札の一番上のカードを使用する。<br /><PlayerName />のターン開始時、山札の一番上のカードを使用する。"
+  "KoishiUltimate": {
+    "Name": "真我の目覚め",
+    "Description": "山札の一番上のカードを使用する。<br /><PlayerName />のターン開始時、山札の一番上のカードを使用する。"
   },
   "KoishiAttackX": {
     "Name": "ローズ地獄",
@@ -1499,8 +1528,8 @@
   },
   "ButterflyDream": {
     "Name": "胡蝶の夢",
-    "Description": "<PlayerName />のターン開始時、<hp>完全ランダム</hp>なレアカードを<Value1 />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。",
-    "Description_1.6.1": "<hp>完全ランダム</hp>なレアカードを<Value1 />枚山札の一番上に置く。それは<h>補充</h>、<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。<br /><PlayerName />のターン開始時、この効果を発動する。"
+    "Description": "<PlayerName />のターン開始時、<hp>完全ランダム</hp>なレアカードを<Value1 />枚手札に加える。$t(subjects.It, { 'count': {{Value1}} })は<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。",
+    "Description_1.6.1": "<hp>完全ランダム</hp>なレアカードを<Value1 />枚山札の一番上に置く。$t(subjects.It, { 'count': {{Value1}} })は<h>補充</h>、<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。<br /><PlayerName />のターン開始時、この効果を発動する。"
   },
   "KokoroFriend": {
     "Name": "ペルソナに目覚めし者、こころ",
@@ -1509,13 +1538,14 @@
     "Active2Description": "<h>平静</h>に入る。",
     "UltimateDescription": "<h>無心</h>に入る。"
   },
+  "KoishiDive": {
+    "Name": "意識潜行",
+    "Description": "<h>平静</h>に入る。<br /><h>夢見</h><Value1 />。<br />捨て札の<h>夢境</h>を持つカードを<Value2 />枚まで選び手札に戻す。",
+    "Description_1.7.0": "<h>夢見</h><Value1 />。<br />捨て札の<h>夢境</h>を持つカードを<Value2 />枚まで選び手札に戻す。"
+  },
   "EnterEpiphany": {
     "Name": "悟り",
     "Description": "<h>無心</h>に入る。"
-  },
-  "KoishiDive": {
-    "Name": "意識潜行",
-    "Description": "<h>平静</h>に入る。<br /><h>夢見</h><Value1 />。<br />捨て札の<h>夢境</h>を持つカードを<Value2 />枚まで選び手札に戻す。"
   },
   "LunaticPassion": {
     "Name": "狂える愛",
@@ -1530,8 +1560,8 @@
     "Name": "電話だよ！",
     "Description": "<Damage />ダメージを与える。"
   },
-  "AliceAttackW": {
-    "Name": "人形槍撃",
+  "AliceAttackU": {
+    "Name": "ドールランス",
     "Description": "<Damage />ダメージを与える。"
   },
   "AliceAttackB": {
@@ -1542,15 +1572,58 @@
     "Name": "防御魔法",
     "Description": "<Block /><h>ブロック</h>を得る。"
   },
-  "DeployShanghai": {
-    "Name": "上海人形設置"
+  "AliceBlockB": {
+    "Name": "アリスB防御",
+    "Description": "<Block /><h>ブロック</h>を得る。"
   },
-  "UpgradeDoll": {
-    "Name": "乙女文楽",
-    "Description": "<h>上海人形</h>1体を強化する。"
+  "DeployShanghai": {
+    "Name": "人形修繕"
   },
   "DeployPenglai": {
-    "Name": "蓬莱人形設置"
+    "Name": "乙女文楽"
+  },
+  "SacrificeDoll": {
+    "Name": "リターンイナニメトネス"
+  },
+  "AliceKickerAttack": {
+    "Name": "キッカー攻撃",
+    "Description": "<Damage />ダメージを与える。<br /><h>キッカー<KickerCost />：</h>ダメージを2回与える。"
+  },
+  "DollBlock": {
+    "Name": "ドールシールド",
+    "Description": "(WIP) "
+  },
+  "DollFactory": {
+    "Name": "人形工房",
+    "Description": "(WIP) "
+  },
+  "AutoHousework": {
+    "Name": "家事自動化",
+    "Description": "(WIP) "
+  },
+  "Qianqiang": {
+    "Name": "ファランクス",
+    "Description": "(WIP) "
+  },
+  "DollFangzhen": {
+    "Name": "人形方陣",
+    "Description": "(WIP) "
+  },
+  "Zhendijianzao": {
+    "Name": "陣地形成",
+    "Description": "(WIP) "
+  },
+  "MansionNight": {
+    "Name": "恐怖の洋館の夜",
+    "Description": "(WIP) "
+  },
+  "DollFormation": {
+    "Name": "リトルレギオン",
+    "Description": "(WIP) "
+  },
+  "DollFire": {
+    "Name": "人形火葬",
+    "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
     "Name": "ダブル起動",
@@ -2017,13 +2090,13 @@
     "Name": "水戸の光圀",
     "Description": "<Damage />ダメージを与える。<br />手札のカードを最大 <Value1 /> 枚まで捨てる。捨てた枚数分だけカードを引く。"
   },
-  "ReadBook": {
-    "Name": "本読み",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>初見</h>：<Value1 />枚のランダムな青か白、またはその2色であるカードから1枚を選び、手札に加える。"
-  },
   "Panzi": {
     "Name": "水皿",
     "Description": "<Damage />ダメージを与える。<br /><h>手札に加わった時</h>：<SelfName />のコピーを１枚手札に加える。"
+  },
+  "ReadBook": {
+    "Name": "本読み",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>初見</h>：<Value1 />枚のランダムな青か白、またはその2色であるカードから1枚を選び、手札に加える。"
   },
   "ShuimuBlock": {
     "Name": "石積み",
@@ -2084,7 +2157,7 @@
   },
   "QingeUpgrade": {
     "Name": "邪仙の秘法",
-    "Description": "<Damage />ダメージを与える。<br /><h>退治</h>：デッキのカードを1枚永久に<h>アップグレード</h>する。"
+    "Description": "<Damage />ダメージを与える。<br /><h>退治</h>：カードを1枚永久に<h>アップグレード</h>する。"
   },
   "TannvCard": {
     "Name": "逆転する運命",
@@ -2101,6 +2174,10 @@
   "MogongAttack": {
     "Name": "埴輪の造形",
     "Description": "<Damage />ダメージを与える。<br /><Block /><h>ブロック</h>を得る。<br /><SelfName />が与えるダメージや<h>ブロック</h>の値は、<SelfName />が手札にある間に使用した他のカードのダメージや<h>ブロック</h>の最大値になる。"
+  },
+  "SanaeStar": {
+    "Name": "星落とし",
+    "Description": "カードを<Value1 />枚引く。<br /><h>神恩</h><Value2 />を得る。"
   },
   "TianziMana": {
     "Name": "天人飛翔",
@@ -2330,7 +2407,7 @@
   },
   "JingyeGraze": {
     "Name": "狂いの落葉",
-    "Description": "<h>グレイズ</h>を<Value1 />得る。<br /><PlayerName />が持つ<h>グレイズ</h>の<Value2 />倍の<h>臨時火力</h>を得る。"
+    "Description": "<h>グレイズ</h><Value1 />を得る。<br /><PlayerName />が持つ<h>グレイズ</h>の<Value2 />倍の<h>臨時火力</h>を得る。"
   },
   "FangxiangAttack": {
     "Name": "ポイズンレイズ",
@@ -2350,7 +2427,8 @@
   },
   "AyaExtraTurn": {
     "Name": "幻想風靡",
-    "Description": "<PlayerName />のターンを終了し、追加ターンを得る。<br />次のターン開始時、<h>グレイズ</h><Value1 />を得る。<br /><h>時間制限</h><Mana />。"
+    "Description": "<PlayerName />のターンを終了し、追加ターンを得る。<br />次のターン開始時、<h>グレイズ</h><Value1 />を得る。<br /><h>時間制限</h><Mana />。",
+    "Description_1.7.0": "<h>グレイズ</h><Value1 />を得る。<br /><PlayerName />のターンを終了し、追加ターンを得る。<br /><h>時間制限</h><Mana />。"
   },
   "AyaWindGirl": {
     "Name": "風神少女",
@@ -2389,7 +2467,8 @@
   },
   "HuiyeSuperExtraTurn": {
     "Name": "「永夜返し」",
-    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを開始する。この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>が失われず、カードを<Value1 />枚しか使用できない。"
+    "Description": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを開始する。この効果で得た追加ターンでは<h>ブロック</h>と<h>グレイズ</h>を失わず、カードを<Value1 />枚しか使用できない。",
+    "Description_1.7.0": "<PlayerName />が<h>通常ターン</h>を終了する度、追加ターンを開始する。この効果で得た追加ターンでは<h>ブロック</h>を失わず、カードを<Value1 />枚しか使用できない。"
   },
   "ModuoluoSeasons": {
     "Name": "暴走の季節",
@@ -2612,7 +2691,8 @@
   },
   "Frog": {
     "Name": "カエル",
-    "Description": "このカードは呪われた。"
+    "Description": "このカードは呪われた。",
+    "Description_1.7.0": "このカードは呪われている。<br /><SelfName />を使用すると元のカードに戻る。"
   },
   "BlackResidue": {
     "Name": "残留思念",
@@ -2732,7 +2812,7 @@
   },
   "FlanBlack": {
     "Name": "悪魔化",
-    "Description": "このカードは未実装です。<br />アップデートをお楽しみに。"
+    "Description": "<hd>このカードは未実装です。<br />アップデートをお楽しみに。</hd>"
   },
   "ShenziWake": {
     "Name": "屍解からの目覚め",
@@ -2754,6 +2834,14 @@
     "Name": "ランダムカード追加（遅）",
     "Description": "テスト用：山札と捨て札にランダムな<Value1 />枚のカードを徐々に加える。"
   },
+  "DebugAddRandomCardsToExile": {
+    "Name": "廃棄場にランダムカード追加",
+    "Description": "テスト用：ランダムなカード<Value1 />枚を廃棄場に加える。"
+  },
+  "DebugAddRandomCardsToExileSlow": {
+    "Name": "廃棄場にランダムカード追加（遅）",
+    "Description": "テスト用：ランダムなカード<Value1 />枚を徐々に廃棄場に加える。"
+  },
   "DebugAddDeckCards": {
     "Name": "デッキカード追加",
     "Description": "テスト用：デッキにランダムなカード<Value1 />枚を加える。"
@@ -2761,5 +2849,21 @@
   "DebugAddHandCards": {
     "Name": "手札廃棄・カード追加",
     "Description": "テスト用：手札を全て廃棄し、ランダムなカード<Value1 />枚を手札に加える。"
+  },
+  "DebugRemoveHand": {
+    "Name": "手札削除",
+    "Description": "テスト用：任意の枚数の手札を選び、この戦闘から取り除く。"
+  },
+  "DebugRemoveAllHandWhenDraw": {
+    "Name": "ドロー時手札除外",
+    "Description": "テスト用：このカードを引いた時、これ以外の手札を戦闘から取り除く。"
+  },
+  "DebugUpgradeAllZone": {
+    "Name": "山札、捨て札アップグレード",
+    "Description": "テスト用：山札と捨て札の上から<Value1 />枚のカードをアップグレードする。"
+  },
+  "DebugPlaySelectCard": {
+    "Name": "フィールドのカード使用",
+    "Description": "テスト用：フィールドのカードを<Value1 />枚まで選んで使用する。<br />順序：手札、山札、捨て札、廃棄場の順。"
   }
 }

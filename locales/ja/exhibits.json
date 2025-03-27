@@ -46,11 +46,12 @@
   },
   "SakuyaU": {
     "Name": "マジックポーカー",
-    "Description": "マナ基盤に<BaseMana />を加え、<h>咲夜</h>専用のカードが出現するようになる。<br />各戦闘の<Value2 />ターン目まで、ターン開始時にカードを<Value1 />枚多く引く。"
+    "Description": "マナ基盤に<BaseMana />を加え、<h>咲夜</h>専用のカードが出現するようになる。<br />各戦闘の<Value2 />ターン目まで、ターン開始時にカードを<Value1 />枚多く引く。",
+    "Description_1.7.0": "マナ基盤に<BaseMana />を加え、<h>咲夜</h>専用のカードが出現するようになる。<br /><PlayerName />の<Value2 />ターン目までの間と追加ターンのターン開始時にカードを<Value1 />枚多く引く。"
   },
   "CirnoU": {
     "Name": "氷晶の翼",
-    "Description": "マナ基盤に<BaseMana />を加え、<h>チルノ</h>専用のカードが出現するようになる。<br />戦闘開始時、<h> 氷の翼 </h>を手札に加える。"
+    "Description": "マナ基盤に<BaseMana />を加え、<h>チルノ</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>氷の翼</h>を手札に加える。"
   },
   "CirnoG": {
     "Name": "緑豊かな枝",
@@ -64,6 +65,14 @@
   "KoishiB": {
     "Name": "特注のサングラス",
     "Description": "マナ基盤に<BaseMana />を加え、<h>こいし</h>専用のカードが出現するようになる。<br />エリートやボスとの戦闘開始時に<PlayerName />は<Value1 /><h>バリア</h>を得る。<br /><PlayerName />は<h>日の照射</h>によるダメージを受けない。"
+  },
+  "AliceU": {
+    "Name": "上海人形",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>アリス</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>上海人形 </h>を1体<h>配置</h>する。"
+  },
+  "AliceB": {
+    "Name": "蓬莱人形",
+    "Description": "マナ基盤に<BaseMana />を加え、<h>アリス</h>専用のカードが出現するようになる。<br />戦闘開始時、<h>蓬莱人形 </h>を1体<h>配置</h>する。"
   },
   "PiaoliangPanzi": {
     "Name": "きれいなお皿",
@@ -83,7 +92,7 @@
   },
   "ShijieSuipian": {
     "Name": "世界の破片",
-    "Description": "マナ基盤に<BaseMana />を加える。<br />取得時、デッキから<Value1 />枚のカードを選びランダムなレアとアンコモンのカードに変化させる。"
+    "Description": "マナ基盤に<BaseMana />を加える。<br />取得時、デッキから最大<Value1 />枚のカードを選びランダムなレアとアンコモンのカードに変化させる。"
   },
   "TianwenWangyuanjing": {
     "Name": "天体望遠鏡",
@@ -239,11 +248,11 @@
   },
   "ShanliangDengpao": {
     "Name": "煌めく電球",
-    "Description": "スキマで、<Value1 />枚のランダムなレアカードから1枚のカードを選んでデッキに加える<h>閃き</h>が選択できる。"
+    "Description": "スキマで、<Value1 />枚のランダムなレアカードから最大1枚のカードを選んでデッキに加える<h>閃き</h>が選択できる。"
   },
   "ZhanshuDaoliqi": {
     "Name": "戦術オーブメント",
-    "Description": "戦闘中、<PlayerName />のスキルカードのコストを<Mana />減らす。"
+    "Description": "戦闘中、スキルカードのコストを<Mana />減らす。"
   },
   "Yashemao": {
     "Name": "ハンチング帽",
@@ -423,7 +432,7 @@
   },
   "TiangouShanzi": {
     "Name": "天狗の羽団扇",
-    "Description": "戦闘開始時、<h>グレイズ</h><Value1 />を得る。"
+    "Description": "<PlayerName />の最初のターンの開始時、<h>グレイズ</h><Value1 />を得る。"
   },
   "TiangouXiangji": {
     "Name": "天狗のカメラ",
@@ -435,7 +444,8 @@
   },
   "TiangouYuyi": {
     "Name": "鴉天狗の羽根",
-    "Description": "次のフロアに移動する時、<PlayerName />は<Counter />回まで道を無視することができる。"
+    "Description": "次のフロアに移動する時、<PlayerName />は<Counter />回まで道を無視することができる。",
+    "Description_1.7.0": "次のフロアに移動する時、<PlayerName />は<Counter />回まで道を無視することができる。<br /><PlayerName />の最初のターンの開始時、<h>グレイズ</h><Value1 />を得る。"
   },
   "TiangouDunpai": {
     "Name": "白狼天狗の盾",
@@ -547,7 +557,8 @@
   },
   "HeiseBijiben": {
     "Name": "黒のノート",
-    "Description": "戦闘開始時、名前を持っている敵はライフを<Value1 />失う。"
+    "Description": "戦闘開始時、名前を持っている敵はライフを<Value1 />失う。",
+    "Description_1.7.0": "戦闘開始時、名前を持っている敵はライフを<Value1 />失い、<h>弱体</h><Value2 />を受ける。"
   },
   "Guangjian": {
     "Name": "ライトセイバー",
@@ -579,7 +590,12 @@
   },
   "LouguanJian": {
     "Name": "楼観剣",
-    "Description": "<PlayerName />が攻撃ダメージを与える度、<h>ロックオン</h><Value1 />を与える。"
+    "Description": "<PlayerName />が攻撃ダメージを与える度、<h>ロックオン</h><Value1 />を与える。",
+    "Description_1.7.0": "<PlayerName />が攻撃ダメージを与える度、<h>ロックオン</h><Value1 />を与える。<br />この展示品は失われない。"
+  },
+  "AliceBook": {
+    "Name": "グリモワール",
+    "Description": "<h>キッカー</h>コストが<Mana />減少する。<br />この展示品は失われない。"
   },
   "WaijieYanjing": {
     "Name": "外の世界のハイテクメガネ",
@@ -643,7 +659,7 @@
   },
   "FixBook": {
     "Name": "万能修理マニュアル",
-    "Description": "<h>道具</h>カードを使用する度、<Mana />を得る。<br />取得時、<Value1 />枚のランダムな道具カードから1枚を選び、デッキに加える。"
+    "Description": "<h>道具</h>カードを使用する度、<Mana />を得る。<br />取得時、<Value1 />枚のランダムな道具カードから1枚まで選び、デッキに加える。"
   },
   "TimeBook": {
     "Name": "時間略史",

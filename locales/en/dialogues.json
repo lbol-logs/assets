@@ -316,6 +316,7 @@
   },
   "BuduSuanming": {
     "line:0b3de88": "\"I can help divine your ultimate foe, or what destiny may befall you next.\"",
+    "line:07e5e51": "\"Since you're helping out Gensokyo, Miss <PlayerName />, I'll give you a little discount.\"",
     "line:07cdbe4": "[Fortune Telling] Pay {{0}} <Money />. Reveal the Boss of the third Act.",
     "line:0152f90": "[Dream Interpretation] Pay {{0}} <Money />. Reveal the first Friend Event in the third Act.",
     "line:09db3f2": "[Face Observation] Pay {{0}} <Money />. Reveal the first item of the True Final Boss.",

@@ -2459,7 +2459,8 @@
     "1": {
       "Value1": 2,
       "Value2": 1
-    }
+    },
+    "Version": "1.5.1"
   },
   "Lijian": {
     "Rarity": "Common",

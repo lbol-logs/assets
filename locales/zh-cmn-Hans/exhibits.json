@@ -46,7 +46,8 @@
   },
   "SakuyaU": {
     "Name": "魔术扑克",
-    "Description": "提供基础法力<BaseMana />，<h>咲夜</h>的专属卡牌会加入牌池。<br />每场战斗的前 <Value2 /> 回合，抽牌阶段多抽 <Value1 /> 张牌。"
+    "Description": "提供基础法力<BaseMana />，<h>咲夜</h>的专属卡牌会加入牌池。<br />每场战斗的前 <Value2 /> 回合，抽牌阶段多抽 <Value1 /> 张牌。",
+    "Description_1.7.0": "提供基础法力<BaseMana />，<h>咲夜</h>的专属卡牌会加入牌池。<br /><PlayerName />的前 <Value2 /> 个回合和额外回合，抽牌阶段多抽 <Value1 /> 张牌。"
   },
   "CirnoU": {
     "Name": "冰晶翅膀",
@@ -65,13 +66,13 @@
     "Name": "定制太阳镜",
     "Description": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br />对战精英和首领敌人时，<PlayerName />在战斗开始时获得 <Value1 /> 点<h>护盾</h>。\n不会受到<h>折射日光</h>的伤害。"
   },
-  "AliceW": {
+  "AliceU": {
     "Name": "上海人偶",
-    "Description": "提供基础法力<BaseMana />，<h>爱丽丝</h>的专属卡牌会加入牌池。<br />战斗开始时，部署一个<he>上海人偶</he>。"
+    "Description": "提供基础法力<BaseMana />，<h>爱丽丝</h>的专属卡牌会加入牌池。<br />战斗开始时，<h>部署</h>一个<he>上海人偶</he>。"
   },
   "AliceB": {
-    "Name": "引爆装置",
-    "Description": "提供基础法力<BaseMana />，<h>爱丽丝</h>的专属卡牌会加入牌池。<br /><h>撤离</h><he>蓬莱人偶</he>时造成双倍伤害。"
+    "Name": "蓬莱人偶",
+    "Description": "提供基础法力<BaseMana />，<h>爱丽丝</h>的专属卡牌会加入牌池。<br />战斗开始时，<h>部署</h>一个<he>蓬莱人偶</he>。"
   },
   "PiaoliangPanzi": {
     "Name": "漂亮的盘子",
@@ -251,7 +252,7 @@
   },
   "ZhanshuDaoliqi": {
     "Name": "战术导力器",
-    "Description": "在战斗中，<PlayerName />的技能牌费用降低<Mana />。"
+    "Description": "在战斗中，所有的技能牌费用降低<Mana />。"
   },
   "Yashemao": {
     "Name": "鸭舌帽",
@@ -443,7 +444,8 @@
   },
   "TiangouYuyi": {
     "Name": "鸦天狗的羽翼",
-    "Description": "<PlayerName />选择下一关时可以无视路线，剩余 <Counter /> 次。"
+    "Description": "<PlayerName />选择下一关时可以无视路线，剩余 <Counter /> 次。",
+    "Description_1.7.0": "<PlayerName />选择下一关时可以无视路线，剩余 <Counter /> 次。<br /><PlayerName />的第一回合开始时，获得 <Value1 /> 层<h>闪避</h>。"
   },
   "TiangouDunpai": {
     "Name": "狼天狗的盾牌",
@@ -555,7 +557,8 @@
   },
   "HeiseBijiben": {
     "Name": "黑色笔记本",
-    "Description": "战斗开始时，已知姓名的敌人失去 <Value1 /> 点生命。"
+    "Description": "战斗开始时，已知姓名的敌人失去 <Value1 /> 点生命。",
+    "Description_1.7.0": "战斗开始时，已知姓名的敌人失去 <Value1 /> 点生命，受到 <Value2 /> 回合<h>易伤</h>。"
   },
   "Guangjian": {
     "Name": "光剑",
@@ -587,7 +590,12 @@
   },
   "LouguanJian": {
     "Name": "楼观剑",
-    "Description": "<PlayerName />造成攻击伤害后，施加 <Value1 /> 层<h>锁定</h>。"
+    "Description": "<PlayerName />造成攻击伤害后，施加 <Value1 /> 层<h>锁定</h>。",
+    "Description_1.7.0": "<PlayerName />造成攻击伤害后，施加 <Value1 /> 层<h>锁定</h>。<br />不会丢失。"
+  },
+  "AliceBook": {
+    "Name": "《究极的魔法》",
+    "Description": "在战斗中，所有卡牌的<h>增幅</h>费用降低<Mana />。<br />不会丢失。"
   },
   "WaijieYanjing": {
     "Name": "外界的高科技眼镜",

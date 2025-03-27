@@ -66,7 +66,8 @@
   },
   "SakuyaU": {
     "Name": "Magic Poker",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />During the first <Value2 /> turn$t(plurals.-s, { 'count': {{Value2}} }) of each combat, draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during the draw step."
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />During the first <Value2 /> turn$t(plurals.-s, { 'count': {{Value2}} }) of each combat, draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during the draw step.",
+    "Description_1.7.0": "Adds <BaseMana /> to the mana base. Cards unique to <h>Sakuya</h> are added to the card pool.<br />During <PlayerName />'s first <Value2 /> turn$t(plurals.-s, { 'count': {{Value2}} }) and at the start of each extra turn, draw <Value1 /> more card$t(plurals.-s, { 'count': {{Value1}} }) during the draw step."
   },
   "CirnoU": {
     "Name": "Ice Crystal Wings",
@@ -85,13 +86,13 @@
     "Name": "Custom Sunglasses",
     "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Koishi</h> are added to the card pool.<br />At the start of each elite and boss combat, <PlayerName /> gains <Value1 /> <h>Barrier</h>.<br /><h>Refracted Sunlights</h> deal no damage."
   },
-  "AliceW": {
+  "AliceU": {
     "Name": "Shanghai Doll",
     "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Alice</h> are added to the card pool.<br />At the start of combat, <h>Deploy</h> a <he>Shanghai Doll</he>."
   },
   "AliceB": {
-    "Name": "Detonator",
-    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Alice</h> are added to the card pool.<br /><h>Exiting</h> <he>Hourai Dolls</he> deal double damage."
+    "Name": "Hourai Doll",
+    "Description": "Adds <BaseMana /> to the mana base. Cards unique to <h>Alice</h> are added to the card pool.<br />At the start of combat, <h>Deploy</h> a <he>Hourai Doll</he>."
   },
   "PiaoliangPanzi": {
     "Name": "Beautiful Plate",
@@ -267,7 +268,7 @@
   },
   "ShanliangDengpao": {
     "Name": "Shiny Bulb",
-    "Description": "Unlocks the ability to <h>Think</h> at Gaps to choose 1 of <Value1 /> random rare cards to add to the library."
+    "Description": "Unlocks the ability to <h>Think</h> at Gaps to choose up to 1 of <Value1 /> random rare cards to add to the library."
   },
   "ZhanshuDaoliqi": {
     "Name": "Tactical Conductor",
@@ -463,7 +464,8 @@
   },
   "TiangouYuyi": {
     "Name": "Crow Tengu's Wing",
-    "Description": "<PlayerName /> may ignore paths when choosing the next level, up to <Counter /> times."
+    "Description": "<PlayerName /> may ignore paths when choosing the next level, up to <Counter /> times.",
+    "Description_1.7.0": "<PlayerName /> may ignore paths when choosing the next level, up to <Counter /> times.<br />At the start of <PlayerName />'s first turn each combat, gain <Value1 /> <h>Graze</h>."
   },
   "TiangouDunpai": {
     "Name": "Wolf Tengu's Shield",
@@ -575,7 +577,8 @@
   },
   "HeiseBijiben": {
     "Name": "Black Notebook",
-    "Description": "At the start of combat, all enemies with known names lose <Value1 /> life."
+    "Description": "At the start of combat, all enemies with known names lose <Value1 /> life.",
+    "Description_1.7.0": "At the start of combat, all enemies with known names lose <Value1 /> life and gain <Value2 /> <h>Vulnerable</h>."
   },
   "Guangjian": {
     "Name": "Lightsaber",
@@ -607,7 +610,12 @@
   },
   "LouguanJian": {
     "Name": "Roukanken",
-    "Description": "After <PlayerName /> deals attack damage, apply <Value1 /> <h>Lock On</h> to the target(s)."
+    "Description": "After <PlayerName /> deals attack damage, apply <Value1 /> <h>Lock On</h> to the target(s).",
+    "Description_1.7.0": "After <PlayerName /> deals attack damage, apply <Value1 /> <h>Lock On</h> to the target(s).<br />This lasts until the end of the run."
+  },
+  "AliceBook": {
+    "Name": "\"Ultimate Magic\"",
+    "Description": "While in combat, <h>Kicker</h> costs for cards cost <Mana /> less.<br />This lasts until the end of the run."
   },
   "WaijieYanjing": {
     "Name": "Hi-Tech Glasses From the Outside World",

@@ -68,7 +68,8 @@
     "Rarity": "Shining",
     "Value1": 1,
     "Value2": 3,
-    "BaseMana": "U"
+    "BaseMana": "U",
+    "Version": "1.7.0"
   },
   "CirnoU": {
     "Owner": "Cirno",
@@ -529,7 +530,8 @@
   "TiangouYuyi": {
     "Rarity": "Common",
     "Value1": 1,
-    "InitialCounter": 3
+    "InitialCounter": 3,
+    "Version": "1.7.0"
   },
   "TiangouDunpai": {
     "Rarity": "Common",
@@ -651,7 +653,8 @@
   "HeiseBijiben": {
     "Rarity": "Common",
     "Value1": 30,
-    "Value2": 1
+    "Value2": 1,
+    "Version": "1.7.0"
   },
   "Guangjian": {
     "Rarity": "Common",
@@ -684,7 +687,8 @@
   },
   "LouguanJian": {
     "Rarity": "Rare",
-    "Value1": 1
+    "Value1": 1,
+    "Version": "1.7.0"
   },
   "WaijieYanjing": {
     "Rarity": "Rare",
