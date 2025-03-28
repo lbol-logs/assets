@@ -1986,11 +1986,11 @@
   "SuperNova": {
     "Rarity": "Rare",
     "Type": "Skill",
-    "Colors": 1,
+    "Colors": "R",
     "IsXCost": false,
     "Owner": "Marisa",
     "0": {
-      "Cost": "R",
+      "Cost": 1,
       "Value1": 2,
       "Mana": "RR",
       "Keywords": "Exile"
@@ -5073,7 +5073,7 @@
     "IsXCost": false,
     "Owner": "Koishi",
     "0": {
-      "Cost": "1G",
+      "Cost": "G",
       "Keywords": "Exile,Retain"
     },
     "1": {
