@@ -1335,7 +1335,7 @@
   "KoishiWake": {
     "Name": "回神",
     "Description": "离开当前的<h>心境</h>，恢复 <Value1 /> 点生命。<br /><h>神游</h>：额外获得 <Shield /> 点<h>护盾</h>。",
-    "Description_1.7.0": "<h>热情</h>：进行一次<h>追加攻击</h>。<br /><h>平静</h>：获得 <Shield /> 点<h>护盾</h>。<br /><h>神游</h>：获得 <Value1 /> 次<h>神游</h>出牌机会。"
+    "Description_1.7.0": "<h>热情</h>：进行一次<h>追加攻击</h>。<br /><h>平静</h>：获得 <Shield /> 点<h>护盾</h>。<br /><h>神游</h>：获得 <Value1 /> 次<h>神游</h>出牌机会，<h>放逐</h><SelfName />。"
   },
   "KoishiGainColorless": {
     "Name": "放空思绪",

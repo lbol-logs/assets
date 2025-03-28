@@ -879,7 +879,7 @@
   },
   "TimeMagic": {
     "Name": "Time Magic",
-    "Description": "Choose <Value1 /> of <Value2 /> <hp>completely random</hp> non-Common card$t(plurals.-s, { 'count': {{Value2}} }) to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h>, and <h>Ethereal</h>, and mana of any color can be spent to pay $t(dependentPossessives.its, { 'count': {{Value1}} }) cost$t(plurals.-s, { 'count': {{Value1}} }), which is reduced by <Mana />.<br />Repeat this effect at the start of each extra turn."
+    "Description": "Choose <Value1 /> of <Value2 /> <hp>completely random</hp> non-Common card$t(plurals.-s, { 'count': {{Value2}} }) to add to the hand. $t(subjects.It, { 'count': {{Value1}} }) $t(subjects.has, { 'count': {{Value1}} }) <h>Exile</h>, and <h>Ethereal</h>, and mana of any color can be spent to pay $t(dependentPossessives.its, { 'count': {{Value1}} }) cost$t(plurals.-s, { 'count': {{Value1}} }), which is reduced by <Mana />.<br />Repeat this effect at the start of each extra turn."
   },
   "TimeWalk": {
     "Name": "Time Walk",
@@ -1365,7 +1365,7 @@
   "KoishiWake": {
     "Name": "Mental Reset",
     "Description": "Exit the current <h>Mental State</h>. Gain <Value1 /> life.<br /><h>In Fugue</h>: Gain <Shield /> <h>Barrier</h>.",
-    "Description_1.7.0": "<h>In Passion</h>: Perform a <h>Follow-Up Attack</h>.<br /><h>In Serenity</h>: Gain <Shield /> <h>Barrier</h>.<br /><h>In Fugue</h>: Gain <Value1 /> <h>Fugue</h> card use$t(plurals.-s, { 'count': {{Value1}} })."
+    "Description_1.7.0": "<h>In Passion</h>: Perform a <h>Follow-Up Attack</h>.<br /><h>In Serenity</h>: Gain <Shield /> <h>Barrier</h>.<br /><h>In Fugue</h>: Gain <Value1 /> <h>Fugue</h> card use$t(plurals.-s, { 'count': {{Value1}} }) and <h>Exile</h> <SelfName />."
   },
   "KoishiGainColorless": {
     "Name": "Calm Mind",

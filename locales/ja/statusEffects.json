@@ -725,7 +725,7 @@
   },
   "TimeMagicSe": {
     "Name": "タイムマジック",
-    "Description": "<PlayerName />の追加ターンの開始時、<Limit />枚の<hp>完全ランダム</hp>なアンコモンカードから<Level />枚選んで手札に加える。$t(subjects.It, { 'count': {{Value1}} })は<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。"
+    "Description": "<PlayerName />の追加ターンの開始時、<Limit />枚の<hp>完全ランダム</hp>なアンコモンカードから<Level />枚選んで手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。"
   },
   "Cold": {
     "Name": "冷気",

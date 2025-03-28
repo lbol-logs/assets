@@ -1,8 +1,4 @@
 {
-  "subjects": {
-    "It": "それ",
-    "-It_other": "それら"
-  },
   "ReimuAttackR": {
     "Name": "博麗アミュレット",
     "Description": "<Damage />ダメージを与える。"
@@ -849,7 +845,7 @@
   },
   "TimeMagic": {
     "Name": "タイムマジック",
-    "Description": "<Value2 />枚の<hp>完全ランダム</hp>なアンコモンカードから<Value1 />枚選んで手札に加える。$t(subjects.It, { 'count': {{Value1}} })は<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。<br /><PlayerName />の追加ターン開始時、この効果を発動する。"
+    "Description": "<Value2 />枚の<hp>完全ランダム</hp>なコモンでないカードから<Value1 />枚選んで手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。そのコストは<Mana />減少する。<br /><PlayerName />の追加ターン開始時、この効果を発動する。"
   },
   "TimeWalk": {
     "Name": "時渡り",
@@ -1335,7 +1331,7 @@
   "KoishiWake": {
     "Name": "我に返る",
     "Description": "現在の<h>心境</h>を解除し、ライフを<Value1 />回復する。<br /><h>無心</h>状態なら追加で<Shield /><h>バリア</h>を得る。",
-    "Description_1.7.0": "<h>熱情</h>状態なら<h>追加攻撃</h>を行う。<br /><h>平静</h>状態なら<Shield /><h>バリア</h>を得る。<br /><h>無心</h>状態なら<h>無心</h>の発動回数を<Value1 />回増やす。"
+    "Description_1.7.0": "<h>熱情</h>状態なら<h>追加攻撃</h>を行う。<br /><h>平静</h>状態なら<Shield /><h>バリア</h>を得る。<br /><h>無心</h>状態なら<h>無心</h>の発動回数を<Value1 />回増やし、<SelfName />を<h>廃棄</h>する。"
   },
   "KoishiGainColorless": {
     "Name": "無の心",
@@ -1346,8 +1342,8 @@
     "Name": "一時の平穏",
     "Description": "<h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
     "UpgradedDescription": "捨て札のカードを<Value1 />枚選んで手札に加え、それらをそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
-    "Description_1.7.0": "手札のカードを最大<Value1 />枚選び、$t(subjects.It, { 'count': {{Value1}} })をそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
-    "UpgradedDescription1.7.0": "手札か捨て札のカードを最大<Value1 />枚選んで手札に加え、$t(subjects.It, { 'count': {{Value1}} })をそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。"
+    "Description_1.7.0": "手札のカードを最大<Value1 />枚選び、それをそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。",
+    "UpgradedDescription1.7.0": "手札か捨て札のカードを最大<Value1 />枚選んで手札に加え、それをそのターン<h>保留</h>する。<br /><h>平静</h>に入る。<br /><PlayerName />のターンを終了する。"
   },
   "PeaceMemory": {
     "Name": "平静の追憶",
@@ -1435,7 +1431,7 @@
   },
   "DuplicateFollower": {
     "Name": "孤独な心",
-    "Description": "<Damage />ダメージを与える。<Mana />を得る。<br /><h>戦闘開始時</h>：このカードのコピーを<Value1 />枚山札に加える。"
+    "Description": "<Damage />ダメージを与える。<br /><Mana />を得る。<br /><h>戦闘開始時</h>：このカードのコピーを<Value1 />枚山札に加える。"
   },
   "AncestorDream": {
     "Name": "夢枕にご先祖総立ち",
@@ -1528,8 +1524,8 @@
   },
   "ButterflyDream": {
     "Name": "胡蝶の夢",
-    "Description": "<PlayerName />のターン開始時、<hp>完全ランダム</hp>なレアカードを<Value1 />枚手札に加える。$t(subjects.It, { 'count': {{Value1}} })は<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。",
-    "Description_1.6.1": "<hp>完全ランダム</hp>なレアカードを<Value1 />枚山札の一番上に置く。$t(subjects.It, { 'count': {{Value1}} })は<h>補充</h>、<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。<br /><PlayerName />のターン開始時、この効果を発動する。"
+    "Description": "<PlayerName />のターン開始時、<hp>完全ランダム</hp>なレアカードを<Value1 />枚手札に加える。それは<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。",
+    "Description_1.6.1": "<hp>完全ランダム</hp>なレアカードを<Value1 />枚山札の一番上に置く。それは<h>補充</h>、<h>廃棄</h>と<h>虚無</h>を持ち、どの色のマナでもコストを支払うことができる。<br /><PlayerName />のターン開始時、この効果を発動する。"
   },
   "KokoroFriend": {
     "Name": "ペルソナに目覚めし者、こころ",
@@ -1577,13 +1573,16 @@
     "Description": "<Block /><h>ブロック</h>を得る。"
   },
   "DeployShanghai": {
-    "Name": "人形修繕"
+    "Name": "人形修繕",
+    "Description": "<he>上海人形</he>を1体<h>配置</h>する。<br />または、人形を1体<h>昇格</h>する。"
   },
   "DeployPenglai": {
-    "Name": "乙女文楽"
+    "Name": "乙女文楽",
+    "Description": "<he>蓬莱人形</he>を1体<h>配置</h>する。<br /><h>キッカー<KickerCost />：</h>もう1体<h>配置</h>する。"
   },
   "SacrificeDoll": {
-    "Name": "リターンイナニメトネス"
+    "Name": "リターンイナニメトネス",
+    "Description": "人形を1体戦闘から除外し、敵全体に<Damage />ダメージを与える。<br /><h>キッカー<KickerCost />：</h>この処理をもう1回行う。"
   },
   "AliceKickerAttack": {
     "Name": "キッカー攻撃",

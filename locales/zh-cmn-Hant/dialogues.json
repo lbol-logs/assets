@@ -47,7 +47,7 @@
     "ShopUpgradePrice": "{{0}} 点<Money />"
   },
   "RinnosukeTrade": {
-    "line:03aa37a": "「有什麼唔要的道具我可以回收」",
+    "line:03aa37a": "「有什麼不要的道具我可以回收」",
     "line:01e38f2": "【交易】賣出<h>{{0}}</h> ，獲得 {{1}} 點<Money />",
     "line:0de0aae": "【無效】沒有可以賣的道具了",
     "line:06c2fe7": "【交易】卖出<h>{{0}}</h> ，获得 {{1}} 点<Money />",
