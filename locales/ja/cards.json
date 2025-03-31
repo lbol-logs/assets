@@ -21,7 +21,7 @@
   },
   "DoubleJiejie": {
     "Name": "二重結界",
-    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある場合、ダメージを<Value1 />回与える。"
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />が<h>バリア</h>を持っている場合、ダメージを<Value1 />回与える。"
   },
   "Fengmozhen": {
     "Name": "封魔針",
@@ -67,7 +67,7 @@
   },
   "Jinfuzhen": {
     "Name": "緊縛陣",
-    "Description": "<Damage />ダメージを与える。<br /><PlayerName />に<h>バリア</h>がある場合、<h>弱体</h><Value1 />を与える。"
+    "Description": "<Damage />ダメージを与える。<br /><PlayerName />が<h>バリア</h>を持っている場合、<h>弱体</h><Value1 />を与える。"
   },
   "LingfuHuti": {
     "Name": "護身の霊符",
@@ -1454,7 +1454,8 @@
   },
   "KoishiDrawTopCards": {
     "Name": "弾幕のロールシャッハ",
-    "Description": "山札の上から<Value1 />枚のカードを見る。山札に残すカードを1枚選び、残りを全て引く。"
+    "Description": "山札の上から<Value1 />枚のカードを見る。山札に残すカードを1枚選び、残りを全て引く。",
+    "Description_1.7.0": "山札の上から<Value1 />枚のカードを見る。山札に残すカードを1枚選び、残りを全て手札に加える。"
   },
   "GainInspiration": {
     "Name": "考えさせて",

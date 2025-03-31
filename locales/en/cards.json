@@ -1232,7 +1232,7 @@
     "Description": "At the start of <PlayerName />'s turn, apply <h>Cold</h> to each enemy.<br />Apply <h>Cold</h> to each enemy."
   },
   "PlayWithWaste": {
-    "Name": "Neighbours from Hell",
+    "Name": "Neighbors from Hell",
     "Description": "Choose 1 of <Value1 /> non-Rare <h>Tool</h> cards to add to the hand.<br />It's treated as a <h>Copy</h> and has <h>Limited【1】</h>."
   },
   "StarFriend": {
@@ -1492,7 +1492,8 @@
   },
   "KoishiDrawTopCards": {
     "Name": "Rorschach Test",
-    "Description": "Look at the top <Value1 /> cards of the draw pile. Choose one to leave in the draw pile and draw the others."
+    "Description": "Look at the top <Value1 /> cards of the draw pile. Choose one to leave in the draw pile and draw the others.",
+    "Description_1.7.0": "Look at the top <Value1 /> cards of the draw pile. Choose one to leave in the draw pile and put the others into the hand."
   },
   "GainInspiration": {
     "Name": "Lemme Think",

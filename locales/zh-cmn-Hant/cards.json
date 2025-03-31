@@ -1462,7 +1462,8 @@
   },
   "KoishiDrawTopCards": {
     "Name": "墨跡測驗",
-    "Description": "展示抽牌堆頂的 <Value1 /> 張牌，選擇一張置於原處，抽取剩餘的牌。"
+    "Description": "展示抽牌堆頂的 <Value1 /> 張牌，選擇一張置於原處，抽取剩餘的牌。",
+    "Description_1.7.0": "展示抽牌堆頂的 <Value1 /> 張牌，選擇一張置於原處，將其餘的牌移入手中。"
   },
   "GainInspiration": {
     "Name": "讓我好好想想",

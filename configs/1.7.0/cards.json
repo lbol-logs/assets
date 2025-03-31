@@ -5427,7 +5427,8 @@
       "Cost": 1,
       "Value1": 4,
       "Keywords": "Initial"
-    }
+    },
+    "Version": "1.7.0"
   },
   "GainInspiration": {
     "Rarity": "Rare",
