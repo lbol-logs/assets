@@ -929,7 +929,7 @@
   "KoishiDnaSe": {
     "Name": "DNA's Flaw",
     "Description": "At the start of <PlayerName />'s turn, immediately play the top $t(plurals.level, { 'count': {{Level}} })card$t(plurals.-s, { 'count': {{Level}} }) in the draw pile.",
-    "Description_1.7.0": "At the start of <PlayerName />'s turn, add <Level /> <h>DNA Transcript$t(plurals.-s, { 'count': {{Level}} })</h> to the hand with <h>Exile</h> and <h>Ethereal</h>."
+    "Description_1.7.0": "At the start of <PlayerName />'s turn, add <Level /> <h>DNA Transcript$t(plurals.-s, { 'count': {{Level}} })</h> to the hand."
   },
   "LoveFireSe": {
     "Name": "Embers of Love",
