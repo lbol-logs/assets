@@ -408,7 +408,7 @@
   },
   "JingwanMudan": {
     "Name": "京丸牡丹",
-    "Description": "每使用 <Value1 /> 點<Mana />，對所有敵人 <Value2 /> 點傷害。戰鬥結束時重置計數。"
+    "Description": "每使用 <Value1 /> 點<Mana />，對所有敵人造成 <Value2 /> 點傷害。戰鬥結束時重置計數。"
   },
   "Shuye": {
     "Name": "樹葉",

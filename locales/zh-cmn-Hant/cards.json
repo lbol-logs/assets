@@ -869,7 +869,7 @@
   },
   "PerfectServant": {
     "Name": "完美從者",
-    "Description": "<h>每支付</h><ManaWW />：下回合抽牌階段結束時，所有手牌<h>暫時降低</h> <Value1 /> 點隨機的費用。<br /><h>每支付</h><ManaU />：下回開始時獲得<Mana />，並多抽 <Value2 /> 張牌。"
+    "Description": "<h>每支付</h><ManaWW />：下回合抽牌階段結束時，所有手牌<h>暫時降低</h> <Value1 /> 點隨機的費用。<br /><h>每支付</h><ManaU />：下回合開始時獲得<Mana />，並多抽 <Value2 /> 張牌。"
   },
   "BackToFuture": {
     "Name": "回到未來",

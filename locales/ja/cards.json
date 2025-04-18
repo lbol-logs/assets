@@ -360,7 +360,7 @@
   },
   "MarisaDraw": {
     "Name": "臨機応変",
-    "Description": "カード<Value1 />枚を引く。<br /><PlayerName />が<h>バースト</h>状態の時、<Mana />を得る。"
+    "Description": "カードを<Value1 />枚引く。<br /><PlayerName />が<h>バースト</h>状態の時、<Mana />を得る。"
   },
   "DarkSatellite": {
     "Name": "ピッチダークサテライト",
@@ -2096,7 +2096,7 @@
   },
   "ReadBook": {
     "Name": "本読み",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>初見</h>：<Value1 />枚のランダムな青か白、またはその2色であるカードから1枚を選び、手札に加える。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>初見</h>：<Value1 />枚のランダムな青か白、またはその2色のカードから1枚を選び、手札に加える。"
   },
   "ShuimuBlock": {
     "Name": "石積み",
