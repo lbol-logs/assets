@@ -973,8 +973,8 @@
   "MaidFriend": {
     "Name": "メイド妖精、カスミ",
     "PassiveDescription": "最もライフの少ない敵に<Damage />ダメージを与える。",
-    "ActiveDescription": "上記のダメージを即時に与える。<br /><h>投げナイフ</h>を<Value2 />枚手札に加える。",
-    "UltimateDescription": "上記のダメージを即時に与える。全ての<SelfName />が与えるダメージが<Value1 />増加する。"
+    "ActiveDescription": "直ちにダメージを与える。<br /><h>投げナイフ</h>を<Value2 />枚手札に加える。",
+    "UltimateDescription": "直ちにダメージを与える。全ての<SelfName />が与えるダメージが<Value1 />増加する。"
   },
   "ShiverArmor": {
     "Name": "氷鏡反射",
@@ -1204,8 +1204,8 @@
   "StarFriend": {
     "Name": "降り注ぐ星の光、スター",
     "PassiveDescription": "敵全体に<Damage />ダメージを与える。",
-    "ActiveDescription": "即時にダメージを<Value1 />回与える。",
-    "UltimateDescription": "全ての<SelfName />がダメージを与える度、<h>ロックオン</h><Light />を与える。<br />即時にダメージを<Value2 />回与える。"
+    "ActiveDescription": "直ちにダメージを<Value1 />回与える。",
+    "UltimateDescription": "全ての<SelfName />がダメージを与える度、<h>ロックオン</h><Light />を与える。<br />直ちにダメージを<Value2 />回与える。"
   },
   "FairyTrick": {
     "Name": "妖精の悪戯",
@@ -1220,7 +1220,7 @@
     "Name": "輝ける日の光、サニー",
     "PassiveDescription": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
     "ActiveDescription": "<h>光学迷彩</h><Light />を得る。",
-    "UltimateDescription": "即時にダメージを<Value1 />回与える。<br /><h>火力</h><Value2 />を得る。"
+    "UltimateDescription": "直ちにダメージを<Value1 />回与える。<br /><h>火力</h><Value2 />を得る。"
   },
   "Xiguadao": {
     "Name": "スイカソード",
