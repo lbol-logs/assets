@@ -262,7 +262,9 @@
   "GainZeroAttackSe": {},
   "KoishiDnaSe": {},
   "UpgradeAllHandSe": {},
-  "ButterflyDreamSe": {},
+  "ButterflyDreamSe": {
+    "Version": "1.6.1"
+  },
   "KoishiPhoneSe": {},
   "YukariFlyObjectSe": {},
   "LoseSpiritSe": {},
