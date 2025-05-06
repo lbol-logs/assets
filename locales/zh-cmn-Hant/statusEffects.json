@@ -132,7 +132,7 @@
   },
   "Reflect": {
     "Name": "反射",
-    "Description": "受到攻擊傷害時，對攻擊者造成 <Level /> 點傷害，然後移除本效果。"
+    "Description": "受到攻擊時，對攻擊者造成 <Level /> 點傷害，然後移除本效果。"
   },
   "NextAttackUp": {
     "Name": "攻擊傷害提高",
@@ -895,7 +895,8 @@
   },
   "ButterflyDreamSe": {
     "Name": "莊周夢蝶",
-    "Description": "<PlayerName />的回合開始時，將 <Level /> 張<hp>完全隨機</hp>的稀有牌加入手中，它具有<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付。"
+    "Description": "<PlayerName />的回合開始時，將 <Level /> 張<hp>完全隨機</hp>的稀有牌加入手中，它具有<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付。",
+    "Description_1.6.1": "<PlayerName />的回合開始時，將 <Level /> 張<hp>完全隨機</hp>的稀有牌置於抽牌堆頂，它具有<h>放逐</h>、<h>虛無</h>，費用可以用任意顏色支付。"
   },
   "KoishiPhoneSe": {
     "Name": "恐怖的可愛來電",

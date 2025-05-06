@@ -728,7 +728,7 @@
   },
   "SakuyaInvestigate": {
     "Name": "时停侦探",
-    "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。<br />进入额外的回合时再次生效。"
+    "Description": "对所有敌人施加 <Value1 /> 层<h>锁定</h>。<br />进入额外回合时再次生效。"
   },
   "GainKnife": {
     "Name": "星剑飞舞",
@@ -1116,7 +1116,7 @@
   },
   "FairyOnIce": {
     "Name": "冰上的妖精",
-    "Description": "将 <Value1 /> 张<h>冰之翼</h>置于牌堆顶。<br />获得 <Value2 /> 层<h>闪避</h>。"
+    "Description": "将 <Value1 /> 张<h>冰之翼</h>置于抽牌堆顶。<br />获得 <Value2 /> 层<h>闪避</h>。"
   },
   "FruitShake": {
     "Name": "水果碎碎冰",
@@ -1376,7 +1376,7 @@
   "TheHermit": {
     "Name": "塔罗牌：隐士",
     "Description": "<h>占卜</h> <Scry /> 。<br />获得<Mana />。<br /><h>神游</h>：<SelfName />费用为<Mana0 />。",
-    "UpgradedDescription": "<h>占卜</h> <Scry /> ，<h>升级</h>牌堆顶的牌。<br />获得<Mana />。<br /><h>神游</h>：<SelfName />费用为<Mana0 />。"
+    "UpgradedDescription": "<h>占卜</h> <Scry /> ，<h>升级</h>抽牌堆顶的牌。<br />获得<Mana />。<br /><h>神游</h>：<SelfName />费用为<Mana0 />。"
   },
   "GainZeroAttack": {
     "Name": "DNA 的瑕疵",
@@ -1493,7 +1493,7 @@
   },
   "KoishiTouying": {
     "Name": "恋之埋火",
-    "Description": "获得<Mana />。<br />从 <Value1 /> 张随机的卡牌中选择一张置于牌堆顶，它具有<h>填充</h>、<h>放逐</h>、<h>虚无</h>。<br />这些卡牌的费用总数不少于 <Value2 />。"
+    "Description": "获得<Mana />。<br />从 <Value1 /> 张随机的卡牌中选择一张置于抽牌堆顶，它具有<h>填充</h>、<h>放逐</h>、<h>虚无</h>。<br />这些卡牌的费用总数不少于 <Value2 />。"
   },
   "LoveFire": {
     "Name": "恋之埋火",
@@ -1534,7 +1534,7 @@
   "ButterflyDream": {
     "Name": "庄周梦蝶",
     "Description": "<PlayerName />的回合开始时，将 <Value1 /> 张<hp>完全随机</hp>的稀有牌加入手中，$t(subjects.It, { 'count': {{Value1}} })具有<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。",
-    "Description_1.6.1": "将 <Value1 /> 张<hp>完全随机</hp>的稀有牌置于牌堆顶，$t(subjects.It, { 'count': {{Value1}} })具有<h>填充</h>、<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。<br /><PlayerName />的每个回合开始后再次生效。"
+    "Description_1.6.1": "将 <Value1 /> 张<hp>完全随机</hp>的稀有牌置于抽牌堆顶，$t(subjects.It, { 'count': {{Value1}} })具有<h>填充</h>、<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。<br /><PlayerName />的每个回合开始后再次生效。"
   },
   "KokoroFriend": {
     "Name": "人格面具觉醒秦心",
@@ -2638,7 +2638,7 @@
   },
   "QiannianShenqiCard": {
     "Name": "我的回合",
-    "Description": "在抽牌达到<he>金字塔形状的积木</he>的上限后，还能以失去 <Value1 /> 点生命为代价继续抽牌。<br />打出后效果持续到本场战斗结束。"
+    "Description": "在抽牌达到<he>金字塔形状的积木</he>的上限后，还能以失去 <Value1 /> 点生命为代价继续抽牌，直到本场战斗结束。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "MeilingLianhua": {
     "Name": "极彩「彩光乱舞」",

@@ -596,7 +596,7 @@
     "Name": "七曜の錬金術師、パチュリー",
     "PassiveDescription": "ランダムな<PassiveColor />個のマナを<h>彩色</h>マナに変換する。",
     "ActiveDescription": "<h>火力</h><Value1 />と<h>霊力</h><Value1 />を得る。<Power /><P />を得る。",
-    "Active2Description": "<h>ポーション</h><Value2 />枚を手札に加える。"
+    "Active2Description": "<h>ポーション</h>を<Value2 />枚手札に加える。"
   },
   "MoguMaster": {
     "Name": "キノコの専門家",
@@ -1119,7 +1119,7 @@
     "Description": "敵全体に<Damage />ダメージを与える。<br />命中した場合、<h>冷気</h>を与える。<br />このターン中に<h>パートナー</h>を召喚した場合、<SelfName />ののコストは<Mana />。"
   },
   "SummerParty": {
-    "Name": "冰爽なるパーティー",
+    "Name": "清涼なるパーティー",
     "Description": "<h>フロストアーマー</h><Value1 />を得る。<br />手札の全ての<h>パートナー</h>は<h>支援度</h><Value2 />を得る。"
   },
   "ColdChain": {
@@ -1740,7 +1740,7 @@
   },
   "QingeDraw": {
     "Name": "タオ胎動",
-    "Description": "<Block /><h>ブロック</h>を得る。<br />カードを<Value1 />枚引く。引いたカードのうちマナコストの合計が1より大きい、または<h>禁止</h>を持つカードを捨てる。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br />カードを<Value1 />枚引く。引いたカードのうちマナコストの合計が1より大きいカードを捨てる。"
   },
   "HuiyinMoreDraw": {
     "Name": "伝道教示",
@@ -2630,7 +2630,7 @@
   },
   "QiannianShenqiCard": {
     "Name": "俺のターン",
-    "Description": "<he>ピラミッド型のパズル</he>の上限枚数に達してもカードを引くことができる。<br />制限枚数を超えてカードを1枚引くごとにライフを<Value1 />失う。<br />この効果はこの戦闘中持続する。"
+    "Description": "この戦闘中、<he>ピラミッド型のパズル</he>の上限枚数に達してもカードを引くことができる。<br />制限枚数を超えてカードを1枚引くごとにライフを<Value1 />失う。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "MeilingLianhua": {
     "Name": "彩光乱舞",

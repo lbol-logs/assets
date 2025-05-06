@@ -182,7 +182,7 @@
   },
   "Reflect": {
     "Name": "Reflection",
-    "Description": "When damaged, deal <Level /> damage back to the attacker and remove this effect."
+    "Description": "When attacked, deal <Level /> damage back to the attacker and remove this effect."
   },
   "NextAttackUp": {
     "Name": "Attack Boost",
@@ -945,7 +945,8 @@
   },
   "ButterflyDreamSe": {
     "Name": "The Butterfly Dream",
-    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to the hand. $t(demonstratives.This, { 'count': {{Level}} }) card$t(plurals.-s, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>, <h>Ethereal</h> and mana of any color can be spent to pay the mana cost."
+    "Description": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to the hand. $t(demonstratives.This, { 'count': {{Level}} }) card$t(plurals.-s, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Exile</h>, <h>Ethereal</h> and mana of any color can be spent to pay the mana cost.",
+    "Description_1.6.1": "At the start of <PlayerName />'s turn, add <Level /> <hp>completely random</hp> Rare card$t(plurals.-s, { 'count': {{Level}} }) to the top of the draw pile. $t(demonstratives.This, { 'count': {{Level}} }) card$t(plurals.-s, { 'count': {{Level}} }) $t(subjects.has, { 'count': {{Level}} }) <h>Replenish</h>, <h>Exile</h>, <h>Ethereal</h> and mana of any color can be spent to pay the mana cost."
   },
   "KoishiPhoneSe": {
     "Name": "Terrifyingly Cute Call",

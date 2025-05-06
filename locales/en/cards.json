@@ -274,8 +274,8 @@
   },
   "HuijuQiankun": {
     "Name": "Yin-Yang Confluence",
-    "Description": "<h>Exile</h> each card from the hand.<br />Then, add a <h>Yin-Yang Orb</h> to the hand. Increase its damage by <Value1 /> for each card <h>Exiled</h> this way.",
-    "UpgradedDescription": "<h>Exile</h> each card from the hand.<br />Then, add a <h>Yin-Yang Orb</h> to the hand. Increase its damage by <Value1 /> and its <h>Barrier</h> by <Value2 /> for each card <h>Exiled</h> this way."
+    "Description": "Add a <h>Yin-Yang Orb</h> to the hand.<br /><h>Exile</h> all other cards in the hand, then increase the damage of <h>Yin-Yang Orb</h> by <Value1 /> for each card <h>Exiled</h> this way.",
+    "UpgradedDescription": "Add a <h>Yin-Yang Orb</h> to the hand.<br /><h>Exile</h> all other cards in the hand, then increase the damage of <h>Yin-Yang Orb</h> by <Value1 /> and the <h>Barrier</h> by <Value2 /> for each card <h>Exiled</h> this way."
   },
   "DoubleLianhuadie": {
     "Name": "Dichromatic Lotus Butterfly",
@@ -2672,7 +2672,7 @@
   },
   "QiannianShenqiCard": {
     "Name": "My Turn",
-    "Description": "Cards may be drawn past the <he>Pyramid-Shaped Puzzle</he>'s limit at the cost of <Value1 /> life per extra draw.<br />This lasts until the end of combat."
+    "Description": "For the rest of combat, cards may be drawn past the <he>Pyramid-Shaped Puzzle</he>'s limit at the cost of <Value1 /> life per extra draw.<br /><h>Limited【<DeckCounter />】</h>"
   },
   "MeilingLianhua": {
     "Name": "Vivid Chaotic Dance",
