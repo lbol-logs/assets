@@ -417,7 +417,11 @@
   },
   "ShinningPotion": {
     "Name": "ヤコウタケ",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>ポーション</h>を1枚山札に加える。<br /><h>オーバードライブ<Value2 /></h>：代わりに2枚加える。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>ポーション</h>を1枚山札に加える。<br /><h>オーバードライブ<Value2 /></h>：代わりに<Value1 />枚加える。"
+  },
+  "ShiningPotion": {
+    "Name": "ヤコウタケ",
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>ポーション</h>を1枚山札に加える。<br /><h>オーバードライブ<Value2 /></h>：代わりに<Value1 />枚加える。"
   },
   "Yinhe": {
     "Name": "銀河",

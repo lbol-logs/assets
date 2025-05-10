@@ -513,7 +513,7 @@
   },
   "BoliPhantomSe": {
     "Name": "博丽幻影",
-    "Description": "每<h>放逐</h>一张不是<h>封魔针</h>的牌，将 <Level /> 张<h>封魔针</h>加入手中，$t(subjects.it, { 'count': {{Level}} })<h>暂塑</h>为<Mana />。"
+    "Description": "每<h>放逐</h>一张不是<h>封魔针</h>的牌，将 <Level /> 张<h>封魔针</h>加入手中，$t(subjects.It, { 'count': {{Level}} })<h>暂塑</h>为<Mana />。"
   },
   "TaijiLiangyiSe": {
     "Name": "太极生两仪",
@@ -649,7 +649,7 @@
   },
   "BladePowerSe": {
     "Name": "快闪之银",
-    "Description": "主动使用<h>飞刀</h>后将 <Level /> 张随机的攻击牌加入手中，$t(subjects.it, { 'count': {{Level}} })<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
+    "Description": "主动使用<h>飞刀</h>后将 <Level /> 张随机的攻击牌加入手中，$t(subjects.It, { 'count': {{Level}} })<h>暂塑</h>为<Mana />，具有<h>放逐</h>、<h>虚无</h>。"
   },
   "PerfectServantUSe": {
     "Name": "额外备案",
@@ -874,7 +874,7 @@
   },
   "GainZeroAttackSe": {
     "Name": "DNA 的瑕疵",
-    "Description": "<PlayerName />的回合开始时，将 <Level /> 张<h>DNA 转录</h>加入手中，$t(subjects.it, { 'count': {{Level}} })具有<h>放逐</h>、<h>虚无</h>。"
+    "Description": "<PlayerName />的回合开始时，将 <Level /> 张<h>DNA 转录</h>加入手中，$t(subjects.It, { 'count': {{Level}} })具有<h>放逐</h>、<h>虚无</h>。"
   },
   "KoishiDnaSe": {
     "Name": "DNA 的瑕疵",
@@ -895,8 +895,8 @@
   },
   "ButterflyDreamSe": {
     "Name": "庄周梦蝶",
-    "Description": "<PlayerName />的回合开始时，将 <Level /> 张<hp>完全随机</hp>的稀有牌加入手中，它具有<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。",
-    "Description_1.6.1": "<PlayerName />的回合开始时，将 <Level /> 张<hp>完全随机</hp>的稀有牌置于抽牌堆顶，它具有<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。"
+    "Description": "<PlayerName />的回合开始时，将 <Level /> 张<hp>完全随机</hp>的稀有牌加入手中，$t(subjects.It, { 'count': {{Level}} })具有<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。",
+    "Description_1.6.1": "<PlayerName />的回合开始时，将 <Level /> 张<hp>完全随机</hp>的稀有牌置于抽牌堆顶，$t(subjects.It, { 'count': {{Level}} })具有<h>填充</h>、具有<h>放逐</h>、<h>虚无</h>，费用可以用任意颜色支付。"
   },
   "KoishiPhoneSe": {
     "Name": "恐怖的可爱来电",

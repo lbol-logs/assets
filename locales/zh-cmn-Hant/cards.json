@@ -423,6 +423,10 @@
     "Name": "夜光蘑菇",
     "Description": "獲得 <Block /> 點<h>格擋</h>。<br />將一張<h>不穩定魔藥</h>洗入抽牌堆。<br /><h>超載 <Value2 /> </h>：改為 <Value1 /> 張。"
   },
+  "ShiningPotion": {
+    "Name": "夜光蘑菇",
+    "Description": "獲得 <Block /> 點<h>格擋</h>。<br />將一張<h>不穩定魔藥</h>洗入抽牌堆。<br /><h>超載 <Value2 /> </h>：改為 <Value1 /> 張。"
+  },
   "Yinhe": {
     "Name": "銀河",
     "Description": "獲得 <Block /> 點<h>格擋</h>。<br /><h>被保留時</h>：<h>格擋</h>提高 <Value1 /> 點，直到戰鬥結束。"
