@@ -867,7 +867,7 @@
   },
   "MoodPassion": {
     "Name": "Passion",
-    "Description": "While in <h>Passion</h>, <PlayerName /> deals and takes <Percentage />% more damage.<br /><h>Passion</h> is a <h>Mental State</h>, of which <PlayerName /> can only have one at a time."
+    "Description": "While in <h>Passion</h>, <PlayerName /> deals and takes <Percentage />% more attack damage.<br /><h>Passion</h> is a <h>Mental State</h>, of which <PlayerName /> can only have one at a time."
   },
   "MoodPeace": {
     "Name": "Serenity",

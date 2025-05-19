@@ -9,7 +9,9 @@
     "value1": "",
     "value1_other": "<Value1 /> ",
     "theSumOf": "",
-    "theSumOf_other": "the sum of "
+    "theSumOf_other": "the sum of ",
+    "a": "a ",
+    "a_other": ""
   },
   "subjects": {
     "It": "It",
@@ -1076,7 +1078,7 @@
   "LeidiFriend": {
     "Name": "Letty, Winter Embodied",
     "PassiveDescription": "Apply <h>Cold</h> to a random enemy.",
-    "UltimateDescription": "Deal <Damage /> damage and apply <h>Cold</h> to each enemy."
+    "UltimateDescription": "Deal <Damage /> attack damage and apply <h>Cold</h> to each enemy."
   },
   "ColdSnap": {
     "Name": "Swift Cool",
@@ -1356,7 +1358,7 @@
   },
   "MoodAttack": {
     "Name": "Transference Blade",
-    "Description": "Deal <Damage /> damage.<br />Whenever <PlayerName /> changes <h>Mental States</h>. return <SelfName /> from the discard pile to the hand."
+    "Description": "Deal <Damage /> damage.<br />Whenever <PlayerName /> changes <h>Mental States</h>, return <SelfName /> from the discard pile to the hand."
   },
   "GrazeFollowAttack": {
     "Name": "Instinctive Action",
@@ -1535,7 +1537,7 @@
   },
   "KoishiPlayDiscard": {
     "Name": "Philosophy of the Despised",
-    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and play $t(objects.it, { 'count': {{Value1}} }) as Follow-Up$t(plurals.-s, { 'count': {{Value1}} }).<br />Any non-<h>Follow-Up</h> cards chosen are <h>Exiled</h>."
+    "Description": "Choose up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) from the discard pile and play $t(objects.it, { 'count': {{Value1}} }) as $t(plurals.a, { 'count': {{Value1}} })<h>Follow-Up$t(plurals.-s, { 'count': {{Value1}} })</h>.<br />Any non-<h>Follow-Up</h> cards chosen are <h>Exiled</h>."
   },
   "KoishiPotential": {
     "Name": "Unleashed Potential",
@@ -2778,19 +2780,19 @@
   },
   "NightMana1": {
     "Name": "Long Night: 11PM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards in the hand cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "NightMana2": {
     "Name": "Long Night: 1AM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards in the hand cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "NightMana3": {
     "Name": "Long Night: 3AM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards in the hand cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "NightMana4": {
     "Name": "Long Night: 5AM",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
+    "Description": "If there is a <SelfName /> in the hand, all cards in the hand cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> <SelfName />."
   },
   "Regret": {
     "Name": "Regret"

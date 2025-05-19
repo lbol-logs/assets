@@ -1046,7 +1046,7 @@
   "LeidiFriend": {
     "Name": "凛冬的化身蕾蒂",
     "PassiveDescription": "对随机一名敌人施加<h>寒冷</h>。",
-    "UltimateDescription": "对所有敌人造成 <Damage /> 点伤害，施加<h>寒冷</h>。"
+    "UltimateDescription": "对所有敌人造成 <Damage /> 点攻击伤害，施加<h>寒冷</h>。"
   },
   "ColdSnap": {
     "Name": "快速降温",

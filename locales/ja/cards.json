@@ -478,7 +478,7 @@
   },
   "ThrowBigStar": {
     "Name": "レッドドワーフ・エクスプロージョン",
-    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>オーバードライブ<Value2 /></h>：ダメージを2回与える。"
+    "Description": "敵全体に<Damage />ダメージを与える。<br /><h>オーバードライブ<Value2 /></h>：代わりにダメージを2回与える。"
   },
   "FireUpBagualu": {
     "Name": "イグニッション",
@@ -1771,7 +1771,7 @@
     "Description": "<Damage />ダメージを<Value1 />回与える。<br />この戦闘の間、<SelfName />を他のランダムな<he>造形術</he>に変化させる。"
   },
   "GuijiZaoxingHu": {
-    "Name": "線形造形術",
+    "Name": "弧形造形術",
     "Description": "<Damage />ダメージを与える。<br />カードを<Value1 />枚引く。<br />この戦闘の間、<SelfName />を他のランダムな<he>造形術</he>に変化させる。"
   },
   "YonglinCard": {
