@@ -1580,25 +1580,6 @@
       "Value2": 2
     }
   },
-  "ShinningPotion": {
-    "Rarity": "Uncommon",
-    "Type": "Defense",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Marisa",
-    "0": {
-      "Cost": "2B",
-      "Block": 12,
-      "Value1": 2,
-      "Value2": 2,
-      "Keywords": "Overdrive"
-    },
-    "1": {
-      "Cost": "1B",
-      "Block": 15,
-      "Keywords": "Overdrive"
-    }
-  },
   "ShiningPotion": {
     "Rarity": "Uncommon",
     "Type": "Defense",
