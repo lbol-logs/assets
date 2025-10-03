@@ -1,0 +1,9554 @@
+{
+  "ReimuAttackR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "ReimuBlockW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "ReimuAttackW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "ReimuBlockR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "YaoguaiBuster": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "RR",
+      "Damage": 7,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "1R",
+      "Value1": 3
+    }
+  },
+  "DoubleJiejie": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WW",
+      "Damage": 12,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "W"
+    }
+  },
+  "Fengmozhen": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 1,
+      "Damage": 10,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Damage": 15,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "Shenyuzha": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 1,
+      "Block": 10,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Block": 15,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "YinyangCard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 2,
+      "Damage": 8,
+      "Shield": 8,
+      "Keywords": "Accuracy,Exile,Retain"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "ShengtianKick": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": 0,
+      "Value2": 4
+    }
+  },
+  "MengzhiYuzha": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Damage": 12
+    },
+    "1": {
+      "Cost": "R"
+    }
+  },
+  "Fengmozhen4": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Damage": 14,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 9,
+      "Value1": 2
+    }
+  },
+  "SmallPanding": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 0
+    }
+  },
+  "TuimofuLuanwu": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2R",
+      "Damage": 8,
+      "Value1": 3
+    },
+    "1": {
+      "Damage": 6,
+      "Value1": 5
+    }
+  },
+  "SuikaOut": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "W",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "Jinfuzhen": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Damage": 15,
+      "Value1": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 19,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "LingfuHuti": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Block": 10,
+      "Shield": 0
+    },
+    "1": {
+      "Block": 0,
+      "Shield": 12
+    }
+  },
+  "JingshenYishi": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WW",
+      "Block": 15
+    },
+    "1": {
+      "Block": 20
+    },
+    "Version": "1.7.0"
+  },
+  "YinyangBaoyu": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WR",
+      "Damage": 12
+    },
+    "1": {
+      "Cost": "H:HWR"
+    }
+  },
+  "ReimuWeiyan": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile,Initial"
+    }
+  },
+  "ZhujiThreeGod": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Block": 1,
+      "Value1": 3,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "OverJingjie": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Value1": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuFestival": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1R",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "Zhuizongfu": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "RR",
+      "Damage": 10,
+      "Value1": 2,
+      "Mana": "R",
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 8,
+      "Value1": 3,
+      "Mana": "RR",
+      "Keywords": "Accuracy"
+    },
+    "Version": "1.6.1"
+  },
+  "FengyinYaomo": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2R",
+      "Damage": 17,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 20,
+      "Value1": 2
+    }
+  },
+  "DanmuDuijue": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2R",
+      "Block": 12,
+      "Shield": 0,
+      "Value1": 12
+    },
+    "1": {
+      "Block": 0,
+      "Shield": 15,
+      "Value1": 15
+    }
+  },
+  "ReimuHeavyAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3R",
+      "Damage": 30,
+      "Value1": 4,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value1": 6,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ReverseJiejie": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "Changzhizhen": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Value1": 6,
+      "Value2": 2,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "ReimuLucky": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Value2": 10,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value2": 12,
+      "Keywords": "Exile"
+    }
+  },
+  "ShensheRichang": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "W",
+      "Value1": 4,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 6,
+      "Keywords": "Exile"
+    }
+  },
+  "TwoBalls": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "W",
+      "Value1": 2,
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "MojingShanjie": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Value1": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "ReimuShrine": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "JiejieAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WW",
+      "Damage": 10,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "W",
+      "Keywords": "Accuracy"
+    }
+  },
+  "DoubleDajiejie": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3W",
+      "Block": 15,
+      "Shield": 15,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Block": 20,
+      "Shield": 20,
+      "Keywords": "Exile"
+    }
+  },
+  "HuanxiangBlock": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2WW",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "1W"
+    }
+  },
+  "MingzhuAntou": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3WW",
+      "Damage": 18,
+      "Value1": 3,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "3W"
+    }
+  },
+  "YakongDianxue": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 9,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ReimuDrink": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "H:HWR",
+      "Value1": 5
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 7
+    },
+    "Version": "1.6.1"
+  },
+  "QinggeManwu": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WR",
+      "Value1": 3,
+      "Value2": 3
+    },
+    "1": {
+      "Cost": "H:HWR"
+    }
+  },
+  "FreeFly": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1HH:HWR",
+      "Mana": "P"
+    },
+    "1": {
+      "Cost": "H:HWR"
+    }
+  },
+  "YinyangXueyin": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WR",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "ReimuFreeAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2WR",
+      "Block": 15,
+      "Value1": 1,
+      "Mana": 0
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "EvilTuiZhi": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "R",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2
+    },
+    "Version": "1.6.0"
+  },
+  "MomentPower": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "RRR",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "R"
+    }
+  },
+  "Wunvyu": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3R",
+      "Damage": 10,
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Accuracy,Exile,Retain"
+    },
+    "1": {
+      "Damage": 12,
+      "Value2": 2,
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "TaijiLiangyi": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2RR"
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "ReimuInstant": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "4R",
+      "Damage": 18,
+      "Mana": 1,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Cost": "3R",
+      "Damage": 24,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "ReimuSilence": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3RR",
+      "Damage": 20,
+      "Value1": 3
+    },
+    "1": {
+      "Damage": 25
+    }
+  },
+  "ChuanyueJiejie": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1W",
+      "Shield": 5,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "HuanxiangTouying": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WW",
+      "Value1": 3,
+      "Mana": "PP"
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "OutInGap": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2W",
+      "Value1": 3,
+      "Mana": 0
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "Jiangshen": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WWW",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Initial"
+    }
+  },
+  "BoliDajiejie": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3WW"
+    },
+    "1": {
+      "Cost": "2W"
+    }
+  },
+  "ReimuGrace": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WR",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "HuijuQiankun": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1WR",
+      "Value1": 4,
+      "Value2": 0
+    },
+    "1": {
+      "Value2": 4
+    }
+  },
+  "DoubleLianhuadie": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WWRR",
+      "Value1": 7
+    },
+    "1": {
+      "Value1": 9
+    }
+  },
+  "BoliPhantom": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1WWRR",
+      "Mana": 0
+    },
+    "1": {
+      "Cost": "WWRR"
+    }
+  },
+  "KuosanJiejie": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": true,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WR",
+      "Damage": 7,
+      "Block": 7
+    },
+    "1": {
+      "Damage": 9,
+      "Block": 9
+    }
+  },
+  "QiqingYishi": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "KuosanLingfu": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3U",
+      "Damage": 13
+    },
+    "1": {
+      "Cost": 3,
+      "Damage": 14
+    }
+  },
+  "DanceAroundLake": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2U",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "U"
+    }
+  },
+  "ReimuHuashan": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "1WU",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1H:HWU",
+      "Keywords": "Exile"
+    },
+    "Version": "1.6.1"
+  },
+  "AutoQumobang": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 3,
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Replenish"
+    },
+    "Version": "1.6.1"
+  },
+  "ReimuEvilTerminator": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "B",
+      "Value1": 2,
+      "Mana": "PP"
+    },
+    "1": {
+      "Value1": 3,
+      "Mana": "PPP"
+    }
+  },
+  "GapLady": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "B",
+      "Value1": 3,
+      "Value2": 3,
+      "Mana": "PPP",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value2": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "ChunseXiaojing": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 1,
+      "Value1": 2,
+      "Value2": 2,
+      "Mana": "PP"
+    },
+    "1": {
+      "Value1": 3,
+      "Mana": "PPP"
+    }
+  },
+  "ReimuSakura": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "2G",
+      "Damage": 18,
+      "Value1": 2,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 20
+    }
+  },
+  "SenluoJiejie": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "3G",
+      "Shield": 40,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Shield": 50,
+      "Keywords": "Exile"
+    }
+  },
+  "YinyangQueen": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": "WG",
+      "Value1": 2,
+      "Value2": 2,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": -2,
+      "UltimateCost": -8
+    },
+    "1": {
+      "Cost": "H:HWG",
+      "PassiveCost": 2
+    }
+  },
+  "ShuihuoCard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 2,
+      "Damage": 8,
+      "Block": 8,
+      "Value1": 2,
+      "Keywords": "Accuracy,Exile,Retain"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "FengleiCard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 2,
+      "Damage": 8,
+      "Value1": 2,
+      "Keywords": "Accuracy,Exile,Retain"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "ShanyuCard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Reimu",
+    "0": {
+      "Cost": 2,
+      "Block": 8,
+      "Shield": 8,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "MarisaAttackB": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1B",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "MarisaBlockR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1R",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "MarisaAttackR": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "MarisaBlockB": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1B",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "CraftPotion": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BB",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2,
+      "Keywords": "Debut"
+    }
+  },
+  "RedLaser": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "RR",
+      "Damage": 14,
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Overdrive",
+      "AttackTimes": 2,
+      "UpgradeDamage": 12
+    },
+    "1": {
+      "Cost": "1R",
+      "Damage": 12
+    }
+  },
+  "Potion": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 0,
+      "Damage": 15,
+      "Mana": "P",
+      "Keywords": "Accuracy,Replenish"
+    },
+    "1": {
+      "Damage": 20,
+      "Keywords": "Accuracy,Replenish"
+    }
+  },
+  "SatelliteIllusion": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1B",
+      "Damage": 14,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 19
+    }
+  },
+  "DropBook": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1B",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 17
+    }
+  },
+  "MarisaDraw": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1B",
+      "Value1": 3,
+      "Mana": "B"
+    },
+    "1": {
+      "Value1": 4,
+      "Mana": "P"
+    }
+  },
+  "DarkSatellite": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BB",
+      "Block": 15,
+      "Value1": 2
+    },
+    "1": {
+      "Block": 20,
+      "Value1": 3
+    }
+  },
+  "MarisaEat": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Value2": 5,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 2,
+      "Value2": 7,
+      "Keywords": "Exile"
+    }
+  },
+  "ReadyForBurst": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "R",
+      "Block": 6,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 1,
+      "Block": 9
+    }
+  },
+  "BulletStudy": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1R",
+      "Block": 12,
+      "Shield": 12,
+      "Value2": 2,
+      "Keywords": "Overdrive"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 16,
+      "Shield": 16,
+      "Keywords": "Overdrive"
+    }
+  },
+  "AsteroidBelt": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "RR",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Damage": 7,
+      "Value1": 3,
+      "Value2": 3
+    }
+  },
+  "HuojianSaoba": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": "1R",
+      "Value2": 3
+    }
+  },
+  "JinjiBlock": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2R",
+      "Block": 21,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Block": 28,
+      "Keywords": "Retain"
+    }
+  },
+  "Alioth": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1H:HBR",
+      "Value1": 1,
+      "Value2": 2,
+      "Scry": 3
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "ScryAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 0,
+      "Damage": 6
+    },
+    "1": {
+      "Damage": 9
+    }
+  },
+  "MarisaSteal": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 0
+    }
+  },
+  "NightSeeStar": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "B",
+      "Value1": 1,
+      "Scry": 7
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "ScryBlock": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1B",
+      "Value1": 4
+    },
+    "1": {
+      "Value1": 6
+    }
+  },
+  "ShibaiChanwu": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BB",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 2
+    }
+  },
+  "ShiningPotion": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2B",
+      "Block": 12,
+      "Value1": 2,
+      "Value2": 2,
+      "Keywords": "Overdrive"
+    },
+    "1": {
+      "Cost": "1B",
+      "Block": 15,
+      "Keywords": "Overdrive"
+    }
+  },
+  "Yinhe": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2B",
+      "Block": 15,
+      "Value1": 3,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Block": 18,
+      "Value1": 5,
+      "Keywords": "Retain"
+    }
+  },
+  "StarSky": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2B",
+      "Value1": 5
+    },
+    "1": {
+      "Keywords": "Retain"
+    }
+  },
+  "PoisonPotion": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1BB",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "LearnAstrology": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BBB"
+    },
+    "1": {
+      "Cost": "BB",
+      "Keywords": "Initial"
+    }
+  },
+  "PotionJungle": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2BB",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1B"
+    }
+  },
+  "AccuracyLaser": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "6B",
+      "Damage": 16,
+      "Value1": 2,
+      "Mana": 1,
+      "Keywords": "Accuracy,Retain"
+    },
+    "1": {
+      "Damage": 20,
+      "Keywords": "Accuracy,Retain"
+    }
+  },
+  "RainbowStar": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": true,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BB",
+      "Damage": 9,
+      "Value1": 3,
+      "Value2": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 12,
+      "Value1": 4,
+      "Value2": 4,
+      "Keywords": "Accuracy"
+    }
+  },
+  "WinterWarm": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Initial"
+    }
+  },
+  "CollectionDefense": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1R",
+      "Block": 0,
+      "Shield": 0,
+      "Keywords": "Exile,Initial"
+    },
+    "1": {
+      "Keywords": "Exile,Initial"
+    }
+  },
+  "BurstDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "RR",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "StarFantasy": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2R",
+      "Damage": 16,
+      "Value1": 4,
+      "Keywords": "Accuracy,Retain"
+    },
+    "1": {
+      "Damage": 20,
+      "Value1": 5,
+      "Keywords": "Accuracy,Retain"
+    }
+  },
+  "StarShower": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2R",
+      "Block": 18,
+      "Value1": 2,
+      "Value2": 4
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "MarisaHoldCard": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2R",
+      "Block": 18,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 24,
+      "Value1": 2
+    }
+  },
+  "ThrowBigStar": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2R",
+      "Damage": 16,
+      "Value2": 3,
+      "Keywords": "Overdrive"
+    },
+    "1": {
+      "Damage": 20,
+      "Keywords": "Overdrive"
+    }
+  },
+  "FireUpBagualu": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1RR",
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "ShootMoon": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "HH:HBR",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 2,
+      "Keywords": "Overdrive",
+      "AttackTimes": 2
+    },
+    "1": {
+      "Damage": 12,
+      "Keywords": "Accuracy,Overdrive"
+    }
+  },
+  "RunAway": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BR",
+      "Value1": 2,
+      "Value2": 0,
+      "Mana": 1
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "MixAndShake": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1BR",
+      "Damage": 12,
+      "Value1": 6
+    },
+    "1": {
+      "Damage": 16,
+      "Value1": 8
+    }
+  },
+  "WizardStudy": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2BR",
+      "Value1": 4,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "1BR",
+      "Value1": 5
+    }
+  },
+  "ExilePotion": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "B",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "EventHorizon": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "B",
+      "Value1": 0,
+      "Keywords": "Retain"
+    },
+    "1": {
+      "Value1": 5,
+      "Keywords": "Retain"
+    }
+  },
+  "PotionDefense": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1B",
+      "Shield": 12,
+      "Value1": 3
+    },
+    "1": {
+      "Shield": 16,
+      "Value1": 4
+    }
+  },
+  "UpgradePotion": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1BBB",
+      "Value1": 5,
+      "Value2": 2
+    },
+    "1": {}
+  },
+  "OpenUniverse": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2BBB",
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Mana": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "SuperNova": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 1,
+      "Value1": 2,
+      "Mana": "RR",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Mana": "{4R}",
+      "Keywords": "Exile"
+    }
+  },
+  "RedGiantStar": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1R",
+      "Damage": 18,
+      "Value2": 2,
+      "Keywords": "Overdrive"
+    },
+    "1": {
+      "Damage": 24,
+      "Keywords": "Overdrive"
+    }
+  },
+  "SolarSystem": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "RR",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "FinalSpark": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "3RR",
+      "Damage": 30,
+      "Mana": "P",
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 36,
+      "Keywords": "Accuracy"
+    }
+  },
+  "HuoliQuankai": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2RRR",
+      "Value1": 4
+    },
+    "1": {
+      "Value1": 0
+    }
+  },
+  "MasterOfCollection": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1BR",
+      "Value1": 1,
+      "Value2": 1,
+      "Keywords": "Initial"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Initial"
+    }
+  },
+  "ChargingPotion": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BBRR",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "StarlightTaifengSummoner": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": true,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BR",
+      "Value1": 2,
+      "Mana": "BB",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "StarlightTaifeng": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "BR",
+      "Damage": 10,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    }
+  },
+  "FindCollection": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1W",
+      "Value1": 3,
+      "Mana": 0
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "WhiteLaser": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "3W",
+      "Damage": 16,
+      "Shield": 16,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": 3,
+      "Damage": 18,
+      "Shield": 18,
+      "Keywords": "Accuracy"
+    }
+  },
+  "BlazingStar": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "4W",
+      "Block": 16,
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 4,
+      "Block": 20,
+      "Keywords": "Exile"
+    }
+  },
+  "SplitPotion": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WB",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1WB",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1H:HWB"
+    }
+  },
+  "IceSpark": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "2U",
+      "Damage": 15
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 16
+    }
+  },
+  "ColdPotion": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "3U",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1U"
+    }
+  },
+  "ChargingToMana": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "U",
+      "Mana": "P",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Echo"
+    }
+  },
+  "DiscardToCharging": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {}
+  },
+  "PatchouliFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "UB",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "1UB",
+      "Value1": 1,
+      "Value2": 2,
+      "Loyalty": 5,
+      "PassiveCost": 2,
+      "ActiveCost": -4,
+      "ActiveCost2": -6,
+      "Power": 3,
+      "PassiveColor": 2
+    },
+    "1": {
+      "Loyalty": 6,
+      "PassiveCost": 3,
+      "Power": 5,
+      "PassiveColor": 3
+    }
+  },
+  "MoguMaster": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": "G",
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value2": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "RedMogu": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 1,
+      "Value1": 10
+    }
+  },
+  "GreenMogu": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 1,
+      "Value1": 1
+    }
+  },
+  "BlueMogu": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 1,
+      "Value1": 3
+    }
+  },
+  "PurpleMogu": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 1,
+      "Value1": 7,
+      "Keywords": "Exile"
+    }
+  },
+  "JungleMaster": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 0,
+      "Block": 0,
+      "Shield": 0,
+      "Value1": 6,
+      "Keywords": "Forbidden,Ethereal"
+    },
+    "1": {
+      "Value1": 10,
+      "Keywords": "Forbidden,Ethereal"
+    }
+  },
+  "ManaJungle": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Marisa",
+    "0": {
+      "Cost": 0,
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "SakuyaAttackW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "SakuyaBlockU": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1U",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "SakuyaAttackU": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1U",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "SakuyaBlockW": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1W",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "KnifeBounce": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1W",
+      "Damage": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Value1": 2
+    },
+    "Version": "1.7.0"
+  },
+  "SakuyaSnow": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1W",
+      "Block": 11,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 16
+    }
+  },
+  "Lijian": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2UU",
+      "Damage": 16,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "2U"
+    }
+  },
+  "PrivateVision": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "U",
+      "Value1": 1,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": 1,
+      "Value2": 6
+    }
+  },
+  "Knife": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": 2,
+      "Damage": 16,
+      "Value1": 6,
+      "Value2": 0,
+      "Keywords": "Exile,Ethereal,Replenish"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 10,
+      "Keywords": "Exile,Ethereal,Replenish"
+    }
+  },
+  "SakuyaZeroDefense": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": 0,
+      "Block": 6
+    },
+    "1": {
+      "Block": 9
+    }
+  },
+  "Dejavu": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "W",
+      "Value1": 1,
+      "Mana": "C"
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "CoolMaid": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "WW",
+      "Value1": 3,
+      "Mana": "C"
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "SakuyaTwiceAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2W",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Damage": 10,
+      "Value2": 2
+    }
+  },
+  "SakuyaGoOut": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "U",
+      "Value1": 2,
+      "Mana": "C"
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "SakuyaWeak": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "U",
+      "Value1": 2,
+      "Mana": "C"
+    },
+    "1": {
+      "Mana": "CC"
+    }
+  },
+  "TimeAuraAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1U",
+      "Damage": 10,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 12,
+      "Value1": 5
+    }
+  },
+  "SakuyaTea": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "UU",
+      "Value1": 3,
+      "Value2": 3,
+      "Mana": "U",
+      "Keywords": "Debut"
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 4,
+      "Keywords": "Debut"
+    }
+  },
+  "DefenseDraw": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "3U",
+      "Block": 15,
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "2U",
+      "Block": 16
+    }
+  },
+  "AttackMagic": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "H:HWU",
+      "Damage": 8,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 12
+    },
+    "Version": "1.6.0"
+  },
+  "SakuyaSleep": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": 0
+    },
+    "1": {}
+  },
+  "CleanRoom": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "W",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2
+    }
+  },
+  "ExileMagic": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "W",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Echo"
+    }
+  },
+  "SilverJump": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1W",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 2
+    }
+  },
+  "SakuyaInvestigate": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1W",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "GainKnife": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "WW",
+      "Value1": 1,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": "W",
+      "Value2": 1
+    }
+  },
+  "SilverBullet": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2W",
+      "Damage": 18,
+      "Block": 0,
+      "Value1": 2
+    },
+    "1": {
+      "Damage": 20,
+      "Value1": 4
+    }
+  },
+  "SakuyaDefenseRetain": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2W",
+      "Block": 18
+    },
+    "1": {
+      "Block": 24
+    }
+  },
+  "KnifeDamageUp": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "WWW",
+      "Value1": 4,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": "WW",
+      "Value2": 2
+    }
+  },
+  "SakuyaDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Forbidden"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Forbidden"
+    }
+  },
+  "VampireHunter": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1U",
+      "Damage": 18,
+      "Value1": 3,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 24,
+      "Keywords": "Accuracy"
+    }
+  },
+  "PrepareParty": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1U",
+      "Block": 14
+    },
+    "1": {
+      "Block": 19
+    }
+  },
+  "SakuyaGraze": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1U",
+      "Shield": 3,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "U"
+    }
+  },
+  "MihuanJack": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "UU",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "SakuyaClock": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2U",
+      "Damage": 18
+    },
+    "1": {
+      "Damage": 24,
+      "Keywords": "Accuracy"
+    }
+  },
+  "LightSpeed": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2U",
+      "Damage": 20,
+      "Mana": "PPP",
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 25,
+      "Keywords": "Accuracy"
+    }
+  },
+  "TimeLord": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1UU",
+      "Value1": 8
+    },
+    "1": {
+      "Value1": 11
+    }
+  },
+  "DangerousMagician": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1UU",
+      "Value1": 1,
+      "Value2": 3
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "ShengquanZaiwo": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "4U",
+      "Mana": "{6C}PPP",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": "2U",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "LunaDial": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "6UUU",
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Mana": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "DropToKnife": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "HH:HWU",
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {}
+  },
+  "SakuyaFuneral": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1WU",
+      "Value1": 5,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "FakeTimeline": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2WU",
+      "Damage": 14,
+      "Block": 14,
+      "Value1": 3
+    },
+    "1": {
+      "Damage": 16,
+      "Block": 16,
+      "Value1": 5
+    }
+  },
+  "SakuyaShop": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "W",
+      "Value1": 2,
+      "Mana": "PP",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 3,
+      "Mana": "PPP",
+      "Keywords": "Exile"
+    }
+  },
+  "SilverBlade": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1W",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "KnifeAim": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2W",
+      "Damage": 24,
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "KnifeHell": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "WWW",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "W"
+    }
+  },
+  "BackOfKnife": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "3W",
+      "Value1": 4
+    },
+    "1": {
+      "Value1": 8
+    }
+  },
+  "GroupOfKnife": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": 1,
+      "Damage": 32,
+      "Keywords": "Accuracy,Exile"
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "BladePower": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "3WW",
+      "Value1": 1,
+      "Mana": 0
+    },
+    "1": {
+      "Cost": "2WW"
+    }
+  },
+  "ClockCorpse": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2WWW",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "2WW",
+      "Keywords": "Exile"
+    }
+  },
+  "StopTime": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "U",
+      "Value1": 4
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "LoyalMaid": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1U",
+      "Shield": 12,
+      "Mana": 0
+    },
+    "1": {
+      "Shield": 15
+    }
+  },
+  "TimeMagic": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "UU",
+      "Value1": 1,
+      "Value2": 5,
+      "Mana": 3
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "TimeWalk": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2UU",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1U",
+      "Keywords": "Exile"
+    }
+  },
+  "LunaClock": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2UUU",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "2UU",
+      "Keywords": "Exile"
+    }
+  },
+  "SpecialClock": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1H:HWU",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "H:HWU"
+    }
+  },
+  "SakuyaDio": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WU",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1WWUU",
+      "Value1": 1,
+      "Value2": 5
+    },
+    "1": {
+      "Value2": 8
+    }
+  },
+  "PerfectServant": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WU",
+    "IsXCost": true,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "WU",
+      "Value1": 1,
+      "Value2": 1,
+      "Mana": "P",
+      "Keywords": "Exile"
+    },
+    "1": {}
+  },
+  "BackToFuture": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Echo"
+    }
+  },
+  "EvilMaid": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "B",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "ExtraTurnEveryone": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1B",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "TunnelEffect": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": 0,
+      "Damage": 8,
+      "Mana": "R",
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 12,
+      "Mana": "P",
+      "Keywords": "Accuracy"
+    }
+  },
+  "SakuyaKiller": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "1R",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "BrokenTimeline": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "R",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Echo,Retain"
+    }
+  },
+  "AutoKnife": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "WR",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "H:HWR"
+    }
+  },
+  "SakuyaDetective": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "G",
+      "Value1": 15,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 20,
+      "Keywords": "Exile"
+    }
+  },
+  "SakuyaSpeedup": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2G",
+      "Mana": "C",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "SakuyaUsage": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "G",
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "SakuyaUsage2": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "G",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "MeilingFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "WG",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "WG",
+      "Value1": 12,
+      "Value2": 3,
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "UltimateCost": -7,
+      "Graze": 1
+    },
+    "1": {
+      "Value1": 16,
+      "Value2": 4,
+      "Graze": 2
+    }
+  },
+  "UnlimitedTime": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WUG",
+    "IsXCost": false,
+    "Owner": "Sakuya",
+    "0": {
+      "Cost": "2WUG",
+      "Value1": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 4,
+      "Keywords": "Exile"
+    }
+  },
+  "CirnoAttackU": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "CirnoBlockG": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1G",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "CirnoAttackG": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1G",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "CirnoBlockU": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "IceLance": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 1,
+      "Damage": 9,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 13,
+      "Keywords": "Accuracy"
+    }
+  },
+  "FreezeBullet": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 16,
+      "Value1": 2
+    }
+  },
+  "DayaojingFriend": {
+    "Rarity": "Common",
+    "Type": "Friend",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1G",
+      "Damage": 6,
+      "Block": 14,
+      "Shield": 0,
+      "Value1": 2,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7
+    },
+    "1": {
+      "Damage": 8,
+      "Block": 9,
+      "Shield": 9
+    }
+  },
+  "IceWing": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 0,
+      "Value1": 2,
+      "Mana": "U",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "UU",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "IceBolt": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 1,
+      "Damage": 2,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "Opt": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "U",
+      "Mana": "U"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Replenish"
+    }
+  },
+  "OptBottom": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 0
+    }
+  },
+  "MaidFriend": {
+    "Rarity": "Common",
+    "Type": "Friend",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Damage": 8,
+      "Value1": 8,
+      "Value2": 2,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -5
+    },
+    "1": {
+      "Damage": 10,
+      "Value1": 10,
+      "ActiveCost": -2
+    }
+  },
+  "ShiverArmor": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Block": 10,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 12,
+      "Value1": 5
+    }
+  },
+  "FrostGarden": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "GlacialSpike": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2U",
+      "Damage": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1U"
+    }
+  },
+  "CoolBreeze": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2U",
+      "Block": 18,
+      "Value1": 2
+    },
+    "1": {
+      "Block": 24,
+      "Value1": 3
+    }
+  },
+  "BlueRose": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 0,
+      "Damage": 4,
+      "Block": 4
+    },
+    "1": {
+      "Damage": 6,
+      "Block": 6
+    }
+  },
+  "SummerIce": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1G",
+      "Mana": "UGGP"
+    },
+    "1": {
+      "Mana": "UUGGPP"
+    }
+  },
+  "CirnoInForest": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2G",
+      "Block": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 14,
+      "Value1": 2
+    }
+  },
+  "CirnoConsider": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "UG",
+      "Block": 13,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "H:HUG"
+    }
+  },
+  "CirnoDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "U",
+      "Value1": 2,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": 1,
+      "Value2": 2
+    }
+  },
+  "FreezeToIce": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "U",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "IceLaser": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Damage": 12
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 16
+    }
+  },
+  "CirnoFire": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "FreezeRiver": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Mana": 0
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "ColdBreath": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "UU",
+      "Damage": 14,
+      "Mana": "UUU"
+    },
+    "1": {
+      "Damage": 18,
+      "Mana": "UUP"
+    }
+  },
+  "LeidiFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2U",
+      "Damage": 12,
+      "Loyalty": 3,
+      "PassiveCost": -1,
+      "UltimateCost": -2
+    },
+    "1": {
+      "Damage": 16,
+      "Loyalty": 5
+    }
+  },
+  "ColdSnap": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2U",
+      "Value1": 3,
+      "Value2": 5
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "IceSaber": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2U",
+      "Damage": 8,
+      "Value1": 2
+    },
+    "1": {
+      "Damage": 11
+    }
+  },
+  "IceBarrier": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1UU",
+      "Value1": 13,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 17,
+      "Keywords": "Exile"
+    }
+  },
+  "ZeroK": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "UUU",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "UU"
+    }
+  },
+  "Blizzard": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "3U",
+      "Damage": 16,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": "2U",
+      "Keywords": "Accuracy"
+    }
+  },
+  "FrozenThrone": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2UU"
+    },
+    "1": {
+      "Cost": "1U"
+    }
+  },
+  "DoubleMana": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "G",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "Tether": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1G",
+      "Block": 11,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 16
+    }
+  },
+  "FairyWrath": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1G",
+      "Damage": 14,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 18,
+      "Value1": 2
+    }
+  },
+  "FairyTeam": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1G",
+      "Damage": 15,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "LarvaFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "GG",
+      "Value1": 3,
+      "Value2": 15,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 18,
+      "ActiveCost": -2
+    }
+  },
+  "FriendDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "GG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "LilyFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2G",
+      "Damage": 5,
+      "Value1": 3,
+      "Value2": 3,
+      "Mana": "G",
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -6,
+      "ActiveMana": "UGG",
+      "Heal": 6
+    },
+    "1": {
+      "Value1": 4,
+      "Mana": "P",
+      "ActiveCost": -3,
+      "ActiveMana": "PGG",
+      "Heal": 8
+    }
+  },
+  "CallFriends": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2G",
+      "Value1": 3
+    },
+    "1": {
+      "ImageId": "CallFriendsUpgrade"
+    }
+  },
+  "FairyTree": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1GG",
+      "Value1": 9
+    },
+    "1": {
+      "Value1": 12
+    }
+  },
+  "MoreFriends": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "GGG",
+      "Value1": 1
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "FairyOnIce": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1H:HUG",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "FruitShake": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2H:HUG",
+      "Damage": 12,
+      "Mana": 0
+    },
+    "1": {
+      "Damage": 16
+    }
+  },
+  "SummerParty": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1UG",
+      "Value1": 8,
+      "Value2": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Value1": 10,
+      "Value2": 2,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "ColdChain": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "FrozenOrb": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2U",
+      "Damage": 12,
+      "Value1": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "IceBlock": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1UU",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "U",
+      "Keywords": "Exile"
+    }
+  },
+  "DeepFreeze": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1UU",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1U"
+    }
+  },
+  "IceMatrix": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2UU",
+      "Value1": 1,
+      "Value2": 8
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "InstantFreeze": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "4U",
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 4,
+      "Keywords": "Exile"
+    }
+  },
+  "ColdHearted": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2UUU",
+      "Value1": 2,
+      "Mana": 0
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Retain"
+    }
+  },
+  "BestFriend": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Mana": "G",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 2,
+      "Mana": "GG",
+      "Keywords": "Exile"
+    }
+  },
+  "CirnoEcho": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "G",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Echo"
+    }
+  },
+  "FairyAllOut": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2G",
+      "Damage": 16
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "LarvaDefense": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2G",
+      "Block": 20,
+      "Value1": 1,
+      "Value2": 6
+    },
+    "1": {
+      "Value2": 8,
+      "Keywords": "Retain"
+    }
+  },
+  "MinengZhuru": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2GGG"
+    },
+    "1": {
+      "Cost": "1GG"
+    }
+  },
+  "GatherFairy": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1UG",
+      "Value1": 4,
+      "Value2": 0,
+      "MaxHand": 12
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "ForeverCool": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "UUGG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "UG"
+    }
+  },
+  "HualiIce": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UG",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "7UG",
+      "Damage": 30,
+      "Value1": 7,
+      "Mana": 0,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 40,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ChooseFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "W",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "LunaFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1W",
+      "Damage": 10,
+      "Block": 6,
+      "Value1": 3,
+      "Value2": 1,
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7
+    },
+    "1": {
+      "Block": 8,
+      "Value1": 4
+    }
+  },
+  "WhiteWorld": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "3W"
+    },
+    "1": {
+      "Cost": "1W"
+    }
+  },
+  "PlayWithWaste": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1B",
+      "Value1": 4,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "StarFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1B",
+      "Damage": 8,
+      "Value1": 3,
+      "Value2": 2,
+      "Loyalty": 1,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -7,
+      "Light": 1
+    },
+    "1": {
+      "Damage": 10,
+      "Value2": 3
+    }
+  },
+  "FairyTrick": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1B",
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "BrainOverclock": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "R",
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": "{5P}"
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "SunnyFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1R",
+      "Damage": 5,
+      "Value1": 2,
+      "Value2": 3,
+      "Loyalty": 2,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -7,
+      "Light": 1
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 4,
+      "ActiveCost": -3
+    }
+  },
+  "Xiguadao": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "2R",
+      "Damage": 9,
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ClownpieceFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "UBR",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "UBR",
+      "Value1": 3,
+      "Value2": 4,
+      "Mana": "{4P}",
+      "Loyalty": 7,
+      "PassiveCost": 0,
+      "ActiveCost": -1,
+      "ActiveCost2": -2,
+      "StartMana": "PPP"
+    },
+    "1": {
+      "Value2": 5,
+      "Mana": "{5P}",
+      "Loyalty": 9
+    }
+  },
+  "KoishiAttackG": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Damage": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic"
+    }
+  },
+  "KoishiBlockB": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "KoishiAttackB": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Damage": 10,
+      "Keywords": "Basic,FollowCard"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 14,
+      "Keywords": "Basic,FollowCard"
+    }
+  },
+  "KoishiBlockG": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Block": 10,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 13,
+      "Keywords": "Basic"
+    }
+  },
+  "DefaultPassion": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Damage": 12
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "DefaultPeace": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Block": 13
+    },
+    "1": {
+      "Block": 18
+    }
+  },
+  "KoishiKiss": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Damage": 6,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "BaseFollower": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 20,
+      "Keywords": "FollowCard"
+    },
+    "1": {
+      "Damage": 25,
+      "Keywords": "Accuracy,FollowCard"
+    }
+  },
+  "InspirationCard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Mana": "P",
+      "Keywords": "Replenish"
+    },
+    "1": {
+      "Mana": "PP",
+      "Keywords": "Replenish"
+    }
+  },
+  "KoishiUltimateToken": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 1,
+      "Mana": "G",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Damage": 8,
+      "Value1": 8,
+      "Mana": "P",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "KoishiDrawTop": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 1,
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3
+    },
+    "Version": "1.7.0"
+  },
+  "LeaveMoodAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Damage": 14
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 20
+    }
+  },
+  "LeaveMoodGraze": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Value1": 2
+    }
+  },
+  "FlowerGone": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Block": 18,
+      "Shield": 21
+    },
+    "1": {
+      "Block": 24,
+      "Shield": 28
+    }
+  },
+  "PassionDefense": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Block": 5,
+      "Value1": 10
+    },
+    "1": {
+      "Block": 7,
+      "Value1": 14
+    }
+  },
+  "PassionMemory": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "B",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "Claustrophobia": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Block": 12,
+      "Shield": 6,
+      "Keywords": "Instinct"
+    },
+    "1": {
+      "Block": 16,
+      "Shield": 8,
+      "Keywords": "Instinct"
+    }
+  },
+  "MultiFollower": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 10,
+      "Value1": 2,
+      "Keywords": "FollowCard"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "FollowCard"
+    }
+  },
+  "ToAllFollower": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 17,
+      "Keywords": "FollowCard"
+    },
+    "1": {
+      "Damage": 22,
+      "Keywords": "FollowCard"
+    }
+  },
+  "DefenseFollowAttack": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Block": 15,
+      "Value1": 1
+    },
+    "1": {
+      "Block": 20
+    }
+  },
+  "MoodAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 9,
+      "Keywords": "Accuracy"
+    }
+  },
+  "GrazeFollowAttack": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "H:HBG"
+    }
+  },
+  "KoishiWake": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "G",
+      "Shield": 12,
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 4,
+      "Keywords": "Retain"
+    },
+    "Version": "1.7.0"
+  },
+  "KoishiGainColorless": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "G",
+      "Mana": "CCC"
+    },
+    "1": {
+      "Cost": 1,
+      "Mana": "{4C}"
+    }
+  },
+  "PeaceEndTurn": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1
+    },
+    "Version": "1.7.0"
+  },
+  "PeaceMemory": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "G",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "KoishiSpringOut": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "InspirationDefense": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Block": 10,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 14
+    }
+  },
+  "KoishiFire": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1G",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "KoishiFlower": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Damage": 12,
+      "Block": 12,
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Damage": 16,
+      "Block": 16
+    }
+  },
+  "TheHermit": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Mana": "PPP",
+      "Scry": 3
+    },
+    "1": {
+      "Scry": 5
+    }
+  },
+  "KoishiDna": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2G",
+      "Value1": 1
+    },
+    "1": {},
+    "Version": "1.7.0"
+  },
+  "KoishiDnaAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Keywords": "Exile,Echo,Ethereal"
+    },
+    "1": {
+      "Damage": 9,
+      "Keywords": "Exile,Echo,Ethereal"
+    }
+  },
+  "FindInspiration": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1GG",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "KoishiDance": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3G",
+      "Damage": 13,
+      "Block": 13
+    },
+    "1": {
+      "Damage": 16,
+      "Block": 16
+    }
+  },
+  "PassionVulnerable": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "B",
+      "Value1": 3,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": 1,
+      "Value2": 3
+    },
+    "Version": "1.7.0"
+  },
+  "PlayDrawTop": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Block": 5
+    },
+    "1": {
+      "Cost": 1
+    },
+    "Version": "1.7.0"
+  },
+  "TheChariot": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Value1": 2,
+      "Scry": 3
+    },
+    "1": {
+      "Cost": 1,
+      "Scry": 5
+    }
+  },
+  "CloseEye": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Shield": 18
+    },
+    "1": {
+      "Shield": 22
+    }
+  },
+  "PassionAttackToDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1B",
+      "Damage": 8,
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "PassionDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BB",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "BabyDream": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Block": 18,
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Block": 24,
+      "Value1": 5
+    },
+    "Version": "1.6.1"
+  },
+  "DuplicateFollower": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 16,
+      "Value1": 1,
+      "Mana": "P",
+      "Keywords": "Replenish,FollowCard"
+    },
+    "1": {
+      "Mana": "PP",
+      "Keywords": "Replenish,FollowCard"
+    }
+  },
+  "AncestorDream": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Damage": 17,
+      "Value1": 3,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 20,
+      "Value1": 5,
+      "Keywords": "Accuracy"
+    },
+    "Version": "1.6.1"
+  },
+  "YaoguaiLaser": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3B",
+      "Damage": 10,
+      "Block": 10,
+      "Keywords": "Instinct"
+    },
+    "1": {
+      "Cost": "2B",
+      "Keywords": "Instinct"
+    },
+    "Version": "1.7.0"
+  },
+  "LeaveMoodDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BG",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": "H:HBG"
+    },
+    "Version": "1.6.1"
+  },
+  "MoodChangeBlock": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BG",
+      "Value1": 5
+    },
+    "1": {
+      "Value1": 7
+    }
+  },
+  "KoishiDrawTopCards": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "G",
+      "Value1": 3,
+      "Keywords": "Initial"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 4,
+      "Keywords": "Initial"
+    },
+    "Version": "1.7.0"
+  },
+  "GainInspiration": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "GGG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "G"
+    }
+  },
+  "KoishiMana": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3G",
+      "Damage": 6,
+      "Mana": "WUBRGC"
+    },
+    "1": {
+      "Damage": 8,
+      "Mana": "WUBRGCP"
+    }
+  },
+  "PerfectCrime": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2GG",
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1G",
+      "Keywords": "Exile"
+    },
+    "Version": "1.6.1"
+  },
+  "SelfControl": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "4G",
+      "Value1": 3,
+      "Value2": 9
+    },
+    "1": {
+      "Value1": 4,
+      "Value2": 12
+    }
+  },
+  "PsycheLock": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "BlackEpiphany": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "B",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "KoishiTouying": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BB",
+      "Value1": 3,
+      "Value2": 4,
+      "Mana": "PP"
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "KoishiPlayDiscard": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2B",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "KoishiPotential": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1BB",
+      "Value1": 2
+    },
+    "1": {
+      "Cost": "1B",
+      "Value1": 3
+    }
+  },
+  "FakeBullet": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3B",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "KoishiSpark": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "3BB",
+      "Damage": 32,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 36,
+      "Keywords": "Accuracy,FollowCard"
+    }
+  },
+  "TheFool": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BG",
+      "Scry": 3
+    },
+    "1": {
+      "Scry": 7
+    }
+  },
+  "KoishiUltimate": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BG",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BBGG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "BG"
+    },
+    "Version": "1.6.1"
+  },
+  "KoishiAttackX": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "BG",
+    "IsXCost": true,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "BG",
+      "Damage": 9,
+      "Mana": "G"
+    },
+    "1": {
+      "Damage": 12,
+      "Mana": "P"
+    }
+  },
+  "Anatta": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2W",
+      "Mana": "{4P}"
+    },
+    "1": {
+      "Cost": "1W"
+    }
+  },
+  "ButterflyDream": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "2W",
+      "Value1": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Cost": "1W",
+      "Keywords": "Ethereal,Initial"
+    },
+    "Version": "1.6.1"
+  },
+  "KokoroFriend": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "WB",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "WB",
+      "Value1": 1,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": -2,
+      "ActiveCost2": -4,
+      "UltimateCost": -6
+    },
+    "1": {
+      "Loyalty": 6
+    },
+    "OverrideUltimateCost": true
+  },
+  "KoishiDive": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 1,
+      "Value1": 5,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    },
+    "Version": "1.7.0"
+  },
+  "EnterEpiphany": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "1U",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "LunaticPassion": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "R",
+      "Percentage": 150
+    },
+    "1": {
+      "Cost": 1,
+      "Keywords": "Initial"
+    },
+    "Version": "1.6.1"
+  },
+  "KoishiPhone": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": "4R",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "3R"
+    }
+  },
+  "FollowAttackFiller": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "Owner": "Koishi",
+    "0": {
+      "Cost": 0,
+      "Damage": 12,
+      "Keywords": "FollowCard"
+    },
+    "1": {
+      "Cost": 0,
+      "Damage": 16,
+      "Keywords": "FollowCard"
+    }
+  },
+  "YoumuAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "W",
+      "Damage": 8
+    },
+    "1": {
+      "Damage": 12
+    }
+  },
+  "YukariFlyObject": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "W",
+      "Value1": 15
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 20
+    }
+  },
+  "BailianJingang": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1W",
+      "Block": 10,
+      "Value1": 10
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 14,
+      "Value1": 14
+    }
+  },
+  "YunyouShengdi": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1W",
+      "Block": 12
+    },
+    "1": {}
+  },
+  "NazrinBaota": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2W",
+      "Damage": 15,
+      "Value1": 2
+    },
+    "1": {
+      "Damage": 19,
+      "Value1": 3
+    }
+  },
+  "RingoJinghua": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "W",
+      "Value1": 3,
+      "Value2": 6,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "HuashanQingjing": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1W",
+      "Block": 20,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 24,
+      "Keywords": "Ethereal"
+    }
+  },
+  "SanaeSpirit": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1W",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "BailianNingshen": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WW",
+      "Value1": 3,
+      "Mana": 0
+    },
+    "1": {
+      "Keywords": "Debut"
+    }
+  },
+  "PrismriverWhite": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WW",
+      "Value1": 3,
+      "Value2": 10,
+      "Mana": "PP",
+      "Light": 1
+    },
+    "1": {
+      "Keywords": "Debut"
+    }
+  },
+  "HuiyinRemove": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WWW"
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "ShenziUpgradeAll": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WW",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1W",
+      "Keywords": "Exile"
+    }
+  },
+  "HuiyeMarblePhantasm": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": true,
+    "0": {
+      "Cost": "W",
+      "Value1": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "YukariSwarm": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2W",
+      "Damage": 18,
+      "Value1": 8,
+      "Value2": 0,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "YuetuInvincible": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WWW",
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "YuetuYuyi": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "W",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Exile,Ethereal,Replenish"
+    },
+    "1": {
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "BlueZeroAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Damage": 8,
+      "Value1": 0
+    },
+    "1": {
+      "Damage": 10,
+      "Value1": 1
+    }
+  },
+  "PlayWithWater": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "U",
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "KokoroAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "U",
+      "Damage": 7,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1,
+      "Damage": 10
+    }
+  },
+  "QinglanAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1U",
+      "Damage": 14,
+      "Value2": 1,
+      "Scry": 3
+    },
+    "1": {
+      "Damage": 18,
+      "Scry": 4
+    }
+  },
+  "NitoriUnderWater": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1U",
+      "Block": 11,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 15
+    }
+  },
+  "ShuimiUnderWater": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "UP",
+      "Keywords": "Forbidden"
+    },
+    "1": {
+      "Mana": "UPP",
+      "Keywords": "Forbidden"
+    }
+  },
+  "HatateDiscard": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "U",
+      "Value1": 3,
+      "Value2": 3,
+      "Mana": "{4U}"
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 2,
+      "Mana": "UUPP"
+    }
+  },
+  "QingeDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1U",
+      "Block": 8,
+      "Value1": 4
+    },
+    "1": {
+      "Block": 12,
+      "Value1": 5
+    }
+  },
+  "HuiyinMoreDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1U",
+      "Value1": 1
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "WaterPrincess": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2UU",
+      "Shield": 0,
+      "Value1": 3,
+      "Keywords": "Debut"
+    },
+    "1": {
+      "Value1": 4,
+      "Keywords": "Debut"
+    }
+  },
+  "YonglinDraw": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "U",
+      "Value1": 3,
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "DoremyDuplicate": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "UU",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "GuijiZaoxingYuan": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2U",
+      "Damage": 18,
+      "Block": 18
+    },
+    "1": {
+      "Keywords": "Retain,Replenish"
+    }
+  },
+  "GuijiZaoxingFang": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1U",
+      "Damage": 12,
+      "Value1": 3
+    },
+    "1": {
+      "Keywords": "Retain,Replenish"
+    }
+  },
+  "GuijiZaoxingHu": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2U",
+      "Damage": 24,
+      "Value1": 4
+    },
+    "1": {
+      "Keywords": "Retain,Replenish"
+    }
+  },
+  "YonglinCard": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2UUU",
+      "Value1": 1,
+      "Value2": 0,
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Value2": 1,
+      "Keywords": "Ethereal"
+    }
+  },
+  "FakeMoon": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "U",
+      "Value1": 1,
+      "Mana": 0,
+      "Keywords": "Copy,Exile,Ethereal,Replenish"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Copy,Exile,Ethereal,Replenish"
+    }
+  },
+  "Shadow": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "B",
+      "Keywords": "Exile"
+    }
+  },
+  "RumiaBlock": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "B",
+      "Block": 20,
+      "Value1": 2
+    },
+    "1": {
+      "Block": 25
+    }
+  },
+  "YuyukoDebuff": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "B",
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Initial"
+    }
+  },
+  "ShannvAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1B",
+      "Damage": 10,
+      "Value1": 5
+    },
+    "1": {
+      "Value1": 6
+    }
+  },
+  "SatoriAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1B",
+      "Damage": 10,
+      "Block": 10,
+      "Keywords": "Instinct"
+    },
+    "1": {
+      "Damage": 14,
+      "Block": 14,
+      "Keywords": "Instinct"
+    }
+  },
+  "MystiaSing": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 8,
+      "Value2": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "SatoriMemory": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "B",
+      "Value1": 3,
+      "Mana": 1,
+      "Keywords": "Instinct"
+    },
+    "1": {
+      "Mana": 0,
+      "Keywords": "Instinct"
+    }
+  },
+  "ShannvAbility": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1B",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 4
+    }
+  },
+  "XiaoemoBook": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "BB",
+      "Value1": 2,
+      "Keywords": "Debut"
+    },
+    "1": {
+      "Cost": "B",
+      "Keywords": "Debut"
+    }
+  },
+  "PrismriverBlack": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "BB",
+      "Value1": 3,
+      "Value2": 10,
+      "Mana": "PP",
+      "Light": 1
+    },
+    "1": {
+      "Keywords": "Debut"
+    }
+  },
+  "BlackHorseZui": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2B",
+      "Damage": 10,
+      "Value1": 1,
+      "Value2": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value2": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "HinaAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2B",
+      "Damage": 12,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 15
+    }
+  },
+  "RemiliaFate": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "B",
+      "Value1": 3
+    },
+    "1": {}
+  },
+  "BailianBlack": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2B",
+      "Mana": 1
+    },
+    "1": {
+      "Mana": 0
+    }
+  },
+  "GrimoireStudy": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1BB",
+      "Value1": 4,
+      "Value2": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "DreamExpress": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "3B",
+      "Value1": 3
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "TrueMoon": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2BBB",
+      "Shield": 77,
+      "Value1": 7,
+      "Value2": 7,
+      "Mana": "B"
+    },
+    "1": {
+      "Shield": 99,
+      "Value1": 9,
+      "Value2": 9
+    }
+  },
+  "YinglangHowl": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "R",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "RemiliaJizao": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "R",
+      "Value1": 4
+    },
+    "1": {
+      "Cost": 1,
+      "Value1": 5
+    }
+  },
+  "MeihongAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1R",
+      "Damage": 10,
+      "Value1": 2,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 13,
+      "Keywords": "Accuracy"
+    }
+  },
+  "LeiguAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1R",
+      "Damage": 13
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 17
+    }
+  },
+  "HuaBlock": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1R",
+      "Block": 13,
+      "Value1": 3
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 18,
+      "Value1": 4
+    }
+  },
+  "BailianPower": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1R",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "SuikaBigball": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2R",
+      "Damage": 30,
+      "Value1": 2
+    },
+    "1": {
+      "Damage": 40
+    }
+  },
+  "MeihongFire": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "3R",
+      "Value1": 5
+    },
+    "1": {
+      "Cost": "1R"
+    }
+  },
+  "MeilingBlock": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2RR",
+      "Block": 10,
+      "Shield": 10
+    },
+    "1": {
+      "Cost": "2R"
+    }
+  },
+  "PrismriverRed": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "RR",
+      "Value1": 3,
+      "Value2": 10,
+      "Mana": "PP",
+      "Light": 2
+    },
+    "1": {
+      "Keywords": "Debut"
+    }
+  },
+  "YongyiAttack": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1R",
+      "Damage": 8,
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "RemiliaBat": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2R",
+      "Value1": 5,
+      "Value2": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value2": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "FlanFirepower": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2RR"
+    },
+    "1": {
+      "Cost": "2R"
+    }
+  },
+  "MeihongPower": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2RRR",
+      "Value1": 2,
+      "Value2": 4
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 6
+    }
+  },
+  "SummerFlower": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Damage": 12,
+      "Value1": 3,
+      "Keywords": "Exile,Ethereal"
+    },
+    "1": {
+      "Damage": 16,
+      "Value1": 4,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "PatchouliGreenAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Damage": 24,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 32,
+      "Keywords": "Accuracy"
+    }
+  },
+  "RangziSeed": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0
+    },
+    "1": {}
+  },
+  "AhongMana": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 0
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "RangziFanshu": {
+    "Rarity": "Common",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1G",
+      "Value1": 9
+    },
+    "1": {
+      "Value1": 12
+    }
+  },
+  "SunflowerDefense": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1G",
+      "Block": 10,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 14
+    }
+  },
+  "YouxiangMoon": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1G",
+      "Value1": 1,
+      "Mana": "G"
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "YuyukoSing": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2G",
+      "Damage": 18
+    },
+    "1": {
+      "Keywords": "Accuracy"
+    }
+  },
+  "DanmuJade": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "4G",
+      "Damage": 18,
+      "Value1": 1,
+      "Value2": 2,
+      "Mana": "WUBRG"
+    },
+    "1": {
+      "Damage": 24
+    }
+  },
+  "YouxiangAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": true,
+    "0": {
+      "Cost": "G",
+      "Damage": 7,
+      "Value1": 7,
+      "Value2": 5,
+      "Mana": 1
+    },
+    "1": {
+      "Damage": 9,
+      "Value1": 9
+    }
+  },
+  "TakaneDefense": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "G",
+    "IsXCost": true,
+    "0": {
+      "Cost": "G",
+      "Block": 6,
+      "Value1": 6,
+      "Mana": 1
+    },
+    "1": {
+      "Block": 8,
+      "Value1": 8
+    }
+  },
+  "GreenLotus": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "GGPP",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "GGGPPP",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "LimaoSchool": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "4G",
+      "Value1": 3,
+      "Value2": 1
+    },
+    "1": {
+      "Value2": 2
+    }
+  },
+  "MorphBird": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 4
+    }
+  },
+  "MorphDog": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 3
+    }
+  },
+  "MorphFrog": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 3
+    }
+  },
+  "MorphMan": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 25
+    }
+  },
+  "HuiyeAttack": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "G",
+    "IsXCost": true,
+    "0": {
+      "Cost": "G",
+      "Damage": 8,
+      "Value1": 1,
+      "Value2": 7
+    },
+    "1": {
+      "Damage": 9,
+      "Value2": 5
+    }
+  },
+  "HuiyeMana": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2GGG",
+      "Value1": 2,
+      "Mana": "P",
+      "Keywords": "Ethereal"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Ethereal"
+    }
+  },
+  "WManaCard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "WW",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "WWW",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "UManaCard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "UU",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "UUU",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "BManaCard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "BB",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "BBB",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "RManaCard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "RR",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "RRR",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "GManaCard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "GG",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "GGG",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "CManaCard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "CC",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "CCC",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "PManaCard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Mana": "PP",
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Mana": "PPP",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "Astrology": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Scry": 3,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Scry": 5,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "Xiaozhuo": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Value1": 5,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "Shoot": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Damage": 5,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Damage": 8,
+      "Keywords": "Basic"
+    }
+  },
+  "Boundary": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Defense",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Block": 5,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Block": 7,
+      "Keywords": "Basic"
+    }
+  },
+  "ShopAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Damage": 7,
+      "Value1": 1,
+      "Keywords": "Gadgets"
+    },
+    "1": {
+      "Damage": 10,
+      "Keywords": "Gadgets"
+    }
+  },
+  "ShopDefense": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Block": 5,
+      "Value1": 1,
+      "Keywords": "Gadgets"
+    },
+    "1": {
+      "Block": 8,
+      "Keywords": "Gadgets"
+    }
+  },
+  "ShopSearch": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Gadgets,Exile"
+    },
+    "1": {
+      "Keywords": "Gadgets"
+    }
+  },
+  "MoonSea": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2C",
+      "Block": 12
+    },
+    "1": {
+      "Block": 16
+    }
+  },
+  "CommonFire": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": "CC",
+      "Value1": 1
+    },
+    "1": {}
+  },
+  "FengjiAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": "3C",
+      "Damage": 20,
+      "Value1": 5,
+      "Value2": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 10,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "MoonWorld": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": "3CC",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "YijiEarthSpike": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Damage": 18,
+      "Value1": 2
+    }
+  },
+  "YijiPurify": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0
+    }
+  },
+  "YijiGraze": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Value2": 2
+    }
+  },
+  "YijiFirepower": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Value2": 2
+    }
+  },
+  "Panzi": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Damage": 6,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Damage": 9,
+      "Keywords": "Exile"
+    }
+  },
+  "ReadBook": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HWU",
+      "Block": 12,
+      "Value1": 3,
+      "Keywords": "Debut"
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 16,
+      "Value1": 5,
+      "Keywords": "Debut"
+    }
+  },
+  "ShuimuBlock": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WU",
+      "Block": 12,
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "TiangouOrder": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1WU",
+      "Damage": 12,
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Damage": 16,
+      "Value1": 4,
+      "Keywords": "Exile"
+    }
+  },
+  "TianziRock": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WU",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "YijiuDraw": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HWU",
+      "Value1": 3,
+      "Scry": 3
+    },
+    "1": {
+      "Scry": 5
+    }
+  },
+  "SeeFengshui": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WU",
+      "Value1": 2,
+      "Value2": 5
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "LanCard": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1WU",
+      "Value1": 4,
+      "Mana": 0
+    },
+    "1": {
+      "Cost": "WU",
+      "Value1": 5
+    }
+  },
+  "RainbowMarket": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1WU",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1H:HWU"
+    }
+  },
+  "NiuqiDefense": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HWB",
+      "Block": 8,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 12
+    }
+  },
+  "XiaodingKill": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WB",
+      "Value1": 30
+    },
+    "1": {
+      "Cost": "1H:HWB",
+      "Value1": 40
+    }
+  },
+  "SijiCard": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HWB",
+      "Mana": 1
+    },
+    "1": {
+      "Cost": 0
+    }
+  },
+  "YukariAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HWB",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 1,
+      "Mana": 0
+    },
+    "1": {
+      "Damage": 10,
+      "Value2": 2
+    }
+  },
+  "KokoroDance": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WB",
+      "Value1": 9,
+      "Value2": 3
+    },
+    "1": {
+      "Value1": 12,
+      "Value2": 4
+    }
+  },
+  "FutoLight": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1WB",
+      "Value1": 1,
+      "Mana": 1
+    },
+    "1": {
+      "Cost": "1H:HWB"
+    }
+  },
+  "HuiyeTime": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WB",
+      "Value1": 2,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "QingeUpgrade": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2H:HWB",
+      "Damage": 18,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Damage": 24,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "TannvCard": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WB",
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1H:HWB",
+      "Keywords": "Exile"
+    }
+  },
+  "SanaeMiracle": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "6WB",
+      "Damage": 25,
+      "Value1": 2,
+      "Mana": 0,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 30,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ChengDefense": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WR",
+      "Block": 8
+    },
+    "1": {
+      "Cost": "1H:HWR",
+      "Block": 11
+    }
+  },
+  "MogongAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WR",
+      "Damage": 1,
+      "Block": 1
+    },
+    "1": {
+      "Cost": "H:HWR"
+    }
+  },
+  "SanaeStar": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HWR",
+      "Value1": 2,
+      "Value2": 4
+    },
+    "1": {
+      "Value1": 3,
+      "Value2": 5
+    }
+  },
+  "TianziMana": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1WR",
+      "Mana": "{5P}",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1H:HWR",
+      "Keywords": "Exile"
+    }
+  },
+  "HappyNewYear": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1WR",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "HuashanDefense": {
+    "Rarity": "Uncommon",
+    "Type": "Defense",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WR",
+      "Block": 24,
+      "Value1": 6
+    },
+    "1": {
+      "Block": 30,
+      "Value1": 8
+    }
+  },
+  "ZhenmiaowanAttack": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WR",
+      "Damage": 16,
+      "Mana": 1
+    },
+    "1": {
+      "Damage": 18
+    }
+  },
+  "XingMoney": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2H:HWR",
+      "Damage": 18,
+      "Value1": 30,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Damage": 24,
+      "Value1": 40,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "SanaeSummonGod": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WR",
+      "Value1": 4,
+      "Value2": 5
+    },
+    "1": {},
+    "Version": "1.6.1"
+  },
+  "PoorAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HUB",
+      "Damage": 10,
+      "Value1": 5,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 13,
+      "Keywords": "Accuracy"
+    }
+  },
+  "AliceAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Damage": 16,
+      "Mana": "P",
+      "Keywords": "Exile,Initial"
+    },
+    "1": {
+      "Damage": 20,
+      "Mana": "PP",
+      "Keywords": "Exile,Initial"
+    }
+  },
+  "BaitianCard": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Keywords": "Exile"
+    },
+    "1": {}
+  },
+  "YukariBox": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HUB",
+      "Value1": 2,
+      "Scry": 4,
+      "Keywords": "Exile"
+    },
+    "1": {}
+  },
+  "MeilingWater": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1UB",
+      "Value1": 3,
+      "Value2": 2,
+      "Mana": 0
+    },
+    "1": {
+      "Value2": 3
+    }
+  },
+  "NueExile": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HUB",
+      "Mana": 1
+    },
+    "1": {
+      "Mana": 0
+    }
+  },
+  "HuiyinRetain": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1UB",
+      "Value1": 2,
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "UB",
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "JunkoNightmare": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2UB",
+      "Damage": 5,
+      "Value1": 5,
+      "Value2": 0
+    },
+    "1": {
+      "Cost": "1UB",
+      "Value2": 1
+    }
+  },
+  "XiaosanReflect": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HUR",
+      "Shield": 10,
+      "Value1": 10
+    },
+    "1": {
+      "Cost": 2,
+      "Shield": 14,
+      "Value1": 14
+    }
+  },
+  "SuikaDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HUR",
+      "Value1": 6
+    },
+    "1": {
+      "Value1": 7
+    }
+  },
+  "FourFlan": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HUR",
+      "Damage": 12,
+      "Value1": 1,
+      "Value2": 3,
+      "Mana": "H:HUR"
+    },
+    "1": {
+      "Mana": 0
+    }
+  },
+  "YijiuAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2H:HUR",
+      "Damage": 18,
+      "Value1": 1
+    },
+    "1": {
+      "Damage": 24,
+      "Keywords": "Accuracy"
+    }
+  },
+  "ReisenMana": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1UR"
+    },
+    "1": {
+      "Cost": "UR"
+    }
+  },
+  "BailianMagic": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HUR",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "HekaHellRain": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1UR",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "ReisenAttack": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "UR",
+    "IsXCost": true,
+    "0": {
+      "Cost": "UR",
+      "Damage": 6,
+      "Mana": 1
+    },
+    "1": {
+      "Damage": 9
+    }
+  },
+  "FlanPlayAlone": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HBR",
+      "Value1": 5
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 6
+    }
+  },
+  "FangxiangHeal": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HBR",
+      "Value1": 2,
+      "Value2": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "HehuanAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1BR",
+      "Damage": 8,
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Damage": 12,
+      "Value2": 3
+    }
+  },
+  "QingeHeal": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Value2": 5,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 8,
+      "Value2": 8,
+      "Keywords": "Exile"
+    }
+  },
+  "RinDraw": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1BR",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 1
+    }
+  },
+  "CloseEyeShoot": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2BR",
+      "Damage": 8,
+      "Value1": 4
+    },
+    "1": {
+      "Value1": 5
+    }
+  },
+  "KongMana": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HBR",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile,Echo"
+    }
+  },
+  "Shengyan": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2H:HBR",
+      "Damage": 18,
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Damage": 24,
+      "Value1": 4,
+      "Keywords": "Accuracy,Exile"
+    }
+  },
+  "ModuoluoFire": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2BR",
+      "Value1": 6
+    },
+    "1": {
+      "Value1": 8
+    }
+  },
+  "Zhulianshen": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HWG",
+      "Block": 13,
+      "Value1": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Block": 18
+    }
+  },
+  "LilyChun": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HWG",
+      "Value1": 3,
+      "Mana": 1
+    },
+    "1": {}
+  },
+  "XiangziEcho": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "H:HWG",
+      "Value1": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "YoumuHybrid": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "HH:HWG",
+      "Value1": 1,
+      "Value2": 1
+    },
+    "1": {}
+  },
+  "YonglinUpgrade": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WG",
+      "Value1": 1,
+      "Value2": 5
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "SanaeRice": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WG",
+      "Value1": 5,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 10,
+      "Keywords": "Exile"
+    }
+  },
+  "SakuraBlade": {
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2HH:HWG",
+      "Damage": 8,
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "YouxiangWake": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WG",
+      "Shield": 15,
+      "Value1": 3,
+      "Value2": 3,
+      "Mana": 0
+    },
+    "1": {}
+  },
+  "LongArm": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "UG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HUG",
+      "Damage": 12,
+      "Value1": 6,
+      "Mana": "CP"
+    },
+    "1": {
+      "Damage": 16,
+      "Mana": "PP"
+    }
+  },
+  "HatateShot": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "UG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1UG",
+      "Block": 12,
+      "Value1": 2
+    },
+    "1": {
+      "Cost": 2
+    }
+  },
+  "ZoufangWater": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HUG",
+      "Damage": 6,
+      "Value1": 2,
+      "Value2": 2
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 8
+    }
+  },
+  "MeilingRain": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "HH:HUG",
+      "Damage": 10,
+      "Mana": "P",
+      "AttackTimes": 1
+    },
+    "1": {
+      "Cost": "1H:HUG",
+      "Damage": 13
+    }
+  },
+  "RuowujiCard": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "UG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1UG",
+      "Damage": 14,
+      "Value1": 6,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Damage": 18,
+      "Value1": 10,
+      "Keywords": "Exile"
+    }
+  },
+  "SkyWater": {
+    "Rarity": "Rare",
+    "Type": "Defense",
+    "Colors": "UG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "UG",
+      "Shield": 8,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "H:HUG",
+      "Keywords": "Exile"
+    }
+  },
+  "LifeGame": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "UG",
+      "Mana": 0
+    },
+    "1": {}
+  },
+  "PoisonTeaParty": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "BG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HBG",
+      "Value1": 3,
+      "Value2": 12
+    },
+    "1": {
+      "Value2": 15
+    }
+  },
+  "LigeluCard": {
+    "Rarity": "Common",
+    "Type": "Defense",
+    "Colors": "BG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1BG",
+      "Block": 20,
+      "Value1": 10,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Block": 25,
+      "Value1": 15,
+      "Keywords": "Exile"
+    }
+  },
+  "PaluxiCurse": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "BG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HBG",
+      "Damage": 20,
+      "Value1": 1,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Damage": 22,
+      "Value1": 2,
+      "Keywords": "Accuracy"
+    }
+  },
+  "BlackPoison": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "BG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "BG",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "MedicineGarden": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "BG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1BG",
+      "Value1": 15,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 20,
+      "Keywords": "Exile"
+    }
+  },
+  "ZoufangSnake": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "BG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2BG",
+      "Value1": 2,
+      "Value2": 3,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value2": 5,
+      "Keywords": "Exile"
+    }
+  },
+  "YachieDefend": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "3BG",
+      "Value1": 2
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "JingyeGraze": {
+    "Rarity": "Common",
+    "Type": "Skill",
+    "Colors": "RG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HRG",
+      "Value1": 2,
+      "Value2": 1
+    },
+    "1": {
+      "Cost": 2,
+      "Value2": 2
+    }
+  },
+  "FangxiangAttack": {
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "RG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1H:HRG",
+      "Damage": 10,
+      "Value1": 7,
+      "Value2": 2,
+      "Keywords": "Accuracy"
+    },
+    "1": {
+      "Cost": 2,
+      "Damage": 13,
+      "Value1": 10,
+      "Keywords": "Accuracy"
+    }
+  },
+  "MeilingAbility": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "RG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1RG",
+      "Value1": 1
+    },
+    "1": {
+      "Value1": 2
+    }
+  },
+  "LimaoAttack": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "RG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2RG",
+      "Damage": 12,
+      "Mana": "RG"
+    },
+    "1": {
+      "Damage": 16
+    }
+  },
+  "TodayYesterday": {
+    "Rarity": "Uncommon",
+    "Type": "Ability",
+    "Colors": "RG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "3RG",
+      "Value1": 1,
+      "Value2": 2
+    },
+    "1": {
+      "Value2": 4
+    }
+  },
+  "AyaExtraTurn": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "RG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2RG",
+      "Value1": 2,
+      "Mana": 1,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Cost": "1RG",
+      "Value1": 3,
+      "Keywords": "Exile"
+    },
+    "Version": "1.7.0"
+  },
+  "AyaWindGirl": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "RG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2RG",
+      "Value1": 1
+    },
+    "1": {
+      "Cost": "1H:HRG"
+    }
+  },
+  "PatchouliLibrary": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "RWU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WUR",
+      "Value1": 5,
+      "Value2": 0,
+      "Mana": "PPP"
+    },
+    "1": {
+      "Value2": 5
+    }
+  },
+  "SanaeRestart": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "WUG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WUG",
+      "Value1": 7,
+      "Mana": "PPP",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Mana": "{5P}",
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "JinziDoppelganger": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "UGB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2UBG",
+      "Value1": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {}
+  },
+  "AnimalSpirit": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "GBR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "BRG",
+      "Value1": 0,
+      "Mana": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "PrismriverAll": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BRW",
+    "IsXCost": false,
+    "0": {
+      "Cost": "WBR",
+      "Value1": 0,
+      "Mana": "PPP"
+    },
+    "1": {
+      "Value1": 3
+    }
+  },
+  "ZhenmiaowanAbility": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "RWG",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1WRG",
+      "Mana": 1
+    },
+    "1": {
+      "Keywords": "Initial"
+    }
+  },
+  "HuiyeSuperExtraTurn": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "WUB",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WUB",
+      "Value1": 1,
+      "Keywords": "Ethereal"
+    },
+    "1": {},
+    "Version": "1.7.0"
+  },
+  "ModuoluoSeasons": {
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "Colors": "UGR",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1URG",
+      "Value1": 0,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "YukariFriend": {
+    "Rarity": "Rare",
+    "Type": "Friend",
+    "Colors": "GBW",
+    "IsXCost": false,
+    "0": {
+      "Cost": "2WBG",
+      "Mana": 0,
+      "Loyalty": 4,
+      "PassiveCost": 1,
+      "ActiveCost": -4,
+      "UltimateCost": -9
+    },
+    "1": {
+      "Loyalty": 5,
+      "UltimateCost": -8
+    }
+  },
+  "BailianFire": {
+    "Rarity": "Rare",
+    "Type": "Ability",
+    "Colors": "BRU",
+    "IsXCost": false,
+    "0": {
+      "Cost": "UBR",
+      "Mana": 1
+    },
+    "1": {}
+  },
+  "ToolDraw": {
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Exile,Retain,Replenish"
+    }
+  },
+  "ToolHeal": {
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Value1": 15,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "ToolWeak": {
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "ToolVulnerable": {
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "ToolAttack": {
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Damage": 30,
+      "Keywords": "Accuracy,Exile,Replenish"
+    }
+  },
+  "ToolBlock": {
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Block": 25,
+      "Keywords": "Exile,Retain,Replenish"
+    }
+  },
+  "ToolAmulet": {
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Initial,Replenish"
+    }
+  },
+  "ToolMana": {
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Mana": "CPP",
+      "Keywords": "Replenish"
+    }
+  },
+  "ToolMicai": {
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "ToolUpgrade": {
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Keywords": "Exile,Initial,Replenish"
+    }
+  },
+  "ToolFirstAid": {
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "ToolExile": {
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Keywords": "Retain,Replenish"
+    }
+  },
+  "ToolInvincible": {
+    "Rarity": "Rare",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 1,
+      "Keywords": "Retain,Replenish"
+    }
+  },
+  "ToolMaxHp": {
+    "Rarity": "Rare",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Keywords": "Initial,Replenish"
+    }
+  },
+  "ToolDroneBlock": {
+    "Rarity": "Rare",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 5,
+      "Keywords": "Initial,Replenish"
+    }
+  },
+  "ToolRandomTool": {
+    "Rarity": "Rare",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Replenish"
+    }
+  },
+  "VampireShoot1": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Damage": 8,
+      "Value1": 1,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Damage": 12,
+      "Keywords": "Basic"
+    }
+  },
+  "VampireShoot2": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Damage": 12,
+      "Value1": 2,
+      "Keywords": "Basic"
+    },
+    "1": {
+      "Damage": 16,
+      "Value1": 3,
+      "Keywords": "Basic"
+    }
+  },
+  "WanderingSoul": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Value1": 1,
+      "Keywords": "Exile,Ethereal"
+    },
+    "1": {
+      "Value1": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "RabbitFoot": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 15,
+      "Keywords": "Forbidden"
+    },
+    "1": {
+      "Value1": 20,
+      "Keywords": "Forbidden"
+    }
+  },
+  "GainTreasure": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Value1": 20,
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Value1": 30,
+      "Keywords": "Exile"
+    }
+  },
+  "MoonPurify": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": "C",
+      "Keywords": "Exile"
+    },
+    "1": {
+      "Keywords": "Exile"
+    }
+  },
+  "ArtificialJewellery": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1
+    },
+    "1": {
+      "Mana": "P"
+    }
+  },
+  "LilyoftheValley": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 3,
+    "0": {
+      "Cost": 0,
+      "Mana": "WBG",
+      "Keywords": "Exile,Replenish"
+    }
+  },
+  "NewsPositive": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 3,
+    "0": {
+      "Cost": 1,
+      "Value1": 30
+    }
+  },
+  "NewsNegative": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 3,
+    "0": {
+      "Cost": 1,
+      "Value1": 30
+    }
+  },
+  "NewsEntertainment": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 3,
+    "0": {
+      "Cost": 1
+    }
+  },
+  "NewsTidbit": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 3,
+    "0": {
+      "Cost": 1,
+      "Value1": 2
+    }
+  },
+  "WolfFur": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 3,
+    "0": {
+      "Cost": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "EmpCard": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 3,
+    "0": {
+      "Cost": 2,
+      "Damage": 12,
+      "Value1": 2,
+      "Keywords": "Replenish"
+    }
+  },
+  "LarvaCure": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 2,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Replenish"
+    }
+  },
+  "MoonTipsBag": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 3,
+      "Keywords": "Ethereal"
+    }
+  },
+  "MoonTipsAttack": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 5
+    }
+  },
+  "MoonTipsDefense": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 20
+    }
+  },
+  "MoonTipsHeal": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 10
+    }
+  },
+  "QiannianShenqiCard": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Tool",
+    "IsXCost": false,
+    "ToolPlayableTimes": 1,
+    "0": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Ethereal,Replenish"
+    }
+  },
+  "MeilingLianhua": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Attack",
+    "Colors": "WUBRGC",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Damage": 24,
+      "Value1": 3,
+      "Keywords": "Accuracy,Exile,Retain"
+    }
+  },
+  "AyaNews": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Damage": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "HatateNews": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Exile"
+    }
+  },
+  "AyaNewsReimuSp": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 5,
+      "Value1": 2,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "AyaNewsMarisaSp": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 5,
+      "Value1": 2,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "AyaNewsSakuyaSp": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 5,
+      "Value1": 2,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "AyaNewsCirnoSp": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 5,
+      "Value1": 2,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "AyaNewsKoishiSp": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 5,
+      "Value1": 2,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "Riguang": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 5,
+      "Keywords": "Forbidden,Ethereal"
+    }
+  },
+  "Yueguang": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Keywords": "Forbidden,Ethereal"
+    }
+  },
+  "Xingguang": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Forbidden,Ethereal"
+    }
+  },
+  "Xuanguang": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Forbidden"
+    }
+  },
+  "CirnoFreeze": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Mana": 1,
+      "Keywords": "Forbidden"
+    }
+  },
+  "KoishiDiscard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Forbidden,Ethereal"
+    }
+  },
+  "Frog": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 4,
+      "Keywords": "Ethereal"
+    },
+    "Version": "1.7.0"
+  },
+  "BlackResidue": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1B",
+      "Value1": 2,
+      "Keywords": "Exile"
+    }
+  },
+  "SakuyaLock": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0,
+      "Value1": 0,
+      "Keywords": "Exile"
+    }
+  },
+  "Wushuai": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Value1": 2,
+      "Keywords": "Forbidden"
+    }
+  },
+  "Payment": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "MoneyCost": 40,
+    "0": {
+      "Cost": 0,
+      "Keywords": "Exile,Retain"
+    }
+  },
+  "LoveLetter": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 3,
+      "Keywords": "Exile"
+    }
+  },
+  "Lunatic": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Value1": 4,
+      "Value2": 20,
+      "Keywords": "Exile"
+    }
+  },
+  "Chunguang": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 3,
+      "Value1": 2,
+      "Keywords": "Forbidden"
+    }
+  },
+  "Bribery": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "MoneyCost": 80,
+    "0": {
+      "Cost": 0,
+      "Keywords": "Exile,Ethereal"
+    }
+  },
+  "Nightmare": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 4,
+      "Value1": 4,
+      "Keywords": "Exile"
+    }
+  },
+  "NightMana1": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Mana": 1,
+      "Keywords": "Forbidden,Retain",
+      "FreezeTimes": 1
+    }
+  },
+  "NightMana2": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Mana": 1,
+      "Keywords": "Forbidden,Retain",
+      "FreezeTimes": 2
+    }
+  },
+  "NightMana3": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 3,
+      "Mana": 1,
+      "Keywords": "Forbidden,Retain",
+      "FreezeTimes": 3
+    }
+  },
+  "NightMana4": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Status",
+    "IsXCost": false,
+    "0": {
+      "Cost": 4,
+      "Mana": 1,
+      "Keywords": "Forbidden,Retain",
+      "FreezeTimes": 4
+    }
+  },
+  "Regret": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Forbidden,Ethereal"
+    }
+  },
+  "Jealousy": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Forbidden"
+    }
+  },
+  "BefuddledLife": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Keywords": "Forbidden,Initial"
+    }
+  },
+  "XiaosanJingxia": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Keywords": "Forbidden"
+    }
+  },
+  "MarisaForget": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Keywords": "Forbidden"
+    }
+  },
+  "Yuebiao": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 2,
+      "Keywords": "Forbidden"
+    }
+  },
+  "BuyPeace": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 10,
+      "Value2": 2,
+      "Keywords": "Forbidden"
+    }
+  },
+  "SweetPoison": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 3,
+      "Keywords": "Forbidden"
+    }
+  },
+  "Pressure": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 10,
+      "Keywords": "Forbidden"
+    }
+  },
+  "Misfortune": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Keywords": "Forbidden"
+    }
+  },
+  "YuyukoMisfortune": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 1,
+      "Value1": 1,
+      "Keywords": "Forbidden"
+    }
+  },
+  "Drunk": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Value1": 3,
+      "Keywords": "Forbidden"
+    }
+  },
+  "Zhukeling": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Keywords": "Unremovable,Forbidden"
+    }
+  },
+  "Psychedelic": {
+    "IsPooled": false,
+    "Rarity": "Uncommon",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 2,
+      "Value1": 3,
+      "Value2": 5,
+      "Keywords": "Unremovable,Forbidden"
+    }
+  },
+  "FanzhuanChongdong": {
+    "IsPooled": false,
+    "Rarity": "Rare",
+    "Type": "Misfortune",
+    "IsXCost": false,
+    "0": {
+      "Cost": 3,
+      "Value1": 5,
+      "Keywords": "Unremovable,Forbidden,Retain"
+    }
+  },
+  "HistoryCard": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Skill",
+    "IsXCost": false,
+    "0": {
+      "Cost": 0
+    },
+    "1": {}
+  }
+}
