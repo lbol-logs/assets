@@ -5,7 +5,7 @@
     "line:06cd2f3": "[Refuse] Nothing happens."
   },
   "Debut": {
-    "line:06f5f1b": "<l>\"Feel free to take anything you need.\"</l><br />Choose one <h>Advantage</h> (Passing the Bamboo Forest will bring additional options).",
+    "line:06f5f1b": "<l>\"Feel free to take anything you need.\"</l><br />Choose one <h>Advantage</h>.",
     "line:01d41f9": "[Sponsor] Gain {{0}} <Money />.",
     "line:0f87a81": "[Swap] Lose starting Exhibit and gain a random Shining Exhibit.",
     "line:08ab19a": "[Invalid] Full Power is active in the Jade Box; starting Exhibit cannot be swapped.",
@@ -18,7 +18,7 @@
     "line:0e0ea19": "<l> \"Here are some of my best medicines.\"</l><br />Take a <h>Pill</h>.",
     "line:045177b": "[Red Pill] Gain {{0}} <Power />.",
     "line:0a8b17e": "[Blue Pill] Gain {{0}} maximum life.",
-    "line:0e2540a": "<l>\"To ensure the mission succeeds, feel free to take an item to your liking.\"</l><br />Choose one <h>Secret Treasure</h> (Easy Difficulty extra bonus).",
+    "line:0e2540a": "<l>\"To ensure the mission succeeds, feel free to take an item to your liking.\"</l><br />Choose one <h>Secret Treasure</h>.",
     "line:0a20386": "Gain <h>Jewel from the Dragon's Neck</h>.",
     "line:0d20cc9": "Gain <h>Buddha's Stone Bowl</h>.",
     "line:0d59ab2": "Gain <h>Robe of Fire Rat</h>.",
