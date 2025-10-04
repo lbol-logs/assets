@@ -539,7 +539,7 @@
   },
   "ExilePotion": {
     "Name": "Waste Utilization",
-    "Description": "<h>Exile</h> up to <Value1 /> card{Value1:plural one='' other='s'} in the hand. Add that many <h>Unstable Potions</h> to the discard pile.",
+    "Description": "<h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand. Add that many <h>Unstable Potions</h> to the discard pile.",
     "UpgradedDescription": "<h>Exile</h> up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) in the hand, draw pile and discard pile. Add that many <h>Unstable Potions</h> to the discard pile."
   },
   "EventHorizon": {
