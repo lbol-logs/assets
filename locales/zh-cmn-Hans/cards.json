@@ -720,7 +720,7 @@
   },
   "CleanRoom": {
     "Name": "打扫房间",
-    "Description": "选择一张手牌丢弃。<br />抽 <Value1 /> 张牌。<br />随机<h>升级</h> <Value2 /> 张手牌；如果丢弃的是<h>飞刀</h>，改为升级所有手牌。"
+    "Description": "选择一张手牌丢弃。<br />抽 <Value1 /> 张牌。<br />随机<h>升级</h> <Value2 /> 张手牌；如果丢弃的是<h>飞刀</h>，改为<h>升级</h>所有手牌。"
   },
   "ExileMagic": {
     "Name": "调换魔法",
@@ -1242,6 +1242,17 @@
     "UpgradedActiveDescription": "抽 <Value1 /> 张牌。",
     "Active2Description": "获得<Mana />，将一张<h>疯狂</h>洗入弃牌堆。"
   },
+  "DayaojingTdm": {
+    "Name": "冰沙店员大妖精",
+    "PassiveDescription": "对随机敌人造成 <Damage /> 点攻击伤害。",
+    "ActiveDescription": "将 <Value1 /> 张<h>雾之湖冰沙</h>加入手中。",
+    "UpgradedActiveDescription": "将 <Value1 /> 张<h>雾之湖冰沙</h>加入手中，<h>升级</h>其中的一张。",
+    "UltimateDescription": "获得 <Value2 /> 点<h>寒冰甲</h>，额外的<h>支援度</h>会提高等量的点数。"
+  },
+  "SnowconeTdm": {
+    "Name": "雾之湖冰沙",
+    "Description": "造成 <Damage /> 点伤害，命中时施加<h>寒冷</h>。<br />首次对一名敌人使用时，获得 <Value1 /> 点<Money />。"
+  },
   "KoishiAttackG": {
     "Name": "双生的螺旋",
     "Description": "造成 <Damage /> 点伤害。"
@@ -1483,7 +1494,7 @@
     "Description_1.6.1": "窃取目标的<h>护盾</h>、<h>闪避</h>、<h>光学迷彩</h>、<h>天衣无缝</h>；窃取目标的<h>火力</h>、<h>灵力</h>，至多 <Value1 /> 点。"
   },
   "SelfControl": {
-    "Name": "掌控自我",
+    "Name": "自我完满",
     "Description": "<h>抉择</h>：进入<h>热情</h>或<h>平静</h>。<br /><PlayerName />的回合结束时：处于<h>热情</h>则获得 <Value1 /> 点<h>火力</h>；处于<h>平静</h>则获得 <Value2 /> 点<h>格挡</h>。"
   },
   "PsycheLock": {
@@ -1605,20 +1616,32 @@
     "Name": "人形当身",
     "Description": "(WIP) "
   },
-  "DollFactory": {
-    "Name": "人形工坊",
+  "StreetArt": {
+    "Name": "街头献艺",
     "Description": "(WIP) "
   },
   "AutoHousework": {
     "Name": "家政自动化",
     "Description": "(WIP) "
   },
-  "Qianqiang": {
-    "Name": "萌萌大千枪",
-    "Description": "(WIP) "
-  },
   "DollFangzhen": {
     "Name": "人形方阵",
+    "Description": "(WIP) "
+  },
+  "DollFormation": {
+    "Name": "小小战团",
+    "Description": "(WIP) "
+  },
+  "HailWeather": {
+    "Name": "冰雹的气质",
+    "Description": "(WIP) "
+  },
+  "SacrificeBlock": {
+    "Name": "无情身代",
+    "Description": "(WIP) "
+  },
+  "DollScry": {
+    "Name": "潜伏侦察",
     "Description": "(WIP) "
   },
   "Zhendijianzao": {
@@ -1629,12 +1652,32 @@
     "Name": "洋馆惊魂夜",
     "Description": "(WIP) "
   },
-  "DollFormation": {
-    "Name": "小小战团",
+  "WitchOfLovePotion": {
+    "Name": "恋药的魔女",
+    "Description": "(WIP) "
+  },
+  "MagicianMeeting": {
+    "Name": "魔法使集会",
+    "Description": "(WIP) "
+  },
+  "DollFactory": {
+    "Name": "人形工坊",
+    "Description": "(WIP) "
+  },
+  "KillerQueen": {
+    "Name": "杀手皇后",
+    "Description": "(WIP) "
+  },
+  "WanderlandAlice": {
+    "Name": "不思议国的爱丽丝",
     "Description": "(WIP) "
   },
   "DollFire": {
     "Name": "人形火葬",
+    "Description": "(WIP) "
+  },
+  "Qianqiang": {
+    "Name": "萌萌大千枪",
     "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
@@ -2322,7 +2365,7 @@
     "Description": "每当一点<ManaP />被支付时，对所有敌人造成 <Value1 /> 点伤害。"
   },
   "Zhulianshen": {
-    "Name": "山神的注连绳",
+    "Name": "山神的庇佑",
     "Description": "获得 <Block /> 点<h>格挡</h>。<br />获得 <Value1 /> 层<h>庇护</h>。"
   },
   "LilyChun": {
@@ -2516,7 +2559,7 @@
   },
   "ToolAttack": {
     "Name": "水枪",
-    "Description": "造成 <Damage /> 点伤害。<br /><h>消耗品【<DeckCounter />】</h>"
+    "Description": "造成 <Damage /> 点攻击伤害。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolBlock": {
     "Name": "防暴盾",

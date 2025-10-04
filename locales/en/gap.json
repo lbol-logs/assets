@@ -9,7 +9,7 @@
     "UpgradeBaota": "Collect"
   },
   "Descriptions": {
-    "DrinkTea": "Heal {{Rate}}% of maximum life. ({{Value}})",
+    "DrinkTea": "Restore {{Rate}}% of maximum life. ({{Value}})",
     "DrinkTea_JingzhiChaju": "This healing is increased by {{AdditionalHeal}}.",
     "DrinkTea_DiannaoPeijian": "Gain {{AdditionalPower}} <Power />.",
     "DrinkTea_HuangyouJiqiren": "Choose 1 of {{CardCount}} cards to add to the library.",

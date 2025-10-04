@@ -224,7 +224,7 @@
   },
   "GanzhuYao": {
     "Name": "Ultramarine Orb Elixir",
-    "Description": "The next time <PlayerName /> would be defeated, heal to maximum life instead. This effect only works once.<br />After this <h>Exhibit</h> has taken effect, <PlayerName />'s maximum life is reduced by <Value1 />% and at the start of combat, gain <Value2 /> <h>Firepower</h>."
+    "Description": "The next time <PlayerName /> would be defeated, heal to maximum life instead. This effect only works once.<br />After this <h>Exhibit</h> has taken effect, <PlayerName />'s maximum life is reduced by <Value1 />% and at the start of combat, gain <Value2 /> <h>Firepower</h>.<br />This Exhibit cannot be lost."
   },
   "Xunlongchi": {
     "Name": "Dowsing Rods",
@@ -582,7 +582,7 @@
   },
   "Guangjian": {
     "Name": "Lightsaber",
-    "Description": "When <PlayerName /> deals damage for the first time each combat, apply <Value1 /> <h>Lock On</h> to the target(s)."
+    "Description": "When <PlayerName /> deals attack damage for the first time each combat, apply <Value1 /> <h>Lock On</h> to the target(s)."
   },
   "LuoboMoxing": {
     "Name": "Robot Model",
@@ -611,11 +611,11 @@
   "LouguanJian": {
     "Name": "Roukanken",
     "Description": "After <PlayerName /> deals attack damage, apply <Value1 /> <h>Lock On</h> to the target(s).",
-    "Description_1.7.0": "After <PlayerName /> deals attack damage, apply <Value1 /> <h>Lock On</h> to the target(s).<br />This lasts until the end of the run."
+    "Description_1.7.0": "After <PlayerName /> deals attack damage, apply <Value1 /> <h>Lock On</h> to the target(s).<br />This Exhibit cannot be lost."
   },
   "AliceBook": {
     "Name": "\"Ultimate Magic\"",
-    "Description": "While in combat, <h>Kicker</h> costs for cards cost <Mana /> less.<br />This lasts until the end of the run."
+    "Description": "While in combat, <h>Kicker</h> costs for cards cost <Mana /> less.<br />This Exhibit cannot be lost."
   },
   "WaijieYanjing": {
     "Name": "Hi-Tech Glasses From the Outside World",
@@ -671,7 +671,7 @@
   },
   "JuanzengZhengming": {
     "Name": "Proof of Donation",
-    "Description": "<PlayerName />'s maximum amount of Spell Card charges is increased by <Value1 />. Her Spell Card can now be used multiple times in a single turn.<br />Gain <Value2 /> <Power />.<br />This lasts until the end of the run."
+    "Description": "<PlayerName />'s maximum amount of Spell Card charges is increased by <Value1 />. Her Spell Card can now be used multiple times in a single turn.<br />Gain <Value2 /> <Power />.<br />This Exhibit cannot be lost."
   },
   "PulpFiction": {
     "Name": "\"Pulp Fiction\"",

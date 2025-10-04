@@ -815,6 +815,10 @@
     "Name": "妖精集結",
     "Description": "手牌上限提高至 <MaxHand /> 張。"
   },
+  "PaidTdm": {
+    "Name": "無限續杯",
+    "Description": "<OwnerName />已經付過錢了！"
+  },
   "MoodPassion": {
     "Name": "熱情",
     "Description": "處於<h>熱情</h>時，<PlayerName />造成和受到的攻擊傷害提高 <Percentage />%。<br /><h>熱情</h>是一種<h>心境</h>，<PlayerName />只能處於一種<h>心境</h>中。"

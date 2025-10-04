@@ -17,15 +17,21 @@
     "Mythic": "秘宝",
     "Misfortune": "厄运"
   },
+  "packs": {
+    "Tdm": "东方弹幕迷宫"
+  },
   "delimiter": "：",
   "cardsCount": "卡牌总数：{{count}}",
   "exhibitsCount": "展品总数：{{count}}",
+  "GameMode": "自由模式",
+  "GameMode_StoryMode": "故事模式",
   "ShowRandomResult_true": "揭示命运",
   "ShowRandomResult_false": "未知命运",
   "IsAutoSeed_true": "随机的种子",
   "IsAutoSeed_false": "设置的种子",
   "ReloadTimes": "回到过去次数：{{count}}",
   "JadeBox": "玉匣",
+  "Pack": "补充包",
   "description": "说明",
   "act": "第{{act}}幕",
   "act_4": "最终幕",

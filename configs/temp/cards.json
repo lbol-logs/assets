@@ -4659,6 +4659,46 @@
       "Loyalty": 9
     }
   },
+  "DayaojingTdm": {
+    "Rarity": "Uncommon",
+    "Type": "Friend",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": "1U",
+      "Damage": 6,
+      "Value1": 2,
+      "Value2": 10,
+      "Loyalty": 3,
+      "PassiveCost": 1,
+      "ActiveCost": -3,
+      "UltimateCost": -5
+    },
+    "1": {
+      "Damage": 8,
+      "UltimateCost": -3
+    }
+  },
+  "SnowconeTdm": {
+    "IsPooled": false,
+    "Rarity": "Common",
+    "Type": "Attack",
+    "Colors": "U",
+    "IsXCost": false,
+    "Owner": "Cirno",
+    "0": {
+      "Cost": 1,
+      "Damage": 2,
+      "Value1": 1,
+      "Keywords": "Exile,Retain"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 2,
+      "Keywords": "Exile,Retain"
+    }
+  },
   "KoishiAttackG": {
     "IsPooled": false,
     "Rarity": "Common",
@@ -5773,6 +5813,17 @@
       "Damage": 16,
       "Keywords": "FollowCard"
     }
+  },
+  "DollScry": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "Owner": "Alice",
+    "0": {
+      "Cost": "B"
+    },
+    "1": {}
   },
   "YoumuAttack": {
     "Rarity": "Common",
