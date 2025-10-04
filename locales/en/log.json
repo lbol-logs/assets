@@ -17,17 +17,23 @@
     "Mythic": "Mythic Rare",
     "Misfortune": "Misfortune"
   },
+  "packs": {
+    "Tdm": "Touhou Danmaku Maze"
+  },
   "delimiter": ": ",
   "cardsCount": "Card: {{count}}",
   "cardsCount_other": "Cards: {{count}}",
   "exhibitsCount": "Exhibit: {{count}}",
   "exhibitsCount_other": "Exhibits: {{count}}",
+  "GameMode": "Free Mode",
+  "GameMode_StoryMode": "Story Mode",
   "ShowRandomResult_true": "Reveal Fate",
   "ShowRandomResult_false": "Unknown Fate",
   "IsAutoSeed_true": "Random Seed",
   "IsAutoSeed_false": "Specified Seed",
   "ReloadTimes": "Restarts: {{count}}",
   "JadeBox": "Jade Box",
+  "Pack": "Booster Packs",
   "description": "Description",
   "act": "Act {{act}}",
   "act_4": "Final Act",

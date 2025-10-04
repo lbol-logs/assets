@@ -17,15 +17,21 @@
     "Mythic": "秘宝",
     "Misfortune": "厄災"
   },
+  "packs": {
+    "Tdm": "東方ダンマクメイズ"
+  },
   "delimiter": "：",
   "cardsCount": "カード枚数：{{count}}",
   "exhibitsCount": "展示品数：{{count}}",
+  "GameMode": "フリーモード",
+  "GameMode_StoryMode": "ストーリーモード",
   "ShowRandomResult_true": "運命を知る",
   "ShowRandomResult_false": "運命に従う",
   "IsAutoSeed_true": "シード値未設定",
   "IsAutoSeed_false": "シード値設定",
   "ReloadTimes": "時戻しの回数：{{count}}",
   "JadeBox": "玉匣",
+  "Pack": "拡張パック",
   "description": "説明",
   "act": "第{{act}}章",
   "act_4": "最終章",

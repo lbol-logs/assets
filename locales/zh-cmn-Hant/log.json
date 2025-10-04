@@ -17,15 +17,21 @@
     "Mythic": "秘寶",
     "Misfortune": "厄運"
   },
+  "packs": {
+    "Tdm": "東方彈幕迷宮"
+  },
   "delimiter": "：",
   "cardsCount": "卡牌總數：{{count}}",
   "exhibitsCount": "展品總數：{{count}}",
+  "GameMode": "自由模式",
+  "GameMode_StoryMode": "故事模式",
   "ShowRandomResult_true": "揭示命運",
   "ShowRandomResult_false": "未知命運",
   "IsAutoSeed_true": "隨機的種子",
   "IsAutoSeed_false": "設置的種子",
   "ReloadTimes": "回到過去次數：{{count}}",
   "JadeBox": "玉匣",
+  "Pack": "補充包",
   "description": "說明",
   "act": "第{{act}}幕",
   "act_4": "最終幕",
