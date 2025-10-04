@@ -8,17 +8,17 @@
     "line:06f5f1b": "<l>\"Feel free to take anything you need.\"</l><br />Choose one <h>Advantage</h> (Passing the Bamboo Forest will bring additional options).",
     "line:01d41f9": "[Sponsor] Gain {{0}} <Money />.",
     "line:0f87a81": "[Swap] Lose starting Exhibit and gain a random Shining Exhibit.",
-    "line:08ab19a": "[Invalid] Full Power is active in the Jade Box, cannot swap starting Exhibit.",
+    "line:08ab19a": "[Invalid] Full Power is active in the Jade Box; starting Exhibit cannot be swapped.",
     "line:05100b8": "[Recall] From 3 random Uncommon cards, choose one to add to the library.",
     "line:097011d": "[Epiphany] Add a random Rare card to the library.",
     "line:02cfa2c": "[Trade] Lose all money, gain a random Rare Exhibit.",
     "line:00b97f5": "[Training] Choose 1 card to Upgrade.",
     "line:0b72af3": "[Relieve] Choose a card from the library to remove.",
     "line:067ea40": "[Alter] Choose a card from the library to transform.",
-    "line:0e0ea19": "<l> \"Here's some medicine I've carefully prepared.\"</l><br />Take a <h>Pill</h>.",
+    "line:0e0ea19": "<l> \"Here are some of my best medicines.\"</l><br />Take a <h>Pill</h>.",
     "line:045177b": "[Red Pill] Gain {{0}} <Power />.",
     "line:0a8b17e": "[Blue Pill] Gain {{0}} maximum life.",
-    "line:0e2540a": "<l>\"For the success of the mission, take an item to your liking.\"</l><br />Choose one <h>Secret Treasure</h> (Easy Difficulty extra bonus).",
+    "line:0e2540a": "<l>\"To ensure the mission succeeds, feel free to take an item to your liking.\"</l><br />Choose one <h>Secret Treasure</h> (Easy Difficulty extra bonus).",
     "line:0a20386": "Gain <h>Jewel from the Dragon's Neck</h>.",
     "line:0d20cc9": "Gain <h>Buddha's Stone Bowl</h>.",
     "line:0d59ab2": "Gain <h>Robe of Fire Rat</h>.",
@@ -58,8 +58,8 @@
     "line:0431aa2": "[Leave] Nothing happens."
   },
   "DoremyPortal": {
-    "line:0af435d": "\"If you wish to find her quickly, I have a shortcut right here.\"",
-    "line:0891a52": "[Use Tunnel] Start boss fight immediately. Gain <h>Border Sensor</h>.",
+    "line:0af435d": "\"If you want to find her quickly, I have a shortcut for you right here.\"",
+    "line:0891a52": "[Use Tunnel] Gain <h>Border Sensor</h>. Start boss fight immediately.",
     "line:0f1da28": "[Search for Treasure] Gain a random Exhibit and {{0}} <Money />, gain Misfortune: <h>Psychedelic</h>.",
     "line:0298994": "[Leave] Nothing happens."
   },
@@ -77,10 +77,10 @@
   },
   "MiyoiBartender": {
     "line:0868bad": "(Geidontei... If I remember correctly, it opens to youkai during the night.)",
-    "line:061da42": "[A Swig] Gain Exhibit: <h>{{0}}</h>, and remove a card from the library.",
+    "line:061da42": "[A Swig] Gain Exhibit: <h>{{0}}</h>. Remove a card from the library.",
     "line:018cd9a": "[Drinking Competition] Gain {{0}} <Money /> and gain two Misfortunes: <h>{{1}}</h>.",
     "line:0bea743": "[A Sip] Fight a random group of enemies and get a random Rare Exhibit.",
-    "line:0b0300d": "\"Uwah! Please take this and keep it a secret.\"",
+    "line:0b0300d": "\"Uwah! Please take this and keep it a secret!\"",
     "line:0b3a02b": "[Accept] Gain Exhibit: <h>{{0}}</h>.",
     "line:0d8166c": "[Refuse] Nothing happens."
   },
@@ -109,7 +109,7 @@
     "line:0c671d8": "[Refuse] Nothing happens."
   },
   "YorigamiSisters": {
-    "line:0e93370": "\"Their original price is 100<Money />, but we're offering a special discount of <hg>{{0}}%</hg> on all first-time purchases~\"",
+    "line:0e93370": "\"Their original price is 100<Money />, but we're offering a special discount of <hg>{{0}}%</hg> on all first-time purchases!\"",
     "line:035fe0b": "[Take the Money] Pay {{0}} <Money />, get: <h>{{1}}</h>.",
     "line:03a90b9": "[Refuse to Buy] Pay {{0}} <Money />, or gain Misfortune: <h>{{1}}</h>.",
     "line:09653e9": "\"Is it a good idea to punish someone as broke as her? Though it's not necessarily a bad thing.\"",
@@ -117,14 +117,14 @@
     "line:08ee578": "[I'm Broke] Gain Misfortune: <h>{{0}}</h>."
   },
   "HatateInterview": {
-    "line:0fed9a3": "\"Miss <PlayerName />, can I have an interview?\"",
+    "line:0fed9a3": "\"May I have an interview, Miss <PlayerName />?\"",
     "line:0ffc3c5": "[Accept] Answer a question.",
     "line:0b1bfc1": "[Refuse] Nothing happens.",
     "line:0f1ab7b": "\"Why have you decided to take part in this incident, Miss <PlayerName />?\"",
     "line:0c26759": "[For Gensokyo] Gain <h>{{0}}</h>.",
     "line:01f1aca": "[For Money] Gain <h>{{0}}</h>, gain {{1}} <Money />.",
     "line:018ba4d": "[No Idea] Gain <h>{{0}}</h>, gain Misfortune: <h>{{1}}</h>.",
-    "line:0680a62": "[For Kaguya] Gain <h>{{0}}</h>, heal {{1}} life."
+    "line:0680a62": "[For Kaguya] Gain <h>{{0}}</h>, restore {{1}} life."
   },
   "HinaCollect": {
     "line:0183740": "\"Let me bear this misfortune for you.\"",
@@ -175,7 +175,7 @@
     "line:0766cf1": "Nazrin digs up some dust-covered incense! Remove a card."
   },
   "HecatiaTshirt": {
-    "line:008fa52": "\"Come on, let's support Kaguya-chan!\"",
+    "line:008fa52": "\"Come on, let's support Kaguya-chan together!\"",
     "line:0678716": "[Receive Clothes] Gain Exhibit: <h>Idol T-Shirt</h>.",
     "line:01566ec": "[Trade Clothes] Gain Exhibit: <h>Idol T-Shirt (Large)</h>.",
     "line:00d22b0": "[Leave] Nothing happens."
@@ -190,31 +190,31 @@
     "line:05bdc79": "[Engineering Question] Answer correctly to win <h>{{0}}</h>."
   },
   "MikeInvest": {
-    "line:0455736": "\"Guaranteed returns if you invest right now, wanna learn more?\"",
+    "line:0455736": "\"Guaranteed returns if you invest right now! Wanna learn more?\"",
     "line:09abc03": "[Long-Term Investment] Lose {{0}} <Money />, gain <h>{{1}}</h>.",
     "line:085816e": "[Short-Term Investment] Lose {{0}} <Money />, gain a random Rare card.",
     "line:0b1cdeb": "[Reject] Nothing happens."
   },
   "YoumuDelivery": {
-    "line:0577ef3": "\"Miss <PlayerName />, could you do a taste-test for me before I deliver them to Yuyuko-sama?\"",
+    "line:0577ef3": "\"Could you do a taste-test for me before I deliver them to Lady Yuyuko, Miss <PlayerName />?\"",
     "line:0ea45c4": "[Iced Tricolor Dango] Transform one card into an Upgraded multicolor card.",
     "line:0d7cfde": "[Sardinia Mooncake] Gain Exhibit: <h>{{0}}</h>, and gain Misfortune: <h>{{1}}</h>."
   },
   "RemiliaMeet": {
-    "line:0c6dafc": "\"If you beg for it, I'm more than happy to lend you a hand~\"",
+    "line:0c6dafc": "\"If you beg for it, I'd be more than happy to lend you a hand.\"",
     "line:0b0f1b1": "[Seek Help] Replace Basic attack cards with <h>Devil's Attack</h>, gain Misfortune: <h>{{0}}</h>.",
     "line:0aa0a2f": "[Deal] Replace Basic attack cards with <h>Devil's Attack</h>, lose <h>{{0}}</h>.",
     "line:0855034": "[Invalid] Requires <h>{{0}}</h>.",
     "line:014dfb8": "[Leave] Nothing happens."
   },
   "RingoEmp": {
-    "line:00a9945": "\"Those are copies of our patent in the Lunar Capital, we hope you will help us defend our intellectual property.\"",
+    "line:00a9945": "\"Those are knock-offs of our patent in the Lunar Capital. We hope you'll help us defend our intellectual property.\"",
     "line:05575e9": "[Help] Get card: <h>{{0}}</h>.",
     "line:0b93b5a": "[Refuse] Get three random Tool cards and gain Misfortune: <h>{{0}}</h>.",
     "line:095a793": "[None of My Business] Nothing happens."
   },
   "YachieOppression": {
-    "line:037c786": "\"The otter spirits smell some of the kappa's rogue drones. For the sake of the land, please deal with the issue as soon as you can~\"",
+    "line:037c786": "\"The otter spirits smell some of the kappa's rogue drones. For the sake of the land, please deal with the issue as soon as you can.\"",
     "line:07acb62": "[Fight] Fight a phalanx of drones and get a random Rare Exhibit.",
     "line:09e89c0": "[Refuse] Gain Misfortune: <h>{{0}}</h>.",
     "line:0970713": "\"As expected of <PlayerName />! Please accept my carefully prepared gift!\"",
@@ -239,14 +239,14 @@
     "line:0db14e0": "[Pass By] Nothing happens."
   },
   "MystiaBbq": {
-    "line:0b7dfd2": "\"Come on, <PlayerName />. Have some skewers or you won't have any energy to exterminate youkai~\"",
+    "line:0b7dfd2": "\"Come on, <PlayerName />. You can't exterminate youkai on a skewer-less stomach!\"",
     "line:026a5bc": "[Grilled Lamprey] Restore {{0}} life.",
     "line:06598ae": "[Grilled Mushrooms] Gain {{0}} <Power />.",
     "line:0c3600a": "[No Late Night Snacks] Nothing happens.",
-    "line:06bc591": "\"Gotcha~ one grilled lamprey, that will be {{0}} <Money />.\"",
+    "line:06bc591": "\"Gotcha! One grilled lamprey. That will be {{0}} <Money />.\"",
     "line:03e0868": "[Pay Normally] Lose {{0}} <Money />.",
     "line:0284c65": "[Dine and Dash] Refuse to pay.",
-    "line:0f8955e": "\"Gotcha~ one skewer of grilled mushrooms, that will be {{0}} <Money />.\"",
+    "line:0f8955e": "\"Gotcha! One grilled mushroom skewer. That will be {{0}} <Money />.\"",
     "line:0554174": "[Pay Normally] Lose {{0}} <Money />.",
     "line:0086f01": "[Dine and Dash] Refuse to pay."
   },
@@ -274,7 +274,7 @@
     "line:0522823": "[Refuse] Gain Misfortune: <h>{{0}}</h>."
   },
   "BackgroundDancers": {
-    "line:0927a10": "\"With your life as the price, see what power you can gain from the master's doors.\"",
+    "line:0927a10": "\"With your life as the price, see what power you can gain from Master's doors.\"",
     "line:0c1f815": "[Fortune] Lose {{0}} life, gain {{1}} <Money />.",
     "line:024f6c3": "[Utility] Lose {{0}} life, get two random Tool cards.",
     "line:0045201": "[Stamina] Lose {{0}} life, gain {{1}} maximum life.",
@@ -282,27 +282,27 @@
     "line:0e4c0ab": "[Exhibit] Lose {{0}} life, gain a random Exhibit.",
     "line:0ba21b9": "[Ability] Lose {{0}} life, gain a random ability card.",
     "line:033d1fd": "[Leave] Lose {{0}} life.",
-    "line:0b8832a": "\"You still want money in the end~ Wanna continue?\"",
-    "line:0b3cea2": "\"Strange tools fall out!\"",
-    "line:0579e44": "\"You wanna become tougher? Lacking confidence I see~\"",
-    "line:08238a7": "\"Ah, in a hurry I see.\"",
-    "line:091e5ec": "\"Exhibits from the exposition?! Never thought that would be in the doors...\"",
+    "line:0b8832a": "\"Hah! In the end, you still go for the money! Wanna continue?\"",
+    "line:0b3cea2": "\"Strange tools are falling out!\"",
+    "line:0579e44": "\"You want to be able to take more hits? Where'd all your confidence go?\"",
+    "line:08238a7": "\"Ahh, in a hurry, I see.\"",
+    "line:091e5ec": "\"Exhibits from the expo?! Never thought those would be in the doors...\"",
     "line:0a37d54": "\"Looking to obtain new abilities? Let's see how the door guides you.\""
   },
   "MedicinePoison": {
-    "line:05cbfe0": "\"Lily? (I think she's talking about these lilies-of-the-valley.)\"",
+    "line:05cbfe0": "\"Lily? (I memory serves, she's talking about these lilies-of-the-valley.)\"",
     "line:0bf4fe7": "[Accept] Increase maximum life by {{0}}, restore all life, gain Misfortune: <h>{{1}}</h>.",
     "line:05cf379": "[Refuse] Lose {{0}} life, gain <h>{{1}}</h>."
   },
   "MikoDonation": {
-    "line:0d8209a": "\"Assist me in becoming the President of Gensokyo and we can restore honor to the Spell Card Rules and Make Gensokyo Great Again!\"",
+    "line:0d8209a": "\"Assist me in becoming the President of Gensokyo and we can restore honor to the Spell Card Rules and make Gensokyo great again!\"",
     "line:0e57c87": "[Donate] Lose {{0}} <Money />, gain Exhibit: <h>{{1}}</h>.",
     "line:0e3018e": "[Refuse] Nothing happens."
   },
   "SatoriCounseling": {
     "line:0595176": "\"Please lie down and tell me about your condition.\"",
-    "line:0ff4b4a": "\"Great, now how about you lie down and let sis ease your mind?\"",
-    "line:0f753ad": "[Talk Therapy] Pay {{0}} <Money />, select one of the three upgraded Uncommon cards to get.",
+    "line:0ff4b4a": "\"Great, now how about you lie down and let your sister ease your mind?\"",
+    "line:0f753ad": "[Talk Therapy] Pay {{0}} <Money />. Select one of the three upgraded Uncommon cards to get.",
     "line:02f3a36": "[Invalid] Insufficient <Money />.",
     "line:04fdd25": "[Suggestion Therapy] Choose one of twenty Uncommon or Common cards to add to the library.",
     "line:07db6e4": "[Allowance] Choose one of twenty Upgraded Uncommon or Common cards to add to the library.",
@@ -315,14 +315,14 @@
     "line:0a0f2c8": "No (Wish to gain <h>Monocolor</h> cards)."
   },
   "BuduSuanming": {
-    "line:0b3de88": "\"I can help divine your ultimate foe, or what destiny may befall you next.\"",
+    "line:0b3de88": "\"Friends, foes, or even what the true culprit has in store for you. My fortune telling can predict it all.\"",
     "line:07e5e51": "\"Since you're helping out Gensokyo, Miss <PlayerName />, I'll give you a little discount.\"",
     "line:07cdbe4": "[Fortune Telling] Pay {{0}} <Money />. Reveal the Boss of the third Act.",
     "line:0152f90": "[Dream Interpretation] Pay {{0}} <Money />. Reveal the first Friend Event in the third Act.",
     "line:09db3f2": "[Face Observation] Pay {{0}} <Money />. Reveal the first item of the True Final Boss.",
     "line:028834f": "[Leave] Nothing happens.",
-    "line:0b5f8ae": "\"You'll be fighting {{0}}.\"",
-    "line:0607cc8": "\"You'll meet {{0}}.\"",
-    "line:02c2c1f": "\"Her first item is {{0}}.\""
+    "line:0b5f8ae": "\"You will be fighting {{0}}.\"",
+    "line:0607cc8": "\"You will encounter {{0}}.\"",
+    "line:02c2c1f": "\"Her first item will be {{0}}.\""
   }
 }
