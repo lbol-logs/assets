@@ -815,6 +815,10 @@
     "Name": "妖精大集結",
     "Description": "手札の上限が<MaxHand />枚になる。"
   },
+  "PaidTdm": {
+    "Name": "おかわり自由",
+    "Description": "<OwnerName />は既に代金を支払っている！"
+  },
   "MoodPassion": {
     "Name": "熱情",
     "Description": "<PlayerName />が与える攻撃ダメージ及び受ける攻撃ダメージが<Percentage />%増加する。<br /><h>熱情</h>は<h>心境</h>の一つで、<PlayerName />は同時に複数の<h>心境</h>に入ることはできない。"
@@ -1009,7 +1013,7 @@
   },
   "BlackPoisonSe": {
     "Name": "暗闇演舞",
-    "Description": "<PlayerName />がブロックされないダメージを与えるたび、対象に<h>中毒</h><Level />を付与する。"
+    "Description": "<PlayerName />がブロックされないダメージを与えるたび、対象に<h>毒</h><Level />を付与する。"
   },
   "MeilingAbilitySe": {
     "Name": "烈虹真拳",

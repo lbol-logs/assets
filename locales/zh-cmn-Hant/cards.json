@@ -525,7 +525,7 @@
     "UpgradedDescription": "將 <Value2 /> 張<h>不穩定魔藥</h>洗入抽牌堆。<br /><h>不穩定魔藥</h>基礎傷害提高 <Value1 /> 點。<br /><PlayerName />的回合結束時，抽牌堆及棄牌堆中的<h>不穩定魔藥</h>傷害提高 <Value1 /> 點。"
   },
   "OpenUniverse": {
-    "Name": "宏觀宇宙",
+    "Name": "開放宇宙",
     "Description": "選擇抽牌堆中的一張牌，將它移出本場戰鬥。<br />將兩張它<h>暫塑</h>為<Mana />的複製加入手中，這些複製具有<h>放逐</h>。"
   },
   "SuperNova": {
@@ -720,7 +720,7 @@
   },
   "CleanRoom": {
     "Name": "打掃房間",
-    "Description": "選擇一張手牌丟棄。<br />抽 <Value1 /> 張牌。<br />隨機<h>升級</h> <Value2 /> 張手牌；如果丟棄的是<h>飛刀</h>，改為升級所有手牌。"
+    "Description": "選擇一張手牌丟棄。<br />抽 <Value1 /> 張牌。<br />隨機<h>升級</h> <Value2 /> 張手牌；如果丟棄的是<h>飛刀</h>，改為<h>升級</h>所有手牌。"
   },
   "ExileMagic": {
     "Name": "調換魔法",
@@ -1046,7 +1046,7 @@
   "LeidiFriend": {
     "Name": "凜冬的化身蕾蒂",
     "PassiveDescription": "對隨機一名敵人施加<h>寒冷</h>。",
-    "UltimateDescription": "對所有敵人造成 <Damage /> 點傷害，施加<h>寒冷</h>。"
+    "UltimateDescription": "對所有敵人造成 <Damage /> 點攻擊傷害，施加<h>寒冷</h>。"
   },
   "ColdSnap": {
     "Name": "快速降溫",
@@ -1164,7 +1164,7 @@
   },
   "CirnoEcho": {
     "Name": "自然的饋贈",
-    "Description": "從棄牌堆中選擇 <Value1 /> 張牌移回手中，賦予<h>回響</h>。"
+    "Description": "從棄牌堆中選擇 <Value1 /> 張牌移回手中，賦予<h>迴響</h>。"
   },
   "FairyAllOut": {
     "Name": "全員出擊",
@@ -1241,6 +1241,17 @@
     "ActiveDescription": "抽 <Value1 /> 張牌，將一張<h>瘋狂</h>洗入棄牌堆。",
     "UpgradedActiveDescription": "抽 <Value1 /> 張牌。",
     "Active2Description": "獲得<Mana />，將一張<h>瘋狂</h>洗入棄牌堆。"
+  },
+  "DayaojingTdm": {
+    "Name": "冰沙店員大妖精",
+    "PassiveDescription": "對隨機敵人造成 <Damage /> 點攻擊傷害。",
+    "ActiveDescription": "將 <Value1 /> 張<h>霧之湖冰沙</h>加入手中。",
+    "UpgradedActiveDescription": "將 <Value1 /> 張<h>霧之湖冰沙</h>加入手中，<h>升級</h>其中的一張。",
+    "UltimateDescription": "獲得 <Value2 /> 點<h>寒冰甲</h>，額外的<h>支援度</h>會提高等量的點數。"
+  },
+  "SnowconeTdm": {
+    "Name": "霧之湖冰沙",
+    "Description": "造成 <Damage /> 點傷害，命中時施加<h>寒冷</h>。<br />首次對一名敵人使用時，獲得 <Value1 /> 點<Money />。"
   },
   "KoishiAttackG": {
     "Name": "雙生的螺旋",
@@ -1483,7 +1494,7 @@
     "Description_1.6.1": "竊取目標的<h>護盾</h>、<h>閃避</h>、<h>光學迷彩</h>、<h>天衣無縫</h>；竊取目標的<h>火力</h>、<h>靈力</h>，至多 <Value1 /> 點。"
   },
   "SelfControl": {
-    "Name": "掌控自我",
+    "Name": "自我完滿",
     "Description": "<h>抉擇</h>：進入<h>熱情</h>或<h>平靜</h>。<br /><PlayerName />的回合結束時：處於<h>熱情</h>則獲得 <Value1 /> 點<h>火力</h>；處於<h>平靜</h>則獲得 <Value2 /> 點<h>格擋</h>。"
   },
   "PsycheLock": {
@@ -1605,20 +1616,32 @@
     "Name": "人形當身",
     "Description": "(WIP) "
   },
-  "DollFactory": {
-    "Name": "人形工房",
+  "StreetArt": {
+    "Name": "街頭獻藝",
     "Description": "(WIP) "
   },
   "AutoHousework": {
     "Name": "家政自動化",
     "Description": "(WIP) "
   },
-  "Qianqiang": {
-    "Name": "萌萌大千槍",
-    "Description": "(WIP) "
-  },
   "DollFangzhen": {
     "Name": "人形方陣",
+    "Description": "(WIP) "
+  },
+  "DollFormation": {
+    "Name": "小小戰團",
+    "Description": "(WIP) "
+  },
+  "HailWeather": {
+    "Name": "冰雹的氣質",
+    "Description": "(WIP) "
+  },
+  "SacrificeBlock": {
+    "Name": "無情身代",
+    "Description": "(WIP) "
+  },
+  "DollScry": {
+    "Name": "潛伏偵察",
     "Description": "(WIP) "
   },
   "Zhendijianzao": {
@@ -1629,12 +1652,32 @@
     "Name": "洋館驚魂夜",
     "Description": "(WIP) "
   },
-  "DollFormation": {
-    "Name": "小小戰團",
+  "WitchOfLovePotion": {
+    "Name": "戀藥的魔女",
+    "Description": "(WIP) "
+  },
+  "MagicianMeeting": {
+    "Name": "魔法使集會",
+    "Description": "(WIP) "
+  },
+  "DollFactory": {
+    "Name": "人形工房",
+    "Description": "(WIP) "
+  },
+  "KillerQueen": {
+    "Name": "殺手皇后",
+    "Description": "(WIP) "
+  },
+  "WanderlandAlice": {
+    "Name": "不思議國的愛麗絲",
     "Description": "(WIP) "
   },
   "DollFire": {
     "Name": "人形火葬",
+    "Description": "(WIP) "
+  },
+  "Qianqiang": {
+    "Name": "萌萌大千槍",
     "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
@@ -2322,7 +2365,7 @@
     "Description": "每當一點<ManaP />被支付時，對所有敵人造成 <Value1 /> 點傷害。"
   },
   "Zhulianshen": {
-    "Name": "山神的注連繩",
+    "Name": "山神的庇佑",
     "Description": "獲得 <Block /> 點<h>格擋</h>。<br />獲得 <Value1 /> 層<h>庇護</h>。"
   },
   "LilyChun": {
@@ -2332,7 +2375,7 @@
   },
   "XiangziEcho": {
     "Name": "山谷回聲",
-    "Description": "選擇至多 <Value1 /> 張手牌賦予<h>回響</h>。"
+    "Description": "選擇至多 <Value1 /> 張手牌賦予<h>迴響</h>。"
   },
   "YoumuHybrid": {
     "Name": "半人半靈",
@@ -2516,7 +2559,7 @@
   },
   "ToolAttack": {
     "Name": "水槍",
-    "Description": "造成 <Damage /> 點傷害。<br /><h>消耗品【<DeckCounter />】</h>"
+    "Description": "造成 <Damage /> 點攻擊傷害。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolBlock": {
     "Name": "防暴盾",

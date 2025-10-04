@@ -409,7 +409,7 @@
   },
   "ScryBlock": {
     "Name": "計画通り",
-    "Description": "<h>占術</h>をするたび、<PlayerName />が<Value1 /><h>ブロック</h>を得る。"
+    "Description": "<h>占術</h>を行うたび、<PlayerName />は<Value1 /><h>ブロック</h>を得る。"
   },
   "ShibaiChanwu": {
     "Name": "失敗の産物",
@@ -716,7 +716,7 @@
   },
   "CleanRoom": {
     "Name": "部屋掃除",
-    "Description": "手札を1枚捨てる。カードを<Value1 />枚引く。<br />手札のランダムなカード<Value2 />枚を戦闘終了まで<h>アップグレード</h>する。<br />このカードの効果で<h>投げナイフ</h>を捨てていたなら代わりに手札のカードを全てアップグレードする。"
+    "Description": "手札を1枚捨てる。カードを<Value1 />枚引く。<br />手札のランダムなカード<Value2 />枚を戦闘終了まで<h>アップグレード</h>する。<br />このカードの効果で<h>投げナイフ</h>を捨てていたなら代わりに手札のカードを全て<h>アップグレード</h>する。"
   },
   "ExileMagic": {
     "Name": "チェンジリングマジック",
@@ -844,8 +844,8 @@
     "Description": "<PlayerName />はターン終了時に余剰のマナがある場合、ランダムなマナ<Value1 />つを次のターンへ持ち越せるようになる。"
   },
   "LoyalMaid": {
-    "Name": "忠実なる召使い",
-    "Description": "<Shield /><h>バリア</h>を得る。<br />追加ターンを得る度、捨て札から手札へと加えられ、<h>臨時コスト</h><Mana />になる。"
+    "Name": "忠実なる従者",
+    "Description": "<Shield /><h>バリア</h>を得る。<br />追加ターンの開始時、捨て札の<SelfName />を<h>臨時コスト</h><Mana />にして手札に戻す。"
   },
   "TimeMagic": {
     "Name": "タイムマジック",
@@ -952,7 +952,7 @@
   },
   "DayaojingFriend": {
     "Name": "異変調査助手、大妖精",
-    "PassiveDescription": "ランダムな敵に<Damage />ダメージを与える。",
+    "PassiveDescription": "ランダムな敵に<Damage />攻撃ダメージを与える。",
     "ActiveDescription": "<Block /><h>ブロック</h>を得る。",
     "UpgradedActiveDescription": "<Block /><h>ブロック</h>と<Shield /><h>バリア</h>を得る。",
     "UltimateDescription": "<h>真夏の花</h>を<Value1 />枚手札に加える。",
@@ -976,7 +976,7 @@
   },
   "MaidFriend": {
     "Name": "メイド妖精、カスミ",
-    "PassiveDescription": "最もライフの少ない敵に<Damage />ダメージを与える。",
+    "PassiveDescription": "最もライフの少ない敵に<Damage />攻撃ダメージを与える。",
     "ActiveDescription": "直ちにダメージを与える。<br /><h>投げナイフ</h>を<Value2 />枚手札に加える。",
     "UltimateDescription": "直ちにダメージを与える。全ての<SelfName />が与えるダメージが<Value1 />増加する。"
   },
@@ -990,7 +990,7 @@
     "UpgradedDescription": "敵全体に<h>冷気</h>を与える。<br />この効果は次の<PlayerName />のターン開始時に再度発動する。<br />手札に召喚済みの<h>パートナー</h>が居る場合、<SelfName />のコストは<Mana />。"
   },
   "GlacialSpike": {
-    "Name": "ティニーグレイシャー",
+    "Name": "タイニーグレイシャー",
     "Description": "<Damage />ダメージを与える。<br />命中した場合、<h>冷気</h>を与える。<br /><h>アイスボルト</h>を1枚手札に加える。"
   },
   "CoolBreeze": {
@@ -1042,7 +1042,7 @@
   "LeidiFriend": {
     "Name": "真冬の化身、レティ",
     "PassiveDescription": "ランダムな敵一体に<h>冷気</h>を与える。",
-    "UltimateDescription": "敵全体に<Damage />ダメージを与え、<h>冷気</h>を与える。"
+    "UltimateDescription": "敵全体に<Damage />攻撃ダメージを与え、<h>冷気</h>を与える。"
   },
   "ColdSnap": {
     "Name": "急速冷却",
@@ -1096,7 +1096,7 @@
   },
   "LilyFriend": {
     "Name": "春告精、リリーホワイト",
-    "Description": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
+    "Description": "ランダムな敵に<Damage />攻撃ダメージを<Value1 />回与える。",
     "PassiveDescription": "<Mana />を得る。",
     "ActiveDescription": "<ActiveMana />を得る。",
     "UltimateDescription": "ライフを<Heal />回復する。"
@@ -1194,7 +1194,7 @@
   "LunaFriend": {
     "Name": "静かなる月の光、ルナ",
     "PassiveDescription": "<Block /><h>ブロック</h>を得る。",
-    "ActiveDescription": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
+    "ActiveDescription": "ランダムな敵に<Damage />攻撃ダメージを<Value1 />回与える。",
     "UltimateDescription": "<h>天衣無縫</h><Value2 />を得る。"
   },
   "WhiteWorld": {
@@ -1207,7 +1207,7 @@
   },
   "StarFriend": {
     "Name": "降り注ぐ星の光、スター",
-    "PassiveDescription": "敵全体に<Damage />ダメージを与える。",
+    "PassiveDescription": "敵全体に<Damage />攻撃ダメージを与える。",
     "ActiveDescription": "直ちにダメージを<Value1 />回与える。",
     "UltimateDescription": "全ての<SelfName />がダメージを与える度、<h>ロックオン</h><Light />を与える。<br />直ちにダメージを<Value2 />回与える。"
   },
@@ -1222,9 +1222,9 @@
   },
   "SunnyFriend": {
     "Name": "輝ける日の光、サニー",
-    "PassiveDescription": "ランダムな敵に<Damage />ダメージを<Value1 />回与える。",
+    "PassiveDescription": "ランダムな敵に<Damage />攻撃ダメージを<Value1 />回与える。",
     "ActiveDescription": "<h>光学迷彩</h><Light />を得る。",
-    "UltimateDescription": "直ちにダメージを<Value1 />回与える。<br /><h>火力</h><Value2 />を得る。"
+    "UltimateDescription": "直ちにダメージを<Value1 />回与える。<h>火力</h><Value2 />を得る。"
   },
   "Xiguadao": {
     "Name": "スイカソード",
@@ -1237,6 +1237,17 @@
     "ActiveDescription": "カードを<Value1 />枚引く。<h>狂気</h>を1枚捨て札に加える。",
     "UpgradedActiveDescription": "カードを<Value1 />枚引く。",
     "Active2Description": "<Mana />を得る。<h>狂気</h>を1枚捨て札に加える。"
+  },
+  "DayaojingTdm": {
+    "Name": "かき氷の売り子、大妖精",
+    "PassiveDescription": "ランダムな敵に<Damage />攻撃ダメージを与える。",
+    "ActiveDescription": "<h>霧の湖のかき氷</h>を<Value1 />枚手札に加える。",
+    "UpgradedActiveDescription": "<h>霧の湖のかき氷</h>を<Value1 />枚手札に加え、その内1枚を<h>アップグレード</h>する。",
+    "UltimateDescription": "<h>フロストアーマー</h><Value2 />を得る。余剰の<h>支援度</h>の分、数値が増加する。"
+  },
+  "SnowconeTdm": {
+    "Name": "霧の湖のかき氷",
+    "Description": "<Damage />ダメージを与える。命中した場合、<h>冷気</h>を与える。<br />初めてその敵に<SelfName />を使用した時、<Value1 /><Money />を得る。"
   },
   "KoishiAttackG": {
     "Name": "二重らせん",
@@ -1268,7 +1279,7 @@
   },
   "BaseFollower": {
     "Name": "本能の愛",
-    "Description": "<Damage />ダメージを与える。<br />戦闘開始時及びシャッフルした時、このカードを山札の底に置く。"
+    "Description": "<Damage />ダメージを与える。<br />戦闘開始時及び山札をシャッフルした時、このカードを山札の底に置く。"
   },
   "InspirationCard": {
     "Name": "閃いた！",
@@ -1310,7 +1321,7 @@
   },
   "MultiFollower": {
     "Name": "ハートステップ",
-    "Description": "<Damage />ダメージを<Value1 />回与える。<br />戦闘開始時及びシャッフルした時、このカードを山札の底に置く。"
+    "Description": "<Damage />ダメージを<Value1 />回与える。<br />戦闘開始時及び山札をシャッフルした時、このカードを山札の底に置く。"
   },
   "ToAllFollower": {
     "Name": "高鳴る鼓動",
@@ -1475,7 +1486,7 @@
     "Description_1.6.1": "対象の<h>バリア</h>、<h>グレイズ</h>、<h>光学迷彩</h>、<h>天衣無縫</h>を奪う。<br />対象の<h>火力</h>と<h>霊力</h>を最大で<Value1 />奪う。"
   },
   "SelfControl": {
-    "Name": "エゴコントロール",
+    "Name": "自我の完成",
     "Description": "<h>チョイス</h>:<h>熱情</h>か<h>平静</h>に入る。<br /><PlayerName />のターン終了時、<h>熱情</h>状態なら<h>火力</h><Value1 />を得る。<h>平静</h>状態なら<h>ブロック</h><Value2 />を得る。"
   },
   "PsycheLock": {
@@ -1597,36 +1608,68 @@
     "Name": "ドールシールド",
     "Description": "(WIP) "
   },
-  "DollFactory": {
-    "Name": "人形工房",
+  "StreetArt": {
+    "Name": "ストリートパフォーマンス",
     "Description": "(WIP) "
   },
   "AutoHousework": {
     "Name": "家事自動化",
     "Description": "(WIP) "
   },
-  "Qianqiang": {
-    "Name": "ファランクス",
-    "Description": "(WIP) "
-  },
   "DollFangzhen": {
     "Name": "人形方陣",
-    "Description": "(WIP) "
-  },
-  "Zhendijianzao": {
-    "Name": "陣地形成",
-    "Description": "(WIP) "
-  },
-  "MansionNight": {
-    "Name": "恐怖の洋館の夜",
     "Description": "(WIP) "
   },
   "DollFormation": {
     "Name": "リトルレギオン",
     "Description": "(WIP) "
   },
+  "HailWeather": {
+    "Name": "雹の人形遣い",
+    "Description": "(WIP) "
+  },
+  "SacrificeBlock": {
+    "Name": "非情な身代わり",
+    "Description": "(WIP) "
+  },
+  "DollScry": {
+    "Name": "潜伏偵察",
+    "Description": "(WIP) "
+  },
+  "Zhendijianzao": {
+    "Name": "方陣形成",
+    "Description": "(WIP) "
+  },
+  "MansionNight": {
+    "Name": "恐怖の洋館の夜",
+    "Description": "(WIP) "
+  },
+  "WitchOfLovePotion": {
+    "Name": "魔女の媚薬",
+    "Description": "(WIP) "
+  },
+  "MagicianMeeting": {
+    "Name": "魔法使いの集い",
+    "Description": "(WIP) "
+  },
+  "DollFactory": {
+    "Name": "人形工房",
+    "Description": "(WIP) "
+  },
+  "KillerQueen": {
+    "Name": "キラークイーン",
+    "Description": "(WIP) "
+  },
+  "WanderlandAlice": {
+    "Name": "不思議の国のアリス",
+    "Description": "(WIP) "
+  },
   "DollFire": {
     "Name": "人形火葬",
+    "Description": "(WIP) "
+  },
+  "Qianqiang": {
+    "Name": "ファランクス",
     "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
@@ -1777,7 +1820,7 @@
   "YonglinCard": {
     "Name": "賢者の帰依",
     "Description": "<PlayerName />のターン終了時、<h>偽物の月</h>を<Value1 />枚山札に加える。",
-    "UpgradedDescription": "<PlayerName />のターン終了時、<h>偽物の月</h>を<Value1 />枚山札に加える。<br /><Value2 />枚の<h>偽物の月</h>を山札の一番上に置く。"
+    "UpgradedDescription": "<PlayerName />のターン終了時、<h>偽物の月</h>を<Value1 />枚山札に加える。<br /><h>偽物の月</h>を<Value2 />枚山札の一番上に置く。"
   },
   "FakeMoon": {
     "Name": "偽物の月",
@@ -1830,7 +1873,7 @@
   },
   "HinaAttack": {
     "Name": "ミスフォーチュンズホイール",
-    "Description": "<Damage />ダメージを<Value1 />回与える。<br />デッキの<h>厄災</h>の枚数分追加で攻撃する。"
+    "Description": "<Damage />ダメージを<Value1 />回与える。<br /><SelfName />の攻撃回数はデッキの<h>厄災</h>の枚数分増加する。"
   },
   "RemiliaFate": {
     "Name": "運命操作",
@@ -2048,7 +2091,7 @@
   },
   "ShopSearch": {
     "Name": "個人用レーダー",
-    "Description": "山札から攻撃カードまたは防御カードを1枚選んで手札に加える。"
+    "Description": "山札から攻撃カードか防御カードを1枚選んで手札に加える。"
   },
   "MoonSea": {
     "Name": "静かの海（裏）",
@@ -2314,7 +2357,7 @@
     "Description": "<ManaP />を支払う度、敵全体に<Value1 />ダメージを与える。"
   },
   "Zhulianshen": {
-    "Name": "山の神の注連縄",
+    "Name": "山の神の加護",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>庇護</h><Value1 />を得る。"
   },
   "LilyChun": {
@@ -2508,7 +2551,7 @@
   },
   "ToolAttack": {
     "Name": "水鉄砲",
-    "Description": "<Damage />ダメージを与える。<br /><h>消耗品【<DeckCounter />】</h>"
+    "Description": "<Damage />攻撃ダメージを与える。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "ToolBlock": {
     "Name": "ライオットシールド",
@@ -2610,7 +2653,7 @@
   },
   "EmpCard": {
     "Name": "電磁パルス銃",
-    "Description": "<Damage />ダメージを与える。<br />対象が<h>ドローン</h>なら、それは<Value1 />ターン行動できなくなる。<br /><h>消耗品【<DeckCounter />】</h>"
+    "Description": "<Damage />攻撃ダメージを与える。<br />対象が<h>ドローン</h>なら、それは<Value1 />ターン行動できなくなる。<br /><h>消耗品【<DeckCounter />】</h>"
   },
   "LarvaCure": {
     "Name": "解毒薬",
@@ -2642,7 +2685,7 @@
   },
   "AyaNews": {
     "Name": "文々。新聞",
-    "Description": "ランダムな敵に<Damage />ダメージを与える。"
+    "Description": "ランダムな敵に<Damage />攻撃ダメージを与える。"
   },
   "HatateNews": {
     "Name": "花果子念報"
@@ -2687,7 +2730,7 @@
   },
   "CirnoFreeze": {
     "Name": "マナ凍結",
-    "Description": "<SelfName />が手札にある間、全てのカードのマナコストが<Mana />増える。<br />カードを<FreezeTimes />枚使用した時、<SelfName />を<h>廃棄</h>する。"
+    "Description": "<SelfName />が手札にある間、全てのカードのマナコストが<Mana />増える。<br />カードを<FreezeTimes />枚使用した時、<SelfName />を1枚<h>廃棄</h>する。"
   },
   "KoishiDiscard": {
     "Name": "無意識な物忘れ",

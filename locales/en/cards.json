@@ -937,7 +937,7 @@
   },
   "SakuyaDetective": {
     "Name": "All-Points Bulletin",
-    "Description": "Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />When playing against a real culprit, deal <Value1 /> damage to her at the beginning of combat."
+    "Description": "Draw <Value2 /> card$t(plurals.-s, { 'count': {{Value2}} }).<br />When playing fighting a real culprit, deal <Value1 /> damage to her at the beginning of combat."
   },
   "SakuyaSpeedup": {
     "Name": "Quicken Time",
@@ -1105,8 +1105,8 @@
     "Description": "Add an <h>Ice Bullet</h> to the hand.<br />At the start of <PlayerName />'s turn, if there are no <h>Ice Bullets</h> in the hand, add an <h>Ice Bullet</h> to the hand."
   },
   "DoubleMana": {
-    "Name": "Fairy's Wake Up",
-    "Description": "Double existing mana.<br /><h>Overdraft</h> <Value1 /> ."
+    "Name": "Fairy's Wake-Up",
+    "Description": "Double existing mana.<br /><h>Overdraft</h> <Value1 />."
   },
   "Tether": {
     "Name": "Bonds",
@@ -1273,6 +1273,17 @@
     "ActiveDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }) and add a <h>Lunacy</h> to the discard pile.",
     "UpgradedActiveDescription": "Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).",
     "Active2Description": "Gain <Mana /> and add a <h>Lunacy</h> to the discard pile."
+  },
+  "DayaojingTdm": {
+    "Name": "Daiyousei, Snowcone Assistant",
+    "PassiveDescription": "Deal <Damage /> attack damage to a random enemy.",
+    "ActiveDescription": "Add <Value1 /> <h>Misty Lake Snowcone$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand.",
+    "UpgradedActiveDescription": "Add <Value1 /> <h>Misty Lake Snowcone$t(plurals.-s, { 'count': {{Value1}} })</h> to the hand. <h>Upgrade</h> one of them.",
+    "UltimateDescription": "Gain <Value2 /> <h>Frost Armor</h>. Increases for each point of <h>Unity</h> on <SelfName />."
+  },
+  "SnowconeTdm": {
+    "Name": "Misty Lake Snowcone",
+    "Description": "Deal <Damage /> damage.<br />Apply <h>Cold</h> on hit.<br />When used for the first time on an enemy, gain <Value1 /> <Money />."
   },
   "KoishiAttackG": {
     "Name": "Double Helix",
@@ -1515,7 +1526,7 @@
     "Description_1.6.1": "Steal target's <h>Barrier</h>, <h>Graze</h>, <h>Optical Camouflage</h>, <h>Flawless</h>, and up to <Value1 /> <h>Firepower</h> and <h>Spirit</h>."
   },
   "SelfControl": {
-    "Name": "Self-Control",
+    "Name": "Self-Fulfillment",
     "Description": "<h>Choose</h>: Enter <h>Passion</h> or <h>Serenity</h>.<br />At the end of <PlayerName />'s turn, gain <Value1 /> <h>Firepower</h> if she's in <h>Passion</h>, or <Value2 /> <h>Block</h> if she's in <h>Serenity</h>."
   },
   "PsycheLock": {
@@ -1635,26 +1646,38 @@
   },
   "AliceKickerAttack": {
     "Name": "Kicker Attack",
-    "Description": "Deam <Damage /> damage.<br /><h>Kicker <KickerCost /></h>: Deal damage an additional time."
+    "Description": "Deal <Damage /> damage.<br /><h>Kicker <KickerCost /></h>: Deal damage an additional time."
   },
   "DollBlock": {
     "Name": "Doll Shield",
     "Description": "(WIP) "
   },
-  "DollFactory": {
-    "Name": "Doll Workshop",
+  "StreetArt": {
+    "Name": "Street Performance",
     "Description": "(WIP) "
   },
   "AutoHousework": {
     "Name": "Automated Housekeeping",
     "Description": "(WIP) "
   },
-  "Qianqiang": {
-    "Name": "Cutie Phalanx",
-    "Description": "(WIP) "
-  },
   "DollFangzhen": {
     "Name": "Doll Phalanx",
+    "Description": "(WIP) "
+  },
+  "DollFormation": {
+    "Name": "Little Legion",
+    "Description": "(WIP) "
+  },
+  "HailWeather": {
+    "Name": "Temperament of Hail",
+    "Description": "(WIP) "
+  },
+  "SacrificeBlock": {
+    "Name": "Heartless Sacrifice",
+    "Description": "(WIP) "
+  },
+  "DollScry": {
+    "Name": "Covert Ops",
     "Description": "(WIP) "
   },
   "Zhendijianzao": {
@@ -1665,12 +1688,32 @@
     "Name": "Haunted Mansion Night",
     "Description": "(WIP) "
   },
-  "DollFormation": {
-    "Name": "Little Legion",
+  "WitchOfLovePotion": {
+    "Name": "Witch's Love Potion",
+    "Description": "(WIP) "
+  },
+  "MagicianMeeting": {
+    "Name": "Magician Gathering",
+    "Description": "(WIP) "
+  },
+  "DollFactory": {
+    "Name": "Doll Workshop",
+    "Description": "(WIP) "
+  },
+  "KillerQueen": {
+    "Name": "Killer Queen",
+    "Description": "(WIP) "
+  },
+  "WanderlandAlice": {
+    "Name": "Alice in Wonderland",
     "Description": "(WIP) "
   },
   "DollFire": {
     "Name": "Doll Cremation",
+    "Description": "(WIP) "
+  },
+  "Qianqiang": {
+    "Name": "Cutie Phalanx",
     "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
@@ -1891,7 +1934,7 @@
   },
   "DreamExpress": {
     "Name": "Dream Express",
-    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Value1 />, then deal damage to each enemy equal twice $t(plurals.theSumOf, { 'count': {{Value1}} })the total cost$t(plurals.-s, { 'count': {{Value1}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Value1}} })."
+    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Value1 />, then deal damage to each enemy equal to twice $t(plurals.theSumOf, { 'count': {{Value1}} })the total cost$t(plurals.-s, { 'count': {{Value1}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Value1}} })."
   },
   "TrueMoon": {
     "Name": "True Full Moon",
@@ -2120,7 +2163,7 @@
   },
   "YijiEarthSpike": {
     "Name": "Power of Gion",
-    "Description": "Deal <Damage /> and apply <Value1 /> <h>Weak</h> to each enemy."
+    "Description": "Deal <Damage /> damage and apply <Value1 /> <h>Weak</h> to each enemy."
   },
   "YijiPurify": {
     "Name": "Izunome",
@@ -2358,7 +2401,7 @@
     "Description": "Whenever <ManaP /> is spent, deal <Value1 /> damage to each enemy."
   },
   "Zhulianshen": {
-    "Name": "Mountain God's Rope",
+    "Name": "Mountain God's Blessing",
     "Description": "Gain <Block /> <h>Block</h>.<br />Gain <Value1 /> <h>Ward</h>."
   },
   "LilyChun": {
@@ -2731,7 +2774,7 @@
   },
   "CirnoFreeze": {
     "Name": "Mana Freeze",
-    "Description": "If there is a <SelfName /> in the hand, all cards cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> a <SelfName /> in the hand."
+    "Description": "If there is a <SelfName /> in the hand, all cards in the hand cost <Mana /> more to play.<br />After <FreezeTimes /> card$t(plurals.-s, { 'count': {{FreezeTimes}} }) $t(subjects.is, { 'count': {{FreezeTimes}} }) played, <h>Exile</h> a <SelfName /> in the hand."
   },
   "KoishiDiscard": {
     "Name": "Unconscious Amnesia",

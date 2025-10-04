@@ -603,7 +603,7 @@
   },
   "Grace": {
     "Name": "Divine Favor",
-    "Description": "<h>Divine Favor</h> counts as <h>Firepower</h> and <h>Spirit</h>, and wears off whenever either a card is played or the <h>Spell Card</h> is activated."
+    "Description": "<h>Divine Favor</h> counts as <h>Firepower</h> and <h>Spirit</h>, and wears off it takes effect on a card or the <h>Spell Card</h> is activated."
   },
   "ReimuGraceSe": {
     "Name": "Hakurei's Providence",
@@ -647,7 +647,7 @@
   },
   "LearnAstrologySe": {
     "Name": "Astrology Study",
-    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Astrology</h> in the hand, add $t(plurals.a, { 'count': {{Level}} })<h>Astrolog$t(plurals.-y, { 'count': {{Level}} })</h> to the hand$t(plurals.until, { 'count': {{Level}} })."
+    "Description": "At the start of <PlayerName />'s turn, if there are $t(plurals.less, { 'count': {{Level}} }) <h>Astrologies</h> in the hand, add $t(plurals.an, { 'count': {{Level}} })<h>Astrolog$t(plurals.-y, { 'count': {{Level}} })</h> to the hand$t(plurals.until, { 'count': {{Level}} })."
   },
   "PotionJungleSe": {
     "Name": "Fluorescent Forest",
@@ -865,6 +865,10 @@
     "Name": "Fairy Assembly",
     "Description": "Maximum hand size increased to <MaxHand />."
   },
+  "PaidTdm": {
+    "Name": "Free Refill",
+    "Description": "<OwnerName /> has already paid!"
+  },
   "MoodPassion": {
     "Name": "Passion",
     "Description": "While in <h>Passion</h>, <PlayerName /> deals and takes <Percentage />% more attack damage.<br /><h>Passion</h> is a <h>Mental State</h>, of which <PlayerName /> can only have one at a time."
@@ -990,7 +994,7 @@
   },
   "DreamExpressSe": {
     "Name": "Dream Express",
-    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Level />, then deal damage to each enemy equal twice $t(plurals.theSumOf, { 'count': {{Level}} })the total cost$t(plurals.-s, { 'count': {{Level}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Level}} })."
+    "Description": "At the end of <PlayerName />'s turn, <h>Dream</h> <Level />, then deal damage to each enemy equal to twice $t(plurals.theSumOf, { 'count': {{Level}} })the total cost$t(plurals.-s, { 'count': {{Level}} }) of the <h>Dreamed</h> card$t(plurals.-s, { 'count': {{Level}} })."
   },
   "MeihongFireSe": {
     "Name": "Indiscriminate Ignition",
