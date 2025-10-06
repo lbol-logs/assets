@@ -5814,17 +5814,6 @@
       "Keywords": "FollowCard"
     }
   },
-  "DollScry": {
-    "Rarity": "Uncommon",
-    "Type": "Skill",
-    "Colors": "B",
-    "IsXCost": false,
-    "Owner": "Alice",
-    "0": {
-      "Cost": "B"
-    },
-    "1": {}
-  },
   "YoumuAttack": {
     "Rarity": "Common",
     "Type": "Attack",
