@@ -1636,6 +1636,10 @@
     "Name": "冰雹的氣質",
     "Description": "(WIP) "
   },
+  "Qianqiang": {
+    "Name": "萌萌大千槍",
+    "Description": "(WIP) "
+  },
   "SacrificeBlock": {
     "Name": "無情身代",
     "Description": "(WIP) "
@@ -1674,10 +1678,6 @@
   },
   "DollFire": {
     "Name": "人形火葬",
-    "Description": "(WIP) "
-  },
-  "Qianqiang": {
-    "Name": "萌萌大千槍",
     "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {

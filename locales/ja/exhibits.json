@@ -168,7 +168,7 @@
   },
   "QipaiYouhua": {
     "Name": "人目を引く油絵",
-    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を加える。<br />取得時、<Money /><Value1 />を得て、ランダムなカード<Value2 />枚を<h>アップグレード</h>し、<PlayerName />の最大ライフを<Value3 />増加させる。"
+    "Description": "<PlayerName />のターン開始時にランダムな種類のマナ1点を加える。<br />取得時、<Value1 /><Money />を得て、ランダムなカード<Value2 />枚を<h>アップグレード</h>し、<PlayerName />の最大ライフを<Value3 />増加させる。"
   },
   "YizangnuoWuzhi": {
     "Name": "伊弉諾物質",
@@ -212,7 +212,7 @@
   },
   "BaochuanMoxing": {
     "Name": "宝船の模型",
-    "Description": "<PlayerName />がフロアを進むたび、<Value1 /> 点の<Money />を得る。"
+    "Description": "<PlayerName />がフロアを進むたび、<Value1 /><Money />を得る。"
   },
   "GaodangShoubao": {
     "Name": "高級バッグ",
@@ -376,7 +376,7 @@
   },
   "Saiqianxiang": {
     "Name": "賽銭箱",
-    "Description": "スキマで、<Money /><Value1 />を得る<h>勧進</h>が選択できる。<br />カード報酬をスキップした際に追加で<Money /><Value2 />を得る。"
+    "Description": "スキマで、<Value1 /><Money />を得る<h>勧進</h>が選択できる。<br />カード報酬をスキップした際に追加で<Value2 /><Money />を得る。"
   },
   "Shanbibu": {
     "Name": "ひらり布",
@@ -404,7 +404,7 @@
   },
   "Shiyou": {
     "Name": "石油",
-    "Description": "<Mana />を<Value1 />点プレイする度、<Money /><Value2 />を得る。（1戦闘につき<Value3 />回まで）<br />各戦闘ごとにカウントがリセットされる。"
+    "Description": "<Mana />を<Value1 />点プレイする度、<Value2 /><Money />を得る。（1戦闘につき<Value3 />回まで）<br />各戦闘ごとにカウントがリセットされる。"
   },
   "JingwanMudan": {
     "Name": "京丸牡丹",

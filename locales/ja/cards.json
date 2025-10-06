@@ -1628,6 +1628,10 @@
     "Name": "雹の人形遣い",
     "Description": "(WIP) "
   },
+  "Qianqiang": {
+    "Name": "ファランクス",
+    "Description": "(WIP) "
+  },
   "SacrificeBlock": {
     "Name": "非情な身代わり",
     "Description": "(WIP) "
@@ -1666,10 +1670,6 @@
   },
   "DollFire": {
     "Name": "人形火葬",
-    "Description": "(WIP) "
-  },
-  "Qianqiang": {
-    "Name": "ファランクス",
     "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
@@ -2256,7 +2256,7 @@
   },
   "PoorAttack": {
     "Name": "貧困化",
-    "Description": "<Money />を<Value1 />失う。<br /><Damage />ダメージを2回与える。"
+    "Description": "<Value1 /><Money />を失う。<br /><Damage />ダメージを2回与える。"
   },
   "AliceAttack": {
     "Name": "デヴィリーライトレイ",
@@ -2611,11 +2611,11 @@
   },
   "RabbitFoot": {
     "Name": "幸運うさぎの足",
-    "Description": "戦闘終了時、このカードが<h>廃棄</h>されていない場合<Money /><Value1 />を得る。"
+    "Description": "戦闘終了時にこのカードが<h>廃棄</h>されていない場合、<Value1 /><Money />を得る。"
   },
   "GainTreasure": {
     "Name": "一攫千金",
-    "Description": "<Money /><Value1 />を得る。"
+    "Description": "<Value1 /><Money />を得る。"
   },
   "MoonPurify": {
     "Name": "穢れの浄化",
@@ -2755,7 +2755,7 @@
   },
   "Payment": {
     "Name": "送金",
-    "Description": "<Money /><MoneyCost />を払う。<br /><color=#b7646b>いたずらウサギ</color>が戦闘から離脱する。"
+    "Description": "<MoneyCost /><Money />を払う。<br /><color=#b7646b>いたずらウサギ</color>が戦闘から離脱する。"
   },
   "LoveLetter": {
     "Name": "恋文",
@@ -2771,7 +2771,7 @@
   },
   "Bribery": {
     "Name": "袖の下",
-    "Description": "<Money /><MoneyCost />を払う。<br /><color=#4f6e97>龍</color>が手を抜いてくれる。"
+    "Description": "<MoneyCost /><Money />を払う。<br /><color=#4f6e97>龍</color>が手を抜いてくれる。"
   },
   "Nightmare": {
     "Name": "悪夢",
@@ -2816,7 +2816,7 @@
   },
   "BuyPeace": {
     "Name": "財禍",
-    "Description": "<h>ターン終了時</h>：<Money /><Value1 />を失い、ライフを<Value2 />回復する。"
+    "Description": "<h>ターン終了時</h>：<Value1 /><Money />を失い、ライフを<Value2 />回復する。"
   },
   "SweetPoison": {
     "Name": "スイートポイズン",
@@ -2828,7 +2828,7 @@
   },
   "Misfortune": {
     "Name": "不幸",
-    "Description": "<h>ターン終了時</h>：所持している<Money />100につきライフを<Value1 />失う。"
+    "Description": "<h>ターン終了時</h>：所持している100<Money />につきライフを<Value1 />失う。"
   },
   "YuyukoMisfortune": {
     "Name": "忍び寄る飢餓",

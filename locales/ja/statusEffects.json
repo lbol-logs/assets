@@ -216,7 +216,7 @@
   },
   "PhoneBillSe": {
     "Name": "電話代",
-    "Description": "<OwnerName />が通話する度に、<PlayerName />から<Level />点の<Money />が課金される。<br />倒されたとき <Count /> 点の<Money />をドロップする。"
+    "Description": "<OwnerName />が通話する度に、<PlayerName />から<Level /><Money />が課金される。<br />倒されたとき <Count /> 点の<Money />をドロップする。"
   },
   "FoxCharm": {
     "Name": "妖狐の魅惑",
@@ -350,7 +350,7 @@
   "LongEscape": {
     "Name": "手抜き",
     "Description": "<OwnerName />は体力が<Level />を下回ると戦闘から離脱する。",
-    "Description_1.7.0": "<OwnerName />は体力が<Level />を下回ると戦闘から離脱する。<br />撃破すると<Money /><Level />を得る。"
+    "Description_1.7.0": "<OwnerName />は体力が<Level />を下回ると戦闘から離脱する。<br />撃破すると<Level /><Money />を得る。"
   },
   "FlatPeach": {
     "Name": "仙桃",
@@ -553,7 +553,7 @@
   },
   "Grace": {
     "Name": "神恩",
-    "Description": "<h>神恩</h>は同じ値の<h>火力</h>及び<h>霊力</h>として扱う。使用したカードまたは<h>スペルカード</h>の効果により火力や霊力が参照された場合、この効果は失われる。"
+    "Description": "<h>神恩</h>は同じ値の<h>火力</h>及び<h>霊力</h>として扱う。カードまたは<h>スペルカード</h>の効果により火力や霊力が参照された場合、この効果は失われる。"
   },
   "ReimuGraceSe": {
     "Name": "博麗の庇護",

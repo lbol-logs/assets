@@ -1672,6 +1672,10 @@
     "Name": "Temperament of Hail",
     "Description": "(WIP) "
   },
+  "Qianqiang": {
+    "Name": "Cutie Phalanx",
+    "Description": "(WIP) "
+  },
   "SacrificeBlock": {
     "Name": "Heartless Sacrifice",
     "Description": "(WIP) "
@@ -1710,10 +1714,6 @@
   },
   "DollFire": {
     "Name": "Doll Cremation",
-    "Description": "(WIP) "
-  },
-  "Qianqiang": {
-    "Name": "Cutie Phalanx",
     "Description": "(WIP) "
   },
   "DoubleActiveTrigger": {
