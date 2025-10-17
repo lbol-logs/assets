@@ -603,7 +603,7 @@
   },
   "Grace": {
     "Name": "Divine Favor",
-    "Description": "<h>Divine Favor</h> counts as <h>Firepower</h> and <h>Spirit</h>, and wears off it takes effect on a card or the <h>Spell Card</h> is activated."
+    "Description": "<h>Divine Favor</h> counts as <h>Firepower</h> and <h>Spirit</h>, and wears off if it takes effect on a card or the <h>Spell Card</h> is activated."
   },
   "ReimuGraceSe": {
     "Name": "Hakurei's Providence",
@@ -919,7 +919,7 @@
     "Description": "Whenever <PlayerName /> changes <h>Mental States</h>, gain <Level /> <h>Block</h>."
   },
   "SelfControlSe": {
-    "Name": "Self-Control",
+    "Name": "Self-Fulfillment",
     "Description": "At the end of <PlayerName />'s turn, gain <Level /> <h>Firepower</h> if she's in <h>Passion</h>, or <Count /> <h>Block</h> if she's in <h>Serenity</h>."
   },
   "CloseEyeSe": {
