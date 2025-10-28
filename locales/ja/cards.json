@@ -110,8 +110,8 @@
   },
   "DanmuDuijue": {
     "Name": "弾幕対決",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>反射</h><Value1 />を得る。<br /><SelfName />の効果は<h>火力</h>によって増減する。",
-    "UpgradedDescription": "<Shield /><h>バリア</h>を得る。<br /><h>反射</h><Value1 />を得る。<br /><SelfName />の効果は<h>火力</h>によって増減する。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><h>反射</h><Value1 />を得る。<br /><SelfName />の効果は<h>火力</h>によって増加する。",
+    "UpgradedDescription": "<Shield /><h>バリア</h>を得る。<br /><h>反射</h><Value1 />を得る。<br /><SelfName />の効果は<h>火力</h>によって増加する。"
   },
   "ReimuHeavyAttack": {
     "Name": "博麗神拳",
@@ -1930,7 +1930,7 @@
   },
   "MeilingBlock": {
     "Name": "紅内勁",
-    "Description": "<Block /><h>ブロック</h>を得る。<br /><Shield /><h>バリア</h>を得る。<br /><SelfName />の効果は<h>火力</h>によって増減する。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br /><Shield /><h>バリア</h>を得る。<br /><SelfName />の効果は<h>火力</h>によって増加する。"
   },
   "PrismriverRed": {
     "Name": "リリカ・ソロライブ",
