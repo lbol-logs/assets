@@ -18,7 +18,8 @@
     "Misfortune": "厄災"
   },
   "packs": {
-    "Tdm": "東方ダンマクメイズ"
+    "Tdm": "東方ダンマクメイズ",
+    "Twnm": "東方魔女夜市"
   },
   "delimiter": "：",
   "cardsCount": "カード枚数：{{count}}",

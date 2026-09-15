@@ -19,7 +19,7 @@
   },
   "packs": {
     "Tdm": "Touhou Danmaku Maze",
-    "Twnm": "Touhou Witch's Night Market Pack"
+    "Twnm": "Touhou Witch's Night Market"
   },
   "delimiter": ": ",
   "cardsCount": "Card: {{count}}",
