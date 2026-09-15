@@ -758,6 +758,12 @@
   "FirstAidBook": {
     "Rarity": "Uncommon"
   },
+  "UfoSet": {
+    "Rarity": "Uncommon"
+  },
+  "UfoUnique": {
+    "Rarity": "Rare"
+  },
   "KongZhanpinhe": {
     "Rarity": "Common"
   },

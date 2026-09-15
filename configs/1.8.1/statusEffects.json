@@ -290,6 +290,7 @@
     "Version": "1.6.1"
   },
   "KoishiPhoneSe": {},
+  "ShanghaiTarget": {},
   "YukariFlyObjectSe": {},
   "LoseSpiritSe": {},
   "MoreDraw": {},
@@ -307,6 +308,7 @@
     "Mana": "G"
   },
   "RangziFanshuSe": {},
+  "YonglinBurstSe": {},
   "ZhenmiaowanAttackSe": {
     "Mana": 1,
     "hasExtra": true,

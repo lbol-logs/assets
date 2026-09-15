@@ -5963,10 +5963,12 @@
     "Colors": "W",
     "IsXCost": false,
     "0": {
-      "Cost": "WWW"
+      "Cost": "WWW",
+      "Keywords": "Disposable"
     },
     "1": {
-      "Cost": 0
+      "Cost": 0,
+      "Keywords": "Disposable"
     }
   },
   "ShenziUpgradeAll": {
@@ -6193,6 +6195,22 @@
     "1": {
       "Value1": 4,
       "Keywords": "Debut"
+    }
+  },
+  "TewiEscape": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "U",
+    "IsXCost": false,
+    "0": {
+      "Cost": "UUU",
+      "Value1": 40,
+      "Keywords": "Ethereal,Initial,Disposable"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 50,
+      "Keywords": "Ethereal,Initial,Disposable"
     }
   },
   "YonglinDraw": {
@@ -6481,6 +6499,24 @@
       "Damage": 15
     }
   },
+  "YukariKill": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "B",
+    "IsXCost": false,
+    "0": {
+      "Cost": "BBB",
+      "Damage": 50,
+      "Value1": 50,
+      "Keywords": "Ethereal,Initial,Disposable"
+    },
+    "1": {
+      "Cost": 0,
+      "Damage": 60,
+      "Value1": 60,
+      "Keywords": "Ethereal,Initial,Disposable"
+    }
+  },
   "RemiliaFate": {
     "Rarity": "Rare",
     "Type": "Skill",
@@ -6699,6 +6735,24 @@
       "Keywords": "Debut"
     }
   },
+  "RemiliaMidnight": {
+    "Rarity": "Uncommon",
+    "Type": "Attack",
+    "Colors": "R",
+    "IsXCost": false,
+    "0": {
+      "Cost": "RRR",
+      "Damage": 20,
+      "Value1": 3,
+      "Mana": "R",
+      "Keywords": "Disposable"
+    },
+    "1": {
+      "Cost": 0,
+      "Damage": 25,
+      "Keywords": "Disposable"
+    }
+  },
   "YongyiAttack": {
     "Rarity": "Rare",
     "Type": "Attack",
@@ -6915,6 +6969,24 @@
     "1": {
       "Block": 8,
       "Value1": 8
+    }
+  },
+  "YonglinBurst": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "G",
+    "IsXCost": false,
+    "0": {
+      "Cost": "GGG",
+      "Value1": 3,
+      "Value2": 5,
+      "Mana": "{5P}",
+      "Keywords": "Disposable"
+    },
+    "1": {
+      "Cost": 0,
+      "Value1": 4,
+      "Keywords": "Disposable"
     }
   },
   "GreenLotus": {
@@ -7284,6 +7356,21 @@
     },
     "1": {
       "Value1": 2
+    }
+  },
+  "MarisaShopTwnm": {
+    "Rarity": "Uncommon",
+    "Type": "Skill",
+    "Colors": "C",
+    "IsXCost": false,
+    "0": {
+      "Cost": "1CC",
+      "Value1": 1,
+      "Keywords": "Disposable"
+    },
+    "1": {
+      "Cost": 0,
+      "Keywords": "Disposable"
     }
   },
   "YijiEarthSpike": {
