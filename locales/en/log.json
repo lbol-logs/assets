@@ -18,7 +18,8 @@
     "Misfortune": "Misfortune"
   },
   "packs": {
-    "Tdm": "Touhou Danmaku Maze"
+    "Tdm": "Touhou Danmaku Maze",
+    "Twnm": "Touhou Witch's Night Market Pack"
   },
   "delimiter": ": ",
   "cardsCount": "Card: {{count}}",
