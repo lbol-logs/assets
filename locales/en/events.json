@@ -150,5 +150,17 @@
   "KosuzuBookstore": {
     "Title": "Rental Bookstore Suzunaan",
     "Host": "Kosuzu Motoori"
+  },
+  "NarekoPuzzle": {
+    "Title": "The World's Unsolved Mysteries",
+    "Host": "Nareko Michigami"
+  },
+  "PrismriverChaos": {
+    "Title": "Disturbing Nighttime Performances",
+    "Host": "Prismriver Sisters"
+  },
+  "NueUfo": {
+    "Title": "Virtual UFO",
+    "Host": "Nue Houjuu"
   }
 }

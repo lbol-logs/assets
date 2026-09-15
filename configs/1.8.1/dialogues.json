@@ -516,5 +516,38 @@
       "1": "line:0607cc8",
       "2": "line:02c2c1f"
     }
-  ]
+  ],
+  "NarekoPuzzle": {
+    "current": "line:039c5a0",
+    "next": {
+      "0": "line:03cdbc6",
+      "1": "line:0bfb06e",
+      "2": "line:0c2ebc4",
+      "3": "line:08213a5"
+    }
+  },
+  "PrismriverChaos": [
+    {
+      "current": "line:0e7f44b",
+      "next": {
+        "0": "line:04bcbf4",
+        "1": "line:05dbc3d"
+      }
+    },
+    {
+      "current": "line:0e87eb3",
+      "next": {
+        "0": "line:0ab3dde",
+        "1": "line:0014fdd"
+      }
+    }
+  ],
+  "NueUfo": {
+    "current": "line:06ae443",
+    "next": {
+      "0": "line:02e269d",
+      "1": "line:02c3f5f",
+      "2": "line:095b051"
+    }
+  }
 }

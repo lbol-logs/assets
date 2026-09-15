@@ -133,5 +133,8 @@
   },
   "SatoriCounseling": {
     "heal": 3
+  },
+  "NueUfo": {
+    "exhibits": ["UfoSet", "UfoUnique"]
   }
 }

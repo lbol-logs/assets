@@ -72,7 +72,7 @@
   "PatchouliPhilosophy": {
     "line:0b23fed": "\"What a coincidence, <PlayerName />. I can help tune your affinity with these jewels.\"<br />(A more than sufficient test subject.)",
     "line:01cdad3": "[Accept] {{0}}",
-    "line:07acb35": "Choose a colored base mana, and convert it into Philosopher's Mana.",
+    "line:07acb35": "Select one colored mana from the mana base and convert it into Philosopher's Mana.",
     "line:04eeb1a": "[Refuse] Nothing happens."
   },
   "MiyoiBartender": {
@@ -324,5 +324,26 @@
     "line:0b5f8ae": "\"You will be fighting {{0}}.\"",
     "line:0607cc8": "\"You will encounter {{0}}.\"",
     "line:02c2c1f": "\"Her first item will be {{0}}.\""
+  },
+  "NarekoPuzzle": {
+    "line:039c5a0": "\"I got tired of asking the same Sphinx one, so let's riddle about the Seven Wonders of the World!\"",
+    "line:03cdbc6": "[Go Through The Motions] Lose Exhibit: <h>{{0}}</h>.",
+    "line:0bfb06e": "[Answer Honestly] Lose Exhibit: <h>{{0}}</h>. Gain Exhibit: <h>{{1}}</h>.",
+    "line:0c2ebc4": "[Think About It] Lose Exhibit: <h>{{0}}</h>. Gain Exhibit: <h>{{1}}</h>.'",
+    "line:08213a5": "[Leave] Nothing happens."
+  },
+  "PrismriverChaos": {
+    "line:0e7f44b": "*Competing Performances Intensify*",
+    "line:04bcbf4": "[Interrupt Concert] Remove <h>{{0}}</h> from the library.",
+    "line:05dbc3d": "[Tolerate] Lose {{0}} life. Reroll the card in the first option.",
+    "line:0e87eb3": "*Competing Performances Intensify*\n<PlayerName /> endures...",
+    "line:0ab3dde": "[Unbearable] Remove <h>{{0}}</h> from the library.",
+    "line:0014fdd": "[Tolerate] Lose {{0}} life. Reroll the card in the first option."
+  },
+  "NueUfo": {
+    "line:06ae443": "\"Hehe, since you're so interested in extraterrestrial life, you can have my UFOs! Take one!\"",
+    "line:02e269d": "[Physical] Gain Exhibit: <h>{{0}}</h>.",
+    "line:02c3f5f": "[Digital] Gain Exhibit: <h>{{0}}</h>.",
+    "line:095b051": "[Leave] Nothing happens."
   }
 }
