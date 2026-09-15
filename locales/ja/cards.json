@@ -245,7 +245,7 @@
   },
   "DoubleLianhuadie": {
     "Name": "二色蓮花蝶",
-    "Description": "<PlayerName />が<h>ブロック</h>か<h>バリア</h>を得るたび、ランダムな敵に<Value1 />のダメージを与える。"
+    "Description": "<PlayerName />が<h>ブロック</h>か<h>バリア</h>を得るたび、ランダムな敵に<Value1 />ダメージを与える。"
   },
   "BoliPhantom": {
     "Name": "博麗幻影",
@@ -392,7 +392,7 @@
   },
   "Alioth": {
     "Name": "アリオト",
-    "Description": "<h>占術</h><Scry />。<br />カード<Value1 />枚を引く。<br /><h>チャージ</h><Value2 />を得る。"
+    "Description": "<h>占術</h><Scry />。<br />カードを<Value1 />枚引く。<br /><h>チャージ</h><Value2 />を得る。"
   },
   "ScryAttack": {
     "Name": "ナビゲーションスター",
@@ -1040,7 +1040,7 @@
     "Description": "<Damage />ダメージを与える。<br />目標に<h>冷気</h>が付与されている場合、<Mana />を得る。"
   },
   "LeidiFriend": {
-    "Name": "真冬の化身、レティ",
+    "Name": "冬の忘れ物、レティ",
     "PassiveDescription": "ランダムな敵一体に<h>冷気</h>を与える。",
     "UltimateDescription": "敵全体に<Damage />攻撃ダメージを与え、<h>冷気</h>を与える。"
   },
@@ -1069,7 +1069,7 @@
     "Description": "<h>アイスボルト</h>を1枚手札に加える。<br /><PlayerName />のターン開始時、手札の<h>アイスボルト</h>が<he>1</he>枚より少ない場合不足分の<h>アイスボルト</h>を手札に加える。"
   },
   "DoubleMana": {
-    "Name": "妖精の起床",
+    "Name": "妖精の目覚め",
     "Description": "手持ちのマナを倍にする。<br /><h>オーバードラフト</h><Value1 />。"
   },
   "Tether": {
@@ -1487,7 +1487,7 @@
   },
   "SelfControl": {
     "Name": "自我の完成",
-    "Description": "<h>チョイス</h>:<h>熱情</h>か<h>平静</h>に入る。<br /><PlayerName />のターン終了時、<h>熱情</h>状態なら<h>火力</h><Value1 />を得る。<h>平静</h>状態なら<h>ブロック</h><Value2 />を得る。"
+    "Description": "<h>チョイス</h>:<h>熱情</h>か<h>平静</h>に入る。<br /><PlayerName />のターン終了時、<h>熱情</h>状態なら<h>火力</h><Value1 />を得る。<h>平静</h>状態なら<Value2 /><h>ブロック</h>を得る。"
   },
   "PsycheLock": {
     "Name": "サイコ・ロック",
@@ -1731,7 +1731,8 @@
   },
   "HuiyinRemove": {
     "Name": "歴史喰い",
-    "Description": "デッキからカードを1枚削除する。<br /><SelfName />は使用後に戦闘から取り除かれ、デッキから削除される。"
+    "Description": "デッキからカードを1枚削除する。<br /><SelfName />は使用後に戦闘から取り除かれ、デッキから削除される。",
+    "Description_1.8.1": "デッキからカードを1枚削除する。"
   },
   "ShenziUpgradeAll": {
     "Name": "聖人化",
@@ -1787,7 +1788,7 @@
   },
   "QingeDraw": {
     "Name": "タオ胎動",
-    "Description": "<Block /><h>ブロック</h>を得る。<br />カードを<Value1 />枚引く。引いたカードのうちマナコストの合計が1より大きいカードを捨てる。"
+    "Description": "<Block /><h>ブロック</h>を得る。<br />カードを<Value1 />枚引く。引いたカードのうちマナ総量が1より大きいカードを捨てる。"
   },
   "HuiyinMoreDraw": {
     "Name": "伝道教示",
@@ -1796,6 +1797,10 @@
   "WaterPrincess": {
     "Name": "プリンセスウンディネ",
     "Description": "<Shield /><h>バリア</h>を得る。<br />手札1枚につき得られる<h>バリア</h>が<Value1 />増える。<br /><h>初見</h>：<h>水沫</h>を手札に加える。"
+  },
+  "TewiEscape": {
+    "Name": "現代的詐術",
+    "Description": "ボスを除く現在の戦闘から逃走する。<br />その戦闘の報酬は<Money /><Value1 />のみとなる。"
   },
   "YonglinDraw": {
     "Name": "神代の記憶",
@@ -1875,6 +1880,10 @@
     "Name": "ミスフォーチュンズホイール",
     "Description": "<Damage />ダメージを<Value1 />回与える。<br /><SelfName />の攻撃回数はデッキの<h>厄災</h>の枚数分増加する。"
   },
+  "YukariKill": {
+    "Name": "八雲紫の神隠し",
+    "Description": "対象の敵を撃破する。<br />ボスやエリートに対しては代わりに<Value1 />ダメージを与える。"
+  },
   "RemiliaFate": {
     "Name": "運命操作",
     "Description": "手札を最大<Value1 />枚まで捨てる。<br />山札からランダムに選ばれた元々のマナ総量が1から3のカードを1枚ずつ手札に加える。",
@@ -1936,6 +1945,10 @@
     "Name": "リリカ・ソロライブ",
     "Description": "<Mana />を得る。<br />カードを<Value1 />枚引く。<br /><h>星の煌めき</h>を<Light />枚捨て札に加える。",
     "UpgradedDescription": "<Mana />を得る。<br />カードを<Value1 />枚引く。<br /><h>星の煌めき</h>を<Light />枚捨て札に加える。<br /><h>初見</h>:<Power /><Value2 />を得る。"
+  },
+  "RemiliaMidnight": {
+    "Name": "クイーン・オブ・ミッドナイト",
+    "Description": "<Damage />ダメージを<Value1 />回与える。最後の1回は敵全体を対象にする。<br />クリアした章の数だけ元々のマナコストが減少する。"
   },
   "YongyiAttack": {
     "Name": "鬼気怒濤",
@@ -2004,6 +2017,10 @@
   "TakaneDefense": {
     "Name": "最奥の森域",
     "Description": "<Block /><h>ブロック</h>を得る。<br /><h>追加の<Mana />につき</h>：得る<h>ブロック</h>が<Value1 />増加する。"
+  },
+  "YonglinBurst": {
+    "Name": "胡蝶夢丸",
+    "Description": "このターンの間与える攻撃ダメージが倍になる。<br />カードを<Value1 />枚引き、<Mana />を得る。<h>オーバードラフト</h><Value2 />。"
   },
   "GreenLotus": {
     "Name": "月明かりの水蓮",
@@ -2116,6 +2133,10 @@
   "MoonWorld": {
     "Name": "穢れ無き世界",
     "Description": "<PlayerName />のターン開始時、手札のランダムなカード<Value1 />枚に<h>浄化</h>を付与しコストから有色のマナシンボルを取り除く。"
+  },
+  "MarisaShopTwnm": {
+    "Name": "夜市の盗人",
+    "Description": "ショップの商品の中からカードを最大1枚選び、手札とデッキに加える。"
   },
   "YijiEarthSpike": {
     "Name": "祗園様の力",
@@ -2232,7 +2253,7 @@
   },
   "HappyNewYear": {
     "Name": "初詣",
-    "Description": "3枚のランダムな攻撃または防御カードから1枚選び手札に加える。<br />攻撃カードを選んだ時<h>火力</h><Value1 />を得る。<br />防御カードを選んだ時<h>霊力</h><Value1 />を得る。"
+    "Description": "3枚のランダムな攻撃または防御カードから1枚を手札に加える。<br />攻撃カードの場合<h>火力</h><Value1 />を得る。<br />防御カードの場合<h>霊力</h><Value1 />を得る。"
   },
   "HuashanDefense": {
     "Name": "務光の雷弾",
@@ -2850,7 +2871,7 @@
     "Description": "<h>ターン終了時</h>：このターンにライフを得ていなかった場合、ライフを<Value1 />失う。"
   },
   "FakeCard": {
-    "Name": "竹取物语（偽）",
+    "Name": "竹取物語（偽）",
     "Description": "このカードはまだ開発中です。<br />今後のアップデートをお楽しみに。"
   },
   "HistoryCard": {

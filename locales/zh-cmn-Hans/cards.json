@@ -1739,7 +1739,8 @@
   },
   "HuiyinRemove": {
     "Name": "吞噬历史",
-    "Description": "从牌库中移除一张牌。<br /><SelfName />打出后移出战斗和牌库。"
+    "Description": "从牌库中移除一张牌。<br /><SelfName />打出后移出战斗和牌库。",
+    "Description_1.8.1": "从牌库中移除一张牌。"
   },
   "ShenziUpgradeAll": {
     "Name": "得道升仙",
@@ -1804,6 +1805,10 @@
   "WaterPrincess": {
     "Name": "水精公主",
     "Description": "每有一张手牌，就获得 <Value1 /> 点<h>护盾</h>。<br /><h>初见</h>：将一张<h>水花</h>加入手中。"
+  },
+  "TewiEscape": {
+    "Name": "现代的欺诈者",
+    "Description": "从当前战斗中逃离，战斗胜利的奖励改为 <Value1 /> 点<Money />。<br />不能在首领战中打出。"
   },
   "YonglinDraw": {
     "Name": "神代的记忆",
@@ -1883,6 +1888,10 @@
     "Name": "厄运之轮",
     "Description": "造成 <Damage /> 点伤害 <Value1 /> 次。<br />牌库里每有一张<h>厄运</h>，多造成一次伤害。"
   },
+  "YukariKill": {
+    "Name": "八云紫的神隐",
+    "Description": "秒杀目标敌人。<br />对首领或精英敌人使用时改为造成 <Value1 /> 点伤害。"
+  },
   "RemiliaFate": {
     "Name": "操纵命运",
     "Description": "选择至多 <Value1 /> 张手牌丢弃。<br />将抽牌堆中随机的数张牌移入手中，它们的基础费用总数分别为一二三。",
@@ -1944,6 +1953,10 @@
     "Name": "键盘独奏",
     "Description": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>璀璨星光</h>洗入弃牌堆。",
     "UpgradedDescription": "获得<Mana />。<br />抽 <Value1 /> 张牌。<br />将 <Light /> 张<h>璀璨星光</h>洗入弃牌堆。<br /><h>初见</h>：获得 <Value2 /> 点<Power />。"
+  },
+  "RemiliaMidnight": {
+    "Name": "子夜的女王",
+    "Description": "造成 <Damage /> 点伤害 <Value1 /> 次，最后一次伤害对所有敌人生效。<br />随幕数推进降低基础费用。"
   },
   "YongyiAttack": {
     "Name": "鬼气狂澜",
@@ -2012,6 +2025,10 @@
   "TakaneDefense": {
     "Name": "最深的森域",
     "Description": "获得 <Block /> 点<h>格挡</h>。<br /><h>每额外支付</h><Mana />：<h>格挡</h>提高 <Value1 /> 点。"
+  },
+  "YonglinBurst": {
+    "Name": "蝴蝶梦丸",
+    "Description": "本回合造成双倍攻击伤害。<br />抽 <Value1 /> 张牌，获得<Mana />，<h>透支</h> <Value2 /> 。"
   },
   "GreenLotus": {
     "Name": "荷塘月色",
@@ -2124,6 +2141,10 @@
   "MoonWorld": {
     "Name": "无秽的世界",
     "Description": "<PlayerName />的回合开始时，<h>净化</h> <Value1 /> 张随机的手牌，在本场战斗中移除其费用的有色部分。"
+  },
+  "MarisaShopTwnm": {
+    "Name": "扫荡商店",
+    "Description": "从一轮完整的商店卡牌中，选择至多一张加入牌库和手中。"
   },
   "YijiEarthSpike": {
     "Name": "裂地尖刺/祇园之力",

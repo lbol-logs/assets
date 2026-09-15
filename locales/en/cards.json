@@ -1775,7 +1775,8 @@
   },
   "HuiyinRemove": {
     "Name": "Devour History",
-    "Description": "Remove a card from the library.<br />After <SelfName /> is played, it is removed from combat and the library."
+    "Description": "Remove a card from the library.<br />After <SelfName /> is played, it is removed from combat and the library.",
+    "Description_1.8.1": "Remove a card from the library."
   },
   "ShenziUpgradeAll": {
     "Name": "Apotheosis",
@@ -1840,6 +1841,10 @@
   "WaterPrincess": {
     "Name": "Princess Undine",
     "Description": "For each card in the hand, gain <Value1 /> <h>Barrier</h>.<br /><h>Debut</h>: Add a <h>Splash</h> to the hand."
+  },
+  "TewiEscape": {
+    "Name": "Modern Duper",
+    "Description": "Escape the current combat. Its reward is changed to <Value1 /> <Money />. <br />Cannot be used against bosses."
   },
   "YonglinDraw": {
     "Name": "Memories of the Divine Age",
@@ -1919,6 +1924,10 @@
     "Name": "Wheel of Misfortune",
     "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }).<br />For each <h>Misfortune</h> in the library, <SelfName /> deals damage an additional time."
   },
+  "YukariKill": {
+    "Name": "Yukari's Spiriting Away",
+    "Description": "Defeat the target enemy. <br />If used against an Elite or a boss, deal <Value1 /> damage instead."
+  },
   "RemiliaFate": {
     "Name": "Manipulation of Fate",
     "Description": "Discard up to <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Put random cards with total costs of 1, 2 and 3 from the draw pile into the hand.",
@@ -1980,6 +1989,10 @@
     "Name": "Keyboard Solo",
     "Description": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Glamorous Starlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.",
     "UpgradedDescription": "Gain <Mana />.<br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }).<br />Add <Light /> <h>Glamorous Starlight$t(plurals.-s, { 'count': {{Light}} })</h> to the discard pile.<br /><h>Debut</h>: Gain <Value2 /> <Power />."
+  },
+  "RemiliaMidnight": {
+    "Name": "Queen of Midnight",
+    "Description": "Deal <Damage /> damage <Value1 /> time$t(plurals.-s, { 'count': {{Value1}} }). The final hit deals damage to each enemy.<br /><SelfName />'s base cost is reduced depending on the current Act."
   },
   "YongyiAttack": {
     "Name": "Dreadful Raging Waves",
@@ -2048,6 +2061,10 @@
   "TakaneDefense": {
     "Name": "Forest Depths",
     "Description": "Gain <Block /> <h>Block</h>.<br /><h>For each additional <Mana /> spent</h>: Gain <Value1 /> more <h>Block</h>."
+  },
+  "YonglinBurst": {
+    "Name": "Butterfly Dream Pill",
+    "Description": "In this turn, attack damage dealt is doubled. <br />Draw <Value1 /> card$t(plurals.-s, { 'count': {{Value1}} }). <br />Gain <Mana />.<br /><h>Overdraft</h> <Value2 />."
   },
   "GreenLotus": {
     "Name": "Moonlit Lotus",
@@ -2160,6 +2177,10 @@
   "MoonWorld": {
     "Name": "Filthless World",
     "Description": "At the start of <PlayerName />'s turn, <Value1 /> random card$t(plurals.-s, { 'count': {{Value1}} }) in the hand$t(subjects.-s, { 'count': {{Value1}} }) <h>Pure</h> this combat."
+  },
+  "MarisaShopTwnm": {
+    "Name": "Shoplift",
+    "Description": "Choose up to 1 card from a set of cards that can be sold in a shop to add to the hand and library."
   },
   "YijiEarthSpike": {
     "Name": "Power of Gion",
