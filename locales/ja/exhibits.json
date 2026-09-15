@@ -307,7 +307,7 @@
     "Description": "<Value1 />ターン周期で数えて、<Value2 />から<Value3 />ターン目のターン開始時に<Mana />を得る。"
   },
   "LinghunBaoshi": {
-    "Name": "ソウルジェム",
+    "Name": "宝魂石",
     "Description": "スキマに入った次の戦闘開始時、<Mana />を得る。"
   },
   "ZheyangSan": {
@@ -427,7 +427,7 @@
     "Description": "戦闘開始時、<h>火力</h><Value1 />を得る。"
   },
   "TiangouRongqiu": {
-    "Name": "結袈裟（ゆいげさ）",
+    "Name": "天狗の結袈裟",
     "Description": "戦闘開始時、<h>霊力</h><Value1 />を得る。"
   },
   "TiangouShanzi": {
@@ -548,7 +548,7 @@
     "Description": "戦闘開始時、敵全体に<h>脱力</h><Value1 />または<h>弱体</h><Value1 />を与える。"
   },
   "ZhuQingting": {
-    "Name": "タケコプター",
+    "Name": "竹取コプター",
     "Description": "<Value1 />ターンごとに、ターン開始時に<h>グレイズ</h><Value2 />を得る。"
   },
   "Pijiu": {
@@ -630,7 +630,7 @@
     "Description": "ターン開始時、ランダムなカードを戦闘終了時まで<h>アップグレード</h>する。多色のカードが優先される。"
   },
   "IdolTshirt": {
-    "Name": "オタクTシャツ",
+    "Name": "変なオタクTシャツ",
     "Description": "戦闘開始時、<PlayerName />は最大ライフ<Counter />を得て、ロックオン<Counter />を受ける。"
   },
   "Qingshu": {
@@ -668,6 +668,14 @@
   "FirstAidBook": {
     "Name": "救急マニュアル",
     "Description": "<h>厄災</h>と<h>状態異常</h>が持つ<h>禁止</h>を<h>廃棄</h>に置き換える。<br />それらのカードはレアリティに準拠したマナコストを持つ。"
+  },
+  "UfoSet": {
+    "Name": "UFOセット",
+    "Description": "戦闘開始時、各レアリティからランダムなカードを1枚ずつ山札に加える。<br />それらは<h>エンチャント</h>：<hp>マナ充満</hp><Value1 />を持つ。"
+  },
+  "UfoUnique": {
+    "Name": "デジタルUFO",
+    "Description": "戦闘開始時、ランダムなレアカードを1枚手札に加える。<br />それは<h>エンチャント</h>：<hp>正体不明</hp>を持つ。"
   },
   "KongZhanpinhe": {
     "Name": "空の展示箱",

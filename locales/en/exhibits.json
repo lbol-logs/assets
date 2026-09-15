@@ -689,6 +689,14 @@
     "Name": "\"First Aid Manual\"",
     "Description": "<h>Misfortune</h> and Status cards lose <h>Unplayable</h> and gain <h>Exile</h>.<br />They gain a mana cost based on their rarity."
   },
+  "UfoSet": {
+    "Name": "UFO Set",
+    "Description": "At the start of combat, shuffle a random card of each rarity into the draw pile.<br />They have <h>Enchant</h>: <hp>Abundance</hp> <Value1 />."
+  },
+  "UfoUnique": {
+    "Name": "Digital UFO",
+    "Description": "At the start of combat, add a random Rare card to the hand.<br />It has <h>Enchant</h>: <hp>Unidentified</hp>."
+  },
   "KongZhanpinhe": {
     "Name": "Empty Exhibit Box",
     "Description": "<h>Exhibits</h> can no longer be found."
