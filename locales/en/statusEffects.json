@@ -297,7 +297,7 @@
     "Description": "<OwnerName /> is conducting on-site interviews of the incident."
   },
   "InterviewDone": {
-    "Name": "Completed Interview",
+    "Name": "Interview Complete",
     "Description": "<OwnerName /> has pieced together the truth of the incident!<br />She will distribute a special issue of the Bunbunmaru Newspaper."
   },
   "RinSummon": {
@@ -715,7 +715,7 @@
   },
   "EvilMaidDoubleAttack": {
     "Name": "Power of the Devil",
-    "Description": "Double the attack damage of <PlayerName /> (remain: <Duration /> turns)."
+    "Description": "Double the attack damage of <PlayerName /> $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "MihuanJackSe": {
     "Name": "Jack the Ludo Bile",
@@ -956,6 +956,10 @@
     "Name": "Terrifyingly Cute Call",
     "Description": "Whenever an attack card is played, perform <Level /> <h>Follow-Up Attack$t(plurals.-s, { 'count': {{Level}} })</h>.<br />If there are no <h>Follow-Up</h> cards in the draw pile, <h>Ring-Ring</h> will be used as a <h>Follow-Up</h>."
   },
+  "ShanghaiTarget": {
+    "Name": "Main Target",
+    "Description": "<he>Shanghai Dolls</he> are targeting their attacks on <OwnerName />."
+  },
   "YukariFlyObjectSe": {
     "Name": "Superspeed Flier",
     "Description": "At the start of <PlayerName />'s next turn, deal <Level /> damage to the enemy with the most life."
@@ -1019,6 +1023,10 @@
   "DizangLoveSe": {
     "Name": "Instant Bodhi",
     "Description": "After a Common card is played, <OwnerName /> gains <Level /> <h>Temporary Firepower</h>."
+  },
+  "YonglinBurstSe": {
+    "Name": "Butterfly Dream Pill",
+    "Description": "Double the attack damage of <PlayerName /> $t(plurals.turns, { 'count': {{Duration}} })."
   },
   "ZhenmiaowanAttackSe": {
     "Name": "Descendant of Issun-Boushi",

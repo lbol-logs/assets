@@ -785,7 +785,7 @@
   },
   "ForeverCoolSe": {
     "Name": "エバークールシーズンファンタジア",
-    "Description": "<h>パートナー</h>の<ha>起動能力</ha>か<hu>奥義</hu>を使用する度、ランダムな敵に<h>冷気</h>を<Level />回与える。<br /><h>冷気</h>を与える度、手札のランダムな<h>パートナー</h>は<h>支援度</h><Level />を得る。"
+    "Description": "<h>パートナー</h>の<ha>起動能力</ha>か<hu>奥義</hu>を使用する度、ランダムな敵<Level />体に<h>冷気</h>を与える。<br /><h>冷気</h>を与える度、手札のランダムな<h>パートナー</h>は<h>支援度</h><Level />を得る。"
   },
   "MoreFriendsSe": {
     "Name": "社交的な妖精",
@@ -906,6 +906,10 @@
     "Name": "恐怖！可愛い電話の声",
     "Description": "攻撃カードを使用する度、<h>追加攻撃</h>を<Level />回行う。<br />山札に<h>追撃</h>カードが無い場合、<h>電話だよ！</h>を<h>追撃</h>として扱う。"
   },
+  "ShanghaiTarget": {
+    "Name": "優先ターゲット",
+    "Description": "<he>上海人偶</he>は<OwnerName />を優先して攻撃する。"
+  },
   "YukariFlyObjectSe": {
     "Name": "超高速飛行体",
     "Description": "<PlayerName />の次のターン開始時、ライフが最も多い敵に<Level />ダメージを与える。"
@@ -969,6 +973,10 @@
   "DizangLoveSe": {
     "Name": "即席菩薩",
     "Description": "コモンカードを使用するたび、<OwnerName />は<Level />点の<h>臨時火力</h>を得る。"
+  },
+  "YonglinBurstSe": {
+    "Name": "胡蝶夢丸",
+    "Description": "<PlayerName />の攻撃ダメージが倍になる。残り<Duration />ターン。"
   },
   "ZhenmiaowanAttackSe": {
     "Name": "一寸法師の末裔",

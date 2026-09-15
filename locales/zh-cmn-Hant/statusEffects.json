@@ -906,6 +906,10 @@
     "Name": "恐怖的可愛來電",
     "Description": "每打出一張攻擊牌，進行 <Level /> 次<h>追加攻擊</h>。<br />當抽牌堆沒有<h>追擊</h>牌時，將以<h>電話響了</h>進行追擊。"
   },
+  "ShanghaiTarget": {
+    "Name": "優先目標",
+    "Description": "<he>上海人偶</he>將優先攻擊<OwnerName />。"
+  },
   "YukariFlyObjectSe": {
     "Name": "超高速飛行物體",
     "Description": "<PlayerName />的下回合開始時，對生命值最高的敵人造成 <Level /> 點傷害。"
@@ -969,6 +973,10 @@
   "DizangLoveSe": {
     "Name": "即席菩提",
     "Description": "打出普通卡牌後，<OwnerName />獲得 <Level /> 點<h>暫得火力</h>。"
+  },
+  "YonglinBurstSe": {
+    "Name": "蝴蝶夢丸",
+    "Description": "<PlayerName />的攻擊傷害翻倍，剩餘 <Duration /> 回合。"
   },
   "ZhenmiaowanAttackSe": {
     "Name": "一寸法師的末裔",
