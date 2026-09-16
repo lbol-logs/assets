@@ -18,7 +18,8 @@
     "Misfortune": "厄运"
   },
   "packs": {
-    "Tdm": "东方弹幕迷宫"
+    "Tdm": "东方弹幕迷宫",
+    "Twnm": "东方魔女夜市"
   },
   "delimiter": "：",
   "cardsCount": "卡牌总数：{{count}}",
