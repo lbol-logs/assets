@@ -64,7 +64,7 @@
   },
   "KoishiB": {
     "Name": "定制太阳镜",
-    "Description": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br />对战精英和首领敌人时，<PlayerName />在战斗开始时获得 <Value1 /> 点<h>护盾</h>。\n不会受到<h>折射日光</h>的伤害。"
+    "Description": "提供基础法力<BaseMana />，<h>恋</h>的专属卡牌会加入牌池。<br />对战精英和首领敌人时，<PlayerName />在战斗开始时获得 <Value1 /> 点<h>护盾</h>。<br />不会受到<h>折射日光</h>的伤害。"
   },
   "AliceU": {
     "Name": "上海人偶",

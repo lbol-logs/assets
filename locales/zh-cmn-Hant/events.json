@@ -150,5 +150,17 @@
   "KosuzuBookstore": {
     "Title": "借書屋鈴奈庵",
     "Host": "本居小鈴"
+  },
+  "NarekoPuzzle": {
+    "Title": "世界不可思議之謎",
+    "Host": "道神馴子"
+  },
+  "PrismriverChaos": {
+    "Title": "夜間擾民巡演",
+    "Host": "騷靈三姐妹"
+  },
+  "NueUfo": {
+    "Title": "虛擬幽浮",
+    "Host": "封獸鵺"
   }
 }
