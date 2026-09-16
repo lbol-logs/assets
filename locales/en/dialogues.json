@@ -327,9 +327,9 @@
   },
   "NarekoPuzzle": {
     "line:039c5a0": "\"I got tired of asking the same Sphinx one, so let's riddle about the Seven Wonders of the World!\"",
-    "line:03cdbc6": "[Go Through The Motions] Lose Exhibit: <h>{{0}}</h>.",
-    "line:0bfb06e": "[Answer Honestly] Lose Exhibit: <h>{{0}}</h>. Gain Exhibit: <h>{{1}}</h>.",
-    "line:0c2ebc4": "[Think About It] Lose Exhibit: <h>{{0}}</h>. Gain Exhibit: <h>{{1}}</h>.",
+    "line:03cdbc6": "[Go Through The Motions] Lose <h>{{0}}</h>.",
+    "line:0bfb06e": "[Answer Honestly] Lose <h>{{0}}</h>. Gain Exhibit: <h>{{1}}</h>.",
+    "line:0c2ebc4": "[Think About It] Lose <h>{{0}}</h>. Gain Exhibit: <h>{{1}}</h>.",
     "line:08213a5": "[Leave] Nothing happens."
   },
   "PrismriverChaos": {

@@ -2135,7 +2135,7 @@
     "Description": "<PlayerName />のターン開始時、手札のランダムなカード<Value1 />枚に<h>浄化</h>を付与しコストから有色のマナシンボルを取り除く。"
   },
   "MarisaShopTwnm": {
-    "Name": "夜市の盗人",
+    "Name": "万引き",
     "Description": "ショップの商品の中からカードを最大1枚選び、手札とデッキに加える。"
   },
   "YijiEarthSpike": {

@@ -691,11 +691,11 @@
   },
   "UfoSet": {
     "Name": "UFO Set",
-    "Description": "At the start of combat, shuffle a random card of each rarity into the draw pile.<br />They have <h>Enchant</h>: <hp>Abundance</hp> <Value1 />."
+    "Description": "At the start of combat, shuffle a random card of each rarity into the draw pile.<br />They are <h>UFO Cards</h>. (They have <h>Ethereal</h> and <h>Replenish</h>, and stop being <h>UFO Cards</h> when played)."
   },
   "UfoUnique": {
     "Name": "Digital UFO",
-    "Description": "At the start of combat, add a random Rare card to the hand.<br />It has <h>Enchant</h>: <hp>Unidentified</hp>."
+    "Description": "At the start of combat, add a random Rare card to the hand.<br />It is an <h>Unidentified Card</h>. (It has <h>Retain</h> and transforms into a different card of the same rarity when <h>Retained</h>)."
   },
   "KongZhanpinhe": {
     "Name": "Empty Exhibit Box",
