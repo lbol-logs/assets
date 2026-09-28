@@ -342,8 +342,8 @@
   },
   "NueUfo": {
     "line:06ae443": "\"Hehe, since you're so interested in extraterrestrial life, you can have my UFOs! Take one!\"",
-    "line:02e269d": "[Physical] Gain Exhibit: <h>{{0}}</h>.",
-    "line:02c3f5f": "[Digital] Gain Exhibit: <h>{{0}}</h>.",
+    "line:02e269d": "[Physical] Lose {{0}} <Power />, gain Exhibit: <h>{{1}}</h>.",
+    "line:02c3f5f": "[Digital] Lose {{0}} maximum life, gain Exhibit: <h>{{0}}</h>.",
     "line:095b051": "[Leave] Nothing happens."
   }
 }
