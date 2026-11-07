@@ -2,25 +2,30 @@
   "title": "LBoL Logs",
   "subtitle": "東方光耀夜歷史詳細共享",
   "description": "LBoL Logs是一個遊戲局分享服務。",
-  "about": "LBoL Logs是為<steam>東方光耀夜 〜 Lost Branch of Legend</steam> (gyy)而設的遊戲局分享服務。<br /><compatability /><br />歡迎在<discord>Discord的中文帖子</discord>裡或在qq群 ＠L大 提供意見。",
   "compatability": "只有由<mod>東方光耀夜局內紀錄器</mod>產生的遊戲局紀錄才有支援。",
-  "runLogger": {
-    "about": "關於東方光耀夜局內紀錄器",
-    "aboutSteps": "手把手教學",
-    "step1": "手動下載及安裝<r2modman>r2modman</r2modman>",
-    "step2": "訪問<mod>LBoL Run Logger</mod>並用r2modman下載模組",
-    "step3": "正常遊玩",
-    "step4": "在遊戲的文件夾內找出runLogger的文件夾，然後在裡面找出紀錄下的局",
-    "step5": "<upload>上載</upload>紀錄以分享"
-  },
   "lbolLogs": {
-    "update": "預定更新",
-    "tasks": [
-      "改善UI和UX",
-      "新增完全支持的角色Mod"
-    ],
+    "head": "關於LBoL Logs",
+    "about": "LBoL Logs是為<steam>東方光耀夜 〜 Lost Branch of Legend</steam> (gyy)而設的遊戲局分享服務。<br /><compatability /><br />歡迎在<discord>Discord的中文帖子</discord>裡或在qq群 ＠L大 提供意見。",
     "fullSupport": "完全支持的角色Mod",
     "fullSupportRemark": "除了完全支持（包括設定、文字和圖像）的Mod，其他Mod也可以上傳和查看，因此歡迎使用！"
+  },
+  "runLogger": {
+    "head": "東方光耀夜局內紀錄器手把手教學",
+    "steamWorkshop": {
+      "head": "Steam 工作坊（推薦）",
+      "step1": "訂閱<steamWorkshop>LBoL Run Logger</steamWorkshop>",
+      "step2": "啟動遊戲選擇「Start ModLoader」",
+      "step3": "啟用LBoL Run Logger",
+      "step4": "開始模組遊戲"
+    },
+    "thunderstore": {
+      "head": "Thunderstore",
+      "step1": "手動下載及安裝<r2modman>r2modman</r2modman>",
+      "step2": "訪問<thunderstore>LBoL Run Logger</thunderstore>並用r2modman下載模組",
+      "step3": "正常遊玩",
+      "step4": "在遊戲的文件夾內找出runLogger的文件夾，然後在裡面找出紀錄下的局",
+      "step5": "<upload>上載</upload>紀錄以分享"
+    }
   },
   "attention": {
     "key": "注意事項",
